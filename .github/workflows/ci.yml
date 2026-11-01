@@ -6,6 +6,7 @@ jobs:
     timeout-minutes: 15
     env:
       FLASHSCORE_API_BASE: http://127.0.0.1:8001
+      PINNACLE_GUEST_API_KEY: ${{ secrets.PINNACLE_GUEST_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -23,8 +24,19 @@ jobs:
           done
           cat /tmp/flashscore.log || true
           exit 1
-      - run: python -m py_compile football_evidence_engine.py data_adapters.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py
+      - run: python -m py_compile football_evidence_engine.py data_adapters.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py live_provider_probe.py
       - run: python football_evidence_engine.py
       - run: python match_runner.py
       - run: pip install pytest
       - run: pytest -q
+      - name: Real Liverpool-Arsenal provider probe
+        run: python live_provider_probe.py
+      - name: Upload provider probe
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-provider-probe
+          path: |
+            LIVE_PROVIDER_PROBE.json
+            /tmp/flashscore.log
+          if-no-files-found: ignore
