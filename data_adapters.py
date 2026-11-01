@@ -150,8 +150,61 @@ class PinnaclePrematchClient:
                     if dec and dec>1:rows.append({"event_id":x["matchupId"],"home":home,"away":away,"start_time":ev.get("startTime"),"market":mt,"selection":self._selection(mt,p.get("designation"),pts),"points":pts,"decimal_odds":dec,"bookmaker":"pinnacle","source":"pinnacle"})
             return AdapterResult("pinnacle",bool(rows),rows,None if rows else "NO_PREMATCH_QUOTES")
         except Exception as e:return AdapterResult("pinnacle",False,[],f"{type(e).__name__}: {e}")
-def normalize_decimal_quotes(payload,source):
+def _flashscore_handicap_value(value):
+    if isinstance(value,(int,float)):return float(value)
+    if isinstance(value,dict):value=value.get("value")
+    if value is None:return None
+    import re
+    s=str(value)
+    m=re.search(r"['\"]value['\"]\s*:\s*['\"]?([+-]?\d+(?:\.\d+)?)",s)
+    if not m:m=re.search(r"([+-]?\d+(?:\.\d+)?)",s)
+    try:return float(m.group(1)) if m else None
+    except Exception:return None
+
+def normalize_decimal_quotes(payload,source,prefer_opening=False):
     if source=="pinnacle" and isinstance(payload,list):return payload
+    if source=="flashscore" and isinstance(payload,dict) and isinstance(payload.get("markets"),list):
+        out=[]
+        for market in payload.get("markets",[]):
+            if not isinstance(market,dict):continue
+            scope=str(market.get("bet_scope") or "").upper()
+            if scope and scope!="FULL_TIME":continue
+            bet_type=str(market.get("bet_type") or "").upper()
+            book=market.get("bookmaker")
+            bookmaker=str((book or {}).get("name") if isinstance(book,dict) else book or "flashscore")
+            for row in market.get("selections",[]) or []:
+                if not isinstance(row,dict):continue
+                raw_odd=row.get("opening_value") if prefer_opening else row.get("value")
+                if raw_odd is None and prefer_opening:raw_odd=row.get("value")
+                try:odd=float(raw_odd)
+                except Exception:continue
+                if odd<=1:continue
+                raw_sel=str(row.get("selection") or "").upper()
+                market_name=None;selection=None
+                if bet_type=="HOME_DRAW_AWAY":
+                    market_name="moneyline"
+                    selection={"HOME":"HOME","AWAY":"AWAY","DRAW":"DRAW"}.get(raw_sel)
+                elif bet_type=="DRAW_NO_BET":
+                    market_name="dnb"
+                    selection={"HOME":"HOME_DNB","AWAY":"AWAY_DNB"}.get(raw_sel)
+                elif bet_type=="OVER_UNDER":
+                    line=_flashscore_handicap_value(row.get("handicap"))
+                    if line is not None and raw_sel in {"OVER","UNDER"}:
+                        market_name="total";selection=f"{raw_sel}_{line:g}"
+                if not selection:continue
+                out.append({
+                    "market":market_name,
+                    "selection":selection,
+                    "decimal_odds":odd,
+                    "bookmaker":bookmaker,
+                    "source":"flashscore",
+                    "phase":"OPENING" if prefer_opening else "CURRENT",
+                })
+        seen=set();clean=[]
+        for q in out:
+            k=(q["market"],q["selection"],q["decimal_odds"],q["bookmaker"],q["phase"])
+            if k not in seen:seen.add(k);clean.append(q)
+        return clean
     out=[]
     def walk(x,market=None,book=None):
         if isinstance(x,dict):
