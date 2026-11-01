@@ -16,6 +16,13 @@ def test_laliga_catalog_match_without_country_metadata():
 def test_catalog_match_penalizes_women_variant():
     profile={"name":"Serie A","display_name":"ITALY: Serie A","country":"Italy"};rows=[{"id":1,"name":"Italy - Serie A Women","group":"Italy","sequence":1},{"id":2,"name":"Italy - Serie A","group":"Italy","sequence":2}];out=pinnacle_catalog_match(profile,rows);assert out["resolved"] is True;assert out["league_id"]==2
 
+def test_catalog_match_penalizes_age_variant():
+    profile={"name":"Bundesliga","display_name":"Bundesliga","country":"Germany"}
+    rows=[{"id":8705,"name":"Germany - Bundesliga U19","group":"Germany"},{"id":1842,"name":"Germany - Bundesliga","group":"Germany"}]
+    out=pinnacle_catalog_match(profile,rows)
+    assert out["resolved"] is True
+    assert out["league_id"]==1842
+
 def test_catalog_match_fails_closed_on_ambiguity():
     profile={"name":"Premier Division","display_name":"IRELAND: Premier Division","country":"Ireland"};rows=[{"id":1,"name":"Ireland - Premier Division","group":"Ireland"},{"id":2,"name":"Ireland - Premier Division A","group":"Ireland"}];out=pinnacle_catalog_match(profile,rows,margin=.20);assert out["resolved"] is False;assert out["reason"]=="AMBIGUOUS_LEAGUE"
 
@@ -26,7 +33,6 @@ def test_flashscore_profile_uses_metadata_not_hardcoded_country(monkeypatch):
     monkeypatch.setattr(resolver.client,"team_results",lambda team_id,page=1:R());out=resolver.profile("Ajax","Eredivisie",datetime(2026,10,31,tzinfo=timezone.utc));assert out is not None;assert out["country"]=="Netherlands";assert out["name"]=="Eredivisie";assert out["link"].endswith("/eredivisie/")
 
 def test_text_similarity_handles_accents_and_formatting():assert text_similarity("Türkiye Süper Lig","Turkey Super Lig")>.45
-
 
 def test_flashscore_country_from_verified_tournament_link():
     assert flashscore_country_from_link("https://www.flashscore.com/football/spain/laliga/")=="Spain"
