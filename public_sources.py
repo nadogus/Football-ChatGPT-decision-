@@ -3,6 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from typing import Any
 import gzip, json, re, urllib.parse, urllib.request
+from data_adapters import FlashscoreClient
 
 UA={"User-Agent":"football-chatgpt-decision/1.0"}
 
@@ -34,6 +35,148 @@ class SofaScoreClient:
             "competition":e.get("tournament",{}).get("name","Unknown"),
             "raw":e,
         }
+
+class FlashscoreModelClient:
+    def __init__(self,base_url=None):self.client=FlashscoreClient(base_url)
+    @staticmethod
+    def _norm(x):return re.sub(r"[^a-z0-9]+","",str(x or "").lower())
+    def team_id(self,team):
+        r=self.client.search(team,entity_type="team",sport="football",limit=10)
+        if not r.ok:return None
+        target=self._norm(team)
+        rows=(r.data.get("results") or []) if isinstance(r.data,dict) else []
+        exact=[x for x in rows if self._norm(x.get("name"))==target and str(x.get("gender") or "Men").lower()=="men"]
+        return str(exact[0]["id"]) if exact else None
+    @staticmethod
+    def _competition_blocks(payload):
+        return payload.get("competitions",[]) if isinstance(payload,dict) else []
+    @staticmethod
+    def _match_xg(stats):
+        if not isinstance(stats,dict):return None
+        for period in stats.get("periods",[]) or []:
+            if str(period.get("period") or "").lower()!="match":continue
+            for group in period.get("groups",[]) or []:
+                for row in group.get("statistics",[]) or []:
+                    if str(row.get("name") or "").strip().lower() in {"expected goals (xg)","expected goals","xg"}:
+                        try:return float(row.get("home_value")),float(row.get("away_value"))
+                        except Exception:return None
+        return None
+    def team_xg_summary(self,team,competition,as_of,last_n=8):
+        tid=self.team_id(team)
+        if not tid:return None
+        r=self.client.team_results(tid,page=1)
+        if not r.ok:return None
+        candidates=[]
+        for block in self._competition_blocks(r.data):
+            comp=block.get("competition") or {}
+            if self._norm(comp.get("name"))!=self._norm(competition):continue
+            for m in block.get("matches",[]) or []:
+                try:
+                    when=datetime.fromisoformat(str(m.get("start_time")).replace("Z","+00:00"))
+                    if when>=as_of:continue
+                    if not m.get("has_statistics"):continue
+                    candidates.append((when,m))
+                except Exception:continue
+        candidates.sort(key=lambda z:z[0],reverse=True)
+        rows=[]
+        for _,m in candidates[:max(last_n*2,last_n)]:
+            stat=self.client.statistics(str(m.get("id")),"Match")
+            if not stat.ok:continue
+            pair=self._match_xg(stat.data)
+            if not pair:continue
+            hx,ax=pair
+            home_id=str((m.get("home") or {}).get("id") or "")
+            if home_id==tid:rows.append((hx,ax,m.get("id")))
+            else:rows.append((ax,hx,m.get("id")))
+            if len(rows)>=last_n:break
+        if not rows:return None
+        return {"xg_for":sum(x[0] for x in rows)/len(rows),"xg_against":sum(x[1] for x in rows)/len(rows),"matches":len(rows),"match_ids":[x[2] for x in rows],"source":"flashscore_match_statistics"}
+    def competition_ref(self,team,competition,as_of):
+        tid=self.team_id(team)
+        if not tid:return None
+        r=self.client.team_results(tid,page=1)
+        if not r.ok:return None
+        candidates=[]
+        for b in self._competition_blocks(r.data):
+            comp=b.get("competition") or {}
+            if self._norm(comp.get("name"))!=self._norm(competition):continue
+            link=comp.get("link");ref_id=comp.get("id");stage=comp.get("stage_id")
+            if not link and (not ref_id or not stage):continue
+            latest=None
+            for m in b.get("matches",[]) or []:
+                try:
+                    when=datetime.fromisoformat(str(m.get("start_time")).replace("Z","+00:00"))
+                    if when<as_of and (latest is None or when>latest):latest=when
+                except Exception:pass
+            if latest:candidates.append((latest,link or f"{ref_id}:{stage}"))
+        candidates.sort(key=lambda z:z[0],reverse=True)
+        return candidates[0][1] if candidates else None
+    def computed_elo(self,team_seed,competition,as_of,base_rating=1500.0,k=24.0,home_advantage=65.0,max_pages=3):
+        ref=self.competition_ref(team_seed,competition,as_of)
+        if not ref:return {}
+        matches=[];seen=set()
+        for page in range(1,max_pages+1):
+            r=self.client.tournament_results(ref,page=page)
+            if not r.ok:break
+            rows=r.data.get("matches",[]) if isinstance(r.data,dict) else []
+            if not rows:break
+            for m in rows:
+                mid=str(m.get("id") or "")
+                if mid and mid not in seen:seen.add(mid);matches.append(m)
+            pag=r.data.get("pagination") or {}
+            if not pag.get("next") and page>=int(pag.get("total_pages") or page):break
+        finished=[]
+        for m in matches:
+            try:
+                when=datetime.fromisoformat(str(m.get("start_time")).replace("Z","+00:00"))
+                if when>=as_of or str(m.get("status") or "").lower()!="finished":continue
+                home=(m.get("home") or {}).get("name");away=(m.get("away") or {}).get("name")
+                hs=m.get("home_score");av=m.get("away_score")
+                if home and away and hs is not None and av is not None:finished.append((when,home,away,float(hs),float(av)))
+            except Exception:continue
+        finished.sort(key=lambda x:x[0]);ratings={}
+        for _,home,away,hs,av in finished:
+            rh=ratings.get(home,base_rating);ra=ratings.get(away,base_rating)
+            expected=1/(1+10**(-((rh+home_advantage)-ra)/400))
+            actual=1.0 if hs>av else 0.0 if hs<av else 0.5
+            margin=max(1.0,abs(hs-av));mult=min(1.75,1.0+0.15*(margin-1.0))
+            delta=k*mult*(actual-expected)
+            ratings[home]=rh+delta;ratings[away]=ra-delta
+        return {name:round(value,3) for name,value in ratings.items()}
+
+class ESPNLeagueModelClient:
+    BASE="https://site.api.espn.com/apis/site/v2/sports/soccer"
+    def completed_results(self,league_slug,season_start,as_of):
+        start=season_start.strftime("%Y%m%d");end=as_of.strftime("%Y%m%d")
+        data=_json(f"{self.BASE}/{urllib.parse.quote(league_slug)}/scoreboard?dates={start}-{end}&limit=1000")
+        out=[]
+        for e in data.get("events",[]) if isinstance(data,dict) else []:
+            try:
+                when=datetime.fromisoformat(str(e.get("date")).replace("Z","+00:00"))
+                if when>=as_of:continue
+                status=((e.get("status") or {}).get("type") or {})
+                if not status.get("completed"):continue
+                comp=(e.get("competitions") or [])[0]
+                home=away=None;hs=ascore=None
+                for x in comp.get("competitors",[]) or []:
+                    name=((x.get("team") or {}).get("displayName") or (x.get("team") or {}).get("name"))
+                    score=x.get("score")
+                    if isinstance(score,dict):score=score.get("value") or score.get("displayValue")
+                    if x.get("homeAway")=="home":home=name;hs=float(score)
+                    elif x.get("homeAway")=="away":away=name;ascore=float(score)
+                if home and away and hs is not None and ascore is not None:out.append((when,home,away,hs,ascore))
+            except Exception:continue
+        out.sort(key=lambda x:x[0]);return out
+    def computed_elo(self,league_slug,season_start,as_of,base_rating=1500.0,k=24.0,home_advantage=65.0):
+        ratings={}
+        for _,home,away,hs,ascore in self.completed_results(league_slug,season_start,as_of):
+            rh=ratings.get(home,base_rating);ra=ratings.get(away,base_rating)
+            expected=1/(1+10**(-((rh+home_advantage)-ra)/400))
+            actual=1.0 if hs>ascore else 0.0 if hs<ascore else 0.5
+            margin=max(1.0,abs(hs-ascore));mult=min(1.75,1.0+0.15*(margin-1.0))
+            delta=k*mult*(actual-expected)
+            ratings[home]=rh+delta;ratings[away]=ra-delta
+        return {name:round(value,3) for name,value in ratings.items()}
 
 class ClubEloClient:
     API_BASE="http://api.clubelo.com"; WEB_BASE="https://clubelo.com"

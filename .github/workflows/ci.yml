@@ -24,11 +24,13 @@ jobs:
           done
           cat /tmp/flashscore.log || true
           exit 1
-      - run: python -m py_compile football_evidence_engine.py data_adapters.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py live_provider_probe.py live_xi_probe.py live_pre_e2e_probe.py
+      - run: python -m py_compile football_evidence_engine.py data_adapters.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py live_provider_probe.py live_xi_probe.py live_pre_e2e_probe.py live_fenerbahce_goztepe_pre.py
       - run: python football_evidence_engine.py
       - run: python match_runner.py
       - run: pip install pytest
       - run: pytest -q
+      - name: Historical Fenerbahce-Goztepe PRE reconstruction
+        run: python live_fenerbahce_goztepe_pre.py
       - name: Real Liverpool-Arsenal PRE end-to-end probe
         run: python live_pre_e2e_probe.py
       - name: Real Liverpool-Arsenal provider health probe
@@ -46,5 +48,7 @@ jobs:
             LIVE_XI_PROBE.json
             LIVE_PRE_E2E.json
             ledger/live_pre_e2e.jsonl
+            FENERBAHCE_GOZTEPE_PRE.json
+            ledger/fenerbahce_goztepe_pre.jsonl
             /tmp/flashscore.log
           if-no-files-found: ignore
