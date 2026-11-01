@@ -100,15 +100,15 @@ class FlashscoreModelClient:
         for b in self._competition_blocks(r.data):
             comp=b.get("competition") or {}
             if self._norm(comp.get("name"))!=self._norm(competition):continue
-            ref_id=comp.get("id");stage=comp.get("stage_id")
-            if not ref_id or not stage:continue
+            link=comp.get("link");ref_id=comp.get("id");stage=comp.get("stage_id")
+            if not link and (not ref_id or not stage):continue
             latest=None
             for m in b.get("matches",[]) or []:
                 try:
                     when=datetime.fromisoformat(str(m.get("start_time")).replace("Z","+00:00"))
                     if when<as_of and (latest is None or when>latest):latest=when
                 except Exception:pass
-            if latest:candidates.append((latest,f"{ref_id}:{stage}"))
+            if latest:candidates.append((latest,link or f"{ref_id}:{stage}"))
         candidates.sort(key=lambda z:z[0],reverse=True)
         return candidates[0][1] if candidates else None
     def computed_elo(self,team_seed,competition,as_of,base_rating=1500.0,k=24.0,home_advantage=65.0,max_pages=3):
