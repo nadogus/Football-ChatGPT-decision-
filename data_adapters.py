@@ -62,8 +62,8 @@ class PinnaclePrematchClient:
     def _discover_public_web_key(self):
         cfg=_json(self.CONFIG_URL)
         candidates=[
-            (("api","arcadia","apiKey"),),
             (("api","haywire","apiKey"),),
+            (("api","arcadia","apiKey"),),
         ]
         for group in candidates:
             for path in group:
