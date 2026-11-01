@@ -53,6 +53,10 @@ class FlashscoreClient:
     def lineups(self,match_id):return self._get("/matches/lineups",{"match":match_id})
     def missing_players(self,match_id):return self._get("/matches/missing-players",{"match":match_id})
     def odds(self,match_id):return self._get("/matches/odds",{"match":match_id})
+    def statistics(self,match_id,period="Match"):return self._get("/matches/statistics",{"match":match_id,"period":period})
+    def search(self,query,entity_type="team",sport="football",limit=10):return self._get("/search",{"query":query,"type":entity_type,"sport":sport,"limit":limit})
+    def team_results(self,team_id,page=1):return self._get("/teams/results",{"team":team_id,"page":page})
+    def tournament_results(self,tournament_ref,page=1):return self._get("/tournaments/results",{"tournament":tournament_ref,"page":page})
 class PinnaclePrematchClient:
     BASE="https://guest.api.arcadia.pinnacle.com/0.1"
     CONFIG_URL="https://www.pinnacle.com/config/app.json"
@@ -102,6 +106,30 @@ class PinnaclePrematchClient:
         if m=="spread":
             side="HOME" if d=="home" else "AWAY";p=float(points or 0);sign="+" if p>0 else "";return f"{side}_{sign}{p:g}"
         return d.upper()
+    def leagues(self,sport_id:int=29)->AdapterResult:
+        try:
+            rows=_json(f"{self.BASE}/sports/{int(sport_id)}/leagues?all=false",headers=self._headers())
+            return AdapterResult("pinnacle",isinstance(rows,list) and bool(rows),rows,None if isinstance(rows,list) and rows else "NO_LEAGUES")
+        except Exception as e:return AdapterResult("pinnacle",False,[],f"{type(e).__name__}: {e}")
+    def discover_league_id(self,competition:str,country:str|None=None,sport_id:int=29)->int|None:
+        r=self.leagues(sport_id)
+        if not r.ok:return None
+        def norm(x):
+            import re
+            return re.sub(r"[^a-z0-9]+"," ",str(x or "").lower()).strip()
+        comp=norm(competition);cty=norm(country)
+        aliases={"super lig":{"super league","super lig"},"premier league":{"premier league"}}
+        wanted=aliases.get(comp,{comp})
+        scored=[]
+        for row in r.data:
+            name=norm(row.get("name"));group=norm(row.get("group"))
+            score=0
+            if cty and group==cty:score+=3
+            if any(w and w in name for w in wanted):score+=4
+            if comp and comp in name:score+=3
+            if score:scored.append((score,row))
+        scored.sort(key=lambda z:(z[0],-(z[1].get("sequence") or 999)),reverse=True)
+        return int(scored[0][1]["id"]) if scored else None
     def odds(self,league_id:int,matchup_id:int|None=None)->AdapterResult:
         try:
             headers=self._headers();ms=_json(f"{self.BASE}/leagues/{int(league_id)}/matchups?brandId=0",headers=headers);mk=_json(f"{self.BASE}/leagues/{int(league_id)}/markets/straight?primaryOnly=false",headers=headers);now=datetime.now(timezone.utc);matchups={}
