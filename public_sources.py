@@ -32,7 +32,7 @@ class SofaScoreClient:
             "raw":e,
         }
     def tournament_seasons(self,unique_tournament_id:int)->list[dict[str,Any]]:
-        data=_json(f"{self.BASE}/unique-tournament/{int(unique_tournament_id)}/seasons")
+        data=_json(f"{self.PUBLIC_BASE}/unique-tournament/{int(unique_tournament_id)}/seasons")
         return data.get("seasons",[]) if isinstance(data,dict) else []
     def season_id_for_date(self,unique_tournament_id:int,as_of:datetime)->int|None:
         y=as_of.year%100
@@ -46,7 +46,7 @@ class SofaScoreClient:
     def season_events(self,unique_tournament_id:int,season_id:int,max_pages:int=20)->list[dict[str,Any]]:
         events=[]
         for page in range(max_pages):
-            try:data=_json(f"{self.BASE}/unique-tournament/{int(unique_tournament_id)}/season/{int(season_id)}/events/last/{page}")
+            try:data=_json(f"{self.PUBLIC_BASE}/unique-tournament/{int(unique_tournament_id)}/season/{int(season_id)}/events/last/{page}")
             except Exception:
                 if page==0:raise
                 break
@@ -140,7 +140,7 @@ class UnderstatClient:
         "User-Agent":"Mozilla/5.0",
         "X-Requested-With":"XMLHttpRequest",
         "Referer":"https://understat.com/",
-        "Accept":"application/json, text/javascript, */*; q=0.01",
+        "Accept":"application/json, text/javascript, */*; q=0.01",\n        "Accept-Encoding":"identity",
     }
     @staticmethod
     def _decode(html,var_name):
