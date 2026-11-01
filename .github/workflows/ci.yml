@@ -29,6 +29,8 @@ jobs:
       - run: python match_runner.py
       - run: pip install pytest
       - run: pytest -q
+      - name: Live Flashscore shape probe
+        run: python flashscore_shape_probe.py
       - name: Multi-league capability smoke matrix
         run: python league_capability_smoke.py
       - name: Historical Fenerbahce-Goztepe PRE reconstruction
