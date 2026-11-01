@@ -20,6 +20,7 @@ def _json(url:str,timeout=15.0,headers:dict[str,str]|None=None)->Any:
 
 class SofaScoreClient:
     BASE="https://www.sofascore.com/api/v1"
+    PUBLIC_BASE="https://api.sofascore.com/api/v1"
     def event(self,event_id):return _json(f"{self.BASE}/event/{event_id}").get("event",{})
     def lineups(self,event_id):return _json(f"{self.BASE}/event/{event_id}/lineups")
     def snapshot(self,event_id):
