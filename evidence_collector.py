@@ -18,8 +18,9 @@ def collect_match_evidence(*,match:dict[str,Any],provider_ids:dict[str,Any]|None
             d=_result(r);d["kind"]=label;evidence.append(d)
             if label=="odds" and r.ok:quotes.extend(normalize_decimal_quotes(r.data,"flashscore"))
     else:evidence.append(_gap("flashscore","FLASHSCORE_MATCH_ID_MISSING"))
-    if pinnacle_league_id is not None:
-        r=PinnaclePrematchClient().odds(int(pinnacle_league_id),ids.get("pinnacle_matchup_id"));evidence.append(_result(r))
+    effective_pinnacle_league_id=pinnacle_league_id or ids.get("pinnacle_league_id")
+    if effective_pinnacle_league_id is not None:
+        r=PinnaclePrematchClient().odds(int(effective_pinnacle_league_id),ids.get("pinnacle_matchup_id"));evidence.append(_result(r))
         if r.ok:quotes.extend(normalize_decimal_quotes(r.data,"pinnacle"))
     else:evidence.append(_gap("pinnacle","PINNACLE_LEAGUE_ID_MISSING"))
     gaps=[{"source":x["source"],"reason":x.get("error") or "UNKNOWN"} for x in evidence if not x.get("ok")];successful=[x["source"] for x in evidence if x.get("ok")]
@@ -27,7 +28,8 @@ def collect_match_evidence(*,match:dict[str,Any],provider_ids:dict[str,Any]|None
 def collect_match_evidence_auto(*,match:dict[str,Any],espn_league_slug:str|None=None,pinnacle_league_id:int|None=None,**_ignored)->dict[str,Any]:
     from fixture_resolver import resolve_provider_ids
     resolution=resolve_provider_ids(match=match,espn_league_slug=espn_league_slug,pinnacle_league_id=pinnacle_league_id)
-    return collect_match_evidence(match=match,provider_ids=resolution.get("resolved_ids",{}),pinnacle_league_id=pinnacle_league_id,resolution=resolution)
+    effective_id=pinnacle_league_id or resolution.get("resolved_ids",{}).get("pinnacle_league_id")
+    return collect_match_evidence(match=match,provider_ids=resolution.get("resolved_ids",{}),pinnacle_league_id=effective_id,resolution=resolution)
 def packet_inputs(collection):
     source_payloads=[{"source":x["source"],"observed_at":x.get("observed_at"),"data":x.get("data",{})} for x in collection.get("source_results",[]) if x.get("ok")]
     context={"collector_version":collection.get("collector_version"),"provider_ids":collection.get("provider_ids",{}),"fixture_resolution":collection.get("resolution",{}),"collection_status":collection.get("collection_status",{}),"lineup_evidence":collection.get("lineup_evidence",[])}
