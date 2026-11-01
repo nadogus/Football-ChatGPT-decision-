@@ -98,7 +98,7 @@ def pinnacle_catalog_match(profile:dict[str,Any],rows:list[dict[str,Any]],thresh
     if not scored:return {"resolved":False,"reason":"NO_CATALOG_CANDIDATES"}
     top_s,top=scored[0];second=scored[1][0] if len(scored)>1 else 0.0
     if top_s<threshold:return {"resolved":False,"reason":"LOW_LEAGUE_SCORE","top_score":round(top_s,6)}
-    if len(scored)>1 and top_s-second<margin:return {"resolved":False,"reason":"AMBIGUOUS_LEAGUE","top_score":round(top_s,6),"second_score":round(second,6)}
+    if len(scored)>1 and top_s-second<margin:return {"resolved":False,"reason":"AMBIGUOUS_LEAGUE","top_score":round(top_s,6),"second_score":round(second,6),"top_candidate":{"id":top.get("id"),"name":top.get("name"),"group":top.get("group")},"second_candidate":{"id":scored[1][1].get("id"),"name":scored[1][1].get("name"),"group":scored[1][1].get("group")}}
     return {"resolved":True,"league_id":int(top["id"]),"score":round(top_s,6),"catalog_name":top.get("name"),"catalog_group":top.get("group")}
 
 def resolve_pinnacle_league(profile:dict[str,Any],client:PinnaclePrematchClient|None=None)->dict[str,Any]:
