@@ -20,6 +20,17 @@ def norm(value:Any)->str:
     s=re.sub(r"[^a-z0-9]+"," ",s)
     return " ".join(s.split())
 def compact(value:Any)->str:return re.sub(r"[^a-z0-9]+","",norm(value))
+def flashscore_country_from_link(link:Any)->str|None:
+    """Derive country/category from a verified Flashscore tournament URL."""
+    try:
+        from urllib.parse import urlparse
+        parts=[p for p in urlparse(str(link or "")).path.split("/") if p]
+        # canonical tournament URLs: /football/<country>/<competition>/
+        if len(parts)>=3 and parts[0].lower()=="football":
+            return parts[1].replace("-"," ").title()
+    except Exception:
+        pass
+    return None
 def tokens(value:Any)->set[str]:return {x for x in norm(value).split() if x not in STOPWORDS and len(x)>1}
 def text_similarity(a:Any,b:Any)->float:
     aa,bb=norm(a),norm(b)
@@ -77,7 +88,7 @@ class FlashscoreCompetitionResolver:
         # model client's verified tournament reference instead of guessing a country.
         ref=FlashscoreModelClient(self.client.base).competition_ref(team,competition,as_of or datetime.now(timezone.utc))
         if ref:
-            return {"source":"flashscore","team_id":tid,"competition_id":None,"stage_id":None,"name":competition,"display_name":competition,"country":None,"link":ref,"score":1.0,"profile_mode":"VERIFIED_TOURNAMENT_REF_FALLBACK"}
+            return {"source":"flashscore","team_id":tid,"competition_id":None,"stage_id":None,"name":competition,"display_name":competition,"country":flashscore_country_from_link(ref),"link":ref,"score":1.0,"profile_mode":"VERIFIED_TOURNAMENT_REF_FALLBACK"}
         return None
 
 def pinnacle_catalog_match(profile:dict[str,Any],rows:list[dict[str,Any]],threshold:float=.68,margin:float=.06)->dict[str,Any]:
