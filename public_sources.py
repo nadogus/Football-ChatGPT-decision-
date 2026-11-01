@@ -40,13 +40,37 @@ class ClubEloClient:
         header=[x.strip() for x in lines[0].split(",")]
         if "Elo" not in header:return []
         return [dict(zip(header,row.split(","))) for row in lines[1:] if row]
+    @staticmethod
+    def _parse_web_history(html):
+        candidates=[]
+        m=re.search(r"vegaJson\s*=\s*(\{.*?\})\s*;",html,re.S)
+        if m:
+            try:candidates.append(json.loads(m.group(1)))
+            except Exception:pass
+        m=re.search(r"vegaJson\s*=\s*JSON\.parse\('(.+?)'\)",html,re.S)
+        if m:
+            try:candidates.append(json.loads(bytes(m.group(1),"utf-8").decode("unicode_escape")))
+            except Exception:pass
+        rows=[]
+        def walk(x):
+            if isinstance(x,dict):
+                if "Elo" in x and ("Date" in x or "From" in x):
+                    rows.append({"From":str(x.get("From") or x.get("Date") or "")[:10],"Elo":str(x.get("Elo") or "")})
+                for v in x.values():walk(v)
+            elif isinstance(x,list):
+                for v in x:walk(v)
+        for x in candidates:walk(x)
+        rows=[r for r in rows if r.get("From") and r.get("Elo")]
+        rows.sort(key=lambda r:r["From"])
+        return rows
     def club_history(self,club):
         slug=urllib.parse.quote(club.replace(" ",""))
         try:
             rows=self._parse_csv(_text(f"{self.API_BASE}/{slug}"))
             if rows:return rows
         except Exception:pass
-        return []
+        try:return self._parse_web_history(_text(f"{self.WEB_BASE}/{slug}"))
+        except Exception:return []
     def latest_elo(self,club,as_of=None):
         rows=self.club_history(club)
         if not rows:return None
