@@ -1,13 +1,28 @@
 name: evidence-engine-ci
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      FLASHSCORE_API_BASE: http://127.0.0.1:8001
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Start proven Flashscore service
+        run: |
+          git clone --depth 1 --branch master https://github.com/omkarcloud/flashscore-scraper.git /tmp/flashscore-scraper
+          python -m pip install -r /tmp/flashscore-scraper/requirements.txt
+          cd /tmp/flashscore-scraper
+          PORT=8001 nohup python run.py >/tmp/flashscore.log 2>&1 &
+          for i in {1..30}; do
+            if curl -fsS "http://127.0.0.1:8001/matches?sport=football" >/tmp/flashscore_matches.json; then exit 0; fi
+            sleep 2
+          done
+          cat /tmp/flashscore.log || true
+          exit 1
       - run: python -m py_compile football_evidence_engine.py data_adapters.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py
       - run: python football_evidence_engine.py
       - run: python match_runner.py
