@@ -7,6 +7,7 @@ from __future__ import annotations
 import json,re
 from datetime import datetime,timezone
 from evidence_collector import collect_match_evidence_auto, packet_inputs
+from data_adapters import FlashscoreClient, normalize_decimal_quotes
 from public_sources import FlashscoreModelClient
 
 MATCH={
@@ -39,7 +40,13 @@ def main():
         model_inputs["away_xg"]=round((float(ax["xg_for"])+float(hx["xg_against"]))/2,4)
     else:gaps.append("FLASHSCORE_XG_UNAVAILABLE")
     if he is None or ae is None:gaps.append("FLASHSCORE_ELO_UNAVAILABLE")
-    quote_count=len(inputs.get("odds_payload",{}).get("quotes",[]))
+    archived_odds={"primary_source":"flashscore","observed_at":MATCH["kickoff"],"quotes":[]}
+    fs_match_id=(collection.get("resolution",{}).get("resolved_ids",{}) or {}).get("flashscore_match_id")
+    if fs_match_id:
+        raw=FlashscoreClient().odds(str(fs_match_id))
+        if raw.ok:
+            archived_odds["quotes"]=normalize_decimal_quotes(raw.data,"flashscore",prefer_opening=True)
+    quote_count=len(archived_odds.get("quotes",[]))
     if quote_count==0:gaps.append("PREMATCH_QUOTES_UNAVAILABLE")
     observed_at=datetime.now(timezone.utc).isoformat()
     extras=[]
@@ -53,8 +60,8 @@ def main():
             home_xg=model_inputs["home_xg"],away_xg=model_inputs["away_xg"],
             home_elo=he,away_elo=ae,
             source_payloads=inputs["source_payloads"]+extras,
-            odds_payload=inputs["odds_payload"],
-            context={**inputs["context"],"historical_reconstruction":True,"strict_as_of":MATCH["kickoff"],"model_sources":{"flashscore_xg":{"home":hx,"away":ax},"flashscore_elo":{"home":he,"away":ae}}},
+            odds_payload=archived_odds,
+            context={**inputs["context"],"historical_reconstruction":True,"strict_as_of":MATCH["kickoff"],"odds_basis":"flashscore_opening_archive","model_sources":{"flashscore_xg":{"home":hx,"away":ax},"flashscore_elo":{"home":he,"away":ae}}},
             ledger_path="ledger/fenerbahce_goztepe_pre.jsonl",
         )
     report={
@@ -64,7 +71,7 @@ def main():
         "collection_status":collection.get("collection_status"),
         "resolution":collection.get("resolution"),
         "model_inputs":model_inputs,
-        "model_sources":{"flashscore_xg":{"home":hx,"away":ax},"espn_elo":{"home":he,"away":ae}},
+        "model_sources":{"flashscore_xg":{"home":hx,"away":ax},"flashscore_elo":{"home":he,"away":ae}},
         "quote_count":quote_count,
         "gaps":gaps,
         "status":"PRE_EVIDENCE_READY" if packet else "FAIL_CLOSED_INCOMPLETE_PRE_EVIDENCE",
