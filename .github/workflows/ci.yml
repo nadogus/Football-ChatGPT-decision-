@@ -29,14 +29,14 @@ jobs:
       - run: python match_runner.py
       - run: pip install pytest
       - run: pytest -q
+      - name: Diagnose model-input sources
+        run: python model_source_diagnostics.py
       - name: Real Liverpool-Arsenal provider probe
         run: python live_provider_probe.py
       - name: Real completed-match XI probe
         run: python live_xi_probe.py
       - name: Real Liverpool-Arsenal PRE end-to-end probe
         run: python live_pre_e2e_probe.py
-      - name: Diagnose model-input sources
-        run: python model_source_diagnostics.py
       - name: Upload provider probe
         if: always()
         uses: actions/upload-artifact@v4
