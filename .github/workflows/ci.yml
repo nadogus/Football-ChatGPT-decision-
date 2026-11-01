@@ -8,8 +8,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m py_compile football_evidence_engine.py data_adapters.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py
+      - run: python -m py_compile football_evidence_engine.py data_adapters.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py real_fixture_probe.py
       - run: python football_evidence_engine.py
       - run: python match_runner.py
+      - name: Real Liverpool Arsenal provider probe
+        run: python real_fixture_probe.py
       - run: pip install pytest
       - run: pytest -q
