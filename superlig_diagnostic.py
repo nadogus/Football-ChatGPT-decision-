@@ -6,7 +6,6 @@ from data_adapters import FlashscoreClient, PinnaclePrematchClient, _json
 out={}
 fs=FlashscoreClient()
 
-# raw helper through local Flashscore service
 def local(path,params):
     try:
         return _json(fs.base+path+"?"+urllib.parse.urlencode(params))
@@ -31,10 +30,11 @@ try:
     pc=PinnaclePrematchClient()
     headers=pc._headers()
     out["pinnacle_leagues"]=_json(f"{pc.BASE}/sports/29/leagues?all=false",headers=headers)
-out["finished_match_odds"]=local("/matches/odds",{"match":"rNeQL5U7"})
-out["superlig_tournament_results"]=local("/tournaments/results",{"tournament":"https://www.flashscore.com/football/turkey/super-lig/","page":1})
 except Exception as e:
     out["pinnacle_leagues"]={"_error":f"{type(e).__name__}: {e}"}
+
+out["finished_match_odds"]=local("/matches/odds",{"match":"rNeQL5U7"})
+out["superlig_tournament_results"]=local("/tournaments/results",{"tournament":"https://www.flashscore.com/football/turkey/super-lig/","page":1})
 
 print(json.dumps(out,ensure_ascii=False,indent=2))
 with open("SUPERLIG_DIAGNOSTIC.json","w",encoding="utf-8") as f:
