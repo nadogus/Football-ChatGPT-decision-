@@ -31,6 +31,8 @@ try:
     pc=PinnaclePrematchClient()
     headers=pc._headers()
     out["pinnacle_leagues"]=_json(f"{pc.BASE}/sports/29/leagues?all=false",headers=headers)
+out["finished_match_odds"]=local("/matches/odds",{"match":"rNeQL5U7"})
+out["superlig_tournament_results"]=local("/tournaments/results",{"tournament":"https://www.flashscore.com/football/turkey/super-lig/","page":1})
 except Exception as e:
     out["pinnacle_leagues"]={"_error":f"{type(e).__name__}: {e}"}
 
