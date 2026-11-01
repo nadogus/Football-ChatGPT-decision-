@@ -17,6 +17,10 @@ def probe(url):
                 "has_JSON_parse":"JSON.parse" in body,
                 "has_vegaJson":"vegaJson" in body,
                 "script_vars":sorted(set(re.findall(r"var\\s+([A-Za-z0-9_]+)\\s*=",body)))[:50],
+                "json_parse_contexts":[
+                    re.sub(r"\\s+"," ",body[max(0,m.start()-120):min(len(body),m.start()+220)])
+                    for m in list(re.finditer(r"JSON\\.parse",body))[:12]
+                ],
             })
     except Exception as e:
         out.update({"ok":False,"error":f"{type(e).__name__}: {e}"})
