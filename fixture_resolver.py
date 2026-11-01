@@ -57,6 +57,11 @@ def resolve_flashscore(match):
     fs=FlashscoreClient();date=(_dt(match.get("kickoff")) or datetime.now(timezone.utc)).strftime("%Y-%m-%d");r=fs.matches(date=date)
     if not r.ok:return {"source":"flashscore","resolved":False,"reason":r.error or "MATCH_LIST_FAILED"}
     return {"source":"flashscore",**best_fixture(match,_walk_events(r.data))}
+def _country_hint(competition):
+    s=str(competition or "").lower()
+    if "turk" in s or "super lig" in s:return "Turkey"
+    if "english" in s or "premier league" in s:return "England"
+    return None
 def resolve_pinnacle(match,league_id):
     r=PinnaclePrematchClient().odds(int(league_id),None)
     if not r.ok:return {"source":"pinnacle","resolved":False,"reason":r.error or "ODDS_FETCH_FAILED"}
@@ -74,8 +79,14 @@ def resolve_provider_ids(*,match:dict[str,Any],espn_league_slug:str|None=None,pi
     else:attempts.append({"source":"espn","resolved":False,"reason":"ESPN_LEAGUE_SLUG_MISSING"})
     x=resolve_flashscore(match);attempts.append(x)
     if x.get("resolved"):ids["flashscore_match_id"]=x["id"]
-    if pinnacle_league_id is not None:
-        x=resolve_pinnacle(match,pinnacle_league_id);attempts.append(x)
+    effective_league_id=pinnacle_league_id
+    if effective_league_id is None:
+        try:
+            effective_league_id=PinnaclePrematchClient().discover_league_id(match.get("competition",""),_country_hint(match.get("competition")))
+        except Exception:effective_league_id=None
+    if effective_league_id is not None:
+        ids["pinnacle_league_id"]=int(effective_league_id)
+        x=resolve_pinnacle(match,effective_league_id);attempts.append(x)
         if x.get("resolved"):ids["pinnacle_matchup_id"]=x["id"]
-    else:attempts.append({"source":"pinnacle","resolved":False,"reason":"PINNACLE_LEAGUE_ID_MISSING"})
+    else:attempts.append({"source":"pinnacle","resolved":False,"reason":"PINNACLE_LEAGUE_ID_UNRESOLVED"})
     return {"resolver_version":RESOLVER_VERSION,"resolved_ids":ids,"attempts":attempts,"resolved_sources":sorted([x["source"] for x in attempts if x.get("resolved")]),"unresolved":[{"source":x["source"],"reason":x.get("reason","UNKNOWN")} for x in attempts if not x.get("resolved")]}
