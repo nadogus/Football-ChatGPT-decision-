@@ -152,8 +152,10 @@ class PinnaclePrematchClient:
                 # Some guest endpoints reject browser-like extras while accepting
                 # the same public web-client key with the minimal required header.
                 minimal={"X-API-Key":self.key}
-                ms=_json(matchups_url,headers=minimal)
-                mk=_json(markets_url,headers=minimal)
+                canonical_matchups=f"{self.BASE}/leagues/{int(league_id)}/matchups"
+                canonical_markets=f"{self.BASE}/leagues/{int(league_id)}/markets/straight"
+                ms=_json(canonical_matchups,headers=minimal)
+                mk=_json(canonical_markets,headers=minimal)
             now=datetime.now(timezone.utc);matchups={}
             for m in ms:
                 try:
