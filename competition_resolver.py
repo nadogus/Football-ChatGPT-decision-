@@ -25,11 +25,8 @@ def flashscore_country_from_link(link:Any)->str|None:
     try:
         from urllib.parse import urlparse
         parts=[p for p in urlparse(str(link or "")).path.split("/") if p]
-        # canonical tournament URLs: /football/<country>/<competition>/
-        if len(parts)>=3 and parts[0].lower()=="football":
-            return parts[1].replace("-"," ").title()
-    except Exception:
-        pass
+        if len(parts)>=3 and parts[0].lower()=="football":return parts[1].replace("-"," ").title()
+    except Exception:pass
     return None
 def tokens(value:Any)->set[str]:return {x for x in norm(value).split() if x not in STOPWORDS and len(x)>1}
 def text_similarity(a:Any,b:Any)->float:
@@ -65,8 +62,7 @@ class FlashscoreCompetitionResolver:
             if not isinstance(block,dict):continue
             comp=block.get("competition") or {}
             if not isinstance(comp,dict):continue
-            name=comp.get("name");display=comp.get("display_name")
-            score=max(text_similarity(competition,name),text_similarity(competition,display))
+            name=comp.get("name");display=comp.get("display_name");score=max(text_similarity(competition,name),text_similarity(competition,display))
             if score<0.55:continue
             if as_of is not None:
                 has_pre=False
@@ -76,19 +72,14 @@ class FlashscoreCompetitionResolver:
                         if when<as_of:has_pre=True;break
                     except Exception:pass
                 if not has_pre:continue
-            country_obj=comp.get("country");country=(country_obj or {}).get("name") if isinstance(country_obj,dict) else country_obj
-            country=country or comp.get("category")
+            country_obj=comp.get("country");country=(country_obj or {}).get("name") if isinstance(country_obj,dict) else country_obj;country=country or comp.get("category")
             candidates.append((score,{"source":"flashscore","team_id":tid,"competition_id":comp.get("id"),"stage_id":comp.get("stage_id"),"name":name,"display_name":display,"country":country,"link":comp.get("link"),"score":round(score,6)}))
         candidates.sort(key=lambda z:z[0],reverse=True)
         if candidates:
             top_score,top=candidates[0];second=candidates[1][0] if len(candidates)>1 else 0.0
             if top_score>=0.72 and not (len(candidates)>1 and top_score-second<0.05):return top
-        # Current Flashscore team-results payload can omit competition metadata even
-        # while the same competition is fully usable by the model path. Reuse the
-        # model client's verified tournament reference instead of guessing a country.
         ref=FlashscoreModelClient(self.client.base).competition_ref(team,competition,as_of or datetime.now(timezone.utc))
-        if ref:
-            return {"source":"flashscore","team_id":tid,"competition_id":None,"stage_id":None,"name":competition,"display_name":competition,"country":flashscore_country_from_link(ref),"link":ref,"score":1.0,"profile_mode":"VERIFIED_TOURNAMENT_REF_FALLBACK"}
+        if ref:return {"source":"flashscore","team_id":tid,"competition_id":None,"stage_id":None,"name":competition,"display_name":competition,"country":flashscore_country_from_link(ref),"link":ref,"score":1.0,"profile_mode":"VERIFIED_TOURNAMENT_REF_FALLBACK"}
         return None
 
 def pinnacle_catalog_match(profile:dict[str,Any],rows:list[dict[str,Any]],threshold:float=.68,margin:float=.06)->dict[str,Any]:
@@ -99,11 +90,10 @@ def pinnacle_catalog_match(profile:dict[str,Any],rows:list[dict[str,Any]],thresh
         total=.72*name_score+.28*country_score
         if norm(country) and norm(group)==norm(country):total+=.12
         if tokens(comp) and tokens(comp)<=tokens(name):total+=.08
-        # Handles provider formatting such as LaLiga vs "Spain - La Liga" without
-        # requiring a hard-coded league/country map.
         if compact(comp) and compact(comp) in compact(name):total+=.08
-        requested_terms=tokens(str(comp)+" "+str(display));catalog_terms=tokens(name);variant_terms={"women","woman","womens","u17","u18","u19","u20","u21","u23","reserve","reserves","youth"}
-        if (catalog_terms&variant_terms)-(requested_terms&variant_terms):total-=.22
+        requested_text=norm(str(comp)+" "+str(display));catalog_text=norm(name)
+        variant_patterns=(r"\bwomen(?:s)?\b",r"\bwoman\b",r"\bu\s*1[789]\b",r"\bu\s*2[013]\b",r"\breserves?\b",r"\byouth\b")
+        if any(re.search(p,catalog_text) and not re.search(p,requested_text) for p in variant_patterns):total-=.22
         scored.append((max(0.0,min(total,1.0)),row))
     scored.sort(key=lambda z:z[0],reverse=True)
     if not scored:return {"resolved":False,"reason":"NO_CATALOG_CANDIDATES"}
