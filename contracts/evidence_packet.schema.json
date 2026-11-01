@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Football ChatGPT Decision Evidence Packet",
+  "type": "object",
+  "required": ["match", "stage", "generated_at", "integrity", "models", "market", "warnings"],
+  "properties": {
+    "match": {
+      "type": "object",
+      "required": ["match_id", "home", "away", "competition", "kickoff"],
+      "properties": {
+        "match_id": {"type": "string"},
+        "home": {"type": "string"},
+        "away": {"type": "string"},
+        "competition": {"type": "string"},
+        "kickoff": {"type": "string"}
+      }
+    },
+    "stage": {"enum": ["PRE", "POST_XI"]},
+    "generated_at": {"type": "string"},
+    "integrity": {
+      "type": "object",
+      "required": ["data_quality", "league_coverage", "sources"],
+      "properties": {
+        "data_quality": {"type": "number", "minimum": 0, "maximum": 1},
+        "league_coverage": {"type": "number", "minimum": 0, "maximum": 1},
+        "sources": {"type": "array", "items": {"type": "object"}}
+      }
+    },
+    "team_context": {"type": "object"},
+    "availability": {"type": "object"},
+    "xi": {"type": "object"},
+    "models": {
+      "type": "object",
+      "required": ["probabilities"],
+      "properties": {
+        "probabilities": {"type": "object"},
+        "component_models": {"type": "object"},
+        "agreement": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+      }
+    },
+    "market": {
+      "type": "object",
+      "required": ["quotes"],
+      "properties": {
+        "quotes": {"type": "array", "items": {"type": "object"}},
+        "consensus": {"type": "object"},
+        "movement": {"type": "object"},
+        "candidates": {"type": "array", "items": {"type": "object"}}
+      }
+    },
+    "correlation_families": {"type": "object"},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "provenance": {"type": "object"}
+  }
+}
