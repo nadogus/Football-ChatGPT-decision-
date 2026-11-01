@@ -6,7 +6,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any
-import json, os, urllib.parse, urllib.request
+import json, os, urllib.error, urllib.parse, urllib.request
 
 UA={"User-Agent":"Mozilla/5.0 football-chatgpt-decision/1.0"}
 def _json(url:str,timeout:float=20.0,headers:dict[str,str]|None=None)->Any:
@@ -141,7 +141,20 @@ class PinnaclePrematchClient:
         return int(scored[0][1]["id"])
     def odds(self,league_id:int,matchup_id:int|None=None)->AdapterResult:
         try:
-            headers=self._headers();ms=_json(f"{self.BASE}/leagues/{int(league_id)}/matchups?brandId=0",headers=headers);mk=_json(f"{self.BASE}/leagues/{int(league_id)}/markets/straight?primaryOnly=false",headers=headers);now=datetime.now(timezone.utc);matchups={}
+            headers=self._headers()
+            matchups_url=f"{self.BASE}/leagues/{int(league_id)}/matchups?brandId=0"
+            markets_url=f"{self.BASE}/leagues/{int(league_id)}/markets/straight?primaryOnly=false"
+            try:
+                ms=_json(matchups_url,headers=headers)
+                mk=_json(markets_url,headers=headers)
+            except urllib.error.HTTPError as e:
+                if e.code!=403:raise
+                # Some guest endpoints reject browser-like extras while accepting
+                # the same public web-client key with the minimal required header.
+                minimal={"X-API-Key":self.key}
+                ms=_json(matchups_url,headers=minimal)
+                mk=_json(markets_url,headers=minimal)
+            now=datetime.now(timezone.utc);matchups={}
             for m in ms:
                 try:
                     dt=datetime.fromisoformat(str(m.get("startTime","Z")).replace("Z","+00:00"))
