@@ -1,0 +1,22 @@
+{
+  "decision": "WATCH",
+  "market": "1X2",
+  "selection": "Arsenal",
+  "best_decimal_price": 2.49,
+  "minimum_acceptable_decimal_price": 2.60,
+  "confidence": 0.63,
+  "rationale": "Arsenal have the stronger season-long underlying profile, but the current market already prices them as the away favorite and the remaining edge at 2.49 is too small to justify PLAY before official lineups. Key absences and doubts on both sides increase uncertainty.",
+  "main_risks": [
+    "Official XI not confirmed",
+    "Arsenal missing Bukayo Saka and William Saliba",
+    "Declan Rice and other Arsenal players remain uncertain",
+    "Anfield home advantage",
+    "Current price offers only marginal modeled value"
+  ],
+  "data_quality_assessment": "Good league and market coverage, but pre-XI availability uncertainty prevents high confidence.",
+  "stage": "PRE",
+  "decided_at": "2026-10-31T20:00:00-05:00",
+  "decision_policy_version": "V1.0",
+  "evidence_engine_version": "evidence-v1.1",
+  "evidence_packet_sha256": null
+}
