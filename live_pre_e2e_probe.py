@@ -30,9 +30,14 @@ def main():
     gaps=[]
     try:
         u=UnderstatClient()
-        hx=u.team_xg_summary("Liverpool",SEASON,last_n=10)
-        ax=u.team_xg_summary("Arsenal",SEASON,last_n=10)
-        model_sources["understat"]={"home":hx,"away":ax}
+        used_season=SEASON
+        hx=u.team_xg_summary("Liverpool",used_season,last_n=10)
+        ax=u.team_xg_summary("Arsenal",used_season,last_n=10)
+        if not (hx and ax):
+            used_season=SEASON-1
+            hx=u.team_xg_summary("Liverpool",used_season,last_n=10)
+            ax=u.team_xg_summary("Arsenal",used_season,last_n=10)
+        model_sources["understat"]={"home":hx,"away":ax,"season":used_season,"season_fallback":used_season!=SEASON}
         if hx and ax:
             # Symmetric attack/defence blend; deterministic, not a betting decision.
             model_inputs["home_xg"]=round((float(hx["xg_for"])+float(ax["xg_against"]))/2,4)
@@ -41,8 +46,9 @@ def main():
     except Exception as e:gaps.append(f"UNDERSTAT_XG_ERROR:{type(e).__name__}")
     try:
         elo=ClubEloClient()
-        model_inputs["home_elo"]=elo.latest_elo("Liverpool")
-        model_inputs["away_elo"]=elo.latest_elo("Arsenal")
+        as_of=datetime.fromisoformat(MATCH["kickoff"].replace("Z","+00:00"))
+        model_inputs["home_elo"]=elo.latest_elo("Liverpool",as_of=as_of)
+        model_inputs["away_elo"]=elo.latest_elo("Arsenal",as_of=as_of)
         model_sources["clubelo"]={"home":model_inputs["home_elo"],"away":model_inputs["away_elo"]}
         if model_inputs["home_elo"] is None or model_inputs["away_elo"] is None:gaps.append("CLUBELO_UNAVAILABLE")
     except Exception as e:gaps.append(f"CLUBELO_ERROR:{type(e).__name__}")
