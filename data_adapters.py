@@ -55,9 +55,40 @@ class FlashscoreClient:
     def odds(self,match_id):return self._get("/matches/odds",{"match":match_id})
 class PinnaclePrematchClient:
     BASE="https://guest.api.arcadia.pinnacle.com/0.1"
-    def __init__(self,api_key=None):self.key=api_key or os.getenv("PINNACLE_GUEST_API_KEY") or ""
+    CONFIG_URL="https://www.pinnacle.com/config/app.json"
+    def __init__(self,api_key=None):
+        self.key=api_key or os.getenv("PINNACLE_GUEST_API_KEY") or ""
+        self.key_source="explicit_or_env" if self.key else "unresolved"
+    def _discover_public_web_key(self):
+        cfg=_json(self.CONFIG_URL)
+        candidates=[
+            (("api","haywire","apiKey"),),
+            (("api","arcadia","apiKey"),),
+        ]
+        for group in candidates:
+            for path in group:
+                cur=cfg
+                try:
+                    for part in path:cur=cur[part]
+                    if isinstance(cur,str) and cur.strip():return cur.strip()
+                except (KeyError,TypeError):pass
+        def walk(x):
+            if isinstance(x,dict):
+                for k,v in x.items():
+                    if str(k).lower() in {"apikey","api_key"} and isinstance(v,str) and v.strip():return v.strip()
+                    found=walk(v)
+                    if found:return found
+            elif isinstance(x,list):
+                for v in x:
+                    found=walk(v)
+                    if found:return found
+            return None
+        return walk(cfg)
     def _headers(self):
-        if not self.key:raise RuntimeError("PINNACLE_GUEST_API_KEY_NOT_CONFIGURED")
+        if not self.key:
+            self.key=self._discover_public_web_key() or ""
+            if self.key:self.key_source="pinnacle_public_web_config"
+        if not self.key:raise RuntimeError("PINNACLE_PUBLIC_WEB_KEY_UNAVAILABLE")
         return {"X-API-Key":self.key,"Referer":"https://www.pinnacle.com/","Accept":"application/json"}
     @staticmethod
     def american_to_decimal(a):
