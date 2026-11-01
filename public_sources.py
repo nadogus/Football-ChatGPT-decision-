@@ -20,7 +20,6 @@ def _json(url:str,timeout=15.0,headers:dict[str,str]|None=None)->Any:
 
 class SofaScoreClient:
     BASE="https://www.sofascore.com/api/v1"
-    PUBLIC_BASE="https://api.sofascore.com/api/v1"
     def event(self,event_id):return _json(f"{self.BASE}/event/{event_id}").get("event",{})
     def lineups(self,event_id):return _json(f"{self.BASE}/event/{event_id}/lineups")
     def snapshot(self,event_id):
@@ -35,60 +34,6 @@ class SofaScoreClient:
             "competition":e.get("tournament",{}).get("name","Unknown"),
             "raw":e,
         }
-    def tournament_seasons(self,unique_tournament_id:int)->list[dict[str,Any]]:
-        data=_json(f"{self.PUBLIC_BASE}/unique-tournament/{int(unique_tournament_id)}/seasons")
-        return data.get("seasons",[]) if isinstance(data,dict) else []
-    def season_id_for_date(self,unique_tournament_id:int,as_of:datetime)->int|None:
-        y=as_of.year%100
-        start=y if as_of.month>=7 else (y-1)%100
-        key=f"{start:02d}/{(start+1)%100:02d}"
-        for s in self.tournament_seasons(unique_tournament_id):
-            if str(s.get("year") or "")==key:
-                try:return int(s["id"])
-                except Exception:return None
-        return None
-    def season_events(self,unique_tournament_id:int,season_id:int,max_pages:int=20)->list[dict[str,Any]]:
-        events=[]
-        for page in range(max_pages):
-            try:data=_json(f"{self.PUBLIC_BASE}/unique-tournament/{int(unique_tournament_id)}/season/{int(season_id)}/events/last/{page}")
-            except Exception:
-                if page==0:raise
-                break
-            rows=data.get("events",[]) if isinstance(data,dict) else []
-            if not rows:break
-            events.extend(x for x in rows if isinstance(x,dict))
-            if not data.get("hasNextPage"):break
-        return events
-    def computed_elo(self,unique_tournament_id:int,as_of:datetime,base_rating:float=1500.0,k:float=24.0,home_advantage:float=65.0)->dict[str,float]:
-        season_id=self.season_id_for_date(unique_tournament_id,as_of)
-        if season_id is None:return {}
-        events=self.season_events(unique_tournament_id,season_id)
-        finished=[]
-        for e in events:
-            try:
-                ts=int(e.get("startTimestamp") or 0)
-                when=datetime.fromtimestamp(ts,tz=timezone.utc)
-                status=str((e.get("status") or {}).get("type") or "").lower()
-                if when>as_of or status!="finished":continue
-                h=(e.get("homeTeam") or {}).get("name")
-                a=(e.get("awayTeam") or {}).get("name")
-                hs=(e.get("homeScore") or {}).get("current")
-                av=(e.get("awayScore") or {}).get("current")
-                if h and a and hs is not None and av is not None:
-                    finished.append((when,h,a,float(hs),float(av)))
-            except Exception:continue
-        finished.sort(key=lambda x:x[0])
-        ratings={}
-        for _,home,away,hs,av in finished:
-            rh=ratings.get(home,base_rating);ra=ratings.get(away,base_rating)
-            expected=1/(1+10**(-((rh+home_advantage)-ra)/400))
-            actual=1.0 if hs>av else 0.0 if hs<av else 0.5
-            margin=max(1.0,abs(hs-av))
-            mult=min(1.75,1.0+0.15*(margin-1.0))
-            delta=k*mult*(actual-expected)
-            ratings[home]=rh+delta
-            ratings[away]=ra-delta
-        return {name:round(value,3) for name,value in ratings.items()}
 
 class ClubEloClient:
     API_BASE="http://api.clubelo.com"; WEB_BASE="https://clubelo.com"
