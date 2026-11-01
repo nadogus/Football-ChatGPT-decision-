@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Football ChatGPT Final Decision",
+  "type": "object",
+  "required": ["decision", "confidence", "rationale", "risks", "data_quality_assessment", "stage", "timestamp", "version"],
+  "properties": {
+    "decision": {"enum": ["PLAY", "WATCH", "PASS"]},
+    "market": {"type": ["string", "null"]},
+    "selection": {"type": ["string", "null"]},
+    "best_decimal_price": {"type": ["number", "null"]},
+    "minimum_acceptable_decimal_price": {"type": ["number", "null"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "rationale": {"type": "array", "items": {"type": "string"}},
+    "risks": {"type": "array", "items": {"type": "string"}},
+    "data_quality_assessment": {"type": "string"},
+    "stage": {"enum": ["PRE", "POST_XI"]},
+    "timestamp": {"type": "string"},
+    "version": {"type": "string"}
+  }
+}
