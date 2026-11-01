@@ -24,7 +24,7 @@ jobs:
           done
           cat /tmp/flashscore.log || true
           exit 1
-      - run: python -m py_compile football_evidence_engine.py data_adapters.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py live_provider_probe.py live_xi_probe.py live_pre_e2e_probe.py
+      - run: python -m py_compile football_evidence_engine.py data_adapters.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py live_provider_probe.py live_xi_probe.py live_pre_e2e_probe.py model_source_diagnostics.py
       - run: python football_evidence_engine.py
       - run: python match_runner.py
       - run: pip install pytest
@@ -35,6 +35,8 @@ jobs:
         run: python live_xi_probe.py
       - name: Real Liverpool-Arsenal PRE end-to-end probe
         run: python live_pre_e2e_probe.py
+      - name: Diagnose model-input sources
+        run: python model_source_diagnostics.py
       - name: Upload provider probe
         if: always()
         uses: actions/upload-artifact@v4
@@ -44,6 +46,7 @@ jobs:
             LIVE_PROVIDER_PROBE.json
             LIVE_XI_PROBE.json
             LIVE_PRE_E2E.json
+            MODEL_SOURCE_DIAGNOSTICS.json
             ledger/live_pre_e2e.jsonl
             /tmp/flashscore.log
           if-no-files-found: ignore
