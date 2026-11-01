@@ -7,7 +7,7 @@ from __future__ import annotations
 import json,re
 from datetime import datetime,timezone
 from evidence_collector import collect_match_evidence_auto, packet_inputs
-from public_sources import FlashscoreModelClient, ESPNLeagueModelClient
+from public_sources import FlashscoreModelClient
 
 MATCH={
     "home":"Fenerbahce",
@@ -16,7 +16,6 @@ MATCH={
     "competition":"Turkish Super Lig",
 }
 AS_OF=datetime.fromisoformat(MATCH["kickoff"])
-SEASON_START=datetime(2026,8,1,tzinfo=timezone.utc)
 
 def norm(x):return re.sub(r"[^a-z0-9]+","",str(x or "").lower())
 def rating_for(ratings,name):
@@ -31,8 +30,7 @@ def main():
     fs=FlashscoreModelClient()
     hx=fs.team_xg_summary("Fenerbahce","Super Lig",AS_OF,last_n=8)
     ax=fs.team_xg_summary("Goztepe","Super Lig",AS_OF,last_n=8)
-    espn=ESPNLeagueModelClient()
-    ratings=espn.computed_elo("tur.1",SEASON_START,AS_OF)
+    ratings=fs.computed_elo("Fenerbahce","Super Lig",AS_OF)
     he=rating_for(ratings,"Fenerbahce");ae=rating_for(ratings,"Goztepe")
     model_inputs={"home_xg":None,"away_xg":None,"home_elo":he,"away_elo":ae}
     gaps=[]
@@ -40,13 +38,13 @@ def main():
         model_inputs["home_xg"]=round((float(hx["xg_for"])+float(ax["xg_against"]))/2,4)
         model_inputs["away_xg"]=round((float(ax["xg_for"])+float(hx["xg_against"]))/2,4)
     else:gaps.append("FLASHSCORE_XG_UNAVAILABLE")
-    if he is None or ae is None:gaps.append("ESPN_ELO_UNAVAILABLE")
+    if he is None or ae is None:gaps.append("FLASHSCORE_ELO_UNAVAILABLE")
     quote_count=len(inputs.get("odds_payload",{}).get("quotes",[]))
     if quote_count==0:gaps.append("PREMATCH_QUOTES_UNAVAILABLE")
     observed_at=datetime.now(timezone.utc).isoformat()
     extras=[]
     if hx and ax:extras.append({"source":"flashscore","observed_at":observed_at,"data":{"historical_pre_xg":{"home":hx,"away":ax,"as_of":MATCH["kickoff"]}}})
-    if he is not None and ae is not None:extras.append({"source":"espn","observed_at":observed_at,"data":{"historical_pre_elo":{"home":he,"away":ae,"as_of":MATCH["kickoff"],"league":"tur.1"}}})
+    if he is not None and ae is not None:extras.append({"source":"flashscore","observed_at":observed_at,"data":{"historical_pre_elo":{"home":he,"away":ae,"as_of":MATCH["kickoff"],"league":"Super Lig"}}})
     packet=None
     if not gaps:
         from match_runner import run_pre
@@ -56,7 +54,7 @@ def main():
             home_elo=he,away_elo=ae,
             source_payloads=inputs["source_payloads"]+extras,
             odds_payload=inputs["odds_payload"],
-            context={**inputs["context"],"historical_reconstruction":True,"strict_as_of":MATCH["kickoff"],"model_sources":{"flashscore_xg":{"home":hx,"away":ax},"espn_elo":{"home":he,"away":ae}}},
+            context={**inputs["context"],"historical_reconstruction":True,"strict_as_of":MATCH["kickoff"],"model_sources":{"flashscore_xg":{"home":hx,"away":ax},"flashscore_elo":{"home":he,"away":ae}}},
             ledger_path="ledger/fenerbahce_goztepe_pre.jsonl",
         )
     report={
