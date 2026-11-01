@@ -26,3 +26,8 @@ def test_flashscore_profile_uses_metadata_not_hardcoded_country(monkeypatch):
     monkeypatch.setattr(resolver.client,"team_results",lambda team_id,page=1:R());out=resolver.profile("Ajax","Eredivisie",datetime(2026,10,31,tzinfo=timezone.utc));assert out is not None;assert out["country"]=="Netherlands";assert out["name"]=="Eredivisie";assert out["link"].endswith("/eredivisie/")
 
 def test_text_similarity_handles_accents_and_formatting():assert text_similarity("Türkiye Süper Lig","Turkey Super Lig")>.45
+
+
+def test_flashscore_country_from_verified_tournament_link():
+    assert flashscore_country_from_link("https://www.flashscore.com/football/spain/laliga/")=="Spain"
+    assert flashscore_country_from_link("https://www.flashscore.com/football/turkey/super-lig/")=="Turkey"
