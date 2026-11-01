@@ -37,7 +37,7 @@ def _walk_events(x:Any)->list[dict[str,Any]]:
                     team=c.get("team") if isinstance(c.get("team"),dict) else c;name=team.get("displayName") or team.get("name") or team.get("shortDisplayName");side=c.get("homeAway") or c.get("alignment")
                     if side=="home":home=name
                     elif side=="away":away=name
-        if home and away:out.append({"id":x.get("id") or x.get("eventId") or x.get("matchId") or x.get("matchupId"),"home":home,"away":away,"kickoff":x.get("date") or x.get("startTime") or x.get("start") or x.get("utcTime"),"raw":x})
+        if home and away:out.append({"id":x.get("id") or x.get("eventId") or x.get("matchId") or x.get("matchupId"),"home":home,"away":away,"kickoff":x.get("start_time") or x.get("startTime") or x.get("utcTime") or x.get("start") or x.get("date"),"raw":x})
         for v in x.values():out.extend(_walk_events(v))
     elif isinstance(x,list):
         for v in x:out.extend(_walk_events(v))
