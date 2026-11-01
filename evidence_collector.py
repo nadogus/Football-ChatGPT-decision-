@@ -19,9 +19,11 @@ def collect_match_evidence(*,match:dict[str,Any],provider_ids:dict[str,Any]|None
             if label=="odds" and r.ok:quotes.extend(normalize_decimal_quotes(r.data,"flashscore"))
     else:evidence.append(_gap("flashscore","FLASHSCORE_MATCH_ID_MISSING"))
     effective_pinnacle_league_id=pinnacle_league_id or ids.get("pinnacle_league_id")
-    if effective_pinnacle_league_id is not None:
+    if effective_pinnacle_league_id is not None and ids.get("pinnacle_matchup_id"):
         r=PinnaclePrematchClient().odds(int(effective_pinnacle_league_id),ids.get("pinnacle_matchup_id"));evidence.append(_result(r))
         if r.ok:quotes.extend(normalize_decimal_quotes(r.data,"pinnacle"))
+    elif effective_pinnacle_league_id is not None:
+        evidence.append(_gap("pinnacle","PINNACLE_MATCHUP_ID_MISSING"))
     else:evidence.append(_gap("pinnacle","PINNACLE_LEAGUE_ID_MISSING"))
     gaps=[{"source":x["source"],"reason":x.get("error") or "UNKNOWN"} for x in evidence if not x.get("ok")];successful=[x["source"] for x in evidence if x.get("ok")]
     return {"collector_version":COLLECTOR_VERSION,"collected_at":datetime.now(timezone.utc).isoformat(),"match":match,"provider_ids":ids,"resolution":resolution or {},"source_results":evidence,"lineup_evidence":lineup_evidence,"odds_payload":{"primary_source":"flashscore+pinnacle","observed_at":datetime.now(timezone.utc).isoformat(),"quotes":quotes},"collection_status":{"successful_sources":sorted(set(successful)),"gaps":gaps,"quote_count":len(quotes),"lineup_source_count":len(lineup_evidence)}}
