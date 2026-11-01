@@ -1,4 +1,4 @@
-from fixture_resolver import fixture_score, best_fixture
+from fixture_resolver import fixture_score, best_fixture, _walk_events
 
 
 def test_exact_fixture_resolves():
@@ -11,6 +11,18 @@ def test_exact_fixture_resolves():
     assert r["resolved"] is True
     assert r["id"]=="123"
     assert r["score"] >= 0.86
+
+
+def test_flashscore_prefers_precise_start_time_over_date():
+    payload=[{
+        "id":"abc",
+        "home":{"name":"Liverpool"},
+        "away":{"name":"Arsenal"},
+        "date":"2026-11-01",
+        "start_time":"2026-11-01T16:30:00Z",
+    }]
+    rows=_walk_events(payload)
+    assert rows[0]["kickoff"]=="2026-11-01T16:30:00Z"
 
 
 def test_ambiguous_fixture_fails_closed():
