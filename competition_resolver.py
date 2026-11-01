@@ -115,7 +115,12 @@ def pinnacle_catalog_match(profile:dict[str,Any],rows:list[dict[str,Any]],thresh
         total=.72*name_score+.28*country_score
         if norm(country) and norm(group)==norm(country):total+=.12
         if tokens(comp) and tokens(comp)<=tokens(name):total+=.08
-        scored.append((min(total,1.0),row))
+        requested_terms=tokens(str(comp)+" "+str(display))
+        catalog_terms=tokens(name)
+        variant_terms={"women","woman","womens","u17","u18","u19","u20","u21","u23","reserve","reserves","youth"}
+        extra_variants=(catalog_terms & variant_terms)-(requested_terms & variant_terms)
+        if extra_variants:total-=.22
+        scored.append((max(0.0,min(total,1.0)),row))
     scored.sort(key=lambda z:z[0],reverse=True)
     if not scored:return {"resolved":False,"reason":"NO_CATALOG_CANDIDATES"}
     top_s,top=scored[0];second=scored[1][0] if len(scored)>1 else 0.0
