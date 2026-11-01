@@ -112,24 +112,33 @@ class PinnaclePrematchClient:
             return AdapterResult("pinnacle",isinstance(rows,list) and bool(rows),rows,None if isinstance(rows,list) and rows else "NO_LEAGUES")
         except Exception as e:return AdapterResult("pinnacle",False,[],f"{type(e).__name__}: {e}")
     def discover_league_id(self,competition:str,country:str|None=None,sport_id:int=29)->int|None:
+        """Backward-compatible generic catalog lookup.
+
+        New runtime resolution uses competition_resolver.py, but this method remains
+        league-agnostic for callers that still use the adapter directly.
+        """
+        from difflib import SequenceMatcher
+        import re, unicodedata
         r=self.leagues(sport_id)
         if not r.ok:return None
         def norm(x):
-            import re
-            return re.sub(r"[^a-z0-9]+"," ",str(x or "").lower()).strip()
+            s=unicodedata.normalize("NFKD",str(x or "")).encode("ascii","ignore").decode("ascii").lower()
+            return " ".join(re.sub(r"[^a-z0-9]+"," ",s).split())
         comp=norm(competition);cty=norm(country)
-        aliases={"super lig":{"super league","super lig"},"premier league":{"premier league"}}
-        wanted=aliases.get(comp,{comp})
         scored=[]
         for row in r.data:
             name=norm(row.get("name"));group=norm(row.get("group"))
-            score=0
-            if cty and group==cty:score+=3
-            if any(w and w in name for w in wanted):score+=4
-            if comp and comp in name:score+=3
-            if score:scored.append((score,row))
-        scored.sort(key=lambda z:(z[0],-(z[1].get("sequence") or 999)),reverse=True)
-        return int(scored[0][1]["id"]) if scored else None
+            if not name:continue
+            name_score=SequenceMatcher(None,comp,name).ratio() if comp else 0.0
+            if comp and comp in name:name_score=max(name_score,.90)
+            country_score=1.0 if cty and group==cty else (SequenceMatcher(None,cty,group).ratio() if cty and group else 0.0)
+            score=.75*name_score+.25*country_score
+            if cty and group==cty:score+=.10
+            scored.append((min(score,1.0),row))
+        scored.sort(key=lambda z:z[0],reverse=True)
+        if not scored or scored[0][0]<.68:return None
+        if len(scored)>1 and scored[0][0]-scored[1][0]<.06:return None
+        return int(scored[0][1]["id"])
     def odds(self,league_id:int,matchup_id:int|None=None)->AdapterResult:
         try:
             headers=self._headers();ms=_json(f"{self.BASE}/leagues/{int(league_id)}/matchups?brandId=0",headers=headers);mk=_json(f"{self.BASE}/leagues/{int(league_id)}/markets/straight?primaryOnly=false",headers=headers);now=datetime.now(timezone.utc);matchups={}
