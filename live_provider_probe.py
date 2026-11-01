@@ -2,7 +2,7 @@
 Evidence-only: validates provider reachability/resolution, never betting decisions.
 """
 from __future__ import annotations
-import json, os
+import json
 from datetime import datetime, timezone
 from fixture_resolver import resolve_flashscore, resolve_pinnacle
 
@@ -21,14 +21,10 @@ report={
     "generated_at":datetime.now(timezone.utc).isoformat(),
     "match":MATCH,
     "flashscore":flash,
-    "pinnacle":{
-        **pinnacle,
-        "credential_configured":bool(os.getenv("PINNACLE_GUEST_API_KEY")),
-    },
+    "pinnacle":pinnacle,
 }
 with open("LIVE_PROVIDER_PROBE.json","w",encoding="utf-8") as f:
     json.dump(report,f,ensure_ascii=False,indent=2)
-
 print(json.dumps(report,ensure_ascii=False,indent=2))
-if not flash.get("resolved"):
-    raise SystemExit("FLASH_SCORE_FIXTURE_NOT_RESOLVED")
+if not flash.get("resolved"):raise SystemExit("FLASHSCORE_FIXTURE_NOT_RESOLVED")
+if not pinnacle.get("resolved"):raise SystemExit("PINNACLE_FIXTURE_NOT_RESOLVED")
