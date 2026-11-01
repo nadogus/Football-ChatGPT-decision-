@@ -4,17 +4,15 @@ Collects external evidence and normalizes it for the deterministic evidence engi
 It NEVER assigns PLAY/WATCH/PASS. Missing providers are returned as explicit gaps.
 """
 from __future__ import annotations
-from dataclasses import asdict
 from datetime import datetime, timezone
 from typing import Any
-import os
 
 from data_adapters import (
     AdapterResult, ESPNLineupClient, FotMobLineupClient, FlashscoreClient,
     PinnaclePrematchClient, OddsHarvesterClient, normalize_decimal_quotes,
 )
 
-COLLECTOR_VERSION = "EVIDENCE_COLLECTOR_V1.0"
+COLLECTOR_VERSION = "EVIDENCE_COLLECTOR_V1.1"
 
 
 def _result(r: AdapterResult) -> dict[str, Any]:
@@ -27,18 +25,13 @@ def _gap(source: str, reason: str) -> dict[str, Any]:
 
 def collect_match_evidence(*, match: dict[str, Any], provider_ids: dict[str, Any] | None = None,
                            pinnacle_league_id: int | None = None, date_yyyymmdd: str | None = None,
-                           odds_league: str | None = None) -> dict[str, Any]:
-    """Collect every configured source independently; never hide a failure.
-
-    provider_ids may contain: espn_league_slug, espn_event_id, fotmob_match_id,
-    flashscore_match_id, pinnacle_matchup_id.
-    """
+                           odds_league: str | None = None, resolution: dict[str, Any] | None = None) -> dict[str, Any]:
+    """Collect every configured source independently; never hide a failure."""
     ids = provider_ids or {}
     evidence: list[dict[str, Any]] = []
     quotes: list[dict[str, Any]] = []
     lineup_evidence: list[dict[str, Any]] = []
 
-    # ESPN match/lineup context
     if ids.get("espn_league_slug") and ids.get("espn_event_id"):
         r = ESPNLineupClient().summary(str(ids["espn_league_slug"]), str(ids["espn_event_id"]))
         evidence.append(_result(r))
@@ -47,7 +40,6 @@ def collect_match_evidence(*, match: dict[str, Any], provider_ids: dict[str, Any
     else:
         evidence.append(_gap("espn", "ESPN_PROVIDER_IDS_MISSING"))
 
-    # FotMob match/lineup context
     if ids.get("fotmob_match_id"):
         r = FotMobLineupClient().match_details(str(ids["fotmob_match_id"]))
         evidence.append(_result(r))
@@ -56,7 +48,6 @@ def collect_match_evidence(*, match: dict[str, Any], provider_ids: dict[str, Any
     else:
         evidence.append(_gap("fotmob", "FOTMOB_MATCH_ID_MISSING"))
 
-    # Flashscore details / lineup / odds when a configured bridge exists.
     if ids.get("flashscore_match_id"):
         fs = FlashscoreClient()
         for label, r in (("details", fs.details(str(ids["flashscore_match_id"]))),
@@ -68,29 +59,34 @@ def collect_match_evidence(*, match: dict[str, Any], provider_ids: dict[str, Any
     else:
         evidence.append(_gap("flashscore", "FLASHSCORE_MATCH_ID_MISSING"))
 
-    # Pinnacle prices when configured.
     if pinnacle_league_id is not None:
         r = PinnaclePrematchClient().odds(int(pinnacle_league_id), ids.get("pinnacle_matchup_id"))
         evidence.append(_result(r))
-        if r.ok: quotes.extend(normalize_decimal_quotes(r.data, "pinnacle"))
+        if r.ok:
+            quotes.extend(normalize_decimal_quotes(r.data, "pinnacle"))
     else:
         evidence.append(_gap("pinnacle", "PINNACLE_LEAGUE_ID_MISSING"))
 
-    # OddsHarvester provides a second independent odds path when installed.
     if date_yyyymmdd:
         r = OddsHarvesterClient().upcoming(date_yyyymmdd, league=odds_league)
         evidence.append(_result(r))
-        if r.ok: quotes.extend(normalize_decimal_quotes(r.data, "oddsharvester"))
+        if r.ok:
+            rows = r.data
+            event_id = ids.get("oddsharvester_event_id")
+            if event_id is not None:
+                rows = [x for x in rows if str(x.get("id") or x.get("event_id") or x.get("match_id")) == str(event_id)]
+            quotes.extend(normalize_decimal_quotes(rows, "oddsharvester"))
     else:
         evidence.append(_gap("oddsharvester", "MATCH_DATE_MISSING"))
 
-    # Preserve all source failures. ChatGPT must see what was unavailable.
     gaps = [{"source": x["source"], "reason": x.get("error") or "UNKNOWN"} for x in evidence if not x.get("ok")]
     successful = [x["source"] for x in evidence if x.get("ok")]
     return {
         "collector_version": COLLECTOR_VERSION,
         "collected_at": datetime.now(timezone.utc).isoformat(),
         "match": match,
+        "provider_ids": ids,
+        "resolution": resolution or {},
         "source_results": evidence,
         "lineup_evidence": lineup_evidence,
         "odds_payload": {
@@ -107,14 +103,38 @@ def collect_match_evidence(*, match: dict[str, Any], provider_ids: dict[str, Any
     }
 
 
+def collect_match_evidence_auto(*, match: dict[str, Any], espn_league_slug: str | None = None,
+                                fotmob_league_id: int | None = None, pinnacle_league_id: int | None = None,
+                                date_yyyymmdd: str | None = None, odds_league: str | None = None) -> dict[str, Any]:
+    """Resolve provider IDs first, then collect evidence using only resolved IDs."""
+    from fixture_resolver import resolve_provider_ids
+    resolution = resolve_provider_ids(
+        match=match,
+        espn_league_slug=espn_league_slug,
+        fotmob_league_id=fotmob_league_id,
+        pinnacle_league_id=pinnacle_league_id,
+        date_yyyymmdd=date_yyyymmdd,
+        odds_league=odds_league,
+    )
+    return collect_match_evidence(
+        match=match,
+        provider_ids=resolution.get("resolved_ids", {}),
+        pinnacle_league_id=pinnacle_league_id,
+        date_yyyymmdd=date_yyyymmdd,
+        odds_league=odds_league,
+        resolution=resolution,
+    )
+
+
 def packet_inputs(collection: dict[str, Any]) -> dict[str, Any]:
-    """Convert collector output to build_runtime_packet-compatible inputs."""
     source_payloads = []
     for x in collection.get("source_results", []):
         if x.get("ok"):
             source_payloads.append({"source": x["source"], "observed_at": x.get("observed_at"), "data": x.get("data", {})})
     context = {
         "collector_version": collection.get("collector_version"),
+        "provider_ids": collection.get("provider_ids", {}),
+        "fixture_resolution": collection.get("resolution", {}),
         "collection_status": collection.get("collection_status", {}),
         "lineup_evidence": collection.get("lineup_evidence", []),
     }
