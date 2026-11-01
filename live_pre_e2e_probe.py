@@ -8,7 +8,7 @@ from __future__ import annotations
 import json
 from datetime import datetime, timezone
 from evidence_collector import collect_match_evidence_auto, packet_inputs
-from public_sources import UnderstatClient, ClubEloClient, SofaScoreClient
+from public_sources import UnderstatClient, ClubEloClient
 
 MATCH={
     "home":"Liverpool",
@@ -17,7 +17,6 @@ MATCH={
     "competition":"English Premier League",
 }
 SEASON=2026
-SOFASCORE_PREMIER_LEAGUE_ID=17
 
 def main():
     collection=collect_match_evidence_auto(
@@ -68,25 +67,26 @@ def main():
 
     if not clubelo_ok:
         try:
-            sofa=SofaScoreClient()
-            ratings=sofa.computed_elo(SOFASCORE_PREMIER_LEAGUE_ID,as_of=as_of)
+            ratings=u.computed_elo("EPL",SEASON,as_of=as_of)
+            if not ratings:
+                ratings=u.computed_elo("EPL",SEASON-1,as_of=as_of)
             home=ratings.get("Liverpool")
             away=ratings.get("Arsenal")
-            model_sources["sofascore_elo"]={
+            model_sources["understat_elo"]={
                 "home":home,
                 "away":away,
-                "unique_tournament_id":SOFASCORE_PREMIER_LEAGUE_ID,
-                "method":"deterministic_current_season_elo",
+                "league":"EPL",
+                "method":"deterministic_result_elo",
                 "clubelo_unavailable":True,
             }
             if home is not None and away is not None:
                 model_inputs["home_elo"]=home
                 model_inputs["away_elo"]=away
-                model_source_payloads.append({"source":"sofascore","observed_at":observed_at,"data":model_sources["sofascore_elo"]})
+                model_source_payloads.append({"source":"understat","observed_at":observed_at,"data":model_sources["understat_elo"]})
             else:
-                gaps.append("ELO_UNAVAILABLE_CLUBELO_AND_SOFASCORE")
+                gaps.append("ELO_UNAVAILABLE_CLUBELO_AND_UNDERSTAT")
         except Exception as e:
-            gaps.append(f"SOFASCORE_ELO_ERROR:{type(e).__name__}")
+            gaps.append(f"UNDERSTAT_ELO_ERROR:{type(e).__name__}")
 
     quote_count=len(inputs.get("odds_payload",{}).get("quotes",[]))
     required_ok=all(v is not None for v in model_inputs.values()) and quote_count>0
