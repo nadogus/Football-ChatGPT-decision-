@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "engine_version": "evidence-v1.1",
+  "generated_at": "2026-10-31T20:00:00-05:00",
+  "match": {
+    "match_id": "EPL-2026-11-01-LIV-ARS",
+    "home": "Liverpool",
+    "away": "Arsenal",
+    "competition": "Premier League",
+    "kickoff": "2026-11-01T16:30:00Z"
+  },
+  "stage": "PRE",
+  "integrity": {
+    "data_quality": 0.74,
+    "league_coverage": 1.0,
+    "flags": ["OFFICIAL_XI_PENDING", "INJURY_STATUS_UNCERTAINTY"]
+  },
+  "source_evidence": [
+    {"source":"xg.football/xgEdge","fresh":true,"role":"season_xg_context"},
+    {"source":"Liverpool FC team news","fresh":true,"role":"availability"},
+    {"source":"multi-book odds comparison","fresh":true,"role":"market"},
+    {"source":"Pinnacle odds history","fresh":true,"role":"market_movement"}
+  ],
+  "models": {
+    "individual": {
+      "xg_strength_context": {"HOME":0.33,"DRAW":0.26,"AWAY":0.41},
+      "market_de_vig_reference": {"HOME":0.3302,"DRAW":0.2812,"AWAY":0.3886}
+    },
+    "ensemble": {"HOME":0.335,"DRAW":0.26,"AWAY":0.405},
+    "model_agreement": 0.68
+  },
+  "market": {
+    "pinnacle_1x2": {"HOME":2.93,"DRAW":3.44,"AWAY":2.49},
+    "candidates": [
+      {"market":"1X2","selection":"AWAY","model_probability":0.405,"fair_odds":2.4691,"best_odds":2.49,"edge_pp":0.0034,"ev":0.0085,"correlation_family":"AWAY_SIDE"},
+      {"market":"1X2","selection":"HOME","model_probability":0.335,"fair_odds":2.9851,"best_odds":2.93,"edge_pp":-0.0063,"ev":-0.0185,"correlation_family":"HOME_SIDE"}
+    ]
+  },
+  "xi": {"official_verified": false},
+  "context": {
+    "arsenal_underlying_edge": true,
+    "home_advantage": "Liverpool at Anfield",
+    "notable_absences": {
+      "Liverpool": ["Hugo Ekitike","Jeremie Frimpong","Conor Bradley","Giovanni Leoni"],
+      "Arsenal": ["Bukayo Saka","William Saliba","Max Dowman"]
+    },
+    "doubts": {
+      "Liverpool": ["Dominik Szoboszlai","Victor Munoz"],
+      "Arsenal": ["Declan Rice","Riccardo Calafiori","Noni Madueke","Christos Tzolis"]
+    }
+  },
+  "decision_authority": "CHATGPT_ONLY",
+  "production_decision": null,
+  "warnings": ["OFFICIAL_XI_PENDING","PRICE_ALREADY_REFLECTS_ARSENAL_STRENGTH","AVAILABILITY_UNCERTAINTY"]
+}
