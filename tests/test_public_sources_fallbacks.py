@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from public_sources import ClubEloClient, UnderstatClient, SofaScoreClient
+from public_sources import ClubEloClient, UnderstatClient
 
 def test_clubelo_web_history_parser_reads_vega_rows():
     html='''<script>vegaJson = {"data":{"values":[{"Date":"2026-10-30","Elo":1888.5},{"Date":"2026-10-31","Elo":1891.2}]}};</script>'''
@@ -23,29 +23,13 @@ def test_understat_ajax_team_summary_current_shape(monkeypatch):
     assert round(out["xg_against"],2)==1.25
     assert out["source"]=="understat_ajax"
 
-def test_sofascore_computed_elo_from_finished_events(monkeypatch):
-    client=SofaScoreClient()
-    monkeypatch.setattr(client,"season_id_for_date",lambda tournament_id,as_of:999)
-    events=[
-        {
-            "startTimestamp":1793500000,
-            "status":{"type":"finished"},
-            "homeTeam":{"name":"Liverpool"},
-            "awayTeam":{"name":"Arsenal"},
-            "homeScore":{"current":2},
-            "awayScore":{"current":0},
-        },
-        {
-            "startTimestamp":1793600000,
-            "status":{"type":"finished"},
-            "homeTeam":{"name":"Arsenal"},
-            "awayTeam":{"name":"Chelsea"},
-            "homeScore":{"current":1},
-            "awayScore":{"current":0},
-        },
-    ]
-    monkeypatch.setattr(client,"season_events",lambda tournament_id,season_id:events)
-    ratings=client.computed_elo(17,datetime(2026,11,2,tzinfo=timezone.utc))
-    assert "Liverpool" in ratings
-    assert "Arsenal" in ratings
+def test_understat_computed_elo_from_league_dates(monkeypatch):
+    client=UnderstatClient()
+    payload={"dates":[
+        {"isResult":True,"datetime":"2026-09-01T15:00:00Z","h":{"title":"Liverpool"},"a":{"title":"Arsenal"},"goals":{"h":"2","a":"0"}},
+        {"isResult":True,"datetime":"2026-09-08T15:00:00Z","h":{"title":"Arsenal"},"a":{"title":"Chelsea"},"goals":{"h":"1","a":"0"}},
+    ]}
+    monkeypatch.setattr(client,"league_data",lambda league,season:payload)
+    ratings=client.computed_elo("EPL",2026,datetime(2026,11,1,tzinfo=timezone.utc))
+    assert "Liverpool" in ratings and "Arsenal" in ratings
     assert ratings["Liverpool"]>1500
