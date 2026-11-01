@@ -1,5 +1,5 @@
 from datetime import datetime,timezone
-from competition_resolver import FlashscoreCompetitionResolver,pinnacle_catalog_match,text_similarity
+from competition_resolver import FlashscoreCompetitionResolver,pinnacle_catalog_match,text_similarity,flashscore_country_from_link
 
 def test_catalog_match_generalizes_across_major_leagues():
     rows=[{"id":1001,"name":"Spain - La Liga","group":"Spain","sequence":1},{"id":1002,"name":"Italy - Serie A","group":"Italy","sequence":1},{"id":1003,"name":"Germany - Bundesliga","group":"Germany","sequence":1},{"id":1004,"name":"France - Ligue 1","group":"France","sequence":1},{"id":1005,"name":"Netherlands - Eredivisie","group":"Netherlands","sequence":1}]
