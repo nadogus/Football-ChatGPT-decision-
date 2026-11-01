@@ -2,7 +2,7 @@
 from __future__ import annotations
 from datetime import datetime, timezone
 from typing import Any
-import json, re, urllib.parse, urllib.request
+import gzip, json, re, urllib.parse, urllib.request
 
 UA={"User-Agent":"football-chatgpt-decision/1.0"}
 
@@ -10,7 +10,10 @@ def _text(url:str,timeout=15.0,headers:dict[str,str]|None=None)->str:
     h=dict(UA);h.update(headers or {})
     req=urllib.request.Request(url,headers=h)
     with urllib.request.urlopen(req,timeout=timeout) as r:
-        return r.read().decode("utf-8",errors="replace")
+        raw=r.read()
+        if str(r.headers.get("Content-Encoding") or "").lower()=="gzip":
+            raw=gzip.decompress(raw)
+        return raw.decode("utf-8",errors="replace")
 
 def _json(url:str,timeout=15.0,headers:dict[str,str]|None=None)->Any:
     return json.loads(_text(url,timeout,headers))
@@ -151,6 +154,40 @@ class UnderstatClient:
         except Exception:return None
     def _ajax(self,path):
         return _json(f"{self.BASE}/{path.lstrip('/')}",timeout=30.0,headers=self.AJAX_HEADERS)
+    def league_data(self,league,season):
+        slug=urllib.parse.quote(str(league))
+        data=self._ajax(f"getLeagueData/{slug}/{int(season)}")
+        return data if isinstance(data,dict) else {}
+    def computed_elo(self,league,season,as_of,base_rating=1500.0,k=24.0,home_advantage=65.0):
+        data=self.league_data(league,season)
+        rows=data.get("dates",[]) if isinstance(data,dict) else []
+        finished=[]
+        for r in rows:
+            try:
+                if r.get("isResult") is False:continue
+                raw_date=r.get("datetime") or r.get("date")
+                when=datetime.fromisoformat(str(raw_date).replace("Z","+00:00"))
+                if when.tzinfo is None:when=when.replace(tzinfo=timezone.utc)
+                if when.astimezone(timezone.utc)>as_of.astimezone(timezone.utc):continue
+                home=(r.get("h") or {}).get("title") if isinstance(r.get("h"),dict) else r.get("home")
+                away=(r.get("a") or {}).get("title") if isinstance(r.get("a"),dict) else r.get("away")
+                goals=r.get("goals") if isinstance(r.get("goals"),dict) else {}
+                hs=goals.get("h",r.get("h_goals"))
+                av=goals.get("a",r.get("a_goals"))
+                if home and away and hs is not None and av is not None:
+                    finished.append((when,home,away,float(hs),float(av)))
+            except Exception:continue
+        finished.sort(key=lambda x:x[0])
+        ratings={}
+        for _,home,away,hs,av in finished:
+            rh=ratings.get(home,base_rating);ra=ratings.get(away,base_rating)
+            expected=1/(1+10**(-((rh+home_advantage)-ra)/400))
+            actual=1.0 if hs>av else 0.0 if hs<av else 0.5
+            margin=max(1.0,abs(hs-av))
+            mult=min(1.75,1.0+0.15*(margin-1.0))
+            delta=k*mult*(actual-expected)
+            ratings[home]=rh+delta;ratings[away]=ra-delta
+        return {name:round(value,3) for name,value in ratings.items()}
     def team_history(self,team,season):
         slug=urllib.parse.quote(team.replace(" ","_"))
         try:
