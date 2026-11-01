@@ -8,7 +8,7 @@ from __future__ import annotations
 import json
 from datetime import datetime, timezone
 from evidence_collector import collect_match_evidence_auto, packet_inputs
-from public_sources import UnderstatClient, ClubEloClient
+from public_sources import UnderstatClient, ClubEloClient, SofaScoreClient
 
 MATCH={
     "home":"Liverpool",
@@ -17,6 +17,7 @@ MATCH={
     "competition":"English Premier League",
 }
 SEASON=2026
+SOFASCORE_PREMIER_LEAGUE_ID=17
 
 def main():
     collection=collect_match_evidence_auto(
@@ -28,6 +29,9 @@ def main():
     model_inputs={"home_xg":None,"away_xg":None,"home_elo":None,"away_elo":None}
     model_sources={}
     gaps=[]
+    model_source_payloads=[]
+    observed_at=datetime.now(timezone.utc).isoformat()
+
     try:
         u=UnderstatClient()
         used_season=SEASON
@@ -39,19 +43,50 @@ def main():
             ax=u.team_xg_summary("Arsenal",used_season,last_n=10)
         model_sources["understat"]={"home":hx,"away":ax,"season":used_season,"season_fallback":used_season!=SEASON}
         if hx and ax:
-            # Symmetric attack/defence blend; deterministic, not a betting decision.
             model_inputs["home_xg"]=round((float(hx["xg_for"])+float(ax["xg_against"]))/2,4)
             model_inputs["away_xg"]=round((float(ax["xg_for"])+float(hx["xg_against"]))/2,4)
-        else:gaps.append("UNDERSTAT_XG_UNAVAILABLE")
-    except Exception as e:gaps.append(f"UNDERSTAT_XG_ERROR:{type(e).__name__}")
+            model_source_payloads.append({"source":"understat","observed_at":observed_at,"data":model_sources["understat"]})
+        else:
+            gaps.append("UNDERSTAT_XG_UNAVAILABLE")
+    except Exception as e:
+        gaps.append(f"UNDERSTAT_XG_ERROR:{type(e).__name__}")
+
+    as_of=datetime.fromisoformat(MATCH["kickoff"].replace("Z","+00:00"))
+    clubelo_ok=False
     try:
         elo=ClubEloClient()
-        as_of=datetime.fromisoformat(MATCH["kickoff"].replace("Z","+00:00"))
-        model_inputs["home_elo"]=elo.latest_elo("Liverpool",as_of=as_of)
-        model_inputs["away_elo"]=elo.latest_elo("Arsenal",as_of=as_of)
-        model_sources["clubelo"]={"home":model_inputs["home_elo"],"away":model_inputs["away_elo"]}
-        if model_inputs["home_elo"] is None or model_inputs["away_elo"] is None:gaps.append("CLUBELO_UNAVAILABLE")
-    except Exception as e:gaps.append(f"CLUBELO_ERROR:{type(e).__name__}")
+        home=elo.latest_elo("Liverpool",as_of=as_of)
+        away=elo.latest_elo("Arsenal",as_of=as_of)
+        model_sources["clubelo"]={"home":home,"away":away,"status":"primary_attempt"}
+        if home is not None and away is not None:
+            model_inputs["home_elo"]=home
+            model_inputs["away_elo"]=away
+            clubelo_ok=True
+            model_source_payloads.append({"source":"clubelo","observed_at":observed_at,"data":model_sources["clubelo"]})
+    except Exception as e:
+        model_sources["clubelo"]={"home":None,"away":None,"status":f"error:{type(e).__name__}"}
+
+    if not clubelo_ok:
+        try:
+            sofa=SofaScoreClient()
+            ratings=sofa.computed_elo(SOFASCORE_PREMIER_LEAGUE_ID,as_of=as_of)
+            home=ratings.get("Liverpool")
+            away=ratings.get("Arsenal")
+            model_sources["sofascore_elo"]={
+                "home":home,
+                "away":away,
+                "unique_tournament_id":SOFASCORE_PREMIER_LEAGUE_ID,
+                "method":"deterministic_current_season_elo",
+                "clubelo_unavailable":True,
+            }
+            if home is not None and away is not None:
+                model_inputs["home_elo"]=home
+                model_inputs["away_elo"]=away
+                model_source_payloads.append({"source":"sofascore","observed_at":observed_at,"data":model_sources["sofascore_elo"]})
+            else:
+                gaps.append("ELO_UNAVAILABLE_CLUBELO_AND_SOFASCORE")
+        except Exception as e:
+            gaps.append(f"SOFASCORE_ELO_ERROR:{type(e).__name__}")
 
     quote_count=len(inputs.get("odds_payload",{}).get("quotes",[]))
     required_ok=all(v is not None for v in model_inputs.values()) and quote_count>0
@@ -62,20 +97,25 @@ def main():
             match=MATCH,
             home_xg=model_inputs["home_xg"],away_xg=model_inputs["away_xg"],
             home_elo=model_inputs["home_elo"],away_elo=model_inputs["away_elo"],
-            source_payloads=inputs["source_payloads"],odds_payload=inputs["odds_payload"],
+            source_payloads=inputs["source_payloads"]+model_source_payloads,
+            odds_payload=inputs["odds_payload"],
             context={**inputs["context"],"model_input_sources":model_sources,"real_pre_probe":True},
             ledger_path="ledger/live_pre_e2e.jsonl",
         )
     report={
-        "generated_at":datetime.now(timezone.utc).isoformat(),"match":MATCH,
+        "generated_at":datetime.now(timezone.utc).isoformat(),
+        "match":MATCH,
         "collection_status":collection.get("collection_status"),
         "resolution":collection.get("resolution"),
-        "model_inputs":model_inputs,"model_sources":model_sources,
-        "quote_count":quote_count,"gaps":gaps,
+        "model_inputs":model_inputs,
+        "model_sources":model_sources,
+        "quote_count":quote_count,
+        "gaps":gaps,
         "status":"PRE_EVIDENCE_READY" if packet else "FAIL_CLOSED_INCOMPLETE_PRE_EVIDENCE",
         "packet":packet,
     }
-    with open("LIVE_PRE_E2E.json","w",encoding="utf-8") as f:json.dump(report,f,ensure_ascii=False,indent=2)
+    with open("LIVE_PRE_E2E.json","w",encoding="utf-8") as f:
+        json.dump(report,f,ensure_ascii=False,indent=2)
     print(json.dumps(report,ensure_ascii=False,indent=2))
     if packet:
         assert packet.get("event")=="PRE_EVIDENCE_READY"
@@ -83,4 +123,5 @@ def main():
         assert packet.get("production_decision") is None
     return 0
 
-if __name__=="__main__":raise SystemExit(main())
+if __name__=="__main__":
+    raise SystemExit(main())
