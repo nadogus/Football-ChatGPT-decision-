@@ -140,7 +140,8 @@ class UnderstatClient:
         "User-Agent":"Mozilla/5.0",
         "X-Requested-With":"XMLHttpRequest",
         "Referer":"https://understat.com/",
-        "Accept":"application/json, text/javascript, */*; q=0.01",\n        "Accept-Encoding":"identity",
+        "Accept":"application/json, text/javascript, */*; q=0.01",
+        "Accept-Encoding":"identity",
     }
     @staticmethod
     def _decode(html,var_name):
