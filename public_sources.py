@@ -91,6 +91,58 @@ class FlashscoreModelClient:
             if len(rows)>=last_n:break
         if not rows:return None
         return {"xg_for":sum(x[0] for x in rows)/len(rows),"xg_against":sum(x[1] for x in rows)/len(rows),"matches":len(rows),"match_ids":[x[2] for x in rows],"source":"flashscore_match_statistics"}
+    def competition_ref(self,team,competition,as_of):
+        tid=self.team_id(team)
+        if not tid:return None
+        r=self.client.team_results(tid,page=1)
+        if not r.ok:return None
+        candidates=[]
+        for b in self._competition_blocks(r.data):
+            comp=b.get("competition") or {}
+            if self._norm(comp.get("name"))!=self._norm(competition):continue
+            ref_id=comp.get("id");stage=comp.get("stage_id")
+            if not ref_id or not stage:continue
+            latest=None
+            for m in b.get("matches",[]) or []:
+                try:
+                    when=datetime.fromisoformat(str(m.get("start_time")).replace("Z","+00:00"))
+                    if when<as_of and (latest is None or when>latest):latest=when
+                except Exception:pass
+            if latest:candidates.append((latest,f"{ref_id}:{stage}"))
+        candidates.sort(key=lambda z:z[0],reverse=True)
+        return candidates[0][1] if candidates else None
+    def computed_elo(self,team_seed,competition,as_of,base_rating=1500.0,k=24.0,home_advantage=65.0,max_pages=3):
+        ref=self.competition_ref(team_seed,competition,as_of)
+        if not ref:return {}
+        matches=[];seen=set()
+        for page in range(1,max_pages+1):
+            r=self.client.tournament_results(ref,page=page)
+            if not r.ok:break
+            rows=r.data.get("matches",[]) if isinstance(r.data,dict) else []
+            if not rows:break
+            for m in rows:
+                mid=str(m.get("id") or "")
+                if mid and mid not in seen:seen.add(mid);matches.append(m)
+            pag=r.data.get("pagination") or {}
+            if not pag.get("next") and page>=int(pag.get("total_pages") or page):break
+        finished=[]
+        for m in matches:
+            try:
+                when=datetime.fromisoformat(str(m.get("start_time")).replace("Z","+00:00"))
+                if when>=as_of or str(m.get("status") or "").lower()!="finished":continue
+                home=(m.get("home") or {}).get("name");away=(m.get("away") or {}).get("name")
+                hs=m.get("home_score");av=m.get("away_score")
+                if home and away and hs is not None and av is not None:finished.append((when,home,away,float(hs),float(av)))
+            except Exception:continue
+        finished.sort(key=lambda x:x[0]);ratings={}
+        for _,home,away,hs,av in finished:
+            rh=ratings.get(home,base_rating);ra=ratings.get(away,base_rating)
+            expected=1/(1+10**(-((rh+home_advantage)-ra)/400))
+            actual=1.0 if hs>av else 0.0 if hs<av else 0.5
+            margin=max(1.0,abs(hs-av));mult=min(1.75,1.0+0.15*(margin-1.0))
+            delta=k*mult*(actual-expected)
+            ratings[home]=rh+delta;ratings[away]=ra-delta
+        return {name:round(value,3) for name,value in ratings.items()}
 
 class ESPNLeagueModelClient:
     BASE="https://site.api.espn.com/apis/site/v2/sports/soccer"
