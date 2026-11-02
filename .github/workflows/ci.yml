@@ -6,7 +6,6 @@ jobs:
     timeout-minutes: 15
     env:
       FLASHSCORE_API_BASE: http://127.0.0.1:8001
-      PINNACLE_GUEST_API_KEY: ${{ secrets.PINNACLE_GUEST_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,7 +23,7 @@ jobs:
           done
           cat /tmp/flashscore.log || true
           exit 1
-      - run: python -m py_compile football_evidence_engine.py data_adapters.py competition_resolver.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py live_provider_probe.py live_xi_probe.py live_pre_e2e_probe.py live_fenerbahce_goztepe_pre.py live_barcelona_alaves_pre.py live_laliga_pinnacle_probe.py live_union_koln_pre.py
+      - run: python -m py_compile football_evidence_engine.py data_adapters.py competition_resolver.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py live_provider_probe.py live_xi_probe.py live_pre_e2e_probe.py live_fenerbahce_goztepe_pre.py live_barcelona_alaves_pre.py live_union_koln_pre.py
       - run: python football_evidence_engine.py
       - run: python match_runner.py
       - run: pip install pytest
@@ -33,8 +32,6 @@ jobs:
         run: python live_union_koln_pre.py
       - name: Barcelona-Alaves historical PRE reconstruction
         run: python live_barcelona_alaves_pre.py
-      - name: Live LaLiga Pinnacle capability probe
-        run: python live_laliga_pinnacle_probe.py
       - name: Historical Fenerbahce-Goztepe PRE reconstruction
         run: python live_fenerbahce_goztepe_pre.py
       - name: Real Liverpool-Arsenal PRE end-to-end probe
@@ -53,7 +50,6 @@ jobs:
             UNION_KOLN_PRE.json
             ledger/union_koln_pre.jsonl
             BARCELONA_ALAVES_PRE.json
-            LALIGA_PINNACLE_LIVE.json
             ledger/barcelona_alaves_pre.jsonl
             LIVE_PROVIDER_PROBE.json
             LIVE_XI_PROBE.json
