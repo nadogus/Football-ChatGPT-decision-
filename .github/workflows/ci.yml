@@ -23,7 +23,7 @@ jobs:
           done
           cat /tmp/flashscore.log || true
           exit 1
-      - run: python -m py_compile football_evidence_engine.py data_adapters.py competition_resolver.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py live_provider_probe.py live_xi_probe.py live_pre_e2e_probe.py live_fenerbahce_goztepe_pre.py live_barcelona_alaves_pre.py live_union_koln_pre.py live_roma_sassuolo_pre.py
+      - run: python -m py_compile football_evidence_engine.py data_adapters.py competition_resolver.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py live_provider_probe.py live_xi_probe.py live_pre_e2e_probe.py live_fenerbahce_goztepe_pre.py live_barcelona_alaves_pre.py live_union_koln_pre.py live_roma_sassuolo_pre.py live_atalanta_parma_pre.py
       - run: python football_evidence_engine.py
       - run: python match_runner.py
       - run: pip install pytest
@@ -34,6 +34,8 @@ jobs:
         run: python live_barcelona_alaves_pre.py
       - name: Roma-Sassuolo Serie A PRE probe
         run: python live_roma_sassuolo_pre.py
+      - name: Atalanta-Parma Serie A historical PRE probe
+        run: python live_atalanta_parma_pre.py
       - name: Historical Fenerbahce-Goztepe PRE reconstruction
         run: python live_fenerbahce_goztepe_pre.py
       - name: Real Liverpool-Arsenal PRE end-to-end probe
@@ -55,6 +57,8 @@ jobs:
             ledger/barcelona_alaves_pre.jsonl
             ROMA_SASSUOLO_PRE.json
             ledger/roma_sassuolo_pre.jsonl
+            ATALANTA_PARMA_PRE.json
+            ledger/atalanta_parma_pre.jsonl
             LIVE_PROVIDER_PROBE.json
             LIVE_XI_PROBE.json
             LIVE_PRE_E2E.json
