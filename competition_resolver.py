@@ -94,13 +94,13 @@ def pinnacle_catalog_match(profile:dict[str,Any],rows:list[dict[str,Any]],thresh
         requested_text=norm(str(comp)+" "+str(display));catalog_text=norm(name)
         variant_patterns=(r"\bwomen(?:s)?\b",r"\bwoman\b",r"\bu\s*1[789]\b",r"\bu\s*2[013]\b",r"\breserves?\b",r"\byouth\b")
         if any(re.search(p,catalog_text) and not re.search(p,requested_text) for p in variant_patterns):total-=.22
-        scored.append((max(0.0,min(total,1.0)),row))
+        # Keep the raw ranking score here. Some exact senior-league matches legitimately\n        # exceed 1.0 after country/subset bonuses; clamping before ranking can erase\n        # the separation created by youth/women/reserve penalties and produce false\n        # ambiguity (e.g. Bundesliga vs Bundesliga U19). Clamp only when reporting.\n        scored.append((max(0.0,total),row))
     scored.sort(key=lambda z:z[0],reverse=True)
     if not scored:return {"resolved":False,"reason":"NO_CATALOG_CANDIDATES"}
     top_s,top=scored[0];second=scored[1][0] if len(scored)>1 else 0.0
-    if top_s<threshold:return {"resolved":False,"reason":"LOW_LEAGUE_SCORE","top_score":round(top_s,6)}
-    if len(scored)>1 and top_s-second<margin:return {"resolved":False,"reason":"AMBIGUOUS_LEAGUE","top_score":round(top_s,6),"second_score":round(second,6),"top_candidate":{"id":top.get("id"),"name":top.get("name"),"group":top.get("group")},"second_candidate":{"id":scored[1][1].get("id"),"name":scored[1][1].get("name"),"group":scored[1][1].get("group")}}
-    return {"resolved":True,"league_id":int(top["id"]),"score":round(top_s,6),"catalog_name":top.get("name"),"catalog_group":top.get("group")}
+    if top_s<threshold:return {"resolved":False,"reason":"LOW_LEAGUE_SCORE","top_score":round(min(top_s,1.0),6)}
+    if len(scored)>1 and top_s-second<margin:return {"resolved":False,"reason":"AMBIGUOUS_LEAGUE","top_score":round(min(top_s,1.0),6),"second_score":round(min(second,1.0),6),"top_candidate":{"id":top.get("id"),"name":top.get("name"),"group":top.get("group")},"second_candidate":{"id":scored[1][1].get("id"),"name":scored[1][1].get("name"),"group":scored[1][1].get("group")}}
+    return {"resolved":True,"league_id":int(top["id"]),"score":round(min(top_s,1.0),6),"catalog_name":top.get("name"),"catalog_group":top.get("group")}
 
 def resolve_pinnacle_league(profile:dict[str,Any],client:PinnaclePrematchClient|None=None)->dict[str,Any]:
     client=client or PinnaclePrematchClient();r=client.leagues(29)
