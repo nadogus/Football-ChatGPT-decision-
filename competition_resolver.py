@@ -94,7 +94,9 @@ def pinnacle_catalog_match(profile:dict[str,Any],rows:list[dict[str,Any]],thresh
         requested_text=norm(str(comp)+" "+str(display));catalog_text=norm(name)
         variant_patterns=(r"\bwomen(?:s)?\b",r"\bwoman\b",r"\bu\s*1[789]\b",r"\bu\s*2[013]\b",r"\breserves?\b",r"\byouth\b")
         if any(re.search(p,catalog_text) and not re.search(p,requested_text) for p in variant_patterns):total-=.22
-        # Keep the raw ranking score here. Some exact senior-league matches legitimately\n        # exceed 1.0 after country/subset bonuses; clamping before ranking can erase\n        # the separation created by youth/women/reserve penalties and produce false\n        # ambiguity (e.g. Bundesliga vs Bundesliga U19). Clamp only when reporting.\n        scored.append((max(0.0,total),row))
+        # Keep the raw ranking score here. Exact senior-league matches can exceed 1.0
+        # after bonuses; clamping before ranking would erase variant penalties.
+        scored.append((max(0.0,total),row))
     scored.sort(key=lambda z:z[0],reverse=True)
     if not scored:return {"resolved":False,"reason":"NO_CATALOG_CANDIDATES"}
     top_s,top=scored[0];second=scored[1][0] if len(scored)>1 else 0.0
