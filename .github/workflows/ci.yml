@@ -1,64 +1,19 @@
 name: evidence-engine-ci
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    paths-ignore: ["daily/**", "ledger/**", "decisions/**"]
+  pull_request:
+  workflow_dispatch:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    env:
-      FLASHSCORE_API_BASE: http://127.0.0.1:8001
-      PINNACLE_GUEST_API_KEY: ${{ secrets.PINNACLE_GUEST_API_KEY }}
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Start proven Flashscore service
-        run: |
-          # pinned to a reviewed MIT-licensed commit (2026-11-04) instead of whatever master is today
-          git init -q /tmp/flashscore-scraper && git -C /tmp/flashscore-scraper remote add origin https://github.com/omkarcloud/flashscore-scraper.git
-          git -C /tmp/flashscore-scraper fetch -q --depth 1 origin af784a918fc94339fd2c8ff0fadc1da69a6139d8
-          git -C /tmp/flashscore-scraper checkout -q FETCH_HEAD
-          python -m pip install -r /tmp/flashscore-scraper/requirements.txt
-          cd /tmp/flashscore-scraper
-          PORT=8001 nohup python run.py >/tmp/flashscore.log 2>&1 &
-          for i in {1..30}; do
-            if curl -fsS "http://127.0.0.1:8001/matches?sport=football" >/tmp/flashscore_matches.json; then exit 0; fi
-            sleep 2
-          done
-          cat /tmp/flashscore.log || true
-          exit 1
-      - run: python -m py_compile football_evidence_engine.py data_adapters.py competition_resolver.py fixture_resolver.py evidence_collector.py public_sources.py source_pipeline.py build_match_packet.py post_xi_runtime.py match_runner.py ledger.py pilot_50.py live_provider_probe.py live_xi_probe.py live_pre_e2e_probe.py live_fenerbahce_goztepe_pre.py live_barcelona_alaves_pre.py live_laliga_pinnacle_probe.py
+      - run: python -m py_compile *.py
       - run: python football_evidence_engine.py
-      - run: python match_runner.py
       - run: pip install pytest
       - run: pytest -q
-      - name: Barcelona-Alaves historical PRE reconstruction
-        run: python live_barcelona_alaves_pre.py
-      - name: Live LaLiga Pinnacle capability probe
-        run: python live_laliga_pinnacle_probe.py
-      - name: Historical Fenerbahce-Goztepe PRE reconstruction
-        run: python live_fenerbahce_goztepe_pre.py
-      - name: Real Liverpool-Arsenal PRE end-to-end probe
-        run: python live_pre_e2e_probe.py
-      - name: Real Liverpool-Arsenal provider health probe
-        continue-on-error: true
-        run: python live_provider_probe.py
-      - name: Real completed-match XI probe
-        run: python live_xi_probe.py
-      - name: Upload provider probe
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: live-provider-probe
-          path: |
-            BARCELONA_ALAVES_PRE.json
-            LALIGA_PINNACLE_LIVE.json
-            ledger/barcelona_alaves_pre.jsonl
-            LIVE_PROVIDER_PROBE.json
-            LIVE_XI_PROBE.json
-            LIVE_PRE_E2E.json
-            ledger/live_pre_e2e.jsonl
-            FENERBAHCE_GOZTEPE_PRE.json
-            ledger/fenerbahce_goztepe_pre.jsonl
-            /tmp/flashscore.log
-          if-no-files-found: ignore

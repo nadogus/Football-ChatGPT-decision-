@@ -61,10 +61,11 @@ def test_packet_has_market_comparison_and_no_decision():
     p = build_evidence_packet(match={"id": "x"}, sources=[SourceDatum("flashscore", NOW, .8, 900)], league_coverage=1.0,
                               models={"dc": scoreline_markets(1.5, 1.1), "elo": elo_1x2(1650, 1600)}, quotes=quotes)
     assert p["market"]["consensus_1x2"]
-    c = {r["selection"]: r for r in p["market"]["candidates"]}
+    c = {r["selection"]: r for r in p["market"]["model_vs_market"]}
     assert c["HOME"]["market_fair_probability"] is not None
     assert c["HOME"]["model_minus_market_pp"] is not None
-    assert all(r["best_odds"] != 2.40 for r in p["market"]["candidates"])
+    assert all(r["best_odds"] != 2.40 for r in p["market"]["model_vs_market"])
+    assert all("ev" not in r and "edge_pp" not in r for r in p["market"]["model_vs_market"])
     assert p["production_decision"] is None
 
 
@@ -74,3 +75,12 @@ def test_clv():
     s = market_summary(normalize_decimal_quotes(_fs_payload(), "flashscore"))
     assert market_fair_probability(s, "OVER_2.5") == 0.5
     assert market_fair_probability(s, "HOME_DNB") is None
+
+
+def test_totals_keep_only_standard_and_main_line():
+    rows = []
+    for ln, (o, u) in {"0.5": (1.05, 9.0), "2.5": (1.9, 1.9), "3.5": (3.2, 1.33), "4.5": (6.0, 1.1), "5.5": (11.0, 1.03)}.items():
+        rows += [{"market": "total", "selection": f"OVER_{ln}", "decimal_odds": o, "bookmaker": "A"},
+                 {"market": "total", "selection": f"UNDER_{ln}", "decimal_odds": u, "bookmaker": "A"}]
+    s = market_summary(rows)
+    assert set(s["totals"]) == {"2.5", "3.5"} and s["main_total_line"] == "2.5"

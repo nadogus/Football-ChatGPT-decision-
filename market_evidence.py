@@ -14,6 +14,7 @@ MARKET_ALIASES = {"1x2": "1X2", "moneyline": "1X2", "home_draw_away": "1X2", "ma
                   "dnb": "DNB", "draw_no_bet": "DNB"}
 ONE_X_TWO = ("HOME", "DRAW", "AWAY")
 SHARP_BOOKS = ("pinnacle",)
+TOTAL_LINES_KEPT = ("1.5", "2.5", "3.5")
 
 
 def canonical_market(name: Any) -> str:
@@ -131,6 +132,11 @@ def market_summary(quotes: Iterable[Any]) -> dict[str, Any]:
         o = _summarize(_book_tables(rows, "TOTAL", "OPENING", ln), ("OVER", "UNDER"))
         if c:
             totals[ln] = _with_movement(c, o, ("OVER", "UNDER"))
+    # keep the standard lines plus the most balanced one (21 lines bloated every packet ~4x)
+    if totals:
+        main = min(totals, key=lambda k: abs(totals[k]["consensus_fair"]["OVER"] - 0.5))
+        totals = {k: v for k, v in totals.items() if k in TOTAL_LINES_KEPT or k == main}
+        out["main_total_line"] = main
     out["totals"] = totals
     return out
 

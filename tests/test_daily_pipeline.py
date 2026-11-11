@@ -67,7 +67,7 @@ def test_scan_marks_gaps_and_never_decides(tmp_path, monkeypatch):
     fx = json.loads((tmp_path / "daily/2026-11-11/fixtures.json").read_text())
     assert [f["match_id"] for f in fx] == ["m1"]
     p = json.loads((tmp_path / "daily/2026-11-11/packets/m1.json").read_text())
-    assert p["production_decision"] is None and p["decision_authority"] == "CHATGPT_ONLY"
+    assert p["production_decision"] is None and p["decision_authority"] == "AI_REVIEWER_ONLY"
     assert {"XG_UNAVAILABLE", "ELO_UNAVAILABLE"} <= set(p["context"]["data_gaps"])
     assert p["market"]["summary"]["1x2"]["movement_pp"]["HOME"] > 0
     ozet = (tmp_path / "daily/2026-11-11/OZET.md").read_text()
@@ -110,3 +110,36 @@ def test_outcomes():
     assert dp.outcome("TOTAL", "OVER_2.5", 2, 1)[0] == "WIN"
     assert dp.outcome("TOTAL", "UNDER_3", 2, 1)[0] == "PUSH"
     assert dp.outcome("DNB", "AWAY_DNB", 0, 0)[0] == "PUSH"
+
+
+def test_stop_rule_blocks_play_after_50_negative_clv(tmp_path, monkeypatch):
+    monkeypatch.setattr(dp, "ROOT", tmp_path)
+    day = tmp_path / "daily/2026-11-11"; day.mkdir(parents=True)
+    (day / "fixtures.json").write_text(json.dumps([{"match_id": "m1", "home": "A", "away": "B", "kickoff": KICK.isoformat()}]))
+    for i in range(50):
+        dp.append_jsonl(tmp_path / "decisions/settlements.jsonl", {"decision_id": str(i), "decision": "PLAY", "result": "LOSE", "pnl_units": -1, "stake": 1, "clv": -0.03})
+    assert dp.stop_status()["stop"]
+    a = type("A", (), dict(match_id="m1", decision="PLAY", market="1X2", selection="HOME", price=2.0, bookmaker="x", stake=1.0, decided_by="t", note=""))()
+    with pytest.raises(SystemExit):
+        dp.cmd_record(a)
+    a.decision, a.selection, a.price = "PASS", "", None
+    dp.cmd_record(a)  # PASS still recordable
+    dp.cmd_report()
+    assert "DURDURULDU" in (tmp_path / "decisions/REPORT.md").read_text()
+
+
+def test_stop_rule_not_triggered_early_or_when_positive(tmp_path, monkeypatch):
+    monkeypatch.setattr(dp, "ROOT", tmp_path)
+    for i in range(49):
+        dp.append_jsonl(tmp_path / "decisions/settlements.jsonl", {"decision_id": str(i), "decision": "PLAY", "clv": -0.05})
+    assert not dp.stop_status()["stop"]
+    for i in range(30):
+        dp.append_jsonl(tmp_path / "decisions/settlements.jsonl", {"decision_id": f"p{i}", "decision": "PLAY", "clv": 0.20})
+    assert not dp.stop_status()["stop"]
+
+
+def test_scan_health_flags_broken_source():
+    mk = lambda ok: {"context": {"data_present": {"odds": True, "opening_odds": True, "absences": ok, "xg": True, "elo": True, "weather": True}}}
+    h = dp.scan_health("d", [1, 2, 3, 4], [mk(False), mk(False), mk(False), mk(True)])
+    assert any("sakatlık" in w for w in h["warnings"]) and len(h["warnings"]) == 1
+    assert not dp.scan_health("d", [1, 2], [mk(True), mk(True)])["warnings"]

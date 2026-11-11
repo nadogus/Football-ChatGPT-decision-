@@ -4,8 +4,7 @@ from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from typing import Any
 import re
-from data_adapters import ESPNLineupClient, FlashscoreClient, PinnaclePrematchClient, _json
-from competition_resolver import FlashscoreCompetitionResolver, resolve_pinnacle_league
+from data_adapters import ESPNLineupClient, FlashscoreClient, _json
 RESOLVER_VERSION="FIXTURE_RESOLVER_V1.2"
 def _norm(s:str|None)->str:
     import unicodedata
@@ -63,61 +62,3 @@ def resolve_flashscore(match):
     fs=FlashscoreClient();date=(_dt(match.get("kickoff")) or datetime.now(timezone.utc)).strftime("%Y-%m-%d");r=fs.matches(date=date)
     if not r.ok:return {"source":"flashscore","resolved":False,"reason":r.error or "MATCH_LIST_FAILED"}
     return {"source":"flashscore",**best_fixture(match,_walk_events(r.data))}
-def resolve_pinnacle(match,league_id):
-    r=PinnaclePrematchClient().odds(int(league_id),None)
-    if not r.ok:return {"source":"pinnacle","resolved":False,"reason":r.error or "ODDS_FETCH_FAILED"}
-    candidates=[];seen=set()
-    for row in r.data:
-        eid=row.get("event_id")
-        if eid in seen:continue
-        seen.add(eid);candidates.append({"id":eid,"home":row.get("home"),"away":row.get("away"),"kickoff":row.get("start_time")})
-    return {"source":"pinnacle",**best_fixture(match,candidates),"league_id":league_id}
-def resolve_provider_ids(*,match:dict[str,Any],espn_league_slug:str|None=None,pinnacle_league_id:int|None=None,**_ignored):
-    attempts=[];ids={}
-    if espn_league_slug:
-        x=resolve_espn(match,espn_league_slug);attempts.append(x);ids["espn_league_slug"]=espn_league_slug
-        if x.get("resolved"):ids["espn_event_id"]=x["id"]
-    else:
-        attempts.append({"source":"espn","resolved":False,"reason":"ESPN_LEAGUE_SLUG_MISSING"})
-
-    x=resolve_flashscore(match);attempts.append(x)
-    if x.get("resolved"):ids["flashscore_match_id"]=x["id"]
-
-    competition_profile=None
-    try:
-        competition_profile=FlashscoreCompetitionResolver().profile(
-            str(match.get("home") or ""),
-            str(match.get("competition") or ""),
-            as_of=_dt(match.get("kickoff")),
-        )
-    except Exception:
-        competition_profile=None
-
-    effective_league_id=pinnacle_league_id
-    pinnacle_league_resolution=None
-    if effective_league_id is None and competition_profile:
-        try:
-            pinnacle_league_resolution=resolve_pinnacle_league(competition_profile)
-            if pinnacle_league_resolution.get("resolved"):
-                effective_league_id=int(pinnacle_league_resolution["league_id"])
-        except Exception as e:
-            pinnacle_league_resolution={"resolved":False,"reason":f"{type(e).__name__}: {e}"}
-
-    if effective_league_id is not None:
-        ids["pinnacle_league_id"]=int(effective_league_id)
-        x=resolve_pinnacle(match,effective_league_id);attempts.append(x)
-        if x.get("resolved"):ids["pinnacle_matchup_id"]=x["id"]
-    else:
-        reason=(pinnacle_league_resolution or {}).get("reason") or ("COMPETITION_PROFILE_UNRESOLVED" if not competition_profile else "PINNACLE_LEAGUE_ID_UNRESOLVED")
-        attempts.append({"source":"pinnacle","resolved":False,"reason":reason})
-
-    return {
-        "resolver_version":RESOLVER_VERSION,
-        "competition_profile":competition_profile,
-        "pinnacle_league_resolution":pinnacle_league_resolution,
-        "resolved_ids":ids,
-        "attempts":attempts,
-        "resolved_sources":sorted([x["source"] for x in attempts if x.get("resolved")]),
-        "unresolved":[{"source":x["source"],"reason":x.get("reason","UNKNOWN")} for x in attempts if not x.get("resolved")],
-    }
-

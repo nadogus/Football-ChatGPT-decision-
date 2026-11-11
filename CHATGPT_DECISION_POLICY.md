@@ -1,4 +1,8 @@
-# ChatGPT Decision Policy V2.0
+# Karar politikası V2.1 (yapay zekâ yorumcu)
+
+> Dosya adı geçmişten kalmadır. Karar yetkisi paketleri okuyan yapay zekâ yorumcudadır (şu an Claude); aşağıdaki "ChatGPT" ifadeleri bu yorumcu anlamına gelir.
+>
+> V2.1 ekleri: (1) Model olasılıkları kabadır ve aynı model ailesi geriye dönük testte kapanış oranını yenememiştir; model–piyasa farkı tek başına PLAY gerekçesi olamaz. PLAY, piyasanın henüz fiyatlamamış olabileceği somut bir bilgiye (ör. resmi kadro sürprizi, geç eksik) ya da açık bir fiyat ayrışmasına dayanmalıdır. (2) `STOP_RULE.md` tetiklenmişse PLAY verilmez. (3) Paket artık `candidates`/EV sıralaması içermez; `market.model_vs_market` yalnızca farkı gösterir.
 
 ## Role
 

@@ -333,7 +333,7 @@ class Watcher:
                "xi": xi, "validation": validation, "previous": prev,
                "changes": {s: changes(xi[s]["starters"], (prev.get(s) or {}).get("starters")) for s in ("home", "away")},
                "missing_players": missing, "market": mk, "movement_since_scan_pp": mv, "gaps": gaps,
-               "decision_authority": "CHATGPT_ONLY", "production_decision": None}
+               "decision_authority": "AI_REVIEWER_ONLY", "production_decision": None}
         (day_dir / "xi").mkdir(parents=True, exist_ok=True)
         (day_dir / "xi" / f"{fx['match_id']}.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
         md = render(rec)
