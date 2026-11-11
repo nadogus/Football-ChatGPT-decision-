@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T00:57:54.189716+00:00",
+ "generated_at": "2026-11-11T01:26:30.440443+00:00",
  "match": {
   "match_id": "SChcBv6c",
   "home": "Club Brugge KV",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T00:57:44.345812+00:00",
+   "observed_at": "2026-11-11T01:26:19.118726+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T00:57:54.187911+00:00",
+   "observed_at": "2026-11-11T01:26:30.438559+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T00:57:44.345812+00:00",
+   "observed_at": "2026-11-11T01:26:19.118726+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,15 +59,15 @@
    }
   },
   "ensemble": {
-   "1X": 0.664654110792291,
-   "HOME_DNB": 0.5607867024875178,
-   "X2": 0.5718310067873317,
-   "UNDER_2.5": 0.322144143493161,
-   "BTTS_YES": 0.6868126047527091,
    "DRAW": 0.22679129924083635,
    "HOME": 0.47833131645229165,
-   "AWAY_DNB": 0.43921329751248217,
+   "HOME_DNB": 0.5607867024875178,
+   "UNDER_2.5": 0.322144143493161,
    "AWAY": 0.29487738430687194,
+   "X2": 0.5718310067873317,
+   "BTTS_YES": 0.6868126047527091,
+   "1X": 0.664654110792291,
+   "AWAY_DNB": 0.43921329751248217,
    "OVER_2.5": 0.677855856506839
   },
   "model_agreement": 0.8142
@@ -1030,7 +1030,7 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 0,
    "wind_kmh": 11.2,
-   "observed_at": "2026-11-11T00:57:54.187911+00:00"
+   "observed_at": "2026-11-11T01:26:30.438559+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."

@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T00:57:44.322612+00:00",
+ "generated_at": "2026-11-11T01:26:19.095033+00:00",
  "match": {
   "match_id": "SY7oSelg",
   "home": "Napoli",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T00:57:37.263793+00:00",
+   "observed_at": "2026-11-11T01:26:09.002025+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T00:57:44.320889+00:00",
+   "observed_at": "2026-11-11T01:26:19.093272+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T00:57:37.263793+00:00",
+   "observed_at": "2026-11-11T01:26:09.002025+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,15 +59,15 @@
    }
   },
   "ensemble": {
-   "1X": 0.6531394897764975,
-   "HOME_DNB": 0.5307450124258415,
-   "X2": 0.6076877376193828,
-   "UNDER_2.5": 0.4243351536150056,
-   "BTTS_YES": 0.6110187772943315,
    "DRAW": 0.2500613045620521,
    "HOME": 0.36486541048649,
-   "AWAY_DNB": 0.4692549875741585,
+   "HOME_DNB": 0.5307450124258415,
+   "UNDER_2.5": 0.4243351536150056,
    "AWAY": 0.3850732849514579,
+   "X2": 0.6076877376193828,
+   "BTTS_YES": 0.6110187772943315,
+   "1X": 0.6531394897764975,
+   "AWAY_DNB": 0.4692549875741585,
    "OVER_2.5": 0.5756648463849944
   },
   "model_agreement": 0.8585
@@ -238,7 +238,7 @@
       },
       "UNDER": {
        "odds": 5.0,
-       "bookmaker": "Talksportbet",
+       "bookmaker": "Skybet",
        "fair_odds_consensus": 5.75,
        "ev_vs_consensus": -0.1305
       }
@@ -366,7 +366,7 @@
       },
       "UNDER": {
        "odds": 2.4,
-       "bookmaker": "Talksportbet",
+       "bookmaker": "Skybet",
        "fair_odds_consensus": 2.503,
        "ev_vs_consensus": -0.041
       }
@@ -456,7 +456,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.25,
-       "bookmaker": "7BetUK",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 2.46,
        "ev_vs_consensus": -0.0854
       },
@@ -712,7 +712,7 @@
      "best_price": {
       "OVER": {
        "odds": 9.5,
-       "bookmaker": "Talksportbet",
+       "bookmaker": "Parimatch.uk",
        "fair_odds_consensus": 14.025,
        "ev_vs_consensus": -0.3226
       },
@@ -814,7 +814,7 @@
     "model_probability": 0.469255,
     "fair_odds": 2.131,
     "best_odds": 2.4,
-    "bookmaker": "SpreadEX",
+    "bookmaker": "BetMGM.uk",
     "edge_pp": 0.052588,
     "ev": 0.126212,
     "market_fair_probability": null,
@@ -827,7 +827,7 @@
     "model_probability": 0.424335,
     "fair_odds": 2.3566,
     "best_odds": 2.4,
-    "bookmaker": "Talksportbet",
+    "bookmaker": "Skybet",
     "edge_pp": 0.007668,
     "ev": 0.018404,
     "market_fair_probability": 0.3996,
@@ -866,7 +866,7 @@
     "model_probability": 0.530745,
     "fair_odds": 1.8841,
     "best_odds": 1.55,
-    "bookmaker": "Betway",
+    "bookmaker": "BetMGM.uk",
     "edge_pp": -0.114416,
     "ev": -0.177345,
     "market_fair_probability": null,
@@ -965,9 +965,9 @@
    "lon": 14.26811,
    "temperature_c": 17.5,
    "precipitation_mm": 0.0,
-   "precipitation_probability_pct": 3,
+   "precipitation_probability_pct": 5,
    "wind_kmh": 2.5,
-   "observed_at": "2026-11-11T00:57:44.320889+00:00"
+   "observed_at": "2026-11-11T01:26:19.093272+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."

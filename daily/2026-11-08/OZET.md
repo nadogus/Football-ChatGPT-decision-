@@ -1,14 +1,14 @@
 # Günlük veri özeti — 2026-11-08
 
-8 maç · ligler: Eredivisie, Jupiler Pro League, LaLiga, Ligue 1, Serie A, Super Lig · oran bölgesi: GB · oluşturuldu 2026-11-11 00:58 UTC
+8 maç · ligler: Eredivisie, Jupiler Pro League, LaLiga, Ligue 1, Serie A, Super Lig · oran bölgesi: GB · oluşturuldu 2026-11-11 01:27 UTC
 
 Bu dosya yalnızca kanıttır; karar içermez. Marjsız olasılıklar bahisçi başına power yöntemiyle hesaplanıp medyanı alınmıştır. Model satırları kabadır ve piyasaya karşı doğrulanmamıştır. Eksik veri uydurulmaz, 'Eksik veri' satırında listelenir.
 
 ### Rizespor – Erzurumspor  ·  Super Lig (Turkey)
 Başlama: 10:30 UTC / 13:30 TSİ · Flashscore ID `d6kHu0Lt`
 - **1X2 piyasa (marjsız, 20 bahisçi):** 1 %52.3 · X %25.7 · 2 %22.0 | açılıştan hareket: 1 +2.6 · X +0.2 · 2 -2.9 puan
-- **En iyi oran:** 1 1.88 (Unibetuk) · X 3.65 (10bet) · 2 4.2 (bet365) · ort. marj %8.0
-- **Alt/Üst 2.5 (marjsız):** Üst %51.7 · Alt %48.3 | en iyi Üst 1.84 (Unibetuk) · Alt 2.0 (10bet)
+- **En iyi oran:** 1 1.88 (Unibetuk) · X 3.65 (10bet) · 2 4.2 (SpreadEX) · ort. marj %8.0
+- **Alt/Üst 2.5 (marjsız):** Üst %51.7 · Alt %48.3 | en iyi Üst 1.84 (Unibetuk) · Alt 2.0 (SpreadEX)
 - **Model (kaba, dixon_coles_xg, elo_season):** 1 %39.6 · X %26.3 · 2 %34.1 | model−piyasa: 1 -12.7 · X +0.5 · 2 +12.2 puan
 - **xG (son 6/6 lig maçı ort., atılan/yenen):** ev 1.38/1.53 · dep 0.99/1.14
 - **Elo (sezon içi):** ev 1478 · dep 1492
@@ -30,12 +30,12 @@ Başlama: 11:15 UTC / 14:15 TSİ · Flashscore ID `ENcy7qjT`
 Başlama: 11:30 UTC / 14:30 TSİ · Flashscore ID `SY7oSelg`
 - **1X2 piyasa (marjsız, 20 bahisçi):** 1 %45.9 · X %25.4 · 2 %28.7 | açılıştan hareket: 1 -3.5 · X +0.1 · 2 +3.4 puan
 - **En iyi oran:** 1 2.14 (10bet) · X 3.75 (Midnite) · 2 3.3 (Ladbrokes) · ort. marj %6.2
-- **Alt/Üst 2.5 (marjsız):** Üst %60.0 · Alt %40.0 | en iyi Üst 1.63 (7BetUK) · Alt 2.4 (Talksportbet)
+- **Alt/Üst 2.5 (marjsız):** Üst %60.0 · Alt %40.0 | en iyi Üst 1.63 (7BetUK) · Alt 2.4 (Skybet)
 - **Model (kaba, dixon_coles_xg, elo_season):** 1 %36.5 · X %25.0 · 2 %38.5 | model−piyasa: 1 -9.4 · X -0.4 · 2 +9.8 puan
 - **xG (son 6/6 lig maçı ort., atılan/yenen):** ev 1.94/1.16 · dep 1.73/1.16
 - **Elo (sezon içi):** ev 1498 · dep 1602
 - **Eksikler:** ev: yok/bildirilmemiş | dep: yok/bildirilmemiş
-- **Hava (Naples, maç saati tahmini):** 17.5°C · yağış 0.0 mm (%3) · rüzgâr 2.5 km/s
+- **Hava (Naples, maç saati tahmini):** 17.5°C · yağış 0.0 mm (%5) · rüzgâr 2.5 km/s
 
 ### Club Brugge KV – Anderlecht  ·  Jupiler Pro League (Belgium)
 Başlama: 12:30 UTC / 15:30 TSİ · Flashscore ID `SChcBv6c`
@@ -62,7 +62,7 @@ Başlama: 13:00 UTC / 16:00 TSİ · Flashscore ID `S88X9hRp`
 ### Corum – Fenerbahce  ·  Super Lig (Turkey)
 Başlama: 13:00 UTC / 16:00 TSİ · Flashscore ID `CddXyIK5`
 - **1X2 piyasa (marjsız, 20 bahisçi):** 1 %26.0 · X %24.3 · 2 %49.7 | açılıştan hareket: 1 +5.3 · X +1.9 · 2 -7.2 puan
-- **En iyi oran:** 1 3.5 (Paddy Power) · X 3.9 (10bet) · 2 2.0 (Ladbrokes) · ort. marj %8.1
+- **En iyi oran:** 1 3.5 (Betano.uk) · X 3.9 (10bet) · 2 2.0 (Ladbrokes) · ort. marj %8.1
 - **Alt/Üst 2.5 (marjsız):** Üst %60.9 · Alt %39.1 | en iyi Üst 1.58 (Unibetuk) · Alt 2.4 (Skybet)
 - **Model (kaba, dixon_coles_xg, elo_season):** 1 %37.0 · X %24.6 · 2 %38.4 | model−piyasa: 1 +11.0 · X +0.3 · 2 -11.3 puan
 - **xG (son 6/6 lig maçı ort., atılan/yenen):** ev 1.33/1.15 · dep 2.18/1.22
@@ -73,7 +73,7 @@ Başlama: 13:00 UTC / 16:00 TSİ · Flashscore ID `CddXyIK5`
 ### Twente – Ajax  ·  Eredivisie (Netherlands)
 Başlama: 13:30 UTC / 16:30 TSİ · Flashscore ID `p6l71NDj`
 - **1X2 piyasa (marjsız, 20 bahisçi):** 1 %54.0 · X %22.0 · 2 %24.0 | açılıştan hareket: 1 +15.8 · X -0.8 · 2 -15.1 puan
-- **En iyi oran:** 1 1.83 (Coral) · X 4.25 (Unibetuk) · 2 4.0 (bet365) · ort. marj %7.0
+- **En iyi oran:** 1 1.83 (Ladbrokes) · X 4.25 (Unibetuk) · 2 4.0 (bet365) · ort. marj %7.0
 - **Alt/Üst 2.5 (marjsız):** Üst %70.3 · Alt %29.7 | en iyi Üst 1.42 (Unibetuk) · Alt 3.2 (Skybet)
 - **Model (kaba, dixon_coles_xg, elo_season):** 1 %47.6 · X %22.9 · 2 %29.4 | model−piyasa: 1 -6.4 · X +0.9 · 2 +5.5 puan
 - **xG (son 6/6 lig maçı ort., atılan/yenen):** ev 2.65/0.82 · dep 2.18/1.57
