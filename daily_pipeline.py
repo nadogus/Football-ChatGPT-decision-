@@ -246,7 +246,8 @@ def render_match(p: dict[str, Any]) -> str:
     ens = (p.get("models") or {}).get("ensemble") or {}
     if ens.get("HOME") is not None:
         cands = {c["selection"]: c for c in (p.get("market") or {}).get("candidates") or []}
-        diff = " · ".join(f"{s[0] if s != 'DRAW' else 'X'} {cands[s]['model_minus_market_pp']:+.1f}"
+        lab = {"HOME": "1", "DRAW": "X", "AWAY": "2"}
+        diff = " · ".join(f"{lab[s]} {cands[s]['model_minus_market_pp']:+.1f}"
                           for s in ("HOME", "DRAW", "AWAY") if s in cands and cands[s].get("model_minus_market_pp") is not None)
         L.append(f"- **Model (kaba, {', '.join((p['models'].get('individual') or {}).keys())}):** 1 {pct(ens.get('HOME'))} · "
                  f"X {pct(ens.get('DRAW'))} · 2 {pct(ens.get('AWAY'))}" + (f" | model−piyasa: {diff} puan" if diff else ""))
