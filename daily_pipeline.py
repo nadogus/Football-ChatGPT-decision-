@@ -56,7 +56,9 @@ def league_match(competition: dict[str, Any] | None, leagues: list[dict[str, str
     if VARIANT.search(name) or VARIANT.search(competition.get("display_name") or ""):
         return None
     for lg in leagues:
-        if norm(lg["category"]) == norm(cat) and norm(lg["name"]) == norm(name):
+        if norm(lg["category"]) != norm(cat):
+            continue
+        if norm(lg["name"]) == norm(name) or (lg.get("match") == "prefix" and norm(name).startswith(norm(lg["name"]))):
             return lg
     return None
 

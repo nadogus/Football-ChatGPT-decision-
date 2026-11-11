@@ -60,6 +60,13 @@
       "category": "Europe",
       "name": "Europa League",
       "espn": "uefa.europa"
+    },
+    {
+      "category": "Europe",
+      "name": "UEFA Nations League",
+      "espn": "uefa.nations",
+      "match": "prefix",
+      "temporary": "sistem testi 2026-11-12; testten sonra kaldırılacak"
     }
   ]
 }

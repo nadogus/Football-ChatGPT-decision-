@@ -49,6 +49,9 @@ def test_league_filter_rejects_wrong_country_and_women():
     assert not dp.league_match({"name": "Bundesliga", "category": "Austria"}, lg)
     assert not dp.league_match({"name": "Premier League Women", "category": "England"}, lg)
     assert not dp.league_match({"name": "Premier League", "category": "Egypt"}, lg)
+    pl = [{"category": "Europe", "name": "UEFA Nations League", "match": "prefix"}]
+    assert dp.league_match({"name": "UEFA Nations League - League A", "category": "Europe"}, pl)
+    assert not dp.league_match({"name": "UEFA Nations League Women", "category": "Europe"}, pl)
 
 
 def test_scan_marks_gaps_and_never_decides(tmp_path, monkeypatch):
