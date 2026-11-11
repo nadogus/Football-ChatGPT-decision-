@@ -4,6 +4,12 @@ Maç öncesi veriyi toplar, temizler ve yapay zekânın yorumlayacağı kısa bi
 **Kod karar vermez.** PLAY / WATCH / PASS kararını paketleri okuyan yapay zekâ yorumcu verir
 (şu an Claude; yorumlar Slack `#futbol-yorum` kanalına gider). Kurallar: `CHATGPT_DECISION_POLICY.md`.
 
+## Tek kayıt
+
+Futbol kararlarının tek kaydı bu repodur (`decisions/`). Önceki sistemler arşivdir ve yeni kararlar için
+kullanılmaz: "Futbol Sistemi V1.2/V1.3" belgesi ve Excel kayıt defteri, S1, `Final-football-prematch`.
+İki sistemi paralel yürütmek, hangi kararın hangi kurala göre verildiğini ve CLV sayacını bulandırır.
+
 ## Akış
 
 | Ne zaman | Ne | Nerede |
