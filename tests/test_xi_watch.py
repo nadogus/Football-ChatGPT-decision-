@@ -70,7 +70,9 @@ def _setup(tmp_path, monkeypatch, minutes_to_kick, official=True):
            "competition": "Premier League", "category": "England"}]
     (d / "fixtures.json").write_text(json.dumps(fx))
     w = xw.Watcher.__new__(xw.Watcher)
-    w.fs = FakeFS(official); w.leagues = [{"category": "England", "name": "Premier League", "espn": "eng.1"}]
+    w.fs = FakeFS(official)
+    w.fotmob = type("F", (), {"resolve": lambda self, fx: {"resolved": False, "reason": "TEST"}})()
+    w.leagues = [{"category": "England", "name": "Premier League", "espn": "eng.1"}]
     monkeypatch.setattr(xw, "resolve_espn", lambda fx, slug: {"resolved": True, "id": "e1"})
     summ = espn_summary(published=official)
     monkeypatch.setattr(xw, "ESPNLineupClient", lambda: type("E", (), {"summary": lambda self, slug, eid: AdapterResult("espn", True, summ)})())

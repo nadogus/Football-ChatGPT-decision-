@@ -9,7 +9,7 @@ on:
       match_id: {description: "Tek maç (doğrulama için)", default: ""}
   push:
     branches: [data-pipeline-v2]
-    paths: ["xi_watch.py", "probe_injury_sources.py", ".github/workflows/xi-watch.yml"]
+    paths: ["xi_watch.py", "fotmob_source.py", ".github/workflows/xi-watch.yml"]
 
 permissions:
   contents: write
@@ -62,7 +62,6 @@ jobs:
       - name: Dal doğrulaması (8 Kasım, bitmiş maç)
         if: github.event_name == 'push'
         run: |
-          python probe_injury_sources.py || true
           python xi_watch.py --date 2026-11-08 --match-id SY7oSelg --force
           python xi_watch.py --date 2026-11-08 --match-id ENcy7qjT --force
           cat daily/2026-11-08/xi/*.md

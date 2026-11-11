@@ -3,7 +3,7 @@ name: daily-evidence-scan
 on:
   push:
     branches: [data-pipeline-v2]
-    paths: ["daily_pipeline.py", "market_evidence.py", ".github/workflows/daily-scan.yml"]
+    paths: ["daily_pipeline.py", "market_evidence.py", "fotmob_source.py", ".github/workflows/daily-scan.yml"]
   schedule:
     - cron: "37 5 * * *"   # her gün 05:37 UTC (08:37 TSİ): dünü kapat, bugünü tara
   workflow_dispatch:

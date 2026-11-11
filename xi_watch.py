@@ -28,6 +28,7 @@ from daily_pipeline import TSI, append_jsonl, league_match, load_leagues
 from fixture_resolver import resolve_espn
 from market_evidence import market_summary
 from public_sources import FlashscoreModelClient
+from fotmob_source import FotMobClient, absences as fotmob_absences, lineup as fotmob_lineup
 
 WATCH_VERSION = "XI_WATCH_V1.0"
 ROOT = Path(os.getenv("PIPELINE_ROOT", "."))
@@ -204,7 +205,7 @@ def render(rec: dict[str, Any]) -> str:
     k = datetime.fromisoformat(str(m["kickoff"]).replace("Z", "+00:00"))
     L = [f"## {m['home']} – {m['away']} · resmi kadrolar", "",
          f"{m['competition']} · {k:%H:%M} UTC / {k.astimezone(TSI):%H:%M} TSİ · çekildi {rec['observed_at'][11:16]} UTC "
-         f"(maça {rec['minutes_before_kickoff']:.0f} dk) · kaynak: ESPN · çapraz kontrol: {rec['validation']['reason']}", ""]
+         f"(maça {rec['minutes_before_kickoff']:.0f} dk) · kadro kaynağı: ESPN · ikinci kaynak: {rec['validation']['reason']}", ""]
     for side, team in (("home", m["home"]), ("away", m["away"])):
         s = x[side]
         L.append(f"**{team}** ({s['formation'] or 'diziliş ?'}): " + ", ".join(
@@ -216,8 +217,10 @@ def render(rec: dict[str, Any]) -> str:
                      + (f" · **kaleci değişti** ({ch['previous_goalkeeper']} → {ch['goalkeeper']})" if ch["goalkeeper_changed"] else ""))
         else:
             L.append("- Önceki kadro bulunamadı (fark hesaplanmadı)")
-        mp = (rec.get("missing_players") or {}).get(side)
-        L.append("- Eksikler: " + (", ".join(f"{r['player']} ({r.get('reason') or '?'})" for r in mp) if mp else "VERİ YOK (kaynak boş döndü; 'eksik yok' anlamına gelmez)"))
+        mps = rec.get("missing_players") or {}
+        mp = mps.get(side)
+        L.append("- Eksikler: " + (", ".join(f"{r['player']} ({r.get('reason') or '?'}{', ' + r['likelihood'] if r.get('likelihood') else ''})" for r in mp) if mp
+                                   else "listede yok (FotMob)" if side in mps else "VERİ YOK (kaynak boş döndü; 'eksik yok' anlamına gelmez)"))
     mk = (rec.get("market") or {}).get("1x2")
     if mk:
         mv = rec.get("movement_since_scan_pp")
@@ -277,14 +280,26 @@ class Watcher:
         xi = espn_xi(s.data)
         if not xi["official"] and not force:
             return {"status": "NOT_YET", "groups": [len(xi["home"]["starters"]), len(xi["away"]["starters"])]}
+        fm = getattr(self, "fotmob", None) or FotMobClient()
+        fm_details, fm_id = None, None
+        try:
+            r = fm.resolve(fx)
+            if r.get("resolved"):
+                fm_id = r["id"]; fm_details = fm.details(fm_id)
+            else:
+                gaps.append(f"FOTMOB_UNRESOLVED:{r.get('reason')}")
+        except Exception as e:
+            gaps.append(f"FOTMOB_ERROR:{type(e).__name__}")
+        fm_xi = fotmob_lineup(fm_details) if fm_details else {"official": False}
         lu = self.fs.lineups(fx["match_id"])
         fs_xi = official_xi(lu.data) if lu.ok else {"official": False}
-        if fs_xi.get("official"):
-            fs_names = [p["name"] for side in ("home", "away") for p in fs_xi[side]["starters"]]
-            validation = cross_check(xi, fs_names)
-            validation["reason"] = "FLASHSCORE_AGREES" if validation["validated"] else "FLASHSCORE_DISAGREES"
+        second = ("FOTMOB", fm_xi) if fm_xi.get("official") else ("FLASHSCORE", fs_xi) if fs_xi.get("official") else (None, None)
+        if second[0]:
+            names = [p["name"] for side in ("home", "away") for p in second[1][side]["starters"]]
+            validation = cross_check(xi, names)
+            validation["reason"] = f"{second[0]}_AGREES" if validation["validated"] else f"{second[0]}_DISAGREES"
         else:
-            validation = {"validated": False, "reason": "FLASHSCORE_LINEUPS_EMPTY"}
+            validation = {"validated": False, "reason": f"NO_SECOND_SOURCE(fotmob:{fm_xi.get('lineup_type')})"}
             gaps.append("XI_SINGLE_SOURCE:ESPN_ONLY")
         prev = {}
         for side in ("home", "away"):
@@ -295,12 +310,14 @@ class Watcher:
                 prev[side] = None; err = f":{type(e).__name__}:{str(e)[:80]}"
             if not prev[side]:
                 gaps.append(f"PREVIOUS_XI_UNAVAILABLE:{side}{err}")
-        mp = self.fs.missing_players(fx["match_id"])
-        missing = {k: [{"player": (r.get("player") or {}).get("name"), "reason": r.get("reason"), "likelihood": r.get("likelihood")}
-                       for r in ((mp.data or {}).get(k) or [])] for k in ("home", "away")} if mp.ok else {}
-        if not any(missing.values()):
-            missing = {}
-            gaps.append("MISSING_PLAYERS_SOURCE_EMPTY")
+        missing = fotmob_absences(fm_details) if fm_details else None
+        if missing is None:
+            mp = self.fs.missing_players(fx["match_id"])
+            missing = {k: [{"player": (r.get("player") or {}).get("name"), "reason": r.get("reason"), "likelihood": r.get("likelihood")}
+                           for r in ((mp.data or {}).get(k) or [])] for k in ("home", "away")} if mp.ok else {}
+            if not any(missing.values()):
+                missing = {}
+                gaps.append("MISSING_PLAYERS_SOURCE_EMPTY")
         o = self.fs.odds(fx["match_id"], geo=ODDS_GEO)
         mk = market_summary(normalize_decimal_quotes(o.data, "flashscore")) if o.ok else {}
         mv = None

@@ -56,6 +56,7 @@ def test_scan_marks_gaps_and_never_decides(tmp_path, monkeypatch):
     (tmp_path / "config").mkdir()
     (tmp_path / "config" / "leagues.json").write_text(json.dumps({"leagues": [{"category": "England", "name": "Premier League"}]}))
     sc = dp.Scanner(FakeFS(), pause=0)
+    sc.fotmob = type("F", (), {"resolve": lambda self, fx: {"resolved": False, "reason": "TEST"}})()
     monkeypatch.setattr(sc.model, "team_xg_summary", lambda *a, **k: None)
     monkeypatch.setattr(sc.model, "computed_elo", lambda *a, **k: {})
     monkeypatch.setattr(dp, "Scanner", lambda: sc)

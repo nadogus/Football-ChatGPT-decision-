@@ -27,6 +27,7 @@ from data_adapters import FlashscoreClient, normalize_decimal_quotes
 from football_evidence_engine import ImmutableLedger, elo_1x2, scoreline_markets
 from market_evidence import closing_line_value, market_fair_probability, market_summary
 from public_sources import FlashscoreModelClient
+from fotmob_source import FotMobClient, absences as fotmob_absences
 
 PIPELINE_VERSION = "DAILY_PIPELINE_V1.0"
 ROOT = Path(os.getenv("PIPELINE_ROOT", "."))
@@ -105,6 +106,7 @@ def weather_at(city: str | None, kickoff_utc: datetime) -> dict[str, Any]:
 class Scanner:
     def __init__(self, fs: FlashscoreClient | None = None, pause: float = 0.3):
         self.fs = fs or FlashscoreClient()
+        self.fotmob = FotMobClient()
         self.model = FlashscoreModelClient(self.fs.base)
         self.pause = pause
         self._elo_cache: dict[str, dict[str, float]] = {}
@@ -177,8 +179,21 @@ class Scanner:
                                           "reason": row.get("reason"), "likelihood": row.get("likelihood")})
         else:
             gaps.append(f"MISSING_PLAYERS_FAILED:{mp.error}")
-        if mp.ok and not (missing["home"] or missing["away"]):
-            missing = None  # Flashscore df_scr feed currently returns empty: unknown, NOT "no absences"
+        missing_source = "flashscore" if (missing["home"] or missing["away"]) else None
+        if not missing_source:
+            # Flashscore df_scr feed currently returns empty -> FotMob (injury/suspension + expected return)
+            try:
+                res = self.fotmob.resolve(fx)
+                if res.get("resolved"):
+                    fm = fotmob_absences(self.fotmob.details(res["id"]))
+                    if fm is not None:
+                        missing, missing_source = fm, f"fotmob:{res['id']}"
+                else:
+                    gaps.append(f"FOTMOB_UNRESOLVED:{res.get('reason')}")
+            except Exception as e:
+                gaps.append(f"FOTMOB_ERROR:{type(e).__name__}")
+        if not missing_source:
+            missing = None  # unknown, NOT "no absences"
             gaps.append("MISSING_PLAYERS_SOURCE_EMPTY")
         # xG (Flashscore match statistics, last 6 competition matches before kickoff)
         hx = ax = None
@@ -211,7 +226,7 @@ class Scanner:
             models=models, source_payloads=sources,
             odds_payload={"primary_source": "flashscore", "observed_at": now, "quotes": quotes},
             context={"pipeline_version": PIPELINE_VERSION, "odds_geo": ODDS_GEO, "bookmakers": bookmakers,
-                     "missing_players": missing, "xg": {"home": hx, "away": ax},
+                     "missing_players": missing, "missing_players_source": missing_source, "xg": {"home": hx, "away": ax},
                      "elo": {"home": he, "away": ae, "method": "season-only results, start 1500"},
                      "weather": weather, "data_gaps": gaps,
                      "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."},
@@ -263,8 +278,9 @@ def render_match(p: dict[str, Any]) -> str:
         L.append(f"- **Elo (sezon içi):** ev {elo['home']:.0f} · dep {elo['away']:.0f}")
     mp = ctx.get("missing_players")
     fmt = lambda rows: ", ".join(f"{r['player']} ({r.get('reason') or '?'}{'; ' + r['likelihood'] if r.get('likelihood') else ''})" for r in rows) or "listede yok"
-    if mp:
-        L.append(f"- **Eksikler:** ev: {fmt(mp.get('home') or [])} | dep: {fmt(mp.get('away') or [])}")
+    if mp is not None:
+        src = (ctx.get("missing_players_source") or "").split(":")[0]
+        L.append(f"- **Eksikler{' (' + src + ')' if src else ''}:** ev: {fmt(mp.get('home') or [])} | dep: {fmt(mp.get('away') or [])}")
     else:
         L.append("- **Eksikler:** VERİ YOK (kaynak boş döndü; 'eksik yok' anlamına gelmez)")
     w = ctx.get("weather") or {}
