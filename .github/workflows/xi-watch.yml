@@ -62,6 +62,8 @@ jobs:
       - name: Dal doğrulaması (8 Kasım, bitmiş maç)
         if: github.event_name == 'push'
         run: |
+          curl -sS "http://127.0.0.1:8001/matches/lineups?match=SY7oSelg" | head -c 2500; echo
+          tail -20 /tmp/flashscore.log
           python xi_watch.py --date 2026-11-08 --match-id SY7oSelg --force
           python xi_watch.py --date 2026-11-08 --match-id ENcy7qjT --force
           cat daily/2026-11-08/xi/*.md
