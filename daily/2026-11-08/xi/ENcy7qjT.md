@@ -1,6 +1,6 @@
 ## Heerenveen – Feyenoord · resmi kadrolar
 
-Eredivisie · 11:15 UTC / 14:15 TSİ · çekildi 01:46 UTC (maça -3751 dk) · kadro kaynağı: ESPN · ikinci kaynak: FOTMOB_AGREES
+Eredivisie · 11:15 UTC / 14:15 TSİ · çekildi 01:48 UTC (maça -3754 dk) · kadro kaynağı: ESPN · ikinci kaynak: FOTMOB_AGREES
 
 **Heerenveen** (4-2-3-1): Bernt Klaverboer (K), Maas Willemsen, Sam Kersten, Vasilios Zagaritis, Oliver Braude, Levi Smans, Nolhan Courtens, Marcus Linday, Dylan Vente, Maxence Rivera, Jacob Trenskow
 - Önceki maça göre (2026-10-31, NEC Nijmegen): 0 değişiklik

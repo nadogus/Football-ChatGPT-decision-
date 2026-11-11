@@ -1,8 +1,8 @@
 {
  "event": "XI_VALIDATION_ONLY",
  "watch_version": "XI_WATCH_V1.0",
- "observed_at": "2026-11-11T01:46:16.836601+00:00",
- "minutes_before_kickoff": -3751.2806100166663,
+ "observed_at": "2026-11-11T01:48:57.488784+00:00",
+ "minutes_before_kickoff": -3753.9581464,
  "match": {
   "match_id": "ENcy7qjT",
   "home": "Heerenveen",
@@ -591,7 +591,7 @@
     "best_price": {
      "OVER": {
       "odds": 1.4,
-      "bookmaker": "bet365",
+      "bookmaker": "7BetUK",
       "fair_odds_consensus": 1.472,
       "ev_vs_consensus": -0.049
      },
@@ -617,13 +617,13 @@
     "best_price": {
      "OVER": {
       "odds": 1.5,
-      "bookmaker": "bet365",
+      "bookmaker": "10bet",
       "fair_odds_consensus": 1.568,
       "ev_vs_consensus": -0.0432
      },
      "UNDER": {
       "odds": 2.5,
-      "bookmaker": "bet365",
+      "bookmaker": "10bet",
       "fair_odds_consensus": 2.762,
       "ev_vs_consensus": -0.0948
      }
@@ -825,7 +825,7 @@
     "best_price": {
      "OVER": {
       "odds": 4.25,
-      "bookmaker": "bet365",
+      "bookmaker": "7BetUK",
       "fair_odds_consensus": 5.624,
       "ev_vs_consensus": -0.2443
      },
