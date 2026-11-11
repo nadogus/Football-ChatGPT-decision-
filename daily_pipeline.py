@@ -395,10 +395,13 @@ def cmd_settle(day: str):
         c = closing[d["match_id"]]
         if c.get("status") != "finished" or c.get("home_score") is None:
             continue
-        res, _ = outcome(d["market"], d["selection"], int(c["home_score"]), int(c["away_score"]))
+        if not d.get("selection"):  # PASS (or WATCH) recorded without a selection: nothing to grade
+            res = "NO_SELECTION"
+        else:
+            res, _ = outcome(d["market"], d["selection"], int(c["home_score"]), int(c["away_score"]))
         stake = float(d.get("stake") or 1.0)
         pnl = 0.0 if d["decision"] != "PLAY" else (stake * (d["price"] - 1) if res == "WIN" else 0.0 if res == "PUSH" else -stake)
-        cfp = market_fair_probability(c.get("closing_summary") or {}, d["selection"]) if c.get("closing_ok") else None
+        cfp = market_fair_probability(c.get("closing_summary") or {}, d["selection"]) if c.get("closing_ok") and d.get("selection") else None
         append_jsonl(ROOT / "decisions" / "settlements.jsonl", {
             "decision_id": d["decision_id"], "match_id": d["match_id"], "decision": d["decision"],
             "market": d["market"], "selection": d["selection"], "price": d["price"], "stake": stake,
@@ -422,7 +425,7 @@ def cmd_record(a):
         raise SystemExit(f"REFUSED: kickoff {kickoff.isoformat()} has passed — decisions must be recorded before kickoff")
     if a.decision == "PLAY" and not a.price:
         raise SystemExit("PLAY needs --price")
-    rec = {"decision_id": f"{a.match_id}-{now:%Y%m%dT%H%M%S}", "match_id": a.match_id,
+    rec = {"decision_id": f"{a.match_id}-{now:%Y%m%dT%H%M%S}-{a.decision}-{(a.selection or 'NA').upper()}", "match_id": a.match_id,
            "home": fx["home"], "away": fx["away"], "kickoff": fx["kickoff"], "decision": a.decision,
            "market": a.market, "selection": a.selection.upper(), "price": a.price, "bookmaker": a.bookmaker,
            "stake": a.stake, "decided_by": a.decided_by, "note": a.note, "recorded_at": now.isoformat(),

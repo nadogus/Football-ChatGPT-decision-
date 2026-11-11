@@ -82,6 +82,7 @@ def test_record_refuses_after_kickoff_and_settle_computes_clv(tmp_path, monkeypa
     ns = lambda **k: type("A", (), {**dict(match_id="m1", decision="PLAY", market="1X2", selection="HOME", price=2.30,
                                          bookmaker="bet365", stake=1.0, decided_by="test", note=""), **k})()
     dp.cmd_record(ns())
+    dp.cmd_record(ns(decision="PASS", selection="", price=None))
     past = [{**fx[0], "kickoff": (datetime.now(timezone.utc) - timedelta(minutes=1)).isoformat()}]
     (day / "fixtures.json").write_text(json.dumps(past))
     with pytest.raises(SystemExit):
@@ -91,10 +92,12 @@ def test_record_refuses_after_kickoff_and_settle_computes_clv(tmp_path, monkeypa
     monkeypatch.setattr(dp.time, "sleep", lambda s: None)
     dp.cmd_settle("2026-11-11")
     s = [json.loads(l) for l in (tmp_path / "decisions/settlements.jsonl").read_text().splitlines()]
-    assert len(s) == 1 and s[0]["result"] == "WIN" and s[0]["pnl_units"] == pytest.approx(1.30)
+    assert len(s) == 2 and s[1]["result"] == "NO_SELECTION" and s[1]["pnl_units"] == 0
+    s = [x for x in s if x["decision"] == "PLAY"]
+    assert s[0]["result"] == "WIN" and s[0]["pnl_units"] == pytest.approx(1.30)
     assert s[0]["clv"] > 0  # 2.30 taken vs ~2.2 fair at close
     dp.cmd_settle("2026-11-11")  # idempotent
-    assert len((tmp_path / "decisions/settlements.jsonl").read_text().splitlines()) == 1
+    assert len((tmp_path / "decisions/settlements.jsonl").read_text().splitlines()) == 2
     dp.cmd_report()
     assert "ortalama CLV" in (tmp_path / "decisions/REPORT.md").read_text()
 
