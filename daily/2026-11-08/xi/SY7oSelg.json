@@ -1,8 +1,8 @@
 {
  "event": "XI_VALIDATION_ONLY",
  "watch_version": "XI_WATCH_V1.0",
- "observed_at": "2026-11-11T01:34:47.449448+00:00",
- "minutes_before_kickoff": -3724.7908241333334,
+ "observed_at": "2026-11-11T01:35:55.170261+00:00",
+ "minutes_before_kickoff": -3725.91950435,
  "match": {
   "match_id": "SY7oSelg",
   "home": "Napoli",
@@ -791,8 +791,8 @@
  },
  "gaps": [
   "XI_SINGLE_SOURCE:ESPN_ONLY",
-  "PREVIOUS_XI_UNAVAILABLE:home",
-  "PREVIOUS_XI_UNAVAILABLE:away",
+  "PREVIOUS_XI_UNAVAILABLE:home:HTTPError:HTTP Error 400: Bad Request",
+  "PREVIOUS_XI_UNAVAILABLE:away:HTTPError:HTTP Error 400: Bad Request",
   "MISSING_PLAYERS_SOURCE_EMPTY"
  ],
  "decision_authority": "CHATGPT_ONLY",

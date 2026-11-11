@@ -1,8 +1,8 @@
 {
  "event": "XI_VALIDATION_ONLY",
  "watch_version": "XI_WATCH_V1.0",
- "observed_at": "2026-11-11T01:33:03.307495+00:00",
- "minutes_before_kickoff": -3738.0551249166665,
+ "observed_at": "2026-11-11T01:35:56.807036+00:00",
+ "minutes_before_kickoff": -3740.9467839333333,
  "match": {
   "match_id": "ENcy7qjT",
   "home": "Heerenveen",
@@ -12,24 +12,181 @@
   "category": "Netherlands"
  },
  "xi": {
-  "official": false,
+  "official": true,
+  "source": "espn",
   "home": {
-   "formation": null,
-   "group": null,
-   "starters": [],
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:358318",
+     "name": "Bernt Klaverboer",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:324484",
+     "name": "Maas Willemsen",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:241526",
+     "name": "Sam Kersten",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:290209",
+     "name": "Vasilios Zagaritis",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364727",
+     "name": "Oliver Braude",
+     "number": "45",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:324739",
+     "name": "Levi Smans",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:407207",
+     "name": "Nolhan Courtens",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:378834",
+     "name": "Marcus Linday",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:253396",
+     "name": "Dylan Vente",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301323",
+     "name": "Maxence Rivera",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:308051",
+     "name": "Jacob Trenskow",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    }
+   ],
    "other_groups": []
   },
   "away": {
-   "formation": null,
-   "group": null,
-   "starters": [],
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:335870",
+     "name": "Tjark Ernst",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:332573",
+     "name": "Mika Mármol",
+     "number": "35",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276279",
+     "name": "Tsuyoshi Watanabe",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297354",
+     "name": "Javi López",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:337084",
+     "name": "Givairo Read",
+     "number": "26",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276260",
+     "name": "Charles Vanhoutte",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:313354",
+     "name": "Oussama Targhaline",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365021",
+     "name": "Gjivai Zechiël",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364582",
+     "name": "Nacho Ferri",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:319296",
+     "name": "Luciano Valente",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:341711",
+     "name": "Anis Hadj Moussa",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    }
+   ],
    "other_groups": []
   },
-  "reason": "NOT_OFFICIAL_OR_INCOMPLETE"
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
  },
  "validation": {
   "validated": false,
-  "reason": "ESPN_UNRESOLVED:LOW_MATCH_SCORE"
+  "reason": "FLASHSCORE_LINEUPS_EMPTY"
  },
  "previous": {
   "home": null,
@@ -39,10 +196,7 @@
   "home": null,
   "away": null
  },
- "missing_players": {
-  "home": [],
-  "away": []
- },
+ "missing_players": {},
  "market": {
   "quote_count": 395,
   "phases": [
@@ -688,9 +842,10 @@
   "AWAY": 0.0
  },
  "gaps": [
-  "XI_SINGLE_SOURCE:ESPN_UNRESOLVED:LOW_MATCH_SCORE",
-  "PREVIOUS_XI_UNAVAILABLE:home",
-  "PREVIOUS_XI_UNAVAILABLE:away"
+  "XI_SINGLE_SOURCE:ESPN_ONLY",
+  "PREVIOUS_XI_UNAVAILABLE:home:HTTPError:HTTP Error 400: Bad Request",
+  "PREVIOUS_XI_UNAVAILABLE:away:HTTPError:HTTP Error 400: Bad Request",
+  "MISSING_PLAYERS_SOURCE_EMPTY"
  ],
  "decision_authority": "CHATGPT_ONLY",
  "production_decision": null
