@@ -1,17 +1,65 @@
 {
   "_note": "Flashscore competition category + name (case-insensitive). Women/youth variants are excluded automatically.",
   "leagues": [
-    {"category": "England", "name": "Premier League"},
-    {"category": "England", "name": "Championship"},
-    {"category": "Spain", "name": "LaLiga"},
-    {"category": "Italy", "name": "Serie A"},
-    {"category": "Germany", "name": "Bundesliga"},
-    {"category": "France", "name": "Ligue 1"},
-    {"category": "Turkey", "name": "Super Lig"},
-    {"category": "Netherlands", "name": "Eredivisie"},
-    {"category": "Portugal", "name": "Liga Portugal"},
-    {"category": "Belgium", "name": "Jupiler Pro League"},
-    {"category": "Europe", "name": "Champions League"},
-    {"category": "Europe", "name": "Europa League"}
+    {
+      "category": "England",
+      "name": "Premier League",
+      "espn": "eng.1"
+    },
+    {
+      "category": "England",
+      "name": "Championship",
+      "espn": "eng.2"
+    },
+    {
+      "category": "Spain",
+      "name": "LaLiga",
+      "espn": "esp.1"
+    },
+    {
+      "category": "Italy",
+      "name": "Serie A",
+      "espn": "ita.1"
+    },
+    {
+      "category": "Germany",
+      "name": "Bundesliga",
+      "espn": "ger.1"
+    },
+    {
+      "category": "France",
+      "name": "Ligue 1",
+      "espn": "fra.1"
+    },
+    {
+      "category": "Turkey",
+      "name": "Super Lig",
+      "espn": "tur.1"
+    },
+    {
+      "category": "Netherlands",
+      "name": "Eredivisie",
+      "espn": "ned.1"
+    },
+    {
+      "category": "Portugal",
+      "name": "Liga Portugal",
+      "espn": "por.1"
+    },
+    {
+      "category": "Belgium",
+      "name": "Jupiler Pro League",
+      "espn": "bel.1"
+    },
+    {
+      "category": "Europe",
+      "name": "Champions League",
+      "espn": "uefa.champions"
+    },
+    {
+      "category": "Europe",
+      "name": "Europa League",
+      "espn": "uefa.europa"
+    }
   ]
 }
