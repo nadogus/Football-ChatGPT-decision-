@@ -14,6 +14,9 @@ on:
       limit:
         description: "En fazla maç (boş = hepsi)"
         default: ""
+      include_finished:
+        description: "Sadece doğrulama: bitmiş maçlar için de paket üret (true/false)"
+        default: "false"
       geo:
         description: "Oran bölgesi (bahisçi listesi buna göre değişir): GB, TR, US, DE..."
         default: "GB"
@@ -30,6 +33,7 @@ env:
   # İncelenmiş, MIT lisanslı sürüme sabitlenmiştir (2026-11-04). Güncellemek için önce kodu inceleyin.
   FLASHSCORE_SCRAPER_SHA: af784a918fc94339fd2c8ff0fadc1da69a6139d8
   ODDS_GEO: ${{ github.event.inputs.geo || 'GB' }}
+  SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
 jobs:
   scan:
@@ -63,7 +67,8 @@ jobs:
         run: |
           D="${{ github.event.inputs.date }}"; [ -z "$D" ] && D=$(date -u +%F)
           L="${{ github.event.inputs.limit }}"
-          python daily_pipeline.py scan --date "$D" ${L:+--limit $L}
+          F=""; [ "${{ github.event.inputs.include_finished }}" = "true" ] && F="--include-finished"
+          python daily_pipeline.py scan --date "$D" ${L:+--limit $L} $F
           cat "daily/$D/OZET.md" >> "$GITHUB_STEP_SUMMARY"
       - name: Çıktıları dala kaydet
         if: always()
@@ -73,6 +78,10 @@ jobs:
           for d in daily ledger decisions; do [ -e "$d" ] && git add "$d"; done
           git diff --cached --quiet || git commit -q -m "Günlük kanıt taraması $(date -u +%F)"
           for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done; exit 1
+      - name: Arıza bildirimi (Slack webhook tanımlıysa)
+        if: failure() && env.SLACK_WEBHOOK_URL != ''
+        run: |
+          curl -sS -X POST -H 'Content-Type: application/json' --data "{\"text\":\"⚠️ ${{ github.workflow }} başarısız: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" "$SLACK_WEBHOOK_URL"
       - uses: actions/upload-artifact@v4
         if: always()
         with:

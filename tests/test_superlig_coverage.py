@@ -1,5 +1,5 @@
 from datetime import datetime,timezone
-from data_adapters import normalize_decimal_quotes, PinnaclePrematchClient
+from data_adapters import normalize_decimal_quotes
 from public_sources import FlashscoreModelClient
 
 def test_flashscore_opening_odds_nested_shape():
@@ -20,17 +20,6 @@ def test_flashscore_opening_odds_nested_shape():
     assert by[("total","OVER_2.5")]["decimal_odds"]==1.85
     assert by[("total","UNDER_2.5")]["decimal_odds"]==2.0
     assert all(r["phase"]=="OPENING" for r in rows)
-
-def test_pinnacle_discovers_turkey_super_league(monkeypatch):
-    p=PinnaclePrematchClient(api_key="x")
-    class R:
-        ok=True
-        data=[
-            {"id":1980,"name":"England - Premier League","group":"England","sequence":1},
-            {"id":2592,"name":"Turkey - Super League","group":"Turkey","sequence":1},
-        ]
-    monkeypatch.setattr(p,"leagues",lambda sport_id=29:R())
-    assert p.discover_league_id("Turkish Super Lig","Turkey")==2592
 
 def test_flashscore_computed_elo_excludes_target_match(monkeypatch):
     c=FlashscoreModelClient("http://unused")

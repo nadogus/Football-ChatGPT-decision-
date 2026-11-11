@@ -1,3 +1,5 @@
+> Not (Kasım 2026): Bu belge ilk mimariyi anlatır. Güncel çalışan hat için README.md'ye bakın; Pinnacle, Transfermarkt ve eski orkestrasyon modülleri kaldırılmıştır.
+
 # Evidence-First Architecture V2.0
 
 ## Purpose

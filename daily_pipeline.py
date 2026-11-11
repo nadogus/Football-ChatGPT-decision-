@@ -231,7 +231,10 @@ class Scanner:
                      "missing_players": missing, "missing_players_source": missing_source, "xg": {"home": hx, "away": ax},
                      "elo": {"home": he, "away": ae, "method": "season-only results, start 1500"},
                      "weather": weather, "data_gaps": gaps,
-                     "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."},
+                     "data_present": {"odds": bool(quotes), "opening_odds": any(q.get("phase") == "OPENING" for q in quotes),
+                                      "absences": missing is not None, "xg": bool(hx and ax),
+                                      "elo": he is not None and ae is not None, "weather": bool(weather.get("ok"))},
+                     "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Bu model ailesi 2019-2026 geriye dönük testinde kapanış oranını yenemedi; model-piyasa farkı tek başına bahis gerekçesi değildir."},
             engine_version="evidence-v1.2")
         packet["event"] = "PRE_EVIDENCE_READY" if quotes else "PRE_EVIDENCE_INCOMPLETE"
         return packet
@@ -265,7 +268,7 @@ def render_match(p: dict[str, Any]) -> str:
                  f"Alt {t['best_price']['UNDER']['odds']} ({t['best_price']['UNDER']['bookmaker']})")
     ens = (p.get("models") or {}).get("ensemble") or {}
     if ens.get("HOME") is not None:
-        cands = {c["selection"]: c for c in (p.get("market") or {}).get("candidates") or []}
+        cands = {c["selection"]: c for c in (p.get("market") or {}).get("model_vs_market") or []}
         lab = {"HOME": "1", "DRAW": "X", "AWAY": "2"}
         diff = " · ".join(f"{lab[s]} {cands[s]['model_minus_market_pp']:+.1f}"
                           for s in ("HOME", "DRAW", "AWAY") if s in cands and cands[s].get("model_minus_market_pp") is not None)
@@ -309,6 +312,7 @@ def cmd_scan(day: str, limit: int | None = None, include_finished: bool = False)
     (out / "fixtures.json").write_text(json.dumps(fxs, ensure_ascii=False, indent=1), encoding="utf-8")
     ledger = ImmutableLedger(str(ROOT / "ledger" / "pre_evidence.jsonl"))
     rendered = []
+    packets = []
     for i, fx in enumerate(fxs, 1):
         print(f"[{i}/{len(fxs)}] {fx['home']} - {fx['away']} ({fx['competition']})", flush=True)
         try:
@@ -322,13 +326,34 @@ def cmd_scan(day: str, limit: int | None = None, include_finished: bool = False)
         p["ledger_sha256"] = ledger.append(p) if p["event"] != "VALIDATION_ONLY_POST_MATCH" else None
         (out / "packets" / f"{fx['match_id']}.json").write_text(json.dumps(p, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
         rendered.append(render_match(p))
+        packets.append(p)
     head = [f"# Günlük veri özeti — {day}", "",
             f"{len(fxs)} maç · ligler: {', '.join(sorted({f['competition'] for f in fxs})) or '—'} · oran bölgesi: {ODDS_GEO} · "
             f"oluşturuldu {datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC", "",
             "Bu dosya yalnızca kanıttır; karar içermez. Marjsız olasılıklar bahisçi başına power yöntemiyle hesaplanıp medyanı alınmıştır. "
             "Model satırları kabadır ve piyasaya karşı doğrulanmamıştır. Eksik veri uydurulmaz, 'Eksik veri' satırında listelenir.", ""]
     (out / "OZET.md").write_text("\n".join(head + ["\n\n".join(rendered) or "_Bu tarihte hedef liglerde maç yok._"]) + "\n", encoding="utf-8")
+    health = scan_health(day, fxs, packets)
+    (out / "health.json").write_text(json.dumps(health, ensure_ascii=False, indent=1), encoding="utf-8")
+    if health["warnings"]:
+        print("HEALTH WARNINGS:", "; ".join(health["warnings"]))
     print(f"OK {len(fxs)} matches -> {out / 'OZET.md'}")
+
+
+def scan_health(day: str, fxs: list, packets: list) -> dict[str, Any]:
+    """Source health of one scan. A source that is empty for most matches is a broken source,
+    not a quiet day; the reviewer task relays these warnings to Slack."""
+    n = len(fxs)
+    present = {k: sum(1 for p in packets if (p.get("context") or {}).get("data_present", {}).get(k))
+               for k in ("odds", "opening_odds", "absences", "xg", "elo", "weather")}
+    warnings = []
+    if n and len(packets) < n:
+        warnings.append(f"{n - len(packets)}/{n} maçta paket üretilemedi")
+    for k, label in (("odds", "oran"), ("absences", "sakatlık/ceza"), ("xg", "xG"), ("elo", "Elo"), ("weather", "hava durumu")):
+        if n >= 2 and present[k] < 0.5 * n:
+            warnings.append(f"{label} kaynağı {n} maçın yalnızca {present[k]}'inde veri verdi")
+    return {"date": day, "generated_at": datetime.now(timezone.utc).isoformat(), "fixtures": n,
+            "packets": len(packets), "present": present, "warnings": warnings}
 
 
 # ---------------------------------------------------------------- settle + CLV
@@ -427,6 +452,8 @@ def cmd_record(a):
         raise SystemExit(f"REFUSED: kickoff {kickoff.isoformat()} has passed — decisions must be recorded before kickoff")
     if a.decision == "PLAY" and not a.price:
         raise SystemExit("PLAY needs --price")
+    if a.decision == "PLAY" and stop_status()["stop"]:
+        raise SystemExit("REFUSED: stop rule triggered (STOP_RULE.md) — mean CLV is negative after 50 PLAY decisions")
     rec = {"decision_id": f"{a.match_id}-{now:%Y%m%dT%H%M%S}-{a.decision}-{(a.selection or 'NA').upper()}", "match_id": a.match_id,
            "home": fx["home"], "away": fx["away"], "kickoff": fx["kickoff"], "decision": a.decision,
            "market": a.market, "selection": a.selection.upper(), "price": a.price, "bookmaker": a.bookmaker,
@@ -434,6 +461,17 @@ def cmd_record(a):
            "minutes_before_kickoff": round((kickoff - now).total_seconds() / 60, 1)}
     append_jsonl(ROOT / "decisions" / "decisions.jsonl", rec)
     print(json.dumps(rec, ensure_ascii=False))
+
+
+STOP_MIN_PLAYS = 50  # see STOP_RULE.md
+
+
+def stop_status() -> dict[str, Any]:
+    """STOP_RULE.md: after 50 settled PLAY decisions with a closing price, mean CLV < 0 stops the system."""
+    plays = [s for s in read_jsonl(ROOT / "decisions" / "settlements.jsonl") if s["decision"] == "PLAY" and s.get("clv") is not None]
+    mean = sum(s["clv"] for s in plays) / len(plays) if plays else None
+    return {"plays_with_closing": len(plays), "required": STOP_MIN_PLAYS, "mean_clv": mean,
+            "stop": bool(len(plays) >= STOP_MIN_PLAYS and mean is not None and mean < 0)}
 
 
 def cmd_report():
@@ -455,7 +493,14 @@ def cmd_report():
          f"| kapanışı yenen bahis | {sum(c > 0 for c in clv)}/{len(clv)} |",
          f"| en büyük düşüş (birim) | {dd:.2f} |", "",
          "CLV = alınan oran × kapanıştaki marjsız olasılık − 1. 50 PLAY'den önce ROI şanstan ayırt edilemez; CLV daha erken bilgi verir."]
+    st = stop_status()
+    L += ["", "## Durdurma kuralı (STOP_RULE.md)", "",
+          f"Kapanış fiyatı olan PLAY: {st['plays_with_closing']}/{st['required']} · ortalama CLV: "
+          + ("—" if st["mean_clv"] is None else f"{100 * st['mean_clv']:+.2f}%"),
+          "**DURUM: DURDURULDU — ortalama CLV negatif. Yeni PLAY kaydedilmez.**" if st["stop"]
+          else "DURUM: devam (kural henüz tetiklenmedi)."]
     (ROOT / "decisions").mkdir(exist_ok=True)
+    (ROOT / "decisions" / "STATUS.json").write_text(json.dumps(st, indent=1), encoding="utf-8")
     (ROOT / "decisions" / "REPORT.md").write_text("\n".join(L) + "\n", encoding="utf-8")
     print("\n".join(L))
 
