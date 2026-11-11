@@ -1,9 +1,6 @@
 name: daily-evidence-scan
 
 on:
-  push:
-    branches: [data-pipeline-v2]
-    paths: ["daily_pipeline.py", "market_evidence.py", "fotmob_source.py", ".github/workflows/daily-scan.yml"]
   schedule:
     - cron: "37 5 * * *"   # her gün 05:37 UTC (08:37 TSİ): dünü kapat, bugünü tara
   workflow_dispatch:
@@ -54,54 +51,15 @@ jobs:
           cat /tmp/flashscore.log; exit 1
       - name: Testler
         run: pip install -q pytest && pytest -q
-      - name: Dal doğrulaması (geçmiş gün, sadece push)
-        if: github.event_name == 'push'
-        run: |
-          python daily_pipeline.py scan --date 2026-11-08 --include-finished --limit 8
-          python daily_pipeline.py settle --date 2026-11-08
-          python - <<'PY'
-          import json,glob
-          c=json.load(open("daily/2026-11-08/closing.json"))
-          print("finished:",sum(v.get("status")=="finished" for v in c.values()),"closing_ok:",sum(bool(v.get("closing_ok")) for v in c.values()),"of",len(c))
-          for p in sorted(glob.glob("daily/2026-11-08/packets/*.json")):
-              d=json.load(open(p));s=(d["market"]["summary"] or {}).get("1x2") or {}
-              print(d["match"]["home"],"-",d["match"]["away"],"| books",s.get("bookmakers"),"| pinnacle",bool(s.get("pinnacle_fair")),"| move",s.get("movement_pp"),"| gaps",d["context"]["data_gaps"])
-          for k,v in c.items():
-              x=(v.get("closing_summary") or {}).get("1x2") or {}
-              print("CLOSE",v["home"],"-",v["away"],v["home_score"],"-",v["away_score"],"| fair",x.get("consensus_fair"),"| best",{s:b["odds"] for s,b in (x.get("best_price") or {}).items()})
-          PY
-          cat daily/2026-11-08/OZET.md >> "$GITHUB_STEP_SUMMARY"
-      - name: Dal doğrulaması (yaklaşan maçlarda sakatlık listesi)
-        if: github.event_name == 'push'
-        run: |
-          python - <<'PY'
-          from datetime import date, timedelta
-          from data_adapters import FlashscoreClient
-          import daily_pipeline as dp
-          fs=FlashscoreClient(); lg=dp.load_leagues(); checked=0
-          PRI=["England","Spain","Italy","Germany","France","Brazil","USA","Mexico","Saudi Arabia","World","Europe","Netherlands","Portugal","Turkey"]
-          for n in range(0,8):
-              d=(date.today()+timedelta(days=n)).isoformat(); r=fs.matches("football",d)
-              if not r.ok: print(d,"list failed",r.error); continue
-              groups=[g for g in r.data.get("competitions") or [] if ((g.get("competition") or {}).get("category") in PRI) and not dp.VARIANT.search((g.get("competition") or {}).get("name") or "")]
-              for g in groups:
-                  comp=g.get("competition") or {}
-                  for m in (g.get("matches") or [])[:1]:
-                      if checked>=18 or m.get("status")!="scheduled": continue
-                      mp=fs.missing_players(m["id"])
-                      cnt=(mp.data or {}).get("count") if mp.ok else mp.error
-                      print("MISSING",d,comp.get("category"),"|",comp.get("name"),"|",m["home"]["name"],"-",m["away"]["name"],"->",cnt,"| target" if dp.league_match(comp,lg) else "")
-                      checked+=1
-          PY
       - name: Dünü kapat (sonuç + kapanış oranı + CLV)
-        if: github.event_name != 'push' && (github.event.inputs.mode || 'both') != 'scan'
+        if: (github.event.inputs.mode || 'both') != 'scan'
         run: |
           D="${{ github.event.inputs.date }}"
           if [ -n "$D" ]; then Y=$(date -u -d "$D -1 day" +%F); else Y=$(date -u -d "yesterday" +%F); fi
           python daily_pipeline.py settle --date "$Y"
           python daily_pipeline.py report
       - name: Bugünü tara
-        if: github.event_name != 'push' && (github.event.inputs.mode || 'both') != 'settle'
+        if: (github.event.inputs.mode || 'both') != 'settle'
         run: |
           D="${{ github.event.inputs.date }}"; [ -z "$D" ] && D=$(date -u +%F)
           L="${{ github.event.inputs.limit }}"

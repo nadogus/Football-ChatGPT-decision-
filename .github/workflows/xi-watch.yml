@@ -7,9 +7,6 @@ on:
     inputs:
       date: {description: "YYYY-MM-DD (doğrulama için)", default: ""}
       match_id: {description: "Tek maç (doğrulama için)", default: ""}
-  push:
-    branches: [data-pipeline-v2]
-    paths: ["xi_watch.py", "fotmob_source.py", ".github/workflows/xi-watch.yml"]
 
 permissions:
   contents: write
@@ -59,15 +56,8 @@ jobs:
           PORT=8001 nohup python run.py >/tmp/flashscore.log 2>&1 &
           for i in {1..40}; do curl -fsS "http://127.0.0.1:8001/matches?sport=football" -o /dev/null && exit 0; sleep 2; done
           cat /tmp/flashscore.log; exit 1
-      - name: Dal doğrulaması (8 Kasım, bitmiş maç)
-        if: github.event_name == 'push'
-        run: |
-          python xi_watch.py --date 2026-11-08 --match-id SY7oSelg --force
-          python xi_watch.py --date 2026-11-08 --match-id ENcy7qjT --force
-          cat daily/2026-11-08/xi/*.md
-          cat daily/2026-11-08/xi/*.md >> "$GITHUB_STEP_SUMMARY"
       - name: XI izle
-        if: github.event_name != 'push' && steps.due.outputs.due == 'true'
+        if: steps.due.outputs.due == 'true'
         run: python xi_watch.py ${{ github.event.inputs.date && format('--date {0}', github.event.inputs.date) || '' }} ${{ github.event.inputs.match_id && format('--match-id {0} --force', github.event.inputs.match_id) || '' }}
       - name: Kaydet
         if: steps.due.outputs.due == 'true'
