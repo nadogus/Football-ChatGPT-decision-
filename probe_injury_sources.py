@@ -1,45 +1,42 @@
-"""One-off probe: which injury/absence sources actually return data from GitHub Actions?"""
-import json, urllib.request, urllib.parse
-from datetime import date, timedelta
+"""One-off probe: FotMob match details — lineups and unavailable players."""
+import json, urllib.request
 
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36", "Accept": "application/json"}
-
-def get(url, headers=None):
+def get(url):
     try:
-        req = urllib.request.Request(url, headers={**UA, **(headers or {})})
-        with urllib.request.urlopen(req, timeout=25) as r:
-            body = r.read().decode("utf-8", "replace")
-            return r.status, body
+        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=25) as r:
+            return r.status, r.read().decode("utf-8", "replace")
     except urllib.error.HTTPError as e:
-        return e.code, (e.read() or b"")[:300].decode("utf-8", "replace")
+        return e.code, ""
     except Exception as e:
         return None, f"{type(e).__name__}: {e}"
 
-def show(label, status, body):
-    print(f"PROBE {label}: status={status} len={len(body or '')} head={json.dumps((body or '')[:220])}")
-
-# --- ESPN: does the soccer summary carry injuries?
-s, b = get("https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261108")
-eid = None
-try:
-    for e in json.loads(b).get("events", []):
-        if "Napoli" in e.get("name", ""): eid = e["id"]
-except Exception: pass
-s, b = get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event={eid}")
-try:
-    d = json.loads(b); print("PROBE espn summary keys:", sorted(d.keys())); print("PROBE espn injuries:", json.dumps(d.get("injuries"))[:400])
-except Exception as e: show("espn summary", s, b)
-
-# --- Transfermarkt community API (MIT, felipeall/transfermarkt-api) public instance
-for path in ("/clubs/search/Napoli", "/clubs/6195/players"):
-    s, b = get("https://transfermarkt-api.fly.dev" + path); show("transfermarkt-api.fly.dev" + path, s, b)
-# Transfermarkt site itself (club injuries page)
-s, b = get("https://www.transfermarkt.com/ssc-neapel/sperrenundverletzungen/verein/6195")
-show("transfermarkt.com injuries page", s, b[:200] if b else b)
-print("PROBE transfermarkt page mentions injury table:", ("Verletzung" in (b or "")) or ("injury" in (b or "").lower()))
-
-# --- FotMob web API
-s, b = get("https://www.fotmob.com/api/matches?date=" + (date.today() + timedelta(days=1)).strftime("%Y%m%d"))
-show("fotmob /api/matches", s, b)
-s, b = get("https://www.fotmob.com/api/data/matches?date=" + (date.today() + timedelta(days=1)).strftime("%Y%m%d"))
-show("fotmob /api/data/matches", s, b)
+s, b = get("https://www.fotmob.com/api/data/matches?date=20261112")
+d = json.loads(b); ids = []
+for lg in d.get("leagues", []):
+    for m in lg.get("matches", [])[:1]:
+        ids.append((lg.get("name"), m["id"], m["home"]["name"], m["away"]["name"]))
+print("PROBE leagues on 2026-11-12:", len(d.get("leagues", [])))
+for name, mid, h, a in ids[:3]:
+    s, b = get(f"https://www.fotmob.com/api/data/matchDetails?matchId={mid}")
+    print(f"PROBE matchDetails {name} {h}-{a} id={mid}: status={s} len={len(b)}")
+    if s != 200 or not b.startswith("{"):
+        print("PROBE head", json.dumps(b[:200])); continue
+    j = json.loads(b); c = j.get("content") or {}
+    print("PROBE content keys:", sorted(c.keys()))
+    lu = c.get("lineup") or {}
+    print("PROBE lineup keys:", sorted(lu.keys()) if isinstance(lu, dict) else type(lu).__name__, "| lineupType:", lu.get("lineupType") if isinstance(lu, dict) else None)
+    for side in ("homeTeam", "awayTeam"):
+        t = lu.get(side) or {}
+        un = t.get("unavailable") or []
+        print(f"PROBE {side} {t.get('name')}: starters={len(t.get('starters') or [])} unavailable={len(un)} sample={json.dumps(un[:2])[:350]}")
+# finished top-league match (Napoli-Lazio, 2026-11-08)
+s, b = get("https://www.fotmob.com/api/data/matches?date=20261108")
+for lg in json.loads(b).get("leagues", []):
+    for m in lg.get("matches", []):
+        if "Napoli" in m["home"]["name"]:
+            s2, b2 = get(f"https://www.fotmob.com/api/data/matchDetails?matchId={m['id']}")
+            lu = (json.loads(b2).get("content") or {}).get("lineup") or {} if s2 == 200 else {}
+            for side in ("homeTeam", "awayTeam"):
+                t = lu.get(side) or {}
+                print(f"PROBE NAPOLI-LAZIO {side} {t.get('name')}: starters={len(t.get('starters') or [])} unavailable={json.dumps([(u.get('name'), (u.get('unavailability') or {}).get('type'), (u.get('unavailability') or {}).get('expectedReturn')) for u in (t.get('unavailable') or [])])[:500]}")
