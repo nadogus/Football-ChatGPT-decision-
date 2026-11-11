@@ -1,0 +1,743 @@
+{
+ "schema_version": "1.0",
+ "engine_version": "evidence-v1.2",
+ "generated_at": "2026-11-11T02:18:32.726297+00:00",
+ "match": {
+  "match_id": "xbrNbmnd",
+  "home": "Armenia",
+  "away": "Cyprus",
+  "kickoff": "2026-11-12T17:00:00Z",
+  "competition": "UEFA Nations League - League C",
+  "category": "Europe"
+ },
+ "stage": "PRE",
+ "integrity": {
+  "data_quality": 0.8,
+  "league_coverage": 1.0,
+  "flags": []
+ },
+ "source_evidence": [
+  {
+   "source": "flashscore",
+   "observed_at": "2026-11-11T02:18:28.461261+00:00",
+   "reliability": 0.8,
+   "fresh": true
+  },
+  {
+   "source": "flashscore:odds",
+   "observed_at": "2026-11-11T02:18:28.461261+00:00",
+   "reliability": 0.8,
+   "fresh": true
+  }
+ ],
+ "models": {
+  "individual": {},
+  "ensemble": {},
+  "model_agreement": 0.0
+ },
+ "market": {
+  "consensus_1x2": {
+   "HOME": 0.4143,
+   "DRAW": 0.2826,
+   "AWAY": 0.3031
+  },
+  "summary": {
+   "quote_count": 767,
+   "phases": [
+    "CURRENT",
+    "OPENING"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.4143,
+     "DRAW": 0.2826,
+     "AWAY": 0.3031
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 2.38,
+      "bookmaker": "SpreadEX",
+      "fair_odds_consensus": 2.414,
+      "ev_vs_consensus": -0.014
+     },
+     "DRAW": {
+      "odds": 3.4,
+      "bookmaker": "Coral",
+      "fair_odds_consensus": 3.539,
+      "ev_vs_consensus": -0.0392
+     },
+     "AWAY": {
+      "odds": 3.25,
+      "bookmaker": "Paddy Power",
+      "fair_odds_consensus": 3.299,
+      "ev_vs_consensus": -0.0149
+     }
+    },
+    "median_overround": 0.0903,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": {
+     "HOME": 0.4328,
+     "DRAW": 0.2751,
+     "AWAY": 0.2921
+    },
+    "movement_pp": {
+     "HOME": -1.85,
+     "DRAW": 0.75,
+     "AWAY": 1.1
+    }
+   },
+   "totals": {
+    "0.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.9401,
+      "UNDER": 0.0599
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.07,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.064,
+       "ev_vs_consensus": 0.0059
+      },
+      "UNDER": {
+       "odds": 10.0,
+       "bookmaker": "Betano.uk",
+       "fair_odds_consensus": 16.694,
+       "ev_vs_consensus": -0.401
+      }
+     },
+     "median_overround": 0.0625,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.9474,
+      "UNDER": 0.0526
+     },
+     "movement_pp": {
+      "OVER": -0.73,
+      "UNDER": 0.73
+     }
+    },
+    "0.75": {
+     "bookmakers": 1,
+     "consensus_fair": {
+      "OVER": 0.9253,
+      "UNDER": 0.0747
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.06,
+       "bookmaker": "7BetUK",
+       "fair_odds_consensus": 1.081,
+       "ev_vs_consensus": -0.0192
+      },
+      "UNDER": {
+       "odds": 7.0,
+       "bookmaker": "7BetUK",
+       "fair_odds_consensus": 13.387,
+       "ev_vs_consensus": -0.4771
+      }
+     },
+     "median_overround": 0.0863,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.9253,
+      "UNDER": 0.0747
+     },
+     "movement_pp": {
+      "OVER": 0.0,
+      "UNDER": 0.0
+     }
+    },
+    "1": {
+     "bookmakers": 1,
+     "consensus_fair": {
+      "OVER": 0.9253,
+      "UNDER": 0.0747
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.06,
+       "bookmaker": "7BetUK",
+       "fair_odds_consensus": 1.081,
+       "ev_vs_consensus": -0.0192
+      },
+      "UNDER": {
+       "odds": 7.0,
+       "bookmaker": "7BetUK",
+       "fair_odds_consensus": 13.387,
+       "ev_vs_consensus": -0.4771
+      }
+     },
+     "median_overround": 0.0863,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.9253,
+      "UNDER": 0.0747
+     },
+     "movement_pp": {
+      "OVER": 0.0,
+      "UNDER": 0.0
+     }
+    },
+    "1.25": {
+     "bookmakers": 2,
+     "consensus_fair": {
+      "OVER": 0.8059,
+      "UNDER": 0.1941
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.21,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.241,
+       "ev_vs_consensus": -0.0249
+      },
+      "UNDER": {
+       "odds": 4.25,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 5.152,
+       "ev_vs_consensus": -0.1751
+      }
+     },
+     "median_overround": 0.0725,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.8131,
+      "UNDER": 0.1869
+     },
+     "movement_pp": {
+      "OVER": -0.72,
+      "UNDER": 0.72
+     }
+    },
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.7282,
+      "UNDER": 0.2718
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.37,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.373,
+       "ev_vs_consensus": -0.0024
+      },
+      "UNDER": {
+       "odds": 3.4,
+       "bookmaker": "Skybet",
+       "fair_odds_consensus": 3.679,
+       "ev_vs_consensus": -0.0759
+      }
+     },
+     "median_overround": 0.0644,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.7291,
+      "UNDER": 0.2709
+     },
+     "movement_pp": {
+      "OVER": -0.09,
+      "UNDER": 0.09
+     }
+    },
+    "1.75": {
+     "bookmakers": 2,
+     "consensus_fair": {
+      "OVER": 0.6842,
+      "UNDER": 0.3158
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.4,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.462,
+       "ev_vs_consensus": -0.0421
+      },
+      "UNDER": {
+       "odds": 2.85,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 3.167,
+       "ev_vs_consensus": -0.1
+      }
+     },
+     "median_overround": 0.0742,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.6958,
+      "UNDER": 0.3042
+     },
+     "movement_pp": {
+      "OVER": -1.16,
+      "UNDER": 1.16
+     }
+    },
+    "2": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.6305,
+      "UNDER": 0.3695
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.55,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.586,
+       "ev_vs_consensus": -0.0227
+      },
+      "UNDER": {
+       "odds": 2.5,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 2.706,
+       "ev_vs_consensus": -0.0763
+      }
+     },
+     "median_overround": 0.0667,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.6379,
+      "UNDER": 0.3621
+     },
+     "movement_pp": {
+      "OVER": -0.74,
+      "UNDER": 0.74
+     }
+    },
+    "2.25": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.5306,
+      "UNDER": 0.4694
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.8,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.885,
+       "ev_vs_consensus": -0.0449
+      },
+      "UNDER": {
+       "odds": 2.0,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.13,
+       "ev_vs_consensus": -0.0612
+      }
+     },
+     "median_overround": 0.0714,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.537,
+      "UNDER": 0.463
+     },
+     "movement_pp": {
+      "OVER": -0.64,
+      "UNDER": 0.64
+     }
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.4594,
+      "UNDER": 0.5406
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.05,
+       "bookmaker": "Betano.uk",
+       "fair_odds_consensus": 2.177,
+       "ev_vs_consensus": -0.0582
+      },
+      "UNDER": {
+       "odds": 1.8,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 1.85,
+       "ev_vs_consensus": -0.0269
+      }
+     },
+     "median_overround": 0.0737,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.4594,
+      "UNDER": 0.5406
+     },
+     "movement_pp": {
+      "OVER": 0.0,
+      "UNDER": 0.0
+     }
+    },
+    "2.75": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.3937,
+      "UNDER": 0.6063
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.35,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.54,
+       "ev_vs_consensus": -0.0748
+      },
+      "UNDER": {
+       "odds": 1.6,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 1.649,
+       "ev_vs_consensus": -0.0299
+      }
+     },
+     "median_overround": 0.0694,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.4065,
+      "UNDER": 0.5935
+     },
+     "movement_pp": {
+      "OVER": -1.28,
+      "UNDER": 1.28
+     }
+    },
+    "3": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.3121,
+      "UNDER": 0.6879
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.9,
+       "bookmaker": "7BetUK",
+       "fair_odds_consensus": 3.204,
+       "ev_vs_consensus": -0.0949
+      },
+      "UNDER": {
+       "odds": 1.42,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 1.454,
+       "ev_vs_consensus": -0.0232
+      }
+     },
+     "median_overround": 0.0679,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.3147,
+      "UNDER": 0.6853
+     },
+     "movement_pp": {
+      "OVER": -0.26,
+      "UNDER": 0.26
+     }
+    },
+    "3.25": {
+     "bookmakers": 2,
+     "consensus_fair": {
+      "OVER": 0.2652,
+      "UNDER": 0.7348
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 3.3,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 3.771,
+       "ev_vs_consensus": -0.1248
+      },
+      "UNDER": {
+       "odds": 1.33,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.361,
+       "ev_vs_consensus": -0.0227
+      }
+     },
+     "median_overround": 0.0683,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.2824,
+      "UNDER": 0.7176
+     },
+     "movement_pp": {
+      "OVER": -1.72,
+      "UNDER": 1.72
+     }
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.242,
+      "UNDER": 0.758
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 3.75,
+       "bookmaker": "Betano.uk",
+       "fair_odds_consensus": 4.132,
+       "ev_vs_consensus": -0.0925
+      },
+      "UNDER": {
+       "odds": 1.29,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.319,
+       "ev_vs_consensus": -0.0222
+      }
+     },
+     "median_overround": 0.0667,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.2302,
+      "UNDER": 0.7698
+     },
+     "movement_pp": {
+      "OVER": 1.18,
+      "UNDER": -1.18
+     }
+    },
+    "3.75": {
+     "bookmakers": 2,
+     "consensus_fair": {
+      "OVER": 0.1831,
+      "UNDER": 0.8169
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 4.4,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 5.461,
+       "ev_vs_consensus": -0.1944
+      },
+      "UNDER": {
+       "odds": 1.2,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.224,
+       "ev_vs_consensus": -0.0197
+      }
+     },
+     "median_overround": 0.0731,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.1903,
+      "UNDER": 0.8097
+     },
+     "movement_pp": {
+      "OVER": -0.72,
+      "UNDER": 0.72
+     }
+    },
+    "4": {
+     "bookmakers": 2,
+     "consensus_fair": {
+      "OVER": 0.1084,
+      "UNDER": 0.8916
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 6.4,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 9.225,
+       "ev_vs_consensus": -0.3062
+      },
+      "UNDER": {
+       "odds": 1.12,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.122,
+       "ev_vs_consensus": -0.0014
+      }
+     },
+     "median_overround": 0.0708,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.1181,
+      "UNDER": 0.8819
+     },
+     "movement_pp": {
+      "OVER": -0.97,
+      "UNDER": 0.97
+     }
+    },
+    "4.25": {
+     "bookmakers": 2,
+     "consensus_fair": {
+      "OVER": 0.104,
+      "UNDER": 0.896
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 6.8,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 9.615,
+       "ev_vs_consensus": -0.2928
+      },
+      "UNDER": {
+       "odds": 1.11,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.116,
+       "ev_vs_consensus": -0.0054
+      }
+     },
+     "median_overround": 0.0703,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.1046,
+      "UNDER": 0.8954
+     },
+     "movement_pp": {
+      "OVER": -0.06,
+      "UNDER": 0.06
+     }
+    },
+    "4.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.0906,
+      "UNDER": 0.9094
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 8.5,
+       "bookmaker": "Betano.uk",
+       "fair_odds_consensus": 11.038,
+       "ev_vs_consensus": -0.2299
+      },
+      "UNDER": {
+       "odds": 1.1,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.1,
+       "ev_vs_consensus": 0.0003
+      }
+     },
+     "median_overround": 0.0688,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.0895,
+      "UNDER": 0.9105
+     },
+     "movement_pp": {
+      "OVER": 0.11,
+      "UNDER": -0.11
+     }
+    },
+    "5.5": {
+     "bookmakers": 10,
+     "consensus_fair": {
+      "OVER": 0.0211,
+      "UNDER": 0.9789
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 17.0,
+       "bookmaker": "William Hill",
+       "fair_odds_consensus": 47.393,
+       "ev_vs_consensus": -0.6413
+      },
+      "UNDER": {
+       "odds": 1.02,
+       "bookmaker": "William Hill",
+       "fair_odds_consensus": 1.022,
+       "ev_vs_consensus": -0.0015
+      }
+     },
+     "median_overround": 0.064,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.0263,
+      "UNDER": 0.9737
+     },
+     "movement_pp": {
+      "OVER": -0.52,
+      "UNDER": 0.52
+     }
+    }
+   }
+  },
+  "candidates": []
+ },
+ "xi": {
+  "official_verified": false
+ },
+ "context": {
+  "pipeline_version": "DAILY_PIPELINE_V1.0",
+  "odds_geo": "GB",
+  "bookmakers": [
+   "10bet",
+   "7BetUK",
+   "BetMGM.uk",
+   "BetUK",
+   "BetVictor",
+   "Betano.uk",
+   "Betfair",
+   "Betfred",
+   "Betway",
+   "Coral",
+   "Ladbrokes",
+   "Midnite",
+   "Paddy Power",
+   "Parimatch.uk",
+   "Skybet",
+   "SpreadEX",
+   "Talksportbet",
+   "Unibetuk",
+   "William Hill",
+   "bet365"
+  ],
+  "missing_players": {
+   "home": [],
+   "away": [
+    {
+     "player": "Kostas Pileas",
+     "reason": "suspension",
+     "likelihood": "Mid November 2026",
+     "market_value_eur": 346086
+    },
+    {
+     "player": "Ioannis Kosti",
+     "reason": "injury",
+     "likelihood": "Doubtful",
+     "market_value_eur": 775290
+    }
+   ]
+  },
+  "missing_players_source": "fotmob:5181929",
+  "xg": {
+   "home": null,
+   "away": null
+  },
+  "elo": {
+   "home": null,
+   "away": null,
+   "method": "season-only results, start 1500"
+  },
+  "weather": {
+   "ok": false,
+   "reason": "VENUE_CITY_UNKNOWN"
+  },
+  "data_gaps": [
+   "XG_UNAVAILABLE",
+   "ELO_UNAVAILABLE",
+   "WEATHER_UNAVAILABLE:VENUE_CITY_UNKNOWN"
+  ],
+  "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."
+ },
+ "decision_authority": "CHATGPT_ONLY",
+ "production_decision": null,
+ "warnings": [],
+ "event": "PRE_EVIDENCE_READY",
+ "ledger_sha256": "ac95c1a4447e65988e4347c6dabc227988ff11777e426b5a15a8ad332daa4a19"
+}
