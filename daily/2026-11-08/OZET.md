@@ -1,6 +1,6 @@
 # Günlük veri özeti — 2026-11-08
 
-8 maç · ligler: Eredivisie, Jupiler Pro League, LaLiga, Ligue 1, Serie A, Super Lig · oran bölgesi: GB · oluşturuldu 2026-11-11 01:50 UTC
+8 maç · ligler: Eredivisie, Jupiler Pro League, LaLiga, Ligue 1, Serie A, Super Lig · oran bölgesi: GB · oluşturuldu 2026-11-11 02:31 UTC
 
 Bu dosya yalnızca kanıttır; karar içermez. Marjsız olasılıklar bahisçi başına power yöntemiyle hesaplanıp medyanı alınmıştır. Model satırları kabadır ve piyasaya karşı doğrulanmamıştır. Eksik veri uydurulmaz, 'Eksik veri' satırında listelenir.
 
@@ -29,19 +29,19 @@ Başlama: 11:15 UTC / 14:15 TSİ · Flashscore ID `ENcy7qjT`
 ### Napoli – Lazio  ·  Serie A (Italy)
 Başlama: 11:30 UTC / 14:30 TSİ · Flashscore ID `SY7oSelg`
 - **1X2 piyasa (marjsız, 20 bahisçi):** 1 %45.9 · X %25.4 · 2 %28.7 | açılıştan hareket: 1 -3.5 · X +0.1 · 2 +3.4 puan
-- **En iyi oran:** 1 2.14 (10bet) · X 3.75 (Midnite) · 2 3.3 (Coral) · ort. marj %6.2
-- **Alt/Üst 2.5 (marjsız):** Üst %60.0 · Alt %40.0 | en iyi Üst 1.63 (7BetUK) · Alt 2.4 (Betano.uk)
+- **En iyi oran:** 1 2.14 (10bet) · X 3.75 (bet365) · 2 3.3 (Ladbrokes) · ort. marj %6.2
+- **Alt/Üst 2.5 (marjsız):** Üst %60.0 · Alt %40.0 | en iyi Üst 1.63 (7BetUK) · Alt 2.4 (Paddy Power)
 - **Model (kaba, dixon_coles_xg, elo_season):** 1 %36.5 · X %25.0 · 2 %38.5 | model−piyasa: 1 -9.4 · X -0.4 · 2 +9.8 puan
 - **xG (son 6/6 lig maçı ort., atılan/yenen):** ev 1.94/1.16 · dep 1.73/1.16
 - **Elo (sezon içi):** ev 1498 · dep 1602
 - **Eksikler (fotmob):** ev: Benoît Badiashile (injury; Early December 2026), Luca Marianucci (suspension; Early November 2026), Costantino Favasuli (injury; Doubtful) | dep: Albert Guðmundsson (injury; Late November 2026)
-- **Hava (Naples, maç saati tahmini):** 17.5°C · yağış 0.0 mm (%5) · rüzgâr 2.5 km/s
+- **Hava (Naples, maç saati tahmini):** 17.5°C · yağış 0.0 mm (%3) · rüzgâr 2.5 km/s
 
 ### Club Brugge KV – Anderlecht  ·  Jupiler Pro League (Belgium)
 Başlama: 12:30 UTC / 15:30 TSİ · Flashscore ID `SChcBv6c`
 - **1X2 piyasa (marjsız, 19 bahisçi):** 1 %62.0 · X %20.2 · 2 %17.9 | açılıştan hareket: 1 -2.5 · X +1.0 · 2 +1.5 puan
-- **En iyi oran:** 1 1.61 (Ladbrokes) · X 4.5 (Talksportbet) · 2 5.0 (Talksportbet) · ort. marj %7.5
-- **Alt/Üst 2.5 (marjsız):** Üst %70.4 · Alt %29.6 | en iyi Üst 1.4 (Unibetuk) · Alt 3.25 (Skybet)
+- **En iyi oran:** 1 1.61 (Coral) · X 4.5 (Midnite) · 2 5.0 (BetVictor) · ort. marj %7.5
+- **Alt/Üst 2.5 (marjsız):** Üst %70.4 · Alt %29.6 | en iyi Üst 1.4 (7BetUK) · Alt 3.25 (Skybet)
 - **Model (kaba, dixon_coles_xg, elo_season):** 1 %47.8 · X %22.7 · 2 %29.5 | model−piyasa: 1 -14.1 · X +2.5 · 2 +11.6 puan
 - **xG (son 6/6 lig maçı ort., atılan/yenen):** ev 2.62/1.54 · dep 1.72/1.10
 - **Elo (sezon içi):** ev 1596 · dep 1534
@@ -62,7 +62,7 @@ Başlama: 13:00 UTC / 16:00 TSİ · Flashscore ID `S88X9hRp`
 ### Corum – Fenerbahce  ·  Super Lig (Turkey)
 Başlama: 13:00 UTC / 16:00 TSİ · Flashscore ID `CddXyIK5`
 - **1X2 piyasa (marjsız, 20 bahisçi):** 1 %26.0 · X %24.3 · 2 %49.7 | açılıştan hareket: 1 +5.3 · X +1.9 · 2 -7.2 puan
-- **En iyi oran:** 1 3.5 (Betfair) · X 3.9 (10bet) · 2 2.0 (Coral) · ort. marj %8.1
+- **En iyi oran:** 1 3.5 (Coral) · X 3.9 (10bet) · 2 2.0 (Coral) · ort. marj %8.1
 - **Alt/Üst 2.5 (marjsız):** Üst %60.9 · Alt %39.1 | en iyi Üst 1.58 (Unibetuk) · Alt 2.4 (Skybet)
 - **Model (kaba, dixon_coles_xg, elo_season):** 1 %37.0 · X %24.6 · 2 %38.4 | model−piyasa: 1 +11.0 · X +0.3 · 2 -11.3 puan
 - **xG (son 6/6 lig maçı ort., atılan/yenen):** ev 1.33/1.15 · dep 2.18/1.22
@@ -73,7 +73,7 @@ Başlama: 13:00 UTC / 16:00 TSİ · Flashscore ID `CddXyIK5`
 ### Twente – Ajax  ·  Eredivisie (Netherlands)
 Başlama: 13:30 UTC / 16:30 TSİ · Flashscore ID `p6l71NDj`
 - **1X2 piyasa (marjsız, 20 bahisçi):** 1 %54.0 · X %22.0 · 2 %24.0 | açılıştan hareket: 1 +15.8 · X -0.8 · 2 -15.1 puan
-- **En iyi oran:** 1 1.83 (Ladbrokes) · X 4.25 (Unibetuk) · 2 4.0 (bet365) · ort. marj %7.0
+- **En iyi oran:** 1 1.83 (Coral) · X 4.25 (Unibetuk) · 2 4.0 (bet365) · ort. marj %7.0
 - **Alt/Üst 2.5 (marjsız):** Üst %70.3 · Alt %29.7 | en iyi Üst 1.42 (Unibetuk) · Alt 3.2 (Skybet)
 - **Model (kaba, dixon_coles_xg, elo_season):** 1 %47.6 · X %22.9 · 2 %29.4 | model−piyasa: 1 -6.4 · X +0.9 · 2 +5.5 puan
 - **xG (son 6/6 lig maçı ort., atılan/yenen):** ev 2.65/0.82 · dep 2.18/1.57
@@ -84,7 +84,7 @@ Başlama: 13:30 UTC / 16:30 TSİ · Flashscore ID `p6l71NDj`
 ### Rennes – Lille  ·  Ligue 1 (France)
 Başlama: 14:00 UTC / 17:00 TSİ · Flashscore ID `Mm1sxqvh`
 - **1X2 piyasa (marjsız, 20 bahisçi):** 1 %40.9 · X %28.6 · 2 %30.4 | açılıştan hareket: 1 -5.0 · X +3.6 · 2 +1.4 puan
-- **En iyi oran:** 1 2.38 (bet365) · X 3.4 (10bet) · 2 3.25 (Skybet) · ort. marj %6.3
+- **En iyi oran:** 1 2.38 (bet365) · X 3.4 (Midnite) · 2 3.25 (Skybet) · ort. marj %6.3
 - **Alt/Üst 2.5 (marjsız):** Üst %49.0 · Alt %51.0 | en iyi Üst 2.0 (bet365) · Alt 1.95 (10bet)
 - **Model (kaba, dixon_coles_xg, elo_season):** 1 %37.8 · X %23.5 · 2 %38.7 | model−piyasa: 1 -3.1 · X -5.1 · 2 +8.3 puan
 - **xG (son 6/6 lig maçı ort., atılan/yenen):** ev 2.28/2.36 · dep 1.53/1.09

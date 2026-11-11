@@ -1,0 +1,15 @@
+{
+ "date": "2026-11-08",
+ "generated_at": "2026-11-11T02:31:32.164651+00:00",
+ "fixtures": 8,
+ "packets": 8,
+ "present": {
+  "odds": 8,
+  "opening_odds": 8,
+  "absences": 8,
+  "xg": 8,
+  "elo": 8,
+  "weather": 8
+ },
+ "warnings": []
+}
