@@ -1,0 +1,17 @@
+{
+  "_note": "Flashscore competition category + name (case-insensitive). Women/youth variants are excluded automatically.",
+  "leagues": [
+    {"category": "England", "name": "Premier League"},
+    {"category": "England", "name": "Championship"},
+    {"category": "Spain", "name": "LaLiga"},
+    {"category": "Italy", "name": "Serie A"},
+    {"category": "Germany", "name": "Bundesliga"},
+    {"category": "France", "name": "Ligue 1"},
+    {"category": "Turkey", "name": "Super Lig"},
+    {"category": "Netherlands", "name": "Eredivisie"},
+    {"category": "Portugal", "name": "Liga Portugal"},
+    {"category": "Belgium", "name": "Jupiler Pro League"},
+    {"category": "Europe", "name": "Champions League"},
+    {"category": "Europe", "name": "Europa League"}
+  ]
+}

@@ -14,7 +14,10 @@ jobs:
           python-version: '3.12'
       - name: Start proven Flashscore service
         run: |
-          git clone --depth 1 --branch master https://github.com/omkarcloud/flashscore-scraper.git /tmp/flashscore-scraper
+          # pinned to a reviewed MIT-licensed commit (2026-11-04) instead of whatever master is today
+          git init -q /tmp/flashscore-scraper && git -C /tmp/flashscore-scraper remote add origin https://github.com/omkarcloud/flashscore-scraper.git
+          git -C /tmp/flashscore-scraper fetch -q --depth 1 origin af784a918fc94339fd2c8ff0fadc1da69a6139d8
+          git -C /tmp/flashscore-scraper checkout -q FETCH_HEAD
           python -m pip install -r /tmp/flashscore-scraper/requirements.txt
           cd /tmp/flashscore-scraper
           PORT=8001 nohup python run.py >/tmp/flashscore.log 2>&1 &

@@ -67,24 +67,32 @@ def edge_ev(p,odds):return {"edge_pp":p-(1/odds),"ev":p*odds-1}
 def best_prices(quotes):
     best={}
     for q in quotes:
+        if str(getattr(q,"phase","CURRENT")).upper()!="CURRENT":continue  # opening/closing quotes are not bettable prices
         key=(q.market,q.selection)
         if key not in best or q.decimal_odds>best[key].decimal_odds:best[key]=q
     return best
 def market_consensus(quotes,market):
-    books={}
+    from market_evidence import canonical_market
+    books={};want=canonical_market(market)
     for q in quotes:
-        if q.market==market:books.setdefault(q.bookmaker,{})[q.selection]=q.decimal_odds
+        if canonical_market(q.market)==want and str(getattr(q,"phase","CURRENT")).upper()=="CURRENT":books.setdefault(q.bookmaker,{})[q.selection]=q.decimal_odds
     probs=[proportional_devig(odds) for odds in books.values() if len(odds)>=2];keys=set().union(*(p.keys() for p in probs)) if probs else set();return {k:sum(p.get(k,0) for p in probs)/len(probs) for k in keys} if probs else {}
 def movement(opening,current):return current/opening-1
 CORRELATION_FAMILY={"HOME":"HOME_SIDE","HOME_ML":"HOME_SIDE","HOME_DNB":"HOME_SIDE","HOME_-0.25":"HOME_SIDE","HOME_-0.5":"HOME_SIDE","AWAY":"AWAY_SIDE","AWAY_ML":"AWAY_SIDE","AWAY_DNB":"AWAY_SIDE","AWAY_+0.25":"AWAY_SIDE","AWAY_+0.5":"AWAY_SIDE","UNDER_2.5":"TOTAL_UNDER","UNDER_3.0":"TOTAL_UNDER","UNDER_3.5":"TOTAL_UNDER","OVER_2.5":"TOTAL_OVER","OVER_3.0":"TOTAL_OVER","OVER_3.5":"TOTAL_OVER"}
-def candidate_evidence(probabilities,quotes):
+def candidate_evidence(probabilities,quotes,market=None):
+    from market_evidence import market_fair_probability
     rows=[]
-    for (market,selection),q in best_prices(quotes).items():
+    for (market_name,selection),q in best_prices(quotes).items():
         if selection not in probabilities:continue
-        p=probabilities[selection];ee=edge_ev(p,q.decimal_odds);rows.append({"market":market,"selection":selection,"model_probability":round(p,6),"fair_odds":round(fair_odds(p),4),"best_odds":q.decimal_odds,"bookmaker":q.bookmaker,"edge_pp":round(ee["edge_pp"],6),"ev":round(ee["ev"],6),"correlation_family":CORRELATION_FAMILY.get(selection,selection)})
+        p=probabilities[selection];ee=edge_ev(p,q.decimal_odds);mp=market_fair_probability(market,selection) if market else None
+        rows.append({"market":market_name,"selection":selection,"model_probability":round(p,6),"fair_odds":round(fair_odds(p),4),"best_odds":q.decimal_odds,"bookmaker":q.bookmaker,"edge_pp":round(ee["edge_pp"],6),"ev":round(ee["ev"],6),"market_fair_probability":mp,"model_minus_market_pp":round(100*(p-mp),2) if mp is not None else None,"correlation_family":CORRELATION_FAMILY.get(selection,selection)})
     return sorted(rows,key=lambda x:x["ev"],reverse=True)
 def build_evidence_packet(*,match,sources,league_coverage,models,quotes,xi=None,context=None,engine_version="evidence-v1.0"):
-    integ=integrity(sources,league_coverage);combined,agreement=ensemble(list(models.values()));return {"schema_version":"1.0","engine_version":engine_version,"generated_at":datetime.now(timezone.utc).isoformat(),"match":match,"stage":"POST_XI" if (xi or {}).get("official_verified") else "PRE","integrity":integ,"source_evidence":[{"source":s.source,"observed_at":s.observed_at.isoformat(),"reliability":s.reliability,"fresh":s.fresh()} for s in sources],"models":{"individual":models,"ensemble":combined,"model_agreement":round(agreement,4)},"market":{"consensus_1x2":market_consensus(quotes,"1X2"),"candidates":candidate_evidence(combined,quotes)},"xi":xi or {"official_verified":False},"context":context or {},"decision_authority":"CHATGPT_ONLY","production_decision":None,"warnings":integ["flags"]}
+    integ=integrity(sources,league_coverage);combined,agreement=ensemble(list(models.values()));return {"schema_version":"1.0","engine_version":engine_version,"generated_at":datetime.now(timezone.utc).isoformat(),"match":match,"stage":"POST_XI" if (xi or {}).get("official_verified") else "PRE","integrity":integ,"source_evidence":[{"source":s.source,"observed_at":s.observed_at.isoformat(),"reliability":s.reliability,"fresh":s.fresh()} for s in sources],"models":{"individual":models,"ensemble":combined,"model_agreement":round(agreement,4)},"market":_market_section(quotes,combined),"xi":xi or {"official_verified":False},"context":context or {},"decision_authority":"CHATGPT_ONLY","production_decision":None,"warnings":integ["flags"]}
+def _market_section(quotes,combined):
+    from market_evidence import market_summary
+    summary=market_summary(quotes)
+    return {"consensus_1x2":(summary.get("1x2") or {}).get("consensus_fair") or {},"summary":summary,"candidates":candidate_evidence(combined,quotes,summary)}
 class ImmutableLedger:
     def __init__(self,path="ledger/evidence.jsonl"):self.path=Path(path)
     def append(self,packet):
