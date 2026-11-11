@@ -61,10 +61,16 @@ def league_match(competition: dict[str, Any] | None, leagues: list[dict[str, str
 
 
 # ---------------------------------------------------------------- weather (Open-Meteo, keyless)
-def _get_json(url: str, timeout: float = 20.0) -> Any:
+def _get_json(url: str, timeout: float = 30.0, retries: int = 3) -> Any:
     req = urllib.request.Request(url, headers={"User-Agent": "football-chatgpt-decision/1.0"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.loads(r.read().decode("utf-8"))
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return json.loads(r.read().decode("utf-8"))
+        except Exception:
+            if attempt == retries - 1:
+                raise
+            time.sleep(2 * (attempt + 1))
 
 
 def weather_at(city: str | None, kickoff_utc: datetime) -> dict[str, Any]:

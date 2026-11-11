@@ -66,6 +66,9 @@ jobs:
           for p in sorted(glob.glob("daily/2026-11-08/packets/*.json")):
               d=json.load(open(p));s=(d["market"]["summary"] or {}).get("1x2") or {}
               print(d["match"]["home"],"-",d["match"]["away"],"| books",s.get("bookmakers"),"| pinnacle",bool(s.get("pinnacle_fair")),"| move",s.get("movement_pp"),"| gaps",d["context"]["data_gaps"])
+          for k,v in c.items():
+              x=(v.get("closing_summary") or {}).get("1x2") or {}
+              print("CLOSE",v["home"],"-",v["away"],v["home_score"],"-",v["away_score"],"| fair",x.get("consensus_fair"),"| best",{s:b["odds"] for s,b in (x.get("best_price") or {}).items()})
           PY
           cat daily/2026-11-08/OZET.md >> "$GITHUB_STEP_SUMMARY"
       - name: Dünü kapat (sonuç + kapanış oranı + CLV)
@@ -87,7 +90,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add daily ledger decisions 2>/dev/null || true
+          for d in daily ledger decisions; do [ -e "$d" ] && git add "$d"; done
           git diff --cached --quiet || git commit -q -m "Günlük kanıt taraması $(date -u +%F)"
           git pull -q --rebase && git push -q
       - uses: actions/upload-artifact@v4
