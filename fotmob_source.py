@@ -1,6 +1,6 @@
 """FotMob public web data: absences (injury/suspension + expected return) and lineups.
 
-Unofficial endpoints (no key) used by fotmob.com itself; they can change without notice,
+Unofficial endpoints (no key, matched by team names + kickoff) used by fotmob.com itself; they can change without notice,
 so every call fails closed and reports the reason. Evidence only.
 """
 from __future__ import annotations
