@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T01:26:08.979667+00:00",
+ "generated_at": "2026-11-11T01:29:58.705016+00:00",
  "match": {
   "match_id": "ENcy7qjT",
   "home": "Heerenveen",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T01:25:56.952334+00:00",
+   "observed_at": "2026-11-11T01:29:47.204468+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T01:26:08.977990+00:00",
+   "observed_at": "2026-11-11T01:29:58.703750+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T01:25:56.952334+00:00",
+   "observed_at": "2026-11-11T01:29:47.204468+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,16 +59,16 @@
    }
   },
   "ensemble": {
-   "DRAW": 0.23367438804145502,
-   "HOME": 0.3159296162001115,
    "HOME_DNB": 0.3261270106039314,
-   "UNDER_2.5": 0.28641988195101886,
-   "AWAY": 0.4503959957584335,
-   "X2": 0.7448859189263757,
-   "BTTS_YES": 0.6970494669134091,
-   "1X": 0.47286031864776235,
    "AWAY_DNB": 0.6738729893960685,
-   "OVER_2.5": 0.7135801180489811
+   "BTTS_YES": 0.6970494669134091,
+   "AWAY": 0.4503959957584335,
+   "1X": 0.47286031864776235,
+   "UNDER_2.5": 0.28641988195101886,
+   "X2": 0.7448859189263757,
+   "OVER_2.5": 0.7135801180489811,
+   "HOME": 0.3159296162001115,
+   "DRAW": 0.23367438804145502
   },
   "model_agreement": 0.7158
  },
@@ -1030,7 +1030,7 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 18,
    "wind_kmh": 10.1,
-   "observed_at": "2026-11-11T01:26:08.977990+00:00"
+   "observed_at": "2026-11-11T01:29:58.703750+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."
