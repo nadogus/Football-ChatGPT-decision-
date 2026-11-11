@@ -1,6 +1,6 @@
 # Günlük veri özeti — 2026-11-08
 
-8 maç · ligler: Eredivisie, Jupiler Pro League, LaLiga, Ligue 1, Serie A, Super Lig · oran bölgesi: GB · oluşturuldu 2026-11-11 01:30 UTC
+8 maç · ligler: Eredivisie, Jupiler Pro League, LaLiga, Ligue 1, Serie A, Super Lig · oran bölgesi: GB · oluşturuldu 2026-11-11 01:34 UTC
 
 Bu dosya yalnızca kanıttır; karar içermez. Marjsız olasılıklar bahisçi başına power yöntemiyle hesaplanıp medyanı alınmıştır. Model satırları kabadır ve piyasaya karşı doğrulanmamıştır. Eksik veri uydurulmaz, 'Eksik veri' satırında listelenir.
 
@@ -62,7 +62,7 @@ Başlama: 13:00 UTC / 16:00 TSİ · Flashscore ID `S88X9hRp`
 ### Corum – Fenerbahce  ·  Super Lig (Turkey)
 Başlama: 13:00 UTC / 16:00 TSİ · Flashscore ID `CddXyIK5`
 - **1X2 piyasa (marjsız, 20 bahisçi):** 1 %26.0 · X %24.3 · 2 %49.7 | açılıştan hareket: 1 +5.3 · X +1.9 · 2 -7.2 puan
-- **En iyi oran:** 1 3.5 (Paddy Power) · X 3.9 (10bet) · 2 2.0 (Ladbrokes) · ort. marj %8.1
+- **En iyi oran:** 1 3.5 (Coral) · X 3.9 (10bet) · 2 2.0 (Coral) · ort. marj %8.1
 - **Alt/Üst 2.5 (marjsız):** Üst %60.9 · Alt %39.1 | en iyi Üst 1.58 (Unibetuk) · Alt 2.4 (Skybet)
 - **Model (kaba, dixon_coles_xg, elo_season):** 1 %37.0 · X %24.6 · 2 %38.4 | model−piyasa: 1 +11.0 · X +0.3 · 2 -11.3 puan
 - **xG (son 6/6 lig maçı ort., atılan/yenen):** ev 1.33/1.15 · dep 2.18/1.22

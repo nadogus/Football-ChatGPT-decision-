@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T01:29:47.184176+00:00",
+ "generated_at": "2026-11-11T01:33:18.887464+00:00",
  "match": {
   "match_id": "d6kHu0Lt",
   "home": "Rizespor",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T01:29:33.194663+00:00",
+   "observed_at": "2026-11-11T01:33:08.072677+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T01:29:47.182809+00:00",
+   "observed_at": "2026-11-11T01:33:18.885465+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T01:29:33.194663+00:00",
+   "observed_at": "2026-11-11T01:33:08.072677+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,16 +59,16 @@
    }
   },
   "ensemble": {
+   "1X": 0.6438817000229659,
+   "DRAW": 0.26259711342136366,
    "HOME_DNB": 0.4991656574407642,
    "AWAY_DNB": 0.5008343425592359,
    "BTTS_YES": 0.5242046248320731,
-   "AWAY": 0.34120473855504285,
-   "1X": 0.6438817000229659,
-   "UNDER_2.5": 0.537636921820424,
    "X2": 0.6450682187120608,
    "OVER_2.5": 0.462363078179576,
-   "HOME": 0.39619814802359354,
-   "DRAW": 0.26259711342136366
+   "UNDER_2.5": 0.537636921820424,
+   "AWAY": 0.34120473855504285,
+   "HOME": 0.39619814802359354
   },
   "model_agreement": 0.8472
  },
@@ -909,7 +909,7 @@
    "precipitation_mm": 0.4,
    "precipitation_probability_pct": 90,
    "wind_kmh": 13.4,
-   "observed_at": "2026-11-11T01:29:47.182809+00:00"
+   "observed_at": "2026-11-11T01:33:18.885465+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."

@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T01:30:43.937639+00:00",
+ "generated_at": "2026-11-11T01:34:30.921071+00:00",
  "match": {
   "match_id": "p6l71NDj",
   "home": "Twente",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T01:30:34.788142+00:00",
+   "observed_at": "2026-11-11T01:34:23.760722+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T01:30:43.936276+00:00",
+   "observed_at": "2026-11-11T01:34:30.919343+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T01:30:34.788142+00:00",
+   "observed_at": "2026-11-11T01:34:23.760722+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,16 +59,16 @@
    }
   },
   "ensemble": {
+   "1X": 0.7335420198575655,
+   "DRAW": 0.22930447009373423,
    "HOME_DNB": 0.6568946089048777,
    "AWAY_DNB": 0.3431053910951223,
    "BTTS_YES": 0.6893359740020609,
-   "AWAY": 0.2944825896863015,
-   "1X": 0.7335420198575655,
-   "UNDER_2.5": 0.3012405570741342,
    "X2": 0.4898511792642696,
    "OVER_2.5": 0.6987594429258658,
-   "HOME": 0.4762129402199643,
-   "DRAW": 0.22930447009373423
+   "UNDER_2.5": 0.3012405570741342,
+   "AWAY": 0.2944825896863015,
+   "HOME": 0.4762129402199643
   },
   "model_agreement": 0.8743
  },
@@ -1031,7 +1031,7 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 7,
    "wind_kmh": 9.0,
-   "observed_at": "2026-11-11T01:30:43.936276+00:00"
+   "observed_at": "2026-11-11T01:34:30.919343+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."

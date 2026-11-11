@@ -3742,7 +3742,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.13,
-       "bookmaker": "10bet",
+       "bookmaker": "Unibetuk",
        "fair_odds_consensus": 1.116,
        "ev_vs_consensus": 0.0125
       },
@@ -3794,7 +3794,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.14,
-       "bookmaker": "7BetUK",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 1.169,
        "ev_vs_consensus": -0.025
       },
@@ -3950,7 +3950,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.0,
-       "bookmaker": "10bet",
+       "bookmaker": "Unibetuk",
        "fair_odds_consensus": 2.1,
        "ev_vs_consensus": -0.0476
       },
@@ -3976,7 +3976,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.2,
-       "bookmaker": "7BetUK",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 2.406,
        "ev_vs_consensus": -0.0857
       },
@@ -4236,7 +4236,7 @@
      "best_price": {
       "OVER": {
        "odds": 11.0,
-       "bookmaker": "Betfair",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 20.08,
        "ev_vs_consensus": -0.4522
       },
@@ -4262,13 +4262,13 @@
      "best_price": {
       "OVER": {
        "odds": 21.0,
-       "bookmaker": "Skybet",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 71.942,
        "ev_vs_consensus": -0.7081
       },
       "UNDER": {
        "odds": 1.01,
-       "bookmaker": "Skybet",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 1.014,
        "ev_vs_consensus": -0.004
       }
