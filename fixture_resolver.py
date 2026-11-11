@@ -8,11 +8,16 @@ from data_adapters import ESPNLineupClient, FlashscoreClient, PinnaclePrematchCl
 from competition_resolver import FlashscoreCompetitionResolver, resolve_pinnacle_league
 RESOLVER_VERSION="FIXTURE_RESOLVER_V1.2"
 def _norm(s:str|None)->str:
-    s=(s or "").lower();s=re.sub(r"\b(fc|cf|afc|sc|ac|club|football|futbol|soccer)\b"," ",s);s=re.sub(r"[^a-z0-9]+"," ",s);return " ".join(s.split())
+    import unicodedata
+    s=unicodedata.normalize("NFKD",str(s or "")).encode("ascii","ignore").decode("ascii").lower();s=re.sub(r"\b(fc|cf|afc|sc|ac|club|football|futbol|soccer)\b"," ",s);s=re.sub(r"[^a-z0-9]+"," ",s);return " ".join(s.split())
 def _team_score(a,b):
     aa,bb=_norm(a),_norm(b)
     if not aa or not bb:return 0.0
-    return 1.0 if aa==bb else SequenceMatcher(None,aa,bb).ratio()
+    if aa==bb:return 1.0
+    ta,tb=set(aa.split()),set(bb.split())
+    # "Feyenoord" vs "Feyenoord Rotterdam", "Heerenveen" vs "SC Heerenveen": whole-word containment
+    if ta and tb and (ta<=tb or tb<=ta) and min(len(aa),len(bb))>=5:return 0.95
+    return SequenceMatcher(None,aa,bb).ratio()
 def _dt(value):
     if not value:return None
     try:

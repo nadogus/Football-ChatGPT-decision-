@@ -16,7 +16,7 @@ def collect_match_evidence(*,match:dict[str,Any],provider_ids:dict[str,Any]|None
         fs=FlashscoreClient()
         for label,r in (("details",fs.details(str(ids["flashscore_match_id"]))),("lineups",fs.lineups(str(ids["flashscore_match_id"]))),("odds",fs.odds(str(ids["flashscore_match_id"])))):
             d=_result(r);d["kind"]=label;evidence.append(d)
-            if label=="odds" and r.ok:quotes.extend(normalize_decimal_quotes(r.data,"flashscore"))
+            if label=="odds" and r.ok:quotes.extend(normalize_decimal_quotes(r.data,"flashscore",include_opening=True))
     else:evidence.append(_gap("flashscore","FLASHSCORE_MATCH_ID_MISSING"))
     effective_pinnacle_league_id=pinnacle_league_id or ids.get("pinnacle_league_id")
     if effective_pinnacle_league_id is not None and ids.get("pinnacle_matchup_id"):

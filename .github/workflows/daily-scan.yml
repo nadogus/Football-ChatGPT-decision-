@@ -1,0 +1,81 @@
+name: daily-evidence-scan
+
+on:
+  schedule:
+    - cron: "37 5 * * *"   # her gün 05:37 UTC (08:37 TSİ): dünü kapat, bugünü tara
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "scan | settle | both"
+        default: "both"
+      date:
+        description: "Tarama tarihi YYYY-MM-DD (boş = bugün UTC). settle bir önceki günü kapatır."
+        default: ""
+      limit:
+        description: "En fazla maç (boş = hepsi)"
+        default: ""
+      geo:
+        description: "Oran bölgesi (bahisçi listesi buna göre değişir): GB, TR, US, DE..."
+        default: "GB"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-evidence-scan
+  cancel-in-progress: false
+
+env:
+  FLASHSCORE_API_BASE: http://127.0.0.1:8001
+  # İncelenmiş, MIT lisanslı sürüme sabitlenmiştir (2026-11-04). Güncellemek için önce kodu inceleyin.
+  FLASHSCORE_SCRAPER_SHA: af784a918fc94339fd2c8ff0fadc1da69a6139d8
+  ODDS_GEO: ${{ github.event.inputs.geo || 'GB' }}
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Flashscore servisini başlat (sabit sürüm)
+        run: |
+          git init -q /tmp/fs && cd /tmp/fs
+          git remote add origin https://github.com/omkarcloud/flashscore-scraper.git
+          git fetch -q --depth 1 origin "$FLASHSCORE_SCRAPER_SHA" && git checkout -q FETCH_HEAD
+          python -m pip install -q -r requirements.txt
+          PORT=8001 nohup python run.py >/tmp/flashscore.log 2>&1 &
+          for i in {1..40}; do curl -fsS "http://127.0.0.1:8001/matches?sport=football" -o /dev/null && exit 0; sleep 2; done
+          cat /tmp/flashscore.log; exit 1
+      - name: Testler
+        run: pip install -q pytest && pytest -q
+      - name: Dünü kapat (sonuç + kapanış oranı + CLV)
+        if: (github.event.inputs.mode || 'both') != 'scan'
+        run: |
+          D="${{ github.event.inputs.date }}"
+          if [ -n "$D" ]; then Y=$(date -u -d "$D -1 day" +%F); else Y=$(date -u -d "yesterday" +%F); fi
+          python daily_pipeline.py settle --date "$Y"
+          python daily_pipeline.py report
+      - name: Bugünü tara
+        if: (github.event.inputs.mode || 'both') != 'settle'
+        run: |
+          D="${{ github.event.inputs.date }}"; [ -z "$D" ] && D=$(date -u +%F)
+          L="${{ github.event.inputs.limit }}"
+          python daily_pipeline.py scan --date "$D" ${L:+--limit $L}
+          cat "daily/$D/OZET.md" >> "$GITHUB_STEP_SUMMARY"
+      - name: Çıktıları dala kaydet
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for d in daily ledger decisions; do [ -e "$d" ] && git add "$d"; done
+          git diff --cached --quiet || git commit -q -m "Günlük kanıt taraması $(date -u +%F)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done; exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: flashscore-log
+          path: /tmp/flashscore.log
+          if-no-files-found: ignore

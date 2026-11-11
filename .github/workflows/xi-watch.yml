@@ -1,0 +1,70 @@
+name: xi-watch
+
+on:
+  schedule:
+    - cron: "4,14,24,34,44,54 * * * *"   # ~10 dakikada bir (on 10 dk); GitHub zamanlaması 5-15 dk gecikebilir, pencere 75..10 dk
+  workflow_dispatch:
+    inputs:
+      date: {description: "YYYY-MM-DD (doğrulama için)", default: ""}
+      match_id: {description: "Tek maç (doğrulama için)", default: ""}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: xi-watch
+  cancel-in-progress: false
+
+env:
+  FLASHSCORE_API_BASE: http://127.0.0.1:8001
+  FLASHSCORE_SCRAPER_SHA: af784a918fc94339fd2c8ff0fadc1da69a6139d8
+  ODDS_GEO: GB
+  SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+  NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bugün izlenecek maç var mı?
+        id: due
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, glob
+          from datetime import datetime, timezone
+          now = datetime.now(timezone.utc); due = False
+          if os.getenv("GITHUB_EVENT_NAME") != "schedule":
+              due = True
+          for p in glob.glob("daily/*/fixtures.json"):
+              for f in json.load(open(p)):
+                  k = datetime.fromisoformat(f["kickoff"].replace("Z", "+00:00"))
+                  if 5 <= (k - now).total_seconds() / 60 <= 80: due = True
+          print(f"due={'true' if due else 'false'}")
+          PY
+      - uses: actions/setup-python@v5
+        if: steps.due.outputs.due == 'true'
+        with: {python-version: "3.12"}
+      - name: Flashscore servisi (sabit sürüm)
+        if: steps.due.outputs.due == 'true'
+        run: |
+          git init -q /tmp/fs && cd /tmp/fs
+          git remote add origin https://github.com/omkarcloud/flashscore-scraper.git
+          git fetch -q --depth 1 origin "$FLASHSCORE_SCRAPER_SHA" && git checkout -q FETCH_HEAD
+          python -m pip install -q -r requirements.txt
+          PORT=8001 nohup python run.py >/tmp/flashscore.log 2>&1 &
+          for i in {1..40}; do curl -fsS "http://127.0.0.1:8001/matches?sport=football" -o /dev/null && exit 0; sleep 2; done
+          cat /tmp/flashscore.log; exit 1
+      - name: XI izle
+        if: steps.due.outputs.due == 'true'
+        run: python xi_watch.py ${{ github.event.inputs.date && format('--date {0}', github.event.inputs.date) || '' }} ${{ github.event.inputs.match_id && format('--match-id {0} --force', github.event.inputs.match_id) || '' }}
+      - name: Kaydet
+        if: steps.due.outputs.due == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for d in daily ledger; do [ -e "$d" ] && git add "$d"; done
+          git diff --cached --quiet && exit 0
+          git commit -q -m "XI izleme $(date -u +%F\ %H:%M)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done; exit 1

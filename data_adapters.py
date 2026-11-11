@@ -52,7 +52,10 @@ class FlashscoreClient:
     def details(self,match_id):return self._get("/matches/details",{"match":match_id})
     def lineups(self,match_id):return self._get("/matches/lineups",{"match":match_id})
     def missing_players(self,match_id):return self._get("/matches/missing-players",{"match":match_id})
-    def odds(self,match_id):return self._get("/matches/odds",{"match":match_id})
+    def odds(self,match_id,geo=None):
+        p={"match":match_id}
+        if geo:p["geo"]=geo
+        return self._get("/matches/odds",p)
     def statistics(self,match_id,period="Match"):return self._get("/matches/statistics",{"match":match_id,"period":period})
     def search(self,query,entity_type="team",sport="football",limit=10):return self._get("/search",{"query":query,"type":entity_type,"sport":sport,"limit":limit})
     def team_results(self,team_id,page=1):return self._get("/teams/results",{"team":team_id,"page":page})
@@ -174,6 +177,17 @@ class PinnaclePrematchClient:
                     if dec and dec>1:rows.append({"event_id":x["matchupId"],"home":home,"away":away,"start_time":ev.get("startTime"),"market":mt,"selection":self._selection(mt,p.get("designation"),pts),"points":pts,"decimal_odds":dec,"bookmaker":"pinnacle","source":"pinnacle"})
             return AdapterResult("pinnacle",bool(rows),rows,None if rows else "NO_PREMATCH_QUOTES")
         except Exception as e:return AdapterResult("pinnacle",False,[],f"{type(e).__name__}: {e}")
+def _flashscore_opening_only(payload):
+    """OPENING quotes only where the row really carries an opening value (no fallback to current)."""
+    if not (isinstance(payload,dict) and isinstance(payload.get("markets"),list)):return []
+    stripped={"markets":[]}
+    for market in payload["markets"]:
+        if not isinstance(market,dict):continue
+        sels=[dict(r,value=r.get("opening_value")) for r in market.get("selections",[]) or [] if isinstance(r,dict) and r.get("opening_value") is not None]
+        stripped["markets"].append(dict(market,selections=sels))
+    rows=normalize_decimal_quotes(stripped,"flashscore")
+    for q in rows:q["phase"]="OPENING"
+    return rows
 def _flashscore_handicap_value(value):
     if isinstance(value,(int,float)):return float(value)
     if isinstance(value,dict):value=value.get("value")
@@ -185,7 +199,12 @@ def _flashscore_handicap_value(value):
     try:return float(m.group(1)) if m else None
     except Exception:return None
 
-def normalize_decimal_quotes(payload,source,prefer_opening=False):
+def normalize_decimal_quotes(payload,source,prefer_opening=False,include_opening=False):
+    """include_opening=True emits CURRENT and OPENING quotes side by side (for movement)."""
+    if source=="flashscore" and include_opening and not prefer_opening:
+        cur=normalize_decimal_quotes(payload,source)
+        opn=[q for q in _flashscore_opening_only(payload)]
+        return cur+opn
     if source=="pinnacle" and isinstance(payload,list):return payload
     if source=="flashscore" and isinstance(payload,dict) and isinstance(payload.get("markets"),list):
         out=[]
