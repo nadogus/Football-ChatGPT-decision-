@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T00:56:03.140038+00:00",
+ "generated_at": "2026-11-11T00:58:24.803712+00:00",
  "match": {
   "match_id": "Mm1sxqvh",
   "home": "Rennes",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T00:55:53.384554+00:00",
+   "observed_at": "2026-11-11T00:58:16.193029+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T00:56:03.137738+00:00",
+   "observed_at": "2026-11-11T00:58:24.801760+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T00:55:53.384554+00:00",
+   "observed_at": "2026-11-11T00:58:16.193029+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,16 +59,16 @@
    }
   },
   "ensemble": {
-   "HOME": 0.37776992190200975,
-   "DRAW": 0.2350166536328427,
-   "AWAY_DNB": 0.5665837273162103,
    "1X": 0.5639920156047331,
    "HOME_DNB": 0.43341627268378957,
-   "BTTS_YES": 0.7057835732652401,
-   "OVER_2.5": 0.7033241618249341,
    "X2": 0.666469497187831,
+   "UNDER_2.5": 0.29667583817506593,
+   "BTTS_YES": 0.7057835732652401,
+   "DRAW": 0.2350166536328427,
+   "HOME": 0.37776992190200975,
+   "AWAY_DNB": 0.5665837273162103,
    "AWAY": 0.3872134244651476,
-   "UNDER_2.5": 0.29667583817506593
+   "OVER_2.5": 0.7033241618249341
   },
   "model_agreement": 0.8193
  },
@@ -941,7 +941,7 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 0,
    "wind_kmh": 8.4,
-   "observed_at": "2026-11-11T00:56:03.137738+00:00"
+   "observed_at": "2026-11-11T00:58:24.801760+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."

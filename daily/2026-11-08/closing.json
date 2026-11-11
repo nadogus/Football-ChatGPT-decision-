@@ -601,7 +601,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.01,
-       "bookmaker": "bet365",
+       "bookmaker": "7BetUK",
        "fair_odds_consensus": 1.014,
        "ev_vs_consensus": -0.0037
       },
@@ -757,7 +757,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.4,
-       "bookmaker": "bet365",
+       "bookmaker": "7BetUK",
        "fair_odds_consensus": 1.472,
        "ev_vs_consensus": -0.049
       },
@@ -945,7 +945,7 @@
       },
       "UNDER": {
        "odds": 1.4,
-       "bookmaker": "BetMGM.uk",
+       "bookmaker": "BetUK",
        "fair_odds_consensus": 1.423,
        "ev_vs_consensus": -0.0161
       }
@@ -991,7 +991,7 @@
      "best_price": {
       "OVER": {
        "odds": 4.25,
-       "bookmaker": "bet365",
+       "bookmaker": "7BetUK",
        "fair_odds_consensus": 5.624,
        "ev_vs_consensus": -0.2443
       },
@@ -1121,7 +1121,7 @@
      "best_price": {
       "OVER": {
        "odds": 10.0,
-       "bookmaker": "bet365",
+       "bookmaker": "Midnite",
        "fair_odds_consensus": 19.011,
        "ev_vs_consensus": -0.474
       },
@@ -1814,19 +1814,19 @@
     "best_price": {
      "HOME": {
       "odds": 1.61,
-      "bookmaker": "Coral",
+      "bookmaker": "Ladbrokes",
       "fair_odds_consensus": 1.614,
       "ev_vs_consensus": -0.0023
      },
      "DRAW": {
       "odds": 4.5,
-      "bookmaker": "Unibetuk",
+      "bookmaker": "Ladbrokes",
       "fair_odds_consensus": 4.963,
       "ev_vs_consensus": -0.0932
      },
      "AWAY": {
       "odds": 5.0,
-      "bookmaker": "Betano.uk",
+      "bookmaker": "7BetUK",
       "fair_odds_consensus": 5.593,
       "ev_vs_consensus": -0.106
      }
@@ -1847,7 +1847,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.01,
-       "bookmaker": "Paddy Power",
+       "bookmaker": "BetUK",
        "fair_odds_consensus": 1.014,
        "ev_vs_consensus": -0.004
       },
@@ -1977,7 +1977,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.4,
-       "bookmaker": "Unibetuk",
+       "bookmaker": "7BetUK",
        "fair_odds_consensus": 1.421,
        "ev_vs_consensus": -0.0148
       },
@@ -2035,7 +2035,7 @@
       },
       "UNDER": {
        "odds": 2.38,
-       "bookmaker": "10bet",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 2.606,
        "ev_vs_consensus": -0.0868
       }
@@ -2393,13 +2393,13 @@
      "best_price": {
       "OVER": {
        "odds": 21.0,
-       "bookmaker": "Skybet",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 71.942,
        "ev_vs_consensus": -0.7081
       },
       "UNDER": {
        "odds": 1.01,
-       "bookmaker": "Paddy Power",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 1.014,
        "ev_vs_consensus": -0.004
       }
@@ -2463,7 +2463,7 @@
     "best_price": {
      "HOME": {
       "odds": 4.2,
-      "bookmaker": "BetVictor",
+      "bookmaker": "Betano.uk",
       "fair_odds_consensus": 4.401,
       "ev_vs_consensus": -0.0458
      },
@@ -2554,7 +2554,7 @@
       },
       "UNDER": {
        "odds": 7.0,
-       "bookmaker": "bet365",
+       "bookmaker": "7BetUK",
        "fair_odds_consensus": 10.246,
        "ev_vs_consensus": -0.3168
       }
@@ -2756,7 +2756,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.95,
-       "bookmaker": "10bet",
+       "bookmaker": "7BetUK",
        "fair_odds_consensus": 2.092,
        "ev_vs_consensus": -0.0681
       },
@@ -2808,7 +2808,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.5,
-       "bookmaker": "10bet",
+       "bookmaker": "7BetUK",
        "fair_odds_consensus": 2.762,
        "ev_vs_consensus": -0.0948
       },

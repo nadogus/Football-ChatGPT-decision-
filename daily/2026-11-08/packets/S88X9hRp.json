@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T00:55:38.326586+00:00",
+ "generated_at": "2026-11-11T00:58:00.656138+00:00",
  "match": {
   "match_id": "S88X9hRp",
   "home": "Elche",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T00:55:30.413003+00:00",
+   "observed_at": "2026-11-11T00:57:54.211269+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T00:55:38.324660+00:00",
+   "observed_at": "2026-11-11T00:58:00.654403+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T00:55:30.413003+00:00",
+   "observed_at": "2026-11-11T00:57:54.211269+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,16 +59,16 @@
    }
   },
   "ensemble": {
-   "HOME": 0.3554429432438224,
-   "DRAW": 0.2519395870244138,
-   "AWAY_DNB": 0.57278400231242,
    "1X": 0.5750799038516055,
    "HOME_DNB": 0.42721599768758,
-   "BTTS_YES": 0.6113086254744532,
-   "OVER_2.5": 0.5797623099466293,
    "X2": 0.6830696002670071,
+   "UNDER_2.5": 0.42023769005337075,
+   "BTTS_YES": 0.6113086254744532,
+   "DRAW": 0.2519395870244138,
+   "HOME": 0.3554429432438224,
+   "AWAY_DNB": 0.57278400231242,
    "AWAY": 0.3926174697317638,
-   "UNDER_2.5": 0.42023769005337075
+   "OVER_2.5": 0.5797623099466293
   },
   "model_agreement": 0.8574
  },
@@ -1031,7 +1031,7 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 0,
    "wind_kmh": 12.4,
-   "observed_at": "2026-11-11T00:55:38.324660+00:00"
+   "observed_at": "2026-11-11T00:58:00.654403+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."

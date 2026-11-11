@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T00:55:53.358622+00:00",
+ "generated_at": "2026-11-11T00:58:16.170235+00:00",
  "match": {
   "match_id": "p6l71NDj",
   "home": "Twente",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T00:55:44.394132+00:00",
+   "observed_at": "2026-11-11T00:58:07.661991+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T00:55:53.356953+00:00",
+   "observed_at": "2026-11-11T00:58:16.168499+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T00:55:44.394132+00:00",
+   "observed_at": "2026-11-11T00:58:07.661991+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,16 +59,16 @@
    }
   },
   "ensemble": {
-   "HOME": 0.4762129402199643,
-   "DRAW": 0.22930447009373423,
-   "AWAY_DNB": 0.3431053910951223,
    "1X": 0.7335420198575655,
    "HOME_DNB": 0.6568946089048777,
-   "BTTS_YES": 0.6893359740020609,
-   "OVER_2.5": 0.6987594429258658,
    "X2": 0.4898511792642696,
+   "UNDER_2.5": 0.3012405570741342,
+   "BTTS_YES": 0.6893359740020609,
+   "DRAW": 0.22930447009373423,
+   "HOME": 0.4762129402199643,
+   "AWAY_DNB": 0.3431053910951223,
    "AWAY": 0.2944825896863015,
-   "UNDER_2.5": 0.3012405570741342
+   "OVER_2.5": 0.6987594429258658
   },
   "model_agreement": 0.8743
  },
@@ -95,7 +95,7 @@
     "best_price": {
      "HOME": {
       "odds": 1.83,
-      "bookmaker": "Ladbrokes",
+      "bookmaker": "Coral",
       "fair_odds_consensus": 1.852,
       "ev_vs_consensus": -0.0116
      },
@@ -168,7 +168,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.13,
-       "bookmaker": "Unibetuk",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 1.116,
        "ev_vs_consensus": 0.0125
       },
@@ -232,7 +232,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.14,
-       "bookmaker": "bet365",
+       "bookmaker": "7BetUK",
        "fair_odds_consensus": 1.169,
        "ev_vs_consensus": -0.025
       },
@@ -424,7 +424,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.0,
-       "bookmaker": "SpreadEX",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 2.1,
        "ev_vs_consensus": -0.0476
       },
@@ -456,7 +456,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.2,
-       "bookmaker": "7BetUK",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 2.406,
        "ev_vs_consensus": -0.0857
       },
@@ -808,13 +808,13 @@
      "best_price": {
       "OVER": {
        "odds": 21.0,
-       "bookmaker": "bet365",
+       "bookmaker": "Skybet",
        "fair_odds_consensus": 71.942,
        "ev_vs_consensus": -0.7081
       },
       "UNDER": {
        "odds": 1.01,
-       "bookmaker": "bet365",
+       "bookmaker": "Skybet",
        "fair_odds_consensus": 1.014,
        "ev_vs_consensus": -0.004
       }
@@ -930,7 +930,7 @@
     "model_probability": 0.656895,
     "fair_odds": 1.5223,
     "best_odds": 1.4,
-    "bookmaker": "Ladbrokes",
+    "bookmaker": "BetMGM.uk",
     "edge_pp": -0.057391,
     "ev": -0.080348,
     "market_fair_probability": null,
@@ -943,7 +943,7 @@
     "model_probability": 0.476213,
     "fair_odds": 2.0999,
     "best_odds": 1.83,
-    "bookmaker": "Ladbrokes",
+    "bookmaker": "Coral",
     "edge_pp": -0.070235,
     "ev": -0.12853,
     "market_fair_probability": 0.5401,
@@ -1031,7 +1031,7 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 7,
    "wind_kmh": 9.0,
-   "observed_at": "2026-11-11T00:55:53.356953+00:00"
+   "observed_at": "2026-11-11T00:58:16.168499+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."

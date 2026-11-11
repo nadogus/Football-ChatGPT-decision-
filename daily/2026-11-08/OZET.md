@@ -1,6 +1,6 @@
 # Günlük veri özeti — 2026-11-08
 
-8 maç · ligler: Eredivisie, Jupiler Pro League, LaLiga, Ligue 1, Serie A, Super Lig · oran bölgesi: GB · oluşturuldu 2026-11-11 00:56 UTC
+8 maç · ligler: Eredivisie, Jupiler Pro League, LaLiga, Ligue 1, Serie A, Super Lig · oran bölgesi: GB · oluşturuldu 2026-11-11 00:58 UTC
 
 Bu dosya yalnızca kanıttır; karar içermez. Marjsız olasılıklar bahisçi başına power yöntemiyle hesaplanıp medyanı alınmıştır. Model satırları kabadır ve piyasaya karşı doğrulanmamıştır. Eksik veri uydurulmaz, 'Eksik veri' satırında listelenir.
 
@@ -73,7 +73,7 @@ Başlama: 13:00 UTC / 16:00 TSİ · Flashscore ID `CddXyIK5`
 ### Twente – Ajax  ·  Eredivisie (Netherlands)
 Başlama: 13:30 UTC / 16:30 TSİ · Flashscore ID `p6l71NDj`
 - **1X2 piyasa (marjsız, 20 bahisçi):** 1 %54.0 · X %22.0 · 2 %24.0 | açılıştan hareket: 1 +15.8 · X -0.8 · 2 -15.1 puan
-- **En iyi oran:** 1 1.83 (Ladbrokes) · X 4.25 (Unibetuk) · 2 4.0 (bet365) · ort. marj %7.0
+- **En iyi oran:** 1 1.83 (Coral) · X 4.25 (Unibetuk) · 2 4.0 (bet365) · ort. marj %7.0
 - **Alt/Üst 2.5 (marjsız):** Üst %70.3 · Alt %29.7 | en iyi Üst 1.42 (Unibetuk) · Alt 3.2 (Skybet)
 - **Model (kaba, dixon_coles_xg, elo_season):** 1 %47.6 · X %22.9 · 2 %29.4 | model−piyasa: 1 -6.4 · X +0.9 · 2 +5.5 puan
 - **xG (son 6/6 lig maçı ort., atılan/yenen):** ev 2.65/0.82 · dep 2.18/1.57

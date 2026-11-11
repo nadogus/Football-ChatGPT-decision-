@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T00:55:21.773223+00:00",
+ "generated_at": "2026-11-11T00:57:44.322612+00:00",
  "match": {
   "match_id": "SY7oSelg",
   "home": "Napoli",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T00:55:13.071113+00:00",
+   "observed_at": "2026-11-11T00:57:37.263793+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T00:55:21.771423+00:00",
+   "observed_at": "2026-11-11T00:57:44.320889+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T00:55:13.071113+00:00",
+   "observed_at": "2026-11-11T00:57:37.263793+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,16 +59,16 @@
    }
   },
   "ensemble": {
-   "HOME": 0.36486541048649,
-   "DRAW": 0.2500613045620521,
-   "AWAY_DNB": 0.4692549875741585,
    "1X": 0.6531394897764975,
    "HOME_DNB": 0.5307450124258415,
-   "BTTS_YES": 0.6110187772943315,
-   "OVER_2.5": 0.5756648463849944,
    "X2": 0.6076877376193828,
+   "UNDER_2.5": 0.4243351536150056,
+   "BTTS_YES": 0.6110187772943315,
+   "DRAW": 0.2500613045620521,
+   "HOME": 0.36486541048649,
+   "AWAY_DNB": 0.4692549875741585,
    "AWAY": 0.3850732849514579,
-   "UNDER_2.5": 0.4243351536150056
+   "OVER_2.5": 0.5756648463849944
   },
   "model_agreement": 0.8585
  },
@@ -967,7 +967,7 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 3,
    "wind_kmh": 2.5,
-   "observed_at": "2026-11-11T00:55:21.771423+00:00"
+   "observed_at": "2026-11-11T00:57:44.320889+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."
