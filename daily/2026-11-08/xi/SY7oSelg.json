@@ -1,8 +1,8 @@
 {
  "event": "XI_VALIDATION_ONLY",
  "watch_version": "XI_WATCH_V1.0",
- "observed_at": "2026-11-11T01:43:32.124903+00:00",
- "minutes_before_kickoff": -3733.5354150499998,
+ "observed_at": "2026-11-11T01:46:10.690070+00:00",
+ "minutes_before_kickoff": -3736.1781678333336,
  "match": {
   "match_id": "SY7oSelg",
   "home": "Napoli",
@@ -185,8 +185,10 @@
   "reason": "OFFICIAL_11_PLUS_11_ESPN"
  },
  "validation": {
-  "validated": false,
-  "reason": "FLASHSCORE_LINEUPS_EMPTY"
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
  },
  "previous": {
   "home": {
@@ -398,7 +400,36 @@
    "previous_goalkeeper": "Christos Mandas"
   }
  },
- "missing_players": {},
+ "missing_players": {
+  "home": [
+   {
+    "player": "Benoît Badiashile",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 16775464
+   },
+   {
+    "player": "Luca Marianucci",
+    "reason": "suspension",
+    "likelihood": "Early November 2026",
+    "market_value_eur": 9290438
+   },
+   {
+    "player": "Costantino Favasuli",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 10248100
+   }
+  ],
+  "away": [
+   {
+    "player": "Albert Guðmundsson",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 12885225
+   }
+  ]
+ },
  "market": {
   "quote_count": 427,
   "phases": [
@@ -427,7 +458,7 @@
     },
     "AWAY": {
      "odds": 3.3,
-     "bookmaker": "Ladbrokes",
+     "bookmaker": "Coral",
      "fair_odds_consensus": 3.484,
      "ev_vs_consensus": -0.0529
     }
@@ -532,7 +563,7 @@
      },
      "UNDER": {
       "odds": 5.0,
-      "bookmaker": "Skybet",
+      "bookmaker": "Betano.uk",
       "fair_odds_consensus": 5.75,
       "ev_vs_consensus": -0.1305
      }
@@ -636,7 +667,7 @@
      },
      "UNDER": {
       "odds": 2.4,
-      "bookmaker": "Skybet",
+      "bookmaker": "Betano.uk",
       "fair_odds_consensus": 2.503,
       "ev_vs_consensus": -0.041
      }
@@ -682,7 +713,7 @@
     "best_price": {
      "OVER": {
       "odds": 2.0,
-      "bookmaker": "bet365",
+      "bookmaker": "10bet",
       "fair_odds_consensus": 2.139,
       "ev_vs_consensus": -0.0648
      },
@@ -916,7 +947,7 @@
     "best_price": {
      "OVER": {
       "odds": 9.5,
-      "bookmaker": "Parimatch.uk",
+      "bookmaker": "Betano.uk",
       "fair_odds_consensus": 14.025,
       "ev_vs_consensus": -0.3226
      },
@@ -991,10 +1022,7 @@
   "DRAW": 0.0,
   "AWAY": 0.0
  },
- "gaps": [
-  "XI_SINGLE_SOURCE:ESPN_ONLY",
-  "MISSING_PLAYERS_SOURCE_EMPTY"
- ],
+ "gaps": [],
  "decision_authority": "CHATGPT_ONLY",
  "production_decision": null
 }

@@ -1,8 +1,8 @@
 {
  "event": "XI_VALIDATION_ONLY",
  "watch_version": "XI_WATCH_V1.0",
- "observed_at": "2026-11-11T01:43:38.500272+00:00",
- "minutes_before_kickoff": -3748.6416712,
+ "observed_at": "2026-11-11T01:46:16.836601+00:00",
+ "minutes_before_kickoff": -3751.2806100166663,
  "match": {
   "match_id": "ENcy7qjT",
   "home": "Heerenveen",
@@ -185,8 +185,10 @@
   "reason": "OFFICIAL_11_PLUS_11_ESPN"
  },
  "validation": {
-  "validated": false,
-  "reason": "FLASHSCORE_LINEUPS_EMPTY"
+  "validated": true,
+  "matched_share": 0.955,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
  },
  "previous": {
   "home": {
@@ -380,7 +382,10 @@
    "previous_goalkeeper": "Tjark Ernst"
   }
  },
- "missing_players": {},
+ "missing_players": {
+  "home": [],
+  "away": []
+ },
  "market": {
   "quote_count": 395,
   "phases": [
@@ -430,7 +435,7 @@
     "best_price": {
      "OVER": {
       "odds": 1.01,
-      "bookmaker": "bet365",
+      "bookmaker": "William Hill",
       "fair_odds_consensus": 1.014,
       "ev_vs_consensus": -0.0037
      },
@@ -768,13 +773,13 @@
     "best_price": {
      "OVER": {
       "odds": 3.1,
-      "bookmaker": "BetVictor",
+      "bookmaker": "Betano.uk",
       "fair_odds_consensus": 3.365,
       "ev_vs_consensus": -0.0787
      },
      "UNDER": {
       "odds": 1.4,
-      "bookmaker": "BetMGM.uk",
+      "bookmaker": "Unibetuk",
       "fair_odds_consensus": 1.423,
       "ev_vs_consensus": -0.0161
      }
@@ -872,13 +877,13 @@
     "best_price": {
      "OVER": {
       "odds": 5.75,
-      "bookmaker": "BetVictor",
+      "bookmaker": "Betano.uk",
       "fair_odds_consensus": 6.882,
       "ev_vs_consensus": -0.1645
      },
      "UNDER": {
       "odds": 1.17,
-      "bookmaker": "BetMGM.uk",
+      "bookmaker": "Unibetuk",
       "fair_odds_consensus": 1.17,
       "ev_vs_consensus": -0.0
      }
@@ -1025,10 +1030,7 @@
   "DRAW": 0.0,
   "AWAY": 0.0
  },
- "gaps": [
-  "XI_SINGLE_SOURCE:ESPN_ONLY",
-  "MISSING_PLAYERS_SOURCE_EMPTY"
- ],
+ "gaps": [],
  "decision_authority": "CHATGPT_ONLY",
  "production_decision": null
 }
