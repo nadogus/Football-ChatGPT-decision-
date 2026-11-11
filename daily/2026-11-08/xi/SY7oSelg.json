@@ -1,8 +1,8 @@
 {
  "event": "XI_VALIDATION_ONLY",
  "watch_version": "XI_WATCH_V1.0",
- "observed_at": "2026-11-11T01:35:55.170261+00:00",
- "minutes_before_kickoff": -3725.91950435,
+ "observed_at": "2026-11-11T01:36:41.872974+00:00",
+ "minutes_before_kickoff": -3726.6978829,
  "match": {
   "match_id": "SY7oSelg",
   "home": "Napoli",
@@ -189,12 +189,214 @@
   "reason": "FLASHSCORE_LINEUPS_EMPTY"
  },
  "previous": {
-  "home": null,
-  "away": null
+  "home": {
+   "match_id": "espn:401874949",
+   "date": "2026-11-01T19:45:00+00:00",
+   "competition": "ita.1",
+   "opponent": "Juventus",
+   "starters": [
+    {
+     "id": "espn:209746",
+     "name": "Alex Meret",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:297360",
+     "name": "Rafa Marín",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:367690",
+     "name": "Luca Marianucci",
+     "number": "35",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:234881",
+     "name": "Mathías Olivera",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:155904",
+     "name": "Giovanni Di Lorenzo",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:215721",
+     "name": "Frank Anguissa",
+     "number": "99",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:255850",
+     "name": "Scott McTominay",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:134947",
+     "name": "Kevin De Bruyne",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:282564",
+     "name": "Lorenzo Lucca",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:255344",
+     "name": "Noa Lang",
+     "number": "70",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:188306",
+     "name": "Matteo Politano",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-3-3"
+  },
+  "away": {
+   "match_id": "espn:401874983",
+   "date": "2026-11-01T14:00:00+00:00",
+   "competition": "ita.1",
+   "opponent": "Cagliari",
+   "starters": [
+    {
+     "id": "espn:265140",
+     "name": "Christos Mandas",
+     "number": "35",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:333311",
+     "name": "Oliver Provstgaard",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305552",
+     "name": "Josip Sutalo",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:288901",
+     "name": "Nuno Tavares",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:330041",
+     "name": "Romano Floriani",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:345323",
+     "name": "Reda Belahyane",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:282228",
+     "name": "Kenneth Taylor",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:250850",
+     "name": "Davide Frattesi",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323113",
+     "name": "Tijjani Noslin",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:204669",
+     "name": "Mattia Zaccagni",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:291550",
+     "name": "Gustav Isaksen",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-3-3"
+  }
  },
  "changes": {
-  "home": null,
-  "away": null
+  "home": {
+   "count": 6,
+   "out": [
+    "Alex Meret",
+    "Luca Marianucci",
+    "Giovanni Di Lorenzo",
+    "Frank Anguissa",
+    "Lorenzo Lucca",
+    "Matteo Politano"
+   ],
+   "in": [
+    "Vanja Milinkovic-Savic",
+    "Amir Rrahmani",
+    "Sam Beukema",
+    "Billy Gilmour",
+    "Antonio Vergara",
+    "Rasmus Højlund"
+   ],
+   "goalkeeper_changed": true,
+   "goalkeeper": "Vanja Milinkovic-Savic",
+   "previous_goalkeeper": "Alex Meret"
+  },
+  "away": {
+   "count": 1,
+   "out": [
+    "Mattia Zaccagni"
+   ],
+   "in": [
+    "Andrea Pinamonti"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Christos Mandas",
+   "previous_goalkeeper": "Christos Mandas"
+  }
  },
  "missing_players": {},
  "market": {
@@ -791,8 +993,6 @@
  },
  "gaps": [
   "XI_SINGLE_SOURCE:ESPN_ONLY",
-  "PREVIOUS_XI_UNAVAILABLE:home:HTTPError:HTTP Error 400: Bad Request",
-  "PREVIOUS_XI_UNAVAILABLE:away:HTTPError:HTTP Error 400: Bad Request",
   "MISSING_PLAYERS_SOURCE_EMPTY"
  ],
  "decision_authority": "CHATGPT_ONLY",
