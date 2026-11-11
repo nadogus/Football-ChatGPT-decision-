@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: repo-writer
+  group: xi-watch
   cancel-in-progress: false
 
 env:
