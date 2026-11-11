@@ -78,6 +78,65 @@ def espn_starter_names(summary: dict[str, Any]) -> list[str]:
     return [n for n in dict.fromkeys(names) if n]
 
 
+def espn_xi(summary: dict[str, Any]) -> dict[str, Any]:
+    """ESPN match summary -> same shape as official_xi(). ESPN lists rosters once lineups are published."""
+    out: dict[str, Any] = {"official": False, "source": "espn"}
+    for side in ("home", "away"):
+        out[side] = {"formation": None, "group": None, "starters": [], "other_groups": []}
+    for r in (summary or {}).get("rosters") or []:
+        side = r.get("homeAway")
+        if side not in ("home", "away"):
+            continue
+        starters = []
+        for p in r.get("roster") or []:
+            if p.get("starter") is not True:
+                continue
+            a = p.get("athlete") or {}
+            pos = str(((p.get("position") or {}).get("abbreviation")) or "").upper()
+            starters.append({"id": f"espn:{a.get('id')}", "name": a.get("displayName") or a.get("fullName"),
+                             "number": p.get("jersey"), "gk": pos in ("G", "GK"), "captain": bool(p.get("captain"))})
+        out[side] = {"formation": r.get("formation") if isinstance(r.get("formation"), str) else (r.get("formation") or {}).get("name") if isinstance(r.get("formation"), dict) else None,
+                     "group": "ESPN starters" if starters else None, "starters": starters, "other_groups": []}
+    out["official"] = len(out["home"]["starters"]) == 11 and len(out["away"]["starters"]) == 11
+    out["reason"] = "OFFICIAL_11_PLUS_11_ESPN" if out["official"] else "ESPN_LINEUP_NOT_PUBLISHED"
+    return out
+
+
+def same_team(a: Any, b: Any) -> bool:
+    from fixture_resolver import _team_score
+    return _team_score(a, b) >= 0.86
+
+
+def espn_previous_xi(slug: str, team: str, before: datetime) -> dict[str, Any] | None:
+    """Team's previous starting XI from its last completed league match on ESPN (last 21 days)."""
+    from data_adapters import _json
+    start = (before - timedelta(days=21)).strftime("%Y%m%d"); end = (before - timedelta(days=1)).strftime("%Y%m%d")
+    data = _json(f"{ESPNLineupClient.BASE}/{slug}/scoreboard?dates={start}-{end}&limit=500")
+    best = None
+    for e in (data or {}).get("events") or []:
+        if not (((e.get("status") or {}).get("type") or {}).get("completed")):
+            continue
+        comp = (e.get("competitions") or [{}])[0]
+        for c in comp.get("competitors") or []:
+            name = (c.get("team") or {}).get("displayName") or (c.get("team") or {}).get("name")
+            if same_team(name, team):
+                when = datetime.fromisoformat(str(e.get("date")).replace("Z", "+00:00"))
+                opp = next(((x.get("team") or {}).get("displayName") for x in comp.get("competitors") or [] if x is not c), None)
+                if when < before and (best is None or when > best[0]):
+                    best = (when, e.get("id"), c.get("homeAway"), opp)
+    if not best:
+        return None
+    when, eid, side, opp = best
+    s = ESPNLineupClient().summary(slug, eid)
+    if not s.ok:
+        return None
+    x = espn_xi(s.data)
+    if len(x[side]["starters"]) != 11:
+        return None
+    return {"match_id": f"espn:{eid}", "date": when.isoformat(), "competition": slug, "opponent": opp,
+            "starters": x[side]["starters"], "formation": x[side]["formation"]}
+
+
 def cross_check(xi: dict[str, Any], espn_names: list[str]) -> dict[str, Any]:
     if len(espn_names) < 22:
         return {"validated": False, "reason": "ESPN_LINEUP_NOT_AVAILABLE", "espn_count": len(espn_names)}
@@ -139,7 +198,7 @@ def render(rec: dict[str, Any]) -> str:
     k = datetime.fromisoformat(str(m["kickoff"]).replace("Z", "+00:00"))
     L = [f"## {m['home']} – {m['away']} · resmi kadrolar", "",
          f"{m['competition']} · {k:%H:%M} UTC / {k.astimezone(TSI):%H:%M} TSİ · çekildi {rec['observed_at'][11:16]} UTC "
-         f"(maça {rec['minutes_before_kickoff']:.0f} dk) · doğrulama: {rec['validation']['reason']}", ""]
+         f"(maça {rec['minutes_before_kickoff']:.0f} dk) · kaynak: ESPN · çapraz kontrol: {rec['validation']['reason']}", ""]
     for side, team in (("home", m["home"]), ("away", m["away"])):
         s = x[side]
         L.append(f"**{team}** ({s['formation'] or 'diziliş ?'}): " + ", ".join(
@@ -151,8 +210,8 @@ def render(rec: dict[str, Any]) -> str:
                      + (f" · **kaleci değişti** ({ch['previous_goalkeeper']} → {ch['goalkeeper']})" if ch["goalkeeper_changed"] else ""))
         else:
             L.append("- Önceki kadro bulunamadı (fark hesaplanmadı)")
-        mp = (rec.get("missing_players") or {}).get(side) or []
-        L.append("- Eksikler: " + (", ".join(f"{r['player']} ({r.get('reason') or '?'})" for r in mp) or "yok/bildirilmemiş"))
+        mp = (rec.get("missing_players") or {}).get(side)
+        L.append("- Eksikler: " + (", ".join(f"{r['player']} ({r.get('reason') or '?'})" for r in mp) if mp else "VERİ YOK (kaynak boş döndü; 'eksik yok' anlamına gelmez)"))
     mk = (rec.get("market") or {}).get("1x2")
     if mk:
         mv = rec.get("movement_since_scan_pp")
@@ -195,39 +254,46 @@ class Watcher:
         self.leagues = load_leagues()
 
     def process(self, fx: dict[str, Any], day_dir: Path, now: datetime, force: bool = False) -> dict[str, Any] | None:
-        lu = self.fs.lineups(fx["match_id"])
-        if not lu.ok:
-            return {"status": "LINEUPS_FAILED", "error": lu.error}
-        xi = official_xi(lu.data)
-        if not xi["official"] and not force:
-            return {"status": "NOT_YET", "groups": [xi["home"]["other_groups"], xi["away"]["other_groups"]]}
+        """ESPN is the primary XI source (Flashscore's lineups feed currently returns empty);
+        Flashscore is used as an independent cross-check whenever it returns data."""
         kickoff = datetime.fromisoformat(str(fx["kickoff"]).replace("Z", "+00:00"))
         gaps = []
         lg = league_match({"name": fx["competition"], "category": fx["category"]}, self.leagues) or {}
-        validation = {"validated": False, "reason": "ESPN_SLUG_UNKNOWN"}
-        if lg.get("espn"):
-            try:
-                res = resolve_espn(fx, lg["espn"])
-                if res.get("resolved"):
-                    s = ESPNLineupClient().summary(lg["espn"], res["id"])
-                    validation = cross_check(xi, espn_starter_names(s.data)) if s.ok else {"validated": False, "reason": f"ESPN_SUMMARY_FAILED"}
-                else:
-                    validation = {"validated": False, "reason": f"ESPN_UNRESOLVED:{res.get('reason')}"}
-            except Exception as e:
-                validation = {"validated": False, "reason": f"ESPN_ERROR:{type(e).__name__}"}
-        if not validation.get("validated"):
-            gaps.append(f"XI_SINGLE_SOURCE:{validation['reason']}")
+        slug = lg.get("espn")
+        if not slug:
+            return {"status": "NO_ESPN_SLUG"}
+        res = resolve_espn(fx, slug)
+        if not res.get("resolved"):
+            return {"status": "ESPN_UNRESOLVED", "error": res.get("reason")}
+        s = ESPNLineupClient().summary(slug, res["id"])
+        if not s.ok:
+            return {"status": "ESPN_SUMMARY_FAILED", "error": s.error}
+        xi = espn_xi(s.data)
+        if not xi["official"] and not force:
+            return {"status": "NOT_YET", "groups": [len(xi["home"]["starters"]), len(xi["away"]["starters"])]}
+        lu = self.fs.lineups(fx["match_id"])
+        fs_xi = official_xi(lu.data) if lu.ok else {"official": False}
+        if fs_xi.get("official"):
+            fs_names = [p["name"] for side in ("home", "away") for p in fs_xi[side]["starters"]]
+            validation = cross_check(xi, fs_names)
+            validation["reason"] = "FLASHSCORE_AGREES" if validation["validated"] else "FLASHSCORE_DISAGREES"
+        else:
+            validation = {"validated": False, "reason": "FLASHSCORE_LINEUPS_EMPTY"}
+            gaps.append("XI_SINGLE_SOURCE:ESPN_ONLY")
         prev = {}
         for side in ("home", "away"):
             try:
-                prev[side] = previous_xi(self.model, self.fs, fx[side], kickoff)
+                prev[side] = espn_previous_xi(slug, fx[side], kickoff)
             except Exception:
                 prev[side] = None
             if not prev[side]:
                 gaps.append(f"PREVIOUS_XI_UNAVAILABLE:{side}")
         mp = self.fs.missing_players(fx["match_id"])
-        missing = {s: [{"player": (r.get("player") or {}).get("name"), "reason": r.get("reason"), "likelihood": r.get("likelihood")}
-                       for r in ((mp.data or {}).get(s) or [])] for s in ("home", "away")} if mp.ok else {}
+        missing = {k: [{"player": (r.get("player") or {}).get("name"), "reason": r.get("reason"), "likelihood": r.get("likelihood")}
+                       for r in ((mp.data or {}).get(k) or [])] for k in ("home", "away")} if mp.ok else {}
+        if not any(missing.values()):
+            missing = {}
+            gaps.append("MISSING_PLAYERS_SOURCE_EMPTY")
         o = self.fs.odds(fx["match_id"], geo=ODDS_GEO)
         mk = market_summary(normalize_decimal_quotes(o.data, "flashscore")) if o.ok else {}
         mv = None

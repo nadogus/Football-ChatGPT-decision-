@@ -62,16 +62,6 @@ jobs:
       - name: Dal doğrulaması (8 Kasım, bitmiş maç)
         if: github.event_name == 'push'
         run: |
-          (cd /tmp/fs && python - <<'PY'
-          from flashscore.fetch import get_feed, FEED
-          print("FEED", FEED)
-          for n in ("df_li_1_SY7oSelg","df_scr_1_SY7oSelg","df_st_1_SY7oSelg","df_sui_1_SY7oSelg"):
-              try:
-                  t=get_feed(n, optional=False); print("RAW", n, len(t), repr(t[:300]))
-              except Exception as e:
-                  print("RAW", n, "ERR", type(e).__name__, str(e)[:200])
-          PY
-          ) || true
           python xi_watch.py --date 2026-11-08 --match-id SY7oSelg --force
           python xi_watch.py --date 2026-11-08 --match-id ENcy7qjT --force
           cat daily/2026-11-08/xi/*.md

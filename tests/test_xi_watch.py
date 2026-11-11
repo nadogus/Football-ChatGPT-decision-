@@ -30,6 +30,20 @@ def test_surname_and_cross_check():
     assert not xw.cross_check(xi, ["a"] * 5)["validated"]
 
 
+def espn_summary(n=11, published=True):
+    mk = lambda side: {"homeAway": side, "formation": "4-3-3", "roster": [
+        {"starter": published and i < n, "jersey": str(i), "athlete": {"id": f"{side}{i}", "displayName": f"Joe Player{side}{i}"},
+         "position": {"abbreviation": "G" if i == 0 else "M"}} for i in range(18)]}
+    return {"rosters": [mk("home"), mk("away")]}
+
+
+def test_espn_xi():
+    x = xw.espn_xi(espn_summary())
+    assert x["official"] and x["home"]["starters"][0]["gk"] and x["home"]["formation"] == "4-3-3"
+    assert not xw.espn_xi(espn_summary(published=False))["official"]
+    assert not xw.espn_xi({})["official"]
+
+
 def test_changes_detect_goalkeeper():
     now = [{"id": "1", "name": "A", "gk": True}, {"id": "2", "name": "B", "gk": False}]
     prev = [{"id": "9", "name": "Z", "gk": True}, {"id": "2", "name": "B", "gk": False}]
@@ -56,7 +70,11 @@ def _setup(tmp_path, monkeypatch, minutes_to_kick, official=True):
            "competition": "Premier League", "category": "England"}]
     (d / "fixtures.json").write_text(json.dumps(fx))
     w = xw.Watcher.__new__(xw.Watcher)
-    w.fs = FakeFS(official); w.leagues = []
+    w.fs = FakeFS(official); w.leagues = [{"category": "England", "name": "Premier League", "espn": "eng.1"}]
+    monkeypatch.setattr(xw, "resolve_espn", lambda fx, slug: {"resolved": True, "id": "e1"})
+    summ = espn_summary(published=official)
+    monkeypatch.setattr(xw, "ESPNLineupClient", lambda: type("E", (), {"summary": lambda self, slug, eid: AdapterResult("espn", True, summ)})())
+    monkeypatch.setattr(xw, "espn_previous_xi", lambda slug, team, before: None)
     w.model = type("M", (), {"team_id": lambda self, t: None})()
     monkeypatch.setattr(xw, "Watcher", lambda: w)
     sent = []

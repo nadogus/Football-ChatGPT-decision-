@@ -177,6 +177,9 @@ class Scanner:
                                           "reason": row.get("reason"), "likelihood": row.get("likelihood")})
         else:
             gaps.append(f"MISSING_PLAYERS_FAILED:{mp.error}")
+        if mp.ok and not (missing["home"] or missing["away"]):
+            missing = None  # Flashscore df_scr feed currently returns empty: unknown, NOT "no absences"
+            gaps.append("MISSING_PLAYERS_SOURCE_EMPTY")
         # xG (Flashscore match statistics, last 6 competition matches before kickoff)
         hx = ax = None
         try:
@@ -258,9 +261,12 @@ def render_match(p: dict[str, Any]) -> str:
     elo = ctx.get("elo") or {}
     if elo.get("home") is not None and elo.get("away") is not None:
         L.append(f"- **Elo (sezon içi):** ev {elo['home']:.0f} · dep {elo['away']:.0f}")
-    mp = ctx.get("missing_players") or {}
-    fmt = lambda rows: ", ".join(f"{r['player']} ({r.get('reason') or '?'}{'; ' + r['likelihood'] if r.get('likelihood') else ''})" for r in rows) or "yok/bildirilmemiş"
-    L.append(f"- **Eksikler:** ev: {fmt(mp.get('home') or [])} | dep: {fmt(mp.get('away') or [])}")
+    mp = ctx.get("missing_players")
+    fmt = lambda rows: ", ".join(f"{r['player']} ({r.get('reason') or '?'}{'; ' + r['likelihood'] if r.get('likelihood') else ''})" for r in rows) or "listede yok"
+    if mp:
+        L.append(f"- **Eksikler:** ev: {fmt(mp.get('home') or [])} | dep: {fmt(mp.get('away') or [])}")
+    else:
+        L.append("- **Eksikler:** VERİ YOK (kaynak boş döndü; 'eksik yok' anlamına gelmez)")
     w = ctx.get("weather") or {}
     if w.get("ok"):
         L.append(f"- **Hava ({w['city']}, maç saati tahmini):** {w['temperature_c']}°C · yağış {w['precipitation_mm']} mm"
