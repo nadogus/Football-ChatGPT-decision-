@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T00:52:17.663877+00:00",
+ "generated_at": "2026-11-11T00:55:44.369328+00:00",
  "match": {
   "match_id": "CddXyIK5",
   "home": "Corum",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T00:52:08.395475+00:00",
+   "observed_at": "2026-11-11T00:55:38.354731+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T00:52:17.662858+00:00",
+   "observed_at": "2026-11-11T00:55:44.367505+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T00:52:08.395475+00:00",
+   "observed_at": "2026-11-11T00:55:38.354731+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,16 +59,16 @@
    }
   },
   "ensemble": {
-   "DRAW": 0.24561435031857737,
-   "1X": 0.5444647770996897,
-   "AWAY_DNB": 0.6144885645340118,
    "HOME": 0.37029585709381485,
+   "DRAW": 0.24561435031857737,
+   "AWAY_DNB": 0.6144885645340118,
+   "1X": 0.5444647770996897,
    "HOME_DNB": 0.3855114354659882,
-   "UNDER_2.5": 0.43603503913940656,
-   "AWAY": 0.3840897925876078,
-   "X2": 0.7142110564436756,
+   "BTTS_YES": 0.5940358426089852,
    "OVER_2.5": 0.5639649608605934,
-   "BTTS_YES": 0.5940358426089852
+   "X2": 0.7142110564436756,
+   "AWAY": 0.3840897925876078,
+   "UNDER_2.5": 0.43603503913940656
   },
   "model_agreement": 0.687
  },
@@ -95,7 +95,7 @@
     "best_price": {
      "HOME": {
       "odds": 3.5,
-      "bookmaker": "Betano.uk",
+      "bookmaker": "Paddy Power",
       "fair_odds_consensus": 3.848,
       "ev_vs_consensus": -0.0903
      },
@@ -136,7 +136,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.03,
-       "bookmaker": "William Hill",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 1.026,
        "ev_vs_consensus": 0.0038
       },
@@ -456,7 +456,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.45,
-       "bookmaker": "Betano.uk",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 2.646,
        "ev_vs_consensus": -0.0739
       },
@@ -680,7 +680,7 @@
      "best_price": {
       "OVER": {
        "odds": 9.0,
-       "bookmaker": "Betano.uk",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 14.025,
        "ev_vs_consensus": -0.3583
       },
@@ -769,7 +769,7 @@
     "model_probability": 0.370296,
     "fair_odds": 2.7005,
     "best_odds": 3.5,
-    "bookmaker": "Betano.uk",
+    "bookmaker": "Paddy Power",
     "edge_pp": 0.084582,
     "ev": 0.296035,
     "market_fair_probability": 0.2599,
@@ -935,7 +935,7 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 0,
    "wind_kmh": 11.7,
-   "observed_at": "2026-11-11T00:52:17.662858+00:00"
+   "observed_at": "2026-11-11T00:55:44.367505+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."
