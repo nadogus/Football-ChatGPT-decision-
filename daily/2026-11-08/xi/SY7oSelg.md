@@ -1,6 +1,6 @@
 ## Napoli – Lazio · resmi kadrolar
 
-Serie A · 11:30 UTC / 14:30 TSİ · çekildi 01:29 UTC (maça -3719 dk) · doğrulama: ESPN_DISAGREES
+Serie A · 11:30 UTC / 14:30 TSİ · çekildi 01:32 UTC (maça -3723 dk) · doğrulama: ESPN_DISAGREES
 
 **Napoli** (diziliş ?): 
 - Önceki kadro bulunamadı (fark hesaplanmadı)
