@@ -2,7 +2,7 @@ name: xi-watch
 
 on:
   schedule:
-    - cron: "4,14,24,34,44,54 * * * *"   # ~10 dakikada bir; GitHub zamanlaması 5-15 dk gecikebilir, pencere 75..10 dk
+    - cron: "4,14,24,34,44,54 * * * *"   # ~10 dakikada bir (on 10 dk); GitHub zamanlaması 5-15 dk gecikebilir, pencere 75..10 dk
   workflow_dispatch:
     inputs:
       date: {description: "YYYY-MM-DD (doğrulama için)", default: ""}
