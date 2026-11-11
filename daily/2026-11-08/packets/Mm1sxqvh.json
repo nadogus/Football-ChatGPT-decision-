@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T01:47:22.849949+00:00",
+ "generated_at": "2026-11-11T01:50:23.111134+00:00",
  "match": {
   "match_id": "Mm1sxqvh",
   "home": "Rennes",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T01:47:14.943294+00:00",
+   "observed_at": "2026-11-11T01:50:12.590702+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T01:47:22.848212+00:00",
+   "observed_at": "2026-11-11T01:50:23.109686+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T01:47:14.943294+00:00",
+   "observed_at": "2026-11-11T01:50:12.590702+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -60,15 +60,15 @@
   },
   "ensemble": {
    "UNDER_2.5": 0.29667583817506593,
-   "AWAY_DNB": 0.5665837273162103,
-   "1X": 0.5639920156047331,
    "OVER_2.5": 0.7033241618249341,
-   "AWAY": 0.3872134244651476,
+   "HOME_DNB": 0.43341627268378957,
+   "X2": 0.666469497187831,
+   "BTTS_YES": 0.7057835732652401,
    "HOME": 0.37776992190200975,
    "DRAW": 0.2350166536328427,
-   "BTTS_YES": 0.7057835732652401,
-   "X2": 0.666469497187831,
-   "HOME_DNB": 0.43341627268378957
+   "AWAY": 0.3872134244651476,
+   "1X": 0.5639920156047331,
+   "AWAY_DNB": 0.5665837273162103
   },
   "model_agreement": 0.8193
  },
@@ -95,7 +95,7 @@
     "best_price": {
      "HOME": {
       "odds": 2.38,
-      "bookmaker": "Betano.uk",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 2.444,
       "ev_vs_consensus": -0.0261
      },
@@ -136,7 +136,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.06,
-       "bookmaker": "William Hill",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 1.054,
        "ev_vs_consensus": 0.0053
       },
@@ -232,7 +232,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.3,
-       "bookmaker": "William Hill",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 1.331,
        "ev_vs_consensus": -0.0234
       },
@@ -488,13 +488,13 @@
      "best_price": {
       "OVER": {
        "odds": 3.5,
-       "bookmaker": "William Hill",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 3.828,
        "ev_vs_consensus": -0.0858
       },
       "UNDER": {
        "odds": 1.36,
-       "bookmaker": "Betway",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 1.354,
        "ev_vs_consensus": 0.0048
       }
@@ -616,13 +616,13 @@
      "best_price": {
       "OVER": {
        "odds": 7.0,
-       "bookmaker": "William Hill",
+       "bookmaker": "Paddy Power",
        "fair_odds_consensus": 9.05,
        "ev_vs_consensus": -0.2265
       },
       "UNDER": {
        "odds": 1.13,
-       "bookmaker": "Betway",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 1.124,
        "ev_vs_consensus": 0.0051
       }
@@ -712,7 +712,7 @@
      "best_price": {
       "OVER": {
        "odds": 15.0,
-       "bookmaker": "William Hill",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 25.907,
        "ev_vs_consensus": -0.421
       },
@@ -788,7 +788,7 @@
     "model_probability": 0.566584,
     "fair_odds": 1.765,
     "best_odds": 2.25,
-    "bookmaker": "Betway",
+    "bookmaker": "Skybet",
     "edge_pp": 0.122139,
     "ev": 0.274813,
     "market_fair_probability": null,
@@ -814,7 +814,7 @@
     "model_probability": 0.37777,
     "fair_odds": 2.6471,
     "best_odds": 2.38,
-    "bookmaker": "Betano.uk",
+    "bookmaker": "bet365",
     "edge_pp": -0.042398,
     "ev": -0.100908,
     "market_fair_probability": 0.4092,
@@ -840,7 +840,7 @@
     "model_probability": 0.433416,
     "fair_odds": 2.3073,
     "best_odds": 1.67,
-    "bookmaker": "BetMGM.uk",
+    "bookmaker": "bet365",
     "edge_pp": -0.165386,
     "ev": -0.276195,
     "market_fair_probability": null,
@@ -942,7 +942,7 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 0,
    "wind_kmh": 8.4,
-   "observed_at": "2026-11-11T01:47:22.848212+00:00"
+   "observed_at": "2026-11-11T01:50:23.109686+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."

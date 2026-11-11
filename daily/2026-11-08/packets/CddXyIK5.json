@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T01:47:06.806439+00:00",
+ "generated_at": "2026-11-11T01:50:02.699192+00:00",
  "match": {
   "match_id": "CddXyIK5",
   "home": "Corum",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T01:47:00.407362+00:00",
+   "observed_at": "2026-11-11T01:49:54.224040+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T01:47:06.804783+00:00",
+   "observed_at": "2026-11-11T01:50:02.697779+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T01:47:00.407362+00:00",
+   "observed_at": "2026-11-11T01:49:54.224040+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -60,15 +60,15 @@
   },
   "ensemble": {
    "UNDER_2.5": 0.43603503913940656,
-   "AWAY_DNB": 0.6144885645340118,
-   "1X": 0.5444647770996897,
    "OVER_2.5": 0.5639649608605934,
-   "AWAY": 0.3840897925876078,
+   "HOME_DNB": 0.3855114354659882,
+   "X2": 0.7142110564436756,
+   "BTTS_YES": 0.5940358426089852,
    "HOME": 0.37029585709381485,
    "DRAW": 0.24561435031857737,
-   "BTTS_YES": 0.5940358426089852,
-   "X2": 0.7142110564436756,
-   "HOME_DNB": 0.3855114354659882
+   "AWAY": 0.3840897925876078,
+   "1X": 0.5444647770996897,
+   "AWAY_DNB": 0.6144885645340118
   },
   "model_agreement": 0.687
  },
@@ -95,7 +95,7 @@
     "best_price": {
      "HOME": {
       "odds": 3.5,
-      "bookmaker": "Betano.uk",
+      "bookmaker": "Betfair",
       "fair_odds_consensus": 3.848,
       "ev_vs_consensus": -0.0903
      },
@@ -107,7 +107,7 @@
      },
      "AWAY": {
       "odds": 2.0,
-      "bookmaker": "Ladbrokes",
+      "bookmaker": "Coral",
       "fair_odds_consensus": 2.012,
       "ev_vs_consensus": -0.0058
      }
@@ -136,7 +136,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.03,
-       "bookmaker": "William Hill",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 1.026,
        "ev_vs_consensus": 0.0038
       },
@@ -456,7 +456,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.45,
-       "bookmaker": "Betano.uk",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 2.646,
        "ev_vs_consensus": -0.0739
       },
@@ -584,7 +584,7 @@
      "best_price": {
       "OVER": {
        "odds": 4.5,
-       "bookmaker": "Paddy Power",
+       "bookmaker": "Betfair",
        "fair_odds_consensus": 5.325,
        "ev_vs_consensus": -0.1549
       },
@@ -680,7 +680,7 @@
      "best_price": {
       "OVER": {
        "odds": 9.0,
-       "bookmaker": "Betano.uk",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 14.025,
        "ev_vs_consensus": -0.3583
       },
@@ -718,7 +718,7 @@
       },
       "UNDER": {
        "odds": 1.02,
-       "bookmaker": "bet365",
+       "bookmaker": "Skybet",
        "fair_odds_consensus": 1.016,
        "ev_vs_consensus": 0.0044
       }
@@ -769,7 +769,7 @@
     "model_probability": 0.370296,
     "fair_odds": 2.7005,
     "best_odds": 3.5,
-    "bookmaker": "Betano.uk",
+    "bookmaker": "Betfair",
     "edge_pp": 0.084582,
     "ev": 0.296035,
     "market_fair_probability": 0.2599,
@@ -782,7 +782,7 @@
     "model_probability": 0.385511,
     "fair_odds": 2.594,
     "best_odds": 2.75,
-    "bookmaker": "Paddy Power",
+    "bookmaker": "Betfair",
     "edge_pp": 0.021875,
     "ev": 0.060156,
     "market_fair_probability": null,
@@ -847,7 +847,7 @@
     "model_probability": 0.38409,
     "fair_odds": 2.6036,
     "best_odds": 2.0,
-    "bookmaker": "Ladbrokes",
+    "bookmaker": "Coral",
     "edge_pp": -0.11591,
     "ev": -0.23182,
     "market_fair_probability": 0.4971,
@@ -884,8 +884,61 @@
    "William Hill",
    "bet365"
   ],
-  "missing_players": null,
-  "missing_players_source": null,
+  "missing_players": {
+   "home": [
+    {
+     "player": "Gökhan Sazdagi",
+     "reason": "suspension",
+     "likelihood": "Early November 2026",
+     "market_value_eur": 661865
+    },
+    {
+     "player": "Berat Özdemir",
+     "reason": "injury",
+     "likelihood": "Late December 2026",
+     "market_value_eur": 1422451
+    },
+    {
+     "player": "Fredy",
+     "reason": "injury",
+     "likelihood": "Doubtful",
+     "market_value_eur": 261709
+    }
+   ],
+   "away": [
+    {
+     "player": "Archie Brown",
+     "reason": "suspension",
+     "likelihood": "Late November 2026",
+     "market_value_eur": 17546233
+    },
+    {
+     "player": "Nathan Aké",
+     "reason": "injury",
+     "likelihood": "Mid November 2026",
+     "market_value_eur": 7713584
+    },
+    {
+     "player": "Marco Asensio",
+     "reason": "injury",
+     "likelihood": "Early January 2027",
+     "market_value_eur": 8764777
+    },
+    {
+     "player": "Amara Diouf",
+     "reason": "injury",
+     "likelihood": "Doubtful",
+     "market_value_eur": 1387101
+    },
+    {
+     "player": "Jayden Oosterwolde",
+     "reason": "injury",
+     "likelihood": "Unknown",
+     "market_value_eur": 14529711
+    }
+   ]
+  },
+  "missing_players_source": "fotmob:5904799",
   "xg": {
    "home": {
     "xg_for": 1.3333333333333333,
@@ -933,12 +986,9 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 0,
    "wind_kmh": 11.7,
-   "observed_at": "2026-11-11T01:47:06.804783+00:00"
+   "observed_at": "2026-11-11T01:50:02.697779+00:00"
   },
-  "data_gaps": [
-   "FOTMOB_UNRESOLVED:LOW_MATCH_SCORE",
-   "MISSING_PLAYERS_SOURCE_EMPTY"
-  ],
+  "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."
  },
  "decision_authority": "CHATGPT_ONLY",

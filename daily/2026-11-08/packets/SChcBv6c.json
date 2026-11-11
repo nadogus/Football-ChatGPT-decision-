@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T01:46:53.257822+00:00",
+ "generated_at": "2026-11-11T01:49:44.848127+00:00",
  "match": {
   "match_id": "SChcBv6c",
   "home": "Club Brugge KV",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T01:46:44.129984+00:00",
+   "observed_at": "2026-11-11T01:49:32.612831+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T01:46:53.256140+00:00",
+   "observed_at": "2026-11-11T01:49:44.846787+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T01:46:44.129984+00:00",
+   "observed_at": "2026-11-11T01:49:32.612831+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -60,15 +60,15 @@
   },
   "ensemble": {
    "UNDER_2.5": 0.322144143493161,
-   "AWAY_DNB": 0.43921329751248217,
-   "1X": 0.664654110792291,
    "OVER_2.5": 0.677855856506839,
-   "AWAY": 0.29487738430687194,
+   "HOME_DNB": 0.5607867024875178,
+   "X2": 0.5718310067873317,
+   "BTTS_YES": 0.6868126047527091,
    "HOME": 0.47833131645229165,
    "DRAW": 0.22679129924083635,
-   "BTTS_YES": 0.6868126047527091,
-   "X2": 0.5718310067873317,
-   "HOME_DNB": 0.5607867024875178
+   "AWAY": 0.29487738430687194,
+   "1X": 0.664654110792291,
+   "AWAY_DNB": 0.43921329751248217
   },
   "model_agreement": 0.8142
  },
@@ -101,13 +101,13 @@
      },
      "DRAW": {
       "odds": 4.5,
-      "bookmaker": "Unibetuk",
+      "bookmaker": "Talksportbet",
       "fair_odds_consensus": 4.963,
       "ev_vs_consensus": -0.0932
      },
      "AWAY": {
       "odds": 5.0,
-      "bookmaker": "7BetUK",
+      "bookmaker": "Talksportbet",
       "fair_odds_consensus": 5.593,
       "ev_vs_consensus": -0.106
      }
@@ -232,7 +232,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.14,
-       "bookmaker": "7BetUK",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 1.165,
        "ev_vs_consensus": -0.0214
       },
@@ -328,7 +328,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.45,
-       "bookmaker": "7BetUK",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 1.517,
        "ev_vs_consensus": -0.044
       },
@@ -366,7 +366,7 @@
       },
       "UNDER": {
        "odds": 2.38,
-       "bookmaker": "10bet",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 2.606,
        "ev_vs_consensus": -0.0868
       }
@@ -392,7 +392,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.75,
-       "bookmaker": "10bet",
+       "bookmaker": "7BetUK",
        "fair_odds_consensus": 1.862,
        "ev_vs_consensus": -0.0602
       },
@@ -488,7 +488,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.55,
-       "bookmaker": "10bet",
+       "bookmaker": "7BetUK",
        "fair_odds_consensus": 2.83,
        "ev_vs_consensus": -0.0991
       },
@@ -680,7 +680,7 @@
      "best_price": {
       "OVER": {
        "odds": 6.0,
-       "bookmaker": "BetVictor",
+       "bookmaker": "Talksportbet",
        "fair_odds_consensus": 7.457,
        "ev_vs_consensus": -0.1954
       },
@@ -878,7 +878,7 @@
     "model_probability": 0.294877,
     "fair_odds": 3.3912,
     "best_odds": 5.0,
-    "bookmaker": "7BetUK",
+    "bookmaker": "Talksportbet",
     "edge_pp": 0.094877,
     "ev": 0.474387,
     "market_fair_probability": 0.1788,
@@ -904,7 +904,7 @@
     "model_probability": 0.226791,
     "fair_odds": 4.4093,
     "best_odds": 4.5,
-    "bookmaker": "Unibetuk",
+    "bookmaker": "Talksportbet",
     "edge_pp": 0.004569,
     "ev": 0.020561,
     "market_fair_probability": 0.2015,
@@ -1038,7 +1038,7 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 0,
    "wind_kmh": 11.2,
-   "observed_at": "2026-11-11T01:46:53.256140+00:00"
+   "observed_at": "2026-11-11T01:49:44.846787+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."

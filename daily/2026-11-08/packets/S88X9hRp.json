@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T01:47:00.381796+00:00",
+ "generated_at": "2026-11-11T01:49:54.204118+00:00",
  "match": {
   "match_id": "S88X9hRp",
   "home": "Elche",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T01:46:53.281298+00:00",
+   "observed_at": "2026-11-11T01:49:44.866340+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T01:47:00.380091+00:00",
+   "observed_at": "2026-11-11T01:49:54.202697+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T01:46:53.281298+00:00",
+   "observed_at": "2026-11-11T01:49:44.866340+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -60,15 +60,15 @@
   },
   "ensemble": {
    "UNDER_2.5": 0.42023769005337075,
-   "AWAY_DNB": 0.57278400231242,
-   "1X": 0.5750799038516055,
    "OVER_2.5": 0.5797623099466293,
-   "AWAY": 0.3926174697317638,
+   "HOME_DNB": 0.42721599768758,
+   "X2": 0.6830696002670071,
+   "BTTS_YES": 0.6113086254744532,
    "HOME": 0.3554429432438224,
    "DRAW": 0.2519395870244138,
-   "BTTS_YES": 0.6113086254744532,
-   "X2": 0.6830696002670071,
-   "HOME_DNB": 0.42721599768758
+   "AWAY": 0.3926174697317638,
+   "1X": 0.5750799038516055,
+   "AWAY_DNB": 0.57278400231242
   },
   "model_agreement": 0.8574
  },
@@ -238,7 +238,7 @@
       },
       "UNDER": {
        "odds": 6.5,
-       "bookmaker": "Paddy Power",
+       "bookmaker": "Midnite",
        "fair_odds_consensus": 7.698,
        "ev_vs_consensus": -0.1557
       }
@@ -456,7 +456,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.95,
-       "bookmaker": "7BetUK",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 2.092,
        "ev_vs_consensus": -0.0681
       },
@@ -520,7 +520,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.5,
-       "bookmaker": "7BetUK",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 2.762,
        "ev_vs_consensus": -0.0948
       },
@@ -930,7 +930,7 @@
     "model_probability": 0.572784,
     "fair_odds": 1.7459,
     "best_odds": 1.4,
-    "bookmaker": "Betfred",
+    "bookmaker": "10bet",
     "edge_pp": -0.141502,
     "ev": -0.198102,
     "market_fair_probability": null,
@@ -980,8 +980,25 @@
    "William Hill",
    "bet365"
   ],
-  "missing_players": null,
-  "missing_players_source": null,
+  "missing_players": {
+   "home": [
+    {
+     "player": "Thomas Lemar",
+     "reason": "injury",
+     "likelihood": "Late November 2026",
+     "market_value_eur": 1294438
+    }
+   ],
+   "away": [
+    {
+     "player": "Facundo Bernal",
+     "reason": "suspension",
+     "likelihood": "Late November 2026",
+     "market_value_eur": 12607909
+    }
+   ]
+  },
+  "missing_players_source": "fotmob:5868123",
   "xg": {
    "home": {
     "xg_for": 1.2083333333333333,
@@ -1029,12 +1046,9 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 0,
    "wind_kmh": 12.4,
-   "observed_at": "2026-11-11T01:47:00.380091+00:00"
+   "observed_at": "2026-11-11T01:49:54.202697+00:00"
   },
-  "data_gaps": [
-   "FOTMOB_UNRESOLVED:LOW_MATCH_SCORE",
-   "MISSING_PLAYERS_SOURCE_EMPTY"
-  ],
+  "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."
  },
  "decision_authority": "CHATGPT_ONLY",

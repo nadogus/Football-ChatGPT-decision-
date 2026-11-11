@@ -601,7 +601,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.01,
-       "bookmaker": "bet365",
+       "bookmaker": "William Hill",
        "fair_odds_consensus": 1.014,
        "ev_vs_consensus": -0.0037
       },
@@ -939,13 +939,13 @@
      "best_price": {
       "OVER": {
        "odds": 3.1,
-       "bookmaker": "BetVictor",
+       "bookmaker": "Betano.uk",
        "fair_odds_consensus": 3.365,
        "ev_vs_consensus": -0.0787
       },
       "UNDER": {
        "odds": 1.4,
-       "bookmaker": "BetMGM.uk",
+       "bookmaker": "Unibetuk",
        "fair_odds_consensus": 1.423,
        "ev_vs_consensus": -0.0161
       }
@@ -1043,13 +1043,13 @@
      "best_price": {
       "OVER": {
        "odds": 5.75,
-       "bookmaker": "BetVictor",
+       "bookmaker": "Betano.uk",
        "fair_odds_consensus": 6.882,
        "ev_vs_consensus": -0.1645
       },
       "UNDER": {
        "odds": 1.17,
-       "bookmaker": "BetMGM.uk",
+       "bookmaker": "Unibetuk",
        "fair_odds_consensus": 1.17,
        "ev_vs_consensus": -0.0
       }
@@ -2463,7 +2463,7 @@
     "best_price": {
      "HOME": {
       "odds": 4.2,
-      "bookmaker": "BetVictor",
+      "bookmaker": "Talksportbet",
       "fair_odds_consensus": 4.401,
       "ev_vs_consensus": -0.0458
      },
@@ -2554,7 +2554,7 @@
       },
       "UNDER": {
        "odds": 7.0,
-       "bookmaker": "7BetUK",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 10.246,
        "ev_vs_consensus": -0.3168
       }
@@ -2990,7 +2990,7 @@
      "best_price": {
       "OVER": {
        "odds": 7.5,
-       "bookmaker": "Betfair",
+       "bookmaker": "Unibetuk",
        "fair_odds_consensus": 9.311,
        "ev_vs_consensus": -0.1945
       },
@@ -3074,7 +3074,7 @@
       },
       "UNDER": {
        "odds": 1.01,
-       "bookmaker": "Skybet",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 1.014,
        "ev_vs_consensus": -0.0036
       }
@@ -3112,7 +3112,7 @@
     "best_price": {
      "HOME": {
       "odds": 3.5,
-      "bookmaker": "Betano.uk",
+      "bookmaker": "Coral",
       "fair_odds_consensus": 3.848,
       "ev_vs_consensus": -0.0903
      },
@@ -3124,7 +3124,7 @@
      },
      "AWAY": {
       "odds": 2.0,
-      "bookmaker": "Ladbrokes",
+      "bookmaker": "Coral",
       "fair_odds_consensus": 2.012,
       "ev_vs_consensus": -0.0058
      }
@@ -3145,7 +3145,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.03,
-       "bookmaker": "William Hill",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 1.026,
        "ev_vs_consensus": 0.0038
       },
@@ -3405,7 +3405,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.45,
-       "bookmaker": "Betano.uk",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 2.646,
        "ev_vs_consensus": -0.0739
       },
@@ -3509,7 +3509,7 @@
      "best_price": {
       "OVER": {
        "odds": 4.5,
-       "bookmaker": "Paddy Power",
+       "bookmaker": "Betfair",
        "fair_odds_consensus": 5.325,
        "ev_vs_consensus": -0.1549
       },
@@ -3587,7 +3587,7 @@
      "best_price": {
       "OVER": {
        "odds": 9.0,
-       "bookmaker": "Betano.uk",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 14.025,
        "ev_vs_consensus": -0.3583
       },
@@ -3976,7 +3976,7 @@
      "best_price": {
       "OVER": {
        "odds": 2.2,
-       "bookmaker": "7BetUK",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 2.406,
        "ev_vs_consensus": -0.0857
       },
@@ -4332,7 +4332,7 @@
     "best_price": {
      "HOME": {
       "odds": 2.38,
-      "bookmaker": "Betano.uk",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 2.444,
       "ev_vs_consensus": -0.0261
      },
@@ -4365,7 +4365,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.06,
-       "bookmaker": "William Hill",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 1.054,
        "ev_vs_consensus": 0.0053
       },
@@ -4443,7 +4443,7 @@
      "best_price": {
       "OVER": {
        "odds": 1.3,
-       "bookmaker": "William Hill",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 1.331,
        "ev_vs_consensus": -0.0234
       },
@@ -4651,13 +4651,13 @@
      "best_price": {
       "OVER": {
        "odds": 3.5,
-       "bookmaker": "William Hill",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 3.828,
        "ev_vs_consensus": -0.0858
       },
       "UNDER": {
        "odds": 1.36,
-       "bookmaker": "Betway",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 1.354,
        "ev_vs_consensus": 0.0048
       }
@@ -4755,13 +4755,13 @@
      "best_price": {
       "OVER": {
        "odds": 7.0,
-       "bookmaker": "William Hill",
+       "bookmaker": "Paddy Power",
        "fair_odds_consensus": 9.05,
        "ev_vs_consensus": -0.2265
       },
       "UNDER": {
        "odds": 1.13,
-       "bookmaker": "Betway",
+       "bookmaker": "10bet",
        "fair_odds_consensus": 1.124,
        "ev_vs_consensus": 0.0051
       }
@@ -4833,7 +4833,7 @@
      "best_price": {
       "OVER": {
        "odds": 15.0,
-       "bookmaker": "William Hill",
+       "bookmaker": "bet365",
        "fair_odds_consensus": 25.907,
        "ev_vs_consensus": -0.421
       },
