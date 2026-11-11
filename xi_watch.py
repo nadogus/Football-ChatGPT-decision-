@@ -110,20 +110,26 @@ def same_team(a: Any, b: Any) -> bool:
 def espn_previous_xi(slug: str, team: str, before: datetime) -> dict[str, Any] | None:
     """Team's previous starting XI from its last completed league match on ESPN (last 21 days)."""
     from data_adapters import _json
-    start = (before - timedelta(days=21)).strftime("%Y%m%d"); end = (before - timedelta(days=1)).strftime("%Y%m%d")
-    data = _json(f"{ESPNLineupClient.BASE}/{slug}/scoreboard?dates={start}-{end}&limit=500")
     best = None
-    for e in (data or {}).get("events") or []:
-        if not (((e.get("status") or {}).get("type") or {}).get("completed")):
+    for n in range(1, 22):  # day by day: ESPN rejects date ranges on this endpoint (HTTP 400)
+        d = (before - timedelta(days=n)).strftime("%Y%m%d")
+        try:
+            data = _json(f"{ESPNLineupClient.BASE}/{slug}/scoreboard?dates={d}")
+        except Exception:
             continue
-        comp = (e.get("competitions") or [{}])[0]
-        for c in comp.get("competitors") or []:
-            name = (c.get("team") or {}).get("displayName") or (c.get("team") or {}).get("name")
-            if same_team(name, team):
-                when = datetime.fromisoformat(str(e.get("date")).replace("Z", "+00:00"))
-                opp = next(((x.get("team") or {}).get("displayName") for x in comp.get("competitors") or [] if x is not c), None)
-                if when < before and (best is None or when > best[0]):
-                    best = (when, e.get("id"), c.get("homeAway"), opp)
+        for e in (data or {}).get("events") or []:
+            if not (((e.get("status") or {}).get("type") or {}).get("completed")):
+                continue
+            comp = (e.get("competitions") or [{}])[0]
+            for c in comp.get("competitors") or []:
+                name = (c.get("team") or {}).get("displayName") or (c.get("team") or {}).get("name")
+                if same_team(name, team):
+                    when = datetime.fromisoformat(str(e.get("date")).replace("Z", "+00:00"))
+                    opp = next(((x.get("team") or {}).get("displayName") for x in comp.get("competitors") or [] if x is not c), None)
+                    if when < before and (best is None or when > best[0]):
+                        best = (when, e.get("id"), c.get("homeAway"), opp)
+        if best:
+            break
     if not best:
         return None
     when, eid, side, opp = best
