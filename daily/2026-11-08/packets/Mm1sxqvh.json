@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T01:34:39.058699+00:00",
+ "generated_at": "2026-11-11T01:47:22.849949+00:00",
  "match": {
   "match_id": "Mm1sxqvh",
   "home": "Rennes",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T01:34:30.945934+00:00",
+   "observed_at": "2026-11-11T01:47:14.943294+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T01:34:39.056820+00:00",
+   "observed_at": "2026-11-11T01:47:22.848212+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T01:34:30.945934+00:00",
+   "observed_at": "2026-11-11T01:47:14.943294+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,16 +59,16 @@
    }
   },
   "ensemble": {
-   "1X": 0.5639920156047331,
-   "DRAW": 0.2350166536328427,
-   "HOME_DNB": 0.43341627268378957,
+   "UNDER_2.5": 0.29667583817506593,
    "AWAY_DNB": 0.5665837273162103,
+   "1X": 0.5639920156047331,
+   "OVER_2.5": 0.7033241618249341,
+   "AWAY": 0.3872134244651476,
+   "HOME": 0.37776992190200975,
+   "DRAW": 0.2350166536328427,
    "BTTS_YES": 0.7057835732652401,
    "X2": 0.666469497187831,
-   "OVER_2.5": 0.7033241618249341,
-   "UNDER_2.5": 0.29667583817506593,
-   "AWAY": 0.3872134244651476,
-   "HOME": 0.37776992190200975
+   "HOME_DNB": 0.43341627268378957
   },
   "model_agreement": 0.8193
  },
@@ -894,6 +894,7 @@
    "home": [],
    "away": []
   },
+  "missing_players_source": "fotmob:5802988",
   "xg": {
    "home": {
     "xg_for": 2.2849999999999997,
@@ -941,7 +942,7 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 0,
    "wind_kmh": 8.4,
-   "observed_at": "2026-11-11T01:34:39.056820+00:00"
+   "observed_at": "2026-11-11T01:47:22.848212+00:00"
   },
   "data_gaps": [],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."

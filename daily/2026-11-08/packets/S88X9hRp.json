@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
  "engine_version": "evidence-v1.2",
- "generated_at": "2026-11-11T01:34:19.222179+00:00",
+ "generated_at": "2026-11-11T01:47:00.381796+00:00",
  "match": {
   "match_id": "S88X9hRp",
   "home": "Elche",
@@ -21,19 +21,19 @@
  "source_evidence": [
   {
    "source": "flashscore",
-   "observed_at": "2026-11-11T01:34:11.643391+00:00",
+   "observed_at": "2026-11-11T01:46:53.281298+00:00",
    "reliability": 0.8,
    "fresh": true
   },
   {
    "source": "open-meteo",
-   "observed_at": "2026-11-11T01:34:19.220567+00:00",
+   "observed_at": "2026-11-11T01:47:00.380091+00:00",
    "reliability": 0.6,
    "fresh": true
   },
   {
    "source": "flashscore:odds",
-   "observed_at": "2026-11-11T01:34:11.643391+00:00",
+   "observed_at": "2026-11-11T01:46:53.281298+00:00",
    "reliability": 0.8,
    "fresh": true
   }
@@ -59,16 +59,16 @@
    }
   },
   "ensemble": {
-   "1X": 0.5750799038516055,
-   "DRAW": 0.2519395870244138,
-   "HOME_DNB": 0.42721599768758,
+   "UNDER_2.5": 0.42023769005337075,
    "AWAY_DNB": 0.57278400231242,
+   "1X": 0.5750799038516055,
+   "OVER_2.5": 0.5797623099466293,
+   "AWAY": 0.3926174697317638,
+   "HOME": 0.3554429432438224,
+   "DRAW": 0.2519395870244138,
    "BTTS_YES": 0.6113086254744532,
    "X2": 0.6830696002670071,
-   "OVER_2.5": 0.5797623099466293,
-   "UNDER_2.5": 0.42023769005337075,
-   "AWAY": 0.3926174697317638,
-   "HOME": 0.3554429432438224
+   "HOME_DNB": 0.42721599768758
   },
   "model_agreement": 0.8574
  },
@@ -980,10 +980,8 @@
    "William Hill",
    "bet365"
   ],
-  "missing_players": {
-   "home": [],
-   "away": []
-  },
+  "missing_players": null,
+  "missing_players_source": null,
   "xg": {
    "home": {
     "xg_for": 1.2083333333333333,
@@ -1031,9 +1029,12 @@
    "precipitation_mm": 0.0,
    "precipitation_probability_pct": 0,
    "wind_kmh": 12.4,
-   "observed_at": "2026-11-11T01:34:19.220567+00:00"
+   "observed_at": "2026-11-11T01:47:00.380091+00:00"
   },
-  "data_gaps": [],
+  "data_gaps": [
+   "FOTMOB_UNRESOLVED:LOW_MATCH_SCORE",
+   "MISSING_PLAYERS_SOURCE_EMPTY"
+  ],
   "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Kanıt olarak değerlendir; piyasaya karşı doğrulanmamıştır."
  },
  "decision_authority": "CHATGPT_ONLY",
