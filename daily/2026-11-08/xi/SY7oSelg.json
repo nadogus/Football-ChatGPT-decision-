@@ -1,8 +1,8 @@
 {
  "event": "XI_VALIDATION_ONLY",
  "watch_version": "XI_WATCH_V1.0",
- "observed_at": "2026-11-11T01:42:17.957763+00:00",
- "minutes_before_kickoff": -3732.29929605,
+ "observed_at": "2026-11-11T01:43:32.124903+00:00",
+ "minutes_before_kickoff": -3733.5354150499998,
  "match": {
   "match_id": "SY7oSelg",
   "home": "Napoli",
@@ -500,7 +500,7 @@
     "best_price": {
      "OVER": {
       "odds": 1.11,
-      "bookmaker": "7BetUK",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 1.13,
       "ev_vs_consensus": -0.0174
      },
@@ -532,7 +532,7 @@
      },
      "UNDER": {
       "odds": 5.0,
-      "bookmaker": "BetVictor",
+      "bookmaker": "Skybet",
       "fair_odds_consensus": 5.75,
       "ev_vs_consensus": -0.1305
      }
@@ -636,7 +636,7 @@
      },
      "UNDER": {
       "odds": 2.4,
-      "bookmaker": "Betfair",
+      "bookmaker": "Skybet",
       "fair_odds_consensus": 2.503,
       "ev_vs_consensus": -0.041
      }
@@ -682,7 +682,7 @@
     "best_price": {
      "OVER": {
       "odds": 2.0,
-      "bookmaker": "10bet",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 2.139,
       "ev_vs_consensus": -0.0648
      },
@@ -812,7 +812,7 @@
     "best_price": {
      "OVER": {
       "odds": 4.0,
-      "bookmaker": "7BetUK",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 4.847,
       "ev_vs_consensus": -0.1748
      },
@@ -838,7 +838,7 @@
     "best_price": {
      "OVER": {
       "odds": 4.8,
-      "bookmaker": "Betfair",
+      "bookmaker": "Paddy Power",
       "fair_odds_consensus": 5.382,
       "ev_vs_consensus": -0.1082
      },
@@ -864,7 +864,7 @@
     "best_price": {
      "OVER": {
       "odds": 5.5,
-      "bookmaker": "7BetUK",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 7.143,
       "ev_vs_consensus": -0.23
      },
@@ -916,7 +916,7 @@
     "best_price": {
      "OVER": {
       "odds": 9.5,
-      "bookmaker": "BetVictor",
+      "bookmaker": "Parimatch.uk",
       "fair_odds_consensus": 14.025,
       "ev_vs_consensus": -0.3226
      },
