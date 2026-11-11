@@ -1,6 +1,6 @@
 ## Napoli – Lazio · resmi kadrolar
 
-Serie A · 11:30 UTC / 14:30 TSİ · çekildi 01:36 UTC (maça -3727 dk) · kaynak: ESPN · çapraz kontrol: FLASHSCORE_LINEUPS_EMPTY
+Serie A · 11:30 UTC / 14:30 TSİ · çekildi 01:42 UTC (maça -3732 dk) · kaynak: ESPN · çapraz kontrol: FLASHSCORE_LINEUPS_EMPTY
 
 **Napoli** (3-4-2-1): Vanja Milinkovic-Savic (K), Amir Rrahmani, Rafa Marín, Sam Beukema, Scott McTominay, Billy Gilmour, Mathías Olivera, Antonio Vergara, Rasmus Højlund, Noa Lang, Kevin De Bruyne
 - Önceki maça göre (2026-11-01, Juventus): 6 değişiklik · çıkan: Alex Meret, Luca Marianucci, Giovanni Di Lorenzo, Frank Anguissa, Lorenzo Lucca, Matteo Politano · giren: Vanja Milinkovic-Savic, Amir Rrahmani, Sam Beukema, Billy Gilmour, Antonio Vergara, Rasmus Højlund · **kaleci değişti** (Alex Meret → Vanja Milinkovic-Savic)
