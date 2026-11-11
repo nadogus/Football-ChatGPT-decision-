@@ -1,6 +1,6 @@
 ## Heerenveen – Feyenoord · resmi kadrolar
 
-Eredivisie · 11:15 UTC / 14:15 TSİ · çekildi 01:25 UTC (maça -3730 dk) · doğrulama: ESPN_UNRESOLVED:LOW_MATCH_SCORE
+Eredivisie · 11:15 UTC / 14:15 TSİ · çekildi 01:29 UTC (maça -3734 dk) · doğrulama: ESPN_UNRESOLVED:LOW_MATCH_SCORE
 
 **Heerenveen** (diziliş ?): 
 - Önceki kadro bulunamadı (fark hesaplanmadı)

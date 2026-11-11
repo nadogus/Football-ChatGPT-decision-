@@ -1,8 +1,8 @@
 {
  "event": "XI_VALIDATION_ONLY",
  "watch_version": "XI_WATCH_V1.0",
- "observed_at": "2026-11-11T01:25:08.243944+00:00",
- "minutes_before_kickoff": -3715.1373990666666,
+ "observed_at": "2026-11-11T01:29:03.353501+00:00",
+ "minutes_before_kickoff": -3719.0558916833334,
  "match": {
   "match_id": "SY7oSelg",
   "home": "Napoli",
@@ -73,7 +73,7 @@
     },
     "AWAY": {
      "odds": 3.3,
-     "bookmaker": "Coral",
+     "bookmaker": "Ladbrokes",
      "fair_odds_consensus": 3.484,
      "ev_vs_consensus": -0.0529
     }
@@ -146,7 +146,7 @@
     "best_price": {
      "OVER": {
       "odds": 1.11,
-      "bookmaker": "7BetUK",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 1.13,
       "ev_vs_consensus": -0.0174
      },
@@ -178,7 +178,7 @@
      },
      "UNDER": {
       "odds": 5.0,
-      "bookmaker": "Betano.uk",
+      "bookmaker": "Talksportbet",
       "fair_odds_consensus": 5.75,
       "ev_vs_consensus": -0.1305
      }
@@ -282,7 +282,7 @@
      },
      "UNDER": {
       "odds": 2.4,
-      "bookmaker": "Betano.uk",
+      "bookmaker": "Talksportbet",
       "fair_odds_consensus": 2.503,
       "ev_vs_consensus": -0.041
      }
@@ -328,7 +328,7 @@
     "best_price": {
      "OVER": {
       "odds": 2.0,
-      "bookmaker": "10bet",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 2.139,
       "ev_vs_consensus": -0.0648
      },
@@ -458,7 +458,7 @@
     "best_price": {
      "OVER": {
       "odds": 4.0,
-      "bookmaker": "7BetUK",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 4.847,
       "ev_vs_consensus": -0.1748
      },
@@ -484,7 +484,7 @@
     "best_price": {
      "OVER": {
       "odds": 4.8,
-      "bookmaker": "Betfair",
+      "bookmaker": "Paddy Power",
       "fair_odds_consensus": 5.382,
       "ev_vs_consensus": -0.1082
      },
@@ -510,7 +510,7 @@
     "best_price": {
      "OVER": {
       "odds": 5.5,
-      "bookmaker": "7BetUK",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 7.143,
       "ev_vs_consensus": -0.23
      },
@@ -562,7 +562,7 @@
     "best_price": {
      "OVER": {
       "odds": 9.5,
-      "bookmaker": "Betano.uk",
+      "bookmaker": "Talksportbet",
       "fair_odds_consensus": 14.025,
       "ev_vs_consensus": -0.3226
      },
@@ -594,7 +594,7 @@
      },
      "UNDER": {
       "odds": 1.02,
-      "bookmaker": "Skybet",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 1.016,
       "ev_vs_consensus": 0.0044
      }
@@ -620,7 +620,7 @@
      },
      "UNDER": {
       "odds": 1.01,
-      "bookmaker": "Skybet",
+      "bookmaker": "bet365",
       "fair_odds_consensus": 1.012,
       "ev_vs_consensus": -0.0024
      }
