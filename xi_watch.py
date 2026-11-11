@@ -282,12 +282,13 @@ class Watcher:
             gaps.append("XI_SINGLE_SOURCE:ESPN_ONLY")
         prev = {}
         for side in ("home", "away"):
+            err = ""
             try:
                 prev[side] = espn_previous_xi(slug, fx[side], kickoff)
-            except Exception:
-                prev[side] = None
+            except Exception as e:
+                prev[side] = None; err = f":{type(e).__name__}:{str(e)[:80]}"
             if not prev[side]:
-                gaps.append(f"PREVIOUS_XI_UNAVAILABLE:{side}")
+                gaps.append(f"PREVIOUS_XI_UNAVAILABLE:{side}{err}")
         mp = self.fs.missing_players(fx["match_id"])
         missing = {k: [{"player": (r.get("player") or {}).get("name"), "reason": r.get("reason"), "likelihood": r.get("likelihood")}
                        for r in ((mp.data or {}).get(k) or [])] for k in ("home", "away")} if mp.ok else {}

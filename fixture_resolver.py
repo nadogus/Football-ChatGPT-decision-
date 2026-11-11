@@ -12,7 +12,11 @@ def _norm(s:str|None)->str:
 def _team_score(a,b):
     aa,bb=_norm(a),_norm(b)
     if not aa or not bb:return 0.0
-    return 1.0 if aa==bb else SequenceMatcher(None,aa,bb).ratio()
+    if aa==bb:return 1.0
+    ta,tb=set(aa.split()),set(bb.split())
+    # "Feyenoord" vs "Feyenoord Rotterdam", "Heerenveen" vs "SC Heerenveen": whole-word containment
+    if ta and tb and (ta<=tb or tb<=ta) and min(len(aa),len(bb))>=6:return 0.95
+    return SequenceMatcher(None,aa,bb).ratio()
 def _dt(value):
     if not value:return None
     try:
