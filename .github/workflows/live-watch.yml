@@ -19,6 +19,7 @@ env:
   SLACK_LIVE_WEBHOOK_URL: ${{ secrets.SLACK_LIVE_WEBHOOK_URL }}
   NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
   LIVE_EXTRA_IDS: ${{ vars.LIVE_EXTRA_IDS }}
+  LIVE_ACTIONS_OFF: ${{ vars.LIVE_ACTIONS_OFF }}
 
 jobs:
   watch:
@@ -38,6 +39,7 @@ jobs:
               for f in json.load(open(p)):
                   k = datetime.fromisoformat(f["kickoff"].replace("Z", "+00:00"))
                   if -2 <= (now - k).total_seconds() / 60 <= 130: due = True
+          if os.getenv("GITHUB_EVENT_NAME") == "schedule" and os.getenv("LIVE_ACTIONS_OFF") == "true": due = False  # laptop çalışıyor
           print(f"due={'true' if due else 'false'}")
           PY
       - uses: actions/setup-python@v5
