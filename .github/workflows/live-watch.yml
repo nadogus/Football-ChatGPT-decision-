@@ -1,0 +1,61 @@
+name: live-watch
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # 5 dakikada bir; GitHub zamanlaması yoğun saatlerde 5-15 dk gecikebilir
+  workflow_dispatch:
+    inputs:
+      fotmob_id: {description: "Lig listesi dışındaki bir maçı izle (FotMob maç id)", default: ""}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-watch
+  cancel-in-progress: false
+
+env:
+  SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+  SLACK_LIVE_WEBHOOK_URL: ${{ secrets.SLACK_LIVE_WEBHOOK_URL }}
+  NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+  LIVE_EXTRA_IDS: ${{ vars.LIVE_EXTRA_IDS }}
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Şu an canlı maç var mı?
+        id: due
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, glob
+          from datetime import datetime, timezone
+          now = datetime.now(timezone.utc)
+          due = os.getenv("GITHUB_EVENT_NAME") != "schedule" or bool(os.getenv("LIVE_EXTRA_IDS", "").strip())
+          for p in glob.glob("daily/*/fixtures.json"):
+              for f in json.load(open(p)):
+                  k = datetime.fromisoformat(f["kickoff"].replace("Z", "+00:00"))
+                  if -2 <= (now - k).total_seconds() / 60 <= 130: due = True
+          print(f"due={'true' if due else 'false'}")
+          PY
+      - uses: actions/setup-python@v5
+        if: steps.due.outputs.due == 'true'
+        with: {python-version: "3.12"}
+      - name: Canlı izle
+        if: steps.due.outputs.due == 'true'
+        run: python live_watch.py ${{ github.event.inputs.fotmob_id && format('--fotmob-id {0}', github.event.inputs.fotmob_id) || '' }}
+      - name: Kaydet
+        if: steps.due.outputs.due == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          [ -e daily ] && git add daily
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Canlı izleme $(date -u +%F\ %H:%M)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done; exit 1
+      - name: Arıza bildirimi (Slack webhook tanımlıysa)
+        if: failure() && env.SLACK_WEBHOOK_URL != ''
+        run: |
+          curl -sS -X POST -H 'Content-Type: application/json' --data "{\"text\":\"⚠️ ${{ github.workflow }} başarısız: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" "$SLACK_WEBHOOK_URL"
