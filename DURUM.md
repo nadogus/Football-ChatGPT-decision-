@@ -6,6 +6,8 @@ Son güncelleme: 10 Kasım 2026. Yeni bir sohbette kaldığımız yerden devam e
 - **Bu repo** (herkese açık): veri toplar, karar vermez. Ayrıntı: `README.md`.
   - `daily-scan` her gün 05:37 UTC: dünü kapatır (skor, kapanış, CLV), bugünü tarar → `daily/<tarih>/`.
   - `xi-watch` ~10 dakikada bir: maça 75–10 dk kala resmi kadro → `daily/<tarih>/xi/`.
+  - `live-watch` 5 dakikada bir (yalnızca maç sırasında): FotMob canlı xG/xGOT/ceza sahası → `daily/<tarih>/live/`,
+    filtreye takılan maç Slack'e uyarı. Kararı Claude verir, kullanıcı `canlı bak <id>` yazınca. Ayrıntı: `CANLI_KARAR.md`.
 - **Zamanlanmış Claude görevleri** (repo dışında, kullanıcının Claude hesabında):
   - "Futbol günlük yorum planlayıcı" — her gün 06:13 UTC; her başlama saati için maçtan 30 dk önce yorum görevi kurar.
   - "Futbol haftalık performans özeti" — pazartesi 09:43 UTC.
