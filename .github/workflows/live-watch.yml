@@ -27,6 +27,7 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+        with: {fetch-depth: 30}
       - name: Şu an canlı maç var mı?
         id: due
         run: |
@@ -40,6 +41,9 @@ jobs:
                   k = datetime.fromisoformat(f["kickoff"].replace("Z", "+00:00"))
                   if -2 <= (now - k).total_seconds() / 60 <= 130: due = True
           if os.getenv("GITHUB_EVENT_NAME") == "schedule" and os.getenv("LIVE_ACTIONS_OFF") == "true": due = False  # laptop çalışıyor
+          import subprocess
+          recent = subprocess.run(["git", "log", "--since=15 minutes ago", "--grep=(laptop)", "--oneline"], capture_output=True, text=True).stdout.strip()
+          if os.getenv("GITHUB_EVENT_NAME") == "schedule" and recent: due = False  # laptop son 15 dk'da veri gönderdi; o çalışıyor
           print(f"due={'true' if due else 'false'}")
           PY
       - uses: actions/setup-python@v5
