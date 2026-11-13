@@ -250,12 +250,58 @@ def run(now: datetime | None = None, client: FotMobClient | None = None, extra_i
     return report
 
 
+def _git(*args: str) -> bool:
+    import subprocess
+    try:
+        return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, timeout=120).returncode == 0
+    except Exception:
+        return False
+
+
+def git_sync(push: bool) -> None:
+    """Laptop modu: önce güncel fikstürü çek, sonra (isteniyorsa) canlı verileri repoya gönder."""
+    _git("pull", "--rebase", "--autostash", "-q")
+    if push:
+        _git("add", "daily")
+        if not _git("diff", "--cached", "--quiet"):  # değişiklik varsa
+            _git("commit", "-q", "-m", f"Canlı izleme (laptop) {datetime.now(timezone.utc):%F %H:%M}")
+            if not _git("push", "-q"):
+                _git("pull", "--rebase", "--autostash", "-q")
+                _git("push", "-q")
+
+
 def main():
+    import time
     ap = argparse.ArgumentParser()
     ap.add_argument("--fotmob-id", action="append", default=[], help="Lig listesinde olmayan bir maçı da izle")
+    ap.add_argument("--loop", action="store_true", help="Sürekli çalış (laptop modu)")
+    ap.add_argument("--interval", type=int, default=60, help="Döngü aralığı, saniye (varsayılan 60)")
+    ap.add_argument("--pull", action="store_true", help="Her döngüde git pull (güncel fikstür için)")
+    ap.add_argument("--push", action="store_true", help="Canlı verileri repoya gönder (Claude repodan okur)")
+    ap.add_argument("--push-every", type=int, default=180, help="En sık kaç saniyede bir push (varsayılan 180)")
     a = ap.parse_args()
     ids = a.fotmob_id + [x for x in (os.getenv("LIVE_EXTRA_IDS") or "").replace(",", " ").split() if x]
-    print(json.dumps(run(extra_ids=ids), ensure_ascii=False))
+    if not a.loop:
+        print(json.dumps(run(extra_ids=ids), ensure_ascii=False))
+        return
+    last_pull = last_push = 0.0
+    print(f"Laptop modu: {a.interval} sn aralık. Durdurmak için Ctrl+C.", flush=True)
+    while True:
+        t0 = time.time()
+        try:
+            if a.pull and t0 - last_pull > 1800:  # fikstür günde bir değişir; 30 dk'da bir yeter
+                git_sync(push=False)
+                last_pull = t0
+            now = datetime.now(timezone.utc)
+            if ids or live_fixtures(now):
+                rep = run(now, extra_ids=ids)
+                print(now.strftime("%H:%M:%S"), json.dumps(rep, ensure_ascii=False), flush=True)
+                if a.push and time.time() - last_push >= a.push_every:
+                    git_sync(push=True)
+                    last_push = time.time()
+        except Exception as e:  # döngü hiçbir hatada ölmesin
+            print("hata:", type(e).__name__, e, flush=True)
+        time.sleep(max(5, a.interval - (time.time() - t0)))
 
 
 if __name__ == "__main__":

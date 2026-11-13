@@ -28,3 +28,14 @@ Repo canlı veriyi toplar ve uyarı atar. **Kararı Claude verir.** Bahsi kullan
   Bu yüzden PAS varsayılan karardır.
 - Canlı kararlar ayrı sayılır: 50 canlı karardan sonra sonuç negatifse canlı modül durur (`STOP_RULE.md` mantığı).
 - İlk 50 karar kâğıt üzerindedir.
+
+## Laptop modu (daha hızlı: ~1 dk, GitHub gecikmesi yok)
+Tırdaki Windows laptopta `live_watch.py` sürekli çalışır. Kurulum bir kere:
+1. Python 3 ve Git kur (ikisi de ücretsiz). `git clone https://github.com/nadogus/Football-ChatGPT-decision-` ile repoyu indir.
+   Push için Git'in GitHub'a giriş yapmış olması gerekir (ilk `git push`ta tarayıcı açılır).
+2. Slack uyarısı için bir kere `setx SLACK_WEBHOOK_URL "<webhook>"` (komut istemi), sonra pencereyi kapatıp aç.
+3. Repo klasöründeki `laptop_canli.bat` dosyasına çift tıkla. Pencere açık kalsın.
+4. GitHub'daki zamanlamayı kapat ki ikisi aynı dosyalara yazmasın: repo → Settings → Secrets and variables → Actions →
+   Variables → `LIVE_ACTIONS_OFF` = `true`. Laptop kapalıyken geri açmak için değişkeni sil.
+
+Maç yokken döngü hiçbir şey çekmez; sadece bekler. Veri her ~3 dakikada bir repoya gider, `canlı bak` o veriyi okur.
