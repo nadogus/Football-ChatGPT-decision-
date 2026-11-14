@@ -19,7 +19,7 @@ on:
         default: "false"
       geo:
         description: "Oran bölgesi (bahisçi listesi buna göre değişir): GB, TR, US, DE..."
-        default: "GB"
+        default: "US"
 
 permissions:
   contents: write
@@ -32,7 +32,7 @@ env:
   FLASHSCORE_API_BASE: http://127.0.0.1:8001
   # İncelenmiş, MIT lisanslı sürüme sabitlenmiştir (2026-11-04). Güncellemek için önce kodu inceleyin.
   FLASHSCORE_SCRAPER_SHA: af784a918fc94339fd2c8ff0fadc1da69a6139d8
-  ODDS_GEO: ${{ github.event.inputs.geo || 'GB' }}
+  ODDS_GEO: ${{ github.event.inputs.geo || 'US' }}
   SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
 jobs:
