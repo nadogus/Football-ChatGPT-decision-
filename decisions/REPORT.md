@@ -1,6 +1,6 @@
 # Karar defteri raporu
 
-Oluşturuldu: 2026-11-13 06:30 UTC
+Oluşturuldu: 2026-11-14 06:22 UTC
 
 | ölçüt | değer |
 |---|---|
