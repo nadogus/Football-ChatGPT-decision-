@@ -28,7 +28,8 @@ Son güncelleme: 10 Kasım 2026. Yeni bir sohbette kaldığımız yerden devam e
    (bahisçi listesi kullanıcıdan bekleniyor; `ODDS_GEO`).
 2. İlk hafta sonundan sonra ayar: kadro penceresi, yorum saati (30 dk → gerekirse 20 dk), günlük grup sınırı (8).
 3. Model satırı: ya düzgün ayarlanmış sürüm ya tamamen kaldırma.
-4. Aday eklemeler (yalnızca ihtiyaç görülürse): eksik oyuncunun önemi (dakika/piyasa değeri), maç takvimi/yorgunluk,
+4. 17 Kasım 2026: `player_impact.py` eklendi (kadro değişiminin ağırlığı: dakika yükü, xG/xA/şut/kilit pas, yerine girenle fark, kaleci tek satır). Gerçek FotMob verisiyle HENÜZ DENENMEDİ (geliştirme ortamından FotMob'a erişilemedi, testler sahte veriyle); ilk hafta sonunda `daily/<tarih>/xi/*.md` ve `gaps` içindeki `PLAYER_IMPACT_*` satırlarına bak. FotMob'un `teams` ve `matchDetails.content.playerStats` şeması farklıysa burası "VERİ YOK" der, akışı bozmaz.
+   Hâlâ aday: maç takvimi/yorgunluk,
    son 3–4 kadroyla karşılaştırma, kadro sonrası oran hareketi.
 5. Eski 14 dal silinemedi (oturum izni yok); kullanıcı GitHub'dan silebilir.
 6. Kapanış ölçütü Pinnacle değil ~20 bahisçinin ortası; pozitif CLV temkinli yorumlanmalı.
