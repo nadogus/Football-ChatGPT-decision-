@@ -158,3 +158,40 @@ def closing_line_value(price: float, closing_fair_probability: float | None) -> 
     if not closing_fair_probability or not price or price <= 1:
         return None
     return round(price * closing_fair_probability - 1, 4)
+
+
+def closing_odds_by_book(quotes: Iterable[Any], market: str, selection: str) -> dict[str, float]:
+    """{bookmaker (lower-case): closing decimal odds} for one engine selection (HOME, OVER_2.5, HOME_DNB, ...)."""
+    rows = quote_rows(quotes)
+    m, sel = canonical_market(market), str(selection or "").upper()
+    out: dict[str, float] = {}
+    if m == "1X2" and sel in ONE_X_TWO:
+        for b, o in _book_tables(rows, "1X2", "CURRENT").items():
+            if sel in o:
+                out[b.strip().lower()] = o[sel]
+    elif m == "TOTAL":
+        side, _, ln = sel.partition("_")
+        if side in ("OVER", "UNDER"):
+            for b, o in _book_tables(rows, "TOTAL", "CURRENT", ln).items():
+                if side in o:
+                    out[b.strip().lower()] = o[side]
+    elif m == "DNB":
+        for r in rows:
+            if r["market"] == "DNB" and r["phase"] == "CURRENT" and r["selection"] == sel:
+                out[r["bookmaker"].strip().lower()] = r["decimal_odds"]
+    return out
+
+
+def clv_same_book(price: float, bookmaker: str | None, closing_by_book: dict[str, float]) -> dict[str, Any]:
+    """CLV against the closing price of the SAME bookmaker the bet was taken at: price / closing_odds - 1.
+    Both sides carry the same margin, so a bettor with no timing skill expects ~0 (not minus the vig).
+    Also returns the best closing price across books for information (not used by the stop rule)."""
+    best = max(closing_by_book.values()) if closing_by_book else None
+    book = str(bookmaker or "").strip().lower()
+    same = closing_by_book.get(book)
+    ok = bool(price and price > 1 and same)
+    return {"clv": round(price / same - 1, 4) if ok else None,
+            "closing_odds_same_book": same,
+            "clv_vs_best_close": round(price / best - 1, 4) if price and price > 1 and best else None,
+            "closing_best_odds": best,
+            "clv_basis": "SAME_BOOK" if ok else ("BOOK_NOT_IN_CLOSING_QUOTES" if closing_by_book else "NO_CLOSING_QUOTES")}

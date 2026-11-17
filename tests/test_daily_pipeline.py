@@ -206,3 +206,20 @@ def test_scan_health_flags_short_source_list():
     assert any("şüpheli" in w for w in dp.scan_health("d", [], [], source_total=0)["warnings"])
     assert not dp.scan_health("d", [], [], source_total=400)["warnings"]
     assert dp.scan_health("d", [], [])["source_matches_total"] is None
+
+
+def test_clv_same_book_is_zero_for_no_skill_and_flags_missing_book():
+    from market_evidence import clv_same_book, closing_odds_by_book
+    q = [{"market": "1X2", "selection": s, "decimal_odds": o, "bookmaker": b, "phase": "CURRENT"}
+         for b, odds in (("Bet365", (2.10, 3.40, 3.60)), ("Other", (2.20, 3.30, 3.50))) for s, o in zip(("HOME", "DRAW", "AWAY"), odds)]
+    by = closing_odds_by_book(q, "1X2", "HOME")
+    assert by == {"bet365": 2.10, "other": 2.20}
+    r = clv_same_book(2.10, "bet365", by)          # took the closing price at the same book: no timing skill -> 0, not -vig
+    assert r["clv"] == 0 and r["clv_basis"] == "SAME_BOOK" and r["clv_vs_best_close"] < 0
+    assert clv_same_book(2.30, "Bet365", by)["clv"] == pytest.approx(0.0952, abs=1e-4)
+    miss = clv_same_book(2.30, "nobody", by)
+    assert miss["clv"] is None and miss["clv_basis"] == "BOOK_NOT_IN_CLOSING_QUOTES"
+    assert clv_same_book(2.3, "x", {})["clv_basis"] == "NO_CLOSING_QUOTES"
+    t = [{"market": "total", "selection": "OVER_2.5", "decimal_odds": 1.9, "bookmaker": "A", "phase": "CURRENT"},
+         {"market": "total", "selection": "UNDER_2.5", "decimal_odds": 1.95, "bookmaker": "A", "phase": "CURRENT"}]
+    assert closing_odds_by_book(t, "TOTAL", "OVER_2.5") == {"a": 1.9}
