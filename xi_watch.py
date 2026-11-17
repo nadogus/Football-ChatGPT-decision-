@@ -221,6 +221,13 @@ def render(rec: dict[str, Any]) -> str:
         mp = mps.get(side)
         L.append("- Eksikler: " + (", ".join(f"{r['player']} ({r.get('reason') or '?'}{', ' + r['likelihood'] if r.get('likelihood') else ''})" for r in mp) if mp
                                    else "listede yok (FotMob)" if side in mps else "VERİ YOK (kaynak boş döndü; 'eksik yok' anlamına gelmez)"))
+    pi = rec.get("player_impact")
+    if pi:
+        import player_impact as _pi
+        L.append("")
+        L.append("**Oyuncu etkisi** (kanıt; piyasa form verisini zaten fiyatlar, asıl bilgi değişenin ağırlığı):")
+        for side, team in (("home", m["home"]), ("away", m["away"])):
+            L.extend(_pi.render_side(team, pi.get(side)))
     mk = (rec.get("market") or {}).get("1x2")
     if mk:
         mv = rec.get("movement_since_scan_pp")
@@ -326,12 +333,23 @@ class Watcher:
             morning = ((json.loads(pk.read_text(encoding="utf-8")).get("market") or {}).get("summary") or {}).get("1x2")
             if morning:
                 mv = {s: round(100 * (mk["1x2"]["consensus_fair"][s] - morning["consensus_fair"][s]), 2) for s in ("HOME", "DRAW", "AWAY")}
+        chg = {s: changes(xi[s]["starters"], (prev.get(s) or {}).get("starters")) for s in ("home", "away")}
+        impact = None
+        if fm_details and os.getenv("PLAYER_IMPACT", "1") != "0":
+            try:
+                import player_impact
+                impact, ig = player_impact.build(fm.get, fm_details, kickoff, xi, chg, prev)
+                gaps.extend(ig)
+            except Exception as e:  # never let the optional layer break the XI flow
+                gaps.append(f"PLAYER_IMPACT_ERROR:{type(e).__name__}")
+        elif not fm_details:
+            gaps.append("PLAYER_IMPACT_NO_FOTMOB_DETAILS")
         live = xi["official"] and now < kickoff  # a past match is only ever a pipeline validation
         rec = {"event": "POST_XI_EVIDENCE" if live else "XI_VALIDATION_ONLY", "watch_version": WATCH_VERSION,
                "observed_at": now.isoformat(), "minutes_before_kickoff": (kickoff - now).total_seconds() / 60,
                "match": {k: fx.get(k) for k in ("match_id", "home", "away", "kickoff", "competition", "category")},
                "xi": xi, "validation": validation, "previous": prev,
-               "changes": {s: changes(xi[s]["starters"], (prev.get(s) or {}).get("starters")) for s in ("home", "away")},
+               "changes": chg, "player_impact": impact,
                "missing_players": missing, "market": mk, "movement_since_scan_pp": mv, "gaps": gaps,
                "decision_authority": "AI_REVIEWER_ONLY", "production_decision": None}
         (day_dir / "xi").mkdir(parents=True, exist_ok=True)

@@ -20,7 +20,7 @@ kullanılmaz: "Futbol Sistemi V1.2/V1.3" belgesi ve Excel kayıt defteri, S1, `F
 
 Çıktılar:
 - `daily/<tarih>/OZET.md` — günün okunabilir özeti; `packets/<id>.json` — maç başına paket
-- `daily/<tarih>/xi/<id>.md` — resmi kadro, önceki maça göre değişiklik, eksikler, güncel piyasa
+- `daily/<tarih>/xi/<id>.md` — resmi kadro, önceki maça göre değişiklik, eksikler, güncel piyasa, **oyuncu etkisi** (`player_impact.py`: çıkan/giren oyuncunun son 5/10 maç dakika yükü, 90 dk başına xG/xA/şut/kilit pas, takım hücumundaki payı; FotMob maç detayından; veri yoksa "VERİ YOK"; `PLAYER_IMPACT=0` ile kapanır)
 - `daily/<tarih>/health.json` — kaynak sağlığı (bir kaynak maçların yarısından azında veri verdiyse uyarı)
 - `daily/<tarih>/closing.json` — skorlar ve kapanış fiyatları
 - `decisions/decisions.jsonl`, `settlements.jsonl`, `REPORT.md`, `STATUS.json` — karar defteri ve performans
