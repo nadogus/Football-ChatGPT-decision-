@@ -61,9 +61,15 @@ jobs:
           D="${{ github.event.inputs.date }}"
           if [ -n "$D" ]; then Y=$(date -u -d "$D -1 day" +%F); else Y=$(date -u -d "yesterday" +%F); fi
           python daily_pipeline.py settle --date "$Y"
+      - name: Açık kalan kararları yeniden kapat + rapor
+        # Dünü kapatma başarısız olsa da çalışır; açıkta kalan (maç bitmemişti / kaynak hata vermişti) son 7 günün kararlarını tekrar dener
+        if: ${{ !cancelled() && (github.event.inputs.mode || 'both') != 'scan' }}
+        run: |
+          python daily_pipeline.py settle-pending
           python daily_pipeline.py report
       - name: Bugünü tara
-        if: (github.event.inputs.mode || 'both') != 'settle'
+        # Kapatma adımı çökse bile bugünün taraması atlanmasın (iş yine kırmızı biter ve arıza bildirimi gider)
+        if: ${{ !cancelled() && (github.event.inputs.mode || 'both') != 'settle' }}
         run: |
           D="${{ github.event.inputs.date }}"; [ -z "$D" ] && D=$(date -u +%F)
           L="${{ github.event.inputs.limit }}"

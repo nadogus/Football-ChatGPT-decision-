@@ -34,6 +34,9 @@ Son güncelleme: 10 Kasım 2026. Yeni bir sohbette kaldığımız yerden devam e
 5. Eski 14 dal silinemedi (oturum izni yok); kullanıcı GitHub'dan silebilir.
 6. Kapanış ölçütü Pinnacle değil ~20 bahisçinin ortası; pozitif CLV temkinli yorumlanmalı.
 
+## Denetim (17 Kasım 2026)
+Ayrıntı `DENETIM.md`. Kritik bekleyen karar: durdurma kuralının CLV ölçütü (marjlı oran vs marjsız olasılık) — sayaç 0 iken değiştir.
+
 ## İlkeler (unutma)
 - Yeni motor/katman/kaynak ekleme eğilimine diren; önce 50 kararı biriktir.
 - Piyasanın zaten fiyatladığı veri (form, H2H, genel istatistik) gürültüdür; değer geç gelen bilgide olabilir.
