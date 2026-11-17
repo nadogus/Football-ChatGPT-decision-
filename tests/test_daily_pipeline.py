@@ -143,3 +143,66 @@ def test_scan_health_flags_broken_source():
     h = dp.scan_health("d", [1, 2, 3, 4], [mk(False), mk(False), mk(False), mk(True)])
     assert any("sakatlık" in w for w in h["warnings"]) and len(h["warnings"]) == 1
     assert not dp.scan_health("d", [1, 2], [mk(True), mk(True)])["warnings"]
+
+
+def _rec_args(**k):
+    return type("A", (), {**dict(match_id="m1", decision="PLAY", market="1X2", selection="HOME", price=2.0,
+                                 bookmaker="x", stake=1.0, decided_by="t", note=""), **k})()
+
+
+def _one_fixture(tmp_path, monkeypatch, day="2026-11-11"):
+    monkeypatch.setattr(dp, "ROOT", tmp_path)
+    d = tmp_path / "daily" / day; d.mkdir(parents=True)
+    (d / "fixtures.json").write_text(json.dumps([{"match_id": "m1", "home": "A", "away": "B", "kickoff": KICK.isoformat()}]))
+
+
+@pytest.mark.parametrize("kw", [dict(market="TOTAL", selection="HOME"), dict(selection="OVER_2.5"), dict(market="FOO", selection="BAR"),
+                                dict(selection=""), dict(price=0.9), dict(price=1.0), dict(decision="WATCH", selection="")])
+def test_record_refuses_ungradable_or_invalid(tmp_path, monkeypatch, kw):
+    _one_fixture(tmp_path, monkeypatch)
+    with pytest.raises(SystemExit):
+        dp.cmd_record(_rec_args(**kw))
+    assert not (tmp_path / "decisions/decisions.jsonl").exists()
+
+
+def test_record_accepts_valid_markets_and_refuses_duplicate_id(tmp_path, monkeypatch):
+    _one_fixture(tmp_path, monkeypatch)
+    dp.cmd_record(_rec_args(market="TOTAL", selection="OVER_2.5"))
+    dp.cmd_record(_rec_args(market="DNB", selection="HOME_DNB"))
+    dp.cmd_record(_rec_args(market="moneyline", selection="draw"))
+    dp.cmd_record(_rec_args(decision="PASS", selection="", price=None))
+    now = datetime.now(timezone.utc)
+    monkeypatch.setattr(dp, "datetime", type("D", (datetime,), {"now": classmethod(lambda c, tz=None: now), "fromisoformat": datetime.fromisoformat}))
+    dp.cmd_record(_rec_args(selection="AWAY"))
+    with pytest.raises(SystemExit):
+        dp.cmd_record(_rec_args(selection="AWAY"))  # same match/stage/selection in the same second
+
+
+def test_settle_survives_one_ungradable_old_record(tmp_path, monkeypatch):
+    _one_fixture(tmp_path, monkeypatch)
+    for i, (m, s) in enumerate([("FOO", "BAR"), ("1X2", "HOME")]):  # legacy bad record first
+        dp.append_jsonl(tmp_path / "decisions/decisions.jsonl", {"decision_id": f"d{i}", "match_id": "m1", "decision": "PLAY",
+                        "market": m, "selection": s, "price": 2.0, "stake": 1.0})
+    monkeypatch.setattr(dp, "FlashscoreClient", lambda: FakeFS("finished", (2, 1)))
+    monkeypatch.setattr(dp.time, "sleep", lambda s: None)
+    dp.cmd_settle("2026-11-11")
+    s = {x["decision_id"]: x for x in map(json.loads, (tmp_path / "decisions/settlements.jsonl").read_text().splitlines())}
+    assert s["d0"]["result"] == "UNGRADABLE" and s["d0"]["pnl_units"] == 0 and s["d0"]["clv"] is None
+    assert s["d1"]["result"] == "WIN"
+
+
+def test_pending_settle_days(tmp_path, monkeypatch):
+    monkeypatch.setattr(dp, "ROOT", tmp_path)
+    for day in ("2026-11-10", "2026-11-12", "2026-11-17", "2026-10-01"):
+        d = tmp_path / "daily" / day; d.mkdir(parents=True); (d / "fixtures.json").write_text("[]")
+    mk = lambda i, day: dp.append_jsonl(tmp_path / "decisions/decisions.jsonl", {"decision_id": i, "kickoff": f"{day}T15:00:00Z", "match_id": "m"})
+    mk("a", "2026-11-10"); mk("b", "2026-11-12"); mk("c", "2026-11-17"); mk("old", "2026-10-01")
+    dp.append_jsonl(tmp_path / "decisions/settlements.jsonl", {"decision_id": "b"})
+    from datetime import date
+    assert dp.pending_settle_days(date(2026, 11, 17)) == ["2026-11-10"]  # b settled, c is today, old is too old
+
+
+def test_scan_health_flags_short_source_list():
+    assert any("şüpheli" in w for w in dp.scan_health("d", [], [], source_total=0)["warnings"])
+    assert not dp.scan_health("d", [], [], source_total=400)["warnings"]
+    assert dp.scan_health("d", [], [])["source_matches_total"] is None

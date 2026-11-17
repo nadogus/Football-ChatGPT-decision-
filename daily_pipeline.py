@@ -25,7 +25,7 @@ from typing import Any
 from build_match_packet import build_runtime_packet
 from data_adapters import FlashscoreClient, normalize_decimal_quotes
 from football_evidence_engine import ImmutableLedger, elo_1x2, scoreline_markets
-from market_evidence import closing_line_value, market_fair_probability, market_summary
+from market_evidence import canonical_market, closing_line_value, market_fair_probability, market_summary
 from public_sources import FlashscoreModelClient
 from fotmob_source import FotMobClient, absences as fotmob_absences
 
@@ -123,6 +123,7 @@ class Scanner:
         if not r.ok:
             raise RuntimeError(f"FLASHSCORE_MATCH_LIST_FAILED: {r.error}")
         out = []
+        self.last_list_total = sum(len(g.get("matches") or []) for g in (r.data or {}).get("competitions") or [])
         for group in (r.data or {}).get("competitions") or []:
             comp = group.get("competition") or {}
             lg = league_match(comp, leagues)
@@ -333,27 +334,32 @@ def cmd_scan(day: str, limit: int | None = None, include_finished: bool = False)
             "Bu dosya yalnızca kanıttır; karar içermez. Marjsız olasılıklar bahisçi başına power yöntemiyle hesaplanıp medyanı alınmıştır. "
             "Model satırları kabadır ve piyasaya karşı doğrulanmamıştır. Eksik veri uydurulmaz, 'Eksik veri' satırında listelenir.", ""]
     (out / "OZET.md").write_text("\n".join(head + ["\n\n".join(rendered) or "_Bu tarihte hedef liglerde maç yok._"]) + "\n", encoding="utf-8")
-    health = scan_health(day, fxs, packets)
+    health = scan_health(day, fxs, packets, getattr(sc, "last_list_total", None))
     (out / "health.json").write_text(json.dumps(health, ensure_ascii=False, indent=1), encoding="utf-8")
     if health["warnings"]:
         print("HEALTH WARNINGS:", "; ".join(health["warnings"]))
     print(f"OK {len(fxs)} matches -> {out / 'OZET.md'}")
 
 
-def scan_health(day: str, fxs: list, packets: list) -> dict[str, Any]:
+SOURCE_LIST_MIN = 20  # a normal day has hundreds of football matches worldwide; far fewer means the source list is broken
+
+
+def scan_health(day: str, fxs: list, packets: list, source_total: int | None = None) -> dict[str, Any]:
     """Source health of one scan. A source that is empty for most matches is a broken source,
     not a quiet day; the reviewer task relays these warnings to Slack."""
     n = len(fxs)
     present = {k: sum(1 for p in packets if (p.get("context") or {}).get("data_present", {}).get(k))
                for k in ("odds", "opening_odds", "absences", "xg", "elo", "weather")}
     warnings = []
+    if source_total is not None and source_total < SOURCE_LIST_MIN:
+        warnings.append(f"Flashscore maç listesi şüpheli derecede kısa ({source_total} maç): 'hedef ligde maç yok' değil, kaynak sorunu olabilir")
     if n and len(packets) < n:
         warnings.append(f"{n - len(packets)}/{n} maçta paket üretilemedi")
     for k, label in (("odds", "oran"), ("absences", "sakatlık/ceza"), ("xg", "xG"), ("elo", "Elo"), ("weather", "hava durumu")):
         if n >= 2 and present[k] < 0.5 * n:
             warnings.append(f"{label} kaynağı {n} maçın yalnızca {present[k]}'inde veri verdi")
     return {"date": day, "generated_at": datetime.now(timezone.utc).isoformat(), "fixtures": n,
-            "packets": len(packets), "present": present, "warnings": warnings}
+            "packets": len(packets), "source_matches_total": source_total, "present": present, "warnings": warnings}
 
 
 # ---------------------------------------------------------------- settle + CLV
@@ -425,10 +431,14 @@ def cmd_settle(day: str):
         if not d.get("selection"):  # PASS (or WATCH) recorded without a selection: nothing to grade
             res = "NO_SELECTION"
         else:
-            res, _ = outcome(d["market"], d["selection"], int(c["home_score"]), int(c["away_score"]))
+            try:
+                res, _ = outcome(d["market"], d["selection"], int(c["home_score"]), int(c["away_score"]))
+            except Exception as e:  # one malformed old record must not block every later settlement
+                print(f"WARNING: cannot grade {d['decision_id']}: {type(e).__name__}: {e}")
+                res = "UNGRADABLE"
         stake = float(d.get("stake") or 1.0)
-        pnl = 0.0 if d["decision"] != "PLAY" else (stake * (d["price"] - 1) if res == "WIN" else 0.0 if res == "PUSH" else -stake)
-        cfp = market_fair_probability(c.get("closing_summary") or {}, d["selection"]) if c.get("closing_ok") and d.get("selection") else None
+        pnl = 0.0 if d["decision"] != "PLAY" or res in ("NO_SELECTION", "UNGRADABLE") else (stake * (d["price"] - 1) if res == "WIN" else 0.0 if res == "PUSH" else -stake)
+        cfp = market_fair_probability(c.get("closing_summary") or {}, d["selection"]) if c.get("closing_ok") and d.get("selection") and res != "UNGRADABLE" else None
         append_jsonl(ROOT / "decisions" / "settlements.jsonl", {
             "decision_id": d["decision_id"], "match_id": d["match_id"], "decision": d["decision"],
             "market": d["market"], "selection": d["selection"], "price": d["price"], "stake": stake,
@@ -438,6 +448,46 @@ def cmd_settle(day: str):
         n += 1
     print(f"settled {day}: {sum(1 for c in closing.values() if c.get('status') == 'finished')} finished, "
           f"{sum(1 for c in closing.values() if c.get('closing_ok'))} with closing prices, {n} decisions settled")
+
+
+TOTAL_SEL = re.compile(r"^(OVER|UNDER)_\d+(\.\d+)?$")
+
+
+def validate_selection(market: str, selection: str) -> str | None:
+    """None if (market, selection) can be graded by outcome(); otherwise the reason. Keeps one bad record from
+    crashing every later settle run."""
+    m = canonical_market(market)
+    if m == "1X2":
+        return None if selection in ("HOME", "DRAW", "AWAY") else "1X2 selection must be HOME, DRAW or AWAY"
+    if m == "TOTAL":
+        return None if TOTAL_SEL.match(selection) else "TOTAL selection must look like OVER_2.5 / UNDER_2.5"
+    if m == "DNB":
+        return None if selection in ("HOME_DNB", "AWAY_DNB") else "DNB selection must be HOME_DNB or AWAY_DNB"
+    return f"unsupported market {market!r} (use 1X2, TOTAL or DNB)"
+
+
+def pending_settle_days(today: date, max_age_days: int = 7) -> list[str]:
+    """Days (kickoff date) that have recorded decisions without a settlement, recent enough to retry."""
+    done = {s["decision_id"] for s in read_jsonl(ROOT / "decisions" / "settlements.jsonl")}
+    days = set()
+    for d in read_jsonl(ROOT / "decisions" / "decisions.jsonl"):
+        if d["decision_id"] in done:
+            continue
+        day = str(d.get("kickoff") or "")[:10]
+        try:
+            age = (today - date.fromisoformat(day)).days
+        except ValueError:
+            continue
+        if 1 <= age <= max_age_days and (ROOT / "daily" / day / "fixtures.json").exists():
+            days.add(day)
+    return sorted(days)
+
+
+def cmd_settle_pending():
+    """Retry settlement for older days whose decisions are still open (match was unfinished or the source failed)."""
+    for day in pending_settle_days(datetime.now(timezone.utc).date()):
+        print(f"retry settle {day}")
+        cmd_settle(day)
 
 
 def cmd_record(a):
@@ -452,6 +502,14 @@ def cmd_record(a):
         raise SystemExit(f"REFUSED: kickoff {kickoff.isoformat()} has passed — decisions must be recorded before kickoff")
     if a.decision == "PLAY" and not a.price:
         raise SystemExit("PLAY needs --price")
+    if a.decision == "PLAY" and not a.price > 1.0:
+        raise SystemExit(f"REFUSED: decimal price must be > 1.0 (got {a.price})")
+    if a.decision in ("PLAY", "WATCH") and not a.selection:
+        raise SystemExit(f"REFUSED: {a.decision} needs --selection")
+    if a.selection:
+        bad = validate_selection(a.market, a.selection.upper())
+        if bad:
+            raise SystemExit(f"REFUSED: {bad}")
     if a.decision == "PLAY" and stop_status()["stop"]:
         raise SystemExit("REFUSED: stop rule triggered (STOP_RULE.md) — mean CLV is negative after 50 PLAY decisions")
     rec = {"decision_id": f"{a.match_id}-{now:%Y%m%dT%H%M%S}-{a.decision}-{(a.selection or 'NA').upper()}", "match_id": a.match_id,
@@ -459,6 +517,8 @@ def cmd_record(a):
            "market": a.market, "selection": a.selection.upper(), "price": a.price, "bookmaker": a.bookmaker,
            "stake": a.stake, "decided_by": a.decided_by, "note": a.note, "recorded_at": now.isoformat(),
            "minutes_before_kickoff": round((kickoff - now).total_seconds() / 60, 1)}
+    if any(d["decision_id"] == rec["decision_id"] for d in read_jsonl(ROOT / "decisions" / "decisions.jsonl")):
+        raise SystemExit(f"REFUSED: duplicate decision_id {rec['decision_id']} (same match/stage/selection in the same second)")
     append_jsonl(ROOT / "decisions" / "decisions.jsonl", rec)
     print(json.dumps(rec, ensure_ascii=False))
 
@@ -516,6 +576,7 @@ def main():
     r.add_argument("--market", default="1X2"); r.add_argument("--selection", default="")
     r.add_argument("--price", type=float); r.add_argument("--bookmaker"); r.add_argument("--stake", type=float, default=1.0)
     r.add_argument("--decided-by", default="ChatGPT"); r.add_argument("--note", default="")
+    sub.add_parser("settle-pending")
     sub.add_parser("report")
     a = ap.parse_args()
     if a.cmd == "scan":
@@ -524,6 +585,8 @@ def main():
         cmd_settle(a.date)
     elif a.cmd == "record":
         cmd_record(a)
+    elif a.cmd == "settle-pending":
+        cmd_settle_pending()
     else:
         cmd_report()
 
