@@ -223,3 +223,29 @@ def test_clv_same_book_is_zero_for_no_skill_and_flags_missing_book():
     t = [{"market": "total", "selection": "OVER_2.5", "decimal_odds": 1.9, "bookmaker": "A", "phase": "CURRENT"},
          {"market": "total", "selection": "UNDER_2.5", "decimal_odds": 1.95, "bookmaker": "A", "phase": "CURRENT"}]
     assert closing_odds_by_book(t, "TOTAL", "OVER_2.5") == {"a": 1.9}
+
+
+def _evidence(tmp_path, mid="m1", day="2026-11-11", home=2.30, over=1.95):
+    d = tmp_path / "daily" / day
+    (d / "packets").mkdir(parents=True, exist_ok=True); (d / "xi").mkdir(parents=True, exist_ok=True)
+    bp = lambda o, b: {"odds": o, "bookmaker": b}
+    (d / "packets" / f"{mid}.json").write_text(json.dumps({"market": {"summary": {
+        "1x2": {"best_price": {"HOME": bp(2.25, "Coral"), "DRAW": bp(3.4, "bet365"), "AWAY": bp(3.6, "Skybet")}},
+        "totals": {"2.5": {"best_price": {"OVER": bp(over, "Unibetuk"), "UNDER": bp(1.9, "10bet")}}}}}}))
+    (d / "xi" / f"{mid}.json").write_text(json.dumps({"market": {"1x2": {"best_price": {"HOME": bp(home, "Midnite")}}}}))
+
+
+def test_record_infers_bookmaker_from_price(tmp_path, monkeypatch):
+    _one_fixture(tmp_path, monkeypatch)
+    _evidence(tmp_path)
+    got = lambda: [json.loads(l) for l in (tmp_path / "decisions/decisions.jsonl").read_text().splitlines()][-1]
+    dp.cmd_record(_rec_args(selection="HOME", price=2.30, bookmaker=None))    # matches the XI-time best price
+    assert got()["bookmaker"] == "Midnite" and got()["bookmaker_source"] == "INFERRED_FROM_EVIDENCE_BEST_PRICE"
+    dp.cmd_record(_rec_args(selection="DRAW", price=3.4, bookmaker=None))     # morning packet
+    assert got()["bookmaker"] == "bet365"
+    dp.cmd_record(_rec_args(market="TOTAL", selection="OVER_2.5", price=1.95, bookmaker=None))
+    assert got()["bookmaker"] == "Unibetuk"
+    dp.cmd_record(_rec_args(selection="AWAY", price=3.5, bookmaker=None))     # price not in any file -> no guess
+    assert got()["bookmaker"] is None and got()["bookmaker_source"] == "UNKNOWN_NO_CLV"
+    dp.cmd_record(_rec_args(market="TOTAL", selection="UNDER_2.5", price=1.9, bookmaker="Given"))
+    assert got()["bookmaker"] == "Given" and got()["bookmaker_source"] == "GIVEN"
