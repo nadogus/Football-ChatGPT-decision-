@@ -25,7 +25,8 @@ from typing import Any
 from build_match_packet import build_runtime_packet
 from data_adapters import FlashscoreClient, normalize_decimal_quotes
 from football_evidence_engine import ImmutableLedger, elo_1x2, scoreline_markets
-from market_evidence import canonical_market, closing_line_value, market_fair_probability, market_summary
+from market_evidence import (canonical_market, clv_same_book, closing_line_value, closing_odds_by_book,
+                             market_fair_probability, market_summary)
 from public_sources import FlashscoreModelClient
 from fotmob_source import FotMobClient, absences as fotmob_absences
 
@@ -405,6 +406,7 @@ def cmd_settle(day: str):
         raise RuntimeError(f"FLASHSCORE_MATCH_LIST_FAILED: {r.error}")
     rows = {str(m.get("id")): m for g in (r.data or {}).get("competitions") or [] for m in g.get("matches") or []}
     closing = {}
+    closing_quotes: dict[str, list] = {}
     for mid, fx in fxs.items():
         m = rows.get(mid) or {}
         rec = {"match_id": mid, "home": fx["home"], "away": fx["away"], "status": m.get("status"),
@@ -413,6 +415,7 @@ def cmd_settle(day: str):
             o = fs.odds(mid, geo=ODDS_GEO); time.sleep(0.3)
             q = normalize_decimal_quotes(o.data, "flashscore") if o.ok else []
             s = market_summary(q)
+            closing_quotes[mid] = q
             rec.update({"closing_basis": "flashscore post-match last pre-kickoff price", "closing_summary": s,
                         "closing_ok": bool(s.get("1x2"))})
         else:
@@ -439,11 +442,15 @@ def cmd_settle(day: str):
         stake = float(d.get("stake") or 1.0)
         pnl = 0.0 if d["decision"] != "PLAY" or res in ("NO_SELECTION", "UNGRADABLE") else (stake * (d["price"] - 1) if res == "WIN" else 0.0 if res == "PUSH" else -stake)
         cfp = market_fair_probability(c.get("closing_summary") or {}, d["selection"]) if c.get("closing_ok") and d.get("selection") and res != "UNGRADABLE" else None
+        cv = {"clv": None, "clv_basis": "NOT_APPLICABLE"}
+        if d.get("selection") and res != "UNGRADABLE" and c.get("closing_ok"):
+            cv = clv_same_book(d["price"], d.get("bookmaker"), closing_odds_by_book(closing_quotes.get(d["match_id"], []), d["market"], d["selection"]))
         append_jsonl(ROOT / "decisions" / "settlements.jsonl", {
             "decision_id": d["decision_id"], "match_id": d["match_id"], "decision": d["decision"],
             "market": d["market"], "selection": d["selection"], "price": d["price"], "stake": stake,
             "score": f"{c['home_score']}-{c['away_score']}", "result": res, "pnl_units": round(pnl, 4),
-            "closing_fair_probability": cfp, "clv": closing_line_value(d["price"], cfp),
+            "closing_fair_probability": cfp, "clv_vs_fair": closing_line_value(d["price"], cfp),
+            "bookmaker": d.get("bookmaker"), **cv,
             "settled_at": datetime.now(timezone.utc).isoformat()})
         n += 1
     print(f"settled {day}: {sum(1 for c in closing.values() if c.get('status') == 'finished')} finished, "
@@ -552,7 +559,10 @@ def cmd_report():
          f"| ortalama CLV | {(100 * sum(clv) / len(clv)) if clv else float('nan'):+.2f}% ({len(clv)} bahiste kapanış var) |",
          f"| kapanışı yenen bahis | {sum(c > 0 for c in clv)}/{len(clv)} |",
          f"| en büyük düşüş (birim) | {dd:.2f} |", "",
-         "CLV = alınan oran × kapanıştaki marjsız olasılık − 1. 50 PLAY'den önce ROI şanstan ayırt edilemez; CLV daha erken bilgi verir."]
+         f"| bilgi: kapanıştaki en iyi orana göre CLV | {(100 * sum(b) / len(b)) if (b := [s['clv_vs_best_close'] for s in plays if s.get('clv_vs_best_close') is not None]) else float('nan'):+.2f}% ({len(b)} bahis) |",
+         f"| bilgi: marjsız olasılığa göre eski CLV | {(100 * sum(f) / len(f)) if (f := [s['clv_vs_fair'] for s in plays if s.get('clv_vs_fair') is not None]) else float('nan'):+.2f}% (marj kadar negatif çıkar; kural bunu KULLANMAZ) |", "",
+         "CLV (kuralın ölçütü) = alınan oran ÷ aynı bahisçinin kapanış oranı − 1. İki oran da aynı marjı taşır; zamanlama becerisi yoksa beklenen değer ≈ 0. "
+         "50 PLAY'den önce ROI şanstan ayırt edilemez; CLV daha erken bilgi verir."]
     st = stop_status()
     L += ["", "## Durdurma kuralı (STOP_RULE.md)", "",
           f"Kapanış fiyatı olan PLAY: {st['plays_with_closing']}/{st['required']} · ortalama CLV: "

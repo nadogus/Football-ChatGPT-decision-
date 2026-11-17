@@ -35,7 +35,7 @@ Son güncelleme: 10 Kasım 2026. Yeni bir sohbette kaldığımız yerden devam e
 6. Kapanış ölçütü Pinnacle değil ~20 bahisçinin ortası; pozitif CLV temkinli yorumlanmalı.
 
 ## Denetim (17 Kasım 2026)
-Ayrıntı `DENETIM.md`. Kritik bekleyen karar: durdurma kuralının CLV ölçütü (marjlı oran vs marjsız olasılık) — sayaç 0 iken değiştir.
+Ayrıntı `DENETIM.md`. Durdurma kuralının CLV ölçütü düzeltildi (aynı bahisçinin kapanışına karşı; ayrıntı `STOP_RULE.md` değişiklik kaydı). Hâlâ açık: GB oran bölgesi, maç başına bir PLAY sayımı, aykırı en iyi oran, tedarik zinciri.
 
 ## İlkeler (unutma)
 - Yeni motor/katman/kaynak ekleme eğilimine diren; önce 50 kararı biriktir.
