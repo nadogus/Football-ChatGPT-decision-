@@ -1,6 +1,6 @@
 # Karar defteri raporu
 
-Oluşturuldu: 2026-11-17 06:33 UTC
+Oluşturuldu: 2026-11-18 06:35 UTC
 
 | ölçüt | değer |
 |---|---|
@@ -12,7 +12,10 @@ Oluşturuldu: 2026-11-17 06:33 UTC
 | kapanışı yenen bahis | 0/0 |
 | en büyük düşüş (birim) | 0.00 |
 
-CLV = alınan oran × kapanıştaki marjsız olasılık − 1. 50 PLAY'den önce ROI şanstan ayırt edilemez; CLV daha erken bilgi verir.
+| bilgi: kapanıştaki en iyi orana göre CLV | +nan% (0 bahis) |
+| bilgi: marjsız olasılığa göre eski CLV | +nan% (marj kadar negatif çıkar; kural bunu KULLANMAZ) |
+
+CLV (kuralın ölçütü) = alınan oran ÷ aynı bahisçinin kapanış oranı − 1. İki oran da aynı marjı taşır; zamanlama becerisi yoksa beklenen değer ≈ 0. 50 PLAY'den önce ROI şanstan ayırt edilemez; CLV daha erken bilgi verir.
 
 ## Durdurma kuralı (STOP_RULE.md)
 
