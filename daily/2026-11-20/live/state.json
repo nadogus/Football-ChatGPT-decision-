@@ -4,10 +4,19 @@
   "MDtWCis2": "5811811",
   "pOTao8Y2": "5802999"
  },
- "alerts": {},
+ "alerts": {
+  "5811811": [
+   "acik_mac"
+  ]
+ },
  "errors": [
   {
    "t": "2026-11-20T20:19:33.131493+00:00",
+   "match": "G6MoOrne",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-20T21:12:49.574219+00:00",
    "match": "G6MoOrne",
    "reason": "LOW_MATCH_SCORE"
   }
