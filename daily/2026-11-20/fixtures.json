@@ -1,0 +1,50 @@
+[
+ {
+  "match_id": "zZPQYkxo",
+  "home": "Bayern Munich",
+  "away": "FC Koln",
+  "home_team_id": "nVp0wiqd",
+  "away_team_id": "WG9pOTse",
+  "kickoff": "2026-11-20T19:30:00Z",
+  "status": "scheduled",
+  "competition": "Bundesliga",
+  "category": "Germany",
+  "link": "https://www.flashscore.com/match/zZPQYkxo/"
+ },
+ {
+  "match_id": "MDtWCis2",
+  "home": "Cercle Brugge KSV",
+  "away": "Westerlo",
+  "home_team_id": "IXnm9vwh",
+  "away_team_id": "hYaM5Gqp",
+  "kickoff": "2026-11-20T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Jupiler Pro League",
+  "category": "Belgium",
+  "link": "https://www.flashscore.com/match/MDtWCis2/"
+ },
+ {
+  "match_id": "pOTao8Y2",
+  "home": "Troyes",
+  "away": "Le Havre",
+  "home_team_id": "fsfAHubD",
+  "away_team_id": "CIEe04GT",
+  "kickoff": "2026-11-20T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Ligue 1",
+  "category": "France",
+  "link": "https://www.flashscore.com/match/pOTao8Y2/"
+ },
+ {
+  "match_id": "G6MoOrne",
+  "home": "Ath Bilbao",
+  "away": "Espanyol",
+  "home_team_id": "IP5zl0cJ",
+  "away_team_id": "QFfPdh1J",
+  "kickoff": "2026-11-20T20:00:00Z",
+  "status": "scheduled",
+  "competition": "LaLiga",
+  "category": "Spain",
+  "link": "https://www.flashscore.com/match/G6MoOrne/"
+ }
+]
