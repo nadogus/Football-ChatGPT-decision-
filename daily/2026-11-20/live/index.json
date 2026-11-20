@@ -1,0 +1,41 @@
+{
+ "5881226": {
+  "flashscore_id": "zZPQYkxo",
+  "competition": "Bundesliga",
+  "home": "Bayern München",
+  "away": "1. FC Köln",
+  "score": [
+   1,
+   1
+  ],
+  "minute": "50‎’‎",
+  "finished": false,
+  "updated": "2026-11-20T20:19:33Z"
+ },
+ "5811811": {
+  "flashscore_id": "MDtWCis2",
+  "competition": "Jupiler Pro League",
+  "home": "Cercle Brugge",
+  "away": "Westerlo",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "34‎’‎",
+  "finished": false,
+  "updated": "2026-11-20T20:19:33Z"
+ },
+ "5802999": {
+  "flashscore_id": "pOTao8Y2",
+  "competition": "Ligue 1",
+  "home": "Troyes",
+  "away": "Le Havre",
+  "score": [
+   1,
+   1
+  ],
+  "minute": "35‎’‎",
+  "finished": false,
+  "updated": "2026-11-20T20:19:33Z"
+ }
+}
