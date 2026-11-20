@@ -51,7 +51,7 @@ Test edilip çıkarılanlar: Transfermarkt (GitHub'dan 403), Pinnacle (kullanım
 ```bash
 python daily_pipeline.py scan   --date 2026-11-22
 python daily_pipeline.py settle --date 2026-11-21
-python daily_pipeline.py record --match-id <id> --decision PLAY --market 1X2 --selection HOME --price 2.10 --bookmaker bet365
+python daily_pipeline.py record --match-id <id> --decision PLAY --market 1X2 --selection HOME --price 2.10   # --bookmaker isteğe bağlı: verilmezse, fiyatın tam eşleştiği en iyi oran satırından otomatik bulunur
 python daily_pipeline.py report
 python xi_watch.py
 pytest -q
