@@ -461,11 +461,11 @@
   "away": "Club Brugge",
   "score": [
    0,
-   0
+   2
   ],
-  "minute": "6‎’‎",
+  "minute": "43‎’‎",
   "finished": false,
-  "updated": "2026-11-21T19:51:40Z"
+  "updated": "2026-11-21T20:28:44Z"
  },
  "5811817": {
   "flashscore_id": "QTL3Rjde",
@@ -474,11 +474,11 @@
   "away": "Royal Antwerp",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "6‎’‎",
+  "minute": "43‎’‎",
   "finished": false,
-  "updated": "2026-11-21T19:51:40Z"
+  "updated": "2026-11-21T20:28:44Z"
  },
  "5802991": {
   "flashscore_id": "2R2cY0wH",
@@ -487,11 +487,11 @@
   "away": "Toulouse",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "7‎’‎",
+  "minute": "44‎’‎",
   "finished": false,
-  "updated": "2026-11-21T19:51:40Z"
+  "updated": "2026-11-21T20:28:44Z"
  },
  "5802992": {
   "flashscore_id": "zgG4Wv8T",
@@ -500,11 +500,11 @@
   "away": "Lyon",
   "score": [
    0,
-   0
+   2
   ],
-  "minute": "7‎’‎",
+  "minute": "44‎’‎",
   "finished": false,
-  "updated": "2026-11-21T19:51:40Z"
+  "updated": "2026-11-21T20:28:44Z"
  },
  "5802995": {
   "flashscore_id": "6ecUn0hA",
@@ -513,11 +513,11 @@
   "away": "Auxerre",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "7‎’‎",
+  "minute": "44‎’‎",
   "finished": false,
-  "updated": "2026-11-21T19:51:40Z"
+  "updated": "2026-11-21T20:28:44Z"
  },
  "5802998": {
   "flashscore_id": "GlkGwdFd",
@@ -526,11 +526,11 @@
   "away": "Brest",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "7‎’‎",
+  "minute": "44‎’‎",
   "finished": false,
-  "updated": "2026-11-21T19:51:40Z"
+  "updated": "2026-11-21T20:28:44Z"
  },
  "5749757": {
   "flashscore_id": "AwXJXxrT",
@@ -541,8 +541,47 @@
    0,
    0
   ],
-  "minute": "7‎’‎",
+  "minute": "44‎’‎",
   "finished": false,
-  "updated": "2026-11-21T19:51:40Z"
+  "updated": "2026-11-21T20:28:44Z"
+ },
+ "5781808": {
+  "flashscore_id": "SCOvGMSq",
+  "competition": "Eredivisie",
+  "home": "FC Groningen",
+  "away": "SC Heerenveen",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "28‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T20:28:44Z"
+ },
+ "5781807": {
+  "flashscore_id": "xbCDlsZ8",
+  "competition": "Eredivisie",
+  "home": "Telstar",
+  "away": "PEC Zwolle",
+  "score": [
+   1,
+   1
+  ],
+  "minute": "27‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T20:28:44Z"
+ },
+ "5868139": {
+  "flashscore_id": "QweLd3hK",
+  "competition": "LaLiga",
+  "home": "Real Madrid",
+  "away": "Celta Vigo",
+  "score": [
+   0,
+   1
+  ],
+  "minute": "21‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T20:28:44Z"
  }
 }
