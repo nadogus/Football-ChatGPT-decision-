@@ -181,12 +181,19 @@
  },
  "CxCKSaCk": {
   "checks": 1,
-  "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-21T14:57:43.273313+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-21T14:57:43.273313+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "nyIcqLqT": {
+  "checks": 2,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-21T15:44:14.030547+00:00",
+  "notified": []
+ },
+ "Ch0xovNM": {
   "checks": 1,
-  "status": "NOT_YET",
-  "last_check": "2026-11-21T14:57:43.273313+00:00"
+  "status": "ESPN_UNRESOLVED",
+  "last_check": "2026-11-21T15:44:14.030547+00:00"
  }
 }
