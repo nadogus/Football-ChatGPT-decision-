@@ -461,11 +461,11 @@
   "away": "Club Brugge",
   "score": [
    0,
-   2
+   3
   ],
-  "minute": "43‎’‎",
+  "minute": "72‎’‎",
   "finished": false,
-  "updated": "2026-11-21T20:28:44Z"
+  "updated": "2026-11-21T21:15:13Z"
  },
  "5811817": {
   "flashscore_id": "QTL3Rjde",
@@ -473,12 +473,12 @@
   "home": "Zulte Waregem",
   "away": "Royal Antwerp",
   "score": [
-   0,
-   1
+   2,
+   2
   ],
-  "minute": "43‎’‎",
+  "minute": "73‎’‎",
   "finished": false,
-  "updated": "2026-11-21T20:28:44Z"
+  "updated": "2026-11-21T21:15:13Z"
  },
  "5802991": {
   "flashscore_id": "2R2cY0wH",
@@ -486,12 +486,12 @@
   "home": "Lens",
   "away": "Toulouse",
   "score": [
-   0,
+   1,
    1
   ],
-  "minute": "44‎’‎",
+  "minute": "73‎’‎",
   "finished": false,
-  "updated": "2026-11-21T20:28:44Z"
+  "updated": "2026-11-21T21:15:13Z"
  },
  "5802992": {
   "flashscore_id": "zgG4Wv8T",
@@ -500,11 +500,11 @@
   "away": "Lyon",
   "score": [
    0,
-   2
+   1
   ],
-  "minute": "44‎’‎",
+  "minute": "70‎’‎",
   "finished": false,
-  "updated": "2026-11-21T20:28:44Z"
+  "updated": "2026-11-21T21:15:13Z"
  },
  "5802995": {
   "flashscore_id": "6ecUn0hA",
@@ -515,9 +515,9 @@
    0,
    1
   ],
-  "minute": "44‎’‎",
+  "minute": "67‎’‎",
   "finished": false,
-  "updated": "2026-11-21T20:28:44Z"
+  "updated": "2026-11-21T21:15:13Z"
  },
  "5802998": {
   "flashscore_id": "GlkGwdFd",
@@ -528,9 +528,9 @@
    0,
    1
   ],
-  "minute": "44‎’‎",
+  "minute": "72‎’‎",
   "finished": false,
-  "updated": "2026-11-21T20:28:44Z"
+  "updated": "2026-11-21T21:15:13Z"
  },
  "5749757": {
   "flashscore_id": "AwXJXxrT",
@@ -541,9 +541,9 @@
    0,
    0
   ],
-  "minute": "44‎’‎",
+  "minute": "72‎’‎",
   "finished": false,
-  "updated": "2026-11-21T20:28:44Z"
+  "updated": "2026-11-21T21:15:13Z"
  },
  "5781808": {
   "flashscore_id": "SCOvGMSq",
@@ -552,11 +552,11 @@
   "away": "SC Heerenveen",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "28‎’‎",
+  "minute": "56‎’‎",
   "finished": false,
-  "updated": "2026-11-21T20:28:44Z"
+  "updated": "2026-11-21T21:15:13Z"
  },
  "5781807": {
   "flashscore_id": "xbCDlsZ8",
@@ -565,11 +565,11 @@
   "away": "PEC Zwolle",
   "score": [
    1,
-   1
+   3
   ],
-  "minute": "27‎’‎",
+  "minute": "57‎’‎",
   "finished": false,
-  "updated": "2026-11-21T20:28:44Z"
+  "updated": "2026-11-21T21:15:13Z"
  },
  "5868139": {
   "flashscore_id": "QweLd3hK",
@@ -580,8 +580,8 @@
    0,
    1
   ],
-  "minute": "21‎’‎",
+  "minute": "48‎’‎",
   "finished": false,
-  "updated": "2026-11-21T20:28:44Z"
+  "updated": "2026-11-21T21:15:13Z"
  }
 }
