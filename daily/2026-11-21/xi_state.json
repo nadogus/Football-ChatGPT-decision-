@@ -91,13 +91,15 @@
  },
  "ANn91yYI": {
   "checks": 1,
-  "status": "NOT_YET",
-  "last_check": "2026-11-21T14:06:59.232410+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-21T14:06:59.232410+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "rolIjmHG": {
   "checks": 1,
-  "status": "NOT_YET",
-  "last_check": "2026-11-21T14:06:59.232410+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-21T14:06:59.232410+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "rT6S6W9b": {
   "checks": 1,
@@ -107,33 +109,39 @@
  },
  "2c3r3l9N": {
   "checks": 1,
-  "status": "NOT_YET",
-  "last_check": "2026-11-21T14:06:59.232410+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-21T14:06:59.232410+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "QZt0LVOi": {
   "checks": 1,
-  "status": "NOT_YET",
-  "last_check": "2026-11-21T14:06:59.232410+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-21T14:06:59.232410+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "0pwdq59j": {
   "checks": 1,
-  "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-21T14:06:59.232410+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-21T14:06:59.232410+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "Yap8J9g4": {
   "checks": 1,
-  "status": "NOT_YET",
-  "last_check": "2026-11-21T14:06:59.232410+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-21T14:06:59.232410+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "Q72FHmOG": {
   "checks": 1,
-  "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-21T14:06:59.232410+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-21T14:06:59.232410+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "MXWPYY3L": {
   "checks": 1,
-  "status": "NOT_YET",
-  "last_check": "2026-11-21T14:06:59.232410+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-21T14:06:59.232410+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "6VagL2x2": {
   "checks": 1,
@@ -166,8 +174,19 @@
   "notified": []
  },
  "Yq8ZYa0D": {
+  "checks": 2,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-21T14:57:43.273313+00:00",
+  "notified": []
+ },
+ "CxCKSaCk": {
+  "checks": 1,
+  "status": "ESPN_UNRESOLVED",
+  "last_check": "2026-11-21T14:57:43.273313+00:00"
+ },
+ "nyIcqLqT": {
   "checks": 1,
   "status": "NOT_YET",
-  "last_check": "2026-11-21T14:06:59.232410+00:00"
+  "last_check": "2026-11-21T14:57:43.273313+00:00"
  }
 }
