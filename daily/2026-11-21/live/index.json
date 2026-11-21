@@ -19,11 +19,11 @@
   "away": "Cardiff City",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "3‎’‎",
+  "minute": "50‎’‎",
   "finished": false,
-  "updated": "2026-11-21T12:33:26Z"
+  "updated": "2026-11-21T13:37:51Z"
  },
  "5836941": {
   "flashscore_id": "YufEcSWp",
@@ -34,9 +34,9 @@
    0,
    0
   ],
-  "minute": "3‎’‎",
+  "minute": "50‎’‎",
   "finished": false,
-  "updated": "2026-11-21T12:33:26Z"
+  "updated": "2026-11-21T13:37:51Z"
  },
  "5795522": {
   "flashscore_id": "MuVKeqEE",
@@ -45,10 +45,49 @@
   "away": "Fulham",
   "score": [
    0,
+   1
+  ],
+  "minute": "50‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T13:37:51Z"
+ },
+ "5868131": {
+  "flashscore_id": "8tJwQ4Hr",
+  "competition": "LaLiga",
+  "home": "Deportivo Alavés",
+  "away": "Deportivo A Coruña",
+  "score": [
+   1,
    0
   ],
-  "minute": "3‎’‎",
+  "minute": "38‎’‎",
   "finished": false,
-  "updated": "2026-11-21T12:33:26Z"
+  "updated": "2026-11-21T13:37:51Z"
+ },
+ "5904806": {
+  "flashscore_id": "hzQmRLNp",
+  "competition": "Super Lig",
+  "home": "Amed Sportif",
+  "away": "Rizespor",
+  "score": [
+   0,
+   1
+  ],
+  "minute": "38‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T13:37:51Z"
+ },
+ "5904809": {
+  "flashscore_id": "0KJkosFG",
+  "competition": "Super Lig",
+  "home": "Galatasaray",
+  "away": "Samsunspor",
+  "score": [
+   1,
+   0
+  ],
+  "minute": "38‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T13:37:51Z"
  }
 }
