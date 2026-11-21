@@ -434,12 +434,12 @@
   "home": "Feyenoord",
   "away": "Excelsior",
   "score": [
-   1,
+   2,
    3
   ],
-  "minute": "62‎’‎",
-  "finished": false,
-  "updated": "2026-11-21T19:07:18Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-21T19:51:40Z"
  },
  "5781811": {
   "flashscore_id": "0GJYy4k3",
@@ -447,11 +447,102 @@
   "home": "FC Utrecht",
   "away": "Cambuur",
   "score": [
-   0,
-   1
+   1,
+   2
   ],
-  "minute": "HT",
+  "minute": "74‎’‎",
   "finished": false,
-  "updated": "2026-11-21T19:07:18Z"
+  "updated": "2026-11-21T19:51:40Z"
+ },
+ "5811815": {
+  "flashscore_id": "AwZUUP2m",
+  "competition": "Jupiler Pro League",
+  "home": "KV Mechelen",
+  "away": "Club Brugge",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "6‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T19:51:40Z"
+ },
+ "5811817": {
+  "flashscore_id": "QTL3Rjde",
+  "competition": "Jupiler Pro League",
+  "home": "Zulte Waregem",
+  "away": "Royal Antwerp",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "6‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T19:51:40Z"
+ },
+ "5802991": {
+  "flashscore_id": "2R2cY0wH",
+  "competition": "Ligue 1",
+  "home": "Lens",
+  "away": "Toulouse",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "7‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T19:51:40Z"
+ },
+ "5802992": {
+  "flashscore_id": "zgG4Wv8T",
+  "competition": "Ligue 1",
+  "home": "Lille",
+  "away": "Lyon",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "7‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T19:51:40Z"
+ },
+ "5802995": {
+  "flashscore_id": "6ecUn0hA",
+  "competition": "Ligue 1",
+  "home": "Monaco",
+  "away": "Auxerre",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "7‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T19:51:40Z"
+ },
+ "5802998": {
+  "flashscore_id": "GlkGwdFd",
+  "competition": "Ligue 1",
+  "home": "Strasbourg",
+  "away": "Brest",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "7‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T19:51:40Z"
+ },
+ "5749757": {
+  "flashscore_id": "AwXJXxrT",
+  "competition": "Serie A",
+  "home": "Napoli",
+  "away": "Torino",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "7‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T19:51:40Z"
  }
 }
