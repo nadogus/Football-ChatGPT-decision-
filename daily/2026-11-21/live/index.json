@@ -190,9 +190,9 @@
    1,
    1
   ],
-  "minute": "48‎’‎",
+  "minute": "94‎’‎",
   "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5836936": {
   "flashscore_id": "rolIjmHG",
@@ -201,11 +201,11 @@
   "away": "Wrexham",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "49‎’‎",
-  "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5836937": {
   "flashscore_id": "rT6S6W9b",
@@ -213,12 +213,12 @@
   "home": "Middlesbrough",
   "away": "Bristol City",
   "score": [
-   1,
+   2,
    0
   ],
-  "minute": "49‎’‎",
-  "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5836940": {
   "flashscore_id": "2c3r3l9N",
@@ -226,12 +226,12 @@
   "home": "Sheffield United",
   "away": "Watford",
   "score": [
-   2,
+   4,
    0
   ],
-  "minute": "48‎’‎",
+  "minute": "94‎’‎",
   "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5836942": {
   "flashscore_id": "QZt0LVOi",
@@ -239,12 +239,12 @@
   "home": "Stoke City",
   "away": "Birmingham City",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "47‎’‎",
+  "minute": "93‎’‎",
   "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5836944": {
   "flashscore_id": "Yap8J9g4",
@@ -252,12 +252,12 @@
   "home": "West Ham United",
   "away": "Preston North End",
   "score": [
-   0,
+   1,
    1
   ],
-  "minute": "47‎’‎",
+  "minute": "93‎’‎",
   "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5811812": {
   "flashscore_id": "MXWPYY3L",
@@ -265,12 +265,12 @@
   "home": "Sporting Charleroi",
   "away": "St.Truiden",
   "score": [
-   1,
+   2,
    1
   ],
-  "minute": "HT",
+  "minute": "88‎’‎",
   "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5795516": {
   "flashscore_id": "6VagL2x2",
@@ -281,9 +281,9 @@
    0,
    0
   ],
-  "minute": "48‎’‎",
-  "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5795515": {
   "flashscore_id": "YH1oNO7k",
@@ -294,9 +294,9 @@
    2,
    0
   ],
-  "minute": "47‎’‎",
+  "minute": "93‎’‎",
   "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5795518": {
   "flashscore_id": "KhjmspaL",
@@ -305,11 +305,11 @@
   "away": "Leeds United",
   "score": [
    1,
-   1
+   3
   ],
-  "minute": "HT",
+  "minute": "90‎’‎",
   "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5795519": {
   "flashscore_id": "GOyJyOMr",
@@ -317,12 +317,12 @@
   "home": "Coventry City",
   "away": "Crystal Palace",
   "score": [
-   2,
+   3,
    2
   ],
-  "minute": "HT",
+  "minute": "90‎’‎",
   "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5795524": {
   "flashscore_id": "0lPbl16l",
@@ -330,12 +330,12 @@
   "home": "Tottenham Hotspur",
   "away": "Ipswich Town",
   "score": [
-   1,
+   2,
    0
   ],
-  "minute": "47‎’‎",
+  "minute": "93‎’‎",
   "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5868138": {
   "flashscore_id": "Yq8ZYa0D",
@@ -346,9 +346,9 @@
    0,
    1
   ],
-  "minute": "HT",
+  "minute": "77‎’‎",
   "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "updated": "2026-11-21T16:51:37Z"
  },
  "5904810": {
   "flashscore_id": "nyIcqLqT",
@@ -359,8 +359,8 @@
    0,
    0
   ],
-  "minute": "6‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-21T16:05:39Z"
+  "updated": "2026-11-21T16:51:37Z"
  }
 }
