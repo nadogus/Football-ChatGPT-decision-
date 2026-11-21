@@ -1,0 +1,823 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-21T14:06:59.232410+00:00",
+ "minutes_before_kickoff": 23.012793166666665,
+ "match": {
+  "match_id": "G6zXl2Sr",
+  "home": "Elversberg",
+  "away": "Freiburg",
+  "kickoff": "2026-11-21T14:30:00Z",
+  "competition": "Bundesliga",
+  "category": "Germany"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:324021",
+     "name": "Nicolas Kristof",
+     "number": "20",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:190167",
+     "name": "Maximilian Rohr",
+     "number": "31",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:341826",
+     "name": "Lukas Finn Pinckert",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:321061",
+     "name": "Lasse Günther",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:188031",
+     "name": "Jan Gyamerah",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:326499",
+     "name": "Lukasz Poreba",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310692",
+     "name": "Lukas Petkov",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:340739",
+     "name": "Felix Keidel",
+     "number": "43",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:379180",
+     "name": "Francis-Ikechukwu Onyeka",
+     "number": "40",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:379024",
+     "name": "Cole Campbell",
+     "number": "39",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:398004",
+     "name": "David Mokwa",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:338852",
+     "name": "Mio Backhaus",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:170209",
+     "name": "Matthias Ginter",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:367558",
+     "name": "Jordy Makengo",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364596",
+     "name": "Philipp Treu",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:219316",
+     "name": "Philipp Lienhart",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:214203",
+     "name": "Maximilian Eggestein",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:346619",
+     "name": "Derry Scherhant",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:231190",
+     "name": "Niklas Beste",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:337079",
+     "name": "Yannick Engelhardt",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238525",
+     "name": "Lucas Höler",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310883",
+     "name": "Igor Matanovic",
+     "number": "31",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401884745",
+   "date": "2026-11-07T14:30:00+00:00",
+   "competition": "ger.1",
+   "opponent": "Borussia Dortmund",
+   "starters": [
+    {
+     "id": "espn:324021",
+     "name": "Nicolas Kristof",
+     "number": "20",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:190167",
+     "name": "Maximilian Rohr",
+     "number": "31",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:341826",
+     "name": "Lukas Finn Pinckert",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:321061",
+     "name": "Lasse Günther",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323882",
+     "name": "Luca Sirch",
+     "number": "26",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:379180",
+     "name": "Francis-Ikechukwu Onyeka",
+     "number": "40",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:326499",
+     "name": "Lukasz Poreba",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:340739",
+     "name": "Felix Keidel",
+     "number": "43",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:398004",
+     "name": "David Mokwa",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:358496",
+     "name": "Maurice Krattenmacher",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310692",
+     "name": "Lukas Petkov",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401884741",
+   "date": "2026-11-08T16:30:00+00:00",
+   "competition": "ger.1",
+   "opponent": "1. FC Union Berlin",
+   "starters": [
+    {
+     "id": "espn:338852",
+     "name": "Mio Backhaus",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:219316",
+     "name": "Philipp Lienhart",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:170209",
+     "name": "Matthias Ginter",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:367558",
+     "name": "Jordy Makengo",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364596",
+     "name": "Philipp Treu",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303031",
+     "name": "Yuito Suzuki",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:337079",
+     "name": "Yannick Engelhardt",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:214203",
+     "name": "Maximilian Eggestein",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310883",
+     "name": "Igor Matanovic",
+     "number": "31",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:346619",
+     "name": "Derry Scherhant",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:231190",
+     "name": "Niklas Beste",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 2,
+   "out": [
+    "Luca Sirch",
+    "Maurice Krattenmacher"
+   ],
+   "in": [
+    "Jan Gyamerah",
+    "Cole Campbell"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Nicolas Kristof",
+   "previous_goalkeeper": "Nicolas Kristof"
+  },
+  "away": {
+   "count": 1,
+   "out": [
+    "Yuito Suzuki"
+   ],
+   "in": [
+    "Lucas Höler"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Mio Backhaus",
+   "previous_goalkeeper": "Mio Backhaus"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Luca Sirch",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 313,
+       "minutes_per_match": 62.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.09,
+        "shots": 0.0,
+        "key_passes": 2.01
+       },
+       "attack_share": 0.023
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 455,
+       "minutes_per_match": 45.5,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.12,
+        "shots": 0.0,
+        "key_passes": 1.58
+       },
+       "attack_share": 0.026
+      }
+     }
+    },
+    {
+     "name": "Maurice Krattenmacher",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 318,
+       "minutes_per_match": 63.6,
+       "per90": {
+        "xg": 0.12,
+        "xa": 0.05,
+        "shots": 1.7,
+        "key_passes": 1.13
+       },
+       "attack_share": 0.047
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 490,
+       "minutes_per_match": 49.0,
+       "per90": {
+        "xg": 0.38,
+        "xa": 0.04,
+        "shots": 2.76,
+        "key_passes": 0.92
+       },
+       "attack_share": 0.101
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Jan Gyamerah",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 99,
+       "minutes_per_match": 19.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.91
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 403,
+       "minutes_per_match": 40.3,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.01,
+        "shots": 0.22,
+        "key_passes": 0.45
+       },
+       "attack_share": 0.008
+      }
+     }
+    },
+    {
+     "name": "Cole Campbell",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 121,
+       "minutes_per_match": 24.2,
+       "per90": {
+        "xg": 0.56,
+        "xa": 0.23,
+        "shots": 5.95,
+        "key_passes": 2.23
+       },
+       "attack_share": 0.08
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 402,
+       "minutes_per_match": 40.2,
+       "per90": {
+        "xg": 0.25,
+        "xa": 0.17,
+        "shots": 3.36,
+        "key_passes": 1.34
+       },
+       "attack_share": 0.085
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Luca Sirch",
+     "in": "Jan Gyamerah",
+     "delta_per90": {
+      "xg": 0.03,
+      "xa": -0.11,
+      "shots": 0.22,
+      "key_passes": -1.13
+     },
+     "attack_share_delta": -0.018
+    },
+    {
+     "out": "Maurice Krattenmacher",
+     "in": "Cole Campbell",
+     "delta_per90": {
+      "xg": -0.13,
+      "xa": 0.13,
+      "shots": 0.6,
+      "key_passes": 0.42
+     },
+     "attack_share_delta": -0.016
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 9,
+   "out": [
+    {
+     "name": "Yuito Suzuki",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 334,
+       "minutes_per_match": 66.8,
+       "per90": {
+        "xg": 0.2,
+        "xa": 0.11,
+        "shots": 1.62,
+        "key_passes": 1.08
+       },
+       "attack_share": 0.077
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 533,
+       "minutes_per_match": 59.2,
+       "per90": {
+        "xg": 0.14,
+        "xa": 0.15,
+        "shots": 1.18,
+        "key_passes": 0.84
+       },
+       "attack_share": 0.065
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Lucas Höler",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 107,
+       "minutes_per_match": 21.4,
+       "per90": {
+        "xg": 0.45,
+        "xa": 0.03,
+        "shots": 4.21,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.039
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 7,
+       "minutes": 261,
+       "minutes_per_match": 29.0,
+       "per90": {
+        "xg": 0.41,
+        "xa": 0.04,
+        "shots": 3.79,
+        "key_passes": 0.34
+       },
+       "attack_share": 0.052
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Yuito Suzuki",
+     "in": "Lucas Höler",
+     "delta_per90": {
+      "xg": 0.27,
+      "xa": -0.11,
+      "shots": 2.61,
+      "key_passes": -0.5
+     },
+     "attack_share_delta": -0.013
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Nicholas Mickelson",
+    "reason": "injury",
+    "likelihood": "Late December 2026",
+    "market_value_eur": 623685
+   },
+   {
+    "player": "Noah Darvich",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 7397452
+   }
+  ],
+  "away": [
+   {
+    "player": "Berkay Yılmaz",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 6219508
+   },
+   {
+    "player": "Florent Muslija",
+    "reason": "injury",
+    "likelihood": "Late December 2026",
+    "market_value_eur": 1182180
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 414,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.2697,
+    "DRAW": 0.2534,
+    "AWAY": 0.4769
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 3.5,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 3.708,
+     "ev_vs_consensus": -0.0561
+    },
+    "DRAW": {
+     "odds": 3.8,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 3.946,
+     "ev_vs_consensus": -0.0371
+    },
+    "AWAY": {
+     "odds": 2.1,
+     "bookmaker": "Coral",
+     "fair_odds_consensus": 2.097,
+     "ev_vs_consensus": 0.0015
+    }
+   },
+   "median_overround": 0.0702,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.75",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8122,
+     "UNDER": 0.1878
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.23,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.231,
+      "ev_vs_consensus": -0.001
+     },
+     "UNDER": {
+      "odds": 4.6,
+      "bookmaker": "Parimatch.uk",
+      "fair_odds_consensus": 5.325,
+      "ev_vs_consensus": -0.1361
+     }
+    },
+    "median_overround": 0.0645,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.5766,
+     "UNDER": 0.4234
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.67,
+      "bookmaker": "Coral",
+      "fair_odds_consensus": 1.734,
+      "ev_vs_consensus": -0.0371
+     },
+     "UNDER": {
+      "odds": 2.25,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 2.362,
+      "ev_vs_consensus": -0.0474
+     }
+    },
+    "median_overround": 0.0639,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.75": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.5217,
+     "UNDER": 0.4783
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.85,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.917,
+      "ev_vs_consensus": -0.0349
+     },
+     "UNDER": {
+      "odds": 2.0,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.091,
+      "ev_vs_consensus": -0.0434
+     }
+    },
+    "median_overround": 0.0684,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.3386,
+     "UNDER": 0.6614
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.75,
+      "bookmaker": "Paddy Power",
+      "fair_odds_consensus": 2.953,
+      "ev_vs_consensus": -0.0688
+     },
+     "UNDER": {
+      "odds": 1.52,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.512,
+      "ev_vs_consensus": 0.0053
+     }
+    },
+    "median_overround": 0.0658,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 0.02,
+  "DRAW": 0.92,
+  "AWAY": -0.94
+ },
+ "gaps": [
+  "PLAYER_IMPACT_PARTIAL_HISTORY:away:9/10"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}

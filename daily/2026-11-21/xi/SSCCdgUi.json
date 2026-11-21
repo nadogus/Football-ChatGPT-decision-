@@ -1,0 +1,767 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-21T14:06:59.232410+00:00",
+ "minutes_before_kickoff": 23.012793166666665,
+ "match": {
+  "match_id": "SSCCdgUi",
+  "home": "Bayer Leverkusen",
+  "away": "Paderborn",
+  "kickoff": "2026-11-21T14:30:00Z",
+  "competition": "Bundesliga",
+  "category": "Germany"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:177821",
+     "name": "Mark Flekken",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:257287",
+     "name": "Edmond Tapsoba",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:298524",
+     "name": "Jarell Quansah",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300410",
+     "name": "Loïc Badé",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:290044",
+     "name": "Miguel Gutiérrez",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:219294",
+     "name": "Aleix García",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301416",
+     "name": "Malik Tillman",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:361258",
+     "name": "Afonso Moreira",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:263134",
+     "name": "Nathan Tella",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364080",
+     "name": "Ezequiel Fernández",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:212330",
+     "name": "Patrik Schick",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "3-4-2-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:319415",
+     "name": "Nahuel Nicolas Noll",
+     "number": "15",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:366370",
+     "name": "Jano Horst",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364892",
+     "name": "Mattes Hansen",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:371806",
+     "name": "Tjark Scheller",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323936",
+     "name": "Gabriel Vidovic",
+     "number": "40",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:251639",
+     "name": "Raphael Obermair",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:220823",
+     "name": "Tom Baack",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:406466",
+     "name": "Ruben Müller",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364593",
+     "name": "Laurin Curda",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338837",
+     "name": "Santiago Castaneda",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:332543",
+     "name": "Stefano Marino",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401884738",
+   "date": "2026-11-08T14:30:00+00:00",
+   "competition": "ger.1",
+   "opponent": "FC Cologne",
+   "starters": [
+    {
+     "id": "espn:177821",
+     "name": "Mark Flekken",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:249663",
+     "name": "Facundo Medina",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:257287",
+     "name": "Edmond Tapsoba",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:290044",
+     "name": "Miguel Gutiérrez",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:298524",
+     "name": "Jarell Quansah",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301416",
+     "name": "Malik Tillman",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:219294",
+     "name": "Aleix García",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364080",
+     "name": "Ezequiel Fernández",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:212330",
+     "name": "Patrik Schick",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:361212",
+     "name": "Ibrahim Maza",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:361258",
+     "name": "Afonso Moreira",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401884737",
+   "date": "2026-11-07T14:30:00+00:00",
+   "competition": "ger.1",
+   "opponent": "Eintracht Frankfurt",
+   "starters": [
+    {
+     "id": "espn:319415",
+     "name": "Nahuel Nicolas Noll",
+     "number": "15",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:371806",
+     "name": "Tjark Scheller",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364892",
+     "name": "Mattes Hansen",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:366370",
+     "name": "Jano Horst",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323936",
+     "name": "Gabriel Vidovic",
+     "number": "40",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:220823",
+     "name": "Tom Baack",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338837",
+     "name": "Santiago Castaneda",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:251639",
+     "name": "Raphael Obermair",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364593",
+     "name": "Laurin Curda",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:332543",
+     "name": "Stefano Marino",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:406466",
+     "name": "Ruben Müller",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-5-2"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 2,
+   "out": [
+    "Facundo Medina",
+    "Ibrahim Maza"
+   ],
+   "in": [
+    "Loïc Badé",
+    "Nathan Tella"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Mark Flekken",
+   "previous_goalkeeper": "Mark Flekken"
+  },
+  "away": {
+   "count": 0,
+   "out": [],
+   "in": [],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Nahuel Nicolas Noll",
+   "previous_goalkeeper": "Nahuel Nicolas Noll"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Facundo Medina",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 442,
+       "minutes_per_match": 88.4,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.05,
+        "shots": 0.61,
+        "key_passes": 0.2
+       },
+       "attack_share": 0.033
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 803,
+       "minutes_per_match": 80.3,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.05,
+        "shots": 0.78,
+        "key_passes": 0.45
+       },
+       "attack_share": 0.028
+      }
+     }
+    },
+    {
+     "name": "Ibrahim Maza",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 392,
+       "minutes_per_match": 78.4,
+       "per90": {
+        "xg": 0.14,
+        "xa": 0.2,
+        "shots": 2.3,
+        "key_passes": 1.38
+       },
+       "attack_share": 0.096
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 748,
+       "minutes_per_match": 74.8,
+       "per90": {
+        "xg": 0.25,
+        "xa": 0.29,
+        "shots": 2.53,
+        "key_passes": 2.29
+       },
+       "attack_share": 0.116
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Loïc Badé",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 28,
+       "minutes_per_match": 5.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 208,
+       "minutes_per_match": 20.8,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.01,
+        "shots": 0.43,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      }
+     }
+    },
+    {
+     "name": "Nathan Tella",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 132,
+       "minutes_per_match": 26.4,
+       "per90": {
+        "xg": 0.51,
+        "xa": 0.04,
+        "shots": 3.41,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.053
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 266,
+       "minutes_per_match": 26.6,
+       "per90": {
+        "xg": 0.46,
+        "xa": 0.24,
+        "shots": 4.74,
+        "key_passes": 1.02
+       },
+       "attack_share": 0.054
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Facundo Medina",
+     "in": "Loïc Badé",
+     "delta_per90": {
+      "xg": -0.04,
+      "xa": -0.04,
+      "shots": -0.35,
+      "key_passes": -0.45
+     },
+     "attack_share_delta": -0.026
+    },
+    {
+     "out": "Ibrahim Maza",
+     "in": "Nathan Tella",
+     "delta_per90": {
+      "xg": 0.21,
+      "xa": -0.05,
+      "shots": 2.21,
+      "key_passes": -1.27
+     },
+     "attack_share_delta": -0.062
+    }
+   ]
+  },
+  "away": {
+   "status": "KADRO_FARKI_YOK"
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Martin Terrier",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 7225423
+   },
+   {
+    "player": "Guéla Doué",
+    "reason": "injury",
+    "likelihood": "A few weeks",
+    "market_value_eur": 34960784
+   },
+   {
+    "player": "Kennet Eichhorn",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 27823734
+   }
+  ],
+  "away": [
+   {
+    "player": "Sven Michel",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 343160
+   },
+   {
+    "player": "Oliver Batista Meier",
+    "reason": "injury",
+    "likelihood": "Mid November 2026",
+    "market_value_eur": 1084130
+   },
+   {
+    "player": "Marcel Hoffmeier",
+    "reason": "injury",
+    "likelihood": "A few weeks",
+    "market_value_eur": 709130
+   },
+   {
+    "player": "Nyamekye Awortwie-Grant",
+    "reason": "injury",
+    "likelihood": "Mid November 2026",
+    "market_value_eur": 368352
+   },
+   {
+    "player": "Sebastian Klaas",
+    "reason": "injury",
+    "likelihood": "Mid November 2026",
+    "market_value_eur": 495151
+   },
+   {
+    "player": "Timur Gayret",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 548547
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 426,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.7601,
+    "DRAW": 0.1374,
+    "AWAY": 0.1025
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.33,
+     "bookmaker": "Coral",
+     "fair_odds_consensus": 1.316,
+     "ev_vs_consensus": 0.0109
+    },
+    "DRAW": {
+     "odds": 6.5,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 7.278,
+     "ev_vs_consensus": -0.1069
+    },
+    "AWAY": {
+     "odds": 9.8,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 9.756,
+     "ev_vs_consensus": 0.0045
+    }
+   },
+   "median_overround": 0.0686,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3.75",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.919,
+     "UNDER": 0.081
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.09,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 1.088,
+      "ev_vs_consensus": 0.0017
+     },
+     "UNDER": {
+      "odds": 9.0,
+      "bookmaker": "Betano.uk",
+      "fair_odds_consensus": 12.346,
+      "ev_vs_consensus": -0.271
+     }
+    },
+    "median_overround": 0.0635,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.7527,
+     "UNDER": 0.2473
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.33,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 1.329,
+      "ev_vs_consensus": 0.0011
+     },
+     "UNDER": {
+      "odds": 3.7,
+      "bookmaker": "Talksportbet",
+      "fair_odds_consensus": 4.044,
+      "ev_vs_consensus": -0.085
+     }
+    },
+    "median_overround": 0.0663,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.5406,
+     "UNDER": 0.4594
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.8,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.85,
+      "ev_vs_consensus": -0.0269
+     },
+     "UNDER": {
+      "odds": 2.05,
+      "bookmaker": "BetUK",
+      "fair_odds_consensus": 2.177,
+      "ev_vs_consensus": -0.0582
+     }
+    },
+    "median_overround": 0.0686,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.75": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.4863,
+     "UNDER": 0.5137
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.98,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.056,
+      "ev_vs_consensus": -0.0371
+     },
+     "UNDER": {
+      "odds": 1.88,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.947,
+      "ev_vs_consensus": -0.0342
+     }
+    },
+    "median_overround": 0.0684,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -2.14,
+  "DRAW": 0.72,
+  "AWAY": 1.42
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}

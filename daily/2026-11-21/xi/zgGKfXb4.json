@@ -1,0 +1,835 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-21T14:06:59.232410+00:00",
+ "minutes_before_kickoff": 23.012793166666665,
+ "match": {
+  "match_id": "zgGKfXb4",
+  "home": "Eintracht Frankfurt",
+  "away": "Hoffenheim",
+  "kickoff": "2026-11-21T14:30:00Z",
+  "competition": "Bundesliga",
+  "category": "Germany"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-4-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:321064",
+     "name": "Noah Atubolu",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:290141",
+     "name": "Lilian Brassier",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:208285",
+     "name": "Robin Koch",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:371596",
+     "name": "Keita Kosugi",
+     "number": "26",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305555",
+     "name": "Ansgar Knauff",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:352179",
+     "name": "Noël Aséko",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:320882",
+     "name": "Raphael Onyedika",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:337306",
+     "name": "Farès Chaïbi",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:219627",
+     "name": "Ritsu Doan",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:274887",
+     "name": "Jonathan Burkardt",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:359793",
+     "name": "Younes Ebnoutalib",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-4-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:138213",
+     "name": "Oliver Baumann",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:218980",
+     "name": "Bernardo",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238025",
+     "name": "Koki Machida",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:266565",
+     "name": "Ozan Kabak",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:191209",
+     "name": "Vladimír Coufal",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:139520",
+     "name": "Andrej Kramaric",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:274860",
+     "name": "Wouter Burger",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:320939",
+     "name": "Alexander Prass",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:362590",
+     "name": "Leon Avdullahu",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:331057",
+     "name": "Fisnik Asllani",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303792",
+     "name": "Tim Lemperle",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401884737",
+   "date": "2026-11-07T14:30:00+00:00",
+   "competition": "ger.1",
+   "opponent": "SC Paderborn 07",
+   "starters": [
+    {
+     "id": "espn:321064",
+     "name": "Noah Atubolu",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:290141",
+     "name": "Lilian Brassier",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:208285",
+     "name": "Robin Koch",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:372788",
+     "name": "Elias Baum",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305555",
+     "name": "Ansgar Knauff",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355369",
+     "name": "Can Uzun",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:352179",
+     "name": "Noël Aséko",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:320882",
+     "name": "Raphael Onyedika",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:274887",
+     "name": "Jonathan Burkardt",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:337306",
+     "name": "Farès Chaïbi",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:219627",
+     "name": "Ritsu Doan",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401884742",
+   "date": "2026-11-08T18:30:00+00:00",
+   "competition": "ger.1",
+   "opponent": "Schalke 04",
+   "starters": [
+    {
+     "id": "espn:138213",
+     "name": "Oliver Baumann",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:238025",
+     "name": "Koki Machida",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:266565",
+     "name": "Ozan Kabak",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:359744",
+     "name": "Mats Rots",
+     "number": "39",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:191209",
+     "name": "Vladimír Coufal",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:331057",
+     "name": "Fisnik Asllani",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:274860",
+     "name": "Wouter Burger",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:362590",
+     "name": "Leon Avdullahu",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303792",
+     "name": "Tim Lemperle",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:320939",
+     "name": "Alexander Prass",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:139520",
+     "name": "Andrej Kramaric",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 2,
+   "out": [
+    "Elias Baum",
+    "Can Uzun"
+   ],
+   "in": [
+    "Keita Kosugi",
+    "Younes Ebnoutalib"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Noah Atubolu",
+   "previous_goalkeeper": "Noah Atubolu"
+  },
+  "away": {
+   "count": 1,
+   "out": [
+    "Mats Rots"
+   ],
+   "in": [
+    "Bernardo"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Oliver Baumann",
+   "previous_goalkeeper": "Oliver Baumann"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 9,
+   "out": [
+    {
+     "name": "Elias Baum",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 353,
+       "minutes_per_match": 70.6,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.08,
+        "shots": 1.02,
+        "key_passes": 1.27
+       },
+       "attack_share": 0.028
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 9,
+       "minutes": 615,
+       "minutes_per_match": 68.3,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.06,
+        "shots": 0.88,
+        "key_passes": 1.02
+       },
+       "attack_share": 0.019
+      }
+     }
+    },
+    {
+     "name": "Can Uzun",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 256,
+       "minutes_per_match": 51.2,
+       "per90": {
+        "xg": 0.13,
+        "xa": 0.31,
+        "shots": 2.11,
+        "key_passes": 1.05
+       },
+       "attack_share": 0.088
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 591,
+       "minutes_per_match": 65.7,
+       "per90": {
+        "xg": 0.38,
+        "xa": 0.3,
+        "shots": 2.44,
+        "key_passes": 2.44
+       },
+       "attack_share": 0.153
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Keita Kosugi",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 175,
+       "minutes_per_match": 35.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.24,
+        "shots": 0.0,
+        "key_passes": 1.03
+       },
+       "attack_share": 0.033
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 7,
+       "minutes": 490,
+       "minutes_per_match": 54.4,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.12,
+        "shots": 0.37,
+        "key_passes": 1.1
+       },
+       "attack_share": 0.026
+      }
+     }
+    },
+    {
+     "name": "Younes Ebnoutalib",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 285,
+       "minutes_per_match": 57.0,
+       "per90": {
+        "xg": 0.82,
+        "xa": 0.02,
+        "shots": 3.16,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.187
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 9,
+       "minutes": 526,
+       "minutes_per_match": 58.4,
+       "per90": {
+        "xg": 0.88,
+        "xa": 0.16,
+        "shots": 3.42,
+        "key_passes": 0.86
+       },
+       "attack_share": 0.207
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Elias Baum",
+     "in": "Keita Kosugi",
+     "delta_per90": {
+      "xg": 0.0,
+      "xa": 0.06,
+      "shots": -0.51,
+      "key_passes": 0.08
+     },
+     "attack_share_delta": 0.007
+    },
+    {
+     "out": "Can Uzun",
+     "in": "Younes Ebnoutalib",
+     "delta_per90": {
+      "xg": 0.5,
+      "xa": -0.14,
+      "shots": 0.98,
+      "key_passes": -1.58
+     },
+     "attack_share_delta": 0.054
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Mats Rots",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 372,
+       "minutes_per_match": 74.4,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.13,
+        "shots": 0.24,
+        "key_passes": 1.94
+       },
+       "attack_share": 0.047
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 584,
+       "minutes_per_match": 58.4,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.16,
+        "shots": 0.46,
+        "key_passes": 1.54
+       },
+       "attack_share": 0.043
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Bernardo",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 146,
+       "minutes_per_match": 29.2,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.03,
+        "shots": 0.62,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.009
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 301,
+       "minutes_per_match": 30.1,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.12,
+        "shots": 0.6,
+        "key_passes": 0.3
+       },
+       "attack_share": 0.017
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Mats Rots",
+     "in": "Bernardo",
+     "delta_per90": {
+      "xg": 0.0,
+      "xa": -0.04,
+      "shots": 0.14,
+      "key_passes": -1.24
+     },
+     "attack_share_delta": -0.026
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Elias Baum",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 9528748
+   },
+   {
+    "player": "Jessic Ngankam",
+    "reason": "injury",
+    "likelihood": "Mid November 2026",
+    "market_value_eur": 657076
+   }
+  ],
+  "away": [
+   {
+    "player": "Robin Hranác",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 10258742
+   },
+   {
+    "player": "Valentin Gendrey",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 5336558
+   },
+   {
+    "player": "Nathan De Cat",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 27176929
+   },
+   {
+    "player": "Albian Hajdari",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 26236572
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 410,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.3946,
+    "DRAW": 0.2318,
+    "AWAY": 0.3737
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 2.5,
+     "bookmaker": "Betfred",
+     "fair_odds_consensus": 2.534,
+     "ev_vs_consensus": -0.0135
+    },
+    "DRAW": {
+     "odds": 4.1,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 4.314,
+     "ev_vs_consensus": -0.0496
+    },
+    "AWAY": {
+     "odds": 2.64,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 2.676,
+     "ev_vs_consensus": -0.0134
+    }
+   },
+   "median_overround": 0.0711,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3.75",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.919,
+     "UNDER": 0.081
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.1,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.088,
+      "ev_vs_consensus": 0.0109
+     },
+     "UNDER": {
+      "odds": 9.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 12.346,
+      "ev_vs_consensus": -0.271
+     }
+    },
+    "median_overround": 0.0654,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.7463,
+     "UNDER": 0.2537
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.34,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.34,
+      "ev_vs_consensus": 0.0
+     },
+     "UNDER": {
+      "odds": 3.6,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 3.942,
+      "ev_vs_consensus": -0.0867
+     }
+    },
+    "median_overround": 0.0621,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.5327,
+     "UNDER": 0.4673
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.8,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 1.877,
+      "ev_vs_consensus": -0.0411
+     },
+     "UNDER": {
+      "odds": 2.05,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 2.14,
+      "ev_vs_consensus": -0.042
+     }
+    },
+    "median_overround": 0.065,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.75": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.4793,
+     "UNDER": 0.5207
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.0,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.086,
+      "ev_vs_consensus": -0.0414
+     },
+     "UNDER": {
+      "odds": 1.85,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.92,
+      "ev_vs_consensus": -0.0367
+     }
+    },
+    "median_overround": 0.0684,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -0.06,
+  "DRAW": 0.04,
+  "AWAY": 0.04
+ },
+ "gaps": [
+  "PLAYER_IMPACT_PARTIAL_HISTORY:home:9/10"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}

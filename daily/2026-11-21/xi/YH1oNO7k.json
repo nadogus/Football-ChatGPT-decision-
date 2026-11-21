@@ -1,0 +1,648 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-21T14:06:59.232410+00:00",
+ "minutes_before_kickoff": 53.01279316666667,
+ "match": {
+  "match_id": "YH1oNO7k",
+  "home": "Bournemouth",
+  "away": "Nottingham",
+  "kickoff": "2026-11-21T15:00:00Z",
+  "competition": "Premier League",
+  "category": "England"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:289824",
+     "name": "Djordje Petrovic",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:122268",
+     "name": "Adam Smith",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:346588",
+     "name": "António Silva",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305684",
+     "name": "Adrien Truffert",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:279155",
+     "name": "James Hill",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:245916",
+     "name": "Justin Kluivert",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:93435",
+     "name": "Ryan Christie",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:243364",
+     "name": "Marcus Tavernier",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:222776",
+     "name": "Tyler Adams",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:357719",
+     "name": "Rayan",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:102368",
+     "name": "Evanilson",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "3-4-2-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:179497",
+     "name": "Matz Sels",
+     "number": "26",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:238990",
+     "name": "Nikola Milenkovic",
+     "number": "31",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338894",
+     "name": "Murillo",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338876",
+     "name": "Jair Cunha",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:291638",
+     "name": "Neco Williams",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:275842",
+     "name": "Dan Ndoye",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:241253",
+     "name": "Ryan Yates",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:298518",
+     "name": "James McAtee",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:146679",
+     "name": "Daniel Muñoz",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:243396",
+     "name": "Morgan Gibbs-White",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:307114",
+     "name": "Liam Delap",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401878759",
+   "date": "2026-11-08T14:00:00+00:00",
+   "competition": "eng.1",
+   "opponent": "Ipswich Town",
+   "starters": [
+    {
+     "id": "espn:289824",
+     "name": "Djordje Petrovic",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:346588",
+     "name": "António Silva",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:279155",
+     "name": "James Hill",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305684",
+     "name": "Adrien Truffert",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:122268",
+     "name": "Adam Smith",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:245916",
+     "name": "Justin Kluivert",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:93435",
+     "name": "Ryan Christie",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:222776",
+     "name": "Tyler Adams",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:102368",
+     "name": "Evanilson",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:243364",
+     "name": "Marcus Tavernier",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:357719",
+     "name": "Rayan",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401878757",
+   "date": "2026-11-07T17:30:00+00:00",
+   "competition": "eng.1",
+   "opponent": "Manchester City",
+   "starters": [
+    {
+     "id": "espn:179497",
+     "name": "Matz Sels",
+     "number": "26",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:238990",
+     "name": "Nikola Milenkovic",
+     "number": "31",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338894",
+     "name": "Murillo",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338876",
+     "name": "Jair Cunha",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:241253",
+     "name": "Ryan Yates",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238886",
+     "name": "Xaver Schlager",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:291638",
+     "name": "Neco Williams",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:146679",
+     "name": "Daniel Muñoz",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:307114",
+     "name": "Liam Delap",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:243396",
+     "name": "Morgan Gibbs-White",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:298518",
+     "name": "James McAtee",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-4-2-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 0,
+   "out": [],
+   "in": [],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Djordje Petrovic",
+   "previous_goalkeeper": "Djordje Petrovic"
+  },
+  "away": {
+   "count": 1,
+   "out": [
+    "Xaver Schlager"
+   ],
+   "in": [
+    "Dan Ndoye"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Matz Sels",
+   "previous_goalkeeper": "Matz Sels"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "KADRO_FARKI_YOK"
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Xaver Schlager",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 381,
+       "minutes_per_match": 76.2,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.05,
+        "shots": 1.42,
+        "key_passes": 1.42
+       },
+       "attack_share": 0.033
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 831,
+       "minutes_per_match": 83.1,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.05,
+        "shots": 1.41,
+        "key_passes": 0.87
+       },
+       "attack_share": 0.033
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Dan Ndoye",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 304,
+       "minutes_per_match": 60.8,
+       "per90": {
+        "xg": 0.32,
+        "xa": 0.13,
+        "shots": 2.66,
+        "key_passes": 0.89
+       },
+       "attack_share": 0.121
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 593,
+       "minutes_per_match": 59.3,
+       "per90": {
+        "xg": 0.35,
+        "xa": 0.21,
+        "shots": 3.04,
+        "key_passes": 1.21
+       },
+       "attack_share": 0.145
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Xaver Schlager",
+     "in": "Dan Ndoye",
+     "delta_per90": {
+      "xg": 0.31,
+      "xa": 0.16,
+      "shots": 1.63,
+      "key_passes": 0.34
+     },
+     "attack_share_delta": 0.112
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Juanlu Sánchez",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 14116976
+   },
+   {
+    "player": "Julián Araujo",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 7636705
+   },
+   {
+    "player": "Alex Tóth",
+    "reason": "injury",
+    "likelihood": "Early February 2027",
+    "market_value_eur": 17786963
+   }
+  ],
+  "away": [
+   {
+    "player": "Nicolò Savona",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 19933993
+   },
+   {
+    "player": "Nicolás Domínguez",
+    "reason": "injury",
+    "likelihood": "Late December 2026",
+    "market_value_eur": 13479700
+   },
+   {
+    "player": "Callum Hudson-Odoi",
+    "reason": "injury",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": 23053301
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 399,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.4917,
+    "DRAW": 0.2697,
+    "AWAY": 0.2386
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 2.0,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 2.034,
+     "ev_vs_consensus": -0.0166
+    },
+    "DRAW": {
+     "odds": 3.55,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 3.708,
+     "ev_vs_consensus": -0.0426
+    },
+    "AWAY": {
+     "odds": 4.2,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 4.191,
+     "ev_vs_consensus": 0.0021
+    }
+   },
+   "median_overround": 0.0663,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.5",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.7406,
+     "UNDER": 0.2594
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.35,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.35,
+      "ev_vs_consensus": -0.0002
+     },
+     "UNDER": {
+      "odds": 3.5,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 3.855,
+      "ev_vs_consensus": -0.0921
+     }
+    },
+    "median_overround": 0.0654,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4692,
+     "UNDER": 0.5308
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.1,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 2.131,
+      "ev_vs_consensus": -0.0147
+     },
+     "UNDER": {
+      "odds": 1.8,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.884,
+      "ev_vs_consensus": -0.0446
+     }
+    },
+    "median_overround": 0.0714,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.2473,
+     "UNDER": 0.7527
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 3.7,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 4.044,
+      "ev_vs_consensus": -0.085
+     },
+     "UNDER": {
+      "odds": 1.33,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.329,
+      "ev_vs_consensus": 0.0011
+     }
+    },
+    "median_overround": 0.0651,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -1.27,
+  "DRAW": 0.51,
+  "AWAY": 0.76
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
