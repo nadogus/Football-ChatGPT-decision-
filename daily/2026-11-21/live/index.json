@@ -8,8 +8,47 @@
    1,
    0
   ],
-  "minute": "61‎’‎",
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-21T12:33:26Z"
+ },
+ "5836939": {
+  "flashscore_id": "U1nQlRoT",
+  "competition": "Championship",
+  "home": "Norwich City",
+  "away": "Cardiff City",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "3‎’‎",
   "finished": false,
-  "updated": "2026-11-21T11:50:07Z"
+  "updated": "2026-11-21T12:33:26Z"
+ },
+ "5836941": {
+  "flashscore_id": "YufEcSWp",
+  "competition": "Championship",
+  "home": "Southampton",
+  "away": "Derby County",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "3‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T12:33:26Z"
+ },
+ "5795522": {
+  "flashscore_id": "MuVKeqEE",
+  "competition": "Premier League",
+  "home": "Manchester City",
+  "away": "Fulham",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "3‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T12:33:26Z"
  }
 }

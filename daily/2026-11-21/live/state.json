@@ -1,7 +1,16 @@
 {
  "resolved": {
-  "KtIZlPFi": "5904807"
+  "KtIZlPFi": "5904807",
+  "U1nQlRoT": "5836939",
+  "YufEcSWp": "5836941",
+  "MuVKeqEE": "5795522"
  },
  "alerts": {},
- "errors": []
+ "errors": [
+  {
+   "t": "2026-11-21T12:33:26.539709+00:00",
+   "match": "Gt5z5AvB",
+   "reason": "LOW_MATCH_SCORE"
+  }
+ ]
 }
