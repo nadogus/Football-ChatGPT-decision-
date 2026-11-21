@@ -1,0 +1,958 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-21T19:35:23.690815+00:00",
+ "minutes_before_kickoff": 24.605153083333335,
+ "match": {
+  "match_id": "xbCDlsZ8",
+  "home": "Telstar",
+  "away": "Zwolle",
+  "kickoff": "2026-11-21T20:00:00Z",
+  "competition": "Eredivisie",
+  "category": "Netherlands"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:79505",
+     "name": "Ronald Koeman",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:356706",
+     "name": "Abdelnour Soualhia",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:319369",
+     "name": "Sem Valk",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:179181",
+     "name": "Marvin Peersman",
+     "number": "43",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301585",
+     "name": "Gabi Caschili",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:388723",
+     "name": "Isaiah Ahmed",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306461",
+     "name": "Tyrone Owusu",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:332709",
+     "name": "Nils Rossen",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306445",
+     "name": "Patrick Brouwer",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:352177",
+     "name": "Emirhan Demircan",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306553",
+     "name": "Ar'jany Martha",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:263619",
+     "name": "Jasper Schendelaar",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:131354",
+     "name": "Nick Viergever",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:271210",
+     "name": "Simon Graves",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:333760",
+     "name": "Damian Van Der Haar",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:403548",
+     "name": "Jan Bürger",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:215159",
+     "name": "Younes Namli",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365026",
+     "name": "Nick Fichtinger",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:156146",
+     "name": "Ryan Thomas",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276819",
+     "name": "Sydney van Hooijdonk",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:286854",
+     "name": "Dylan Mbayo",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297340",
+     "name": "Ibrahim Cissoko",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401875555",
+   "date": "2026-11-07T15:30:00+00:00",
+   "competition": "ned.1",
+   "opponent": "Fortuna Sittard",
+   "starters": [
+    {
+     "id": "espn:79505",
+     "name": "Ronald Koeman",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:356706",
+     "name": "Abdelnour Soualhia",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:319369",
+     "name": "Sem Valk",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:179181",
+     "name": "Marvin Peersman",
+     "number": "43",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301585",
+     "name": "Gabi Caschili",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306461",
+     "name": "Tyrone Owusu",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:388723",
+     "name": "Isaiah Ahmed",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:332709",
+     "name": "Nils Rossen",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:356979",
+     "name": "Nökkvi Thórisson",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306445",
+     "name": "Patrick Brouwer",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306553",
+     "name": "Ar'jany Martha",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401875556",
+   "date": "2026-11-06T19:00:00+00:00",
+   "competition": "ned.1",
+   "opponent": "Willem II",
+   "starters": [
+    {
+     "id": "espn:263619",
+     "name": "Jasper Schendelaar",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:131354",
+     "name": "Nick Viergever",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:295628",
+     "name": "Tijs Velthuis",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:333760",
+     "name": "Damian Van Der Haar",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:333618",
+     "name": "Olivier Aertssen",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:215159",
+     "name": "Younes Namli",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:313342",
+     "name": "Tobias Sommer",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:156146",
+     "name": "Ryan Thomas",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276819",
+     "name": "Sydney van Hooijdonk",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:286854",
+     "name": "Dylan Mbayo",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:415365",
+     "name": "Gilles Van Der Wal",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 1,
+   "out": [
+    "Nökkvi Thórisson"
+   ],
+   "in": [
+    "Emirhan Demircan"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Ronald Koeman",
+   "previous_goalkeeper": "Ronald Koeman"
+  },
+  "away": {
+   "count": 4,
+   "out": [
+    "Tijs Velthuis",
+    "Olivier Aertssen",
+    "Tobias Sommer",
+    "Gilles Van Der Wal"
+   ],
+   "in": [
+    "Simon Graves",
+    "Jan Bürger",
+    "Nick Fichtinger",
+    "Ibrahim Cissoko"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Jasper Schendelaar",
+   "previous_goalkeeper": "Jasper Schendelaar"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Nökkvi Thórisson",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 392,
+       "minutes_per_match": 78.4,
+       "per90": {
+        "xg": 0.22,
+        "xa": 0.03,
+        "shots": 3.44,
+        "key_passes": 0.46
+       },
+       "attack_share": 0.111
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 575,
+       "minutes_per_match": 57.5,
+       "per90": {
+        "xg": 0.25,
+        "xa": 0.04,
+        "shots": 3.29,
+        "key_passes": 0.47
+       },
+       "attack_share": 0.086
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Emirhan Demircan",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 126,
+       "minutes_per_match": 25.2,
+       "per90": {
+        "xg": 0.22,
+        "xa": 0.09,
+        "shots": 1.43,
+        "key_passes": 2.14
+       },
+       "attack_share": 0.044
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 171,
+       "minutes_per_match": 17.1,
+       "per90": {
+        "xg": 0.18,
+        "xa": 0.15,
+        "shots": 1.58,
+        "key_passes": 2.11
+       },
+       "attack_share": 0.03
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Nökkvi Thórisson",
+     "in": "Emirhan Demircan",
+     "delta_per90": {
+      "xg": -0.07,
+      "xa": 0.11,
+      "shots": -1.71,
+      "key_passes": 1.64
+     },
+     "attack_share_delta": -0.056
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Tijs Velthuis",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 101,
+       "minutes_per_match": 20.2,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.02,
+        "shots": 0.89,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.003
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 146,
+       "minutes_per_match": 14.6,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.02,
+        "shots": 0.62,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      }
+     }
+    },
+    {
+     "name": "Olivier Aertssen",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 414,
+       "minutes_per_match": 82.8,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.07,
+        "shots": 0.87,
+        "key_passes": 1.09
+       },
+       "attack_share": 0.062
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 843,
+       "minutes_per_match": 84.3,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.05,
+        "shots": 0.64,
+        "key_passes": 0.75
+       },
+       "attack_share": 0.048
+      }
+     }
+    },
+    {
+     "name": "Tobias Sommer",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 448,
+       "minutes_per_match": 89.6,
+       "per90": {
+        "xg": 0.12,
+        "xa": 0.21,
+        "shots": 1.0,
+        "key_passes": 1.61
+       },
+       "attack_share": 0.158
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 892,
+       "minutes_per_match": 89.2,
+       "per90": {
+        "xg": 0.11,
+        "xa": 0.16,
+        "shots": 1.01,
+        "key_passes": 1.82
+       },
+       "attack_share": 0.144
+      }
+     }
+    },
+    {
+     "name": "Gilles Van Der Wal",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 356,
+       "minutes_per_match": 71.2,
+       "per90": {
+        "xg": 0.16,
+        "xa": 0.14,
+        "shots": 2.53,
+        "key_passes": 0.76
+       },
+       "attack_share": 0.113
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 378,
+       "minutes_per_match": 37.8,
+       "per90": {
+        "xg": 0.17,
+        "xa": 0.13,
+        "shots": 2.86,
+        "key_passes": 0.71
+       },
+       "attack_share": 0.069
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Simon Graves",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 360,
+       "minutes_per_match": 72.0,
+       "per90": {
+        "xg": 0.13,
+        "xa": 0.02,
+        "shots": 0.75,
+        "key_passes": 1.25
+       },
+       "attack_share": 0.057
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 810,
+       "minutes_per_match": 81.0,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.03,
+        "shots": 0.67,
+        "key_passes": 0.89
+       },
+       "attack_share": 0.051
+      }
+     }
+    },
+    {
+     "name": "Jan Bürger",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 65,
+       "minutes_per_match": 13.0,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.25,
+        "shots": 1.38,
+        "key_passes": 1.38
+       },
+       "attack_share": 0.021
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 86,
+       "minutes_per_match": 8.6,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.22,
+        "shots": 3.14,
+        "key_passes": 1.05
+       },
+       "attack_share": 0.015
+      }
+     }
+    },
+    {
+     "name": "Nick Fichtinger",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 37,
+       "minutes_per_match": 7.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.02,
+        "shots": 0.0,
+        "key_passes": 4.86
+       },
+       "attack_share": 0.001
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 172,
+       "minutes_per_match": 17.2,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.03,
+        "shots": 0.52,
+        "key_passes": 1.05
+       },
+       "attack_share": 0.004
+      }
+     }
+    },
+    {
+     "name": "Ibrahim Cissoko",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 36,
+       "minutes_per_match": 7.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 2.5
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 270,
+       "minutes_per_match": 27.0,
+       "per90": {
+        "xg": 0.09,
+        "xa": 0.04,
+        "shots": 1.67,
+        "key_passes": 1.33
+       },
+       "attack_share": 0.021
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Tijs Velthuis",
+     "in": "Simon Graves",
+     "delta_per90": {
+      "xg": 0.06,
+      "xa": 0.01,
+      "shots": 0.05,
+      "key_passes": 0.89
+     },
+     "attack_share_delta": 0.049
+    },
+    {
+     "out": "Olivier Aertssen",
+     "in": "Jan Bürger",
+     "delta_per90": {
+      "xg": 0.03,
+      "xa": 0.17,
+      "shots": 2.5,
+      "key_passes": 0.3
+     },
+     "attack_share_delta": -0.033
+    },
+    {
+     "out": "Tobias Sommer",
+     "in": "Nick Fichtinger",
+     "delta_per90": {
+      "xg": -0.1,
+      "xa": -0.13,
+      "shots": -0.49,
+      "key_passes": -0.77
+     },
+     "attack_share_delta": -0.14
+    },
+    {
+     "out": "Gilles Van Der Wal",
+     "in": "Ibrahim Cissoko",
+     "delta_per90": {
+      "xg": -0.08,
+      "xa": -0.09,
+      "shots": -1.19,
+      "key_passes": 0.62
+     },
+     "attack_share_delta": -0.048
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [],
+  "away": [
+   {
+    "player": "Filip Krastev",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 2044923
+   },
+   {
+    "player": "Givaro Rahajaän",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": null
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 412,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.4634,
+    "DRAW": 0.2513,
+    "AWAY": 0.2853
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 2.1,
+     "bookmaker": "Coral",
+     "fair_odds_consensus": 2.158,
+     "ev_vs_consensus": -0.0269
+    },
+    "DRAW": {
+     "odds": 3.7,
+     "bookmaker": "Coral",
+     "fair_odds_consensus": 3.979,
+     "ev_vs_consensus": -0.0702
+    },
+    "AWAY": {
+     "odds": 3.4,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 3.505,
+     "ev_vs_consensus": -0.03
+    }
+   },
+   "median_overround": 0.0706,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.846,
+     "UNDER": 0.154
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.2,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.182,
+      "ev_vs_consensus": 0.0152
+     },
+     "UNDER": {
+      "odds": 5.2,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 6.494,
+      "ev_vs_consensus": -0.1992
+     }
+    },
+    "median_overround": 0.0772,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6117,
+     "UNDER": 0.3883
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.6,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.635,
+      "ev_vs_consensus": -0.0213
+     },
+     "UNDER": {
+      "odds": 2.4,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 2.575,
+      "ev_vs_consensus": -0.0681
+     }
+    },
+    "median_overround": 0.0738,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.4921,
+     "UNDER": 0.5079
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.95,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.032,
+      "ev_vs_consensus": -0.0404
+     },
+     "UNDER": {
+      "odds": 1.87,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 1.969,
+      "ev_vs_consensus": -0.0502
+     }
+    },
+    "median_overround": 0.0695,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.3782,
+     "UNDER": 0.6218
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.4,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 2.644,
+      "ev_vs_consensus": -0.0923
+     },
+     "UNDER": {
+      "odds": 1.6,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.608,
+      "ev_vs_consensus": -0.0051
+     }
+    },
+    "median_overround": 0.0738,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -0.16,
+  "DRAW": 0.35,
+  "AWAY": -0.19
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}

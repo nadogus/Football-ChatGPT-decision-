@@ -1,0 +1,1182 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-21T19:35:23.690815+00:00",
+ "minutes_before_kickoff": 24.605153083333335,
+ "match": {
+  "match_id": "QweLd3hK",
+  "home": "Real Madrid",
+  "away": "Celta Vigo",
+  "kickoff": "2026-11-21T20:00:00Z",
+  "competition": "LaLiga",
+  "category": "Spain"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-4-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:134283",
+     "name": "Thibaut Courtois",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:356000",
+     "name": "Dean Huijsen",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:251634",
+     "name": "Ibrahima Konaté",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310637",
+     "name": "Álvaro Carreras",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:223532",
+     "name": "Trent Alexander-Arnold",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310452",
+     "name": "Arda Güler",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:285150",
+     "name": "Eduardo Camavinga",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:199833",
+     "name": "Bernardo Silva",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:291281",
+     "name": "Jude Bellingham",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:402479",
+     "name": "Yan Diomande",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:231388",
+     "name": "Kylian Mbappé",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "3-4-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:144720",
+     "name": "Andrei Radu",
+     "number": "13",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:146127",
+     "name": "Marcos Alonso",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:384643",
+     "name": "Yoel Lago",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:376147",
+     "name": "Javi Rodríguez",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297829",
+     "name": "Ilaix Moriba",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:298343",
+     "name": "Sergio Carreira",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:414293",
+     "name": "Hugo Burcio",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:231838",
+     "name": "Javi Galán",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:138448",
+     "name": "Pablo Durán",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:322652",
+     "name": "Williot Swedberg",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:188391",
+     "name": "Hugo Álvarez",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401882808",
+   "date": "2026-11-07T20:00:00+00:00",
+   "competition": "esp.1",
+   "opponent": "Valencia",
+   "starters": [
+    {
+     "id": "espn:134283",
+     "name": "Thibaut Courtois",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:356000",
+     "name": "Dean Huijsen",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:251634",
+     "name": "Ibrahima Konaté",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259910",
+     "name": "Marc Cucurella",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:235818",
+     "name": "Federico Valverde",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:291281",
+     "name": "Jude Bellingham",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:265919",
+     "name": "Aurélien Tchouaméni",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:199833",
+     "name": "Bernardo Silva",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:231388",
+     "name": "Kylian Mbappé",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:402479",
+     "name": "Yan Diomande",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310452",
+     "name": "Arda Güler",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401882815",
+   "date": "2026-11-08T17:30:00+00:00",
+   "competition": "esp.1",
+   "opponent": "Levante",
+   "starters": [
+    {
+     "id": "espn:144720",
+     "name": "Andrei Radu",
+     "number": "13",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:285756",
+     "name": "Sebastián Cáceres",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:146127",
+     "name": "Marcos Alonso",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:376147",
+     "name": "Javi Rodríguez",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297829",
+     "name": "Ilaix Moriba",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:414292",
+     "name": "Andrés Antañón",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:298343",
+     "name": "Sergio Carreira",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:331586",
+     "name": "Javi Rueda",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:138448",
+     "name": "Pablo Durán",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:304592",
+     "name": "Couhaib Driouech",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:92800",
+     "name": "Iago Aspas",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-4-3"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 3,
+   "out": [
+    "Marc Cucurella",
+    "Federico Valverde",
+    "Aurélien Tchouaméni"
+   ],
+   "in": [
+    "Álvaro Carreras",
+    "Trent Alexander-Arnold",
+    "Eduardo Camavinga"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Thibaut Courtois",
+   "previous_goalkeeper": "Thibaut Courtois"
+  },
+  "away": {
+   "count": 5,
+   "out": [
+    "Sebastián Cáceres",
+    "Andrés Antañón",
+    "Javi Rueda",
+    "Couhaib Driouech",
+    "Iago Aspas"
+   ],
+   "in": [
+    "Yoel Lago",
+    "Hugo Burcio",
+    "Javi Galán",
+    "Williot Swedberg",
+    "Hugo Álvarez"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Andrei Radu",
+   "previous_goalkeeper": "Andrei Radu"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Marc Cucurella",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 371,
+       "minutes_per_match": 74.2,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.13,
+        "shots": 0.49,
+        "key_passes": 0.73
+       },
+       "attack_share": 0.038
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 764,
+       "minutes_per_match": 76.4,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.07,
+        "shots": 0.35,
+        "key_passes": 0.47
+       },
+       "attack_share": 0.028
+      }
+     }
+    },
+    {
+     "name": "Federico Valverde",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 265,
+       "minutes_per_match": 53.0,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.13,
+        "shots": 1.7,
+        "key_passes": 2.04
+       },
+       "attack_share": 0.026
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 710,
+       "minutes_per_match": 71.0,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.12,
+        "shots": 0.89,
+        "key_passes": 1.27
+       },
+       "attack_share": 0.034
+      }
+     }
+    },
+    {
+     "name": "Aurélien Tchouaméni",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 270,
+       "minutes_per_match": 54.0,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.02,
+        "shots": 1.0,
+        "key_passes": 0.67
+       },
+       "attack_share": 0.01
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 677,
+       "minutes_per_match": 67.7,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.02,
+        "shots": 0.93,
+        "key_passes": 0.8
+       },
+       "attack_share": 0.012
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Álvaro Carreras",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 79,
+       "minutes_per_match": 15.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.08,
+        "shots": 0.0,
+        "key_passes": 1.14
+       },
+       "attack_share": 0.003
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 136,
+       "minutes_per_match": 13.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.15,
+        "shots": 0.0,
+        "key_passes": 1.32
+       },
+       "attack_share": 0.006
+      }
+     }
+    },
+    {
+     "name": "Trent Alexander-Arnold",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 91,
+       "minutes_per_match": 18.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.22,
+        "shots": 0.0,
+        "key_passes": 1.98
+       },
+       "attack_share": 0.01
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 230,
+       "minutes_per_match": 23.0,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.29,
+        "shots": 0.39,
+        "key_passes": 2.35
+       },
+       "attack_share": 0.022
+      }
+     }
+    },
+    {
+     "name": "Eduardo Camavinga",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 209,
+       "minutes_per_match": 41.8,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.22,
+        "shots": 0.43,
+        "key_passes": 2.15
+       },
+       "attack_share": 0.024
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 253,
+       "minutes_per_match": 25.3,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.19,
+        "shots": 0.36,
+        "key_passes": 1.78
+       },
+       "attack_share": 0.015
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Marc Cucurella",
+     "in": "Álvaro Carreras",
+     "delta_per90": {
+      "xg": -0.04,
+      "xa": 0.08,
+      "shots": -0.35,
+      "key_passes": 0.85
+     },
+     "attack_share_delta": -0.022
+    },
+    {
+     "out": "Federico Valverde",
+     "in": "Trent Alexander-Arnold",
+     "delta_per90": {
+      "xg": -0.02,
+      "xa": 0.17,
+      "shots": -0.5,
+      "key_passes": 1.08
+     },
+     "attack_share_delta": -0.012
+    },
+    {
+     "out": "Aurélien Tchouaméni",
+     "in": "Eduardo Camavinga",
+     "delta_per90": {
+      "xg": -0.03,
+      "xa": 0.17,
+      "shots": -0.57,
+      "key_passes": 0.98
+     },
+     "attack_share_delta": 0.003
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Sebastián Cáceres",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 151,
+       "minutes_per_match": 30.2,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.01,
+        "shots": 0.6,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.003
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 408,
+       "minutes_per_match": 40.8,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.01,
+        "shots": 0.22,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.003
+      }
+     }
+    },
+    {
+     "name": "Andrés Antañón",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 152,
+       "minutes_per_match": 30.4,
+       "per90": {
+        "xg": 0.54,
+        "xa": 0.07,
+        "shots": 2.96,
+        "key_passes": 1.18
+       },
+       "attack_share": 0.061
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 177,
+       "minutes_per_match": 17.7,
+       "per90": {
+        "xg": 0.49,
+        "xa": 0.06,
+        "shots": 3.05,
+        "key_passes": 1.02
+       },
+       "attack_share": 0.039
+      }
+     }
+    },
+    {
+     "name": "Javi Rueda",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 284,
+       "minutes_per_match": 56.8,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.25,
+        "shots": 0.95,
+        "key_passes": 1.58
+       },
+       "attack_share": 0.062
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 634,
+       "minutes_per_match": 63.4,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.17,
+        "shots": 0.99,
+        "key_passes": 0.85
+       },
+       "attack_share": 0.059
+      }
+     }
+    },
+    {
+     "name": "Couhaib Driouech",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 122,
+       "minutes_per_match": 24.4,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.27,
+        "shots": 0.74,
+        "key_passes": 2.21
+       },
+       "attack_share": 0.023
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 239,
+       "minutes_per_match": 23.9,
+       "per90": {
+        "xg": 0.16,
+        "xa": 0.17,
+        "shots": 1.88,
+        "key_passes": 1.88
+       },
+       "attack_share": 0.031
+      }
+     }
+    },
+    {
+     "name": "Iago Aspas",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 174,
+       "minutes_per_match": 34.8,
+       "per90": {
+        "xg": 0.62,
+        "xa": 0.26,
+        "shots": 5.17,
+        "key_passes": 4.14
+       },
+       "attack_share": 0.101
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 272,
+       "minutes_per_match": 27.2,
+       "per90": {
+        "xg": 0.45,
+        "xa": 0.24,
+        "shots": 4.3,
+        "key_passes": 4.3
+       },
+       "attack_share": 0.076
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Yoel Lago",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 360,
+       "minutes_per_match": 72.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.01,
+        "shots": 0.25,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.006
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 720,
+       "minutes_per_match": 72.0,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.02,
+        "shots": 0.25,
+        "key_passes": 0.25
+       },
+       "attack_share": 0.01
+      }
+     }
+    },
+    {
+     "name": "Hugo Burcio",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 206,
+       "minutes_per_match": 41.2,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.03,
+        "shots": 1.31,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.011
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 367,
+       "minutes_per_match": 36.7,
+       "per90": {
+        "xg": 0.09,
+        "xa": 0.05,
+        "shots": 1.72,
+        "key_passes": 0.49
+       },
+       "attack_share": 0.021
+      }
+     }
+    },
+    {
+     "name": "Javi Galán",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 286,
+       "minutes_per_match": 57.2,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.15,
+        "shots": 0.63,
+        "key_passes": 1.57
+       },
+       "attack_share": 0.043
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 388,
+       "minutes_per_match": 38.8,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.12,
+        "shots": 0.46,
+        "key_passes": 1.39
+       },
+       "attack_share": 0.027
+      }
+     }
+    },
+    {
+     "name": "Williot Swedberg",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 157,
+       "minutes_per_match": 31.4,
+       "per90": {
+        "xg": 0.49,
+        "xa": 0.27,
+        "shots": 1.15,
+        "key_passes": 5.73
+       },
+       "attack_share": 0.079
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 374,
+       "minutes_per_match": 37.4,
+       "per90": {
+        "xg": 0.26,
+        "xa": 0.3,
+        "shots": 1.44,
+        "key_passes": 3.37
+       },
+       "attack_share": 0.083
+      }
+     }
+    },
+    {
+     "name": "Hugo Álvarez",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 237,
+       "minutes_per_match": 47.4,
+       "per90": {
+        "xg": 0.21,
+        "xa": 0.17,
+        "shots": 0.76,
+        "key_passes": 1.14
+       },
+       "attack_share": 0.06
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 658,
+       "minutes_per_match": 65.8,
+       "per90": {
+        "xg": 0.17,
+        "xa": 0.21,
+        "shots": 0.68,
+        "key_passes": 1.5
+       },
+       "attack_share": 0.099
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Sebastián Cáceres",
+     "in": "Yoel Lago",
+     "delta_per90": {
+      "xg": 0.01,
+      "xa": 0.01,
+      "shots": 0.03,
+      "key_passes": 0.25
+     },
+     "attack_share_delta": 0.007
+    },
+    {
+     "out": "Andrés Antañón",
+     "in": "Hugo Burcio",
+     "delta_per90": {
+      "xg": -0.4,
+      "xa": -0.01,
+      "shots": -1.33,
+      "key_passes": -0.53
+     },
+     "attack_share_delta": -0.018
+    },
+    {
+     "out": "Javi Rueda",
+     "in": "Javi Galán",
+     "delta_per90": {
+      "xg": -0.01,
+      "xa": -0.05,
+      "shots": -0.53,
+      "key_passes": 0.54
+     },
+     "attack_share_delta": -0.032
+    },
+    {
+     "out": "Couhaib Driouech",
+     "in": "Williot Swedberg",
+     "delta_per90": {
+      "xg": 0.1,
+      "xa": 0.13,
+      "shots": -0.44,
+      "key_passes": 1.49
+     },
+     "attack_share_delta": 0.052
+    },
+    {
+     "out": "Iago Aspas",
+     "in": "Hugo Álvarez",
+     "delta_per90": {
+      "xg": -0.28,
+      "xa": -0.03,
+      "shots": -3.62,
+      "key_passes": -2.8
+     },
+     "attack_share_delta": 0.023
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Ferland Mendy",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 2506810
+   },
+   {
+    "player": "Raúl Asencio",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 21030854
+   },
+   {
+    "player": "Rodrygo",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 39970483
+   }
+  ],
+  "away": [
+   {
+    "player": "Carl Starfelt",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 2096594
+   },
+   {
+    "player": "Miguel Román",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 16247709
+   },
+   {
+    "player": "Borja Iglesias",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 1675991
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 412,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.8459,
+    "DRAW": 0.101,
+    "AWAY": 0.0532
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.18,
+     "bookmaker": "Coral",
+     "fair_odds_consensus": 1.182,
+     "ev_vs_consensus": -0.0018
+    },
+    "DRAW": {
+     "odds": 9.0,
+     "bookmaker": "Skybet",
+     "fair_odds_consensus": 9.901,
+     "ev_vs_consensus": -0.091
+    },
+    "AWAY": {
+     "odds": 15.5,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 18.797,
+     "ev_vs_consensus": -0.1754
+    }
+   },
+   "median_overround": 0.0639,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3.5",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.9009,
+     "UNDER": 0.0991
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.11,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.11,
+      "ev_vs_consensus": -0.0
+     },
+     "UNDER": {
+      "odds": 9.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 10.091,
+      "ev_vs_consensus": -0.1081
+     }
+    },
+    "median_overround": 0.0629,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.7233,
+     "UNDER": 0.2767
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.37,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.383,
+      "ev_vs_consensus": -0.0091
+     },
+     "UNDER": {
+      "odds": 3.4,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 3.614,
+      "ev_vs_consensus": -0.0592
+     }
+    },
+    "median_overround": 0.0686,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4985,
+     "UNDER": 0.5015
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.93,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 2.006,
+      "ev_vs_consensus": -0.0379
+     },
+     "UNDER": {
+      "odds": 2.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 1.994,
+      "ev_vs_consensus": 0.003
+     }
+    },
+    "median_overround": 0.0713,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 0.09,
+  "DRAW": 0.0,
+  "AWAY": -0.08
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
