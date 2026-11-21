@@ -1,0 +1,827 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-21T17:18:33.580083+00:00",
+ "minutes_before_kickoff": 11.440331950000001,
+ "match": {
+  "match_id": "U5YSgNrR",
+  "home": "Newcastle",
+  "away": "Arsenal",
+  "kickoff": "2026-11-21T17:30:00Z",
+  "competition": "Premier League",
+  "category": "England"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:319267",
+     "name": "Lukás Hornícek",
+     "number": "21",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:303444",
+     "name": "Malick Thiaw",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:308979",
+     "name": "Amar Dedic",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:106139",
+     "name": "Lewis Hall",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:198138",
+     "name": "Dan Burn",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:384372",
+     "name": "Sean Steur",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259517",
+     "name": "Joe Willock",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:243386",
+     "name": "Harvey Barnes",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:349078",
+     "name": "Lewis Miley",
+     "number": "67",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:172836",
+     "name": "Jacob Murphy",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:319431",
+     "name": "William Osula",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:196176",
+     "name": "David Raya",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:298329",
+     "name": "Riccardo Calafiori",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:282716",
+     "name": "Jurriën Timber",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:231859",
+     "name": "Ezri Konsa",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:236322",
+     "name": "Gabriel Magalhães",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:218522",
+     "name": "Bruno Guimarães",
+     "number": "39",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:251400",
+     "name": "Eberechi Eze",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:293236",
+     "name": "Noni Madueke",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238262",
+     "name": "Declan Rice",
+     "number": "41",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:203669",
+     "name": "Martin Ødegaard",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:231182",
+     "name": "Kai Havertz",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 0.955,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401879241",
+   "date": "2026-11-07T15:00:00+00:00",
+   "competition": "eng.1",
+   "opponent": "Fulham",
+   "starters": [
+    {
+     "id": "espn:319267",
+     "name": "Lukás Hornícek",
+     "number": "21",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:198138",
+     "name": "Dan Burn",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303444",
+     "name": "Malick Thiaw",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:106139",
+     "name": "Lewis Hall",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:308979",
+     "name": "Amar Dedic",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:224077",
+     "name": "Yoane Wissa",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323986",
+     "name": "Nico González",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:384372",
+     "name": "Sean Steur",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:319431",
+     "name": "William Osula",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:243386",
+     "name": "Harvey Barnes",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:172836",
+     "name": "Jacob Murphy",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401878760",
+   "date": "2026-11-07T15:00:00+00:00",
+   "competition": "eng.1",
+   "opponent": "Hull City",
+   "starters": [
+    {
+     "id": "espn:196176",
+     "name": "David Raya",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:236322",
+     "name": "Gabriel Magalhães",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:231859",
+     "name": "Ezri Konsa",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:298329",
+     "name": "Riccardo Calafiori",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:282716",
+     "name": "Jurriën Timber",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:203669",
+     "name": "Martin Ødegaard",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238262",
+     "name": "Declan Rice",
+     "number": "41",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:218522",
+     "name": "Bruno Guimarães",
+     "number": "39",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:231182",
+     "name": "Kai Havertz",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303793",
+     "name": "Christos Tzolis",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:293236",
+     "name": "Noni Madueke",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 2,
+   "out": [
+    "Yoane Wissa",
+    "Nico González"
+   ],
+   "in": [
+    "Joe Willock",
+    "Lewis Miley"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Lukás Hornícek",
+   "previous_goalkeeper": "Lukás Hornícek"
+  },
+  "away": {
+   "count": 1,
+   "out": [
+    "Christos Tzolis"
+   ],
+   "in": [
+    "Eberechi Eze"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "David Raya",
+   "previous_goalkeeper": "David Raya"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Yoane Wissa",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 235,
+       "minutes_per_match": 47.0,
+       "per90": {
+        "xg": 0.46,
+        "xa": 0.06,
+        "shots": 5.36,
+        "key_passes": 0.77
+       },
+       "attack_share": 0.123
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 649,
+       "minutes_per_match": 64.9,
+       "per90": {
+        "xg": 0.35,
+        "xa": 0.03,
+        "shots": 2.91,
+        "key_passes": 0.69
+       },
+       "attack_share": 0.126
+      }
+     }
+    },
+    {
+     "name": "Nico González",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 386,
+       "minutes_per_match": 77.2,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.09,
+        "shots": 0.47,
+        "key_passes": 0.7
+       },
+       "attack_share": 0.039
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 662,
+       "minutes_per_match": 66.2,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.09,
+        "shots": 0.41,
+        "key_passes": 1.5
+       },
+       "attack_share": 0.034
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Joe Willock",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 316,
+       "minutes_per_match": 63.2,
+       "per90": {
+        "xg": 0.12,
+        "xa": 0.33,
+        "shots": 1.71,
+        "key_passes": 2.56
+       },
+       "attack_share": 0.143
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 646,
+       "minutes_per_match": 64.6,
+       "per90": {
+        "xg": 0.25,
+        "xa": 0.2,
+        "shots": 3.07,
+        "key_passes": 1.95
+       },
+       "attack_share": 0.149
+      }
+     }
+    },
+    {
+     "name": "Lewis Miley",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 119,
+       "minutes_per_match": 23.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.24,
+        "shots": 0.0,
+        "key_passes": 2.27
+       },
+       "attack_share": 0.029
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 418,
+       "minutes_per_match": 41.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.09,
+        "shots": 0.0,
+        "key_passes": 0.86
+       },
+       "attack_share": 0.019
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Yoane Wissa",
+     "in": "Joe Willock",
+     "delta_per90": {
+      "xg": -0.1,
+      "xa": 0.17,
+      "shots": 0.16,
+      "key_passes": 1.26
+     },
+     "attack_share_delta": 0.023
+    },
+    {
+     "out": "Nico González",
+     "in": "Lewis Miley",
+     "delta_per90": {
+      "xg": -0.01,
+      "xa": 0.0,
+      "shots": -0.41,
+      "key_passes": -0.64
+     },
+     "attack_share_delta": -0.015
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Christos Tzolis",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 181,
+       "minutes_per_match": 36.2,
+       "per90": {
+        "xg": 0.15,
+        "xa": 0.19,
+        "shots": 2.98,
+        "key_passes": 1.49
+       },
+       "attack_share": 0.041
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 254,
+       "minutes_per_match": 25.4,
+       "per90": {
+        "xg": 0.11,
+        "xa": 0.16,
+        "shots": 2.13,
+        "key_passes": 1.06
+       },
+       "attack_share": 0.024
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Eberechi Eze",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 187,
+       "minutes_per_match": 37.4,
+       "per90": {
+        "xg": 0.18,
+        "xa": 0.28,
+        "shots": 3.37,
+        "key_passes": 2.41
+       },
+       "attack_share": 0.058
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 414,
+       "minutes_per_match": 41.4,
+       "per90": {
+        "xg": 0.26,
+        "xa": 0.17,
+        "shots": 3.04,
+        "key_passes": 1.3
+       },
+       "attack_share": 0.062
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Christos Tzolis",
+     "in": "Eberechi Eze",
+     "delta_per90": {
+      "xg": 0.15,
+      "xa": 0.01,
+      "shots": 0.91,
+      "key_passes": 0.24
+     },
+     "attack_share_delta": 0.038
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Ewen Jaouen",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 23811733
+   },
+   {
+    "player": "Joelinton",
+    "reason": "injury",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": 17949602
+   }
+  ],
+  "away": [
+   {
+    "player": "Martín Zubimendi",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 69508062
+   },
+   {
+    "player": "Max Dowman",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 63461213
+   },
+   {
+    "player": "Bukayo Saka",
+    "reason": "injury",
+    "likelihood": "Late December 2026",
+    "market_value_eur": 97092702
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 420,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.1482,
+    "DRAW": 0.2113,
+    "AWAY": 0.6405
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 6.5,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 6.748,
+     "ev_vs_consensus": -0.0367
+    },
+    "DRAW": {
+     "odds": 4.5,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 4.733,
+     "ev_vs_consensus": -0.0492
+    },
+    "AWAY": {
+     "odds": 1.58,
+     "bookmaker": "7BetUK",
+     "fair_odds_consensus": 1.561,
+     "ev_vs_consensus": 0.012
+    }
+   },
+   "median_overround": 0.0647,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.75",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.808,
+     "UNDER": 0.192
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.25,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.238,
+      "ev_vs_consensus": 0.01
+     },
+     "UNDER": {
+      "odds": 4.5,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 5.208,
+      "ev_vs_consensus": -0.136
+     }
+    },
+    "median_overround": 0.067,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.5726,
+     "UNDER": 0.4274
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.78,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.746,
+      "ev_vs_consensus": 0.0192
+     },
+     "UNDER": {
+      "odds": 2.25,
+      "bookmaker": "Betway",
+      "fair_odds_consensus": 2.34,
+      "ev_vs_consensus": -0.0383
+     }
+    },
+    "median_overround": 0.0712,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.75": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.5,
+     "UNDER": 0.5
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.87,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 2.0,
+      "ev_vs_consensus": -0.065
+     },
+     "UNDER": {
+      "odds": 2.0,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.0,
+      "ev_vs_consensus": 0.0
+     }
+    },
+    "median_overround": 0.0695,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.3364,
+     "UNDER": 0.6636
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.9,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 2.973,
+      "ev_vs_consensus": -0.0244
+     },
+     "UNDER": {
+      "odds": 1.5,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.507,
+      "ev_vs_consensus": -0.0046
+     }
+    },
+    "median_overround": 0.0761,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -0.77,
+  "DRAW": -0.28,
+  "AWAY": 1.05
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}

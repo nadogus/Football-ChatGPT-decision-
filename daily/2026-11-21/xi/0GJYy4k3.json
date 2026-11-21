@@ -1,0 +1,686 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-21T17:18:33.580083+00:00",
+ "minutes_before_kickoff": 26.440331949999997,
+ "match": {
+  "match_id": "0GJYy4k3",
+  "home": "Utrecht",
+  "away": "Cambuur",
+  "kickoff": "2026-11-21T17:45:00Z",
+  "competition": "Eredivisie",
+  "category": "Netherlands"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:223162",
+     "name": "Vasilios Barkas",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:315705",
+     "name": "Matisse Didden",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276403",
+     "name": "Nikolas Panagiotou",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:319262",
+     "name": "Niklas Vesterlund",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365391",
+     "name": "Per Kloosterboer",
+     "number": "32",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:159252",
+     "name": "Joris van Overeem",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305670",
+     "name": "Yoann Cathline",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323173",
+     "name": "Marius Broholm",
+     "number": "80",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355506",
+     "name": "Oualid Agougil",
+     "number": "38",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:250528",
+     "name": "Dani de Wit",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:390471",
+     "name": "Artem Stepanov",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:298565",
+     "name": "Thijs Jansen",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:340532",
+     "name": "Billy Van Duijl",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:394751",
+     "name": "Morgan Costarelli",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:270887",
+     "name": "Devid Eugene Bouah",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364402",
+     "name": "Ismaël Baouf",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:337056",
+     "name": "Rafik El Arguioui",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:214655",
+     "name": "Mathieu Maertens",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259186",
+     "name": "Nicky Souren",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323989",
+     "name": "Ilyes Hamache",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338919",
+     "name": "Nicolas Binder",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:290512",
+     "name": "Jason Ceka",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 0.955,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401875549",
+   "date": "2026-11-08T19:00:00+00:00",
+   "competition": "ned.1",
+   "opponent": "NEC Nijmegen",
+   "starters": [
+    {
+     "id": "espn:223162",
+     "name": "Vasilios Barkas",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:276403",
+     "name": "Nikolas Panagiotou",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:315705",
+     "name": "Matisse Didden",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365391",
+     "name": "Per Kloosterboer",
+     "number": "32",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:319262",
+     "name": "Niklas Vesterlund",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:159252",
+     "name": "Joris van Overeem",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:250528",
+     "name": "Dani de Wit",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323173",
+     "name": "Marius Broholm",
+     "number": "80",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:390471",
+     "name": "Artem Stepanov",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305670",
+     "name": "Yoann Cathline",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:357698",
+     "name": "Ángel Alarcón",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-3-3"
+  },
+  "away": {
+   "match_id": "espn:401875553",
+   "date": "2026-11-08T15:45:00+00:00",
+   "competition": "ned.1",
+   "opponent": "PSV Eindhoven",
+   "starters": [
+    {
+     "id": "espn:298565",
+     "name": "Thijs Jansen",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:340532",
+     "name": "Billy Van Duijl",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364402",
+     "name": "Ismaël Baouf",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:394751",
+     "name": "Morgan Costarelli",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:270887",
+     "name": "Devid Eugene Bouah",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259186",
+     "name": "Nicky Souren",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:337056",
+     "name": "Rafik El Arguioui",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:214655",
+     "name": "Mathieu Maertens",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338919",
+     "name": "Nicolas Binder",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323989",
+     "name": "Ilyes Hamache",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:290512",
+     "name": "Jason Ceka",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-3-3"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 1,
+   "out": [
+    "Ángel Alarcón"
+   ],
+   "in": [
+    "Oualid Agougil"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Vasilios Barkas",
+   "previous_goalkeeper": "Vasilios Barkas"
+  },
+  "away": {
+   "count": 0,
+   "out": [],
+   "in": [],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Thijs Jansen",
+   "previous_goalkeeper": "Thijs Jansen"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Ángel Alarcón",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 323,
+       "minutes_per_match": 64.6,
+       "per90": {
+        "xg": 0.21,
+        "xa": 0.21,
+        "shots": 3.62,
+        "key_passes": 0.84
+       },
+       "attack_share": 0.146
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 603,
+       "minutes_per_match": 60.3,
+       "per90": {
+        "xg": 0.18,
+        "xa": 0.18,
+        "shots": 2.99,
+        "key_passes": 1.04
+       },
+       "attack_share": 0.123
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Oualid Agougil",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 307,
+       "minutes_per_match": 61.4,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.15,
+        "shots": 1.76,
+        "key_passes": 2.05
+       },
+       "attack_share": 0.077
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 389,
+       "minutes_per_match": 38.9,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.17,
+        "shots": 1.39,
+        "key_passes": 2.54
+       },
+       "attack_share": 0.052
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Ángel Alarcón",
+     "in": "Oualid Agougil",
+     "delta_per90": {
+      "xg": -0.12,
+      "xa": -0.01,
+      "shots": -1.6,
+      "key_passes": 1.5
+     },
+     "attack_share_delta": -0.071
+    }
+   ]
+  },
+  "away": {
+   "status": "KADRO_FARKI_YOK"
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Alonzo Engwanda",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 10047549
+   },
+   {
+    "player": "Kevin Paredes",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 1540012
+   },
+   {
+    "player": "Victor Jensen",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 1457525
+   },
+   {
+    "player": "Miliano Jonathans",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 913219
+   },
+   {
+    "player": "Noah Ohio",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 631080
+   }
+  ],
+  "away": [
+   {
+    "player": "Jasper Meijster",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": null
+   },
+   {
+    "player": "Jamal Amofa",
+    "reason": "injury",
+    "likelihood": "Early July 2027",
+    "market_value_eur": 274441
+   },
+   {
+    "player": "Damian Westerhof",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": null
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 410,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.4831,
+    "DRAW": 0.2367,
+    "AWAY": 0.2802
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 2.05,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 2.07,
+     "ev_vs_consensus": -0.0096
+    },
+    "DRAW": {
+     "odds": 4.0,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 4.225,
+     "ev_vs_consensus": -0.0532
+    },
+    "AWAY": {
+     "odds": 3.4,
+     "bookmaker": "BetVictor",
+     "fair_odds_consensus": 3.569,
+     "ev_vs_consensus": -0.0473
+    }
+   },
+   "median_overround": 0.0709,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3.25",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8722,
+     "UNDER": 0.1278
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.17,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 1.147,
+      "ev_vs_consensus": 0.0205
+     },
+     "UNDER": {
+      "odds": 6.5,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 7.825,
+      "ev_vs_consensus": -0.1693
+     }
+    },
+    "median_overround": 0.0747,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6633,
+     "UNDER": 0.3367
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.5,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 1.508,
+      "ev_vs_consensus": -0.005
+     },
+     "UNDER": {
+      "odds": 2.88,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 2.97,
+      "ev_vs_consensus": -0.0303
+     }
+    },
+    "median_overround": 0.0747,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.25": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.4858,
+     "UNDER": 0.5142
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.95,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 2.058,
+      "ev_vs_consensus": -0.0527
+     },
+     "UNDER": {
+      "odds": 1.85,
+      "bookmaker": "7BetUK",
+      "fair_odds_consensus": 1.945,
+      "ev_vs_consensus": -0.0487
+     }
+    },
+    "median_overround": 0.0684,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4363,
+     "UNDER": 0.5637
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.2,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 2.292,
+      "ev_vs_consensus": -0.0401
+     },
+     "UNDER": {
+      "odds": 1.78,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.774,
+      "ev_vs_consensus": 0.0034
+     }
+    },
+    "median_overround": 0.075,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -1.85,
+  "DRAW": 0.74,
+  "AWAY": 1.11
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}

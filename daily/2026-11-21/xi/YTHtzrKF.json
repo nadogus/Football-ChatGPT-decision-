@@ -1,0 +1,762 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-21T17:18:33.580083+00:00",
+ "minutes_before_kickoff": 26.440331949999997,
+ "match": {
+  "match_id": "YTHtzrKF",
+  "home": "Feyenoord",
+  "away": "Excelsior",
+  "kickoff": "2026-11-21T17:45:00Z",
+  "competition": "Eredivisie",
+  "category": "Netherlands"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:335870",
+     "name": "Tjark Ernst",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:343202",
+     "name": "Thijs Kraaijeveld",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276279",
+     "name": "Tsuyoshi Watanabe",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:332573",
+     "name": "Mika Mármol",
+     "number": "35",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:337084",
+     "name": "Givairo Read",
+     "number": "26",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:319296",
+     "name": "Luciano Valente",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365021",
+     "name": "Gjivai Zechiël",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276260",
+     "name": "Charles Vanhoutte",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364582",
+     "name": "Nacho Ferri",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:227794",
+     "name": "Reiss Nelson",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:415969",
+     "name": "Jerayno Schaken",
+     "number": "57",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:196688",
+     "name": "Stijn van Gassel",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:386880",
+     "name": "Jan Plug",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303840",
+     "name": "Casper Widell",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:366388",
+     "name": "Kasey Bos",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305597",
+     "name": "Rick Meissen",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:321080",
+     "name": "Lennard Hartjes",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:343207",
+     "name": "Irakli Yegoian",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:321341",
+     "name": "Noah Naujoks",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:340197",
+     "name": "Mario Dominguez",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:321905",
+     "name": "Ágúst Þorsteinsson",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:388327",
+     "name": "Aymen Sliti",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 0.955,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401875551",
+   "date": "2026-11-08T11:15:00+00:00",
+   "competition": "ned.1",
+   "opponent": "Heerenveen",
+   "starters": [
+    {
+     "id": "espn:335870",
+     "name": "Tjark Ernst",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:332573",
+     "name": "Mika Mármol",
+     "number": "35",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276279",
+     "name": "Tsuyoshi Watanabe",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297354",
+     "name": "Javi López",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:337084",
+     "name": "Givairo Read",
+     "number": "26",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276260",
+     "name": "Charles Vanhoutte",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:313354",
+     "name": "Oussama Targhaline",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365021",
+     "name": "Gjivai Zechiël",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364582",
+     "name": "Nacho Ferri",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:319296",
+     "name": "Luciano Valente",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:341711",
+     "name": "Anis Hadj Moussa",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-3-3"
+  },
+  "away": {
+   "match_id": "espn:401875554",
+   "date": "2026-11-07T20:00:00+00:00",
+   "competition": "ned.1",
+   "opponent": "Go Ahead Eagles",
+   "starters": [
+    {
+     "id": "espn:196688",
+     "name": "Stijn van Gassel",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:386880",
+     "name": "Jan Plug",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303840",
+     "name": "Casper Widell",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:366388",
+     "name": "Kasey Bos",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305597",
+     "name": "Rick Meissen",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:321341",
+     "name": "Noah Naujoks",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:343207",
+     "name": "Irakli Yegoian",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:321080",
+     "name": "Lennard Hartjes",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:340197",
+     "name": "Mario Dominguez",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:321905",
+     "name": "Ágúst Þorsteinsson",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:388327",
+     "name": "Aymen Sliti",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 3,
+   "out": [
+    "Javi López",
+    "Oussama Targhaline",
+    "Anis Hadj Moussa"
+   ],
+   "in": [
+    "Thijs Kraaijeveld",
+    "Reiss Nelson",
+    "Jerayno Schaken"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Tjark Ernst",
+   "previous_goalkeeper": "Tjark Ernst"
+  },
+  "away": {
+   "count": 0,
+   "out": [],
+   "in": [],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Stijn van Gassel",
+   "previous_goalkeeper": "Stijn van Gassel"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Javi López",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 377,
+       "minutes_per_match": 75.4,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.19,
+        "shots": 1.19,
+        "key_passes": 0.72
+       },
+       "attack_share": 0.082
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 611,
+       "minutes_per_match": 61.1,
+       "per90": {
+        "xg": 0.11,
+        "xa": 0.12,
+        "shots": 1.18,
+        "key_passes": 0.74
+       },
+       "attack_share": 0.043
+      }
+     }
+    },
+    {
+     "name": "Oussama Targhaline",
+     "windows": null,
+     "note": "son maçlarda istatistik yok (yeni transfer / veri boşluğu)"
+    },
+    {
+     "name": "Anis Hadj Moussa",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 450,
+       "minutes_per_match": 90.0,
+       "per90": {
+        "xg": 0.12,
+        "xa": 0.22,
+        "shots": 2.8,
+        "key_passes": 1.6
+       },
+       "attack_share": 0.124
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 899,
+       "minutes_per_match": 89.9,
+       "per90": {
+        "xg": 0.19,
+        "xa": 0.32,
+        "shots": 3.0,
+        "key_passes": 2.1
+       },
+       "attack_share": 0.137
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Thijs Kraaijeveld",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 104,
+       "minutes_per_match": 20.8,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.02,
+        "shots": 0.87,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.004
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 180,
+       "minutes_per_match": 18.0,
+       "per90": {
+        "xg": 0.11,
+        "xa": 0.01,
+        "shots": 1.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.007
+      }
+     }
+    },
+    {
+     "name": "Reiss Nelson",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 0,
+       "minutes": 0,
+       "minutes_per_match": 0.0,
+       "per90": null,
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 1,
+       "minutes": 12,
+       "minutes_per_match": 1.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.22,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.001
+      }
+     }
+    },
+    {
+     "name": "Jerayno Schaken",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 53,
+       "minutes_per_match": 10.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.03,
+        "shots": 0.0,
+        "key_passes": 1.7
+       },
+       "attack_share": 0.001
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 3,
+       "minutes": 54,
+       "minutes_per_match": 5.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.03,
+        "shots": 0.0,
+        "key_passes": 1.67
+       },
+       "attack_share": 0.001
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Javi López",
+     "in": "Thijs Kraaijeveld",
+     "delta_per90": {
+      "xg": 0.0,
+      "xa": -0.11,
+      "shots": -0.18,
+      "key_passes": -0.74
+     },
+     "attack_share_delta": -0.036
+    },
+    {
+     "out": "Anis Hadj Moussa",
+     "in": "Jerayno Schaken",
+     "delta_per90": {
+      "xg": -0.19,
+      "xa": -0.29,
+      "shots": -3.0,
+      "key_passes": -0.43
+     },
+     "attack_share_delta": -0.136
+    }
+   ]
+  },
+  "away": {
+   "status": "KADRO_FARKI_YOK"
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Anis Hadj Moussa",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 30801418
+   },
+   {
+    "player": "Jeremiah St. Juste",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 1752296
+   },
+   {
+    "player": "Bart Nieuwkoop",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 850843
+   },
+   {
+    "player": "Jordan Bos",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 15524694
+   },
+   {
+    "player": "Thomas Beelen",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 2394100
+   },
+   {
+    "player": "Jakub Moder",
+    "reason": "injury",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": 6028345
+   }
+  ],
+  "away": [
+   {
+    "player": "Nesto Groen",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 384059
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 420,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.8002,
+    "DRAW": 0.1248,
+    "AWAY": 0.075
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.27,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 1.25,
+     "ev_vs_consensus": 0.0163
+    },
+    "DRAW": {
+     "odds": 7.0,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 8.013,
+     "ev_vs_consensus": -0.1264
+    },
+    "AWAY": {
+     "odds": 13.0,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 13.333,
+     "ev_vs_consensus": -0.025
+    }
+   },
+   "median_overround": 0.0723,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3.5",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.9094,
+     "UNDER": 0.0906
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.11,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.1,
+      "ev_vs_consensus": 0.0094
+     },
+     "UNDER": {
+      "odds": 8.5,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 11.038,
+      "ev_vs_consensus": -0.2299
+     }
+    },
+    "median_overround": 0.0688,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.7245,
+     "UNDER": 0.2755
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.37,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.38,
+      "ev_vs_consensus": -0.0074
+     },
+     "UNDER": {
+      "odds": 3.4,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 3.63,
+      "ev_vs_consensus": -0.0633
+     }
+    },
+    "median_overround": 0.0714,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.503,
+     "UNDER": 0.497
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.91,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.988,
+      "ev_vs_consensus": -0.0393
+     },
+     "UNDER": {
+      "odds": 1.91,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 2.012,
+      "ev_vs_consensus": -0.0507
+     }
+    },
+    "median_overround": 0.0791,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -3.3,
+  "DRAW": 1.99,
+  "AWAY": 1.31
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
