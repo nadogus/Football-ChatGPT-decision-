@@ -99,9 +99,9 @@
    2,
    0
   ],
-  "minute": "56‎’‎",
-  "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5749755": {
   "flashscore_id": "dYHdwsEi",
@@ -109,12 +109,12 @@
   "home": "Lazio",
   "away": "Lecce",
   "score": [
-   1,
+   3,
    0
   ],
-  "minute": "62‎’‎",
-  "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5881225": {
   "flashscore_id": "SSCCdgUi",
@@ -122,12 +122,12 @@
   "home": "Bayer Leverkusen",
   "away": "Paderborn",
   "score": [
-   1,
+   4,
    0
   ],
-  "minute": "HT",
+  "minute": "77‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5881227": {
   "flashscore_id": "K2q8Ytr2",
@@ -138,9 +138,9 @@
    0,
    0
   ],
-  "minute": "HT",
+  "minute": "77‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5881228": {
   "flashscore_id": "zgGKfXb4",
@@ -151,9 +151,9 @@
    1,
    0
   ],
-  "minute": "HT",
+  "minute": "76‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5881229": {
   "flashscore_id": "G6zXl2Sr",
@@ -162,11 +162,11 @@
   "away": "Freiburg",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "HT",
+  "minute": "77‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5881231": {
   "flashscore_id": "Cxt0z3Dk",
@@ -175,11 +175,11 @@
   "away": "RB Leipzig",
   "score": [
    1,
-   1
+   3
   ],
-  "minute": "49‎’‎",
+  "minute": "74‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5836934": {
   "flashscore_id": "ANn91yYI",
@@ -190,9 +190,9 @@
    1,
    1
   ],
-  "minute": "19‎’‎",
+  "minute": "48‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5836936": {
   "flashscore_id": "rolIjmHG",
@@ -203,9 +203,9 @@
    0,
    0
   ],
-  "minute": "19‎’‎",
+  "minute": "49‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5836937": {
   "flashscore_id": "rT6S6W9b",
@@ -213,12 +213,12 @@
   "home": "Middlesbrough",
   "away": "Bristol City",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "19‎’‎",
+  "minute": "49‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5836940": {
   "flashscore_id": "2c3r3l9N",
@@ -229,9 +229,9 @@
    2,
    0
   ],
-  "minute": "18‎’‎",
+  "minute": "48‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5836942": {
   "flashscore_id": "QZt0LVOi",
@@ -242,9 +242,9 @@
    0,
    0
   ],
-  "minute": "18‎’‎",
+  "minute": "47‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5836944": {
   "flashscore_id": "Yap8J9g4",
@@ -255,9 +255,9 @@
    0,
    1
   ],
-  "minute": "19‎’‎",
+  "minute": "47‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5811812": {
   "flashscore_id": "MXWPYY3L",
@@ -265,12 +265,12 @@
   "home": "Sporting Charleroi",
   "away": "St.Truiden",
   "score": [
-   0,
-   0
+   1,
+   1
   ],
-  "minute": "15‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5795516": {
   "flashscore_id": "6VagL2x2",
@@ -281,9 +281,9 @@
    0,
    0
   ],
-  "minute": "18‎’‎",
+  "minute": "48‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5795515": {
   "flashscore_id": "YH1oNO7k",
@@ -291,12 +291,12 @@
   "home": "AFC Bournemouth",
   "away": "Nottingham Forest",
   "score": [
-   0,
+   2,
    0
   ],
-  "minute": "19‎’‎",
+  "minute": "47‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5795518": {
   "flashscore_id": "KhjmspaL",
@@ -304,12 +304,12 @@
   "home": "Chelsea",
   "away": "Leeds United",
   "score": [
-   0,
-   0
+   1,
+   1
   ],
-  "minute": "18‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5795519": {
   "flashscore_id": "GOyJyOMr",
@@ -317,12 +317,12 @@
   "home": "Coventry City",
   "away": "Crystal Palace",
   "score": [
-   1,
-   1
+   2,
+   2
   ],
-  "minute": "18‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5795524": {
   "flashscore_id": "0lPbl16l",
@@ -333,9 +333,9 @@
    1,
    0
   ],
-  "minute": "18‎’‎",
+  "minute": "47‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  },
  "5868138": {
   "flashscore_id": "Yq8ZYa0D",
@@ -344,10 +344,23 @@
   "away": "Valencia",
   "score": [
    0,
+   1
+  ],
+  "minute": "HT",
+  "finished": false,
+  "updated": "2026-11-21T16:05:39Z"
+ },
+ "5904810": {
+  "flashscore_id": "nyIcqLqT",
+  "competition": "Super Lig",
+  "home": "Kocaelispor",
+  "away": "Fenerbahçe",
+  "score": [
+   0,
    0
   ],
-  "minute": "2‎’‎",
+  "minute": "6‎’‎",
   "finished": false,
-  "updated": "2026-11-21T15:18:21Z"
+  "updated": "2026-11-21T16:05:39Z"
  }
 }

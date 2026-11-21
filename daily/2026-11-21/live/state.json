@@ -26,7 +26,8 @@
   "KhjmspaL": "5795518",
   "GOyJyOMr": "5795519",
   "0lPbl16l": "5795524",
-  "Yq8ZYa0D": "5868138"
+  "Yq8ZYa0D": "5868138",
+  "nyIcqLqT": "5904810"
  },
  "alerts": {
   "5795522": [
@@ -37,6 +38,18 @@
   ],
   "5881231": [
    "baski_1"
+  ],
+  "5881227": [
+   "baski_1"
+  ],
+  "5836934": [
+   "baski_0"
+  ],
+  "5836944": [
+   "acik_mac"
+  ],
+  "5811812": [
+   "kirmizi_1_1"
   ]
  },
  "errors": [
@@ -63,6 +76,21 @@
   {
    "t": "2026-11-21T15:18:21.055759+00:00",
    "match": "Q72FHmOG",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-21T16:05:39.537567+00:00",
+   "match": "0pwdq59j",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-21T16:05:39.537567+00:00",
+   "match": "Q72FHmOG",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-21T16:05:39.537567+00:00",
+   "match": "CxCKSaCk",
    "reason": "LOW_MATCH_SCORE"
   }
  ]
