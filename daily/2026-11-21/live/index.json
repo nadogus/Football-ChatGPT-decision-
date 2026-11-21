@@ -96,12 +96,12 @@
   "home": "Como",
   "away": "Cagliari",
   "score": [
-   1,
+   2,
    0
   ],
-  "minute": "26‎’‎",
+  "minute": "56‎’‎",
   "finished": false,
-  "updated": "2026-11-21T14:28:38Z"
+  "updated": "2026-11-21T15:18:21Z"
  },
  "5749755": {
   "flashscore_id": "dYHdwsEi",
@@ -112,9 +112,9 @@
    1,
    0
   ],
-  "minute": "28‎’‎",
+  "minute": "62‎’‎",
   "finished": false,
-  "updated": "2026-11-21T14:28:38Z"
+  "updated": "2026-11-21T15:18:21Z"
  },
  "5881225": {
   "flashscore_id": "SSCCdgUi",
@@ -122,12 +122,12 @@
   "home": "Bayer Leverkusen",
   "away": "Paderborn",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": null,
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-21T14:28:38Z"
+  "updated": "2026-11-21T15:18:21Z"
  },
  "5881227": {
   "flashscore_id": "K2q8Ytr2",
@@ -138,9 +138,9 @@
    0,
    0
   ],
-  "minute": null,
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-21T14:28:38Z"
+  "updated": "2026-11-21T15:18:21Z"
  },
  "5881228": {
   "flashscore_id": "zgGKfXb4",
@@ -148,12 +148,12 @@
   "home": "Eintracht Frankfurt",
   "away": "Hoffenheim",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": null,
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-21T14:28:38Z"
+  "updated": "2026-11-21T15:18:21Z"
  },
  "5881229": {
   "flashscore_id": "G6zXl2Sr",
@@ -164,9 +164,9 @@
    0,
    0
   ],
-  "minute": null,
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-21T14:28:38Z"
+  "updated": "2026-11-21T15:18:21Z"
  },
  "5881231": {
   "flashscore_id": "Cxt0z3Dk",
@@ -174,11 +174,180 @@
   "home": "Union Berlin",
   "away": "RB Leipzig",
   "score": [
+   1,
+   1
+  ],
+  "minute": "49‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5836934": {
+  "flashscore_id": "ANn91yYI",
+  "competition": "Championship",
+  "home": "Bolton Wanderers",
+  "away": "Portsmouth",
+  "score": [
+   1,
+   1
+  ],
+  "minute": "19‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5836936": {
+  "flashscore_id": "rolIjmHG",
+  "competition": "Championship",
+  "home": "Lincoln City",
+  "away": "Wrexham",
+  "score": [
    0,
    0
   ],
-  "minute": null,
+  "minute": "19‎’‎",
   "finished": false,
-  "updated": "2026-11-21T14:28:38Z"
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5836937": {
+  "flashscore_id": "rT6S6W9b",
+  "competition": "Championship",
+  "home": "Middlesbrough",
+  "away": "Bristol City",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "19‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5836940": {
+  "flashscore_id": "2c3r3l9N",
+  "competition": "Championship",
+  "home": "Sheffield United",
+  "away": "Watford",
+  "score": [
+   2,
+   0
+  ],
+  "minute": "18‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5836942": {
+  "flashscore_id": "QZt0LVOi",
+  "competition": "Championship",
+  "home": "Stoke City",
+  "away": "Birmingham City",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "18‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5836944": {
+  "flashscore_id": "Yap8J9g4",
+  "competition": "Championship",
+  "home": "West Ham United",
+  "away": "Preston North End",
+  "score": [
+   0,
+   1
+  ],
+  "minute": "19‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5811812": {
+  "flashscore_id": "MXWPYY3L",
+  "competition": "Jupiler Pro League",
+  "home": "Sporting Charleroi",
+  "away": "St.Truiden",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "15‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5795516": {
+  "flashscore_id": "6VagL2x2",
+  "competition": "Premier League",
+  "home": "Aston Villa",
+  "away": "Sunderland",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "18‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5795515": {
+  "flashscore_id": "YH1oNO7k",
+  "competition": "Premier League",
+  "home": "AFC Bournemouth",
+  "away": "Nottingham Forest",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "19‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5795518": {
+  "flashscore_id": "KhjmspaL",
+  "competition": "Premier League",
+  "home": "Chelsea",
+  "away": "Leeds United",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "18‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5795519": {
+  "flashscore_id": "GOyJyOMr",
+  "competition": "Premier League",
+  "home": "Coventry City",
+  "away": "Crystal Palace",
+  "score": [
+   1,
+   1
+  ],
+  "minute": "18‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5795524": {
+  "flashscore_id": "0lPbl16l",
+  "competition": "Premier League",
+  "home": "Tottenham Hotspur",
+  "away": "Ipswich Town",
+  "score": [
+   1,
+   0
+  ],
+  "minute": "18‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
+ },
+ "5868138": {
+  "flashscore_id": "Yq8ZYa0D",
+  "competition": "LaLiga",
+  "home": "Rayo Vallecano",
+  "away": "Valencia",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "2‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T15:18:21Z"
  }
 }
