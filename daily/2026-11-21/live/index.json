@@ -357,10 +357,75 @@
   "away": "Fenerbahçe",
   "score": [
    0,
+   1
+  ],
+  "minute": "71‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T17:29:57Z"
+ },
+ "5749758": {
+  "flashscore_id": "tMNkSG5j",
+  "competition": "Serie A",
+  "home": "Parma",
+  "away": "Roma",
+  "score": [
+   0,
    0
   ],
-  "minute": "HT",
+  "minute": "30‎’‎",
   "finished": false,
-  "updated": "2026-11-21T16:51:37Z"
+  "updated": "2026-11-21T17:29:57Z"
+ },
+ "5811813": {
+  "flashscore_id": "viCcmYIE",
+  "competition": "Jupiler Pro League",
+  "home": "Genk",
+  "away": "RAAL La Louvière",
+  "score": [
+   1,
+   0
+  ],
+  "minute": "14‎’‎",
+  "finished": false,
+  "updated": "2026-11-21T17:29:57Z"
+ },
+ "5881230": {
+  "flashscore_id": "KMZ1fO4L",
+  "competition": "Bundesliga",
+  "home": "Schalke 04",
+  "away": "VfB Stuttgart",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-21T17:29:57Z"
+ },
+ "5868140": {
+  "flashscore_id": "zDtiisGs",
+  "competition": "LaLiga",
+  "home": "Sevilla",
+  "away": "Real Betis",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-21T17:29:57Z"
+ },
+ "5795523": {
+  "flashscore_id": "U5YSgNrR",
+  "competition": "Premier League",
+  "home": "Newcastle United",
+  "away": "Arsenal",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-21T17:29:57Z"
  }
 }

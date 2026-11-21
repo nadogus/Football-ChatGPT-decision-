@@ -27,7 +27,12 @@
   "GOyJyOMr": "5795519",
   "0lPbl16l": "5795524",
   "Yq8ZYa0D": "5868138",
-  "nyIcqLqT": "5904810"
+  "nyIcqLqT": "5904810",
+  "tMNkSG5j": "5749758",
+  "viCcmYIE": "5811813",
+  "KMZ1fO4L": "5881230",
+  "zDtiisGs": "5868140",
+  "U5YSgNrR": "5795523"
  },
  "alerts": {
   "5795522": [
@@ -110,6 +115,16 @@
   },
   {
    "t": "2026-11-21T16:51:37.173543+00:00",
+   "match": "Ch0xovNM",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-21T17:29:57.803021+00:00",
+   "match": "CxCKSaCk",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-21T17:29:57.803021+00:00",
    "match": "Ch0xovNM",
    "reason": "LOW_MATCH_SCORE"
   }
