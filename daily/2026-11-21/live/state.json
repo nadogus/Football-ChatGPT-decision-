@@ -6,7 +6,14 @@
   "MuVKeqEE": "5795522",
   "8tJwQ4Hr": "5868131",
   "hzQmRLNp": "5904806",
-  "0KJkosFG": "5904809"
+  "0KJkosFG": "5904809",
+  "WSisyiXN": "5749753",
+  "dYHdwsEi": "5749755",
+  "SSCCdgUi": "5881225",
+  "K2q8Ytr2": "5881227",
+  "zgGKfXb4": "5881228",
+  "G6zXl2Sr": "5881229",
+  "Cxt0z3Dk": "5881231"
  },
  "alerts": {
   "5795522": [
@@ -21,6 +28,11 @@
   },
   {
    "t": "2026-11-21T13:37:51.001076+00:00",
+   "match": "Gt5z5AvB",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-21T14:28:38.927385+00:00",
    "match": "Gt5z5AvB",
    "reason": "LOW_MATCH_SCORE"
   }
