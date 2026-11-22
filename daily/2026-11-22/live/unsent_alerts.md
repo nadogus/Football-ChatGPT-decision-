@@ -599,3 +599,20 @@ _Uyarıdır, karar değildir._
 xG 0.18–0.86 · xGOT 0.00–1.68 · ceza sahası topla buluşma 5–4 · isabetli şut 0–5
 Karar için Claude'a yaz: `canlı bak 5868134`
 _Uyarıdır, karar değildir._
+
+---
+20:47 UTC
+⚡ *Canlı uyarı* — Marseille 2-0 Le Mans (HT)
+• Marseille son ~15 dk'da +0.94 xG üretti
+• Le Mans son ~15 dk'da +1.29 xG üretti
+xG 1.30–1.49 · xGOT 1.71–0.93 · ceza sahası topla buluşma 10–13 · isabetli şut 4–2
+Karar için Claude'a yaz: `canlı bak 5802994`
+_Uyarıdır, karar değildir._
+
+---
+20:47 UTC
+⚡ *Canlı uyarı* — Atalanta 1-2 Inter (HT)
+• Inter son ~15 dk'da +0.97 xG üretti
+xG 0.76–1.85 · xGOT 1.04–2.24 · ceza sahası topla buluşma 15–23 · isabetli şut 4–4
+Karar için Claude'a yaz: `canlı bak 5749751`
+_Uyarıdır, karar değildir._

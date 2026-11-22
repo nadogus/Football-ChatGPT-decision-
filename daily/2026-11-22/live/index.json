@@ -317,12 +317,12 @@
   "home": "Marseille",
   "away": "Le Mans",
   "score": [
-   1,
+   2,
    0
   ],
-  "minute": "38‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T20:23:57Z"
+  "updated": "2026-11-22T20:47:33Z"
  },
  "5749751": {
   "flashscore_id": "jkjRvZXb",
@@ -333,9 +333,9 @@
    1,
    2
   ],
-  "minute": "39‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T20:23:57Z"
+  "updated": "2026-11-22T20:47:33Z"
  },
  "5868134": {
   "flashscore_id": "GQCupQ8E",
@@ -344,10 +344,10 @@
   "away": "Atlético Madrid",
   "score": [
    0,
-   1
+   2
   ],
-  "minute": "23‎’‎",
+  "minute": "47‎’‎",
   "finished": false,
-  "updated": "2026-11-22T20:23:57Z"
+  "updated": "2026-11-22T20:47:33Z"
  }
 }
