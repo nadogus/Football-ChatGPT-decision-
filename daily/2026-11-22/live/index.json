@@ -304,12 +304,12 @@
   "home": "Lommel",
   "away": "Standard Liège",
   "score": [
-   0,
+   1,
    2
   ],
-  "minute": "92‎’‎",
-  "finished": false,
-  "updated": "2026-11-22T20:03:58Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-22T20:08:57Z"
  },
  "5802994": {
   "flashscore_id": "bVgMlMNc",
@@ -320,9 +320,9 @@
    0,
    0
   ],
-  "minute": "19‎’‎",
+  "minute": "23‎’‎",
   "finished": false,
-  "updated": "2026-11-22T20:03:58Z"
+  "updated": "2026-11-22T20:08:57Z"
  },
  "5749751": {
   "flashscore_id": "jkjRvZXb",
@@ -333,9 +333,9 @@
    0,
    1
   ],
-  "minute": "19‎’‎",
+  "minute": "24‎’‎",
   "finished": false,
-  "updated": "2026-11-22T20:03:58Z"
+  "updated": "2026-11-22T20:08:57Z"
  },
  "5868134": {
   "flashscore_id": "GQCupQ8E",
@@ -346,8 +346,8 @@
    0,
    0
   ],
-  "minute": "4‎’‎",
+  "minute": "9‎’‎",
   "finished": false,
-  "updated": "2026-11-22T20:03:58Z"
+  "updated": "2026-11-22T20:08:57Z"
  }
 }
