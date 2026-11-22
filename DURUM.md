@@ -20,8 +20,9 @@ Son güncelleme: 10 Kasım 2026. Yeni bir sohbette kaldığımız yerden devam e
 
 ## İlk hafta sonu dersleri (22 Kasım 2026)
 - Zamanlanmış görev, kendi içinden yeni zamanlanmış görev AÇAMIYOR (kullanıcı onayı istiyor). Bu yüzden 21–22 Kasım'da hiç yorum/karar çıkmadı.
-  Çözüm: planlayıcı artık görev kurmuyor, sadece planı Slack'e yazıyor; yorumları kullanıcının onayıyla kurulmuş TEKRARLAYAN
-  "Futbol yorum nöbetçisi" görevi yapıyor (her saat :20 ve :50'de, 25–55 dk sonra başlayacak maçlar; Slack'te yorumu olan maçı atlar).
+  22 Kasım'da ilk 8 grubun yorum görevleri sohbetten elle kuruldu. Kalıcı çözüm önerisi (henüz kurulmadı, kullanıcı onayı bekliyor):
+  tekrarlayan "Futbol yorum nöbetçisi" görevi (her saat :20 ve :50'de, 25–55 dk sonra başlayacak maçlar; Slack'te yorumu olan maçı atlar)
+  ve planlayıcıyı 06:13'ten ~06:50 UTC'ye kaydırmak.
 - Canlı uyarılar Slack'e hiç gitmedi ama "gönderildi" diye işaretlendi (webhook secret'ı yok gibi). Artık gönderilemeyen uyarı
   işaretlenmiyor, `daily/<tarih>/live/unsent_alerts.md` dosyasına yazılıyor. Kalıcı çözüm: repo Settings → Secrets → Actions'a
   `SLACK_LIVE_WEBHOOK_URL` (Slack Incoming Webhook, #futbol-yorum) eklemek.
