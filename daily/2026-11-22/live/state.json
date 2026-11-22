@@ -242,6 +242,16 @@
    "t": "2026-11-22T15:27:48.962250+00:00",
    "fotmob_id": "5749752",
    "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T15:32:49.271023+00:00",
+   "match": "OluRZ1ie",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-22T15:32:49.271023+00:00",
+   "match": "hGNeTCRr",
+   "reason": "LOW_MATCH_SCORE"
   }
  ]
 }

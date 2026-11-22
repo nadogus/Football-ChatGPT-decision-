@@ -135,12 +135,12 @@
   "home": "Paris FC",
   "away": "Angers",
   "score": [
-   3,
+   4,
    0
   ],
-  "minute": "70‎’‎",
+  "minute": "75‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:27:48Z"
+  "updated": "2026-11-22T15:32:49Z"
  },
  "5749752": {
   "flashscore_id": "O2lZxD2B",
@@ -151,9 +151,9 @@
    1,
    1
   ],
-  "minute": "68‎’‎",
+  "minute": "73‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:27:48Z"
+  "updated": "2026-11-22T15:32:49Z"
  },
  "5749759": {
   "flashscore_id": "6aFyjKcc",
@@ -164,9 +164,9 @@
    0,
    2
   ],
-  "minute": "68‎’‎",
+  "minute": "73‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:27:48Z"
+  "updated": "2026-11-22T15:32:49Z"
  },
  "5881224": {
   "flashscore_id": "tjJShBTG",
@@ -179,7 +179,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T15:27:48Z"
+  "updated": "2026-11-22T15:32:49Z"
  },
  "5868137": {
   "flashscore_id": "QJ4RzMV0",
@@ -190,8 +190,8 @@
    2,
    0
   ],
-  "minute": "12‎’‎",
+  "minute": "17‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:27:48Z"
+  "updated": "2026-11-22T15:32:49Z"
  }
 }
