@@ -317,12 +317,12 @@
   "home": "Marseille",
   "away": "Le Mans",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "33‎’‎",
+  "minute": "38‎’‎",
   "finished": false,
-  "updated": "2026-11-22T20:18:58Z"
+  "updated": "2026-11-22T20:23:57Z"
  },
  "5749751": {
   "flashscore_id": "jkjRvZXb",
@@ -330,12 +330,12 @@
   "home": "Atalanta",
   "away": "Inter",
   "score": [
-   0,
+   1,
    2
   ],
-  "minute": "34‎’‎",
+  "minute": "39‎’‎",
   "finished": false,
-  "updated": "2026-11-22T20:18:58Z"
+  "updated": "2026-11-22T20:23:57Z"
  },
  "5868134": {
   "flashscore_id": "GQCupQ8E",
@@ -346,8 +346,8 @@
    0,
    1
   ],
-  "minute": "19‎’‎",
+  "minute": "23‎’‎",
   "finished": false,
-  "updated": "2026-11-22T20:18:58Z"
+  "updated": "2026-11-22T20:23:57Z"
  }
 }
