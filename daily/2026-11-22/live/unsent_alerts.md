@@ -633,3 +633,12 @@ _Uyarıdır, karar değildir._
 xG 0.75–1.77 · xGOT 0.92–2.20 · ceza sahası topla buluşma 15–25 · isabetli şut 4–4
 Karar için Claude'a yaz: `canlı bak 5749751`
 _Uyarıdır, karar değildir._
+
+---
+20:57 UTC
+⚡ *Canlı uyarı* — Marseille 2-0 Le Mans (53‎’‎)
+• Marseille son ~15 dk'da +0.93 xG üretti
+• Le Mans son ~15 dk'da +1.22 xG üretti
+xG 1.31–1.49 · xGOT 1.71–0.93 · ceza sahası topla buluşma 12–13 · isabetli şut 4–3
+Karar için Claude'a yaz: `canlı bak 5802994`
+_Uyarıdır, karar değildir._
