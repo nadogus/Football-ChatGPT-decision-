@@ -18,8 +18,14 @@
   "notified": []
  },
  "z33K8hun": {
+  "checks": 2,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-22T11:29:59.159836+00:00",
+  "notified": []
+ },
+ "I3xwT3Xa": {
   "checks": 1,
-  "status": "NOT_YET",
-  "last_check": "2026-11-22T10:46:13.017870+00:00"
+  "status": "ESPN_UNRESOLVED",
+  "last_check": "2026-11-22T11:29:59.159836+00:00"
  }
 }

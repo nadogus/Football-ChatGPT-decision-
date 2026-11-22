@@ -1,0 +1,1260 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-22T11:29:59.159836+00:00",
+ "minutes_before_kickoff": 30.01400273333333,
+ "match": {
+  "match_id": "z33K8hun",
+  "home": "Burnley",
+  "away": "Blackburn",
+  "kickoff": "2026-11-22T12:00:00Z",
+  "competition": "Championship",
+  "category": "England"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:329987",
+     "name": "Max Weiß",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:234143",
+     "name": "Igor Julio",
+     "number": "44",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:347046",
+     "name": "Max Alleyne",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:322642",
+     "name": "Oliver Sonne",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:129358",
+     "name": "Kyle Walker",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:190936",
+     "name": "Josh Laurent",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:207146",
+     "name": "Josh Cullen",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:288891",
+     "name": "Reo Hatate",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:320757",
+     "name": "Zeki Amdouni",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:291435",
+     "name": "Largie Ramazani",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:333619",
+     "name": "Jaydon Banel",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "3-4-2-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:243667",
+     "name": "Aynsley Pears",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:274535",
+     "name": "Sean McLoughlin",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:243604",
+     "name": "Hayden Carter",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:369509",
+     "name": "Tom Atcheson",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:243380",
+     "name": "Todd Cantwell",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355361",
+     "name": "Kristi Montgomery",
+     "number": "31",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:252916",
+     "name": "Oladapo Afolayan",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:241040",
+     "name": "Harry Pickering",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:388566",
+     "name": "Gady Beyuku",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:387548",
+     "name": "Moussa Baradji",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:326075",
+     "name": "Andri Gudjohnsen",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 0.955,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401880169",
+   "date": "2026-11-07T15:00:00+00:00",
+   "competition": "eng.2",
+   "opponent": "Cardiff City",
+   "starters": [
+    {
+     "id": "espn:260239",
+     "name": "Grégoire Coudert",
+     "number": "37",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:234143",
+     "name": "Igor Julio",
+     "number": "44",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:290413",
+     "name": "Hjalmar Ekdal",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:285790",
+     "name": "Lucas Pires",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:129358",
+     "name": "Kyle Walker",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:225552",
+     "name": "Marcus Edwards",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:288891",
+     "name": "Reo Hatate",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:190936",
+     "name": "Josh Laurent",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:317322",
+     "name": "Andreas Hountondji",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:333619",
+     "name": "Jaydon Banel",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:291435",
+     "name": "Largie Ramazani",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401880171",
+   "date": "2026-11-07T15:00:00+00:00",
+   "competition": "eng.2",
+   "opponent": "West Ham United",
+   "starters": [
+    {
+     "id": "espn:305052",
+     "name": "Balazs Toth",
+     "number": "22",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:274535",
+     "name": "Sean McLoughlin",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:243604",
+     "name": "Hayden Carter",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:241040",
+     "name": "Harry Pickering",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:388566",
+     "name": "Gady Beyuku",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:243380",
+     "name": "Todd Cantwell",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355361",
+     "name": "Kristi Montgomery",
+     "number": "31",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:138879",
+     "name": "Sam Morsy",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:326075",
+     "name": "Andri Gudjohnsen",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:252916",
+     "name": "Oladapo Afolayan",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310324",
+     "name": "Jayden Fevrier",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 5,
+   "out": [
+    "Grégoire Coudert",
+    "Hjalmar Ekdal",
+    "Lucas Pires",
+    "Marcus Edwards",
+    "Andreas Hountondji"
+   ],
+   "in": [
+    "Max Weiß",
+    "Max Alleyne",
+    "Oliver Sonne",
+    "Josh Cullen",
+    "Zeki Amdouni"
+   ],
+   "goalkeeper_changed": true,
+   "goalkeeper": "Max Weiß",
+   "previous_goalkeeper": "Grégoire Coudert"
+  },
+  "away": {
+   "count": 3,
+   "out": [
+    "Balazs Toth",
+    "Sam Morsy",
+    "Jayden Fevrier"
+   ],
+   "in": [
+    "Aynsley Pears",
+    "Tom Atcheson",
+    "Moussa Baradji"
+   ],
+   "goalkeeper_changed": true,
+   "goalkeeper": "Aynsley Pears",
+   "previous_goalkeeper": "Balazs Toth"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Grégoire Coudert",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 450,
+       "minutes_per_match": 90.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 720,
+       "minutes_per_match": 72.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Hjalmar Ekdal",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 450,
+       "minutes_per_match": 90.0,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.0,
+        "shots": 0.4,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.018
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 473,
+       "minutes_per_match": 47.3,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.0,
+        "shots": 0.38,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.01
+      }
+     }
+    },
+    {
+     "name": "Lucas Pires",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 424,
+       "minutes_per_match": 84.8,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.14,
+        "shots": 0.85,
+        "key_passes": 1.27
+       },
+       "attack_share": 0.063
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 750,
+       "minutes_per_match": 75.0,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.13,
+        "shots": 0.84,
+        "key_passes": 1.68
+       },
+       "attack_share": 0.057
+      }
+     }
+    },
+    {
+     "name": "Marcus Edwards",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 232,
+       "minutes_per_match": 46.4,
+       "per90": {
+        "xg": 1.02,
+        "xa": 0.06,
+        "shots": 3.1,
+        "key_passes": 1.16
+       },
+       "attack_share": 0.234
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 340,
+       "minutes_per_match": 34.0,
+       "per90": {
+        "xg": 0.83,
+        "xa": 0.07,
+        "shots": 3.71,
+        "key_passes": 1.06
+       },
+       "attack_share": 0.147
+      }
+     }
+    },
+    {
+     "name": "Andreas Hountondji",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 305,
+       "minutes_per_match": 61.0,
+       "per90": {
+        "xg": 0.6,
+        "xa": 0.1,
+        "shots": 2.66,
+        "key_passes": 0.89
+       },
+       "attack_share": 0.2
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 340,
+       "minutes_per_match": 34.0,
+       "per90": {
+        "xg": 0.58,
+        "xa": 0.13,
+        "shots": 3.18,
+        "key_passes": 1.06
+       },
+       "attack_share": 0.116
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Max Weiß",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 0,
+       "minutes": 0,
+       "minutes_per_match": 0.0,
+       "per90": null,
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 2,
+       "minutes": 180,
+       "minutes_per_match": 18.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Max Alleyne",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 161,
+       "minutes_per_match": 32.2,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.03,
+        "shots": 0.56,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.017
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 593,
+       "minutes_per_match": 59.3,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.04,
+        "shots": 0.46,
+        "key_passes": 0.46
+       },
+       "attack_share": 0.022
+      }
+     }
+    },
+    {
+     "name": "Oliver Sonne",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 64,
+       "minutes_per_match": 12.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.03,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 237,
+       "minutes_per_match": 23.7,
+       "per90": {
+        "xg": 0.19,
+        "xa": 0.05,
+        "shots": 0.76,
+        "key_passes": 1.14
+       },
+       "attack_share": 0.026
+      }
+     }
+    },
+    {
+     "name": "Josh Cullen",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 65,
+       "minutes_per_match": 13.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.03,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 3,
+       "minutes": 65,
+       "minutes_per_match": 6.5,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.03,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.001
+      }
+     }
+    },
+    {
+     "name": "Zeki Amdouni",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 10,
+       "minutes_per_match": 2.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 9.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 317,
+       "minutes_per_match": 31.7,
+       "per90": {
+        "xg": 0.57,
+        "xa": 0.03,
+        "shots": 4.83,
+        "key_passes": 1.14
+       },
+       "attack_share": 0.091
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Grégoire Coudert",
+     "in": "Max Weiß",
+     "delta_per90": {
+      "xg": 0.0,
+      "xa": 0.0,
+      "shots": 0.0,
+      "key_passes": 0.0
+     },
+     "attack_share_delta": 0.0
+    },
+    {
+     "out": "Hjalmar Ekdal",
+     "in": "Max Alleyne",
+     "delta_per90": {
+      "xg": -0.01,
+      "xa": 0.04,
+      "shots": 0.08,
+      "key_passes": 0.46
+     },
+     "attack_share_delta": 0.012
+    },
+    {
+     "out": "Lucas Pires",
+     "in": "Oliver Sonne",
+     "delta_per90": {
+      "xg": 0.16,
+      "xa": -0.08,
+      "shots": -0.08,
+      "key_passes": -0.54
+     },
+     "attack_share_delta": -0.031
+    },
+    {
+     "out": "Marcus Edwards",
+     "in": "Josh Cullen",
+     "delta_per90": {
+      "xg": -0.83,
+      "xa": -0.04,
+      "shots": -3.71,
+      "key_passes": -1.06
+     },
+     "attack_share_delta": -0.146
+    },
+    {
+     "out": "Andreas Hountondji",
+     "in": "Zeki Amdouni",
+     "delta_per90": {
+      "xg": -0.01,
+      "xa": -0.1,
+      "shots": 1.65,
+      "key_passes": 0.08
+     },
+     "attack_share_delta": -0.025
+    }
+   ],
+   "goalkeeper": {
+    "now": {
+     "name": "Max Weiß",
+     "games": 2,
+     "goals_prevented": 0.43,
+     "saves": 6,
+     "note": "küçük örneklem, tek başına sinyal değil"
+    },
+    "previous": {
+     "name": "Grégoire Coudert",
+     "games": 7,
+     "goals_prevented": -2.89,
+     "saves": 27,
+     "note": "küçük örneklem, tek başına sinyal değil"
+    }
+   }
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Balazs Toth",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 450,
+       "minutes_per_match": 90.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 810,
+       "minutes_per_match": 81.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Sam Morsy",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 331,
+       "minutes_per_match": 66.2,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.05,
+        "shots": 0.54,
+        "key_passes": 0.82
+       },
+       "attack_share": 0.026
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 773,
+       "minutes_per_match": 77.3,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.06,
+        "shots": 0.7,
+        "key_passes": 0.7
+       },
+       "attack_share": 0.033
+      }
+     }
+    },
+    {
+     "name": "Jayden Fevrier",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 317,
+       "minutes_per_match": 63.4,
+       "per90": {
+        "xg": 0.15,
+        "xa": 0.24,
+        "shots": 1.99,
+        "key_passes": 1.14
+       },
+       "attack_share": 0.149
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 488,
+       "minutes_per_match": 48.8,
+       "per90": {
+        "xg": 0.2,
+        "xa": 0.37,
+        "shots": 3.32,
+        "key_passes": 2.03
+       },
+       "attack_share": 0.161
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Aynsley Pears",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 0,
+       "minutes": 0,
+       "minutes_per_match": 0.0,
+       "per90": null,
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 1,
+       "minutes": 90,
+       "minutes_per_match": 9.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Tom Atcheson",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 135,
+       "minutes_per_match": 27.0,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.01,
+        "shots": 0.67,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.007
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 474,
+       "minutes_per_match": 47.4,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.01,
+        "shots": 0.38,
+        "key_passes": 0.19
+       },
+       "attack_share": 0.006
+      }
+     }
+    },
+    {
+     "name": "Moussa Baradji",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 228,
+       "minutes_per_match": 45.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.02,
+        "shots": 0.39,
+        "key_passes": 1.18
+       },
+       "attack_share": 0.007
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 303,
+       "minutes_per_match": 30.3,
+       "per90": {
+        "xg": 0.28,
+        "xa": 0.04,
+        "shots": 1.78,
+        "key_passes": 1.19
+       },
+       "attack_share": 0.055
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Balazs Toth",
+     "in": "Aynsley Pears",
+     "delta_per90": {
+      "xg": 0.0,
+      "xa": 0.0,
+      "shots": 0.0,
+      "key_passes": 0.0
+     },
+     "attack_share_delta": 0.0
+    },
+    {
+     "out": "Sam Morsy",
+     "in": "Tom Atcheson",
+     "delta_per90": {
+      "xg": -0.01,
+      "xa": -0.05,
+      "shots": -0.32,
+      "key_passes": -0.51
+     },
+     "attack_share_delta": -0.027
+    },
+    {
+     "out": "Jayden Fevrier",
+     "in": "Moussa Baradji",
+     "delta_per90": {
+      "xg": 0.08,
+      "xa": -0.33,
+      "shots": -1.54,
+      "key_passes": -0.84
+     },
+     "attack_share_delta": -0.106
+    }
+   ],
+   "goalkeeper": {
+    "now": {
+     "name": "Aynsley Pears",
+     "games": 1,
+     "goals_prevented": -0.98,
+     "saves": 1,
+     "note": "küçük örneklem, tek başına sinyal değil"
+    },
+    "previous": {
+     "name": "Balazs Toth",
+     "games": 8,
+     "goals_prevented": -0.99,
+     "saves": 26,
+     "note": "küçük örneklem, tek başına sinyal değil"
+    }
+   }
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Connor Roberts",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 827457
+   },
+   {
+    "player": "Dastan Satpaev",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 10158241
+   },
+   {
+    "player": "Armando Broja",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 3596161
+   },
+   {
+    "player": "Hannibal Mejbri",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 16247709
+   },
+   {
+    "player": "Bashir Humphreys",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 12928014
+   },
+   {
+    "player": "Ashley Barnes",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 289443
+   },
+   {
+    "player": "Jordan Beyer",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 1071829
+   }
+  ],
+  "away": [
+   {
+    "player": "Balázs Tóth",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 692653
+   },
+   {
+    "player": "Ryan Alebiosu",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 2273612
+   },
+   {
+    "player": "Adam Forshaw",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 252612
+   },
+   {
+    "player": "Lewis Miller",
+    "reason": "injury",
+    "likelihood": "Unknown",
+    "market_value_eur": 1114794
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 411,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.5266,
+    "DRAW": 0.2447,
+    "AWAY": 0.2287
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.89,
+     "bookmaker": "7BetUK",
+     "fair_odds_consensus": 1.899,
+     "ev_vs_consensus": -0.0047
+    },
+    "DRAW": {
+     "odds": 4.0,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 4.087,
+     "ev_vs_consensus": -0.0212
+    },
+    "AWAY": {
+     "odds": 4.33,
+     "bookmaker": "Betfair",
+     "fair_odds_consensus": 4.373,
+     "ev_vs_consensus": -0.0097
+    }
+   },
+   "median_overround": 0.0728,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.75",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8013,
+     "UNDER": 0.1987
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.25,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.248,
+      "ev_vs_consensus": 0.0016
+     },
+     "UNDER": {
+      "odds": 4.5,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 5.033,
+      "ev_vs_consensus": -0.1058
+     }
+    },
+    "median_overround": 0.0697,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.5578,
+     "UNDER": 0.4422
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.75,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 1.793,
+      "ev_vs_consensus": -0.0239
+     },
+     "UNDER": {
+      "odds": 2.2,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.261,
+      "ev_vs_consensus": -0.0272
+     }
+    },
+    "median_overround": 0.0681,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.75": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.5,
+     "UNDER": 0.5
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.88,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.0,
+      "ev_vs_consensus": -0.06
+     },
+     "UNDER": {
+      "odds": 1.98,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.0,
+      "ev_vs_consensus": -0.01
+     }
+    },
+    "median_overround": 0.0695,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.3173,
+     "UNDER": 0.6827
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.88,
+      "bookmaker": "Paddy Power",
+      "fair_odds_consensus": 3.152,
+      "ev_vs_consensus": -0.0862
+     },
+     "UNDER": {
+      "odds": 1.5,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 1.465,
+      "ev_vs_consensus": 0.024
+     }
+    },
+    "median_overround": 0.0761,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 1.75,
+  "DRAW": -0.54,
+  "AWAY": -1.21
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
