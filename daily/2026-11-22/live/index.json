@@ -229,9 +229,9 @@
    1,
    1
   ],
-  "minute": "83‎’‎",
-  "finished": false,
-  "updated": "2026-11-22T17:56:41Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-22T18:19:20Z"
  },
  "5881232": {
   "flashscore_id": "n9yfdpz9",
@@ -239,12 +239,12 @@
   "home": "Werder Bremen",
   "away": "Hamburger SV",
   "score": [
-   1,
+   3,
    0
   ],
-  "minute": "61‎’‎",
+  "minute": "84‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:56:41Z"
+  "updated": "2026-11-22T18:19:20Z"
  },
  "5795521": {
   "flashscore_id": "UorZXuM7",
@@ -252,12 +252,12 @@
   "home": "Liverpool",
   "away": "Manchester United",
   "score": [
-   3,
+   4,
    0
   ],
-  "minute": "67‎’‎",
+  "minute": "90‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:56:41Z"
+  "updated": "2026-11-22T18:19:20Z"
  },
  "5749750": {
   "flashscore_id": "UaV3yLr4",
@@ -265,12 +265,12 @@
   "home": "Milan",
   "away": "Frosinone",
   "score": [
-   2,
+   3,
    1
   ],
-  "minute": "HT",
+  "minute": "60‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:56:41Z"
+  "updated": "2026-11-22T18:19:20Z"
  },
  "5811809": {
   "flashscore_id": "E7THzeZ8",
@@ -281,9 +281,9 @@
    0,
    0
   ],
-  "minute": "25‎’‎",
+  "minute": "48‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:56:41Z"
+  "updated": "2026-11-22T18:19:20Z"
  },
  "5868136": {
   "flashscore_id": "Ig1Jxr1l",
@@ -294,8 +294,21 @@
    1,
    0
   ],
-  "minute": "27‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T17:56:41Z"
+  "updated": "2026-11-22T18:19:20Z"
+ },
+ "5811816": {
+  "flashscore_id": "CpKBPUQ7",
+  "competition": "Jupiler Pro League",
+  "home": "Lommel",
+  "away": "Standard Liège",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "4‎’‎",
+  "finished": false,
+  "updated": "2026-11-22T18:19:20Z"
  }
 }
