@@ -307,8 +307,47 @@
    0,
    2
   ],
-  "minute": "63‎’‎",
+  "minute": "92‎’‎",
   "finished": false,
-  "updated": "2026-11-22T19:35:35Z"
+  "updated": "2026-11-22T20:03:58Z"
+ },
+ "5802994": {
+  "flashscore_id": "bVgMlMNc",
+  "competition": "Ligue 1",
+  "home": "Marseille",
+  "away": "Le Mans",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "19‎’‎",
+  "finished": false,
+  "updated": "2026-11-22T20:03:58Z"
+ },
+ "5749751": {
+  "flashscore_id": "jkjRvZXb",
+  "competition": "Serie A",
+  "home": "Atalanta",
+  "away": "Inter",
+  "score": [
+   0,
+   1
+  ],
+  "minute": "19‎’‎",
+  "finished": false,
+  "updated": "2026-11-22T20:03:58Z"
+ },
+ "5868134": {
+  "flashscore_id": "GQCupQ8E",
+  "competition": "LaLiga",
+  "home": "Getafe",
+  "away": "Atlético Madrid",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "4‎’‎",
+  "finished": false,
+  "updated": "2026-11-22T20:03:58Z"
  }
 }
