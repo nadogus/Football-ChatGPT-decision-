@@ -25,16 +25,6 @@
  "errors": [
   {
    "t": "2026-11-22T13:47:05.023517+00:00",
-   "fotmob_id": "5836935",
-   "reason": "ALERT_NOT_SENT"
-  },
-  {
-   "t": "2026-11-22T13:47:05.023517+00:00",
-   "fotmob_id": "5811810",
-   "reason": "ALERT_NOT_SENT"
-  },
-  {
-   "t": "2026-11-22T13:47:05.023517+00:00",
    "fotmob_id": "5868133",
    "reason": "ALERT_NOT_SENT"
   },
@@ -271,6 +261,16 @@
   {
    "t": "2026-11-22T16:29:30.314521+00:00",
    "fotmob_id": "5904803",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T16:55:24.726824+00:00",
+   "match": "hGNeTCRr",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-22T16:55:24.726824+00:00",
+   "fotmob_id": "5795521",
    "reason": "ALERT_NOT_SENT"
   }
  ]

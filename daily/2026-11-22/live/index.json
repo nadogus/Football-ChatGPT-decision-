@@ -187,12 +187,12 @@
   "home": "Racing Santander",
   "away": "Real Sociedad",
   "score": [
-   2,
-   1
+   3,
+   2
   ],
-  "minute": "55‎’‎",
+  "minute": "81‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:29:30Z"
+  "updated": "2026-11-22T16:55:24Z"
  },
  "5781809": {
   "flashscore_id": "tfLlYLlS",
@@ -201,11 +201,11 @@
   "away": "Fortuna Sittard",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "42‎’‎",
+  "minute": "51‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:29:30Z"
+  "updated": "2026-11-22T16:55:24Z"
  },
  "5904803": {
   "flashscore_id": "rsY1zQ0b",
@@ -216,9 +216,9 @@
    1,
    0
   ],
-  "minute": "30‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T16:29:30Z"
+  "updated": "2026-11-22T16:55:24Z"
  },
  "5802993": {
   "flashscore_id": "6y7zRIVj",
@@ -227,11 +227,11 @@
   "away": "Rennes",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "14‎’‎",
+  "minute": "40‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:29:30Z"
+  "updated": "2026-11-22T16:55:24Z"
  },
  "5881232": {
   "flashscore_id": "n9yfdpz9",
@@ -242,9 +242,9 @@
    0,
    0
   ],
-  "minute": null,
+  "minute": "24‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:29:30Z"
+  "updated": "2026-11-22T16:55:24Z"
  },
  "5795521": {
   "flashscore_id": "UorZXuM7",
@@ -252,11 +252,11 @@
   "home": "Liverpool",
   "away": "Manchester United",
   "score": [
-   0,
+   2,
    0
   ],
-  "minute": null,
+  "minute": "26‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:29:30Z"
+  "updated": "2026-11-22T16:55:24Z"
  }
 }
