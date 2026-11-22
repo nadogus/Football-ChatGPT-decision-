@@ -138,9 +138,9 @@
    4,
    0
   ],
-  "minute": "85‎’‎",
-  "finished": false,
-  "updated": "2026-11-22T15:42:48Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-22T16:09:30Z"
  },
  "5749752": {
   "flashscore_id": "O2lZxD2B",
@@ -151,9 +151,9 @@
    1,
    1
   ],
-  "minute": "83‎’‎",
-  "finished": false,
-  "updated": "2026-11-22T15:42:48Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-22T16:09:30Z"
  },
  "5749759": {
   "flashscore_id": "6aFyjKcc",
@@ -164,9 +164,9 @@
    0,
    2
   ],
-  "minute": "83‎’‎",
-  "finished": false,
-  "updated": "2026-11-22T15:42:48Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-22T16:09:30Z"
  },
  "5881224": {
   "flashscore_id": "tjJShBTG",
@@ -177,9 +177,9 @@
    3,
    1
   ],
-  "minute": "52‎’‎",
+  "minute": "78‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:42:48Z"
+  "updated": "2026-11-22T16:09:30Z"
  },
  "5868137": {
   "flashscore_id": "QJ4RzMV0",
@@ -188,10 +188,36 @@
   "away": "Real Sociedad",
   "score": [
    2,
+   1
+  ],
+  "minute": "HT",
+  "finished": false,
+  "updated": "2026-11-22T16:09:30Z"
+ },
+ "5781809": {
+  "flashscore_id": "tfLlYLlS",
+  "competition": "Eredivisie",
+  "home": "Go Ahead Eagles",
+  "away": "Fortuna Sittard",
+  "score": [
+   0,
    0
   ],
-  "minute": "27‎’‎",
+  "minute": "22‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:42:48Z"
+  "updated": "2026-11-22T16:09:30Z"
+ },
+ "5904803": {
+  "flashscore_id": "rsY1zQ0b",
+  "competition": "Super Lig",
+  "home": "Trabzonspor",
+  "away": "Eyüpspor",
+  "score": [
+   1,
+   0
+  ],
+  "minute": "10‎’‎",
+  "finished": false,
+  "updated": "2026-11-22T16:09:30Z"
  }
 }

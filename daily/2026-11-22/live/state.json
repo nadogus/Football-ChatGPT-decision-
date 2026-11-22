@@ -14,25 +14,12 @@
   "O2lZxD2B": "5749752",
   "6aFyjKcc": "5749759",
   "tjJShBTG": "5881224",
-  "QJ4RzMV0": "5868137"
+  "QJ4RzMV0": "5868137",
+  "tfLlYLlS": "5781809",
+  "rsY1zQ0b": "5904803"
  },
  "alerts": {},
  "errors": [
-  {
-   "t": "2026-11-22T12:40:01.965638+00:00",
-   "fotmob_id": "5781812",
-   "reason": "ALERT_NOT_SENT"
-  },
-  {
-   "t": "2026-11-22T12:45:01.337124+00:00",
-   "fotmob_id": "5781812",
-   "reason": "ALERT_NOT_SENT"
-  },
-  {
-   "t": "2026-11-22T12:50:02.305587+00:00",
-   "fotmob_id": "5781812",
-   "reason": "ALERT_NOT_SENT"
-  },
   {
    "t": "2026-11-22T12:50:02.305587+00:00",
    "fotmob_id": "5749754",
@@ -265,6 +252,21 @@
   },
   {
    "t": "2026-11-22T15:42:48.784528+00:00",
+   "fotmob_id": "5868137",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T16:09:30.739468+00:00",
+   "match": "OluRZ1ie",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-22T16:09:30.739468+00:00",
+   "match": "hGNeTCRr",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-22T16:09:30.739468+00:00",
    "fotmob_id": "5868137",
    "reason": "ALERT_NOT_SENT"
   }

@@ -334,3 +334,11 @@ _Uyarıdır, karar değildir._
 xG 1.26–0.58 · xGOT 1.15–0.68 · ceza sahası topla buluşma 6–16 · isabetli şut 3–4
 Karar için Claude'a yaz: `canlı bak 5868137`
 _Uyarıdır, karar değildir._
+
+---
+16:09 UTC
+⚡ *Canlı uyarı* — Racing Santander 2-1 Real Sociedad (HT)
+• Real Sociedad son ~15 dk'da +0.74 xG üretti
+xG 1.62–1.32 · xGOT 1.24–1.25 · ceza sahası topla buluşma 14–25 · isabetli şut 4–6
+Karar için Claude'a yaz: `canlı bak 5868137`
+_Uyarıdır, karar değildir._
