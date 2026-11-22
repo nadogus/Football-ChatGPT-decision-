@@ -535,3 +535,11 @@ _Uyarıdır, karar değildir._
 xG 1.08–0.02 · xGOT 0.96–0.00 · ceza sahası topla buluşma 15–6 · isabetli şut 2–0
 Karar için Claude'a yaz: `canlı bak 5868136`
 _Uyarıdır, karar değildir._
+
+---
+18:39 UTC
+⚡ *Canlı uyarı* — Milan 5-1 Frosinone (80‎’‎)
+• Milan son ~15 dk'da +1.35 xG üretti
+xG 2.44–0.86 · xGOT 3.60–0.66 · ceza sahası topla buluşma 29–31 · isabetli şut 8–3
+Karar için Claude'a yaz: `canlı bak 5749750`
+_Uyarıdır, karar değildir._
