@@ -66,3 +66,12 @@ _Uyarıdır, karar değildir._
 xG 1.77–0.08 · xGOT 1.21–0.84 · ceza sahası topla buluşma 37–5 · isabetli şut 6–1
 Karar için Claude'a yaz: `canlı bak 5781812`
 _Uyarıdır, karar değildir._
+
+---
+12:45 UTC
+⚡ *Canlı uyarı* — FC Twente 1-1 Willem II (70‎’‎)
+• FC Twente baskın (xG 2.03–0.08) ama önde değil
+• Willem II kırmızı kart gördü (1)
+xG 2.03–0.08 · xGOT 1.21–0.84 · ceza sahası topla buluşma 48–5 · isabetli şut 6–1
+Karar için Claude'a yaz: `canlı bak 5781812`
+_Uyarıdır, karar değildir._
