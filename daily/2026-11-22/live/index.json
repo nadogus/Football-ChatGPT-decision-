@@ -8,9 +8,9 @@
    0,
    0
   ],
-  "minute": "61‎’‎",
+  "minute": "66‎’‎",
   "finished": false,
-  "updated": "2026-11-22T11:53:48Z"
+  "updated": "2026-11-22T11:58:47Z"
  },
  "5781812": {
   "flashscore_id": "zwSnE0cd",
@@ -21,9 +21,9 @@
    0,
    0
   ],
-  "minute": "36‎’‎",
+  "minute": "41‎’‎",
   "finished": false,
-  "updated": "2026-11-22T11:53:48Z"
+  "updated": "2026-11-22T11:58:47Z"
  },
  "5749754": {
   "flashscore_id": "2BrDVUfo",
@@ -34,8 +34,21 @@
    0,
    0
   ],
-  "minute": "22‎’‎",
+  "minute": "28‎’‎",
   "finished": false,
-  "updated": "2026-11-22T11:53:48Z"
+  "updated": "2026-11-22T11:58:47Z"
+ },
+ "5836935": {
+  "flashscore_id": "z33K8hun",
+  "competition": "Championship",
+  "home": "Burnley",
+  "away": "Blackburn Rovers",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-22T11:58:47Z"
  }
 }
