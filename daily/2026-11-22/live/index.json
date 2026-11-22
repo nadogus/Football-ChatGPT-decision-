@@ -278,12 +278,12 @@
   "home": "Anderlecht",
   "away": "OH Leuven",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "85‎’‎",
+  "minute": "90‎’‎",
   "finished": false,
-  "updated": "2026-11-22T19:15:36Z"
+  "updated": "2026-11-22T19:20:35Z"
  },
  "5868136": {
   "flashscore_id": "Ig1Jxr1l",
@@ -294,9 +294,9 @@
    1,
    0
   ],
-  "minute": "89‎’‎",
+  "minute": "94‎’‎",
   "finished": false,
-  "updated": "2026-11-22T19:15:36Z"
+  "updated": "2026-11-22T19:20:35Z"
  },
  "5811816": {
   "flashscore_id": "CpKBPUQ7",
@@ -307,8 +307,8 @@
    0,
    1
   ],
-  "minute": "HT",
+  "minute": "48‎’‎",
   "finished": false,
-  "updated": "2026-11-22T19:15:36Z"
+  "updated": "2026-11-22T19:20:35Z"
  }
 }
