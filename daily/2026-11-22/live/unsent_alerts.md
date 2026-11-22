@@ -543,3 +543,11 @@ _Uyarıdır, karar değildir._
 xG 2.44–0.86 · xGOT 3.60–0.66 · ceza sahası topla buluşma 29–31 · isabetli şut 8–3
 Karar için Claude'a yaz: `canlı bak 5749750`
 _Uyarıdır, karar değildir._
+
+---
+19:15 UTC
+⚡ *Canlı uyarı* — Anderlecht 0-0 OH Leuven (85‎’‎)
+• Anderlecht baskın (xG 1.74–0.79) ama önde değil
+xG 1.74–0.79 · xGOT 0.44–0.42 · ceza sahası topla buluşma 44–18 · isabetli şut 4–4
+Karar için Claude'a yaz: `canlı bak 5811809`
+_Uyarıdır, karar değildir._
