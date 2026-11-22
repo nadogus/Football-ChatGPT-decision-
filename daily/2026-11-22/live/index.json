@@ -47,9 +47,9 @@
    2,
    2
   ],
-  "minute": "82‎’‎",
+  "minute": "87‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:47:05Z"
+  "updated": "2026-11-22T13:52:04Z"
  },
  "5811810": {
   "flashscore_id": "I3xwT3Xa",
@@ -60,9 +60,9 @@
    0,
    0
   ],
-  "minute": "59‎’‎",
+  "minute": "64‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:47:05Z"
+  "updated": "2026-11-22T13:52:04Z"
  },
  "5868133": {
   "flashscore_id": "lKKgMMG7",
@@ -73,9 +73,9 @@
    0,
    2
   ],
-  "minute": "44‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T13:47:05Z"
+  "updated": "2026-11-22T13:52:04Z"
  },
  "5904804": {
   "flashscore_id": "j7yAY3VA",
@@ -84,11 +84,11 @@
   "away": "Alanyaspor",
   "score": [
    1,
-   0
+   1
   ],
-  "minute": "48‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T13:47:05Z"
+  "updated": "2026-11-22T13:52:04Z"
  },
  "5904808": {
   "flashscore_id": "S6Lsm3p4",
@@ -99,9 +99,9 @@
    1,
    2
   ],
-  "minute": "47‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T13:47:05Z"
+  "updated": "2026-11-22T13:52:04Z"
  },
  "5781804": {
   "flashscore_id": "Wtw9Lr5M",
@@ -109,12 +109,12 @@
   "home": "Ajax",
   "away": "ADO Den Haag",
   "score": [
-   1,
+   2,
    0
   ],
-  "minute": "15‎’‎",
+  "minute": "20‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:47:05Z"
+  "updated": "2026-11-22T13:52:04Z"
  },
  "5781810": {
   "flashscore_id": "pjASQws2",
@@ -123,10 +123,10 @@
   "away": "AZ Alkmaar",
   "score": [
    1,
-   0
+   1
   ],
-  "minute": "16‎’‎",
+  "minute": "21‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:47:05Z"
+  "updated": "2026-11-22T13:52:04Z"
  }
 }
