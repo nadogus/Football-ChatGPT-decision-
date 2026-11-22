@@ -559,3 +559,11 @@ _Uyarıdır, karar değildir._
 xG 0.29–1.40 · xGOT 0.12–1.83 · ceza sahası topla buluşma 7–11 · isabetli şut 2–3
 Karar için Claude'a yaz: `canlı bak 5811816`
 _Uyarıdır, karar değildir._
+
+---
+19:35 UTC
+⚡ *Canlı uyarı* — Lommel 0-2 Standard Liège (63‎’‎)
+• Standard Liège son ~15 dk'da +1.08 xG üretti
+xG 0.32–1.39 · xGOT 0.12–1.83 · ceza sahası topla buluşma 7–11 · isabetli şut 2–3
+Karar için Claude'a yaz: `canlı bak 5811816`
+_Uyarıdır, karar değildir._
