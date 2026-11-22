@@ -18,12 +18,12 @@
   "home": "FC Twente",
   "away": "Willem II",
   "score": [
-   1,
+   2,
    1
   ],
-  "minute": "80‎’‎",
+  "minute": "85‎’‎",
   "finished": false,
-  "updated": "2026-11-22T12:55:01Z"
+  "updated": "2026-11-22T13:00:01Z"
  },
  "5749754": {
   "flashscore_id": "2BrDVUfo",
@@ -31,12 +31,12 @@
   "home": "Juventus",
   "away": "Venezia",
   "score": [
-   3,
+   4,
    0
   ],
-  "minute": "68‎’‎",
+  "minute": "73‎’‎",
   "finished": false,
-  "updated": "2026-11-22T12:55:01Z"
+  "updated": "2026-11-22T13:00:01Z"
  },
  "5836935": {
   "flashscore_id": "z33K8hun",
@@ -49,7 +49,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T12:55:01Z"
+  "updated": "2026-11-22T13:00:01Z"
  },
  "5811810": {
   "flashscore_id": "I3xwT3Xa",
@@ -60,8 +60,47 @@
    0,
    0
   ],
-  "minute": "24‎’‎",
+  "minute": "29‎’‎",
   "finished": false,
-  "updated": "2026-11-22T12:55:01Z"
+  "updated": "2026-11-22T13:00:01Z"
+ },
+ "5868133": {
+  "flashscore_id": "lKKgMMG7",
+  "competition": "LaLiga",
+  "home": "Barcelona",
+  "away": "Villarreal",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-22T13:00:01Z"
+ },
+ "5904804": {
+  "flashscore_id": "j7yAY3VA",
+  "competition": "Super Lig",
+  "home": "Kasımpaşa",
+  "away": "Alanyaspor",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-22T13:00:01Z"
+ },
+ "5904808": {
+  "flashscore_id": "S6Lsm3p4",
+  "competition": "Super Lig",
+  "home": "Konyaspor",
+  "away": "Beşiktaş",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-22T13:00:01Z"
  }
 }

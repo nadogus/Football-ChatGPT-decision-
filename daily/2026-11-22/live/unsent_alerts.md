@@ -109,3 +109,19 @@ _Uyarıdır, karar değildir._
 xG 0.99–0.38 · xGOT 2.16–0.00 · ceza sahası topla buluşma 15–3 · isabetli şut 6–0
 Karar için Claude'a yaz: `canlı bak 5749754`
 _Uyarıdır, karar değildir._
+
+---
+13:00 UTC
+⚡ *Canlı uyarı* — FC Twente 2-1 Willem II (85‎’‎)
+• Willem II kırmızı kart gördü (1)
+xG 2.51–0.08 · xGOT 2.16–0.84 · ceza sahası topla buluşma 57–5 · isabetli şut 8–1
+Karar için Claude'a yaz: `canlı bak 5781812`
+_Uyarıdır, karar değildir._
+
+---
+13:00 UTC
+⚡ *Canlı uyarı* — Juventus 4-0 Venezia (73‎’‎)
+• Juventus son ~15 dk'da +1.69 xG üretti
+xG 1.78–0.38 · xGOT 3.06–0.00 · ceza sahası topla buluşma 17–3 · isabetli şut 7–0
+Karar için Claude'a yaz: `canlı bak 5749754`
+_Uyarıdır, karar değildir._
