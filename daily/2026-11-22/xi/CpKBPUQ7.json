@@ -1,0 +1,591 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-22T17:26:32.120636+00:00",
+ "minutes_before_kickoff": 48.46465606666666,
+ "match": {
+  "match_id": "CpKBPUQ7",
+  "home": "Lommel SK",
+  "away": "St. Liege",
+  "kickoff": "2026-11-22T18:15:00Z",
+  "competition": "Jupiler Pro League",
+  "category": "Belgium"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:369642",
+     "name": "Matthias Pieklak",
+     "number": "23",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:277375",
+     "name": "Shawn Adewoye",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:336542",
+     "name": "Tristan Gooijer",
+     "number": "47",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:261451",
+     "name": "Timothy Eyoma",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:346894",
+     "name": "Jason Van Duiven",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:360228",
+     "name": "Stredair Appuah",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:277378",
+     "name": "Tom Reyners",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:334109",
+     "name": "Sverre Nypan",
+     "number": "41",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:240975",
+     "name": "Lucas Schoofs",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:179131",
+     "name": "Joel Pelupessy",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:386841",
+     "name": "Don-Angelo Konadu",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:319371",
+     "name": "Matthieu Epolo",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:291538",
+     "name": "Henry Lawrence",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:319386",
+     "name": "Gustav Julius Mortensen",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:283824",
+     "name": "Ibrahim Karamoko",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:343978",
+     "name": "Ibe Hautekiet",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355977",
+     "name": "Rayan Touzghar",
+     "number": "84",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:345794",
+     "name": "Ryan Fosso",
+     "number": "80",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303315",
+     "name": "Alexis Trouillet",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:353362",
+     "name": "Adnane Abid",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:272489",
+     "name": "Dennis Dargahi",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:416555",
+     "name": "Salieu Drammeh",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 0.955,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401878950",
+   "date": "2026-11-07T19:45:00+00:00",
+   "competition": "bel.1",
+   "opponent": "Antwerp",
+   "starters": [
+    {
+     "id": "espn:369642",
+     "name": "Matthias Pieklak",
+     "number": "23",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:277375",
+     "name": "Shawn Adewoye",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:261451",
+     "name": "Timothy Eyoma",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:336542",
+     "name": "Tristan Gooijer",
+     "number": "47",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:346894",
+     "name": "Jason Van Duiven",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:240975",
+     "name": "Lucas Schoofs",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:334109",
+     "name": "Sverre Nypan",
+     "number": "41",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:179131",
+     "name": "Joel Pelupessy",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:386841",
+     "name": "Don-Angelo Konadu",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:360228",
+     "name": "Stredair Appuah",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:370623",
+     "name": "Juho Talvitie",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": null
+ },
+ "changes": {
+  "home": {
+   "count": 1,
+   "out": [
+    "Juho Talvitie"
+   ],
+   "in": [
+    "Tom Reyners"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Matthias Pieklak",
+   "previous_goalkeeper": "Matthias Pieklak"
+  },
+  "away": null
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 9,
+   "out": [
+    {
+     "name": "Juho Talvitie",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 335,
+       "minutes_per_match": 67.0,
+       "per90": {
+        "xg": 0.17,
+        "xa": 0.11,
+        "shots": 3.22,
+        "key_passes": 1.07
+       },
+       "attack_share": 0.104
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 605,
+       "minutes_per_match": 67.2,
+       "per90": {
+        "xg": 0.13,
+        "xa": 0.16,
+        "shots": 2.53,
+        "key_passes": 1.04
+       },
+       "attack_share": 0.116
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Tom Reyners",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 261,
+       "minutes_per_match": 52.2,
+       "per90": {
+        "xg": 0.39,
+        "xa": 0.06,
+        "shots": 2.76,
+        "key_passes": 0.69
+       },
+       "attack_share": 0.127
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 613,
+       "minutes_per_match": 68.1,
+       "per90": {
+        "xg": 0.35,
+        "xa": 0.06,
+        "shots": 2.35,
+        "key_passes": 0.73
+       },
+       "attack_share": 0.161
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Juho Talvitie",
+     "in": "Tom Reyners",
+     "delta_per90": {
+      "xg": 0.22,
+      "xa": -0.1,
+      "shots": -0.18,
+      "key_passes": -0.31
+     },
+     "attack_share_delta": 0.045
+    }
+   ]
+  },
+  "away": {
+   "status": "ONCEKI_KADRO_YOK"
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Sam De Grand",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 1286907
+   },
+   {
+    "player": "Jhon Banguera",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": null
+   }
+  ],
+  "away": [
+   {
+    "player": "Andi Zeqiri",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 1506009
+   },
+   {
+    "player": "Marlon Fossey",
+    "reason": "injury",
+    "likelihood": "Out for season",
+    "market_value_eur": 1767369
+   },
+   {
+    "player": "Casper Nielsen",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 1038388
+   },
+   {
+    "player": "Mohamed El Hankouri",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 308019
+   },
+   {
+    "player": "Josué Homawoo",
+    "reason": "injury",
+    "likelihood": "Late January 2027",
+    "market_value_eur": 1109613
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 392,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 19,
+   "consensus_fair": {
+    "HOME": 0.3045,
+    "DRAW": 0.2471,
+    "AWAY": 0.4484
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 3.2,
+     "bookmaker": "7BetUK",
+     "fair_odds_consensus": 3.284,
+     "ev_vs_consensus": -0.0256
+    },
+    "DRAW": {
+     "odds": 3.75,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 4.047,
+     "ev_vs_consensus": -0.0734
+    },
+    "AWAY": {
+     "odds": 2.15,
+     "bookmaker": "Coral",
+     "fair_odds_consensus": 2.23,
+     "ev_vs_consensus": -0.0359
+    }
+   },
+   "median_overround": 0.0873,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3",
+  "totals": {
+   "1.5": {
+    "bookmakers": 19,
+    "consensus_fair": {
+     "OVER": 0.8586,
+     "UNDER": 0.1414
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.19,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.165,
+      "ev_vs_consensus": 0.0217
+     },
+     "UNDER": {
+      "odds": 6.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 7.072,
+      "ev_vs_consensus": -0.1516
+     }
+    },
+    "median_overround": 0.0754,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 19,
+    "consensus_fair": {
+     "OVER": 0.6398,
+     "UNDER": 0.3602
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.54,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.563,
+      "ev_vs_consensus": -0.0147
+     },
+     "UNDER": {
+      "odds": 2.63,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 2.776,
+      "ev_vs_consensus": -0.0527
+     }
+    },
+    "median_overround": 0.0757,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.5285,
+     "UNDER": 0.4715
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.8,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.892,
+      "ev_vs_consensus": -0.0487
+     },
+     "UNDER": {
+      "odds": 2.0,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.121,
+      "ev_vs_consensus": -0.057
+     }
+    },
+    "median_overround": 0.0684,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 19,
+    "consensus_fair": {
+     "OVER": 0.4065,
+     "UNDER": 0.5935
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.25,
+      "bookmaker": "Midnite",
+      "fair_odds_consensus": 2.46,
+      "ev_vs_consensus": -0.0854
+     },
+     "UNDER": {
+      "odds": 1.63,
+      "bookmaker": "7BetUK",
+      "fair_odds_consensus": 1.685,
+      "ev_vs_consensus": -0.0326
+     }
+    },
+    "median_overround": 0.0718,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 1.37,
+  "DRAW": 0.01,
+  "AWAY": -1.37
+ },
+ "gaps": [
+  "PREVIOUS_XI_UNAVAILABLE:away",
+  "PLAYER_IMPACT_PARTIAL_HISTORY:home:9/10"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
