@@ -567,3 +567,11 @@ _Uyarıdır, karar değildir._
 xG 0.32–1.39 · xGOT 0.12–1.83 · ceza sahası topla buluşma 7–11 · isabetli şut 2–3
 Karar için Claude'a yaz: `canlı bak 5811816`
 _Uyarıdır, karar değildir._
+
+---
+20:18 UTC
+⚡ *Canlı uyarı* — Atalanta 0-2 Inter (34‎’‎)
+• Inter son ~15 dk'da +0.85 xG üretti
+xG 0.23–1.71 · xGOT 0.11–2.07 · ceza sahası topla buluşma 9–14 · isabetli şut 2–4
+Karar için Claude'a yaz: `canlı bak 5749751`
+_Uyarıdır, karar değildir._
