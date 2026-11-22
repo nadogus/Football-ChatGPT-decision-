@@ -495,3 +495,19 @@ _Uyarıdır, karar değildir._
 xG 1.08–0.02 · xGOT 0.96–0.00 · ceza sahası topla buluşma 15–6 · isabetli şut 2–0
 Karar için Claude'a yaz: `canlı bak 5868136`
 _Uyarıdır, karar değildir._
+
+---
+18:24 UTC
+⚡ *Canlı uyarı* — Milan 4-1 Frosinone (65‎’‎)
+• Milan son ~15 dk'da +0.94 xG üretti
+xG 1.63–0.78 · xGOT 2.42–0.66 · ceza sahası topla buluşma 22–24 · isabetli şut 6–3
+Karar için Claude'a yaz: `canlı bak 5749750`
+_Uyarıdır, karar değildir._
+
+---
+18:24 UTC
+⚡ *Canlı uyarı* — Osasuna 1-0 Málaga (HT)
+• Osasuna son ~15 dk'da +0.79 xG üretti
+xG 1.08–0.02 · xGOT 0.96–0.00 · ceza sahası topla buluşma 15–6 · isabetli şut 2–0
+Karar için Claude'a yaz: `canlı bak 5868136`
+_Uyarıdır, karar değildir._
