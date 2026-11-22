@@ -29,11 +29,6 @@
  "errors": [
   {
    "t": "2026-11-22T15:27:48.962250+00:00",
-   "match": "hGNeTCRr",
-   "reason": "LOW_MATCH_SCORE"
-  },
-  {
-   "t": "2026-11-22T15:27:48.962250+00:00",
    "fotmob_id": "5749752",
    "reason": "ALERT_NOT_SENT"
   },
@@ -275,6 +270,11 @@
   {
    "t": "2026-11-22T19:15:36.666884+00:00",
    "fotmob_id": "5811809",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T19:30:35.829332+00:00",
+   "fotmob_id": "5811816",
    "reason": "ALERT_NOT_SENT"
   }
  ]
