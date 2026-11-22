@@ -1,0 +1,758 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-22T19:08:17.844024+00:00",
+ "minutes_before_kickoff": 36.7025996,
+ "match": {
+  "match_id": "bVgMlMNc",
+  "home": "Marseille",
+  "away": "Le Mans",
+  "kickoff": "2026-11-22T19:45:00Z",
+  "competition": "Ligue 1",
+  "category": "France"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:228707",
+     "name": "Jeffrey de Lange",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:245243",
+     "name": "Nayef Aguerd",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:307115",
+     "name": "CJ Egan-Riley",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:220718",
+     "name": "Ulisses Garcia",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:266027",
+     "name": "Timothy Weah",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:277525",
+     "name": "Himad Abdelli",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:343114",
+     "name": "Tochukwu Nnadi",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:152270",
+     "name": "Geoffrey Kondogbia",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259743",
+     "name": "Amine Gouiri",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:289114",
+     "name": "Igor Paixão",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238917",
+     "name": "Amine Harit",
+     "number": "77",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "3-1-4-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:233308",
+     "name": "Nicolas Kocik",
+     "number": "98",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:223117",
+     "name": "Samuel Yohou",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:393721",
+     "name": "Harold Voyer",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:382872",
+     "name": "Rayan Bamba",
+     "number": "26",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:330722",
+     "name": "Lucas Bretelle",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:232335",
+     "name": "Antoine Rabillard",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:273021",
+     "name": "Daouda Traoré",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:331636",
+     "name": "Lucas Calodat",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:262482",
+     "name": "Lucas Buades",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:233702",
+     "name": "Dame Guèye",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:268720",
+     "name": "Louis Mafouta",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401876404",
+   "date": "2026-11-08T19:45:00+00:00",
+   "competition": "fra.1",
+   "opponent": "Lens",
+   "starters": [
+    {
+     "id": "espn:228707",
+     "name": "Jeffrey de Lange",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:245243",
+     "name": "Nayef Aguerd",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:307115",
+     "name": "CJ Egan-Riley",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:220718",
+     "name": "Ulisses Garcia",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:266027",
+     "name": "Timothy Weah",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:277525",
+     "name": "Himad Abdelli",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:343114",
+     "name": "Tochukwu Nnadi",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:159543",
+     "name": "Pierre-Emile Højbjerg",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259743",
+     "name": "Amine Gouiri",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:289114",
+     "name": "Igor Paixão",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238917",
+     "name": "Amine Harit",
+     "number": "77",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401876408",
+   "date": "2026-11-08T16:15:00+00:00",
+   "competition": "fra.1",
+   "opponent": "AS Monaco",
+   "starters": [
+    {
+     "id": "espn:233308",
+     "name": "Nicolas Kocik",
+     "number": "98",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:223117",
+     "name": "Samuel Yohou",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:393721",
+     "name": "Harold Voyer",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:382872",
+     "name": "Rayan Bamba",
+     "number": "26",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:330722",
+     "name": "Lucas Bretelle",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:315460",
+     "name": "Jean Vercruysse",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:273021",
+     "name": "Daouda Traoré",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:331636",
+     "name": "Lucas Calodat",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:262482",
+     "name": "Lucas Buades",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:233702",
+     "name": "Dame Guèye",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:268720",
+     "name": "Louis Mafouta",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-1-4-2"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 1,
+   "out": [
+    "Pierre-Emile Højbjerg"
+   ],
+   "in": [
+    "Geoffrey Kondogbia"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Jeffrey de Lange",
+   "previous_goalkeeper": "Jeffrey de Lange"
+  },
+  "away": {
+   "count": 1,
+   "out": [
+    "Jean Vercruysse"
+   ],
+   "in": [
+    "Antoine Rabillard"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Nicolas Kocik",
+   "previous_goalkeeper": "Nicolas Kocik"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Pierre-Emile Højbjerg",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 379,
+       "minutes_per_match": 75.8,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.08,
+        "shots": 0.95,
+        "key_passes": 0.95
+       },
+       "attack_share": 0.054
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 559,
+       "minutes_per_match": 55.9,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.07,
+        "shots": 1.13,
+        "key_passes": 0.81
+       },
+       "attack_share": 0.033
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Geoffrey Kondogbia",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 154,
+       "minutes_per_match": 30.8,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.01,
+        "shots": 1.17,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.004
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 227,
+       "minutes_per_match": 22.7,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.01,
+        "shots": 0.79,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Pierre-Emile Højbjerg",
+     "in": "Geoffrey Kondogbia",
+     "delta_per90": {
+      "xg": -0.05,
+      "xa": -0.06,
+      "shots": -0.34,
+      "key_passes": -0.81
+     },
+     "attack_share_delta": -0.031
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Jean Vercruysse",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 279,
+       "minutes_per_match": 55.8,
+       "per90": {
+        "xg": 0.14,
+        "xa": 0.17,
+        "shots": 1.61,
+        "key_passes": 0.65
+       },
+       "attack_share": 0.092
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 507,
+       "minutes_per_match": 50.7,
+       "per90": {
+        "xg": 0.16,
+        "xa": 0.11,
+        "shots": 1.6,
+        "key_passes": 0.71
+       },
+       "attack_share": 0.066
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Antoine Rabillard",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 165,
+       "minutes_per_match": 33.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.02,
+        "shots": 0.0,
+        "key_passes": 1.09
+       },
+       "attack_share": 0.003
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 324,
+       "minutes_per_match": 32.4,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.14,
+        "shots": 0.56,
+        "key_passes": 1.11
+       },
+       "attack_share": 0.029
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Jean Vercruysse",
+     "in": "Antoine Rabillard",
+     "delta_per90": {
+      "xg": -0.11,
+      "xa": 0.03,
+      "shots": -1.04,
+      "key_passes": 0.4
+     },
+     "attack_share_delta": -0.037
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Emerson",
+    "reason": "injury",
+    "likelihood": "Late December 2026",
+    "market_value_eur": 4032805
+   },
+   {
+    "player": "Derek Cornelius",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 1670148
+   }
+  ],
+  "away": [
+   {
+    "player": "Djibril Sidibé",
+    "reason": "injury",
+    "likelihood": "Late January 2027",
+    "market_value_eur": 1050076
+   },
+   {
+    "player": "Théo Eyoum",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 1172144
+   },
+   {
+    "player": "Adil Bourabaa",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": null
+   },
+   {
+    "player": "Martin Rossignol",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 623282
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 414,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.7017,
+    "DRAW": 0.1789,
+    "AWAY": 0.1194
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.44,
+     "bookmaker": "Coral",
+     "fair_odds_consensus": 1.425,
+     "ev_vs_consensus": 0.0104
+    },
+    "DRAW": {
+     "odds": 5.1,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 5.59,
+     "ev_vs_consensus": -0.0876
+    },
+    "AWAY": {
+     "odds": 7.5,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 8.375,
+     "ev_vs_consensus": -0.1045
+    }
+   },
+   "median_overround": 0.0746,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8475,
+     "UNDER": 0.1525
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.17,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 1.18,
+      "ev_vs_consensus": -0.0084
+     },
+     "UNDER": {
+      "odds": 5.5,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 6.557,
+      "ev_vs_consensus": -0.1613
+     }
+    },
+    "median_overround": 0.0746,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6228,
+     "UNDER": 0.3772
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.57,
+      "bookmaker": "SpreadEX",
+      "fair_odds_consensus": 1.606,
+      "ev_vs_consensus": -0.0222
+     },
+     "UNDER": {
+      "odds": 2.5,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.651,
+      "ev_vs_consensus": -0.057
+     }
+    },
+    "median_overround": 0.0705,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.5104,
+     "UNDER": 0.4896
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.88,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.959,
+      "ev_vs_consensus": -0.0404
+     },
+     "UNDER": {
+      "odds": 1.98,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.042,
+      "ev_vs_consensus": -0.0306
+     }
+    },
+    "median_overround": 0.0728,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.3873,
+     "UNDER": 0.6127
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.4,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 2.582,
+      "ev_vs_consensus": -0.0705
+     },
+     "UNDER": {
+      "odds": 1.58,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.632,
+      "ev_vs_consensus": -0.0319
+     }
+    },
+    "median_overround": 0.0717,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 2.58,
+  "DRAW": -0.85,
+  "AWAY": -1.73
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
