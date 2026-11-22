@@ -60,9 +60,9 @@
    1,
    0
   ],
-  "minute": "74‎’‎",
-  "finished": false,
-  "updated": "2026-11-22T14:02:05Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-22T14:32:17Z"
  },
  "5868133": {
   "flashscore_id": "lKKgMMG7",
@@ -70,12 +70,12 @@
   "home": "Barcelona",
   "away": "Villarreal",
   "score": [
-   0,
+   3,
    2
   ],
-  "minute": "HT",
+  "minute": "68‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:02:05Z"
+  "updated": "2026-11-22T14:32:17Z"
  },
  "5904804": {
   "flashscore_id": "j7yAY3VA",
@@ -86,9 +86,9 @@
    1,
    1
   ],
-  "minute": "HT",
+  "minute": "72‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:02:05Z"
+  "updated": "2026-11-22T14:32:17Z"
  },
  "5904808": {
   "flashscore_id": "S6Lsm3p4",
@@ -96,12 +96,12 @@
   "home": "Konyaspor",
   "away": "Beşiktaş",
   "score": [
-   1,
+   2,
    2
   ],
-  "minute": "HT",
+  "minute": "74‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:02:05Z"
+  "updated": "2026-11-22T14:32:17Z"
  },
  "5781804": {
   "flashscore_id": "Wtw9Lr5M",
@@ -109,12 +109,12 @@
   "home": "Ajax",
   "away": "ADO Den Haag",
   "score": [
-   2,
+   3,
    0
   ],
-  "minute": "30‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T14:02:05Z"
+  "updated": "2026-11-22T14:32:17Z"
  },
  "5781810": {
   "flashscore_id": "pjASQws2",
@@ -125,9 +125,9 @@
    1,
    1
   ],
-  "minute": "31‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T14:02:05Z"
+  "updated": "2026-11-22T14:32:17Z"
  },
  "5802997": {
   "flashscore_id": "8Oo8uIpp",
@@ -138,9 +138,9 @@
    0,
    0
   ],
-  "minute": "2‎’‎",
+  "minute": "32‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:02:05Z"
+  "updated": "2026-11-22T14:32:17Z"
  },
  "5749752": {
   "flashscore_id": "O2lZxD2B",
@@ -151,9 +151,9 @@
    0,
    0
   ],
-  "minute": "1‎’‎",
+  "minute": "32‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:02:05Z"
+  "updated": "2026-11-22T14:32:17Z"
  },
  "5749759": {
   "flashscore_id": "6aFyjKcc",
@@ -162,10 +162,23 @@
   "away": "Genoa",
   "score": [
    0,
+   1
+  ],
+  "minute": "30‎’‎",
+  "finished": false,
+  "updated": "2026-11-22T14:32:17Z"
+ },
+ "5881224": {
+  "flashscore_id": "tjJShBTG",
+  "competition": "Bundesliga",
+  "home": "Augsburg",
+  "away": "Mainz 05",
+  "score": [
+   0,
    0
   ],
-  "minute": null,
+  "minute": "3‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:02:05Z"
+  "updated": "2026-11-22T14:32:17Z"
  }
 }
