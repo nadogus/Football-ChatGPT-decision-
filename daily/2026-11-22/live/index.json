@@ -177,9 +177,9 @@
    3,
    1
   ],
-  "minute": "78‎’‎",
+  "minute": "83‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:09:30Z"
+  "updated": "2026-11-22T16:14:30Z"
  },
  "5868137": {
   "flashscore_id": "QJ4RzMV0",
@@ -192,7 +192,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T16:09:30Z"
+  "updated": "2026-11-22T16:14:30Z"
  },
  "5781809": {
   "flashscore_id": "tfLlYLlS",
@@ -203,9 +203,9 @@
    0,
    0
   ],
-  "minute": "22‎’‎",
+  "minute": "27‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:09:30Z"
+  "updated": "2026-11-22T16:14:30Z"
  },
  "5904803": {
   "flashscore_id": "rsY1zQ0b",
@@ -216,8 +216,21 @@
    1,
    0
   ],
-  "minute": "10‎’‎",
+  "minute": "14‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:09:30Z"
+  "updated": "2026-11-22T16:14:30Z"
+ },
+ "5802993": {
+  "flashscore_id": "6y7zRIVj",
+  "competition": "Ligue 1",
+  "home": "Lorient",
+  "away": "Rennes",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-22T16:14:30Z"
  }
 }
