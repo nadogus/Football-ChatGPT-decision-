@@ -18,12 +18,12 @@
   "home": "FC Twente",
   "away": "Willem II",
   "score": [
-   0,
-   0
+   1,
+   1
   ],
-  "minute": "HT",
+  "minute": "64‎’‎",
   "finished": false,
-  "updated": "2026-11-22T12:13:47Z"
+  "updated": "2026-11-22T12:40:01Z"
  },
  "5749754": {
   "flashscore_id": "2BrDVUfo",
@@ -34,9 +34,9 @@
    0,
    0
   ],
-  "minute": "43‎’‎",
+  "minute": "53‎’‎",
   "finished": false,
-  "updated": "2026-11-22T12:13:47Z"
+  "updated": "2026-11-22T12:40:01Z"
  },
  "5836935": {
   "flashscore_id": "z33K8hun",
@@ -44,11 +44,24 @@
   "home": "Burnley",
   "away": "Blackburn Rovers",
   "score": [
+   1,
+   1
+  ],
+  "minute": "37‎’‎",
+  "finished": false,
+  "updated": "2026-11-22T12:40:01Z"
+ },
+ "5811810": {
+  "flashscore_id": "I3xwT3Xa",
+  "competition": "Jupiler Pro League",
+  "home": "SK Beveren",
+  "away": "Gent",
+  "score": [
    0,
    0
   ],
-  "minute": "11‎’‎",
+  "minute": "9‎’‎",
   "finished": false,
-  "updated": "2026-11-22T12:13:47Z"
+  "updated": "2026-11-22T12:40:01Z"
  }
 }
