@@ -138,9 +138,9 @@
    4,
    0
   ],
-  "minute": "80‎’‎",
+  "minute": "85‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:37:48Z"
+  "updated": "2026-11-22T15:42:48Z"
  },
  "5749752": {
   "flashscore_id": "O2lZxD2B",
@@ -151,9 +151,9 @@
    1,
    1
   ],
-  "minute": "78‎’‎",
+  "minute": "83‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:37:48Z"
+  "updated": "2026-11-22T15:42:48Z"
  },
  "5749759": {
   "flashscore_id": "6aFyjKcc",
@@ -164,9 +164,9 @@
    0,
    2
   ],
-  "minute": "78‎’‎",
+  "minute": "83‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:37:48Z"
+  "updated": "2026-11-22T15:42:48Z"
  },
  "5881224": {
   "flashscore_id": "tjJShBTG",
@@ -174,12 +174,12 @@
   "home": "Augsburg",
   "away": "Mainz 05",
   "score": [
-   2,
-   0
+   3,
+   1
   ],
-  "minute": "47‎’‎",
+  "minute": "52‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:37:48Z"
+  "updated": "2026-11-22T15:42:48Z"
  },
  "5868137": {
   "flashscore_id": "QJ4RzMV0",
@@ -190,8 +190,8 @@
    2,
    0
   ],
-  "minute": "22‎’‎",
+  "minute": "27‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:37:48Z"
+  "updated": "2026-11-22T15:42:48Z"
  }
 }

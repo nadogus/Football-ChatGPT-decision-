@@ -310,3 +310,27 @@ _Uyarıdır, karar değildir._
 xG 1.26–0.42 · xGOT 1.15–0.65 · ceza sahası topla buluşma 6–12 · isabetli şut 3–3
 Karar için Claude'a yaz: `canlı bak 5868137`
 _Uyarıdır, karar değildir._
+
+---
+15:42 UTC
+⚡ *Canlı uyarı* — Paris FC 4-0 Angers (85‎’‎)
+• Paris FC son ~15 dk'da +1.34 xG üretti
+xG 3.33–0.18 · xGOT 5.03–0.02 · ceza sahası topla buluşma 34–6 · isabetli şut 9–1
+Karar için Claude'a yaz: `canlı bak 5802997`
+_Uyarıdır, karar değildir._
+
+---
+15:42 UTC
+⚡ *Canlı uyarı* — Bologna 1-1 Udinese (83‎’‎)
+• Udinese son ~15 dk'da +1.36 xG üretti
+xG 1.67–1.57 · xGOT 1.23–0.97 · ceza sahası topla buluşma 27–19 · isabetli şut 3–3
+Karar için Claude'a yaz: `canlı bak 5749752`
+_Uyarıdır, karar değildir._
+
+---
+15:42 UTC
+⚡ *Canlı uyarı* — Racing Santander 2-0 Real Sociedad (27‎’‎)
+• Racing Santander son ~15 dk'da +1.10 xG üretti
+xG 1.26–0.58 · xGOT 1.15–0.68 · ceza sahası topla buluşma 6–16 · isabetli şut 3–4
+Karar için Claude'a yaz: `canlı bak 5868137`
+_Uyarıdır, karar değildir._
