@@ -9,7 +9,10 @@
   "j7yAY3VA": "5904804",
   "S6Lsm3p4": "5904808",
   "Wtw9Lr5M": "5781804",
-  "pjASQws2": "5781810"
+  "pjASQws2": "5781810",
+  "8Oo8uIpp": "5802997",
+  "O2lZxD2B": "5749752",
+  "6aFyjKcc": "5749759"
  },
  "alerts": {},
  "errors": [
@@ -130,6 +133,21 @@
   },
   {
    "t": "2026-11-22T13:57:04.699219+00:00",
+   "fotmob_id": "5868133",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T14:02:05.192527+00:00",
+   "match": "OluRZ1ie",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-22T14:02:05.192527+00:00",
+   "fotmob_id": "5811810",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T14:02:05.192527+00:00",
    "fotmob_id": "5868133",
    "reason": "ALERT_NOT_SENT"
   }

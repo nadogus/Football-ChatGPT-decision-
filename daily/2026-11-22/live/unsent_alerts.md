@@ -197,3 +197,20 @@ _Uyarıdır, karar değildir._
 xG 2.08–0.11 · xGOT 0.29–0.14 · ceza sahası topla buluşma 20–2 · isabetli şut 3–2
 Karar için Claude'a yaz: `canlı bak 5868133`
 _Uyarıdır, karar değildir._
+
+---
+14:02 UTC
+⚡ *Canlı uyarı* — SK Beveren 1-0 Gent (74‎’‎)
+• Açık maç: toplam xG 2.10, skor 1-0
+• SK Beveren kırmızı kart gördü (1)
+xG 1.17–0.93 · xGOT 1.02–0.36 · ceza sahası topla buluşma 22–20 · isabetli şut 5–3
+Karar için Claude'a yaz: `canlı bak 5811810`
+_Uyarıdır, karar değildir._
+
+---
+14:02 UTC
+⚡ *Canlı uyarı* — Barcelona 0-2 Villarreal (HT)
+• Barcelona baskın (xG 2.08–0.11) ama önde değil
+xG 2.08–0.11 · xGOT 0.29–0.14 · ceza sahası topla buluşma 20–2 · isabetli şut 3–2
+Karar için Claude'a yaz: `canlı bak 5868133`
+_Uyarıdır, karar değildir._

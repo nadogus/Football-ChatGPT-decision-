@@ -47,9 +47,9 @@
    2,
    2
   ],
-  "minute": "92‎’‎",
-  "finished": false,
-  "updated": "2026-11-22T13:57:04Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-22T14:02:05Z"
  },
  "5811810": {
   "flashscore_id": "I3xwT3Xa",
@@ -57,12 +57,12 @@
   "home": "SK Beveren",
   "away": "Gent",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "69‎’‎",
+  "minute": "74‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:57:04Z"
+  "updated": "2026-11-22T14:02:05Z"
  },
  "5868133": {
   "flashscore_id": "lKKgMMG7",
@@ -75,7 +75,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T13:57:04Z"
+  "updated": "2026-11-22T14:02:05Z"
  },
  "5904804": {
   "flashscore_id": "j7yAY3VA",
@@ -88,7 +88,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T13:57:04Z"
+  "updated": "2026-11-22T14:02:05Z"
  },
  "5904808": {
   "flashscore_id": "S6Lsm3p4",
@@ -101,7 +101,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T13:57:04Z"
+  "updated": "2026-11-22T14:02:05Z"
  },
  "5781804": {
   "flashscore_id": "Wtw9Lr5M",
@@ -112,9 +112,9 @@
    2,
    0
   ],
-  "minute": "25‎’‎",
+  "minute": "30‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:57:04Z"
+  "updated": "2026-11-22T14:02:05Z"
  },
  "5781810": {
   "flashscore_id": "pjASQws2",
@@ -125,8 +125,47 @@
    1,
    1
   ],
-  "minute": "26‎’‎",
+  "minute": "31‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:57:04Z"
+  "updated": "2026-11-22T14:02:05Z"
+ },
+ "5802997": {
+  "flashscore_id": "8Oo8uIpp",
+  "competition": "Ligue 1",
+  "home": "Paris FC",
+  "away": "Angers",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "2‎’‎",
+  "finished": false,
+  "updated": "2026-11-22T14:02:05Z"
+ },
+ "5749752": {
+  "flashscore_id": "O2lZxD2B",
+  "competition": "Serie A",
+  "home": "Bologna",
+  "away": "Udinese",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "1‎’‎",
+  "finished": false,
+  "updated": "2026-11-22T14:02:05Z"
+ },
+ "5749759": {
+  "flashscore_id": "6aFyjKcc",
+  "competition": "Serie A",
+  "home": "Sassuolo",
+  "away": "Genoa",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-22T14:02:05Z"
  }
 }
