@@ -270,3 +270,11 @@ _Uyarıdır, karar değildir._
 xG 0.60–1.73 · xGOT 1.00–1.78 · ceza sahası topla buluşma 17–11 · isabetli şut 3–4
 Karar için Claude'a yaz: `canlı bak 5749759`
 _Uyarıdır, karar değildir._
+
+---
+15:22 UTC
+⚡ *Canlı uyarı* — Paris FC 3-0 Angers (65‎’‎)
+• Paris FC son ~15 dk'da +1.45 xG üretti
+xG 1.99–0.16 · xGOT 2.93–0.02 · ceza sahası topla buluşma 28–3 · isabetli şut 6–1
+Karar için Claude'a yaz: `canlı bak 5802997`
+_Uyarıdır, karar değildir._

@@ -112,9 +112,9 @@
    3,
    0
   ],
-  "minute": "63‎’‎",
-  "finished": false,
-  "updated": "2026-11-22T14:52:16Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-22T15:22:48Z"
  },
  "5781810": {
   "flashscore_id": "pjASQws2",
@@ -123,11 +123,11 @@
   "away": "AZ Alkmaar",
   "score": [
    1,
-   3
+   5
   ],
-  "minute": "63‎’‎",
-  "finished": false,
-  "updated": "2026-11-22T14:52:16Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-22T15:22:48Z"
  },
  "5802997": {
   "flashscore_id": "8Oo8uIpp",
@@ -135,12 +135,12 @@
   "home": "Paris FC",
   "away": "Angers",
   "score": [
-   0,
+   3,
    0
   ],
-  "minute": "HT",
+  "minute": "65‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:52:16Z"
+  "updated": "2026-11-22T15:22:48Z"
  },
  "5749752": {
   "flashscore_id": "O2lZxD2B",
@@ -151,9 +151,9 @@
    1,
    0
   ],
-  "minute": "HT",
+  "minute": "63‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:52:16Z"
+  "updated": "2026-11-22T15:22:48Z"
  },
  "5749759": {
   "flashscore_id": "6aFyjKcc",
@@ -164,9 +164,9 @@
    0,
    2
   ],
-  "minute": "HT",
+  "minute": "63‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:52:16Z"
+  "updated": "2026-11-22T15:22:48Z"
  },
  "5881224": {
   "flashscore_id": "tjJShBTG",
@@ -174,11 +174,24 @@
   "home": "Augsburg",
   "away": "Mainz 05",
   "score": [
+   2,
+   0
+  ],
+  "minute": "HT",
+  "finished": false,
+  "updated": "2026-11-22T15:22:48Z"
+ },
+ "5868137": {
+  "flashscore_id": "QJ4RzMV0",
+  "competition": "LaLiga",
+  "home": "Racing Santander",
+  "away": "Real Sociedad",
+  "score": [
    1,
    0
   ],
-  "minute": "23‎’‎",
+  "minute": "7‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:52:16Z"
+  "updated": "2026-11-22T15:22:48Z"
  }
 }

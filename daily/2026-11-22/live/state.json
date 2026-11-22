@@ -13,7 +13,8 @@
   "8Oo8uIpp": "5802997",
   "O2lZxD2B": "5749752",
   "6aFyjKcc": "5749759",
-  "tjJShBTG": "5881224"
+  "tjJShBTG": "5881224",
+  "QJ4RzMV0": "5868137"
  },
  "alerts": {},
  "errors": [
@@ -210,6 +211,21 @@
   {
    "t": "2026-11-22T14:52:16.652034+00:00",
    "fotmob_id": "5749759",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T15:22:48.996308+00:00",
+   "match": "OluRZ1ie",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-22T15:22:48.996308+00:00",
+   "match": "hGNeTCRr",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-22T15:22:48.996308+00:00",
+   "fotmob_id": "5802997",
    "reason": "ALERT_NOT_SENT"
   }
  ]
