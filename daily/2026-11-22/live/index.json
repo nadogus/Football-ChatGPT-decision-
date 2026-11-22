@@ -8,8 +8,21 @@
    0,
    0
   ],
-  "minute": "41‎’‎",
+  "minute": "46‎’‎",
   "finished": false,
-  "updated": "2026-11-22T11:11:12Z"
+  "updated": "2026-11-22T11:16:12Z"
+ },
+ "5781812": {
+  "flashscore_id": "zwSnE0cd",
+  "competition": "Eredivisie",
+  "home": "FC Twente",
+  "away": "Willem II",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-22T11:16:12Z"
  }
 }
