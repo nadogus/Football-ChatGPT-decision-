@@ -1,0 +1,920 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-22T15:54:04.166632+00:00",
+ "minutes_before_kickoff": 35.93055613333333,
+ "match": {
+  "match_id": "UorZXuM7",
+  "home": "Liverpool",
+  "away": "Manchester Utd",
+  "kickoff": "2026-11-22T16:30:00Z",
+  "competition": "Premier League",
+  "category": "England"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:196876",
+     "name": "Alisson Becker",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:157892",
+     "name": "Virgil van Dijk",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323110",
+     "name": "Milos Kerkez",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355980",
+     "name": "Jérémy Jacquet",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:270821",
+     "name": "Ronald Araujo",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303748",
+     "name": "Florian Wirtz",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:257206",
+     "name": "Dominik Szoboszlai",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:249299",
+     "name": "Alexis Mac Allister",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:328238",
+     "name": "Bradley Barcola",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:379588",
+     "name": "Rio Ngumoha",
+     "number": "73",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:235662",
+     "name": "Alexander Isak",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:301425",
+     "name": "Senne Lammens",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:340206",
+     "name": "Leny Yoro",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:239349",
+     "name": "Matthijs de Ligt",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:233937",
+     "name": "Lisandro Martínez",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238902",
+     "name": "Diogo Dalot",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:193297",
+     "name": "Youri Tielemans",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:328466",
+     "name": "Kobbie Mainoo",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259902",
+     "name": "Matheus Cunha",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:366781",
+     "name": "Patrick Dorgu",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:124091",
+     "name": "Bruno Fernandes",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:271170",
+     "name": "Bryan Mbeumo",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401879243",
+   "date": "2026-11-08T14:00:00+00:00",
+   "competition": "eng.1",
+   "opponent": "Crystal Palace",
+   "starters": [
+    {
+     "id": "espn:196876",
+     "name": "Alisson Becker",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:157892",
+     "name": "Virgil van Dijk",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355980",
+     "name": "Jérémy Jacquet",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323110",
+     "name": "Milos Kerkez",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:270821",
+     "name": "Ronald Araujo",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303748",
+     "name": "Florian Wirtz",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:249299",
+     "name": "Alexis Mac Allister",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:257206",
+     "name": "Dominik Szoboszlai",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:235662",
+     "name": "Alexander Isak",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:328238",
+     "name": "Bradley Barcola",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:249524",
+     "name": "Cody Gakpo",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401879240",
+   "date": "2026-11-08T16:30:00+00:00",
+   "competition": "eng.1",
+   "opponent": "Aston Villa",
+   "starters": [
+    {
+     "id": "espn:301425",
+     "name": "Senne Lammens",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:157073",
+     "name": "Harry Maguire",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:340206",
+     "name": "Leny Yoro",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238902",
+     "name": "Diogo Dalot",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:239350",
+     "name": "Noussair Mazraoui",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:124091",
+     "name": "Bruno Fernandes",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:328466",
+     "name": "Kobbie Mainoo",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:193297",
+     "name": "Youri Tielemans",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:271170",
+     "name": "Bryan Mbeumo",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259902",
+     "name": "Matheus Cunha",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:291630",
+     "name": "Amad Diallo",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 1,
+   "out": [
+    "Cody Gakpo"
+   ],
+   "in": [
+    "Rio Ngumoha"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Alisson Becker",
+   "previous_goalkeeper": "Alisson Becker"
+  },
+  "away": {
+   "count": 3,
+   "out": [
+    "Harry Maguire",
+    "Noussair Mazraoui",
+    "Amad Diallo"
+   ],
+   "in": [
+    "Matthijs de Ligt",
+    "Lisandro Martínez",
+    "Patrick Dorgu"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Senne Lammens",
+   "previous_goalkeeper": "Senne Lammens"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Cody Gakpo",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 347,
+       "minutes_per_match": 69.4,
+       "per90": {
+        "xg": 0.38,
+        "xa": 0.29,
+        "shots": 2.59,
+        "key_passes": 2.07
+       },
+       "attack_share": 0.178
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 527,
+       "minutes_per_match": 52.7,
+       "per90": {
+        "xg": 0.31,
+        "xa": 0.31,
+        "shots": 2.56,
+        "key_passes": 2.39
+       },
+       "attack_share": 0.119
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Rio Ngumoha",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 198,
+       "minutes_per_match": 39.6,
+       "per90": {
+        "xg": 0.1,
+        "xa": 0.08,
+        "shots": 2.27,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.027
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 410,
+       "minutes_per_match": 41.0,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.29,
+        "shots": 1.98,
+        "key_passes": 1.1
+       },
+       "attack_share": 0.056
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Cody Gakpo",
+     "in": "Rio Ngumoha",
+     "delta_per90": {
+      "xg": -0.23,
+      "xa": -0.02,
+      "shots": -0.58,
+      "key_passes": -1.29
+     },
+     "attack_share_delta": -0.063
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Harry Maguire",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 403,
+       "minutes_per_match": 80.6,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.1,
+        "shots": 0.67,
+        "key_passes": 0.22
+       },
+       "attack_share": 0.04
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 683,
+       "minutes_per_match": 68.3,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.06,
+        "shots": 1.05,
+        "key_passes": 0.26
+       },
+       "attack_share": 0.032
+      }
+     }
+    },
+    {
+     "name": "Noussair Mazraoui",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 180,
+       "minutes_per_match": 36.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.04,
+        "shots": 0.5,
+        "key_passes": 1.0
+       },
+       "attack_share": 0.007
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 315,
+       "minutes_per_match": 31.5,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.03,
+        "shots": 0.29,
+        "key_passes": 0.86
+       },
+       "attack_share": 0.005
+      }
+     }
+    },
+    {
+     "name": "Amad Diallo",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 341,
+       "minutes_per_match": 68.2,
+       "per90": {
+        "xg": 0.3,
+        "xa": 0.11,
+        "shots": 3.17,
+        "key_passes": 1.06
+       },
+       "attack_share": 0.102
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 514,
+       "minutes_per_match": 51.4,
+       "per90": {
+        "xg": 0.22,
+        "xa": 0.08,
+        "shots": 2.8,
+        "key_passes": 0.88
+       },
+       "attack_share": 0.071
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Matthijs de Ligt",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 81,
+       "minutes_per_match": 16.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.001
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 2,
+       "minutes": 81,
+       "minutes_per_match": 8.1,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Lisandro Martínez",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 103,
+       "minutes_per_match": 20.6,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.59,
+        "shots": 0.87,
+        "key_passes": 1.75
+       },
+       "attack_share": 0.046
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 418,
+       "minutes_per_match": 41.8,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.21,
+        "shots": 1.29,
+        "key_passes": 0.86
+       },
+       "attack_share": 0.047
+      }
+     }
+    },
+    {
+     "name": "Patrick Dorgu",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 24,
+       "minutes_per_match": 4.8,
+       "per90": {
+        "xg": 1.31,
+        "xa": 0.6,
+        "shots": 3.75,
+        "key_passes": 7.5
+       },
+       "attack_share": 0.034
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 2,
+       "minutes": 30,
+       "minutes_per_match": 3.0,
+       "per90": {
+        "xg": 1.44,
+        "xa": 0.51,
+        "shots": 6.0,
+        "key_passes": 9.0
+       },
+       "attack_share": 0.027
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Harry Maguire",
+     "in": "Matthijs de Ligt",
+     "delta_per90": {
+      "xg": -0.04,
+      "xa": -0.05,
+      "shots": -1.05,
+      "key_passes": -0.26
+     },
+     "attack_share_delta": -0.032
+    },
+    {
+     "out": "Noussair Mazraoui",
+     "in": "Lisandro Martínez",
+     "delta_per90": {
+      "xg": 0.03,
+      "xa": 0.18,
+      "shots": 1.0,
+      "key_passes": 0.0
+     },
+     "attack_share_delta": 0.042
+    },
+    {
+     "out": "Amad Diallo",
+     "in": "Patrick Dorgu",
+     "delta_per90": {
+      "xg": 1.22,
+      "xa": 0.43,
+      "shots": 3.2,
+      "key_passes": 8.12
+     },
+     "attack_share_delta": -0.044
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Conor Bradley",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 26385643
+   },
+   {
+    "player": "Giovanni Leoni",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 30461667
+   },
+   {
+    "player": "Hugo Ekitiké",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 70875948
+   }
+  ],
+  "away": [
+   {
+    "player": "Luke Shaw",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 5791720
+   },
+   {
+    "player": "Carlos Baleba",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 69741250
+   },
+   {
+    "player": "Manuel Ugarte",
+    "reason": "injury",
+    "likelihood": "Early April 2027",
+    "market_value_eur": 24376688
+   },
+   {
+    "player": "Benjamin Šeško",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 75917475
+   },
+   {
+    "player": "Marcus Rashford",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 36736997
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 416,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.5507,
+    "DRAW": 0.2249,
+    "AWAY": 0.2245
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.8,
+     "bookmaker": "Betfred",
+     "fair_odds_consensus": 1.816,
+     "ev_vs_consensus": -0.0087
+    },
+    "DRAW": {
+     "odds": 4.25,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 4.446,
+     "ev_vs_consensus": -0.0442
+    },
+    "AWAY": {
+     "odds": 4.25,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 4.454,
+     "ev_vs_consensus": -0.0459
+    }
+   },
+   "median_overround": 0.0688,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8617,
+     "UNDER": 0.1383
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.17,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 1.16,
+      "ev_vs_consensus": 0.0082
+     },
+     "UNDER": {
+      "odds": 6.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 7.231,
+      "ev_vs_consensus": -0.1702
+     }
+    },
+    "median_overround": 0.0698,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6433,
+     "UNDER": 0.3567
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.52,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.554,
+      "ev_vs_consensus": -0.0222
+     },
+     "UNDER": {
+      "odds": 2.7,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 2.803,
+      "ev_vs_consensus": -0.0369
+     }
+    },
+    "median_overround": 0.0696,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.5346,
+     "UNDER": 0.4654
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.8,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.871,
+      "ev_vs_consensus": -0.0377
+     },
+     "UNDER": {
+      "odds": 2.05,
+      "bookmaker": "7BetUK",
+      "fair_odds_consensus": 2.149,
+      "ev_vs_consensus": -0.0459
+     }
+    },
+    "median_overround": 0.065,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4112,
+     "UNDER": 0.5888
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.25,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 2.432,
+      "ev_vs_consensus": -0.0748
+     },
+     "UNDER": {
+      "odds": 1.67,
+      "bookmaker": "7BetUK",
+      "fair_odds_consensus": 1.698,
+      "ev_vs_consensus": -0.0167
+     }
+    },
+    "median_overround": 0.0694,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -2.41,
+  "DRAW": 0.74,
+  "AWAY": 1.68
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
