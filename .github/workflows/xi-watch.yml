@@ -2,7 +2,7 @@ name: xi-watch
 
 on:
   schedule:
-    - cron: "4,14,24,34,44,54 * * * *"   # ~10 dakikada bir (on 10 dk); GitHub zamanlaması 5-15 dk gecikebilir, pencere 75..10 dk
+    - cron: "4,14,24,34,44,54 * * * *"   # 10 dk istenir ama GitHub pratikte ~saatte bir başlatıyor; bu yüzden her çalıştırma kendi içinde döngüyle izler
   workflow_dispatch:
     inputs:
       date: {description: "YYYY-MM-DD (doğrulama için)", default: ""}
@@ -25,7 +25,7 @@ env:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
       - name: Bugün izlenecek maç var mı?
@@ -40,7 +40,7 @@ jobs:
           for p in glob.glob("daily/*/fixtures.json"):
               for f in json.load(open(p)):
                   k = datetime.fromisoformat(f["kickoff"].replace("Z", "+00:00"))
-                  if 5 <= (k - now).total_seconds() / 60 <= 80: due = True
+                  if 5 <= (k - now).total_seconds() / 60 <= 140: due = True
           print(f"due={'true' if due else 'false'}")
           PY
       - uses: actions/setup-python@v5
@@ -56,18 +56,48 @@ jobs:
           PORT=8001 nohup python run.py >/tmp/flashscore.log 2>&1 &
           for i in {1..40}; do curl -fsS "http://127.0.0.1:8001/matches?sport=football" -o /dev/null && exit 0; sleep 2; done
           cat /tmp/flashscore.log; exit 1
-      - name: XI izle
-        if: steps.due.outputs.due == 'true'
-        run: python xi_watch.py ${{ github.event.inputs.date && format('--date {0}', github.event.inputs.date) || '' }} ${{ github.event.inputs.match_id && format('--match-id {0} --force', github.event.inputs.match_id) || '' }}
-      - name: Kaydet
+      # GitHub'ın 10 dk'lık zamanlaması pratikte 45-65 dk'da bir çalışıyor. Bu yüzden tek çalıştırma içinde
+      # 5 dakikada bir, 12 tur (≈60 dk) izleyip her turda kaydediyoruz (live-watch ile aynı yöntem).
+      - name: XI izle ve kaydet (5 dk arayla 12 tur)
         if: steps.due.outputs.due == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          for d in daily ledger; do [ -e "$d" ] && git add "$d"; done
-          git diff --cached --quiet && exit 0
-          git commit -q -m "XI izleme $(date -u +%F\ %H:%M)"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done; exit 1
+          single=0
+          if [ -n "${{ github.event.inputs.match_id }}" ]; then single=1; fi
+          for round in 1 2 3 4 5 6 7 8 9 10 11 12; do
+            start=$(date +%s)
+            git pull -q --rebase || true
+            python xi_watch.py ${{ github.event.inputs.date && format('--date {0}', github.event.inputs.date) || '' }} ${{ github.event.inputs.match_id && format('--match-id {0} --force', github.event.inputs.match_id) || '' }} || echo "tur $round hata verdi, devam"
+            for d in daily ledger; do if [ -e "$d" ]; then git add "$d"; fi; done
+            if ! git diff --cached --quiet; then
+              git commit -q -m "XI izleme $(date -u +%F\ %H:%M)"
+              pushed=0
+              for i in 1 2 3; do
+                if git pull -q --rebase && git push -q; then pushed=1; break; fi
+                git rebase --abort 2>/dev/null || true
+                sleep 5
+              done
+              if [ "$pushed" = 0 ]; then echo "tur $round push başarısız, devam"; fi
+            fi
+            [ "$single" = 1 ] && break
+            [ "$round" = 12 ] && break
+            git pull -q --rebase || true
+            soon=$(python3 - <<'PY'
+          import json, glob
+          from datetime import datetime, timezone
+          now = datetime.now(timezone.utc); n = 0
+          for p in glob.glob("daily/*/fixtures.json"):
+              for f in json.load(open(p)):
+                  k = datetime.fromisoformat(f["kickoff"].replace("Z", "+00:00"))
+                  if 5 <= (k - now).total_seconds() / 60 <= 80: n += 1
+          print(n)
+          PY
+            )
+            if [ "${soon:-1}" = 0 ]; then echo "izlenecek maç kalmadı, döngü bitiyor"; break; fi
+            left=$((300 - ($(date +%s) - start))); [ $left -gt 0 ] && sleep $left
+          done
+          exit 0
       - name: Arıza bildirimi (Slack webhook tanımlıysa)
         if: failure() && env.SLACK_WEBHOOK_URL != ''
         run: |

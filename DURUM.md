@@ -28,6 +28,8 @@ Son güncelleme: 10 Kasım 2026. Yeni bir sohbette kaldığımız yerden devam e
   işaretlenmiyor, `daily/<tarih>/live/unsent_alerts.md` dosyasına yazılıyor. Kalıcı çözüm: repo Settings → Secrets → Actions'a
   `SLACK_LIVE_WEBHOOK_URL` (Slack Incoming Webhook, #futbol-yorum) eklemek.
 - GitHub'ın 5 dk'lık zamanlaması 20–50 dk gecikti. live-watch artık tek çalıştırmada 5 dk arayla 5 tur (≈25 dk) izliyor.
+- XI izleyicisi GitHub'ın ~saatlik çalıştırması yüzünden 29 maçın 10'unda kadroyu kaçırdı; artık her çalıştırma 5 dk arayla ~60 dk döngüde izliyor.
+- 22 Kasım'ın ilk 14 kararı (10:30–14:00 UTC maçları, hepsi PASS) yorum görevinin push izni olmadığı için repoya yazılamadı; Slack'ten sonradan decisions.jsonl'e eklendi.
 
 ## Henüz denenmedi (ilk gerçek sınav: 21–22 Kasım 2026 hafta sonu)
 - Zamanlamaların kendiliğinden çalışması; XI izleyicinin canlı maçta kadroyu zamanında yakalaması.
