@@ -230,3 +230,11 @@ _Uyarıdır, karar değildir._
 xG 0.89–0.08 · xGOT 2.32–0.00 · ceza sahası topla buluşma 20–1 · isabetli şut 5–0
 Karar için Claude'a yaz: `canlı bak 5781804`
 _Uyarıdır, karar değildir._
+
+---
+14:42 UTC
+⚡ *Canlı uyarı* — Ajax 3-0 ADO Den Haag (53‎’‎)
+• ADO Den Haag kırmızı kart gördü (1)
+xG 0.99–0.08 · xGOT 2.35–0.00 · ceza sahası topla buluşma 24–1 · isabetli şut 6–0
+Karar için Claude'a yaz: `canlı bak 5781804`
+_Uyarıdır, karar değildir._
