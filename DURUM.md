@@ -18,6 +18,15 @@ Son güncelleme: 10 Kasım 2026. Yeni bir sohbette kaldığımız yerden devam e
 - **Ayrı repo:** `nadogus/football-backtest` — Dixon-Coles/Elo ailesi 17.463 maçta kapanış oranını yenemedi
   (CLV ≈ −%6,7); haftalık zamanlaması hâlâ açık ama Pinnacle kapanışı Ocak 2026'dan beri gelmediği için yeni sonuç üretmez.
 
+## İlk hafta sonu dersleri (22 Kasım 2026)
+- Zamanlanmış görev, kendi içinden yeni zamanlanmış görev AÇAMIYOR (kullanıcı onayı istiyor). Bu yüzden 21–22 Kasım'da hiç yorum/karar çıkmadı.
+  Çözüm: planlayıcı artık görev kurmuyor, sadece planı Slack'e yazıyor; yorumları kullanıcının onayıyla kurulmuş TEKRARLAYAN
+  "Futbol yorum nöbetçisi" görevi yapıyor (her saat :20 ve :50'de, 25–55 dk sonra başlayacak maçlar; Slack'te yorumu olan maçı atlar).
+- Canlı uyarılar Slack'e hiç gitmedi ama "gönderildi" diye işaretlendi (webhook secret'ı yok gibi). Artık gönderilemeyen uyarı
+  işaretlenmiyor, `daily/<tarih>/live/unsent_alerts.md` dosyasına yazılıyor. Kalıcı çözüm: repo Settings → Secrets → Actions'a
+  `SLACK_LIVE_WEBHOOK_URL` (Slack Incoming Webhook, #futbol-yorum) eklemek.
+- GitHub'ın 5 dk'lık zamanlaması 20–50 dk gecikti. live-watch artık tek çalıştırmada 5 dk arayla 5 tur (≈25 dk) izliyor.
+
 ## Henüz denenmedi (ilk gerçek sınav: 21–22 Kasım 2026 hafta sonu)
 - Zamanlamaların kendiliğinden çalışması; XI izleyicinin canlı maçta kadroyu zamanında yakalaması.
 - Yorum görevleri: Slack'e yazma, karar kalitesi, kararı repoya kaydedebilme (yazma izni belirsiz).

@@ -241,9 +241,20 @@ def run(now: datetime | None = None, client: FotMobClient | None = None, extra_i
         sent_keys = set(state["alerts"].get(fid, []))
         new = [(k, r) for k, r in triggers(snap, history) if k not in sent_keys]
         if new:
-            send(alert_text(fid, snap, [r for _, r in new]))
-            state["alerts"][fid] = sorted(sent_keys | {k for k, _ in new})
-            report["alerts"] += 1
+            text = alert_text(fid, snap, [r for _, r in new])
+            result = send(text)
+            # notify() kanal listesi döndürür; boş liste = hiçbir yere gitmedi (webhook yok ya da hata).
+            # O durumda uyarıyı "gönderildi" diye işaretleme: bir sonraki turda tekrar denensin ve kayda geçsin.
+            if result is None or result:
+                state["alerts"][fid] = sorted(sent_keys | {k for k, _ in new})
+                report["alerts"] += 1
+            else:
+                report["unsent"] = report.get("unsent", 0) + 1
+                state["errors"].append({"t": now.isoformat(), "fotmob_id": fid, "reason": "ALERT_NOT_SENT"})
+                with (outdir / "unsent_alerts.md").open("a") as fh:
+                    fh.write(f"\n---\n{now:%H:%M} UTC\n{text}\n")
+                print("::warning::Canlı uyarı gönderilemedi (SLACK_LIVE_WEBHOOK_URL / SLACK_WEBHOOK_URL / NTFY_TOPIC yok ya da hata). "
+                      f"Uyarı {outdir.name}/unsent_alerts.md dosyasına yazıldı.", flush=True)
     state["errors"] = state["errors"][-50:]
     (outdir / "state.json").write_text(json.dumps(state, ensure_ascii=False, indent=1))
     (outdir / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1))

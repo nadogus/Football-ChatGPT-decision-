@@ -24,7 +24,7 @@ env:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with: {fetch-depth: 30}
@@ -49,18 +49,28 @@ jobs:
       - uses: actions/setup-python@v5
         if: steps.due.outputs.due == 'true'
         with: {python-version: "3.12"}
-      - name: Canlı izle
-        if: steps.due.outputs.due == 'true'
-        run: python live_watch.py ${{ github.event.inputs.fotmob_id && format('--fotmob-id {0}', github.event.inputs.fotmob_id) || '' }}
-      - name: Kaydet
+      - name: Uyarı kanalı tanımlı mı?
+        if: steps.due.outputs.due == 'true' && env.SLACK_WEBHOOK_URL == '' && env.SLACK_LIVE_WEBHOOK_URL == '' && env.NTFY_TOPIC == ''
+        run: echo "::warning::SLACK_WEBHOOK_URL / SLACK_LIVE_WEBHOOK_URL / NTFY_TOPIC secret'larının hiçbiri yok; canlı uyarılar Slack'e GİTMEZ, yalnızca daily/<tarih>/live/unsent_alerts.md dosyasına yazılır."
+      # GitHub'ın 5 dakikalık zamanlaması pratikte 20-50 dk gecikiyor. Bu yüzden tek çalıştırma içinde
+      # 5 dakikada bir, 5 tur (≈25 dk) izleyip her turda kaydediyoruz. Repo herkese açık; Actions dakikası ücretsiz.
+      - name: Canlı izle ve kaydet (5 dk arayla 5 tur)
         if: steps.due.outputs.due == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          [ -e daily ] && git add daily
-          git diff --cached --quiet && exit 0
-          git commit -q -m "Canlı izleme $(date -u +%F\ %H:%M)"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done; exit 1
+          for round in 1 2 3 4 5; do
+            start=$(date +%s)
+            git pull -q --rebase || true
+            python live_watch.py ${{ github.event.inputs.fotmob_id && format('--fotmob-id {0}', github.event.inputs.fotmob_id) || '' }} || echo "tur $round hata verdi, devam"
+            if [ -e daily ]; then git add daily; fi
+            if ! git diff --cached --quiet; then
+              git commit -q -m "Canlı izleme $(date -u +%F\ %H:%M)"
+              for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+            fi
+            [ "$round" = 5 ] && break
+            left=$((300 - ($(date +%s) - start))); [ $left -gt 0 ] && sleep $left
+          done
       - name: Arıza bildirimi (Slack webhook tanımlıysa)
         if: failure() && env.SLACK_WEBHOOK_URL != ''
         run: |

@@ -109,3 +109,20 @@ def test_fixture_window(tmp_path):
                     "kickoff": (NOW - timedelta(minutes=m)).strftime("%Y-%m-%dT%H:%M:%SZ")}
     (day / "fixtures.json").write_text(json.dumps([mk(-30), mk(10), mk(200)]))
     assert [f["match_id"] for f in lw.live_fixtures(NOW, tmp_path)] == ["10"]
+
+
+def test_unsent_alert_is_not_marked_sent_and_is_kept(tmp_path):
+    # Webhook yoksa notify() boş liste döner: uyarı "gönderildi" sayılmamalı, dosyaya yazılmalı, sonraki turda tekrar denenmeli.
+    day = tmp_path / "daily" / "2026-11-21"
+    day.mkdir(parents=True)
+    ko = (NOW - timedelta(minutes=60)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    (day / "fixtures.json").write_text(json.dumps([{"match_id": "abc", "home": "Arsenal", "away": "Chelsea",
+                                                    "kickoff": ko, "competition": "Premier League"}]))
+    rep = lw.run(NOW, FakeClient(details()), root=tmp_path, send=lambda text: [])
+    assert rep["alerts"] == 0 and rep["unsent"] == 1
+    state = json.loads((day / "live" / "state.json").read_text())
+    assert not state["alerts"].get("4500001")
+    assert "canlı bak 4500001" in (day / "live" / "unsent_alerts.md").read_text()
+    sent = []
+    rep = lw.run(NOW + timedelta(minutes=5), FakeClient(details(minute="63'")), root=tmp_path, send=sent.append)
+    assert rep["alerts"] == 1 and len(sent) == 1
