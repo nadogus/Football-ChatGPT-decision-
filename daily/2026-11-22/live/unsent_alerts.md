@@ -358,3 +358,11 @@ _Uyarıdır, karar değildir._
 xG 1.62–1.32 · xGOT 1.24–1.25 · ceza sahası topla buluşma 14–25 · isabetli şut 4–6
 Karar için Claude'a yaz: `canlı bak 5868137`
 _Uyarıdır, karar değildir._
+
+---
+16:29 UTC
+⚡ *Canlı uyarı* — Trabzonspor 1-0 Eyüpspor (30‎’‎)
+• Trabzonspor son ~15 dk'da +0.75 xG üretti
+xG 0.84–0.03 · xGOT 1.02–0.00 · ceza sahası topla buluşma 12–3 · isabetli şut 5–0
+Karar için Claude'a yaz: `canlı bak 5904803`
+_Uyarıdır, karar değildir._
