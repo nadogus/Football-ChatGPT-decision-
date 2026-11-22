@@ -190,9 +190,9 @@
    3,
    2
   ],
-  "minute": "86‎’‎",
+  "minute": "91‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:00:25Z"
+  "updated": "2026-11-22T17:05:25Z"
  },
  "5781809": {
   "flashscore_id": "tfLlYLlS",
@@ -203,9 +203,9 @@
    0,
    1
   ],
-  "minute": "57‎’‎",
+  "minute": "61‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:00:25Z"
+  "updated": "2026-11-22T17:05:25Z"
  },
  "5904803": {
   "flashscore_id": "rsY1zQ0b",
@@ -216,9 +216,9 @@
    1,
    0
   ],
-  "minute": "HT",
+  "minute": "47‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:00:25Z"
+  "updated": "2026-11-22T17:05:25Z"
  },
  "5802993": {
   "flashscore_id": "6y7zRIVj",
@@ -226,12 +226,12 @@
   "home": "Lorient",
   "away": "Rennes",
   "score": [
-   0,
+   1,
    1
   ],
-  "minute": "45‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T17:00:25Z"
+  "updated": "2026-11-22T17:05:25Z"
  },
  "5881232": {
   "flashscore_id": "n9yfdpz9",
@@ -242,9 +242,9 @@
    0,
    0
   ],
-  "minute": "29‎’‎",
+  "minute": "34‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:00:25Z"
+  "updated": "2026-11-22T17:05:25Z"
  },
  "5795521": {
   "flashscore_id": "UorZXuM7",
@@ -255,9 +255,9 @@
    2,
    0
   ],
-  "minute": "31‎’‎",
+  "minute": "36‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:00:25Z"
+  "updated": "2026-11-22T17:05:25Z"
  },
  "5749750": {
   "flashscore_id": "UaV3yLr4",
@@ -265,11 +265,11 @@
   "home": "Milan",
   "away": "Frosinone",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": null,
+  "minute": "4‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:00:25Z"
+  "updated": "2026-11-22T17:05:25Z"
  }
 }

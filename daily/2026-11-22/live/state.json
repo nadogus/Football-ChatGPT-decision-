@@ -25,21 +25,6 @@
  "alerts": {},
  "errors": [
   {
-   "t": "2026-11-22T13:57:04.699219+00:00",
-   "fotmob_id": "5811810",
-   "reason": "ALERT_NOT_SENT"
-  },
-  {
-   "t": "2026-11-22T13:57:04.699219+00:00",
-   "fotmob_id": "5868133",
-   "reason": "ALERT_NOT_SENT"
-  },
-  {
-   "t": "2026-11-22T14:02:05.192527+00:00",
-   "match": "OluRZ1ie",
-   "reason": "LOW_MATCH_SCORE"
-  },
-  {
    "t": "2026-11-22T14:02:05.192527+00:00",
    "fotmob_id": "5811810",
    "reason": "ALERT_NOT_SENT"
@@ -271,6 +256,21 @@
   },
   {
    "t": "2026-11-22T17:00:25.029804+00:00",
+   "fotmob_id": "5795521",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T17:05:25.118691+00:00",
+   "match": "hGNeTCRr",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-22T17:05:25.118691+00:00",
+   "fotmob_id": "5781809",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T17:05:25.118691+00:00",
    "fotmob_id": "5795521",
    "reason": "ALERT_NOT_SENT"
   }
