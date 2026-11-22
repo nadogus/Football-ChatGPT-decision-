@@ -1,0 +1,1051 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-22T13:23:38.808743+00:00",
+ "minutes_before_kickoff": 36.353187616666666,
+ "match": {
+  "match_id": "6aFyjKcc",
+  "home": "Sassuolo",
+  "away": "Genoa",
+  "kickoff": "2026-11-22T14:00:00Z",
+  "competition": "Serie A",
+  "category": "Italy"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "3-4-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:259838",
+     "name": "Arijanet Muric",
+     "number": "49",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:272873",
+     "name": "Jay Idzes",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:288483",
+     "name": "Sebastian Walukiewicz",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:287677",
+     "name": "Fali Candé",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:304217",
+     "name": "Rafael Obrador",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:292199",
+     "name": "Ignace van der Brempt",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:135743",
+     "name": "Nemanja Matic",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284212",
+     "name": "Kristian Thorstvedt",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:272719",
+     "name": "Armand Laurienté",
+     "number": "45",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:173817",
+     "name": "Domenico Berardi",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:286929",
+     "name": "Sebastiano Esposito",
+     "number": "94",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "3-4-2-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:205653",
+     "name": "Justin Bijlow",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:281736",
+     "name": "Leo Østigard",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259975",
+     "name": "Johan Vásquez",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364761",
+     "name": "Alessandro Marcandalli",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:324256",
+     "name": "Mikael Ellertsson",
+     "number": "77",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:257058",
+     "name": "Hamed Traoré",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:261054",
+     "name": "Junior Messias",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:212476",
+     "name": "Kingsley Ehizibue",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:309518",
+     "name": "Tommaso Baldanzi",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:358445",
+     "name": "Alexsandro Amorim",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:275444",
+     "name": "Milutin Osmajic",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401874803",
+   "date": "2026-11-07T19:45:00+00:00",
+   "competition": "ita.1",
+   "opponent": "AS Roma",
+   "starters": [
+    {
+     "id": "espn:259838",
+     "name": "Arijanet Muric",
+     "number": "49",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:272873",
+     "name": "Jay Idzes",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:194766",
+     "name": "Duje Caleta-Car",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:288483",
+     "name": "Sebastian Walukiewicz",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:347018",
+     "name": "Sulemana",
+     "number": "55",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284212",
+     "name": "Kristian Thorstvedt",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:135743",
+     "name": "Nemanja Matic",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:290418",
+     "name": "Josh Doig",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:412248",
+     "name": "Simone Cinquegrano",
+     "number": "46",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:272719",
+     "name": "Armand Laurienté",
+     "number": "45",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:286929",
+     "name": "Sebastiano Esposito",
+     "number": "94",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-5-2"
+  },
+  "away": {
+   "match_id": "espn:401875018",
+   "date": "2026-11-08T14:00:00+00:00",
+   "competition": "ita.1",
+   "opponent": "AC Milan",
+   "starters": [
+    {
+     "id": "espn:205653",
+     "name": "Justin Bijlow",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:281736",
+     "name": "Leo Østigard",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259975",
+     "name": "Johan Vásquez",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364761",
+     "name": "Alessandro Marcandalli",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:257058",
+     "name": "Hamed Traoré",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:418840",
+     "name": "Samuel Wiafe",
+     "number": "71",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:324256",
+     "name": "Mikael Ellertsson",
+     "number": "77",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:212476",
+     "name": "Kingsley Ehizibue",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:275444",
+     "name": "Milutin Osmajic",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:403234",
+     "name": "Vitinha",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:261054",
+     "name": "Junior Messias",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-4-2-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 4,
+   "out": [
+    "Duje Caleta-Car",
+    "Sulemana",
+    "Josh Doig",
+    "Simone Cinquegrano"
+   ],
+   "in": [
+    "Fali Candé",
+    "Rafael Obrador",
+    "Ignace van der Brempt",
+    "Domenico Berardi"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Arijanet Muric",
+   "previous_goalkeeper": "Arijanet Muric"
+  },
+  "away": {
+   "count": 2,
+   "out": [
+    "Samuel Wiafe",
+    "Vitinha"
+   ],
+   "in": [
+    "Tommaso Baldanzi",
+    "Alexsandro Amorim"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Justin Bijlow",
+   "previous_goalkeeper": "Justin Bijlow"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Duje Caleta-Car",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 351,
+       "minutes_per_match": 70.2,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.03,
+        "shots": 0.77,
+        "key_passes": 0.51
+       },
+       "attack_share": 0.041
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 540,
+       "minutes_per_match": 54.0,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.02,
+        "shots": 0.5,
+        "key_passes": 0.33
+       },
+       "attack_share": 0.018
+      }
+     }
+    },
+    {
+     "name": "Sulemana",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 180,
+       "minutes_per_match": 36.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.01,
+        "shots": 0.5,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.005
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 210,
+       "minutes_per_match": 21.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.01,
+        "shots": 0.43,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      }
+     }
+    },
+    {
+     "name": "Josh Doig",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 353,
+       "minutes_per_match": 70.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.03,
+        "shots": 0.25,
+        "key_passes": 0.25
+       },
+       "attack_share": 0.016
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 703,
+       "minutes_per_match": 70.3,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.04,
+        "shots": 0.64,
+        "key_passes": 0.26
+       },
+       "attack_share": 0.031
+      }
+     }
+    },
+    {
+     "name": "Simone Cinquegrano",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 148,
+       "minutes_per_match": 29.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.17,
+        "shots": 0.0,
+        "key_passes": 1.22
+       },
+       "attack_share": 0.037
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 519,
+       "minutes_per_match": 51.9,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.06,
+        "shots": 0.69,
+        "key_passes": 0.52
+       },
+       "attack_share": 0.039
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Fali Candé",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 208,
+       "minutes_per_match": 41.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.04,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.013
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 208,
+       "minutes_per_match": 20.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.04,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.006
+      }
+     }
+    },
+    {
+     "name": "Rafael Obrador",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 97,
+       "minutes_per_match": 19.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.02,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.003
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 162,
+       "minutes_per_match": 16.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.001
+      }
+     }
+    },
+    {
+     "name": "Ignace van der Brempt",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 225,
+       "minutes_per_match": 45.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.4,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.005
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 339,
+       "minutes_per_match": 33.9,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.27,
+        "key_passes": 0.27
+       },
+       "attack_share": 0.003
+      }
+     }
+    },
+    {
+     "name": "Domenico Berardi",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 317,
+       "minutes_per_match": 63.4,
+       "per90": {
+        "xg": 0.26,
+        "xa": 0.14,
+        "shots": 1.14,
+        "key_passes": 1.14
+       },
+       "attack_share": 0.186
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 637,
+       "minutes_per_match": 63.7,
+       "per90": {
+        "xg": 0.25,
+        "xa": 0.12,
+        "shots": 1.84,
+        "key_passes": 1.13
+       },
+       "attack_share": 0.146
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Duje Caleta-Car",
+     "in": "Fali Candé",
+     "delta_per90": {
+      "xg": -0.03,
+      "xa": 0.02,
+      "shots": -0.5,
+      "key_passes": -0.33
+     },
+     "attack_share_delta": -0.012
+    },
+    {
+     "out": "Sulemana",
+     "in": "Rafael Obrador",
+     "delta_per90": {
+      "xg": -0.01,
+      "xa": 0.0,
+      "shots": -0.43,
+      "key_passes": 0.0
+     },
+     "attack_share_delta": -0.001
+    },
+    {
+     "out": "Josh Doig",
+     "in": "Ignace van der Brempt",
+     "delta_per90": {
+      "xg": -0.03,
+      "xa": -0.03,
+      "shots": -0.37,
+      "key_passes": 0.01
+     },
+     "attack_share_delta": -0.028
+    },
+    {
+     "out": "Simone Cinquegrano",
+     "in": "Domenico Berardi",
+     "delta_per90": {
+      "xg": 0.19,
+      "xa": 0.06,
+      "shots": 1.15,
+      "key_passes": 0.61
+     },
+     "attack_share_delta": 0.107
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Samuel Wiafe",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 323,
+       "minutes_per_match": 64.6,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.01,
+        "shots": 1.11,
+        "key_passes": 0.84
+       },
+       "attack_share": 0.029
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 446,
+       "minutes_per_match": 44.6,
+       "per90": {
+        "xg": 0.09,
+        "xa": 0.02,
+        "shots": 1.61,
+        "key_passes": 0.61
+       },
+       "attack_share": 0.033
+      }
+     }
+    },
+    {
+     "name": "Vitinha",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 219,
+       "minutes_per_match": 43.8,
+       "per90": {
+        "xg": 0.3,
+        "xa": 0.16,
+        "shots": 2.47,
+        "key_passes": 1.23
+       },
+       "attack_share": 0.173
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 413,
+       "minutes_per_match": 41.3,
+       "per90": {
+        "xg": 0.25,
+        "xa": 0.1,
+        "shots": 3.05,
+        "key_passes": 0.87
+       },
+       "attack_share": 0.092
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Tommaso Baldanzi",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 97,
+       "minutes_per_match": 19.4,
+       "per90": {
+        "xg": 0.23,
+        "xa": 0.07,
+        "shots": 3.71,
+        "key_passes": 3.71
+       },
+       "attack_share": 0.051
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 345,
+       "minutes_per_match": 34.5,
+       "per90": {
+        "xg": 0.31,
+        "xa": 0.08,
+        "shots": 3.65,
+        "key_passes": 1.83
+       },
+       "attack_share": 0.087
+      }
+     }
+    },
+    {
+     "name": "Alexsandro Amorim",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 98,
+       "minutes_per_match": 19.6,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.09,
+        "shots": 0.92,
+        "key_passes": 0.92
+       },
+       "attack_share": 0.018
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 214,
+       "minutes_per_match": 21.4,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.1,
+        "shots": 1.26,
+        "key_passes": 1.68
+       },
+       "attack_share": 0.017
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Samuel Wiafe",
+     "in": "Tommaso Baldanzi",
+     "delta_per90": {
+      "xg": 0.22,
+      "xa": 0.06,
+      "shots": 2.04,
+      "key_passes": 1.22
+     },
+     "attack_share_delta": 0.054
+    },
+    {
+     "out": "Vitinha",
+     "in": "Alexsandro Amorim",
+     "delta_per90": {
+      "xg": -0.22,
+      "xa": 0.0,
+      "shots": -1.79,
+      "key_passes": 0.81
+     },
+     "attack_share_delta": -0.075
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Fedde Leysen",
+    "reason": "injury",
+    "likelihood": "Out for season",
+    "market_value_eur": 9290438
+   },
+   {
+    "player": "Daniel Boloca",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 2372055
+   },
+   {
+    "player": "Ismaël Koné",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 25749741
+   },
+   {
+    "player": "Vasilije Adžić",
+    "reason": "injury",
+    "likelihood": "Unknown",
+    "market_value_eur": 15748892
+   },
+   {
+    "player": "Cristian Volpato",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 13394700
+   }
+  ],
+  "away": []
+ },
+ "market": {
+  "quote_count": 399,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.3482,
+    "DRAW": 0.2986,
+    "AWAY": 0.3532
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 2.78,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 2.872,
+     "ev_vs_consensus": -0.032
+    },
+    "DRAW": {
+     "odds": 3.35,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 3.349,
+     "ev_vs_consensus": 0.0003
+    },
+    "AWAY": {
+     "odds": 2.75,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 2.831,
+     "ev_vs_consensus": -0.0287
+    }
+   },
+   "median_overround": 0.0683,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.25",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.7282,
+     "UNDER": 0.2718
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.36,
+      "bookmaker": "SpreadEX",
+      "fair_odds_consensus": 1.373,
+      "ev_vs_consensus": -0.0096
+     },
+     "UNDER": {
+      "odds": 3.4,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 3.679,
+      "ev_vs_consensus": -0.0759
+     }
+    },
+    "median_overround": 0.0644,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.25": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.537,
+     "UNDER": 0.463
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.85,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.862,
+      "ev_vs_consensus": -0.0065
+     },
+     "UNDER": {
+      "odds": 2.05,
+      "bookmaker": "7BetUK",
+      "fair_odds_consensus": 2.16,
+      "ev_vs_consensus": -0.0509
+     }
+    },
+    "median_overround": 0.0714,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4594,
+     "UNDER": 0.5406
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.1,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.177,
+      "ev_vs_consensus": -0.0353
+     },
+     "UNDER": {
+      "odds": 1.84,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.85,
+      "ev_vs_consensus": -0.0053
+     }
+    },
+    "median_overround": 0.0686,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.2274,
+     "UNDER": 0.7726
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 3.75,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 4.398,
+      "ev_vs_consensus": -0.1472
+     },
+     "UNDER": {
+      "odds": 1.33,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.294,
+      "ev_vs_consensus": 0.0276
+     }
+    },
+    "median_overround": 0.0667,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -0.83,
+  "DRAW": 1.29,
+  "AWAY": -0.46
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
