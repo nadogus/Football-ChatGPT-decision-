@@ -438,3 +438,19 @@ _Uyarıdır, karar değildir._
 xG 1.60–0.14 · xGOT 1.82–0.09 · ceza sahası topla buluşma 22–4 · isabetli şut 6–1
 Karar için Claude'a yaz: `canlı bak 5795521`
 _Uyarıdır, karar değildir._
+
+---
+17:36 UTC
+⚡ *Canlı uyarı* — Lorient 1-1 Rennes (63‎’‎)
+• Lorient son ~15 dk'da +1.02 xG üretti
+xG 1.05–0.49 · xGOT 0.18–0.70 · ceza sahası topla buluşma 8–18 · isabetli şut 2–2
+Karar için Claude'a yaz: `canlı bak 5802993`
+_Uyarıdır, karar değildir._
+
+---
+17:36 UTC
+⚡ *Canlı uyarı* — Liverpool 2-0 Manchester United (48‎’‎)
+• Manchester United kırmızı kart gördü (1)
+xG 1.69–0.14 · xGOT 1.82–0.09 · ceza sahası topla buluşma 28–4 · isabetli şut 6–1
+Karar için Claude'a yaz: `canlı bak 5795521`
+_Uyarıdır, karar değildir._
