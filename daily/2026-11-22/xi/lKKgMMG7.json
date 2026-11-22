@@ -1,0 +1,1076 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-22T12:18:18.061866+00:00",
+ "minutes_before_kickoff": 41.6989689,
+ "match": {
+  "match_id": "lKKgMMG7",
+  "home": "Barcelona",
+  "away": "Villarreal",
+  "kickoff": "2026-11-22T13:00:00Z",
+  "competition": "LaLiga",
+  "category": "Spain"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:297362",
+     "name": "Joan García",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:312015",
+     "name": "Gerard Martín",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:219022",
+     "name": "Frenkie de Jong",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:176399",
+     "name": "João Cancelo",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:128714",
+     "name": "Eric García",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:376423",
+     "name": "Marc Bernal",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:250465",
+     "name": "Pedri",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:354334",
+     "name": "Fermín López",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:231050",
+     "name": "Raphinha",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:274913",
+     "name": "Karim Adeyemi",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:362150",
+     "name": "Lamine Yamal",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-4-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:119620",
+     "name": "Péter Gulácsi",
+     "number": "25",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:337011",
+     "name": "Renato Veiga",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:368878",
+     "name": "Pau Navarro",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:271904",
+     "name": "Carlos Romero",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:248276",
+     "name": "Alex Freeman",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:255889",
+     "name": "Pape Gueye",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:240623",
+     "name": "Santi Comesaña",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:307390",
+     "name": "Alberto Moleiro",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284769",
+     "name": "Tajon Buchanan",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300002",
+     "name": "Georges Mikautadze",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:294039",
+     "name": "Tani Oluwaseyi",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401882816",
+   "date": "2026-11-08T20:00:00+00:00",
+   "competition": "esp.1",
+   "opponent": "Atlético Madrid",
+   "starters": [
+    {
+     "id": "espn:297362",
+     "name": "Joan García",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:312015",
+     "name": "Gerard Martín",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:368992",
+     "name": "Pau Cubarsí",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:376423",
+     "name": "Marc Bernal",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:176399",
+     "name": "João Cancelo",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:403575",
+     "name": "Brian Fariñas",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:250465",
+     "name": "Pedri",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:354334",
+     "name": "Fermín López",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:268782",
+     "name": "Anthony Gordon",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:362150",
+     "name": "Lamine Yamal",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:231050",
+     "name": "Raphinha",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-1-4-1"
+  },
+  "away": {
+   "match_id": "espn:401882807",
+   "date": "2026-11-08T17:30:00+00:00",
+   "competition": "esp.1",
+   "opponent": "Getafe",
+   "starters": [
+    {
+     "id": "espn:119620",
+     "name": "Péter Gulácsi",
+     "number": "25",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:337011",
+     "name": "Renato Veiga",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:271129",
+     "name": "Logan Costa",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:271904",
+     "name": "Carlos Romero",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:318098",
+     "name": "Santiago Mouriño",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:307390",
+     "name": "Alberto Moleiro",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:255889",
+     "name": "Pape Gueye",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:415438",
+     "name": "Carlos Macià",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300002",
+     "name": "Georges Mikautadze",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:294039",
+     "name": "Tani Oluwaseyi",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284769",
+     "name": "Tajon Buchanan",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 3,
+   "out": [
+    "Pau Cubarsí",
+    "Brian Fariñas",
+    "Anthony Gordon"
+   ],
+   "in": [
+    "Frenkie de Jong",
+    "Eric García",
+    "Karim Adeyemi"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Joan García",
+   "previous_goalkeeper": "Joan García"
+  },
+  "away": {
+   "count": 3,
+   "out": [
+    "Logan Costa",
+    "Santiago Mouriño",
+    "Carlos Macià"
+   ],
+   "in": [
+    "Pau Navarro",
+    "Alex Freeman",
+    "Santi Comesaña"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Péter Gulácsi",
+   "previous_goalkeeper": "Péter Gulácsi"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Pau Cubarsí",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 450,
+       "minutes_per_match": 90.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.04,
+        "shots": 0.2,
+        "key_passes": 0.4
+       },
+       "attack_share": 0.012
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 720,
+       "minutes_per_match": 72.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.1,
+        "shots": 0.25,
+        "key_passes": 0.5
+       },
+       "attack_share": 0.019
+      }
+     }
+    },
+    {
+     "name": "Brian Fariñas",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 217,
+       "minutes_per_match": 43.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.03,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.004
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 3,
+       "minutes": 217,
+       "minutes_per_match": 21.7,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.03,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      }
+     }
+    },
+    {
+     "name": "Anthony Gordon",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 367,
+       "minutes_per_match": 73.4,
+       "per90": {
+        "xg": 0.22,
+        "xa": 0.15,
+        "shots": 1.96,
+        "key_passes": 2.21
+       },
+       "attack_share": 0.088
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 611,
+       "minutes_per_match": 61.1,
+       "per90": {
+        "xg": 0.45,
+        "xa": 0.11,
+        "shots": 3.24,
+        "key_passes": 1.91
+       },
+       "attack_share": 0.083
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Frenkie de Jong",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 164,
+       "minutes_per_match": 32.8,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.05,
+        "shots": 0.55,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.009
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 164,
+       "minutes_per_match": 16.4,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.05,
+        "shots": 0.55,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.004
+      }
+     }
+    },
+    {
+     "name": "Eric García",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 360,
+       "minutes_per_match": 72.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 450,
+       "minutes_per_match": 45.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.01,
+        "shots": 0.2,
+        "key_passes": 0.4
+       },
+       "attack_share": 0.002
+      }
+     }
+    },
+    {
+     "name": "Karim Adeyemi",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 129,
+       "minutes_per_match": 25.8,
+       "per90": {
+        "xg": 0.24,
+        "xa": 0.36,
+        "shots": 2.09,
+        "key_passes": 2.09
+       },
+       "attack_share": 0.049
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 344,
+       "minutes_per_match": 34.4,
+       "per90": {
+        "xg": 0.83,
+        "xa": 0.31,
+        "shots": 4.19,
+        "key_passes": 2.62
+       },
+       "attack_share": 0.096
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Pau Cubarsí",
+     "in": "Frenkie de Jong",
+     "delta_per90": {
+      "xg": 0.03,
+      "xa": -0.05,
+      "shots": 0.3,
+      "key_passes": -0.5
+     },
+     "attack_share_delta": -0.015
+    },
+    {
+     "out": "Brian Fariñas",
+     "in": "Eric García",
+     "delta_per90": {
+      "xg": 0.01,
+      "xa": -0.02,
+      "shots": 0.2,
+      "key_passes": 0.4
+     },
+     "attack_share_delta": 0.0
+    },
+    {
+     "out": "Anthony Gordon",
+     "in": "Karim Adeyemi",
+     "delta_per90": {
+      "xg": 0.38,
+      "xa": 0.2,
+      "shots": 0.95,
+      "key_passes": 0.71
+     },
+     "attack_share_delta": 0.013
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Logan Costa",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 180,
+       "minutes_per_match": 36.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.16,
+        "shots": 1.0,
+        "key_passes": 0.5
+       },
+       "attack_share": 0.027
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 3,
+       "minutes": 270,
+       "minutes_per_match": 27.0,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.12,
+        "shots": 1.67,
+        "key_passes": 0.33
+       },
+       "attack_share": 0.017
+      }
+     }
+    },
+    {
+     "name": "Santiago Mouriño",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 379,
+       "minutes_per_match": 75.8,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.08,
+        "shots": 0.71,
+        "key_passes": 0.71
+       },
+       "attack_share": 0.053
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 570,
+       "minutes_per_match": 57.0,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.09,
+        "shots": 0.79,
+        "key_passes": 0.79
+       },
+       "attack_share": 0.035
+      }
+     }
+    },
+    {
+     "name": "Carlos Macià",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 404,
+       "minutes_per_match": 80.8,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.06,
+        "shots": 0.67,
+        "key_passes": 0.45
+       },
+       "attack_share": 0.035
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 473,
+       "minutes_per_match": 47.3,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.05,
+        "shots": 0.57,
+        "key_passes": 0.38
+       },
+       "attack_share": 0.016
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Pau Navarro",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 169,
+       "minutes_per_match": 33.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.11,
+        "shots": 0.0,
+        "key_passes": 0.53
+       },
+       "attack_share": 0.016
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 518,
+       "minutes_per_match": 51.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.04,
+        "shots": 0.0,
+        "key_passes": 0.17
+       },
+       "attack_share": 0.009
+      }
+     }
+    },
+    {
+     "name": "Alex Freeman",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 250,
+       "minutes_per_match": 50.0,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.12,
+        "shots": 0.72,
+        "key_passes": 1.8
+       },
+       "attack_share": 0.041
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 577,
+       "minutes_per_match": 57.7,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.1,
+        "shots": 0.62,
+        "key_passes": 1.56
+       },
+       "attack_share": 0.033
+      }
+     }
+    },
+    {
+     "name": "Santi Comesaña",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 187,
+       "minutes_per_match": 37.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.1,
+        "shots": 0.0,
+        "key_passes": 0.48
+       },
+       "attack_share": 0.016
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 470,
+       "minutes_per_match": 47.0,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.1,
+        "shots": 0.38,
+        "key_passes": 1.15
+       },
+       "attack_share": 0.022
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Logan Costa",
+     "in": "Pau Navarro",
+     "delta_per90": {
+      "xg": -0.05,
+      "xa": -0.08,
+      "shots": -1.67,
+      "key_passes": -0.16
+     },
+     "attack_share_delta": -0.008
+    },
+    {
+     "out": "Santiago Mouriño",
+     "in": "Alex Freeman",
+     "delta_per90": {
+      "xg": -0.01,
+      "xa": 0.01,
+      "shots": -0.17,
+      "key_passes": 0.77
+     },
+     "attack_share_delta": -0.002
+    },
+    {
+     "out": "Carlos Macià",
+     "in": "Santi Comesaña",
+     "delta_per90": {
+      "xg": -0.02,
+      "xa": 0.05,
+      "shots": -0.19,
+      "key_passes": 0.77
+     },
+     "attack_share_delta": 0.006
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Jordi Pesquer",
+    "reason": "internationalDuty",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": null
+   },
+   {
+    "player": "Andreas Christensen",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 6107975
+   },
+   {
+    "player": "Xavi Espart",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 27712323
+   },
+   {
+    "player": "Rodri",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 53364886
+   },
+   {
+    "player": "Roony Bardghji",
+    "reason": "injury",
+    "likelihood": "Late February 2027",
+    "market_value_eur": 12178746
+   }
+  ],
+  "away": [
+   {
+    "player": "Juan Foyth",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 7183865
+   },
+   {
+    "player": "Alassane Diatta",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 1066843
+   },
+   {
+    "player": "Gerard Moreno",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 1668081
+   },
+   {
+    "player": "Ilias Akhomach",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 14881043
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 424,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.828,
+    "DRAW": 0.1015,
+    "AWAY": 0.0705
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.22,
+     "bookmaker": "Coral",
+     "fair_odds_consensus": 1.208,
+     "ev_vs_consensus": 0.0102
+    },
+    "DRAW": {
+     "odds": 9.5,
+     "bookmaker": "Skybet",
+     "fair_odds_consensus": 9.852,
+     "ev_vs_consensus": -0.0357
+    },
+    "AWAY": {
+     "odds": 12.0,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 14.184,
+     "ev_vs_consensus": -0.154
+    }
+   },
+   "median_overround": 0.065,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "4.5",
+  "totals": {
+   "1.5": {
+    "bookmakers": 12,
+    "consensus_fair": {
+     "OVER": 0.9711,
+     "UNDER": 0.0289
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.04,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.03,
+      "ev_vs_consensus": 0.0099
+     },
+     "UNDER": {
+      "odds": 18.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 34.602,
+      "ev_vs_consensus": -0.4798
+     }
+    },
+    "median_overround": 0.0557,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8663,
+     "UNDER": 0.1337
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.15,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.154,
+      "ev_vs_consensus": -0.0038
+     },
+     "UNDER": {
+      "odds": 6.5,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 7.479,
+      "ev_vs_consensus": -0.1309
+     }
+    },
+    "median_overround": 0.0677,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6993,
+     "UNDER": 0.3007
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.42,
+      "bookmaker": "7BetUK",
+      "fair_odds_consensus": 1.43,
+      "ev_vs_consensus": -0.007
+     },
+     "UNDER": {
+      "odds": 3.2,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 3.326,
+      "ev_vs_consensus": -0.0378
+     }
+    },
+    "median_overround": 0.073,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "4.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.5,
+     "UNDER": 0.5
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.91,
+      "bookmaker": "7BetUK",
+      "fair_odds_consensus": 2.0,
+      "ev_vs_consensus": -0.045
+     },
+     "UNDER": {
+      "odds": 1.93,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 2.0,
+      "ev_vs_consensus": -0.035
+     }
+    },
+    "median_overround": 0.0753,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 0.04,
+  "DRAW": -0.07,
+  "AWAY": 0.03
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
