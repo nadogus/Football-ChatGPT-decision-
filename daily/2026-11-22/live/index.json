@@ -21,9 +21,9 @@
    1,
    1
   ],
-  "minute": "75‎’‎",
+  "minute": "80‎’‎",
   "finished": false,
-  "updated": "2026-11-22T12:50:02Z"
+  "updated": "2026-11-22T12:55:01Z"
  },
  "5749754": {
   "flashscore_id": "2BrDVUfo",
@@ -31,12 +31,12 @@
   "home": "Juventus",
   "away": "Venezia",
   "score": [
-   2,
+   3,
    0
   ],
-  "minute": "63‎’‎",
+  "minute": "68‎’‎",
   "finished": false,
-  "updated": "2026-11-22T12:50:02Z"
+  "updated": "2026-11-22T12:55:01Z"
  },
  "5836935": {
   "flashscore_id": "z33K8hun",
@@ -47,9 +47,9 @@
    1,
    1
   ],
-  "minute": "47‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T12:50:02Z"
+  "updated": "2026-11-22T12:55:01Z"
  },
  "5811810": {
   "flashscore_id": "I3xwT3Xa",
@@ -60,8 +60,8 @@
    0,
    0
   ],
-  "minute": "19‎’‎",
+  "minute": "24‎’‎",
   "finished": false,
-  "updated": "2026-11-22T12:50:02Z"
+  "updated": "2026-11-22T12:55:01Z"
  }
 }
