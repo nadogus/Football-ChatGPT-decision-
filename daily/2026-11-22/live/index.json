@@ -73,9 +73,9 @@
    3,
    2
   ],
-  "minute": "78‎’‎",
+  "minute": "83‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:42:16Z"
+  "updated": "2026-11-22T14:47:16Z"
  },
  "5904804": {
   "flashscore_id": "j7yAY3VA",
@@ -86,9 +86,9 @@
    1,
    1
   ],
-  "minute": "82‎’‎",
+  "minute": "87‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:42:16Z"
+  "updated": "2026-11-22T14:47:16Z"
  },
  "5904808": {
   "flashscore_id": "S6Lsm3p4",
@@ -99,9 +99,9 @@
    2,
    3
   ],
-  "minute": "84‎’‎",
+  "minute": "89‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:42:16Z"
+  "updated": "2026-11-22T14:47:16Z"
  },
  "5781804": {
   "flashscore_id": "Wtw9Lr5M",
@@ -112,9 +112,9 @@
    3,
    0
   ],
-  "minute": "53‎’‎",
+  "minute": "58‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:42:16Z"
+  "updated": "2026-11-22T14:47:16Z"
  },
  "5781810": {
   "flashscore_id": "pjASQws2",
@@ -123,11 +123,11 @@
   "away": "AZ Alkmaar",
   "score": [
    1,
-   2
+   3
   ],
-  "minute": "53‎’‎",
+  "minute": "58‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:42:16Z"
+  "updated": "2026-11-22T14:47:16Z"
  },
  "5802997": {
   "flashscore_id": "8Oo8uIpp",
@@ -138,9 +138,9 @@
    0,
    0
   ],
-  "minute": "42‎’‎",
+  "minute": "47‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:42:16Z"
+  "updated": "2026-11-22T14:47:16Z"
  },
  "5749752": {
   "flashscore_id": "O2lZxD2B",
@@ -148,12 +148,12 @@
   "home": "Bologna",
   "away": "Udinese",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "42‎’‎",
+  "minute": "47‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:42:16Z"
+  "updated": "2026-11-22T14:47:16Z"
  },
  "5749759": {
   "flashscore_id": "6aFyjKcc",
@@ -164,9 +164,9 @@
    0,
    2
   ],
-  "minute": "40‎’‎",
+  "minute": "45‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:42:16Z"
+  "updated": "2026-11-22T14:47:16Z"
  },
  "5881224": {
   "flashscore_id": "tjJShBTG",
@@ -177,8 +177,8 @@
    0,
    0
   ],
-  "minute": "13‎’‎",
+  "minute": "18‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:42:16Z"
+  "updated": "2026-11-22T14:47:16Z"
  }
 }

@@ -238,3 +238,19 @@ _Uyarıdır, karar değildir._
 xG 0.99–0.08 · xGOT 2.35–0.00 · ceza sahası topla buluşma 24–1 · isabetli şut 6–0
 Karar için Claude'a yaz: `canlı bak 5781804`
 _Uyarıdır, karar değildir._
+
+---
+14:47 UTC
+⚡ *Canlı uyarı* — Ajax 3-0 ADO Den Haag (58‎’‎)
+• ADO Den Haag kırmızı kart gördü (1)
+xG 1.09–0.15 · xGOT 2.40–0.00 · ceza sahası topla buluşma 25–2 · isabetli şut 7–0
+Karar için Claude'a yaz: `canlı bak 5781804`
+_Uyarıdır, karar değildir._
+
+---
+14:47 UTC
+⚡ *Canlı uyarı* — Sassuolo 0-2 Genoa (45‎’‎)
+• Genoa son ~15 dk'da +1.47 xG üretti
+xG 0.60–1.71 · xGOT 1.00–1.78 · ceza sahası topla buluşma 17–11 · isabetli şut 3–4
+Karar için Claude'a yaz: `canlı bak 5749759`
+_Uyarıdır, karar değildir._
