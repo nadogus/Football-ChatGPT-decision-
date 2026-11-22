@@ -73,9 +73,9 @@
    3,
    2
   ],
-  "minute": "83‎’‎",
+  "minute": "88‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:47:16Z"
+  "updated": "2026-11-22T14:52:16Z"
  },
  "5904804": {
   "flashscore_id": "j7yAY3VA",
@@ -83,12 +83,12 @@
   "home": "Kasımpaşa",
   "away": "Alanyaspor",
   "score": [
-   1,
+   2,
    1
   ],
-  "minute": "87‎’‎",
+  "minute": "92‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:47:16Z"
+  "updated": "2026-11-22T14:52:16Z"
  },
  "5904808": {
   "flashscore_id": "S6Lsm3p4",
@@ -97,11 +97,11 @@
   "away": "Beşiktaş",
   "score": [
    2,
-   3
+   4
   ],
-  "minute": "89‎’‎",
+  "minute": "94‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:47:16Z"
+  "updated": "2026-11-22T14:52:16Z"
  },
  "5781804": {
   "flashscore_id": "Wtw9Lr5M",
@@ -112,9 +112,9 @@
    3,
    0
   ],
-  "minute": "58‎’‎",
+  "minute": "63‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:47:16Z"
+  "updated": "2026-11-22T14:52:16Z"
  },
  "5781810": {
   "flashscore_id": "pjASQws2",
@@ -125,9 +125,9 @@
    1,
    3
   ],
-  "minute": "58‎’‎",
+  "minute": "63‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:47:16Z"
+  "updated": "2026-11-22T14:52:16Z"
  },
  "5802997": {
   "flashscore_id": "8Oo8uIpp",
@@ -138,9 +138,9 @@
    0,
    0
   ],
-  "minute": "47‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T14:47:16Z"
+  "updated": "2026-11-22T14:52:16Z"
  },
  "5749752": {
   "flashscore_id": "O2lZxD2B",
@@ -151,9 +151,9 @@
    1,
    0
   ],
-  "minute": "47‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T14:47:16Z"
+  "updated": "2026-11-22T14:52:16Z"
  },
  "5749759": {
   "flashscore_id": "6aFyjKcc",
@@ -164,9 +164,9 @@
    0,
    2
   ],
-  "minute": "45‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T14:47:16Z"
+  "updated": "2026-11-22T14:52:16Z"
  },
  "5881224": {
   "flashscore_id": "tjJShBTG",
@@ -174,11 +174,11 @@
   "home": "Augsburg",
   "away": "Mainz 05",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "18‎’‎",
+  "minute": "23‎’‎",
   "finished": false,
-  "updated": "2026-11-22T14:47:16Z"
+  "updated": "2026-11-22T14:52:16Z"
  }
 }
