@@ -5,5 +5,11 @@
   "2BrDVUfo": "5749754"
  },
  "alerts": {},
- "errors": []
+ "errors": [
+  {
+   "t": "2026-11-22T11:53:48.670612+00:00",
+   "fotmob_id": "5781812",
+   "reason": "ALERT_NOT_SENT"
+  }
+ ]
 }
