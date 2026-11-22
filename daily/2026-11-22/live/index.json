@@ -203,9 +203,9 @@
    0,
    1
   ],
-  "minute": "93‎’‎",
-  "finished": false,
-  "updated": "2026-11-22T17:36:42Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-22T17:41:41Z"
  },
  "5904803": {
   "flashscore_id": "rsY1zQ0b",
@@ -216,9 +216,9 @@
    1,
    0
   ],
-  "minute": "78‎’‎",
+  "minute": "84‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:36:42Z"
+  "updated": "2026-11-22T17:41:41Z"
  },
  "5802993": {
   "flashscore_id": "6y7zRIVj",
@@ -229,9 +229,9 @@
    1,
    1
   ],
-  "minute": "63‎’‎",
+  "minute": "68‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:36:42Z"
+  "updated": "2026-11-22T17:41:41Z"
  },
  "5881232": {
   "flashscore_id": "n9yfdpz9",
@@ -242,9 +242,9 @@
    0,
    0
   ],
-  "minute": "HT",
+  "minute": "46‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:36:42Z"
+  "updated": "2026-11-22T17:41:41Z"
  },
  "5795521": {
   "flashscore_id": "UorZXuM7",
@@ -255,9 +255,9 @@
    2,
    0
   ],
-  "minute": "48‎’‎",
+  "minute": "52‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:36:42Z"
+  "updated": "2026-11-22T17:41:41Z"
  },
  "5749750": {
   "flashscore_id": "UaV3yLr4",
@@ -268,9 +268,9 @@
    2,
    1
   ],
-  "minute": "36‎’‎",
+  "minute": "40‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:36:42Z"
+  "updated": "2026-11-22T17:41:41Z"
  },
  "5811809": {
   "flashscore_id": "E7THzeZ8",
@@ -281,9 +281,9 @@
    0,
    0
   ],
-  "minute": "5‎’‎",
+  "minute": "10‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:36:42Z"
+  "updated": "2026-11-22T17:41:41Z"
  },
  "5868136": {
   "flashscore_id": "Ig1Jxr1l",
@@ -294,8 +294,8 @@
    0,
    0
   ],
-  "minute": "7‎’‎",
+  "minute": "12‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:36:42Z"
+  "updated": "2026-11-22T17:41:41Z"
  }
 }
