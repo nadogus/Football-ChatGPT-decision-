@@ -216,9 +216,9 @@
    1,
    0
   ],
-  "minute": "89‎’‎",
-  "finished": false,
-  "updated": "2026-11-22T17:46:41Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-22T17:51:41Z"
  },
  "5802993": {
   "flashscore_id": "6y7zRIVj",
@@ -229,9 +229,9 @@
    1,
    1
   ],
-  "minute": "73‎’‎",
+  "minute": "78‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:46:41Z"
+  "updated": "2026-11-22T17:51:41Z"
  },
  "5881232": {
   "flashscore_id": "n9yfdpz9",
@@ -239,12 +239,12 @@
   "home": "Werder Bremen",
   "away": "Hamburger SV",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "51‎’‎",
+  "minute": "56‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:46:41Z"
+  "updated": "2026-11-22T17:51:41Z"
  },
  "5795521": {
   "flashscore_id": "UorZXuM7",
@@ -255,9 +255,9 @@
    2,
    0
   ],
-  "minute": "57‎’‎",
+  "minute": "62‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:46:41Z"
+  "updated": "2026-11-22T17:51:41Z"
  },
  "5749750": {
   "flashscore_id": "UaV3yLr4",
@@ -268,9 +268,9 @@
    2,
    1
   ],
-  "minute": "45‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T17:46:41Z"
+  "updated": "2026-11-22T17:51:41Z"
  },
  "5811809": {
   "flashscore_id": "E7THzeZ8",
@@ -281,9 +281,9 @@
    0,
    0
   ],
-  "minute": "15‎’‎",
+  "minute": "20‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:46:41Z"
+  "updated": "2026-11-22T17:51:41Z"
  },
  "5868136": {
   "flashscore_id": "Ig1Jxr1l",
@@ -291,11 +291,11 @@
   "home": "Osasuna",
   "away": "Málaga",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "17‎’‎",
+  "minute": "22‎’‎",
   "finished": false,
-  "updated": "2026-11-22T17:46:41Z"
+  "updated": "2026-11-22T17:51:41Z"
  }
 }

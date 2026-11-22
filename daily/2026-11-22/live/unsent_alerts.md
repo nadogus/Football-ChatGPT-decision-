@@ -470,3 +470,11 @@ _Uyarıdır, karar değildir._
 xG 1.72–0.19 · xGOT 1.89–0.09 · ceza sahası topla buluşma 37–5 · isabetli şut 7–1
 Karar için Claude'a yaz: `canlı bak 5795521`
 _Uyarıdır, karar değildir._
+
+---
+17:51 UTC
+⚡ *Canlı uyarı* — Liverpool 2-0 Manchester United (62‎’‎)
+• Manchester United kırmızı kart gördü (1)
+xG 1.75–0.19 · xGOT 1.89–0.09 · ceza sahası topla buluşma 40–5 · isabetli şut 7–1
+Karar için Claude'a yaz: `canlı bak 5795521`
+_Uyarıdır, karar değildir._
