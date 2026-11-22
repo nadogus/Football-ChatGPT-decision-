@@ -478,3 +478,12 @@ _Uyarıdır, karar değildir._
 xG 1.75–0.19 · xGOT 1.89–0.09 · ceza sahası topla buluşma 40–5 · isabetli şut 7–1
 Karar için Claude'a yaz: `canlı bak 5795521`
 _Uyarıdır, karar değildir._
+
+---
+17:56 UTC
+⚡ *Canlı uyarı* — Liverpool 3-0 Manchester United (67‎’‎)
+• Liverpool son ~15 dk'da +1.17 xG üretti
+• Manchester United kırmızı kart gördü (1)
+xG 2.86–0.19 · xGOT 2.19–0.09 · ceza sahası topla buluşma 47–5 · isabetli şut 8–1
+Karar için Claude'a yaz: `canlı bak 5795521`
+_Uyarıdır, karar değildir._
