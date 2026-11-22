@@ -190,9 +190,9 @@
    3,
    2
   ],
-  "minute": "81‎’‎",
+  "minute": "86‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:55:24Z"
+  "updated": "2026-11-22T17:00:25Z"
  },
  "5781809": {
   "flashscore_id": "tfLlYLlS",
@@ -203,9 +203,9 @@
    0,
    1
   ],
-  "minute": "51‎’‎",
+  "minute": "57‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:55:24Z"
+  "updated": "2026-11-22T17:00:25Z"
  },
  "5904803": {
   "flashscore_id": "rsY1zQ0b",
@@ -218,7 +218,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T16:55:24Z"
+  "updated": "2026-11-22T17:00:25Z"
  },
  "5802993": {
   "flashscore_id": "6y7zRIVj",
@@ -229,9 +229,9 @@
    0,
    1
   ],
-  "minute": "40‎’‎",
+  "minute": "45‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:55:24Z"
+  "updated": "2026-11-22T17:00:25Z"
  },
  "5881232": {
   "flashscore_id": "n9yfdpz9",
@@ -242,9 +242,9 @@
    0,
    0
   ],
-  "minute": "24‎’‎",
+  "minute": "29‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:55:24Z"
+  "updated": "2026-11-22T17:00:25Z"
  },
  "5795521": {
   "flashscore_id": "UorZXuM7",
@@ -255,8 +255,21 @@
    2,
    0
   ],
-  "minute": "26‎’‎",
+  "minute": "31‎’‎",
   "finished": false,
-  "updated": "2026-11-22T16:55:24Z"
+  "updated": "2026-11-22T17:00:25Z"
+ },
+ "5749750": {
+  "flashscore_id": "UaV3yLr4",
+  "competition": "Serie A",
+  "home": "Milan",
+  "away": "Frosinone",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-22T17:00:25Z"
  }
 }
