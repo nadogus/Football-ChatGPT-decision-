@@ -6,11 +6,11 @@
   "away": "Göztepe",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "66‎’‎",
+  "minute": "71‎’‎",
   "finished": false,
-  "updated": "2026-11-22T11:58:47Z"
+  "updated": "2026-11-22T12:03:47Z"
  },
  "5781812": {
   "flashscore_id": "zwSnE0cd",
@@ -21,9 +21,9 @@
    0,
    0
   ],
-  "minute": "41‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T11:58:47Z"
+  "updated": "2026-11-22T12:03:47Z"
  },
  "5749754": {
   "flashscore_id": "2BrDVUfo",
@@ -34,9 +34,9 @@
    0,
    0
   ],
-  "minute": "28‎’‎",
+  "minute": "33‎’‎",
   "finished": false,
-  "updated": "2026-11-22T11:58:47Z"
+  "updated": "2026-11-22T12:03:47Z"
  },
  "5836935": {
   "flashscore_id": "z33K8hun",
@@ -47,8 +47,8 @@
    0,
    0
   ],
-  "minute": null,
+  "minute": "1‎’‎",
   "finished": false,
-  "updated": "2026-11-22T11:58:47Z"
+  "updated": "2026-11-22T12:03:47Z"
  }
 }
