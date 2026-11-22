@@ -278,3 +278,11 @@ _Uyarıdır, karar değildir._
 xG 1.99–0.16 · xGOT 2.93–0.02 · ceza sahası topla buluşma 28–3 · isabetli şut 6–1
 Karar için Claude'a yaz: `canlı bak 5802997`
 _Uyarıdır, karar değildir._
+
+---
+15:27 UTC
+⚡ *Canlı uyarı* — Bologna 1-1 Udinese (68‎’‎)
+• Bologna baskın (xG 1.32–0.27) ama önde değil
+xG 1.32–0.27 · xGOT 1.23–0.17 · ceza sahası topla buluşma 19–15 · isabetli şut 3–3
+Karar için Claude'a yaz: `canlı bak 5749752`
+_Uyarıdır, karar değildir._

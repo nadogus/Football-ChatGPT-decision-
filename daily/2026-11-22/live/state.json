@@ -227,6 +227,21 @@
    "t": "2026-11-22T15:22:48.996308+00:00",
    "fotmob_id": "5802997",
    "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T15:27:48.962250+00:00",
+   "match": "OluRZ1ie",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-22T15:27:48.962250+00:00",
+   "match": "hGNeTCRr",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-22T15:27:48.962250+00:00",
+   "fotmob_id": "5749752",
+   "reason": "ALERT_NOT_SENT"
   }
  ]
 }

@@ -138,9 +138,9 @@
    3,
    0
   ],
-  "minute": "65‎’‎",
+  "minute": "70‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:22:48Z"
+  "updated": "2026-11-22T15:27:48Z"
  },
  "5749752": {
   "flashscore_id": "O2lZxD2B",
@@ -149,11 +149,11 @@
   "away": "Udinese",
   "score": [
    1,
-   0
+   1
   ],
-  "minute": "63‎’‎",
+  "minute": "68‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:22:48Z"
+  "updated": "2026-11-22T15:27:48Z"
  },
  "5749759": {
   "flashscore_id": "6aFyjKcc",
@@ -164,9 +164,9 @@
    0,
    2
   ],
-  "minute": "63‎’‎",
+  "minute": "68‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:22:48Z"
+  "updated": "2026-11-22T15:27:48Z"
  },
  "5881224": {
   "flashscore_id": "tjJShBTG",
@@ -179,7 +179,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-22T15:22:48Z"
+  "updated": "2026-11-22T15:27:48Z"
  },
  "5868137": {
   "flashscore_id": "QJ4RzMV0",
@@ -187,11 +187,11 @@
   "home": "Racing Santander",
   "away": "Real Sociedad",
   "score": [
-   1,
+   2,
    0
   ],
-  "minute": "7‎’‎",
+  "minute": "12‎’‎",
   "finished": false,
-  "updated": "2026-11-22T15:22:48Z"
+  "updated": "2026-11-22T15:27:48Z"
  }
 }
