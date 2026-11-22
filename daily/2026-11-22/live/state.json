@@ -31,11 +31,6 @@
  "alerts": {},
  "errors": [
   {
-   "t": "2026-11-22T15:42:48.784528+00:00",
-   "fotmob_id": "5868137",
-   "reason": "ALERT_NOT_SENT"
-  },
-  {
    "t": "2026-11-22T16:09:30.739468+00:00",
    "match": "OluRZ1ie",
    "reason": "LOW_MATCH_SCORE"
@@ -278,6 +273,11 @@
   {
    "t": "2026-11-22T21:02:32.782003+00:00",
    "fotmob_id": "5749751",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T21:28:41.353493+00:00",
+   "fotmob_id": "5802994",
    "reason": "ALERT_NOT_SENT"
   }
  ]
