@@ -44,12 +44,12 @@
   "home": "Burnley",
   "away": "Blackburn Rovers",
   "score": [
-   1,
-   1
+   2,
+   2
   ],
-  "minute": "HT",
+  "minute": "77‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:00:01Z"
+  "updated": "2026-11-22T13:42:05Z"
  },
  "5811810": {
   "flashscore_id": "I3xwT3Xa",
@@ -60,9 +60,9 @@
    0,
    0
   ],
-  "minute": "29‎’‎",
+  "minute": "54‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:00:01Z"
+  "updated": "2026-11-22T13:42:05Z"
  },
  "5868133": {
   "flashscore_id": "lKKgMMG7",
@@ -71,11 +71,11 @@
   "away": "Villarreal",
   "score": [
    0,
-   0
+   2
   ],
-  "minute": null,
+  "minute": "39‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:00:01Z"
+  "updated": "2026-11-22T13:42:05Z"
  },
  "5904804": {
   "flashscore_id": "j7yAY3VA",
@@ -83,12 +83,12 @@
   "home": "Kasımpaşa",
   "away": "Alanyaspor",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": null,
+  "minute": "43‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:00:01Z"
+  "updated": "2026-11-22T13:42:05Z"
  },
  "5904808": {
   "flashscore_id": "S6Lsm3p4",
@@ -97,10 +97,36 @@
   "away": "Beşiktaş",
   "score": [
    0,
+   2
+  ],
+  "minute": "42‎’‎",
+  "finished": false,
+  "updated": "2026-11-22T13:42:05Z"
+ },
+ "5781804": {
+  "flashscore_id": "Wtw9Lr5M",
+  "competition": "Eredivisie",
+  "home": "Ajax",
+  "away": "ADO Den Haag",
+  "score": [
+   1,
    0
   ],
-  "minute": null,
+  "minute": "10‎’‎",
   "finished": false,
-  "updated": "2026-11-22T13:00:01Z"
+  "updated": "2026-11-22T13:42:05Z"
+ },
+ "5781810": {
+  "flashscore_id": "pjASQws2",
+  "competition": "Eredivisie",
+  "home": "Sparta Rotterdam",
+  "away": "AZ Alkmaar",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "11‎’‎",
+  "finished": false,
+  "updated": "2026-11-22T13:42:05Z"
  }
 }
