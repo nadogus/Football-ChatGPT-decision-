@@ -406,3 +406,19 @@ _Uyarıdır, karar değildir._
 xG 1.30–0.11 · xGOT 1.65–0.09 · ceza sahası topla buluşma 14–2 · isabetli şut 5–1
 Karar için Claude'a yaz: `canlı bak 5795521`
 _Uyarıdır, karar değildir._
+
+---
+17:10 UTC
+⚡ *Canlı uyarı* — Go Ahead Eagles 0-1 Fortuna Sittard (66‎’‎)
+• Fortuna Sittard son ~15 dk'da +0.84 xG üretti
+xG 0.71–1.21 · xGOT 0.29–0.80 · ceza sahası topla buluşma 16–8 · isabetli şut 4–1
+Karar için Claude'a yaz: `canlı bak 5781809`
+_Uyarıdır, karar değildir._
+
+---
+17:10 UTC
+⚡ *Canlı uyarı* — Liverpool 2-0 Manchester United (41‎’‎)
+• Manchester United kırmızı kart gördü (1)
+xG 1.30–0.14 · xGOT 1.65–0.09 · ceza sahası topla buluşma 19–3 · isabetli şut 6–1
+Karar için Claude'a yaz: `canlı bak 5795521`
+_Uyarıdır, karar değildir._
