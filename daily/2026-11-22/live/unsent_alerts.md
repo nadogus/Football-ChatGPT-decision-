@@ -511,3 +511,11 @@ _Uyarıdır, karar değildir._
 xG 1.08–0.02 · xGOT 0.96–0.00 · ceza sahası topla buluşma 15–6 · isabetli şut 2–0
 Karar için Claude'a yaz: `canlı bak 5868136`
 _Uyarıdır, karar değildir._
+
+---
+18:29 UTC
+⚡ *Canlı uyarı* — Osasuna 1-0 Málaga (HT)
+• Osasuna son ~15 dk'da +0.79 xG üretti
+xG 1.08–0.02 · xGOT 0.96–0.00 · ceza sahası topla buluşma 15–6 · isabetli şut 2–0
+Karar için Claude'a yaz: `canlı bak 5868136`
+_Uyarıdır, karar değildir._
