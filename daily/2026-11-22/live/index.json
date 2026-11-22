@@ -318,11 +318,11 @@
   "away": "Le Mans",
   "score": [
    2,
-   1
+   2
   ],
-  "minute": "84‎’‎",
+  "minute": "89‎’‎",
   "finished": false,
-  "updated": "2026-11-22T21:28:41Z"
+  "updated": "2026-11-22T21:33:39Z"
  },
  "5749751": {
   "flashscore_id": "jkjRvZXb",
@@ -333,9 +333,9 @@
    3,
    4
   ],
-  "minute": "85‎’‎",
+  "minute": "90‎’‎",
   "finished": false,
-  "updated": "2026-11-22T21:28:41Z"
+  "updated": "2026-11-22T21:33:39Z"
  },
  "5868134": {
   "flashscore_id": "GQCupQ8E",
@@ -346,8 +346,8 @@
    0,
    2
   ],
-  "minute": "69‎’‎",
+  "minute": "74‎’‎",
   "finished": false,
-  "updated": "2026-11-22T21:28:41Z"
+  "updated": "2026-11-22T21:33:39Z"
  }
 }
