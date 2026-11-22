@@ -22,16 +22,6 @@
  "alerts": {},
  "errors": [
   {
-   "t": "2026-11-22T12:55:01.761134+00:00",
-   "fotmob_id": "5749754",
-   "reason": "ALERT_NOT_SENT"
-  },
-  {
-   "t": "2026-11-22T13:00:01.582021+00:00",
-   "fotmob_id": "5781812",
-   "reason": "ALERT_NOT_SENT"
-  },
-  {
    "t": "2026-11-22T13:00:01.582021+00:00",
    "fotmob_id": "5749754",
    "reason": "ALERT_NOT_SENT"
@@ -268,6 +258,16 @@
   },
   {
    "t": "2026-11-22T16:14:30.977341+00:00",
+   "fotmob_id": "5868137",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-22T16:19:30.904817+00:00",
+   "match": "hGNeTCRr",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-22T16:19:30.904817+00:00",
    "fotmob_id": "5868137",
    "reason": "ALERT_NOT_SENT"
   }
