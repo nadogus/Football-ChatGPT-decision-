@@ -141,3 +141,27 @@ _Uyarıdır, karar değildir._
 xG 1.05–0.11 · xGOT 0.00–0.14 · ceza sahası topla buluşma 14–1 · isabetli şut 0–2
 Karar için Claude'a yaz: `canlı bak 5868133`
 _Uyarıdır, karar değildir._
+
+---
+13:47 UTC
+⚡ *Canlı uyarı* — Burnley 2-2 Blackburn Rovers (82‎’‎)
+• Blackburn Rovers baskın (xG 1.45–0.38) ama önde değil
+xG 0.38–1.45 · xGOT 0.95–1.51 · ceza sahası topla buluşma 8–15 · isabetli şut 4–3
+Karar için Claude'a yaz: `canlı bak 5836935`
+_Uyarıdır, karar değildir._
+
+---
+13:47 UTC
+⚡ *Canlı uyarı* — SK Beveren 0-0 Gent (59‎’‎)
+• SK Beveren kırmızı kart gördü (1)
+xG 0.79–0.79 · xGOT 0.09–0.36 · ceza sahası topla buluşma 19–17 · isabetli şut 3–2
+Karar için Claude'a yaz: `canlı bak 5811810`
+_Uyarıdır, karar değildir._
+
+---
+13:47 UTC
+⚡ *Canlı uyarı* — Barcelona 0-2 Villarreal (44‎’‎)
+• Barcelona baskın (xG 1.13–0.11) ama önde değil
+xG 1.13–0.11 · xGOT 0.02–0.14 · ceza sahası topla buluşma 15–2 · isabetli şut 1–2
+Karar için Claude'a yaz: `canlı bak 5868133`
+_Uyarıdır, karar değildir._
