@@ -11,5 +11,44 @@
   "minute": "FT",
   "finished": true,
   "updated": "2026-11-23T18:56:08Z"
+ },
+ "5749756": {
+  "flashscore_id": "xQYBZbDG",
+  "competition": "Serie A",
+  "home": "Monza",
+  "away": "Fiorentina",
+  "score": [
+   1,
+   0
+  ],
+  "minute": "45‎’‎",
+  "finished": false,
+  "updated": "2026-11-23T20:30:27Z"
+ },
+ "5868135": {
+  "flashscore_id": "MNFmr4wR",
+  "competition": "LaLiga",
+  "home": "Levante",
+  "away": "Elche",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "29‎’‎",
+  "finished": false,
+  "updated": "2026-11-23T20:30:27Z"
+ },
+ "5795517": {
+  "flashscore_id": "CSnuq6U8",
+  "competition": "Premier League",
+  "home": "Brentford",
+  "away": "Everton",
+  "score": [
+   2,
+   0
+  ],
+  "minute": "31‎’‎",
+  "finished": false,
+  "updated": "2026-11-23T20:30:27Z"
  }
 }
