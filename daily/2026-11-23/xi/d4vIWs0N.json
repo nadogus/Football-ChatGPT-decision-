@@ -1,0 +1,1047 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-23T16:17:45.022024+00:00",
+ "minutes_before_kickoff": 42.24963293333334,
+ "match": {
+  "match_id": "d4vIWs0N",
+  "home": "Basaksehir",
+  "away": "Corum",
+  "kickoff": "2026-11-23T17:00:00Z",
+  "competition": "Super Lig",
+  "category": "Turkey"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:241800",
+     "name": "Muhammed Sengezer",
+     "number": "16",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:261505",
+     "name": "Jerome Opoku",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:299391",
+     "name": "Emin Bayram",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:387157",
+     "name": "Saba Kharebashvili",
+     "number": "38",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305864",
+     "name": "Michal Karbownik",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:216937",
+     "name": "Eldor Shomurodov",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:341702",
+     "name": "Jakub Kaluzinski",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:212149",
+     "name": "Olivier Kemen",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:196032",
+     "name": "Davie Selke",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306611",
+     "name": "Ivan Brnic",
+     "number": "77",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259707",
+     "name": "Andreas Skov Olsen",
+     "number": "70",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-1-4-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:330710",
+     "name": "Erhan Erentürk",
+     "number": "18",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:292170",
+     "name": "Hrvoje Smolcic",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:230757",
+     "name": "Çaglar Söyüncü",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:237455",
+     "name": "Ylber Ramadani",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:335861",
+     "name": "Andrei Borza",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306510",
+     "name": "Alexandre Penetra",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303049",
+     "name": "Mohammed Diomande",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259179",
+     "name": "Markus Karlsbakk",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:298350",
+     "name": "Alexandros Kyziridis",
+     "number": "89",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306932",
+     "name": "Goktan Gurpuz",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:82009",
+     "name": "Jesús Ramírez",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": false,
+  "reason": "NO_SECOND_SOURCE(fotmob:standard)"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401888252",
+   "date": "2026-11-07T16:00:00+00:00",
+   "competition": "tur.1",
+   "opponent": "Goztepe",
+   "starters": [
+    {
+     "id": "espn:307274",
+     "name": "Deniz Dilmen",
+     "number": "98",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:260231",
+     "name": "Ousseynou Ba",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:299391",
+     "name": "Emin Bayram",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305864",
+     "name": "Michal Karbownik",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:193147",
+     "name": "Omer Sahiner",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:216937",
+     "name": "Eldor Shomurodov",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:341702",
+     "name": "Jakub Kaluzinski",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:212149",
+     "name": "Olivier Kemen",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:196032",
+     "name": "Davie Selke",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306611",
+     "name": "Ivan Brnic",
+     "number": "77",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259707",
+     "name": "Andreas Skov Olsen",
+     "number": "70",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401888372",
+   "date": "2026-11-08T13:00:00+00:00",
+   "competition": "tur.1",
+   "opponent": "Fenerbahce",
+   "starters": [
+    {
+     "id": "espn:191997",
+     "name": "Marcos Felipe",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:292170",
+     "name": "Hrvoje Smolcic",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:230757",
+     "name": "Çaglar Söyüncü",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:335861",
+     "name": "Andrei Borza",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306510",
+     "name": "Alexandre Penetra",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303049",
+     "name": "Mohammed Diomande",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:414676",
+     "name": "Ermin Mahmic",
+     "number": "26",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:237455",
+     "name": "Ylber Ramadani",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:82009",
+     "name": "Jesús Ramírez",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:298350",
+     "name": "Alexandros Kyziridis",
+     "number": "89",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:239706",
+     "name": "Cengiz Ünder",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 3,
+   "out": [
+    "Deniz Dilmen",
+    "Ousseynou Ba",
+    "Omer Sahiner"
+   ],
+   "in": [
+    "Muhammed Sengezer",
+    "Jerome Opoku",
+    "Saba Kharebashvili"
+   ],
+   "goalkeeper_changed": true,
+   "goalkeeper": "Muhammed Sengezer",
+   "previous_goalkeeper": "Deniz Dilmen"
+  },
+  "away": {
+   "count": 3,
+   "out": [
+    "Marcos Felipe",
+    "Ermin Mahmic",
+    "Cengiz Ünder"
+   ],
+   "in": [
+    "Erhan Erentürk",
+    "Markus Karlsbakk",
+    "Goktan Gurpuz"
+   ],
+   "goalkeeper_changed": true,
+   "goalkeeper": "Erhan Erentürk",
+   "previous_goalkeeper": "Marcos Felipe"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Deniz Dilmen",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 90,
+       "minutes_per_match": 18.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 3,
+       "minutes": 270,
+       "minutes_per_match": 27.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Ousseynou Ba",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 405,
+       "minutes_per_match": 81.0,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.0,
+        "shots": 0.44,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.024
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 502,
+       "minutes_per_match": 50.2,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.01,
+        "shots": 0.36,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.014
+      }
+     }
+    },
+    {
+     "name": "Omer Sahiner",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 150,
+       "minutes_per_match": 30.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.6,
+        "key_passes": 0.6
+       },
+       "attack_share": 0.001
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 438,
+       "minutes_per_match": 43.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.02,
+        "shots": 0.21,
+        "key_passes": 0.41
+       },
+       "attack_share": 0.004
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Muhammed Sengezer",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 360,
+       "minutes_per_match": 72.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.001
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 630,
+       "minutes_per_match": 63.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.001
+      }
+     }
+    },
+    {
+     "name": "Jerome Opoku",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 4,
+       "minutes_per_match": 0.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 364,
+       "minutes_per_match": 36.4,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.01,
+        "shots": 0.25,
+        "key_passes": 0.25
+       },
+       "attack_share": 0.003
+      }
+     }
+    },
+    {
+     "name": "Saba Kharebashvili",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 288,
+       "minutes_per_match": 57.6,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.05,
+        "shots": 0.31,
+        "key_passes": 1.25
+       },
+       "attack_share": 0.015
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 405,
+       "minutes_per_match": 40.5,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.04,
+        "shots": 0.44,
+        "key_passes": 1.11
+       },
+       "attack_share": 0.016
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Deniz Dilmen",
+     "in": "Muhammed Sengezer",
+     "delta_per90": {
+      "xg": 0.0,
+      "xa": 0.0,
+      "shots": 0.0,
+      "key_passes": 0.0
+     },
+     "attack_share_delta": 0.001
+    },
+    {
+     "out": "Ousseynou Ba",
+     "in": "Jerome Opoku",
+     "delta_per90": {
+      "xg": -0.05,
+      "xa": 0.0,
+      "shots": -0.11,
+      "key_passes": 0.25
+     },
+     "attack_share_delta": -0.011
+    },
+    {
+     "out": "Omer Sahiner",
+     "in": "Saba Kharebashvili",
+     "delta_per90": {
+      "xg": 0.05,
+      "xa": 0.02,
+      "shots": 0.23,
+      "key_passes": 0.7
+     },
+     "attack_share_delta": 0.012
+    }
+   ],
+   "goalkeeper": {
+    "now": {
+     "name": "Muhammed Sengezer",
+     "games": 6,
+     "goals_prevented": 1.28,
+     "saves": 21,
+     "note": "küçük örneklem, tek başına sinyal değil"
+    },
+    "previous": {
+     "name": "Deniz Dilmen",
+     "games": 3,
+     "goals_prevented": 0.76,
+     "saves": 8,
+     "note": "küçük örneklem, tek başına sinyal değil"
+    }
+   }
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Marcos Felipe",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 450,
+       "minutes_per_match": 90.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 900,
+       "minutes_per_match": 90.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.001
+      }
+     }
+    },
+    {
+     "name": "Ermin Mahmic",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 196,
+       "minutes_per_match": 39.2,
+       "per90": {
+        "xg": 0.23,
+        "xa": 0.06,
+        "shots": 3.67,
+        "key_passes": 1.38
+       },
+       "attack_share": 0.051
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 306,
+       "minutes_per_match": 30.6,
+       "per90": {
+        "xg": 0.45,
+        "xa": 0.04,
+        "shots": 5.0,
+        "key_passes": 1.47
+       },
+       "attack_share": 0.068
+      }
+     }
+    },
+    {
+     "name": "Cengiz Ünder",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 402,
+       "minutes_per_match": 80.4,
+       "per90": {
+        "xg": 0.18,
+        "xa": 0.13,
+        "shots": 2.01,
+        "key_passes": 2.24
+       },
+       "attack_share": 0.114
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 647,
+       "minutes_per_match": 64.7,
+       "per90": {
+        "xg": 0.19,
+        "xa": 0.12,
+        "shots": 2.36,
+        "key_passes": 2.23
+       },
+       "attack_share": 0.09
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Erhan Erentürk",
+     "windows": null,
+     "note": "son maçlarda istatistik yok (yeni transfer / veri boşluğu)"
+    },
+    {
+     "name": "Markus Karlsbakk",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 87,
+       "minutes_per_match": 17.4,
+       "per90": {
+        "xg": 0.63,
+        "xa": 0.11,
+        "shots": 1.03,
+        "key_passes": 1.03
+       },
+       "attack_share": 0.059
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 165,
+       "minutes_per_match": 16.5,
+       "per90": {
+        "xg": 0.33,
+        "xa": 0.11,
+        "shots": 0.55,
+        "key_passes": 1.64
+       },
+       "attack_share": 0.033
+      }
+     }
+    },
+    {
+     "name": "Goktan Gurpuz",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 4,
+       "minutes_per_match": 0.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.23,
+        "shots": 0.0,
+        "key_passes": 22.5
+       },
+       "attack_share": 0.001
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 32,
+       "minutes_per_match": 3.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.2,
+        "shots": 0.0,
+        "key_passes": 5.62
+       },
+       "attack_share": 0.003
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Ermin Mahmic",
+     "in": "Markus Karlsbakk",
+     "delta_per90": {
+      "xg": -0.12,
+      "xa": 0.07,
+      "shots": -4.45,
+      "key_passes": 0.17
+     },
+     "attack_share_delta": -0.035
+    },
+    {
+     "out": "Cengiz Ünder",
+     "in": "Goktan Gurpuz",
+     "delta_per90": {
+      "xg": -0.19,
+      "xa": 0.08,
+      "shots": -2.36,
+      "key_passes": 3.39
+     },
+     "attack_share_delta": -0.087
+    }
+   ],
+   "goalkeeper": {
+    "now": null,
+    "previous": {
+     "name": "Marcos Felipe",
+     "games": 10,
+     "goals_prevented": -4.83,
+     "saves": 25,
+     "note": "küçük örneklem, tek başına sinyal değil"
+    }
+   }
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Saba Kharebashvili",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": null
+   },
+   {
+    "player": "Muhammed Şengezer",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": null
+   },
+   {
+    "player": "Yusuf Sarı",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": null
+   },
+   {
+    "player": "Christopher Opéri",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": null
+   }
+  ],
+  "away": [
+   {
+    "player": "Berat Özdemir",
+    "reason": "injury",
+    "likelihood": "Late December 2026",
+    "market_value_eur": null
+   },
+   {
+    "player": "Fredy",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": null
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 410,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.4955,
+    "DRAW": 0.2366,
+    "AWAY": 0.2679
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.97,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 2.018,
+     "ev_vs_consensus": -0.0239
+    },
+    "DRAW": {
+     "odds": 3.9,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 4.227,
+     "ev_vs_consensus": -0.0773
+    },
+    "AWAY": {
+     "odds": 3.6,
+     "bookmaker": "Betfair",
+     "fair_odds_consensus": 3.733,
+     "ev_vs_consensus": -0.0356
+    }
+   },
+   "median_overround": 0.0933,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.856,
+     "UNDER": 0.144
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.17,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.168,
+      "ev_vs_consensus": 0.0015
+     },
+     "UNDER": {
+      "odds": 5.5,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 6.944,
+      "ev_vs_consensus": -0.208
+     }
+    },
+    "median_overround": 0.0754,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6343,
+     "UNDER": 0.3657
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.54,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.577,
+      "ev_vs_consensus": -0.0232
+     },
+     "UNDER": {
+      "odds": 2.6,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 2.734,
+      "ev_vs_consensus": -0.0492
+     }
+    },
+    "median_overround": 0.0748,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.5237,
+     "UNDER": 0.4763
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.83,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.909,
+      "ev_vs_consensus": -0.0416
+     },
+     "UNDER": {
+      "odds": 2.0,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 2.1,
+      "ev_vs_consensus": -0.0474
+     }
+    },
+    "median_overround": 0.065,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4008,
+     "UNDER": 0.5992
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.3,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 2.495,
+      "ev_vs_consensus": -0.0782
+     },
+     "UNDER": {
+      "odds": 1.62,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 1.669,
+      "ev_vs_consensus": -0.0293
+     }
+    },
+    "median_overround": 0.0756,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -0.61,
+  "DRAW": -0.7,
+  "AWAY": 1.31
+ },
+ "gaps": [
+  "XI_SINGLE_SOURCE:ESPN_ONLY"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
