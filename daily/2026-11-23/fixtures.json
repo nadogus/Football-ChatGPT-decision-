@@ -1,0 +1,50 @@
+[
+ {
+  "match_id": "d4vIWs0N",
+  "home": "Basaksehir",
+  "away": "Corum",
+  "home_team_id": "YqP5NmC1",
+  "away_team_id": "0vne21BK",
+  "kickoff": "2026-11-23T17:00:00Z",
+  "status": "scheduled",
+  "competition": "Super Lig",
+  "category": "Turkey",
+  "link": "https://www.flashscore.com/match/d4vIWs0N/"
+ },
+ {
+  "match_id": "xQYBZbDG",
+  "home": "Monza",
+  "away": "Fiorentina",
+  "home_team_id": "4YSMlwj7",
+  "away_team_id": "Q3A3IbXH",
+  "kickoff": "2026-11-23T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Serie A",
+  "category": "Italy",
+  "link": "https://www.flashscore.com/match/xQYBZbDG/"
+ },
+ {
+  "match_id": "MNFmr4wR",
+  "home": "Levante",
+  "away": "Elche",
+  "home_team_id": "G8FL0ShI",
+  "away_team_id": "4jl02tPF",
+  "kickoff": "2026-11-23T20:00:00Z",
+  "status": "scheduled",
+  "competition": "LaLiga",
+  "category": "Spain",
+  "link": "https://www.flashscore.com/match/MNFmr4wR/"
+ },
+ {
+  "match_id": "CSnuq6U8",
+  "home": "Brentford",
+  "away": "Everton",
+  "home_team_id": "xYe7DwID",
+  "away_team_id": "KluSTr9s",
+  "kickoff": "2026-11-23T20:00:00Z",
+  "status": "scheduled",
+  "competition": "Premier League",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/CSnuq6U8/"
+ }
+]
