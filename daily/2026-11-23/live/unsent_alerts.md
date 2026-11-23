@@ -22,3 +22,11 @@ _Uyarıdır, karar değildir._
 xG 1.48–0.15 · xGOT 1.06–0.56 · ceza sahası topla buluşma 34–3 · isabetli şut 5–2
 Karar için Claude'a yaz: `canlı bak 5795517`
 _Uyarıdır, karar değildir._
+
+---
+21:29 UTC
+⚡ *Canlı uyarı* — Brentford 2-0 Everton (62‎’‎)
+• Everton kırmızı kart gördü (1)
+xG 1.48–0.15 · xGOT 1.06–0.56 · ceza sahası topla buluşma 35–3 · isabetli şut 5–2
+Karar için Claude'a yaz: `canlı bak 5795517`
+_Uyarıdır, karar değildir._
