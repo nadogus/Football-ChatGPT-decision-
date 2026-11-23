@@ -1,0 +1,959 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-23T19:29:01.888147+00:00",
+ "minutes_before_kickoff": 15.968530883333333,
+ "match": {
+  "match_id": "xQYBZbDG",
+  "home": "Monza",
+  "away": "Fiorentina",
+  "kickoff": "2026-11-23T19:45:00Z",
+  "competition": "Serie A",
+  "category": "Italy"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "3-5-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:250460",
+     "name": "Demba Thiam",
+     "number": "20",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:363886",
+     "name": "Saba Goglichidze",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301278",
+     "name": "Andrea Carboni",
+     "number": "44",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:390673",
+     "name": "Eddy Kouadio",
+     "number": "60",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:224455",
+     "name": "Matteo Pessina",
+     "number": "32",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:362776",
+     "name": "Ebenezer Akinsanmiro",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:353013",
+     "name": "Leonardo Colombo",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259871",
+     "name": "Ricardo Mangas",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:248440",
+     "name": "Samuele Birindelli",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355359",
+     "name": "Jay Robinson",
+     "number": "46",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:384482",
+     "name": "Gustavo Varela",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:108482",
+     "name": "David de Gea",
+     "number": "43",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:364156",
+     "name": "Viery",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310216",
+     "name": "Radu Dragusin",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:139008",
+     "name": "Joao Victor",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:367861",
+     "name": "Álex Jiménez",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:262591",
+     "name": "Pedro Gonçalves",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:386989",
+     "name": "Christ Inao Oulaï",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:360061",
+     "name": "Cher Ndour",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:312757",
+     "name": "Mateo Pellegrino",
+     "number": "32",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297784",
+     "name": "Wilfried Gnonto",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:376473",
+     "name": "Franco Mastantuono",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 0.909,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401874800",
+   "date": "2026-11-08T14:00:00+00:00",
+   "competition": "ita.1",
+   "opponent": "Atalanta",
+   "starters": [
+    {
+     "id": "espn:301377",
+     "name": "Noel Törnqvist",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:363886",
+     "name": "Saba Goglichidze",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:367635",
+     "name": "Lorenzo Lucchesi",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:390673",
+     "name": "Eddy Kouadio",
+     "number": "60",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:416515",
+     "name": "Mathis Mout",
+     "number": "80",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:362776",
+     "name": "Ebenezer Akinsanmiro",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:353013",
+     "name": "Leonardo Colombo",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:259871",
+     "name": "Ricardo Mangas",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:234951",
+     "name": "Idrissa Touré",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355359",
+     "name": "Jay Robinson",
+     "number": "46",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:384482",
+     "name": "Gustavo Varela",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-5-2"
+  },
+  "away": {
+   "match_id": "espn:401875003",
+   "date": "2026-11-08T19:45:00+00:00",
+   "competition": "ita.1",
+   "opponent": "Juventus",
+   "starters": [
+    {
+     "id": "espn:108482",
+     "name": "David de Gea",
+     "number": "43",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:364156",
+     "name": "Viery",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310216",
+     "name": "Radu Dragusin",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:139008",
+     "name": "Joao Victor",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:367861",
+     "name": "Álex Jiménez",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:262591",
+     "name": "Pedro Gonçalves",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:386989",
+     "name": "Christ Inao Oulaï",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:360061",
+     "name": "Cher Ndour",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:312757",
+     "name": "Mateo Pellegrino",
+     "number": "32",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:367743",
+     "name": "Alieu Njie",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:376473",
+     "name": "Franco Mastantuono",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 4,
+   "out": [
+    "Noel Törnqvist",
+    "Lorenzo Lucchesi",
+    "Mathis Mout",
+    "Idrissa Touré"
+   ],
+   "in": [
+    "Demba Thiam",
+    "Andrea Carboni",
+    "Matteo Pessina",
+    "Samuele Birindelli"
+   ],
+   "goalkeeper_changed": true,
+   "goalkeeper": "Demba Thiam",
+   "previous_goalkeeper": "Noel Törnqvist"
+  },
+  "away": {
+   "count": 1,
+   "out": [
+    "Alieu Njie"
+   ],
+   "in": [
+    "Wilfried Gnonto"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "David de Gea",
+   "previous_goalkeeper": "David de Gea"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 9,
+   "out": [
+    {
+     "name": "Noel Törnqvist",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 450,
+       "minutes_per_match": 90.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.06,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.028
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 7,
+       "minutes": 630,
+       "minutes_per_match": 70.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.05,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.014
+      }
+     }
+    },
+    {
+     "name": "Lorenzo Lucchesi",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 317,
+       "minutes_per_match": 63.4,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.14,
+        "shots": 0.28,
+        "key_passes": 0.28
+       },
+       "attack_share": 0.046
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 622,
+       "minutes_per_match": 69.1,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.1,
+        "shots": 0.72,
+        "key_passes": 0.29
+       },
+       "attack_share": 0.046
+      }
+     }
+    },
+    {
+     "name": "Mathis Mout",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 109,
+       "minutes_per_match": 21.8,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.1,
+        "shots": 0.83,
+        "key_passes": 3.3
+       },
+       "attack_share": 0.017
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 6,
+       "minutes": 132,
+       "minutes_per_match": 14.7,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.1,
+        "shots": 2.05,
+        "key_passes": 2.73
+       },
+       "attack_share": 0.011
+      }
+     }
+    },
+    {
+     "name": "Idrissa Touré",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 96,
+       "minutes_per_match": 19.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.07,
+        "shots": 0.0,
+        "key_passes": 1.88
+       },
+       "attack_share": 0.006
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 2,
+       "minutes": 96,
+       "minutes_per_match": 10.7,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.07,
+        "shots": 0.0,
+        "key_passes": 1.88
+       },
+       "attack_share": 0.003
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Demba Thiam",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 0,
+       "minutes": 0,
+       "minutes_per_match": 0.0,
+       "per90": null,
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 2,
+       "minutes": 180,
+       "minutes_per_match": 20.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.5
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Andrea Carboni",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 250,
+       "minutes_per_match": 50.0,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.12,
+        "shots": 0.36,
+        "key_passes": 0.36
+       },
+       "attack_share": 0.036
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 556,
+       "minutes_per_match": 61.8,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.08,
+        "shots": 0.49,
+        "key_passes": 0.49
+       },
+       "attack_share": 0.028
+      }
+     }
+    },
+    {
+     "name": "Matteo Pessina",
+     "windows": null,
+     "note": "son maçlarda istatistik yok (yeni transfer / veri boşluğu)"
+    },
+    {
+     "name": "Samuele Birindelli",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 360,
+       "minutes_per_match": 72.0,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.06,
+        "shots": 1.0,
+        "key_passes": 1.0
+       },
+       "attack_share": 0.035
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 719,
+       "minutes_per_match": 79.9,
+       "per90": {
+        "xg": 0.09,
+        "xa": 0.19,
+        "shots": 1.5,
+        "key_passes": 1.75
+       },
+       "attack_share": 0.097
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Noel Törnqvist",
+     "in": "Demba Thiam",
+     "delta_per90": {
+      "xg": 0.0,
+      "xa": -0.05,
+      "shots": 0.0,
+      "key_passes": 0.5
+     },
+     "attack_share_delta": -0.014
+    },
+    {
+     "out": "Lorenzo Lucchesi",
+     "in": "Andrea Carboni",
+     "delta_per90": {
+      "xg": -0.04,
+      "xa": -0.02,
+      "shots": -0.23,
+      "key_passes": 0.2
+     },
+     "attack_share_delta": -0.018
+    },
+    {
+     "out": "Idrissa Touré",
+     "in": "Samuele Birindelli",
+     "delta_per90": {
+      "xg": 0.09,
+      "xa": 0.12,
+      "shots": 1.5,
+      "key_passes": -0.13
+     },
+     "attack_share_delta": 0.094
+    }
+   ],
+   "goalkeeper": {
+    "now": {
+     "name": "Demba Thiam",
+     "games": 2,
+     "goals_prevented": -1.03,
+     "saves": 2,
+     "note": "küçük örneklem, tek başına sinyal değil"
+    },
+    "previous": {
+     "name": "Noel Törnqvist",
+     "games": 7,
+     "goals_prevented": -0.55,
+     "saves": 32,
+     "note": "küçük örneklem, tek başına sinyal değil"
+    }
+   }
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Alieu Njie",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 391,
+       "minutes_per_match": 78.2,
+       "per90": {
+        "xg": 0.38,
+        "xa": 0.06,
+        "shots": 2.53,
+        "key_passes": 1.15
+       },
+       "attack_share": 0.147
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 705,
+       "minutes_per_match": 70.5,
+       "per90": {
+        "xg": 0.32,
+        "xa": 0.19,
+        "shots": 2.43,
+        "key_passes": 2.17
+       },
+       "attack_share": 0.153
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Wilfried Gnonto",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 94,
+       "minutes_per_match": 18.8,
+       "per90": {
+        "xg": 0.19,
+        "xa": 0.13,
+        "shots": 3.83,
+        "key_passes": 1.91
+       },
+       "attack_share": 0.026
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 350,
+       "minutes_per_match": 35.0,
+       "per90": {
+        "xg": 0.18,
+        "xa": 0.12,
+        "shots": 2.06,
+        "key_passes": 1.03
+       },
+       "attack_share": 0.045
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Alieu Njie",
+     "in": "Wilfried Gnonto",
+     "delta_per90": {
+      "xg": -0.14,
+      "xa": -0.07,
+      "shots": -0.37,
+      "key_passes": -1.14
+     },
+     "attack_share_delta": -0.108
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Yvan Kouadio Maye",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 1772369
+   },
+   {
+    "player": "Ivan Jurić",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": null
+   },
+   {
+    "player": "Michael Folorunsho",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 4113066
+   }
+  ],
+  "away": [
+   {
+    "player": "Federico Croci",
+    "reason": "internationalDuty",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": null
+   },
+   {
+    "player": "Marin Pongračić",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 6241307
+   },
+   {
+    "player": "Fabiano Parisi",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 6788131
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 411,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.2615,
+    "DRAW": 0.2476,
+    "AWAY": 0.4909
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 3.75,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 3.824,
+     "ev_vs_consensus": -0.0194
+    },
+    "DRAW": {
+     "odds": 3.8,
+     "bookmaker": "BetUK",
+     "fair_odds_consensus": 4.039,
+     "ev_vs_consensus": -0.0591
+    },
+    "AWAY": {
+     "odds": 2.05,
+     "bookmaker": "Coral",
+     "fair_odds_consensus": 2.037,
+     "ev_vs_consensus": 0.0063
+    }
+   },
+   "median_overround": 0.0652,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8253,
+     "UNDER": 0.1747
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.22,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.212,
+      "ev_vs_consensus": 0.0069
+     },
+     "UNDER": {
+      "odds": 4.8,
+      "bookmaker": "Paddy Power",
+      "fair_odds_consensus": 5.724,
+      "ev_vs_consensus": -0.1614
+     }
+    },
+    "median_overround": 0.0652,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.5936,
+     "UNDER": 0.4064
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.67,
+      "bookmaker": "SpreadEX",
+      "fair_odds_consensus": 1.685,
+      "ev_vs_consensus": -0.0087
+     },
+     "UNDER": {
+      "odds": 2.3,
+      "bookmaker": "BetUK",
+      "fair_odds_consensus": 2.461,
+      "ev_vs_consensus": -0.0653
+     }
+    },
+    "median_overround": 0.0649,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.4676,
+     "UNDER": 0.5324
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.05,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.139,
+      "ev_vs_consensus": -0.0414
+     },
+     "UNDER": {
+      "odds": 1.8,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 1.878,
+      "ev_vs_consensus": -0.0417
+     }
+    },
+    "median_overround": 0.0684,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.3519,
+     "UNDER": 0.6481
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.63,
+      "bookmaker": "Midnite",
+      "fair_odds_consensus": 2.842,
+      "ev_vs_consensus": -0.0745
+     },
+     "UNDER": {
+      "odds": 1.54,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.543,
+      "ev_vs_consensus": -0.0019
+     }
+    },
+    "median_overround": 0.0667,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -0.26,
+  "DRAW": 0.26,
+  "AWAY": -0.01
+ },
+ "gaps": [
+  "PLAYER_IMPACT_PARTIAL_HISTORY:home:9/10"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}

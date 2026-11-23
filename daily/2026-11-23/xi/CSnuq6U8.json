@@ -1,0 +1,956 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-23T19:29:01.888147+00:00",
+ "minutes_before_kickoff": 30.968530883333337,
+ "match": {
+  "match_id": "CSnuq6U8",
+  "home": "Brentford",
+  "away": "Everton",
+  "kickoff": "2026-11-23T20:00:00Z",
+  "competition": "Premier League",
+  "category": "England"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:275599",
+     "name": "Caoimhín Kelleher",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:356640",
+     "name": "Michael Kayode",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:270507",
+     "name": "Sepp van den Berg",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:206173",
+     "name": "Kristoffer Ajer",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284490",
+     "name": "Keane Lewis-Potter",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:307657",
+     "name": "Jaidon Anthony",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:225564",
+     "name": "Vitaly Janelt",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:308932",
+     "name": "Mikkel Damsgaard",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:342029",
+     "name": "Yehor Yarmoliuk",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:315530",
+     "name": "Dango Ouattara",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:138924",
+     "name": "Callum Wilson",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:159443",
+     "name": "Jordan Pickford",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:283586",
+     "name": "Jake O'Brien",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:262594",
+     "name": "Vitaliy Mykolenko",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:155226",
+     "name": "James Tarkowski",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:286965",
+     "name": "Jarrad Branthwaite",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:252389",
+     "name": "Kiernan Dewsbury-Hall",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:378458",
+     "name": "Harrison Armstrong",
+     "number": "45",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:311963",
+     "name": "Merlin Röhl",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:368864",
+     "name": "Tyrique George",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276220",
+     "name": "James Garner",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301166",
+     "name": "Thierno Barry",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401879244",
+   "date": "2026-11-08T14:00:00+00:00",
+   "competition": "eng.1",
+   "opponent": "Brighton & Hove Albion",
+   "starters": [
+    {
+     "id": "espn:275599",
+     "name": "Caoimhín Kelleher",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:270507",
+     "name": "Sepp van den Berg",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:206173",
+     "name": "Kristoffer Ajer",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:283940",
+     "name": "Aaron Hickey",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:356640",
+     "name": "Michael Kayode",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:225564",
+     "name": "Vitaly Janelt",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:228547",
+     "name": "Mamadou Sangare",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284490",
+     "name": "Keane Lewis-Potter",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:315530",
+     "name": "Dango Ouattara",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310958",
+     "name": "Kevin Schade",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301894",
+     "name": "Igor Thiago",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-4-2"
+  },
+  "away": {
+   "match_id": "espn:401879242",
+   "date": "2026-11-06T20:00:00+00:00",
+   "competition": "eng.1",
+   "opponent": "Coventry City",
+   "starters": [
+    {
+     "id": "espn:159443",
+     "name": "Jordan Pickford",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:286965",
+     "name": "Jarrad Branthwaite",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:155226",
+     "name": "James Tarkowski",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:262594",
+     "name": "Vitaliy Mykolenko",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:311963",
+     "name": "Merlin Röhl",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:252389",
+     "name": "Kiernan Dewsbury-Hall",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276220",
+     "name": "James Garner",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:378458",
+     "name": "Harrison Armstrong",
+     "number": "45",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301166",
+     "name": "Thierno Barry",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:368864",
+     "name": "Tyrique George",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:340640",
+     "name": "Tyler Dibling",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 4,
+   "out": [
+    "Aaron Hickey",
+    "Mamadou Sangare",
+    "Kevin Schade",
+    "Igor Thiago"
+   ],
+   "in": [
+    "Jaidon Anthony",
+    "Mikkel Damsgaard",
+    "Yehor Yarmoliuk",
+    "Callum Wilson"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Caoimhín Kelleher",
+   "previous_goalkeeper": "Caoimhín Kelleher"
+  },
+  "away": {
+   "count": 1,
+   "out": [
+    "Tyler Dibling"
+   ],
+   "in": [
+    "Jake O'Brien"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Jordan Pickford",
+   "previous_goalkeeper": "Jordan Pickford"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Aaron Hickey",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 185,
+       "minutes_per_match": 37.0,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.01,
+        "shots": 0.49,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.006
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 380,
+       "minutes_per_match": 38.0,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.01,
+        "shots": 0.71,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.007
+      }
+     }
+    },
+    {
+     "name": "Mamadou Sangare",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 315,
+       "minutes_per_match": 63.0,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.04,
+        "shots": 0.86,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.03
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 554,
+       "minutes_per_match": 55.4,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.08,
+        "shots": 1.14,
+        "key_passes": 0.16
+       },
+       "attack_share": 0.035
+      }
+     }
+    },
+    {
+     "name": "Kevin Schade",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 300,
+       "minutes_per_match": 60.0,
+       "per90": {
+        "xg": 0.15,
+        "xa": 0.19,
+        "shots": 0.6,
+        "key_passes": 0.6
+       },
+       "attack_share": 0.098
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 622,
+       "minutes_per_match": 62.2,
+       "per90": {
+        "xg": 0.24,
+        "xa": 0.13,
+        "shots": 1.59,
+        "key_passes": 0.43
+       },
+       "attack_share": 0.1
+      }
+     }
+    },
+    {
+     "name": "Igor Thiago",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 383,
+       "minutes_per_match": 76.6,
+       "per90": {
+        "xg": 0.38,
+        "xa": 0.24,
+        "shots": 2.35,
+        "key_passes": 0.7
+       },
+       "attack_share": 0.23
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 756,
+       "minutes_per_match": 75.6,
+       "per90": {
+        "xg": 0.4,
+        "xa": 0.15,
+        "shots": 2.26,
+        "key_passes": 1.07
+       },
+       "attack_share": 0.179
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Jaidon Anthony",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 194,
+       "minutes_per_match": 38.8,
+       "per90": {
+        "xg": 0.2,
+        "xa": 0.14,
+        "shots": 2.78,
+        "key_passes": 1.39
+       },
+       "attack_share": 0.065
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 478,
+       "minutes_per_match": 47.8,
+       "per90": {
+        "xg": 0.3,
+        "xa": 0.1,
+        "shots": 2.07,
+        "key_passes": 1.32
+       },
+       "attack_share": 0.081
+      }
+     }
+    },
+    {
+     "name": "Mikkel Damsgaard",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 159,
+       "minutes_per_match": 31.8,
+       "per90": {
+        "xg": 0.17,
+        "xa": 0.19,
+        "shots": 1.7,
+        "key_passes": 2.26
+       },
+       "attack_share": 0.056
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 452,
+       "minutes_per_match": 45.2,
+       "per90": {
+        "xg": 0.11,
+        "xa": 0.29,
+        "shots": 1.19,
+        "key_passes": 2.19
+       },
+       "attack_share": 0.077
+      }
+     }
+    },
+    {
+     "name": "Yehor Yarmoliuk",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 90,
+       "minutes_per_match": 18.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 376,
+       "minutes_per_match": 37.6,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.08,
+        "shots": 0.96,
+        "key_passes": 0.72
+       },
+       "attack_share": 0.019
+      }
+     }
+    },
+    {
+     "name": "Callum Wilson",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 98,
+       "minutes_per_match": 19.6,
+       "per90": {
+        "xg": 1.15,
+        "xa": 0.13,
+        "shots": 4.59,
+        "key_passes": 0.92
+       },
+       "attack_share": 0.121
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 184,
+       "minutes_per_match": 18.4,
+       "per90": {
+        "xg": 0.92,
+        "xa": 0.08,
+        "shots": 3.91,
+        "key_passes": 1.47
+       },
+       "attack_share": 0.079
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Aaron Hickey",
+     "in": "Jaidon Anthony",
+     "delta_per90": {
+      "xg": 0.27,
+      "xa": 0.09,
+      "shots": 1.36,
+      "key_passes": 1.32
+     },
+     "attack_share_delta": 0.074
+    },
+    {
+     "out": "Mamadou Sangare",
+     "in": "Mikkel Damsgaard",
+     "delta_per90": {
+      "xg": 0.04,
+      "xa": 0.21,
+      "shots": 0.05,
+      "key_passes": 2.03
+     },
+     "attack_share_delta": 0.042
+    },
+    {
+     "out": "Kevin Schade",
+     "in": "Yehor Yarmoliuk",
+     "delta_per90": {
+      "xg": -0.2,
+      "xa": -0.05,
+      "shots": -0.63,
+      "key_passes": 0.29
+     },
+     "attack_share_delta": -0.081
+    },
+    {
+     "out": "Igor Thiago",
+     "in": "Callum Wilson",
+     "delta_per90": {
+      "xg": 0.52,
+      "xa": -0.07,
+      "shots": 1.65,
+      "key_passes": 0.4
+     },
+     "attack_share_delta": -0.1
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Tyler Dibling",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 167,
+       "minutes_per_match": 33.4,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.19,
+        "shots": 1.08,
+        "key_passes": 1.62
+       },
+       "attack_share": 0.041
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 285,
+       "minutes_per_match": 28.5,
+       "per90": {
+        "xg": 0.1,
+        "xa": 0.28,
+        "shots": 1.89,
+        "key_passes": 2.21
+       },
+       "attack_share": 0.049
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Jake O'Brien",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 287,
+       "minutes_per_match": 57.4,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.03,
+        "shots": 0.63,
+        "key_passes": 0.31
+       },
+       "attack_share": 0.026
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 405,
+       "minutes_per_match": 40.5,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.02,
+        "shots": 0.89,
+        "key_passes": 0.22
+       },
+       "attack_share": 0.016
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Tyler Dibling",
+     "in": "Jake O'Brien",
+     "delta_per90": {
+      "xg": -0.03,
+      "xa": -0.26,
+      "shots": -1.0,
+      "key_passes": -1.99
+     },
+     "attack_share_delta": -0.033
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Joshua Dasilva",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 1206138
+   },
+   {
+    "player": "Aaron Hickey",
+    "reason": "injury",
+    "likelihood": "Late December 2026",
+    "market_value_eur": 22032737
+   },
+   {
+    "player": "Nathan Collins",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 38131304
+   },
+   {
+    "player": "Rico Henry",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 7719910
+   },
+   {
+    "player": "Antoni Milambo",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 20699154
+   },
+   {
+    "player": "Igor Thiago",
+    "reason": "suspension",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 68630610
+   }
+  ],
+  "away": []
+ },
+ "market": {
+  "quote_count": 415,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.4342,
+    "DRAW": 0.2706,
+    "AWAY": 0.2952
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 2.25,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 2.303,
+     "ev_vs_consensus": -0.0231
+    },
+    "DRAW": {
+     "odds": 3.5,
+     "bookmaker": "Betano.uk",
+     "fair_odds_consensus": 3.695,
+     "ev_vs_consensus": -0.0529
+    },
+    "AWAY": {
+     "odds": 3.3,
+     "bookmaker": "Betfair",
+     "fair_odds_consensus": 3.388,
+     "ev_vs_consensus": -0.0258
+    }
+   },
+   "median_overround": 0.0615,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.5",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.7765,
+     "UNDER": 0.2235
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.29,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.288,
+      "ev_vs_consensus": 0.0017
+     },
+     "UNDER": {
+      "odds": 4.0,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 4.474,
+      "ev_vs_consensus": -0.106
+     }
+    },
+    "median_overround": 0.0682,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.5221,
+     "UNDER": 0.4779
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.9,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 1.915,
+      "ev_vs_consensus": -0.008
+     },
+     "UNDER": {
+      "odds": 2.0,
+      "bookmaker": "SpreadEX",
+      "fair_odds_consensus": 2.092,
+      "ev_vs_consensus": -0.0442
+     }
+    },
+    "median_overround": 0.0684,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.2917,
+     "UNDER": 0.7083
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 3.2,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 3.428,
+      "ev_vs_consensus": -0.0666
+     },
+     "UNDER": {
+      "odds": 1.4,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.412,
+      "ev_vs_consensus": -0.0084
+     }
+    },
+    "median_overround": 0.0686,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 1.5,
+  "DRAW": 0.17,
+  "AWAY": -1.66
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
