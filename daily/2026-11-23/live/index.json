@@ -18,12 +18,12 @@
   "home": "Monza",
   "away": "Fiorentina",
   "score": [
-   1,
+   3,
    0
   ],
-  "minute": "HT",
+  "minute": "80‎’‎",
   "finished": false,
-  "updated": "2026-11-23T20:50:26Z"
+  "updated": "2026-11-23T21:24:53Z"
  },
  "5868135": {
   "flashscore_id": "MNFmr4wR",
@@ -32,11 +32,11 @@
   "away": "Elche",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "HT",
+  "minute": "66‎’‎",
   "finished": false,
-  "updated": "2026-11-23T20:50:26Z"
+  "updated": "2026-11-23T21:24:53Z"
  },
  "5795517": {
   "flashscore_id": "CSnuq6U8",
@@ -47,8 +47,8 @@
    2,
    0
   ],
-  "minute": "50‎’‎",
+  "minute": "57‎’‎",
   "finished": false,
-  "updated": "2026-11-23T20:50:26Z"
+  "updated": "2026-11-23T21:24:53Z"
  }
 }
