@@ -1,0 +1,98 @@
+[
+ {
+  "match_id": "hvQs781c",
+  "home": "Bristol City",
+  "away": "Wrexham",
+  "home_team_id": "MahqU27I",
+  "away_team_id": "IgO7K1ZA",
+  "kickoff": "2026-11-24T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/hvQs781c/"
+ },
+ {
+  "match_id": "04Tk5nW9",
+  "home": "Cardiff",
+  "away": "Preston",
+  "home_team_id": "hO8wh6aP",
+  "away_team_id": "x8IDVcbi",
+  "kickoff": "2026-11-24T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/04Tk5nW9/"
+ },
+ {
+  "match_id": "bL0NFRhT",
+  "home": "Charlton",
+  "away": "Lincoln",
+  "home_team_id": "fXf5mQ7t",
+  "away_team_id": "hrHTRs5B",
+  "kickoff": "2026-11-24T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/bL0NFRhT/"
+ },
+ {
+  "match_id": "61Wc3Q0M",
+  "home": "Middlesbrough",
+  "away": "Swansea",
+  "home_team_id": "6F0lvLNC",
+  "away_team_id": "K6xezbY7",
+  "kickoff": "2026-11-24T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/61Wc3Q0M/"
+ },
+ {
+  "match_id": "U3igA5Gj",
+  "home": "Norwich",
+  "away": "QPR",
+  "home_team_id": "Qo6off6p",
+  "away_team_id": "lrMHUHDc",
+  "kickoff": "2026-11-24T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/U3igA5Gj/"
+ },
+ {
+  "match_id": "dAquY88c",
+  "home": "Portsmouth",
+  "away": "West Ham",
+  "home_team_id": "zckREQFJ",
+  "away_team_id": "Cxq57r8g",
+  "kickoff": "2026-11-24T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/dAquY88c/"
+ },
+ {
+  "match_id": "UNsmWnwA",
+  "home": "Sheffield Utd",
+  "away": "Southampton",
+  "home_team_id": "MeKPSerA",
+  "away_team_id": "WdKOwxDM",
+  "kickoff": "2026-11-24T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/UNsmWnwA/"
+ },
+ {
+  "match_id": "GvteUQ7M",
+  "home": "Wolves",
+  "away": "Derby",
+  "home_team_id": "j3Azpf5d",
+  "away_team_id": "Iug0YO0Q",
+  "kickoff": "2026-11-24T20:00:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/GvteUQ7M/"
+ }
+]
