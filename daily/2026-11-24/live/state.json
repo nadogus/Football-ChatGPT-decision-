@@ -58,6 +58,21 @@
    "t": "2026-11-24T20:47:17.205339+00:00",
    "match": "GvteUQ7M",
    "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-24T21:26:19.596445+00:00",
+   "match": "U3igA5Gj",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-24T21:26:19.596445+00:00",
+   "match": "GvteUQ7M",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-24T21:26:19.596445+00:00",
+   "fotmob_id": "5836951",
+   "reason": "ALERT_NOT_SENT"
   }
  ]
 }
