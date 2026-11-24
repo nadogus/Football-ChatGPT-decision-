@@ -24,9 +24,9 @@
   "notified": []
  },
  "U3igA5Gj": {
-  "checks": 3,
+  "checks": 4,
   "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-24T18:50:15.300222+00:00"
+  "last_check": "2026-11-24T18:55:15.558109+00:00"
  },
  "dAquY88c": {
   "checks": 3,
@@ -41,8 +41,8 @@
   "notified": []
  },
  "GvteUQ7M": {
-  "checks": 2,
+  "checks": 3,
   "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-24T18:50:15.300222+00:00"
+  "last_check": "2026-11-24T18:55:15.558109+00:00"
  }
 }
