@@ -1,0 +1,1149 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-24T18:50:15.300222+00:00",
+ "minutes_before_kickoff": 54.744996300000004,
+ "match": {
+  "match_id": "dAquY88c",
+  "home": "Portsmouth",
+  "away": "West Ham",
+  "kickoff": "2026-11-24T19:45:00Z",
+  "competition": "Championship",
+  "category": "England"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:258885",
+     "name": "Nicolas Schmid",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:212275",
+     "name": "Regan Poole",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338292",
+     "name": "Terry Devlin",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:369506",
+     "name": "Madiodio Dia",
+     "number": "55",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:293335",
+     "name": "Zak Swanson",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:324002",
+     "name": "Iyad Mohamed",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:272343",
+     "name": "Odin Bailey",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:255481",
+     "name": "Tyrese Shade",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:399895",
+     "name": "Ryan Kavuma-Mcqueen",
+     "number": "25",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:199193",
+     "name": "Ebrima Adams",
+     "number": "38",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:357086",
+     "name": "Thomas Waddingham",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-1-4-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:361263",
+     "name": "Finlay Herrick",
+     "number": "49",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:380182",
+     "name": "Ezra Mayers",
+     "number": "63",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:229967",
+     "name": "Max Kilman",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:170597",
+     "name": "Joël Veltman",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:242705",
+     "name": "Konstantinos Mavropanos",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:257256",
+     "name": "Manor Solomon",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:201089",
+     "name": "Jarrod Bowen",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:241627",
+     "name": "Edson Álvarez",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:314177",
+     "name": "Arne Engels",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:368333",
+     "name": "Mohamadou Kanté",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:245562",
+     "name": "Joël Piroe",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": false,
+  "matched_share": 0.682,
+  "espn_count": 22,
+  "reason": "FOTMOB_DISAGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401880160",
+   "date": "2026-11-21T15:00:00+00:00",
+   "competition": "eng.2",
+   "opponent": "Bolton Wanderers",
+   "starters": [
+    {
+     "id": "espn:258885",
+     "name": "Nicolas Schmid",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:369506",
+     "name": "Madiodio Dia",
+     "number": "55",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:212275",
+     "name": "Regan Poole",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:352820",
+     "name": "Jayden Meghoma",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338292",
+     "name": "Terry Devlin",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:275674",
+     "name": "Abu Kamara",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:272343",
+     "name": "Odin Bailey",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:293335",
+     "name": "Zak Swanson",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:255481",
+     "name": "Tyrese Shade",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:172838",
+     "name": "Josh Murphy",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:320459",
+     "name": "Adrian Segecic",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401880150",
+   "date": "2026-11-21T15:00:00+00:00",
+   "competition": "eng.2",
+   "opponent": "Preston North End",
+   "starters": [
+    {
+     "id": "espn:361263",
+     "name": "Finlay Herrick",
+     "number": "49",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:201304",
+     "name": "Morato",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:242705",
+     "name": "Konstantinos Mavropanos",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:241627",
+     "name": "Edson Álvarez",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:380182",
+     "name": "Ezra Mayers",
+     "number": "63",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:170597",
+     "name": "Joël Veltman",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:358577",
+     "name": "Divine Mukasa",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:314177",
+     "name": "Arne Engels",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:341309",
+     "name": "Edvin Austbø",
+     "number": "35",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:201089",
+     "name": "Jarrod Bowen",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:245562",
+     "name": "Joël Piroe",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-1-4-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 4,
+   "out": [
+    "Jayden Meghoma",
+    "Abu Kamara",
+    "Josh Murphy",
+    "Adrian Segecic"
+   ],
+   "in": [
+    "Iyad Mohamed",
+    "Ryan Kavuma-Mcqueen",
+    "Ebrima Adams",
+    "Thomas Waddingham"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Nicolas Schmid",
+   "previous_goalkeeper": "Nicolas Schmid"
+  },
+  "away": {
+   "count": 3,
+   "out": [
+    "Morato",
+    "Divine Mukasa",
+    "Edvin Austbø"
+   ],
+   "in": [
+    "Max Kilman",
+    "Manor Solomon",
+    "Mohamadou Kanté"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Finlay Herrick",
+   "previous_goalkeeper": "Finlay Herrick"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Jayden Meghoma",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 335,
+       "minutes_per_match": 67.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.01,
+        "shots": 0.27,
+        "key_passes": 0.54
+       },
+       "attack_share": 0.011
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 760,
+       "minutes_per_match": 76.0,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.04,
+        "shots": 0.95,
+        "key_passes": 0.71
+       },
+       "attack_share": 0.033
+      }
+     }
+    },
+    {
+     "name": "Abu Kamara",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 345,
+       "minutes_per_match": 69.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.03,
+        "shots": 0.26,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.026
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 758,
+       "minutes_per_match": 75.8,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.05,
+        "shots": 0.71,
+        "key_passes": 0.71
+       },
+       "attack_share": 0.045
+      }
+     }
+    },
+    {
+     "name": "Josh Murphy",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 109,
+       "minutes_per_match": 21.8,
+       "per90": {
+        "xg": 0.21,
+        "xa": 0.01,
+        "shots": 3.3,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.051
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 109,
+       "minutes_per_match": 10.9,
+       "per90": {
+        "xg": 0.21,
+        "xa": 0.01,
+        "shots": 3.3,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.017
+      }
+     }
+    },
+    {
+     "name": "Adrian Segecic",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 321,
+       "minutes_per_match": 64.2,
+       "per90": {
+        "xg": 0.15,
+        "xa": 0.03,
+        "shots": 1.4,
+        "key_passes": 1.12
+       },
+       "attack_share": 0.124
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 706,
+       "minutes_per_match": 70.6,
+       "per90": {
+        "xg": 0.24,
+        "xa": 0.1,
+        "shots": 2.17,
+        "key_passes": 1.53
+       },
+       "attack_share": 0.168
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Iyad Mohamed",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 259,
+       "minutes_per_match": 51.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.35
+       },
+       "attack_share": 0.004
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 466,
+       "minutes_per_match": 46.6,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.02,
+        "shots": 0.58,
+        "key_passes": 0.77
+       },
+       "attack_share": 0.011
+      }
+     }
+    },
+    {
+     "name": "Ryan Kavuma-Mcqueen",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 146,
+       "minutes_per_match": 29.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.27,
+        "shots": 0.0,
+        "key_passes": 0.62
+       },
+       "attack_share": 0.081
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 475,
+       "minutes_per_match": 47.5,
+       "per90": {
+        "xg": 0.21,
+        "xa": 0.21,
+        "shots": 3.6,
+        "key_passes": 0.76
+       },
+       "attack_share": 0.138
+      }
+     }
+    },
+    {
+     "name": "Ebrima Adams",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 237,
+       "minutes_per_match": 47.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.04,
+        "shots": 0.0,
+        "key_passes": 1.52
+       },
+       "attack_share": 0.021
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 488,
+       "minutes_per_match": 48.8,
+       "per90": {
+        "xg": 0.1,
+        "xa": 0.03,
+        "shots": 1.11,
+        "key_passes": 0.74
+       },
+       "attack_share": 0.044
+      }
+     }
+    },
+    {
+     "name": "Thomas Waddingham",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 84,
+       "minutes_per_match": 16.8,
+       "per90": {
+        "xg": 0.45,
+        "xa": 0.08,
+        "shots": 3.21,
+        "key_passes": 2.14
+       },
+       "attack_share": 0.092
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 84,
+       "minutes_per_match": 8.4,
+       "per90": {
+        "xg": 0.45,
+        "xa": 0.08,
+        "shots": 3.21,
+        "key_passes": 2.14
+       },
+       "attack_share": 0.031
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Jayden Meghoma",
+     "in": "Iyad Mohamed",
+     "delta_per90": {
+      "xg": -0.02,
+      "xa": -0.02,
+      "shots": -0.37,
+      "key_passes": 0.06
+     },
+     "attack_share_delta": -0.022
+    },
+    {
+     "out": "Abu Kamara",
+     "in": "Ryan Kavuma-Mcqueen",
+     "delta_per90": {
+      "xg": 0.17,
+      "xa": 0.16,
+      "shots": 2.89,
+      "key_passes": 0.05
+     },
+     "attack_share_delta": 0.093
+    },
+    {
+     "out": "Josh Murphy",
+     "in": "Ebrima Adams",
+     "delta_per90": {
+      "xg": -0.11,
+      "xa": 0.02,
+      "shots": -2.19,
+      "key_passes": 0.74
+     },
+     "attack_share_delta": 0.027
+    },
+    {
+     "out": "Adrian Segecic",
+     "in": "Thomas Waddingham",
+     "delta_per90": {
+      "xg": 0.21,
+      "xa": -0.02,
+      "shots": 1.04,
+      "key_passes": 0.61
+     },
+     "attack_share_delta": -0.137
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Morato",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 270,
+       "minutes_per_match": 54.0,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.03,
+        "shots": 0.33,
+        "key_passes": 0.33
+       },
+       "attack_share": 0.01
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 668,
+       "minutes_per_match": 66.8,
+       "per90": {
+        "xg": 0.12,
+        "xa": 0.07,
+        "shots": 0.4,
+        "key_passes": 0.4
+       },
+       "attack_share": 0.041
+      }
+     }
+    },
+    {
+     "name": "Divine Mukasa",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 349,
+       "minutes_per_match": 69.8,
+       "per90": {
+        "xg": 0.42,
+        "xa": 0.1,
+        "shots": 3.35,
+        "key_passes": 2.06
+       },
+       "attack_share": 0.114
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 621,
+       "minutes_per_match": 62.1,
+       "per90": {
+        "xg": 0.33,
+        "xa": 0.07,
+        "shots": 2.46,
+        "key_passes": 1.3
+       },
+       "attack_share": 0.082
+      }
+     }
+    },
+    {
+     "name": "Edvin Austbø",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 244,
+       "minutes_per_match": 48.8,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.14,
+        "shots": 1.84,
+        "key_passes": 0.74
+       },
+       "attack_share": 0.029
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 377,
+       "minutes_per_match": 37.7,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.18,
+        "shots": 2.39,
+        "key_passes": 0.95
+       },
+       "attack_share": 0.029
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Max Kilman",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 360,
+       "minutes_per_match": 72.0,
+       "per90": {
+        "xg": 0.18,
+        "xa": 0.14,
+        "shots": 1.5,
+        "key_passes": 1.0
+       },
+       "attack_share": 0.071
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 810,
+       "minutes_per_match": 81.0,
+       "per90": {
+        "xg": 0.09,
+        "xa": 0.08,
+        "shots": 1.11,
+        "key_passes": 0.67
+       },
+       "attack_share": 0.045
+      }
+     }
+    },
+    {
+     "name": "Manor Solomon",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 225,
+       "minutes_per_match": 45.0,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.14,
+        "shots": 2.0,
+        "key_passes": 3.2
+       },
+       "attack_share": 0.03
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 564,
+       "minutes_per_match": 56.4,
+       "per90": {
+        "xg": 0.11,
+        "xa": 0.19,
+        "shots": 1.28,
+        "key_passes": 2.39
+       },
+       "attack_share": 0.055
+      }
+     }
+    },
+    {
+     "name": "Mohamadou Kanté",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 255,
+       "minutes_per_match": 51.0,
+       "per90": {
+        "xg": 0.37,
+        "xa": 0.11,
+        "shots": 2.47,
+        "key_passes": 1.06
+       },
+       "attack_share": 0.077
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 548,
+       "minutes_per_match": 54.8,
+       "per90": {
+        "xg": 0.33,
+        "xa": 0.22,
+        "shots": 2.14,
+        "key_passes": 1.81
+       },
+       "attack_share": 0.097
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Morato",
+     "in": "Max Kilman",
+     "delta_per90": {
+      "xg": -0.03,
+      "xa": 0.01,
+      "shots": 0.71,
+      "key_passes": 0.27
+     },
+     "attack_share_delta": 0.004
+    },
+    {
+     "out": "Divine Mukasa",
+     "in": "Manor Solomon",
+     "delta_per90": {
+      "xg": -0.22,
+      "xa": 0.12,
+      "shots": -1.18,
+      "key_passes": 1.09
+     },
+     "attack_share_delta": -0.027
+    },
+    {
+     "out": "Edvin Austbø",
+     "in": "Mohamadou Kanté",
+     "delta_per90": {
+      "xg": 0.27,
+      "xa": 0.04,
+      "shots": -0.25,
+      "key_passes": 0.86
+     },
+     "attack_share_delta": 0.068
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Marlon Pack",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 335544
+   },
+   {
+    "player": "Jayden Meghoma",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 2292858
+   },
+   {
+    "player": "Marezi",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 4969038
+   },
+   {
+    "player": "Colby Bishop",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 1090549
+   },
+   {
+    "player": "John Swift",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 349299
+   },
+   {
+    "player": "Keshi Anderson",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 292268
+   },
+   {
+    "player": "Benjamin Arthur",
+    "reason": "injury",
+    "likelihood": "Back in training",
+    "market_value_eur": 1571095
+   },
+   {
+    "player": "Luke Brooke-Smith",
+    "reason": "injury",
+    "likelihood": "Out for season",
+    "market_value_eur": 1181118
+   },
+   {
+    "player": "Connor Ogilvie",
+    "reason": "injury",
+    "likelihood": "Unknown",
+    "market_value_eur": 656941
+   },
+   {
+    "player": "Márk Kosznovszky",
+    "reason": "injury",
+    "likelihood": "Unknown",
+    "market_value_eur": 970638
+   }
+  ],
+  "away": [
+   {
+    "player": "Alphonse Areola",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 1813988
+   },
+   {
+    "player": "Kyle Walker-Peters",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 8383924
+   },
+   {
+    "player": "Keiber Lamadrid",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 790919
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 411,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.2073,
+    "DRAW": 0.2502,
+    "AWAY": 0.5425
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 4.6,
+     "bookmaker": "Betfair",
+     "fair_odds_consensus": 4.824,
+     "ev_vs_consensus": -0.0464
+    },
+    "DRAW": {
+     "odds": 3.9,
+     "bookmaker": "Betfair",
+     "fair_odds_consensus": 3.997,
+     "ev_vs_consensus": -0.0242
+    },
+    "AWAY": {
+     "odds": 1.88,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 1.843,
+     "ev_vs_consensus": 0.0199
+    }
+   },
+   "median_overround": 0.0702,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.5",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.7726,
+     "UNDER": 0.2274
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.3,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.294,
+      "ev_vs_consensus": 0.0044
+     },
+     "UNDER": {
+      "odds": 4.0,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 4.398,
+      "ev_vs_consensus": -0.0904
+     }
+    },
+    "median_overround": 0.0686,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.5167,
+     "UNDER": 0.4833
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.91,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.935,
+      "ev_vs_consensus": -0.0131
+     },
+     "UNDER": {
+      "odds": 2.0,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 2.069,
+      "ev_vs_consensus": -0.0334
+     }
+    },
+    "median_overround": 0.07,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.2821,
+     "UNDER": 0.7179
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 3.25,
+      "bookmaker": "Midnite",
+      "fair_odds_consensus": 3.545,
+      "ev_vs_consensus": -0.0832
+     },
+     "UNDER": {
+      "odds": 1.37,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.393,
+      "ev_vs_consensus": -0.0165
+     }
+    },
+    "median_overround": 0.0686,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -2.04,
+  "DRAW": 0.26,
+  "AWAY": 1.78
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}

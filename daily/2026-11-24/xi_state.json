@@ -1,42 +1,48 @@
 {
  "hvQs781c": {
-  "checks": 2,
-  "status": "NOT_YET",
-  "last_check": "2026-11-24T18:45:16.020478+00:00"
+  "checks": 3,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-24T18:50:15.300222+00:00",
+  "notified": []
  },
  "04Tk5nW9": {
-  "checks": 2,
-  "status": "NOT_YET",
-  "last_check": "2026-11-24T18:45:16.020478+00:00"
+  "checks": 3,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-24T18:50:15.300222+00:00",
+  "notified": []
  },
  "bL0NFRhT": {
-  "checks": 2,
-  "status": "NOT_YET",
-  "last_check": "2026-11-24T18:45:16.020478+00:00"
+  "checks": 3,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-24T18:50:15.300222+00:00",
+  "notified": []
  },
  "61Wc3Q0M": {
-  "checks": 2,
-  "status": "NOT_YET",
-  "last_check": "2026-11-24T18:45:16.020478+00:00"
+  "checks": 3,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-24T18:50:15.300222+00:00",
+  "notified": []
  },
  "U3igA5Gj": {
-  "checks": 2,
+  "checks": 3,
   "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-24T18:45:16.020478+00:00"
+  "last_check": "2026-11-24T18:50:15.300222+00:00"
  },
  "dAquY88c": {
-  "checks": 2,
-  "status": "NOT_YET",
-  "last_check": "2026-11-24T18:45:16.020478+00:00"
+  "checks": 3,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-24T18:50:15.300222+00:00",
+  "notified": []
  },
  "UNsmWnwA": {
-  "checks": 2,
-  "status": "NOT_YET",
-  "last_check": "2026-11-24T18:45:16.020478+00:00"
+  "checks": 3,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-24T18:50:15.300222+00:00",
+  "notified": []
  },
  "GvteUQ7M": {
-  "checks": 1,
+  "checks": 2,
   "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-24T18:45:16.020478+00:00"
+  "last_check": "2026-11-24T18:50:15.300222+00:00"
  }
 }

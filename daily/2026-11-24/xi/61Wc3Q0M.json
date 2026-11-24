@@ -1,0 +1,1064 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-24T18:50:15.300222+00:00",
+ "minutes_before_kickoff": 54.744996300000004,
+ "match": {
+  "match_id": "61Wc3Q0M",
+  "home": "Middlesbrough",
+  "away": "Swansea",
+  "kickoff": "2026-11-24T19:45:00Z",
+  "competition": "Championship",
+  "category": "England"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-4-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:325556",
+     "name": "Radek Vítek",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:232311",
+     "name": "Callum Brittain",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:272281",
+     "name": "Neto Borges",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:273628",
+     "name": "Ashley Phillips",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:312130",
+     "name": "Adilson Malanda",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:235096",
+     "name": "Riley McGree",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:327170",
+     "name": "Amario Cozier-Duberry",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:293826",
+     "name": "Aidan Morris",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306541",
+     "name": "Myles Peart-Harris",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:289637",
+     "name": "David Strelec",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:349181",
+     "name": "Will Lankshear",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:195816",
+     "name": "Lawrence Vigouroux",
+     "number": "22",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:275596",
+     "name": "Ben Cabango",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:367446",
+     "name": "Filip Lissah",
+     "number": "26",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:263129",
+     "name": "Joshua Key",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:168050",
+     "name": "Stephen Welsh",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:266555",
+     "name": "Elijah Just",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:270505",
+     "name": "Stephen Eustáquio",
+     "number": "46",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:330240",
+     "name": "Melker Widell",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:406203",
+     "name": "Joseph Opoku",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:288958",
+     "name": "Adam Idah",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297791",
+     "name": "Eom Ji-Sung",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401880157",
+   "date": "2026-11-21T15:00:00+00:00",
+   "competition": "eng.2",
+   "opponent": "Bristol City",
+   "starters": [
+    {
+     "id": "espn:325556",
+     "name": "Radek Vítek",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:312130",
+     "name": "Adilson Malanda",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:273628",
+     "name": "Ashley Phillips",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:359542",
+     "name": "Max Arfsten",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:232311",
+     "name": "Callum Brittain",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:235096",
+     "name": "Riley McGree",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:293826",
+     "name": "Aidan Morris",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:295771",
+     "name": "Sebastian Berhalter",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:289637",
+     "name": "David Strelec",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:314791",
+     "name": "Tommy Conway",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:327170",
+     "name": "Amario Cozier-Duberry",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401880151",
+   "date": "2026-11-21T15:00:00+00:00",
+   "competition": "eng.2",
+   "opponent": "West Bromwich Albion",
+   "starters": [
+    {
+     "id": "espn:195816",
+     "name": "Lawrence Vigouroux",
+     "number": "22",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:168050",
+     "name": "Stephen Welsh",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:275596",
+     "name": "Ben Cabango",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:233348",
+     "name": "Josh Tymon",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:367446",
+     "name": "Filip Lissah",
+     "number": "26",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:150603",
+     "name": "Jay Fulton",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:330240",
+     "name": "Melker Widell",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:266555",
+     "name": "Elijah Just",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:288958",
+     "name": "Adam Idah",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297791",
+     "name": "Eom Ji-Sung",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:350646",
+     "name": "Moussa Yeo",
+     "number": "49",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-3-3"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 3,
+   "out": [
+    "Max Arfsten",
+    "Sebastian Berhalter",
+    "Tommy Conway"
+   ],
+   "in": [
+    "Neto Borges",
+    "Myles Peart-Harris",
+    "Will Lankshear"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Radek Vítek",
+   "previous_goalkeeper": "Radek Vítek"
+  },
+  "away": {
+   "count": 3,
+   "out": [
+    "Josh Tymon",
+    "Jay Fulton",
+    "Moussa Yeo"
+   ],
+   "in": [
+    "Joshua Key",
+    "Stephen Eustáquio",
+    "Joseph Opoku"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Lawrence Vigouroux",
+   "previous_goalkeeper": "Lawrence Vigouroux"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Max Arfsten",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 198,
+       "minutes_per_match": 39.6,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.39,
+        "shots": 0.91,
+        "key_passes": 2.73
+       },
+       "attack_share": 0.05
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 360,
+       "minutes_per_match": 36.0,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.37,
+        "shots": 1.25,
+        "key_passes": 3.0
+       },
+       "attack_share": 0.049
+      }
+     }
+    },
+    {
+     "name": "Sebastian Berhalter",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 379,
+       "minutes_per_match": 75.8,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.35,
+        "shots": 0.95,
+        "key_passes": 3.8
+       },
+       "attack_share": 0.083
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 630,
+       "minutes_per_match": 63.0,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.27,
+        "shots": 1.71,
+        "key_passes": 3.86
+       },
+       "attack_share": 0.07
+      }
+     }
+    },
+    {
+     "name": "Tommy Conway",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 324,
+       "minutes_per_match": 64.8,
+       "per90": {
+        "xg": 0.17,
+        "xa": 0.34,
+        "shots": 2.78,
+        "key_passes": 2.22
+       },
+       "attack_share": 0.094
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 582,
+       "minutes_per_match": 58.2,
+       "per90": {
+        "xg": 0.17,
+        "xa": 0.27,
+        "shots": 2.32,
+        "key_passes": 2.47
+       },
+       "attack_share": 0.082
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Neto Borges",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 226,
+       "minutes_per_match": 45.2,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.18,
+        "shots": 0.4,
+        "key_passes": 0.8
+       },
+       "attack_share": 0.024
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 544,
+       "minutes_per_match": 54.4,
+       "per90": {
+        "xg": 0.14,
+        "xa": 0.12,
+        "shots": 1.49,
+        "key_passes": 1.49
+       },
+       "attack_share": 0.044
+      }
+     }
+    },
+    {
+     "name": "Myles Peart-Harris",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 115,
+       "minutes_per_match": 23.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.16,
+        "shots": 0.0,
+        "key_passes": 1.57
+       },
+       "attack_share": 0.011
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 221,
+       "minutes_per_match": 22.1,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.24,
+        "shots": 0.41,
+        "key_passes": 2.04
+       },
+       "attack_share": 0.02
+      }
+     }
+    },
+    {
+     "name": "Will Lankshear",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 175,
+       "minutes_per_match": 35.0,
+       "per90": {
+        "xg": 1.63,
+        "xa": 0.08,
+        "shots": 5.66,
+        "key_passes": 0.51
+       },
+       "attack_share": 0.171
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 564,
+       "minutes_per_match": 56.4,
+       "per90": {
+        "xg": 0.88,
+        "xa": 0.06,
+        "shots": 4.31,
+        "key_passes": 0.8
+       },
+       "attack_share": 0.166
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Max Arfsten",
+     "in": "Neto Borges",
+     "delta_per90": {
+      "xg": 0.08,
+      "xa": -0.25,
+      "shots": 0.24,
+      "key_passes": -1.51
+     },
+     "attack_share_delta": -0.005
+    },
+    {
+     "out": "Sebastian Berhalter",
+     "in": "Myles Peart-Harris",
+     "delta_per90": {
+      "xg": -0.04,
+      "xa": -0.03,
+      "shots": -1.3,
+      "key_passes": -1.82
+     },
+     "attack_share_delta": -0.05
+    },
+    {
+     "out": "Tommy Conway",
+     "in": "Will Lankshear",
+     "delta_per90": {
+      "xg": 0.71,
+      "xa": -0.21,
+      "shots": 1.99,
+      "key_passes": -1.67
+     },
+     "attack_share_delta": 0.084
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Josh Tymon",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 432,
+       "minutes_per_match": 86.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.18,
+        "shots": 0.0,
+        "key_passes": 1.25
+       },
+       "attack_share": 0.072
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 882,
+       "minutes_per_match": 88.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.13,
+        "shots": 0.0,
+        "key_passes": 1.12
+       },
+       "attack_share": 0.052
+      }
+     }
+    },
+    {
+     "name": "Jay Fulton",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 380,
+       "minutes_per_match": 76.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.03,
+        "shots": 0.24,
+        "key_passes": 0.24
+       },
+       "attack_share": 0.012
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 576,
+       "minutes_per_match": 57.6,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.02,
+        "shots": 0.31,
+        "key_passes": 0.16
+       },
+       "attack_share": 0.01
+      }
+     }
+    },
+    {
+     "name": "Moussa Yeo",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 113,
+       "minutes_per_match": 22.6,
+       "per90": {
+        "xg": 0.47,
+        "xa": 0.04,
+        "shots": 2.39,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.055
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 487,
+       "minutes_per_match": 48.7,
+       "per90": {
+        "xg": 0.46,
+        "xa": 0.08,
+        "shots": 2.77,
+        "key_passes": 1.11
+       },
+       "attack_share": 0.115
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Joshua Key",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 80,
+       "minutes_per_match": 16.0,
+       "per90": {
+        "xg": 0.81,
+        "xa": 0.1,
+        "shots": 2.25,
+        "key_passes": 1.12
+       },
+       "attack_share": 0.069
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 125,
+       "minutes_per_match": 12.5,
+       "per90": {
+        "xg": 0.52,
+        "xa": 0.09,
+        "shots": 1.44,
+        "key_passes": 1.44
+       },
+       "attack_share": 0.034
+      }
+     }
+    },
+    {
+     "name": "Stephen Eustáquio",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 190,
+       "minutes_per_match": 38.0,
+       "per90": {
+        "xg": 0.46,
+        "xa": 0.19,
+        "shots": 0.95,
+        "key_passes": 1.42
+       },
+       "attack_share": 0.119
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 386,
+       "minutes_per_match": 38.6,
+       "per90": {
+        "xg": 0.26,
+        "xa": 0.13,
+        "shots": 1.17,
+        "key_passes": 1.17
+       },
+       "attack_share": 0.065
+      }
+     }
+    },
+    {
+     "name": "Joseph Opoku",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 284,
+       "minutes_per_match": 56.8,
+       "per90": {
+        "xg": 0.32,
+        "xa": 0.18,
+        "shots": 2.22,
+        "key_passes": 0.63
+       },
+       "attack_share": 0.136
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 545,
+       "minutes_per_match": 54.5,
+       "per90": {
+        "xg": 0.31,
+        "xa": 0.16,
+        "shots": 1.49,
+        "key_passes": 0.99
+       },
+       "attack_share": 0.113
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Josh Tymon",
+     "in": "Joshua Key",
+     "delta_per90": {
+      "xg": 0.52,
+      "xa": -0.04,
+      "shots": 1.44,
+      "key_passes": 0.32
+     },
+     "attack_share_delta": -0.018
+    },
+    {
+     "out": "Jay Fulton",
+     "in": "Stephen Eustáquio",
+     "delta_per90": {
+      "xg": 0.24,
+      "xa": 0.11,
+      "shots": 0.86,
+      "key_passes": 1.01
+     },
+     "attack_share_delta": 0.055
+    },
+    {
+     "out": "Moussa Yeo",
+     "in": "Joseph Opoku",
+     "delta_per90": {
+      "xg": -0.15,
+      "xa": 0.08,
+      "shots": -1.28,
+      "key_passes": -0.12
+     },
+     "attack_share_delta": -0.002
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Rokas Pukštas",
+    "reason": "injury",
+    "likelihood": "Unknown",
+    "market_value_eur": 7546940
+   },
+   {
+    "player": "Alfie Jones",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 4393643
+   }
+  ],
+  "away": [
+   {
+    "player": "Marko Stamenić",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 2461439
+   },
+   {
+    "player": "Josh Tymon",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 11322081
+   },
+   {
+    "player": "Gonçalo Franco",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 2572510
+   },
+   {
+    "player": "Ronald",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 1889136
+   },
+   {
+    "player": "Cameron Burgess",
+    "reason": "injury",
+    "likelihood": "Out for season",
+    "market_value_eur": 1200249
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 413,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.7004,
+    "DRAW": 0.1764,
+    "AWAY": 0.1232
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.44,
+     "bookmaker": "Coral",
+     "fair_odds_consensus": 1.428,
+     "ev_vs_consensus": 0.0086
+    },
+    "DRAW": {
+     "odds": 5.1,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 5.669,
+     "ev_vs_consensus": -0.1004
+    },
+    "AWAY": {
+     "odds": 7.5,
+     "bookmaker": "Betfair",
+     "fair_odds_consensus": 8.117,
+     "ev_vs_consensus": -0.076
+    }
+   },
+   "median_overround": 0.0681,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3.25",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8571,
+     "UNDER": 0.1429
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.16,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.167,
+      "ev_vs_consensus": -0.0058
+     },
+     "UNDER": {
+      "odds": 6.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 6.998,
+      "ev_vs_consensus": -0.1426
+     }
+    },
+    "median_overround": 0.0754,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6454,
+     "UNDER": 0.3546
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.52,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.549,
+      "ev_vs_consensus": -0.019
+     },
+     "UNDER": {
+      "odds": 2.7,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 2.82,
+      "ev_vs_consensus": -0.0426
+     }
+    },
+    "median_overround": 0.0673,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.25": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.4676,
+     "UNDER": 0.5324
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.03,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.139,
+      "ev_vs_consensus": -0.0508
+     },
+     "UNDER": {
+      "odds": 1.83,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.878,
+      "ev_vs_consensus": -0.0257
+     }
+    },
+    "median_overround": 0.0714,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4134,
+     "UNDER": 0.5866
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.3,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 2.419,
+      "ev_vs_consensus": -0.0492
+     },
+     "UNDER": {
+      "odds": 1.67,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 1.705,
+      "ev_vs_consensus": -0.0204
+     }
+    },
+    "median_overround": 0.0694,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 2.7,
+  "DRAW": -1.13,
+  "AWAY": -1.56
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}

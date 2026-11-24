@@ -1,0 +1,1064 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-24T18:50:15.300222+00:00",
+ "minutes_before_kickoff": 54.744996300000004,
+ "match": {
+  "match_id": "hvQs781c",
+  "home": "Bristol City",
+  "away": "Wrexham",
+  "kickoff": "2026-11-24T19:45:00Z",
+  "competition": "Championship",
+  "category": "England"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-4-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:243625",
+     "name": "Bradley Collins",
+     "number": "40",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:313212",
+     "name": "Luke McNally",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:41966",
+     "name": "Robert Atkinson",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:291438",
+     "name": "George Tanner",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:267325",
+     "name": "Cameron Pring",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:169337",
+     "name": "Jed Wallace",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:283189",
+     "name": "Adam Randell",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:41011",
+     "name": "Jason Knight",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:236014",
+     "name": "Scott Twine",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:328040",
+     "name": "Dominic Ballard",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:277172",
+     "name": "Lorent Tolaj",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "3-5-1-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:281705",
+     "name": "Anthony Patterson",
+     "number": "22",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:310598",
+     "name": "Callum Doyle",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:232291",
+     "name": "Joe Worrall",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:295012",
+     "name": "Max Cleworth",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:333218",
+     "name": "Jacques Ekomie",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:294427",
+     "name": "Issa Kaboré",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301285",
+     "name": "George Thomason",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:223590",
+     "name": "Benjamin Whiteman",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:234449",
+     "name": "George Dobson",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:269288",
+     "name": "Lewis O'Brien",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:352804",
+     "name": "Bailey Cadamarteri",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": false,
+  "matched_share": 0.727,
+  "espn_count": 22,
+  "reason": "FOTMOB_DISAGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401880157",
+   "date": "2026-11-21T15:00:00+00:00",
+   "competition": "eng.2",
+   "opponent": "Middlesbrough",
+   "starters": [
+    {
+     "id": "espn:243625",
+     "name": "Bradley Collins",
+     "number": "40",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:41966",
+     "name": "Robert Atkinson",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:229789",
+     "name": "Robert Dickie",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:267325",
+     "name": "Cameron Pring",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:291438",
+     "name": "George Tanner",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:287353",
+     "name": "Brian De Keersmaecker",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:283189",
+     "name": "Adam Randell",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:41011",
+     "name": "Jason Knight",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:277172",
+     "name": "Lorent Tolaj",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:296614",
+     "name": "Sam Greenwood",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:363444",
+     "name": "Rio Cardines",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401880158",
+   "date": "2026-11-21T15:00:00+00:00",
+   "competition": "eng.2",
+   "opponent": "Lincoln City",
+   "starters": [
+    {
+     "id": "espn:281705",
+     "name": "Anthony Patterson",
+     "number": "22",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:232291",
+     "name": "Joe Worrall",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:310598",
+     "name": "Callum Doyle",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:295012",
+     "name": "Max Cleworth",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:223590",
+     "name": "Benjamin Whiteman",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:234449",
+     "name": "George Dobson",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301285",
+     "name": "George Thomason",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:294427",
+     "name": "Issa Kaboré",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:189605",
+     "name": "Kieffer Moore",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238486",
+     "name": "Oliver Rathbone",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:269288",
+     "name": "Lewis O'Brien",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-4-2-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 4,
+   "out": [
+    "Robert Dickie",
+    "Brian De Keersmaecker",
+    "Sam Greenwood",
+    "Rio Cardines"
+   ],
+   "in": [
+    "Luke McNally",
+    "Jed Wallace",
+    "Scott Twine",
+    "Dominic Ballard"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Bradley Collins",
+   "previous_goalkeeper": "Bradley Collins"
+  },
+  "away": {
+   "count": 2,
+   "out": [
+    "Kieffer Moore",
+    "Oliver Rathbone"
+   ],
+   "in": [
+    "Jacques Ekomie",
+    "Bailey Cadamarteri"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Anthony Patterson",
+   "previous_goalkeeper": "Anthony Patterson"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Robert Dickie",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 180,
+       "minutes_per_match": 36.0,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.01,
+        "shots": 0.5,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.004
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 2,
+       "minutes": 180,
+       "minutes_per_match": 18.0,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.01,
+        "shots": 0.5,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      }
+     }
+    },
+    {
+     "name": "Brian De Keersmaecker",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 177,
+       "minutes_per_match": 35.4,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.02,
+        "shots": 1.02,
+        "key_passes": 0.51
+       },
+       "attack_share": 0.007
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 370,
+       "minutes_per_match": 37.0,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.19,
+        "shots": 0.97,
+        "key_passes": 0.73
+       },
+       "attack_share": 0.037
+      }
+     }
+    },
+    {
+     "name": "Sam Greenwood",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 60,
+       "minutes_per_match": 12.0,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.0,
+        "shots": 1.5,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 225,
+       "minutes_per_match": 22.5,
+       "per90": {
+        "xg": 0.12,
+        "xa": 0.17,
+        "shots": 2.4,
+        "key_passes": 2.0
+       },
+       "attack_share": 0.03
+      }
+     }
+    },
+    {
+     "name": "Rio Cardines",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 383,
+       "minutes_per_match": 76.6,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.32,
+        "shots": 0.7,
+        "key_passes": 2.82
+       },
+       "attack_share": 0.129
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 668,
+       "minutes_per_match": 66.8,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.3,
+        "shots": 0.81,
+        "key_passes": 2.96
+       },
+       "attack_share": 0.102
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Luke McNally",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 270,
+       "minutes_per_match": 54.0,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.0,
+        "shots": 1.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.02
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 516,
+       "minutes_per_match": 51.6,
+       "per90": {
+        "xg": 0.16,
+        "xa": 0.0,
+        "shots": 1.05,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.039
+      }
+     }
+    },
+    {
+     "name": "Jed Wallace",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 106,
+       "minutes_per_match": 21.2,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.12,
+        "shots": 0.85,
+        "key_passes": 1.7
+       },
+       "attack_share": 0.014
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 319,
+       "minutes_per_match": 31.9,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.18,
+        "shots": 1.13,
+        "key_passes": 1.13
+       },
+       "attack_share": 0.032
+      }
+     }
+    },
+    {
+     "name": "Scott Twine",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 194,
+       "minutes_per_match": 38.8,
+       "per90": {
+        "xg": 0.48,
+        "xa": 0.03,
+        "shots": 2.78,
+        "key_passes": 0.46
+       },
+       "attack_share": 0.094
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 449,
+       "minutes_per_match": 44.9,
+       "per90": {
+        "xg": 0.42,
+        "xa": 0.03,
+        "shots": 2.41,
+        "key_passes": 0.4
+       },
+       "attack_share": 0.093
+      }
+     }
+    },
+    {
+     "name": "Dominic Ballard",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 227,
+       "minutes_per_match": 45.4,
+       "per90": {
+        "xg": 0.67,
+        "xa": 0.16,
+        "shots": 3.57,
+        "key_passes": 1.98
+       },
+       "attack_share": 0.177
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 640,
+       "minutes_per_match": 64.0,
+       "per90": {
+        "xg": 0.53,
+        "xa": 0.1,
+        "shots": 2.81,
+        "key_passes": 0.98
+       },
+       "attack_share": 0.186
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Robert Dickie",
+     "in": "Luke McNally",
+     "delta_per90": {
+      "xg": 0.14,
+      "xa": -0.01,
+      "shots": 0.55,
+      "key_passes": 0.0
+     },
+     "attack_share_delta": 0.037
+    },
+    {
+     "out": "Brian De Keersmaecker",
+     "in": "Jed Wallace",
+     "delta_per90": {
+      "xg": 0.02,
+      "xa": -0.01,
+      "shots": 0.16,
+      "key_passes": 0.4
+     },
+     "attack_share_delta": -0.005
+    },
+    {
+     "out": "Sam Greenwood",
+     "in": "Scott Twine",
+     "delta_per90": {
+      "xg": 0.3,
+      "xa": -0.14,
+      "shots": 0.01,
+      "key_passes": -1.6
+     },
+     "attack_share_delta": 0.063
+    },
+    {
+     "out": "Rio Cardines",
+     "in": "Dominic Ballard",
+     "delta_per90": {
+      "xg": 0.5,
+      "xa": -0.2,
+      "shots": 2.0,
+      "key_passes": -1.98
+     },
+     "attack_share_delta": 0.084
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Kieffer Moore",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 437,
+       "minutes_per_match": 87.4,
+       "per90": {
+        "xg": 0.29,
+        "xa": 0.04,
+        "shots": 3.09,
+        "key_passes": 1.44
+       },
+       "attack_share": 0.159
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 772,
+       "minutes_per_match": 77.2,
+       "per90": {
+        "xg": 0.25,
+        "xa": 0.1,
+        "shots": 3.15,
+        "key_passes": 1.28
+       },
+       "attack_share": 0.162
+      }
+     }
+    },
+    {
+     "name": "Oliver Rathbone",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 194,
+       "minutes_per_match": 38.8,
+       "per90": {
+        "xg": 0.27,
+        "xa": 0.02,
+        "shots": 3.25,
+        "key_passes": 0.46
+       },
+       "attack_share": 0.062
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 350,
+       "minutes_per_match": 35.0,
+       "per90": {
+        "xg": 0.37,
+        "xa": 0.02,
+        "shots": 2.06,
+        "key_passes": 0.77
+       },
+       "attack_share": 0.081
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Jacques Ekomie",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 361,
+       "minutes_per_match": 72.2,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.04,
+        "shots": 0.5,
+        "key_passes": 0.75
+       },
+       "attack_share": 0.028
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 804,
+       "minutes_per_match": 80.4,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.03,
+        "shots": 0.45,
+        "key_passes": 0.67
+       },
+       "attack_share": 0.024
+      }
+     }
+    },
+    {
+     "name": "Bailey Cadamarteri",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 30,
+       "minutes_per_match": 6.0,
+       "per90": {
+        "xg": 0.12,
+        "xa": 0.0,
+        "shots": 3.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.004
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 41,
+       "minutes_per_match": 4.1,
+       "per90": {
+        "xg": 0.09,
+        "xa": 0.0,
+        "shots": 2.2,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Kieffer Moore",
+     "in": "Jacques Ekomie",
+     "delta_per90": {
+      "xg": -0.23,
+      "xa": -0.07,
+      "shots": -2.7,
+      "key_passes": -0.61
+     },
+     "attack_share_delta": -0.138
+    },
+    {
+     "out": "Oliver Rathbone",
+     "in": "Bailey Cadamarteri",
+     "delta_per90": {
+      "xg": -0.28,
+      "xa": -0.02,
+      "shots": 0.14,
+      "key_passes": -0.77
+     },
+     "attack_share_delta": -0.079
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Noah Eile",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 3896171
+   }
+  ],
+  "away": [
+   {
+    "player": "Callum O'Hare",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 6072141
+   },
+   {
+    "player": "Sam Smith",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 1054913
+   },
+   {
+    "player": "Josh Windass",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 844410
+   },
+   {
+    "player": "Nathan Broadhead",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 5811690
+   },
+   {
+    "player": "Sebastian Revan",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 406988
+   },
+   {
+    "player": "Liberato Cacace",
+    "reason": "injury",
+    "likelihood": "Unknown",
+    "market_value_eur": 1874128
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 390,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.3988,
+    "DRAW": 0.2931,
+    "AWAY": 0.3081
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 2.45,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 2.508,
+     "ev_vs_consensus": -0.0229
+    },
+    "DRAW": {
+     "odds": 3.35,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 3.412,
+     "ev_vs_consensus": -0.0181
+    },
+    "AWAY": {
+     "odds": 3.1,
+     "bookmaker": "Coral",
+     "fair_odds_consensus": 3.246,
+     "ev_vs_consensus": -0.0449
+    }
+   },
+   "median_overround": 0.0694,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.25",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.684,
+     "UNDER": 0.316
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.45,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.462,
+      "ev_vs_consensus": -0.0082
+     },
+     "UNDER": {
+      "odds": 3.0,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 3.165,
+      "ev_vs_consensus": -0.052
+     }
+    },
+    "median_overround": 0.07,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.25": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.4793,
+     "UNDER": 0.5207
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.0,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.086,
+      "ev_vs_consensus": -0.0414
+     },
+     "UNDER": {
+      "odds": 1.85,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.92,
+      "ev_vs_consensus": -0.0367
+     }
+    },
+    "median_overround": 0.0684,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4065,
+     "UNDER": 0.5935
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.3,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 2.46,
+      "ev_vs_consensus": -0.0651
+     },
+     "UNDER": {
+      "odds": 1.67,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.685,
+      "ev_vs_consensus": -0.0089
+     }
+    },
+    "median_overround": 0.0694,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.1937,
+     "UNDER": 0.8063
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 4.5,
+      "bookmaker": "Paddy Power",
+      "fair_odds_consensus": 5.163,
+      "ev_vs_consensus": -0.1283
+     },
+     "UNDER": {
+      "odds": 1.25,
+      "bookmaker": "Betway",
+      "fair_odds_consensus": 1.24,
+      "ev_vs_consensus": 0.0079
+     }
+    },
+    "median_overround": 0.0697,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -0.01,
+  "DRAW": 0.85,
+  "AWAY": -0.84
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
