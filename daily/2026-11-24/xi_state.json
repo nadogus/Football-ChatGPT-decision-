@@ -25,8 +25,9 @@
  },
  "U3igA5Gj": {
   "checks": 11,
-  "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-24T19:30:15.907139+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-24T19:30:15.907139+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "dAquY88c": {
   "checks": 3,
@@ -41,8 +42,8 @@
   "notified": []
  },
  "GvteUQ7M": {
-  "checks": 10,
+  "checks": 11,
   "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-24T19:30:15.907139+00:00"
+  "last_check": "2026-11-24T19:35:15.469996+00:00"
  }
 }
