@@ -1,0 +1,80 @@
+{
+ "5836946": {
+  "flashscore_id": "hvQs781c",
+  "competition": "Championship",
+  "home": "Bristol City",
+  "away": "Wrexham",
+  "score": [
+   0,
+   1
+  ],
+  "minute": "43‎’‎",
+  "finished": false,
+  "updated": "2026-11-24T20:27:17Z"
+ },
+ "5836947": {
+  "flashscore_id": "04Tk5nW9",
+  "competition": "Championship",
+  "home": "Cardiff City",
+  "away": "Preston North End",
+  "score": [
+   0,
+   2
+  ],
+  "minute": "42‎’‎",
+  "finished": false,
+  "updated": "2026-11-24T20:27:17Z"
+ },
+ "5836948": {
+  "flashscore_id": "bL0NFRhT",
+  "competition": "Championship",
+  "home": "Charlton Athletic",
+  "away": "Lincoln City",
+  "score": [
+   2,
+   0
+  ],
+  "minute": "43‎’‎",
+  "finished": false,
+  "updated": "2026-11-24T20:27:17Z"
+ },
+ "5836949": {
+  "flashscore_id": "61Wc3Q0M",
+  "competition": "Championship",
+  "home": "Middlesbrough",
+  "away": "Swansea City",
+  "score": [
+   1,
+   1
+  ],
+  "minute": "43‎’‎",
+  "finished": false,
+  "updated": "2026-11-24T20:27:17Z"
+ },
+ "5836951": {
+  "flashscore_id": "dAquY88c",
+  "competition": "Championship",
+  "home": "Portsmouth",
+  "away": "West Ham United",
+  "score": [
+   1,
+   0
+  ],
+  "minute": "43‎’‎",
+  "finished": false,
+  "updated": "2026-11-24T20:27:17Z"
+ },
+ "5836952": {
+  "flashscore_id": "UNsmWnwA",
+  "competition": "Championship",
+  "home": "Sheffield United",
+  "away": "Southampton",
+  "score": [
+   0,
+   1
+  ],
+  "minute": "43‎’‎",
+  "finished": false,
+  "updated": "2026-11-24T20:27:17Z"
+ }
+}

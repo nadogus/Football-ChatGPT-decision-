@@ -1,0 +1,23 @@
+{
+ "resolved": {
+  "hvQs781c": "5836946",
+  "04Tk5nW9": "5836947",
+  "bL0NFRhT": "5836948",
+  "61Wc3Q0M": "5836949",
+  "dAquY88c": "5836951",
+  "UNsmWnwA": "5836952"
+ },
+ "alerts": {},
+ "errors": [
+  {
+   "t": "2026-11-24T20:27:17.937301+00:00",
+   "match": "U3igA5Gj",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-24T20:27:17.937301+00:00",
+   "match": "GvteUQ7M",
+   "reason": "LOW_MATCH_SCORE"
+  }
+ ]
+}
