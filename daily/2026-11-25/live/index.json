@@ -6,11 +6,11 @@
   "away": "Birmingham City",
   "score": [
    0,
-   1
+   2
   ],
-  "minute": "51‎’‎",
+  "minute": "56‎’‎",
   "finished": false,
-  "updated": "2026-11-25T20:56:55Z"
+  "updated": "2026-11-25T21:01:55Z"
  },
  "5836957": {
   "flashscore_id": "hvQSrQMF",
@@ -19,11 +19,11 @@
   "away": "Blackburn Rovers",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "55‎’‎",
+  "minute": "60‎’‎",
   "finished": false,
-  "updated": "2026-11-25T20:56:55Z"
+  "updated": "2026-11-25T21:01:55Z"
  },
  "5836956": {
   "flashscore_id": "nsNKpnh3",
@@ -36,6 +36,6 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-25T20:56:55Z"
+  "updated": "2026-11-25T21:01:55Z"
  }
 }

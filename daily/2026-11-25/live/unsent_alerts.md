@@ -64,3 +64,12 @@ _Uyarıdır, karar değildir._
 xG 1.07–1.02 · xGOT 1.10–0.48 · ceza sahası topla buluşma 12–16 · isabetli şut 3–2
 Karar için Claude'a yaz: `canlı bak 5836957`
 _Uyarıdır, karar değildir._
+
+---
+21:01 UTC
+⚡ *Canlı uyarı* — Watford 0-1 Blackburn Rovers (60‎’‎)
+• Açık maç: toplam xG 2.88, skor 0-1
+• Blackburn Rovers son ~15 dk'da +1.54 xG üretti
+xG 1.07–1.81 · xGOT 1.10–1.44 · ceza sahası topla buluşma 12–18 · isabetli şut 3–3
+Karar için Claude'a yaz: `canlı bak 5836957`
+_Uyarıdır, karar değildir._
