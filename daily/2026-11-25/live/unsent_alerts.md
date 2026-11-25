@@ -6,3 +6,11 @@
 xG 0.30–0.97 · xGOT 0.73–1.00 · ceza sahası topla buluşma 5–3 · isabetli şut 3–1
 Karar için Claude'a yaz: `canlı bak 5836955`
 _Uyarıdır, karar değildir._
+
+---
+20:14 UTC
+⚡ *Canlı uyarı* — Burnley 0-1 Birmingham City (27‎’‎)
+• Birmingham City son ~15 dk'da +1.06 xG üretti
+xG 0.30–1.06 · xGOT 0.73–1.01 · ceza sahası topla buluşma 5–5 · isabetli şut 3–2
+Karar için Claude'a yaz: `canlı bak 5836955`
+_Uyarıdır, karar değildir._
