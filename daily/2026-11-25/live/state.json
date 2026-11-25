@@ -55,6 +55,21 @@
    "t": "2026-11-25T20:46:56.409986+00:00",
    "fotmob_id": "5836957",
    "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-25T20:51:55.827072+00:00",
+   "match": "nNWQO4Vq",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-25T20:51:55.827072+00:00",
+   "fotmob_id": "5836955",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-25T20:51:55.827072+00:00",
+   "fotmob_id": "5836957",
+   "reason": "ALERT_NOT_SENT"
   }
  ]
 }

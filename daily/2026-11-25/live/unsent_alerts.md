@@ -31,3 +31,20 @@ _Uyarıdır, karar değildir._
 xG 1.06–0.27 · xGOT 1.10–0.00 · ceza sahası topla buluşma 12–10 · isabetli şut 3–0
 Karar için Claude'a yaz: `canlı bak 5836957`
 _Uyarıdır, karar değildir._
+
+---
+20:51 UTC
+⚡ *Canlı uyarı* — Burnley 0-1 Birmingham City (46‎’‎)
+• Açık maç: toplam xG 2.40, skor 0-1
+• Birmingham City son ~15 dk'da +0.85 xG üretti
+xG 0.49–1.91 · xGOT 0.73–1.75 · ceza sahası topla buluşma 9–17 · isabetli şut 3–5
+Karar için Claude'a yaz: `canlı bak 5836955`
+_Uyarıdır, karar değildir._
+
+---
+20:51 UTC
+⚡ *Canlı uyarı* — Watford 0-0 Blackburn Rovers (50‎’‎)
+• Watford son ~15 dk'da +0.96 xG üretti
+xG 1.07–0.60 · xGOT 1.10–0.09 · ceza sahası topla buluşma 12–13 · isabetli şut 3–1
+Karar için Claude'a yaz: `canlı bak 5836957`
+_Uyarıdır, karar değildir._
