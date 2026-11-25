@@ -1,0 +1,16 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25T06:28:17.378063+00:00",
+ "fixtures": 4,
+ "packets": 4,
+ "source_matches_total": 260,
+ "present": {
+  "odds": 4,
+  "opening_odds": 4,
+  "absences": 3,
+  "xg": 4,
+  "elo": 4,
+  "weather": 4
+ },
+ "warnings": []
+}

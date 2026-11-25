@@ -1,0 +1,50 @@
+[
+ {
+  "match_id": "nNWQO4Vq",
+  "home": "Bolton",
+  "away": "West Brom",
+  "home_team_id": "Or1bBrWD",
+  "away_team_id": "CCBWpzjj",
+  "kickoff": "2026-11-25T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/nNWQO4Vq/"
+ },
+ {
+  "match_id": "KzVYMr0d",
+  "home": "Burnley",
+  "away": "Birmingham",
+  "home_team_id": "z3dmTMMO",
+  "away_team_id": "SWk4muv7",
+  "kickoff": "2026-11-25T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/KzVYMr0d/"
+ },
+ {
+  "match_id": "hvQSrQMF",
+  "home": "Watford",
+  "away": "Blackburn",
+  "home_team_id": "UmMRoGzp",
+  "away_team_id": "6Nl8nagD",
+  "kickoff": "2026-11-25T19:45:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/hvQSrQMF/"
+ },
+ {
+  "match_id": "nsNKpnh3",
+  "home": "Stoke",
+  "away": "Millwall",
+  "home_team_id": "hSUajdSS",
+  "away_team_id": "6uz2cJBL",
+  "kickoff": "2026-11-25T20:00:00Z",
+  "status": "scheduled",
+  "competition": "Championship",
+  "category": "England",
+  "link": "https://www.flashscore.com/match/nsNKpnh3/"
+ }
+]
