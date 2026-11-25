@@ -20,6 +20,16 @@
    "t": "2026-11-25T20:04:32.538245+00:00",
    "match": "nNWQO4Vq",
    "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-25T20:09:33.040972+00:00",
+   "match": "nNWQO4Vq",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-25T20:09:33.040972+00:00",
+   "fotmob_id": "5836955",
+   "reason": "ALERT_NOT_SENT"
   }
  ]
 }
