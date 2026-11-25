@@ -1,12 +1,18 @@
 {
  "resolved": {
   "KzVYMr0d": "5836955",
-  "hvQSrQMF": "5836957"
+  "hvQSrQMF": "5836957",
+  "nsNKpnh3": "5836956"
  },
  "alerts": {},
  "errors": [
   {
    "t": "2026-11-25T19:54:33.829155+00:00",
+   "match": "nNWQO4Vq",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-25T19:59:33.232354+00:00",
    "match": "nNWQO4Vq",
    "reason": "LOW_MATCH_SCORE"
   }

@@ -8,9 +8,9 @@
    0,
    1
   ],
-  "minute": "7‎’‎",
+  "minute": "12‎’‎",
   "finished": false,
-  "updated": "2026-11-25T19:54:33Z"
+  "updated": "2026-11-25T19:59:33Z"
  },
  "5836957": {
   "flashscore_id": "hvQSrQMF",
@@ -21,8 +21,21 @@
    0,
    0
   ],
-  "minute": "10‎’‎",
+  "minute": "15‎’‎",
   "finished": false,
-  "updated": "2026-11-25T19:54:33Z"
+  "updated": "2026-11-25T19:59:33Z"
+ },
+ "5836956": {
+  "flashscore_id": "nsNKpnh3",
+  "competition": "Championship",
+  "home": "Stoke City",
+  "away": "Millwall",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-25T19:59:33Z"
  }
 }
