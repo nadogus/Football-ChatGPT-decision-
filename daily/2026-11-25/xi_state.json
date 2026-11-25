@@ -1,8 +1,9 @@
 {
  "nNWQO4Vq": {
   "checks": 3,
-  "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-25T19:32:18.247241+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-25T19:32:18.247241+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "KzVYMr0d": {
   "checks": 1,
