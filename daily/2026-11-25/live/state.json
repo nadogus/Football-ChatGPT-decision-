@@ -105,6 +105,11 @@
    "t": "2026-11-25T21:06:55.768856+00:00",
    "fotmob_id": "5836957",
    "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-25T21:43:21.354184+00:00",
+   "match": "nNWQO4Vq",
+   "reason": "LOW_MATCH_SCORE"
   }
  ]
 }

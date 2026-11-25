@@ -8,9 +8,9 @@
    0,
    2
   ],
-  "minute": "61‎’‎",
-  "finished": false,
-  "updated": "2026-11-25T21:06:55Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-25T21:43:21Z"
  },
  "5836957": {
   "flashscore_id": "hvQSrQMF",
@@ -21,9 +21,9 @@
    0,
    1
   ],
-  "minute": "65‎’‎",
-  "finished": false,
-  "updated": "2026-11-25T21:06:55Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-25T21:43:21Z"
  },
  "5836956": {
   "flashscore_id": "nsNKpnh3",
@@ -32,10 +32,10 @@
   "away": "Millwall",
   "score": [
    2,
-   0
+   1
   ],
-  "minute": "48‎’‎",
+  "minute": "85‎’‎",
   "finished": false,
-  "updated": "2026-11-25T21:06:55Z"
+  "updated": "2026-11-25T21:43:21Z"
  }
 }
