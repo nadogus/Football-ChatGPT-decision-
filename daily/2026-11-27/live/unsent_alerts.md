@@ -95,3 +95,11 @@ _Uyarıdır, karar değildir._
 xG 0.21–1.82 · xGOT 0.66–1.07 · ceza sahası topla buluşma 6–16 · isabetli şut 2–3
 Karar için Claude'a yaz: `canlı bak 5881241`
 _Uyarıdır, karar değildir._
+
+---
+20:40 UTC
+⚡ *Canlı uyarı* — FC Groningen 0-1 Willem II (76‎’‎)
+• FC Groningen baskın (xG 2.32–0.36) ama önde değil
+xG 2.32–0.36 · xGOT 1.94–1.23 · ceza sahası topla buluşma 33–6 · isabetli şut 8–3
+Karar için Claude'a yaz: `canlı bak 5781815`
+_Uyarıdır, karar değildir._
