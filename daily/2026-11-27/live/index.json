@@ -60,9 +60,9 @@
    2,
    2
   ],
-  "minute": "92‎’‎",
-  "finished": false,
-  "updated": "2026-11-27T21:38:28Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-27T21:43:28Z"
  },
  "5803002": {
   "flashscore_id": "zyHox4ek",
@@ -86,9 +86,9 @@
    0,
    0
   ],
-  "minute": "93‎’‎",
-  "finished": false,
-  "updated": "2026-11-27T21:38:28Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-27T21:43:28Z"
  },
  "5836965": {
   "flashscore_id": "GbneZCkJ",
@@ -99,9 +99,9 @@
    2,
    0
   ],
-  "minute": "81‎’‎",
+  "minute": "86‎’‎",
   "finished": false,
-  "updated": "2026-11-27T21:38:28Z"
+  "updated": "2026-11-27T21:43:28Z"
  },
  "5868146": {
   "flashscore_id": "v1sv2bUa",
@@ -110,11 +110,11 @@
   "away": "Racing Santander",
   "score": [
    1,
-   1
+   2
   ],
-  "minute": "80‎’‎",
+  "minute": "85‎’‎",
   "finished": false,
-  "updated": "2026-11-27T21:38:28Z"
+  "updated": "2026-11-27T21:43:28Z"
  },
  "5795533": {
   "flashscore_id": "lnwD2iRb",
@@ -125,9 +125,9 @@
    3,
    1
   ],
-  "minute": "80‎’‎",
+  "minute": "85‎’‎",
   "finished": false,
-  "updated": "2026-11-27T21:38:28Z"
+  "updated": "2026-11-27T21:43:28Z"
  },
  "5887685": {
   "flashscore_id": "lObmkyA5",
@@ -138,8 +138,8 @@
    0,
    2
   ],
-  "minute": "64‎’‎",
+  "minute": "69‎’‎",
   "finished": false,
-  "updated": "2026-11-27T21:38:28Z"
+  "updated": "2026-11-27T21:43:28Z"
  }
 }
