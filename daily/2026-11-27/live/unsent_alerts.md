@@ -62,3 +62,19 @@ _Uyarıdır, karar değildir._
 xG 1.44–0.30 · xGOT 1.49–1.23 · ceza sahası topla buluşma 17–6 · isabetli şut 5–3
 Karar için Claude'a yaz: `canlı bak 5781815`
 _Uyarıdır, karar değildir._
+
+---
+19:59 UTC
+⚡ *Canlı uyarı* — FC Groningen 0-1 Willem II (HT)
+• FC Groningen baskın (xG 1.55–0.30) ama önde değil
+xG 1.55–0.30 · xGOT 1.64–1.23 · ceza sahası topla buluşma 18–6 · isabetli şut 6–3
+Karar için Claude'a yaz: `canlı bak 5781815`
+_Uyarıdır, karar değildir._
+
+---
+19:59 UTC
+⚡ *Canlı uyarı* — Werder Bremen 0-1 Borussia Mönchengladbach (29‎’‎)
+• Borussia Mönchengladbach son ~15 dk'da +1.51 xG üretti
+xG 0.07–1.62 · xGOT 0.00–0.87 · ceza sahası topla buluşma 3–13 · isabetli şut 0–2
+Karar için Claude'a yaz: `canlı bak 5881241`
+_Uyarıdır, karar değildir._

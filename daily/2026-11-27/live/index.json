@@ -36,7 +36,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-27T19:54:22Z"
+  "updated": "2026-11-27T19:59:21Z"
  },
  "5881241": {
   "flashscore_id": "Y3CEL03K",
@@ -45,11 +45,11 @@
   "away": "Borussia Mönchengladbach",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "24‎’‎",
+  "minute": "29‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:54:22Z"
+  "updated": "2026-11-27T19:59:21Z"
  },
  "5811821": {
   "flashscore_id": "f3MAs3ng",
@@ -57,12 +57,12 @@
   "home": "OH Leuven",
   "away": "Kortrijk",
   "score": [
-   1,
+   0,
    0
   ],
-  "minute": "8‎’‎",
+  "minute": "13‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:54:22Z"
+  "updated": "2026-11-27T19:59:21Z"
  },
  "5803002": {
   "flashscore_id": "zyHox4ek",
@@ -73,9 +73,9 @@
    0,
    0
   ],
-  "minute": "10‎’‎",
+  "minute": "15‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:54:22Z"
+  "updated": "2026-11-27T19:59:21Z"
  },
  "5749769": {
   "flashscore_id": "SARc2lmK",
@@ -86,8 +86,47 @@
    0,
    0
   ],
-  "minute": "9‎’‎",
+  "minute": "14‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:54:22Z"
+  "updated": "2026-11-27T19:59:21Z"
+ },
+ "5836965": {
+  "flashscore_id": "GbneZCkJ",
+  "competition": "Championship",
+  "home": "Southampton",
+  "away": "Middlesbrough",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-27T19:59:21Z"
+ },
+ "5868146": {
+  "flashscore_id": "v1sv2bUa",
+  "competition": "LaLiga",
+  "home": "Levante",
+  "away": "Racing Santander",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-27T19:59:21Z"
+ },
+ "5795533": {
+  "flashscore_id": "lnwD2iRb",
+  "competition": "Premier League",
+  "home": "Nottingham Forest",
+  "away": "Chelsea",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-27T19:59:21Z"
  }
 }
