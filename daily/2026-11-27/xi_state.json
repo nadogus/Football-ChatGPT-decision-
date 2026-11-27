@@ -36,9 +36,10 @@
   "notified": []
  },
  "SARc2lmK": {
-  "checks": 7,
-  "status": "NOT_YET",
-  "last_check": "2026-11-27T19:02:38.007123+00:00"
+  "checks": 8,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-27T19:07:37.675140+00:00",
+  "notified": []
  },
  "GbneZCkJ": {
   "checks": 4,
@@ -59,8 +60,8 @@
   "notified": []
  },
  "lObmkyA5": {
-  "checks": 1,
+  "checks": 2,
   "status": "NOT_YET",
-  "last_check": "2026-11-27T19:02:38.007123+00:00"
+  "last_check": "2026-11-27T19:07:37.675140+00:00"
  }
 }
