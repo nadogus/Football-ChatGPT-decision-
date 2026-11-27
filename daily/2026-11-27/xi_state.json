@@ -60,8 +60,9 @@
   "notified": []
  },
  "lObmkyA5": {
-  "checks": 3,
-  "status": "NOT_YET",
-  "last_check": "2026-11-27T19:12:37.921574+00:00"
+  "checks": 4,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-27T19:17:38.218387+00:00",
+  "notified": []
  }
 }

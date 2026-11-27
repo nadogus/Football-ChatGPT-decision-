@@ -1,0 +1,584 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-27T19:17:38.218387+00:00",
+ "minutes_before_kickoff": 57.36302688333333,
+ "match": {
+  "match_id": "lObmkyA5",
+  "home": "Maritimo",
+  "away": "Nacional",
+  "kickoff": "2026-11-27T20:15:00Z",
+  "competition": "Liga Portugal",
+  "category": "Portugal"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:271914",
+     "name": "Fran Vieites",
+     "number": "30",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:200659",
+     "name": "Igor Julião",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:222217",
+     "name": "Paulo Henrique",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:363445",
+     "name": "Gábor Szalai",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:274283",
+     "name": "Romain Correia",
+     "number": "44",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:331788",
+     "name": "Simo",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:367656",
+     "name": "Martín Tejón",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305116",
+     "name": "Vladan Danilovic",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:219235",
+     "name": "Raphael Guzzo",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:324713",
+     "name": "Rodrigo Andrade",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300872",
+     "name": "Adrián Butzke",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:379089",
+     "name": "Renato Marin",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:317232",
+     "name": "Zé Vitor",
+     "number": "38",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:283177",
+     "name": "William Kokolo",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:351581",
+     "name": "Francisco Gonçalves",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:362770",
+     "name": "Markus Jensen",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:216371",
+     "name": "Matheus Dias",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:318755",
+     "name": "Chiheb Labidi",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306580",
+     "name": "Miguel Baeza",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:369840",
+     "name": "Pablo Ruan",
+     "number": "99",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:316511",
+     "name": "Song Min-Kyu",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:405951",
+     "name": "Njoya Kader",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": false,
+  "reason": "NO_SECOND_SOURCE(fotmob:predicted)"
+ },
+ "previous": {
+  "home": null,
+  "away": {
+   "match_id": "espn:401885398",
+   "date": "2026-11-08T15:30:00+00:00",
+   "competition": "por.1",
+   "opponent": "Académico de Viseu",
+   "starters": [
+    {
+     "id": "espn:379089",
+     "name": "Renato Marin",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:317232",
+     "name": "Zé Vitor",
+     "number": "38",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:351581",
+     "name": "Francisco Gonçalves",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:283177",
+     "name": "William Kokolo",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:362770",
+     "name": "Markus Jensen",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:216371",
+     "name": "Matheus Dias",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:318755",
+     "name": "Chiheb Labidi",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306580",
+     "name": "Miguel Baeza",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:405951",
+     "name": "Njoya Kader",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:316511",
+     "name": "Song Min-Kyu",
+     "number": "12",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305923",
+     "name": "Stavros Gavriel",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-3-3"
+  }
+ },
+ "changes": {
+  "home": null,
+  "away": {
+   "count": 1,
+   "out": [
+    "Stavros Gavriel"
+   ],
+   "in": [
+    "Pablo Ruan"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Renato Marin",
+   "previous_goalkeeper": "Renato Marin"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "ONCEKI_KADRO_YOK"
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 9,
+   "out": [
+    {
+     "name": "Stavros Gavriel",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 259,
+       "minutes_per_match": 51.8,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.0,
+        "shots": 1.39,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.02
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 9,
+       "minutes": 444,
+       "minutes_per_match": 49.3,
+       "per90": {
+        "xg": 0.11,
+        "xa": 0.01,
+        "shots": 1.62,
+        "key_passes": 0.2
+       },
+       "attack_share": 0.039
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Pablo Ruan",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 72,
+       "minutes_per_match": 14.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.28,
+        "shots": 0.0,
+        "key_passes": 1.25
+       },
+       "attack_share": 0.025
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 371,
+       "minutes_per_match": 41.2,
+       "per90": {
+        "xg": 0.24,
+        "xa": 0.12,
+        "shots": 1.46,
+        "key_passes": 0.97
+       },
+       "attack_share": 0.1
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Stavros Gavriel",
+     "in": "Pablo Ruan",
+     "delta_per90": {
+      "xg": 0.13,
+      "xa": 0.11,
+      "shots": -0.16,
+      "key_passes": 0.77
+     },
+     "attack_share_delta": 0.061
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Yellu Santiago",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 975714
+   }
+  ],
+  "away": [
+   {
+    "player": "Léo Santos",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 794154
+   },
+   {
+    "player": "Ulisses Rocha",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 929173
+   },
+   {
+    "player": "Filipe Soares",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 294535
+   },
+   {
+    "player": "Liziero",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 1072187
+   },
+   {
+    "player": "Wesley",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 602280
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 382,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.4518,
+    "DRAW": 0.2927,
+    "AWAY": 0.2555
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 2.18,
+     "bookmaker": "BetUK",
+     "fair_odds_consensus": 2.213,
+     "ev_vs_consensus": -0.0151
+    },
+    "DRAW": {
+     "odds": 3.25,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 3.416,
+     "ev_vs_consensus": -0.0487
+    },
+    "AWAY": {
+     "odds": 3.8,
+     "bookmaker": "Betfair",
+     "fair_odds_consensus": 3.914,
+     "ev_vs_consensus": -0.0291
+    }
+   },
+   "median_overround": 0.0735,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.25",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6827,
+     "UNDER": 0.3173
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.45,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.465,
+      "ev_vs_consensus": -0.0101
+     },
+     "UNDER": {
+      "odds": 3.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 3.152,
+      "ev_vs_consensus": -0.0481
+     }
+    },
+    "median_overround": 0.0779,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.25": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.4763,
+     "UNDER": 0.5237
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.03,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.1,
+      "ev_vs_consensus": -0.0331
+     },
+     "UNDER": {
+      "odds": 1.83,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.909,
+      "ev_vs_consensus": -0.0416
+     }
+    },
+    "median_overround": 0.0684,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4109,
+     "UNDER": 0.5891
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.3,
+      "bookmaker": "Coral",
+      "fair_odds_consensus": 2.434,
+      "ev_vs_consensus": -0.0549
+     },
+     "UNDER": {
+      "odds": 1.65,
+      "bookmaker": "Betway",
+      "fair_odds_consensus": 1.698,
+      "ev_vs_consensus": -0.028
+     }
+    },
+    "median_overround": 0.0718,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.1901,
+     "UNDER": 0.8099
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 4.5,
+      "bookmaker": "Paddy Power",
+      "fair_odds_consensus": 5.26,
+      "ev_vs_consensus": -0.1446
+     },
+     "UNDER": {
+      "odds": 1.23,
+      "bookmaker": "BetMGM.uk",
+      "fair_odds_consensus": 1.235,
+      "ev_vs_consensus": -0.0038
+     }
+    },
+    "median_overround": 0.0714,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 1.5,
+  "DRAW": -0.36,
+  "AWAY": -1.14
+ },
+ "gaps": [
+  "XI_SINGLE_SOURCE:ESPN_ONLY",
+  "PREVIOUS_XI_UNAVAILABLE:home",
+  "PLAYER_IMPACT_PARTIAL_HISTORY:away:9/10"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
