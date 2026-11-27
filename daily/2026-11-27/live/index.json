@@ -34,9 +34,9 @@
    0,
    1
   ],
-  "minute": "46‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-27T19:49:22Z"
+  "updated": "2026-11-27T19:54:22Z"
  },
  "5881241": {
   "flashscore_id": "Y3CEL03K",
@@ -47,9 +47,9 @@
    0,
    0
   ],
-  "minute": "19‎’‎",
+  "minute": "24‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:49:22Z"
+  "updated": "2026-11-27T19:54:22Z"
  },
  "5811821": {
   "flashscore_id": "f3MAs3ng",
@@ -57,12 +57,12 @@
   "home": "OH Leuven",
   "away": "Kortrijk",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "3‎’‎",
+  "minute": "8‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:49:22Z"
+  "updated": "2026-11-27T19:54:22Z"
  },
  "5803002": {
   "flashscore_id": "zyHox4ek",
@@ -73,9 +73,9 @@
    0,
    0
   ],
-  "minute": "5‎’‎",
+  "minute": "10‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:49:22Z"
+  "updated": "2026-11-27T19:54:22Z"
  },
  "5749769": {
   "flashscore_id": "SARc2lmK",
@@ -86,8 +86,8 @@
    0,
    0
   ],
-  "minute": "4‎’‎",
+  "minute": "9‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:49:22Z"
+  "updated": "2026-11-27T19:54:22Z"
  }
 }
