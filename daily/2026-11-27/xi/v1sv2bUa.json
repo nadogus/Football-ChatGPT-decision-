@@ -1,0 +1,787 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-27T19:02:38.007123+00:00",
+ "minutes_before_kickoff": 57.366547950000005,
+ "match": {
+  "match_id": "v1sv2bUa",
+  "home": "Levante",
+  "away": "Racing Santander",
+  "kickoff": "2026-11-27T20:00:00Z",
+  "competition": "LaLiga",
+  "category": "Spain"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:141438",
+     "name": "Mathew Ryan",
+     "number": "13",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:150451",
+     "name": "Aïssa Mandi",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276841",
+     "name": "Adrián de la Fuente",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:3129043",
+     "name": "Marc Santos Gavilán",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:409383",
+     "name": "Nacho Pérez",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:269339",
+     "name": "Orio Rey",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:362752",
+     "name": "Dani Requena",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:317784",
+     "name": "Jon Ander Olasagasti",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:311054",
+     "name": "Iván Romero",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:339195",
+     "name": "Thiago Fernández",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:203680",
+     "name": "Víctor García",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:323970",
+     "name": "Julen Agirrezabala",
+     "number": "13",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:333927",
+     "name": "Jeanuël Belocian",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:361455",
+     "name": "Pedro Felipe ",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:178237",
+     "name": "Jorge Salinas",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:282672",
+     "name": "Pablo Ramon",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:125383",
+     "name": "Sergio Canales",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:330545",
+     "name": "Iván Martín",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:107960",
+     "name": "Matteo Prati",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:390389",
+     "name": "Yassir Zabiri",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284699",
+     "name": "Iñigo Vicente",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:417258",
+     "name": "Iker Luque",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": false,
+  "reason": "NO_SECOND_SOURCE(fotmob:predicted)"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401882802",
+   "date": "2026-11-23T20:00:00+00:00",
+   "competition": "esp.1",
+   "opponent": "Elche",
+   "starters": [
+    {
+     "id": "espn:141438",
+     "name": "Mathew Ryan",
+     "number": "13",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:276841",
+     "name": "Adrián de la Fuente",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:150451",
+     "name": "Aïssa Mandi",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:269339",
+     "name": "Orio Rey",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300985",
+     "name": "Manu Sánchez",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:186024",
+     "name": "Jeremy Toljan",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:317784",
+     "name": "Jon Ander Olasagasti",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:362752",
+     "name": "Dani Requena",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:339195",
+     "name": "Thiago Fernández",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:267591",
+     "name": "Roger Brugué",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:311054",
+     "name": "Iván Romero",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-1-4-1"
+  },
+  "away": {
+   "match_id": "espn:401882800",
+   "date": "2026-11-22T15:15:00+00:00",
+   "competition": "esp.1",
+   "opponent": "Real Sociedad",
+   "starters": [
+    {
+     "id": "espn:323970",
+     "name": "Julen Agirrezabala",
+     "number": "13",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:333927",
+     "name": "Jeanuël Belocian",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:361455",
+     "name": "Pedro Felipe ",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:178237",
+     "name": "Jorge Salinas",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:282672",
+     "name": "Pablo Ramon",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:125383",
+     "name": "Sergio Canales",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:330545",
+     "name": "Iván Martín",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:107960",
+     "name": "Matteo Prati",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:390389",
+     "name": "Yassir Zabiri",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284699",
+     "name": "Iñigo Vicente",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:417258",
+     "name": "Iker Luque",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 3,
+   "out": [
+    "Manu Sánchez",
+    "Jeremy Toljan",
+    "Roger Brugué"
+   ],
+   "in": [
+    "Marc Santos Gavilán",
+    "Nacho Pérez",
+    "Víctor García"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Mathew Ryan",
+   "previous_goalkeeper": "Mathew Ryan"
+  },
+  "away": {
+   "count": 0,
+   "out": [],
+   "in": [],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Julen Agirrezabala",
+   "previous_goalkeeper": "Julen Agirrezabala"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Manu Sánchez",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 146,
+       "minutes_per_match": 29.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 577,
+       "minutes_per_match": 57.7,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.03,
+        "shots": 0.16,
+        "key_passes": 0.47
+       },
+       "attack_share": 0.011
+      }
+     }
+    },
+    {
+     "name": "Jeremy Toljan",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 258,
+       "minutes_per_match": 51.6,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.14,
+        "shots": 0.35,
+        "key_passes": 1.74
+       },
+       "attack_share": 0.049
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 624,
+       "minutes_per_match": 62.4,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.08,
+        "shots": 0.72,
+        "key_passes": 1.01
+       },
+       "attack_share": 0.043
+      }
+     }
+    },
+    {
+     "name": "Roger Brugué",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 368,
+       "minutes_per_match": 73.6,
+       "per90": {
+        "xg": 0.17,
+        "xa": 0.06,
+        "shots": 2.93,
+        "key_passes": 0.73
+       },
+       "attack_share": 0.096
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 800,
+       "minutes_per_match": 80.0,
+       "per90": {
+        "xg": 0.27,
+        "xa": 0.06,
+        "shots": 2.59,
+        "key_passes": 0.45
+       },
+       "attack_share": 0.143
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Marc Santos Gavilán",
+     "windows": null,
+     "note": "son maçlarda istatistik yok (yeni transfer / veri boşluğu)"
+    },
+    {
+     "name": "Nacho Pérez",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 316,
+       "minutes_per_match": 63.2,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.01,
+        "shots": 0.28,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.01
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 419,
+       "minutes_per_match": 41.9,
+       "per90": {
+        "xg": 0.09,
+        "xa": 0.02,
+        "shots": 0.64,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.024
+      }
+     }
+    },
+    {
+     "name": "Víctor García",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 165,
+       "minutes_per_match": 33.0,
+       "per90": {
+        "xg": 0.2,
+        "xa": 0.17,
+        "shots": 1.64,
+        "key_passes": 1.64
+       },
+       "attack_share": 0.07
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 357,
+       "minutes_per_match": 35.7,
+       "per90": {
+        "xg": 0.16,
+        "xa": 0.2,
+        "shots": 1.26,
+        "key_passes": 1.76
+       },
+       "attack_share": 0.068
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Jeremy Toljan",
+     "in": "Nacho Pérez",
+     "delta_per90": {
+      "xg": 0.04,
+      "xa": -0.06,
+      "shots": -0.08,
+      "key_passes": -1.01
+     },
+     "attack_share_delta": -0.019
+    },
+    {
+     "out": "Roger Brugué",
+     "in": "Víctor García",
+     "delta_per90": {
+      "xg": -0.11,
+      "xa": 0.14,
+      "shots": -1.33,
+      "key_passes": 1.31
+     },
+     "attack_share_delta": -0.075
+    }
+   ]
+  },
+  "away": {
+   "status": "KADRO_FARKI_YOK"
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Jeremy Toljan",
+    "reason": "injury",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": 1339115
+   },
+   {
+    "player": "Manuel Sánchez",
+    "reason": "injury",
+    "likelihood": "Out for season",
+    "market_value_eur": 5934655
+   },
+   {
+    "player": "Petar Ratkov",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 11370104
+   }
+  ],
+  "away": [
+   {
+    "player": "Álvaro Mantilla",
+    "reason": "injury",
+    "likelihood": "Out for season",
+    "market_value_eur": 1032040
+   },
+   {
+    "player": "Maguette Gueye",
+    "reason": "injury",
+    "likelihood": "Late December 2026",
+    "market_value_eur": 2093894
+   },
+   {
+    "player": "Andrés Martín",
+    "reason": "injury",
+    "likelihood": "About 1-2 weeks",
+    "market_value_eur": 7498070
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 410,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.4898,
+    "DRAW": 0.2338,
+    "AWAY": 0.2764
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 2.0,
+     "bookmaker": "7BetUK",
+     "fair_odds_consensus": 2.042,
+     "ev_vs_consensus": -0.0204
+    },
+    "DRAW": {
+     "odds": 4.1,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 4.277,
+     "ev_vs_consensus": -0.0414
+    },
+    "AWAY": {
+     "odds": 3.55,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 3.618,
+     "ev_vs_consensus": -0.0188
+    }
+   },
+   "median_overround": 0.0684,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3.25",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8722,
+     "UNDER": 0.1278
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.16,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.147,
+      "ev_vs_consensus": 0.0118
+     },
+     "UNDER": {
+      "odds": 7.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 7.825,
+      "ev_vs_consensus": -0.1054
+     }
+    },
+    "median_overround": 0.0682,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6827,
+     "UNDER": 0.3173
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.48,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.465,
+      "ev_vs_consensus": 0.0104
+     },
+     "UNDER": {
+      "odds": 2.9,
+      "bookmaker": "Betway",
+      "fair_odds_consensus": 3.152,
+      "ev_vs_consensus": -0.0798
+     }
+    },
+    "median_overround": 0.0779,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.25": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.5,
+     "UNDER": 0.5
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.93,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.0,
+      "ev_vs_consensus": -0.035
+     },
+     "UNDER": {
+      "odds": 1.93,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.0,
+      "ev_vs_consensus": -0.035
+     }
+    },
+    "median_overround": 0.0737,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4441,
+     "UNDER": 0.5559
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.2,
+      "bookmaker": "SpreadEX",
+      "fair_odds_consensus": 2.252,
+      "ev_vs_consensus": -0.023
+     },
+     "UNDER": {
+      "odds": 1.8,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 1.799,
+      "ev_vs_consensus": 0.0006
+     }
+    },
+    "median_overround": 0.0732,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 1.16,
+  "DRAW": -0.02,
+  "AWAY": -1.14
+ },
+ "gaps": [
+  "XI_SINGLE_SOURCE:ESPN_ONLY"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}

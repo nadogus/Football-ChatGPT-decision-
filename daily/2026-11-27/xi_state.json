@@ -30,28 +30,37 @@
   "notified": []
  },
  "zyHox4ek": {
-  "checks": 6,
-  "status": "NOT_YET",
-  "last_check": "2026-11-27T18:57:37.939962+00:00"
+  "checks": 7,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-27T19:02:38.007123+00:00",
+  "notified": []
  },
  "SARc2lmK": {
-  "checks": 6,
+  "checks": 7,
   "status": "NOT_YET",
-  "last_check": "2026-11-27T18:57:37.939962+00:00"
+  "last_check": "2026-11-27T19:02:38.007123+00:00"
  },
  "GbneZCkJ": {
-  "checks": 3,
-  "status": "NOT_YET",
-  "last_check": "2026-11-27T18:57:37.939962+00:00"
+  "checks": 4,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-27T19:02:38.007123+00:00",
+  "notified": []
  },
  "v1sv2bUa": {
-  "checks": 3,
-  "status": "NOT_YET",
-  "last_check": "2026-11-27T18:57:37.939962+00:00"
+  "checks": 4,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-27T19:02:38.007123+00:00",
+  "notified": []
  },
  "lnwD2iRb": {
-  "checks": 3,
+  "checks": 4,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-27T19:02:38.007123+00:00",
+  "notified": []
+ },
+ "lObmkyA5": {
+  "checks": 1,
   "status": "NOT_YET",
-  "last_check": "2026-11-27T18:57:37.939962+00:00"
+  "last_check": "2026-11-27T19:02:38.007123+00:00"
  }
 }
