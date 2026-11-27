@@ -1,0 +1,674 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-27T18:57:37.939962+00:00",
+ "minutes_before_kickoff": 47.3676673,
+ "match": {
+  "match_id": "f3MAs3ng",
+  "home": "Leuven",
+  "away": "Kortrijk",
+  "kickoff": "2026-11-27T19:45:00Z",
+  "competition": "Jupiler Pro League",
+  "category": "Belgium"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "3-4-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:180547",
+     "name": "Siebe Schrijvers",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:4804",
+     "name": "Jamie Lawrence",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276727",
+     "name": "William Balikwisha",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:353471",
+     "name": "Emmanuel Addai",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300983",
+     "name": "Wouter George",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:401002",
+     "name": "Robin Mirisola",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:384411",
+     "name": "Davis Opoku",
+     "number": "99",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323045",
+     "name": "Roggerio Nyakossi",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:279287",
+     "name": "Ewoud Pletinckx",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:305931",
+     "name": "Dani van den Heuvel",
+     "number": "1",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:282276",
+     "name": "Óscar Gil",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:379459",
+     "name": "Tristen Alliet",
+     "number": "77",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:386389",
+     "name": "Axel Drouhin",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:326895",
+     "name": "Matthew Anderson",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:402525",
+     "name": "Mohamed Fofana",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:363950",
+     "name": "James Willy Ndjeungoue",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:195532",
+     "name": "Brecht Dejaegere",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355866",
+     "name": "Harrison Murray-Campbell",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303751",
+     "name": "Jamie Roche",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:260236",
+     "name": "Goduine Koyalipou",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355120",
+     "name": "Ken Masui",
+     "number": "71",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:214764",
+     "name": "Thierry Ambrose",
+     "number": "68",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 0.909,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401878941",
+   "date": "2026-11-22T17:30:00+00:00",
+   "competition": "bel.1",
+   "opponent": "Anderlecht",
+   "starters": [
+    {
+     "id": "espn:305931",
+     "name": "Dani van den Heuvel",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:279287",
+     "name": "Ewoud Pletinckx",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323045",
+     "name": "Roggerio Nyakossi",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:4804",
+     "name": "Jamie Lawrence",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:180547",
+     "name": "Siebe Schrijvers",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300983",
+     "name": "Wouter George",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:384411",
+     "name": "Davis Opoku",
+     "number": "99",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:282276",
+     "name": "Óscar Gil",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:401002",
+     "name": "Robin Mirisola",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276727",
+     "name": "William Balikwisha",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:353471",
+     "name": "Emmanuel Addai",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-4-2-1"
+  },
+  "away": {
+   "match_id": "espn:401878936",
+   "date": "2026-11-22T15:00:00+00:00",
+   "competition": "bel.1",
+   "opponent": "Union St.-Gilloise",
+   "starters": [
+    {
+     "id": "espn:379459",
+     "name": "Tristen Alliet",
+     "number": "77",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:386389",
+     "name": "Axel Drouhin",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355866",
+     "name": "Harrison Murray-Campbell",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:326895",
+     "name": "Matthew Anderson",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:402525",
+     "name": "Mohamed Fofana",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:195532",
+     "name": "Brecht Dejaegere",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:303751",
+     "name": "Jamie Roche",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:274012",
+     "name": "Boris Lambert",
+     "number": "35",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:260236",
+     "name": "Goduine Koyalipou",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:214764",
+     "name": "Thierry Ambrose",
+     "number": "68",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:355120",
+     "name": "Ken Masui",
+     "number": "71",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-3-3"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 0,
+   "out": [],
+   "in": [],
+   "goalkeeper_changed": false,
+   "goalkeeper": null,
+   "previous_goalkeeper": "Dani van den Heuvel"
+  },
+  "away": {
+   "count": 1,
+   "out": [
+    "Boris Lambert"
+   ],
+   "in": [
+    "James Willy Ndjeungoue"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Tristen Alliet",
+   "previous_goalkeeper": "Tristen Alliet"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "KADRO_FARKI_YOK"
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Boris Lambert",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 330,
+       "minutes_per_match": 66.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.03,
+        "shots": 0.55,
+        "key_passes": 0.82
+       },
+       "attack_share": 0.016
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 419,
+       "minutes_per_match": 41.9,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.02,
+        "shots": 0.64,
+        "key_passes": 0.64
+       },
+       "attack_share": 0.013
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "James Willy Ndjeungoue",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 256,
+       "minutes_per_match": 51.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.02,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.007
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 526,
+       "minutes_per_match": 52.6,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.03,
+        "shots": 0.34,
+        "key_passes": 0.34
+       },
+       "attack_share": 0.013
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Boris Lambert",
+     "in": "James Willy Ndjeungoue",
+     "delta_per90": {
+      "xg": -0.02,
+      "xa": 0.01,
+      "shots": -0.3,
+      "key_passes": -0.3
+     },
+     "attack_share_delta": 0.0
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Abdoul Traoré",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 1843813
+   },
+   {
+    "player": "Henok Teklab",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 327062
+   },
+   {
+    "player": "Manuel Osifo",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 261947
+   },
+   {
+    "player": "Thibaud Verlinden",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 772527
+   }
+  ],
+  "away": [
+   {
+    "player": "Boris Lambert",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 727415
+   },
+   {
+    "player": "Basile Vroninks",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 833513
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 381,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 19,
+   "consensus_fair": {
+    "HOME": 0.4798,
+    "DRAW": 0.2542,
+    "AWAY": 0.2661
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 2.05,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 2.084,
+     "ev_vs_consensus": -0.0164
+    },
+    "DRAW": {
+     "odds": 3.75,
+     "bookmaker": "Betway",
+     "fair_odds_consensus": 3.934,
+     "ev_vs_consensus": -0.0468
+    },
+    "AWAY": {
+     "odds": 3.6,
+     "bookmaker": "bet365",
+     "fair_odds_consensus": 3.758,
+     "ev_vs_consensus": -0.042
+    }
+   },
+   "median_overround": 0.0802,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.75",
+  "totals": {
+   "1.5": {
+    "bookmakers": 19,
+    "consensus_fair": {
+     "OVER": 0.8226,
+     "UNDER": 0.1774
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.23,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.216,
+      "ev_vs_consensus": 0.0118
+     },
+     "UNDER": {
+      "odds": 4.5,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 5.637,
+      "ev_vs_consensus": -0.2017
+     }
+    },
+    "median_overround": 0.0769,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 19,
+    "consensus_fair": {
+     "OVER": 0.573,
+     "UNDER": 0.427
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.67,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.745,
+      "ev_vs_consensus": -0.0431
+     },
+     "UNDER": {
+      "odds": 2.25,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 2.342,
+      "ev_vs_consensus": -0.0393
+     }
+    },
+    "median_overround": 0.0718,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.75": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.5217,
+     "UNDER": 0.4783
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.83,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.917,
+      "ev_vs_consensus": -0.0453
+     },
+     "UNDER": {
+      "odds": 1.98,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.091,
+      "ev_vs_consensus": -0.053
+     }
+    },
+    "median_overround": 0.0684,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 19,
+    "consensus_fair": {
+     "OVER": 0.3386,
+     "UNDER": 0.6614
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.7,
+      "bookmaker": "Talksportbet",
+      "fair_odds_consensus": 2.953,
+      "ev_vs_consensus": -0.0858
+     },
+     "UNDER": {
+      "odds": 1.48,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 1.512,
+      "ev_vs_consensus": -0.0211
+     }
+    },
+    "median_overround": 0.0747,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -3.48,
+  "DRAW": 1.27,
+  "AWAY": 2.22
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
