@@ -44,12 +44,12 @@
   "home": "Werder Bremen",
   "away": "Borussia Mönchengladbach",
   "score": [
-   1,
-   2
+   3,
+   3
   ],
-  "minute": "65‎’‎",
-  "finished": false,
-  "updated": "2026-11-27T20:55:26Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-27T21:33:30Z"
  },
  "5811821": {
   "flashscore_id": "f3MAs3ng",
@@ -58,11 +58,11 @@
   "away": "Kortrijk",
   "score": [
    1,
-   0
+   2
   ],
-  "minute": "49‎’‎",
+  "minute": "87‎’‎",
   "finished": false,
-  "updated": "2026-11-27T20:55:26Z"
+  "updated": "2026-11-27T21:33:30Z"
  },
  "5803002": {
   "flashscore_id": "zyHox4ek",
@@ -73,9 +73,9 @@
    1,
    0
   ],
-  "minute": "53‎’‎",
+  "minute": "91‎’‎",
   "finished": false,
-  "updated": "2026-11-27T20:55:26Z"
+  "updated": "2026-11-27T21:33:30Z"
  },
  "5749769": {
   "flashscore_id": "SARc2lmK",
@@ -86,9 +86,9 @@
    0,
    0
   ],
-  "minute": "50‎’‎",
+  "minute": "88‎’‎",
   "finished": false,
-  "updated": "2026-11-27T20:55:26Z"
+  "updated": "2026-11-27T21:33:30Z"
  },
  "5836965": {
   "flashscore_id": "GbneZCkJ",
@@ -96,12 +96,12 @@
   "home": "Southampton",
   "away": "Middlesbrough",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "HT",
+  "minute": "76‎’‎",
   "finished": false,
-  "updated": "2026-11-27T20:55:26Z"
+  "updated": "2026-11-27T21:33:30Z"
  },
  "5868146": {
   "flashscore_id": "v1sv2bUa",
@@ -110,11 +110,11 @@
   "away": "Racing Santander",
   "score": [
    1,
-   0
+   1
   ],
-  "minute": "HT",
+  "minute": "75‎’‎",
   "finished": false,
-  "updated": "2026-11-27T20:55:26Z"
+  "updated": "2026-11-27T21:33:30Z"
  },
  "5795533": {
   "flashscore_id": "lnwD2iRb",
@@ -122,12 +122,12 @@
   "home": "Nottingham Forest",
   "away": "Chelsea",
   "score": [
-   1,
-   0
+   3,
+   1
   ],
-  "minute": "HT",
+  "minute": "75‎’‎",
   "finished": false,
-  "updated": "2026-11-27T20:55:26Z"
+  "updated": "2026-11-27T21:33:30Z"
  },
  "5887685": {
   "flashscore_id": "lObmkyA5",
@@ -136,10 +136,10 @@
   "away": "Nacional",
   "score": [
    0,
-   1
+   2
   ],
-  "minute": "40‎’‎",
+  "minute": "59‎’‎",
   "finished": false,
-  "updated": "2026-11-27T20:55:26Z"
+  "updated": "2026-11-27T21:33:30Z"
  }
 }
