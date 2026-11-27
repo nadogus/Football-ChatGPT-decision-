@@ -1,12 +1,13 @@
 {
  "AoHUcKbM": {
-  "checks": 3,
-  "status": "NOT_YET",
-  "last_check": "2026-11-27T16:08:55.492521+00:00"
+  "checks": 4,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-27T16:13:55.793312+00:00",
+  "notified": []
  },
  "6H20hbMq": {
-  "checks": 3,
+  "checks": 4,
   "status": "NOT_YET",
-  "last_check": "2026-11-27T16:08:55.492521+00:00"
+  "last_check": "2026-11-27T16:13:55.793312+00:00"
  }
 }
