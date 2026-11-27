@@ -24,5 +24,31 @@
   "minute": "FT",
   "finished": true,
   "updated": "2026-11-27T18:55:39Z"
+ },
+ "5781815": {
+  "flashscore_id": "Ozt1SjI6",
+  "competition": "Eredivisie",
+  "home": "FC Groningen",
+  "away": "Willem II",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "36‎’‎",
+  "finished": false,
+  "updated": "2026-11-27T19:39:22Z"
+ },
+ "5881241": {
+  "flashscore_id": "Y3CEL03K",
+  "competition": "Bundesliga",
+  "home": "Werder Bremen",
+  "away": "Borussia Mönchengladbach",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "9‎’‎",
+  "finished": false,
+  "updated": "2026-11-27T19:39:22Z"
  }
 }
