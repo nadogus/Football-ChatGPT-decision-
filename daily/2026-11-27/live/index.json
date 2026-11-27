@@ -6,11 +6,11 @@
   "away": "Konyaspor",
   "score": [
    1,
-   1
+   2
   ],
-  "minute": "93‎’‎",
-  "finished": false,
-  "updated": "2026-11-27T18:50:39Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-27T18:55:39Z"
  },
  "5904815": {
   "flashscore_id": "6H20hbMq",
@@ -21,8 +21,8 @@
    3,
    2
   ],
-  "minute": "92‎’‎",
-  "finished": false,
-  "updated": "2026-11-27T18:50:39Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-27T18:55:39Z"
  }
 }
