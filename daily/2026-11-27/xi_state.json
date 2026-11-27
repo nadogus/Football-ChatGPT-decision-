@@ -16,5 +16,10 @@
   "status": "CONFIRMED",
   "last_check": "2026-11-27T18:09:57.947859+00:00",
   "notified": []
+ },
+ "Y3CEL03K": {
+  "checks": 1,
+  "status": "NOT_YET",
+  "last_check": "2026-11-27T18:19:57.752512+00:00"
  }
 }
