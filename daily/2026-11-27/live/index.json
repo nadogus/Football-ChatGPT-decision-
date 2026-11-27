@@ -34,9 +34,9 @@
    0,
    1
   ],
-  "minute": "HT",
+  "minute": "72‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:59:21Z"
+  "updated": "2026-11-27T20:35:27Z"
  },
  "5881241": {
   "flashscore_id": "Y3CEL03K",
@@ -44,12 +44,12 @@
   "home": "Werder Bremen",
   "away": "Borussia Mönchengladbach",
   "score": [
-   0,
+   1,
    1
   ],
-  "minute": "29‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-27T19:59:21Z"
+  "updated": "2026-11-27T20:35:27Z"
  },
  "5811821": {
   "flashscore_id": "f3MAs3ng",
@@ -57,12 +57,12 @@
   "home": "OH Leuven",
   "away": "Kortrijk",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "13‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-27T19:59:21Z"
+  "updated": "2026-11-27T20:35:27Z"
  },
  "5803002": {
   "flashscore_id": "zyHox4ek",
@@ -70,12 +70,12 @@
   "home": "Brest",
   "away": "Paris FC",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "15‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-27T19:59:21Z"
+  "updated": "2026-11-27T20:35:27Z"
  },
  "5749769": {
   "flashscore_id": "SARc2lmK",
@@ -86,9 +86,9 @@
    0,
    0
   ],
-  "minute": "14‎’‎",
+  "minute": "50‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:59:21Z"
+  "updated": "2026-11-27T20:35:27Z"
  },
  "5836965": {
   "flashscore_id": "GbneZCkJ",
@@ -99,9 +99,9 @@
    0,
    0
   ],
-  "minute": null,
+  "minute": "36‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:59:21Z"
+  "updated": "2026-11-27T20:35:27Z"
  },
  "5868146": {
   "flashscore_id": "v1sv2bUa",
@@ -112,9 +112,9 @@
    0,
    0
   ],
-  "minute": null,
+  "minute": "34‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:59:21Z"
+  "updated": "2026-11-27T20:35:27Z"
  },
  "5795533": {
   "flashscore_id": "lnwD2iRb",
@@ -122,11 +122,24 @@
   "home": "Nottingham Forest",
   "away": "Chelsea",
   "score": [
+   1,
+   0
+  ],
+  "minute": "35‎’‎",
+  "finished": false,
+  "updated": "2026-11-27T20:35:27Z"
+ },
+ "5887685": {
+  "flashscore_id": "lObmkyA5",
+  "competition": "Liga Portugal",
+  "home": "Marítimo",
+  "away": "Nacional",
+  "score": [
    0,
    0
   ],
-  "minute": null,
+  "minute": "20‎’‎",
   "finished": false,
-  "updated": "2026-11-27T19:59:21Z"
+  "updated": "2026-11-27T20:35:27Z"
  }
 }

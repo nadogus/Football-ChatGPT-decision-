@@ -9,7 +9,8 @@
   "SARc2lmK": "5749769",
   "GbneZCkJ": "5836965",
   "v1sv2bUa": "5868146",
-  "lnwD2iRb": "5795533"
+  "lnwD2iRb": "5795533",
+  "lObmkyA5": "5887685"
  },
  "alerts": {},
  "errors": [
@@ -60,6 +61,16 @@
   },
   {
    "t": "2026-11-27T19:59:21.458839+00:00",
+   "fotmob_id": "5881241",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-27T20:35:27.612841+00:00",
+   "fotmob_id": "5781815",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-27T20:35:27.612841+00:00",
    "fotmob_id": "5881241",
    "reason": "ALERT_NOT_SENT"
   }
