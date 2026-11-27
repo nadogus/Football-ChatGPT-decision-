@@ -4,5 +4,11 @@
   "6H20hbMq": "5904815"
  },
  "alerts": {},
- "errors": []
+ "errors": [
+  {
+   "t": "2026-11-27T17:47:47.824683+00:00",
+   "fotmob_id": "5904815",
+   "reason": "ALERT_NOT_SENT"
+  }
+ ]
 }
