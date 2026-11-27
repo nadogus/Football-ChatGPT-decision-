@@ -99,9 +99,9 @@
    2,
    0
   ],
-  "minute": "91‎’‎",
-  "finished": false,
-  "updated": "2026-11-27T21:48:29Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-27T21:53:28Z"
  },
  "5868146": {
   "flashscore_id": "v1sv2bUa",
@@ -112,9 +112,9 @@
    1,
    2
   ],
-  "minute": "90‎’‎",
+  "minute": "95‎’‎",
   "finished": false,
-  "updated": "2026-11-27T21:48:29Z"
+  "updated": "2026-11-27T21:53:28Z"
  },
  "5795533": {
   "flashscore_id": "lnwD2iRb",
@@ -125,9 +125,9 @@
    3,
    2
   ],
-  "minute": "90‎’‎",
+  "minute": "95‎’‎",
   "finished": false,
-  "updated": "2026-11-27T21:48:29Z"
+  "updated": "2026-11-27T21:53:28Z"
  },
  "5887685": {
   "flashscore_id": "lObmkyA5",
@@ -138,8 +138,8 @@
    0,
    2
   ],
-  "minute": "74‎’‎",
+  "minute": "79‎’‎",
   "finished": false,
-  "updated": "2026-11-27T21:48:29Z"
+  "updated": "2026-11-27T21:53:28Z"
  }
 }
