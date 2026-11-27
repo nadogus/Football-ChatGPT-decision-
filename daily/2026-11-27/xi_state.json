@@ -12,8 +12,9 @@
   "notified": []
  },
  "Ozt1SjI6": {
-  "checks": 2,
-  "status": "NOT_YET",
-  "last_check": "2026-11-27T18:04:57.485897+00:00"
+  "checks": 3,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-27T18:09:57.947859+00:00",
+  "notified": []
  }
 }
