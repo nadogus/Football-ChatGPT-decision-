@@ -1,0 +1,1159 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-28T15:29:37.809583+00:00",
+ "minutes_before_kickoff": 45.36984028333333,
+ "match": {
+  "match_id": "IyS7qn3F",
+  "home": "Angers",
+  "away": "Lens",
+  "kickoff": "2026-11-28T16:15:00Z",
+  "competition": "Ligue 1",
+  "category": "France"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "5-3-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:131743",
+     "name": "Anthony Lopes",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:412232",
+     "name": "Ousmane Camara",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:191712",
+     "name": "Jordan Lefort",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:356211",
+     "name": "Emmanuel Biumla",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:377899",
+     "name": "Joseph Kalulu Kyatengwa",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:357154",
+     "name": "Lilian Raolisoa",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:206993",
+     "name": "Haris Belkebla",
+     "number": "93",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:196234",
+     "name": "Branco van den Boomen",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338006",
+     "name": "Yassin Belkhdim",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:403232",
+     "name": "Prosper Peter",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301262",
+     "name": "Amine El Ouazzani",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "3-4-2-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:344517",
+     "name": "Robin Risser",
+     "number": "40",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:329484",
+     "name": "Samson Baidoo",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:277327",
+     "name": "Jean-Clair Todibo",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297385",
+     "name": "Jhoanner Chavez",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:228557",
+     "name": "Amadou Haidara",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:258871",
+     "name": "Michaël Cuisance",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:233199",
+     "name": "Matthieu Udol",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:286011",
+     "name": "Saud Abdulhamid",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:308246",
+     "name": "Abdallah Sima",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:412217",
+     "name": "Mezian Soares",
+     "number": "38",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:156898",
+     "name": "Florian Thauvin",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 0.864,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401876397",
+   "date": "2026-11-22T14:00:00+00:00",
+   "competition": "fra.1",
+   "opponent": "Paris FC",
+   "starters": [
+    {
+     "id": "espn:131743",
+     "name": "Anthony Lopes",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:416401",
+     "name": "Maël Gernigon",
+     "number": "34",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:412232",
+     "name": "Ousmane Camara",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:377899",
+     "name": "Joseph Kalulu Kyatengwa",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:218703",
+     "name": "Carlens Arcus",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338006",
+     "name": "Yassin Belkhdim",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:196234",
+     "name": "Branco van den Boomen",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:206993",
+     "name": "Haris Belkebla",
+     "number": "93",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:312399",
+     "name": "Mamadou Simbakoli",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:314388",
+     "name": "Amine Sbaï",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:379227",
+     "name": "Anthony Bermont",
+     "number": "26",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401876403",
+   "date": "2026-11-21T19:45:00+00:00",
+   "competition": "fra.1",
+   "opponent": "Toulouse",
+   "starters": [
+    {
+     "id": "espn:344517",
+     "name": "Robin Risser",
+     "number": "40",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:329484",
+     "name": "Samson Baidoo",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297385",
+     "name": "Jhoanner Chavez",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:277327",
+     "name": "Jean-Clair Todibo",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:258871",
+     "name": "Michaël Cuisance",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:341720",
+     "name": "Yassine Titraoui",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:233199",
+     "name": "Matthieu Udol",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:181946",
+     "name": "Ruben Aguilar",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:156898",
+     "name": "Florian Thauvin",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:215687",
+     "name": "Florian Sotoca",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:412217",
+     "name": "Mezian Soares",
+     "number": "38",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-4-2-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 5,
+   "out": [
+    "Maël Gernigon",
+    "Carlens Arcus",
+    "Mamadou Simbakoli",
+    "Amine Sbaï",
+    "Anthony Bermont"
+   ],
+   "in": [
+    "Jordan Lefort",
+    "Emmanuel Biumla",
+    "Lilian Raolisoa",
+    "Prosper Peter",
+    "Amine El Ouazzani"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Anthony Lopes",
+   "previous_goalkeeper": "Anthony Lopes"
+  },
+  "away": {
+   "count": 3,
+   "out": [
+    "Yassine Titraoui",
+    "Ruben Aguilar",
+    "Florian Sotoca"
+   ],
+   "in": [
+    "Amadou Haidara",
+    "Saud Abdulhamid",
+    "Abdallah Sima"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Robin Risser",
+   "previous_goalkeeper": "Robin Risser"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Maël Gernigon",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 180,
+       "minutes_per_match": 36.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 3,
+       "minutes": 208,
+       "minutes_per_match": 20.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Carlens Arcus",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 411,
+       "minutes_per_match": 82.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.02,
+        "shots": 0.22,
+        "key_passes": 0.44
+       },
+       "attack_share": 0.017
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 736,
+       "minutes_per_match": 73.6,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.04,
+        "shots": 0.49,
+        "key_passes": 0.73
+       },
+       "attack_share": 0.03
+      }
+     }
+    },
+    {
+     "name": "Mamadou Simbakoli",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 93,
+       "minutes_per_match": 18.6,
+       "per90": {
+        "xg": 0.25,
+        "xa": 0.02,
+        "shots": 2.9,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.044
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 141,
+       "minutes_per_match": 14.1,
+       "per90": {
+        "xg": 0.59,
+        "xa": 0.01,
+        "shots": 5.74,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.049
+      }
+     }
+    },
+    {
+     "name": "Amine Sbaï",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 423,
+       "minutes_per_match": 84.6,
+       "per90": {
+        "xg": 0.12,
+        "xa": 0.14,
+        "shots": 2.77,
+        "key_passes": 1.49
+       },
+       "attack_share": 0.197
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 850,
+       "minutes_per_match": 85.0,
+       "per90": {
+        "xg": 0.17,
+        "xa": 0.21,
+        "shots": 2.54,
+        "key_passes": 1.8
+       },
+       "attack_share": 0.185
+      }
+     }
+    },
+    {
+     "name": "Anthony Bermont",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 72,
+       "minutes_per_match": 14.4,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.1,
+        "shots": 1.25,
+        "key_passes": 1.25
+       },
+       "attack_share": 0.014
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 190,
+       "minutes_per_match": 19.0,
+       "per90": {
+        "xg": 0.36,
+        "xa": 0.05,
+        "shots": 2.37,
+        "key_passes": 0.95
+       },
+       "attack_share": 0.045
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Jordan Lefort",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 270,
+       "minutes_per_match": 54.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.33
+       },
+       "attack_share": 0.003
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 689,
+       "minutes_per_match": 68.9,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.04,
+        "shots": 0.13,
+        "key_passes": 0.26
+       },
+       "attack_share": 0.024
+      }
+     }
+    },
+    {
+     "name": "Emmanuel Biumla",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 86,
+       "minutes_per_match": 17.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 3,
+       "minutes": 142,
+       "minutes_per_match": 14.2,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.0,
+        "shots": 0.63,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      }
+     }
+    },
+    {
+     "name": "Lilian Raolisoa",
+     "windows": null,
+     "note": "son maçlarda istatistik yok (yeni transfer / veri boşluğu)"
+    },
+    {
+     "name": "Prosper Peter",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 268,
+       "minutes_per_match": 53.6,
+       "per90": {
+        "xg": 0.26,
+        "xa": 0.01,
+        "shots": 1.68,
+        "key_passes": 1.01
+       },
+       "attack_share": 0.125
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 455,
+       "minutes_per_match": 45.5,
+       "per90": {
+        "xg": 0.52,
+        "xa": 0.01,
+        "shots": 2.18,
+        "key_passes": 0.79
+       },
+       "attack_share": 0.14
+      }
+     }
+    },
+    {
+     "name": "Amine El Ouazzani",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 149,
+       "minutes_per_match": 29.8,
+       "per90": {
+        "xg": 0.62,
+        "xa": 0.0,
+        "shots": 3.02,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.161
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 489,
+       "minutes_per_match": 48.9,
+       "per90": {
+        "xg": 0.31,
+        "xa": 0.03,
+        "shots": 2.02,
+        "key_passes": 0.74
+       },
+       "attack_share": 0.098
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Maël Gernigon",
+     "in": "Jordan Lefort",
+     "delta_per90": {
+      "xg": 0.02,
+      "xa": 0.04,
+      "shots": 0.13,
+      "key_passes": 0.26
+     },
+     "attack_share_delta": 0.024
+    },
+    {
+     "out": "Carlens Arcus",
+     "in": "Emmanuel Biumla",
+     "delta_per90": {
+      "xg": 0.0,
+      "xa": -0.04,
+      "shots": 0.14,
+      "key_passes": -0.73
+     },
+     "attack_share_delta": -0.028
+    },
+    {
+     "out": "Amine Sbaï",
+     "in": "Prosper Peter",
+     "delta_per90": {
+      "xg": 0.35,
+      "xa": -0.2,
+      "shots": -0.36,
+      "key_passes": -1.01
+     },
+     "attack_share_delta": -0.045
+    },
+    {
+     "out": "Anthony Bermont",
+     "in": "Amine El Ouazzani",
+     "delta_per90": {
+      "xg": -0.05,
+      "xa": -0.02,
+      "shots": -0.35,
+      "key_passes": -0.21
+     },
+     "attack_share_delta": 0.053
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Yassine Titraoui",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 291,
+       "minutes_per_match": 58.2,
+       "per90": {
+        "xg": 0.23,
+        "xa": 0.03,
+        "shots": 1.55,
+        "key_passes": 0.31
+       },
+       "attack_share": 0.068
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 461,
+       "minutes_per_match": 46.1,
+       "per90": {
+        "xg": 0.16,
+        "xa": 0.02,
+        "shots": 1.17,
+        "key_passes": 0.39
+       },
+       "attack_share": 0.037
+      }
+     }
+    },
+    {
+     "name": "Ruben Aguilar",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 244,
+       "minutes_per_match": 48.8,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.09,
+        "shots": 0.37,
+        "key_passes": 1.11
+       },
+       "attack_share": 0.025
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 610,
+       "minutes_per_match": 61.0,
+       "per90": {
+        "xg": 0.1,
+        "xa": 0.06,
+        "shots": 1.18,
+        "key_passes": 0.74
+       },
+       "attack_share": 0.044
+      }
+     }
+    },
+    {
+     "name": "Florian Sotoca",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 300,
+       "minutes_per_match": 60.0,
+       "per90": {
+        "xg": 0.13,
+        "xa": 0.54,
+        "shots": 1.5,
+        "key_passes": 2.1
+       },
+       "attack_share": 0.184
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 544,
+       "minutes_per_match": 54.4,
+       "per90": {
+        "xg": 0.18,
+        "xa": 0.33,
+        "shots": 1.99,
+        "key_passes": 1.49
+       },
+       "attack_share": 0.122
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Amadou Haidara",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 334,
+       "minutes_per_match": 66.8,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.02,
+        "shots": 0.54,
+        "key_passes": 0.27
+       },
+       "attack_share": 0.012
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 614,
+       "minutes_per_match": 61.4,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.02,
+        "shots": 1.03,
+        "key_passes": 0.29
+       },
+       "attack_share": 0.029
+      }
+     }
+    },
+    {
+     "name": "Saud Abdulhamid",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 327,
+       "minutes_per_match": 65.4,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.08,
+        "shots": 0.55,
+        "key_passes": 1.38
+       },
+       "attack_share": 0.031
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 588,
+       "minutes_per_match": 58.8,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.07,
+        "shots": 0.61,
+        "key_passes": 1.07
+       },
+       "attack_share": 0.028
+      }
+     }
+    },
+    {
+     "name": "Abdallah Sima",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 95,
+       "minutes_per_match": 19.0,
+       "per90": {
+        "xg": 0.22,
+        "xa": 0.0,
+        "shots": 2.84,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.019
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 2,
+       "minutes": 95,
+       "minutes_per_match": 9.5,
+       "per90": {
+        "xg": 0.22,
+        "xa": 0.0,
+        "shots": 2.84,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.009
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Yassine Titraoui",
+     "in": "Amadou Haidara",
+     "delta_per90": {
+      "xg": -0.08,
+      "xa": 0.0,
+      "shots": -0.14,
+      "key_passes": -0.1
+     },
+     "attack_share_delta": -0.008
+    },
+    {
+     "out": "Ruben Aguilar",
+     "in": "Saud Abdulhamid",
+     "delta_per90": {
+      "xg": -0.06,
+      "xa": 0.01,
+      "shots": -0.57,
+      "key_passes": 0.33
+     },
+     "attack_share_delta": -0.016
+    },
+    {
+     "out": "Florian Sotoca",
+     "in": "Abdallah Sima",
+     "delta_per90": {
+      "xg": 0.04,
+      "xa": -0.33,
+      "shots": 0.85,
+      "key_passes": -1.49
+     },
+     "attack_share_delta": -0.113
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Bané Diatta",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 1416144
+   }
+  ],
+  "away": [
+   {
+    "player": "Ruben Aguilar",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 1774838
+   },
+   {
+    "player": "Odsonne Édouard",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 11559369
+   },
+   {
+    "player": "Maik Nawrocki",
+    "reason": "injury",
+    "likelihood": "Mid May 2027",
+    "market_value_eur": 1919336
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 399,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.1905,
+    "DRAW": 0.2343,
+    "AWAY": 0.5752
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 4.75,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 5.249,
+     "ev_vs_consensus": -0.0951
+    },
+    "DRAW": {
+     "odds": 4.0,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 4.268,
+     "ev_vs_consensus": -0.0628
+    },
+    "AWAY": {
+     "odds": 1.73,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 1.739,
+     "ev_vs_consensus": -0.0049
+    }
+   },
+   "median_overround": 0.0668,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.75",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.7961,
+     "UNDER": 0.2039
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.25,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.256,
+      "ev_vs_consensus": -0.0049
+     },
+     "UNDER": {
+      "odds": 4.5,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 4.904,
+      "ev_vs_consensus": -0.0825
+     }
+    },
+    "median_overround": 0.0697,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.5522,
+     "UNDER": 0.4478
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.8,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.811,
+      "ev_vs_consensus": -0.006
+     },
+     "UNDER": {
+      "odds": 2.1,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 2.233,
+      "ev_vs_consensus": -0.0596
+     }
+    },
+    "median_overround": 0.0755,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.75": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.4891,
+     "UNDER": 0.5109
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.03,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.045,
+      "ev_vs_consensus": -0.0071
+     },
+     "UNDER": {
+      "odds": 1.87,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 1.957,
+      "ev_vs_consensus": -0.0446
+     }
+    },
+    "median_overround": 0.0695,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.3173,
+     "UNDER": 0.6827
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 3.0,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 3.152,
+      "ev_vs_consensus": -0.0481
+     },
+     "UNDER": {
+      "odds": 1.45,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.465,
+      "ev_vs_consensus": -0.0101
+     }
+    },
+    "median_overround": 0.077,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -0.5,
+  "DRAW": 0.36,
+  "AWAY": 0.14
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}

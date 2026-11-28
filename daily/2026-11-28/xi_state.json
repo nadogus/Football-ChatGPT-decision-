@@ -144,13 +144,14 @@
   "notified": []
  },
  "ADeF12ac": {
-  "checks": 8,
+  "checks": 9,
   "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-28T15:24:37.878073+00:00"
+  "last_check": "2026-11-28T15:29:37.809583+00:00"
  },
  "IyS7qn3F": {
-  "checks": 5,
-  "status": "NOT_YET",
-  "last_check": "2026-11-28T15:24:37.878073+00:00"
+  "checks": 6,
+  "status": "CONFIRMED",
+  "last_check": "2026-11-28T15:29:37.809583+00:00",
+  "notified": []
  }
 }
