@@ -1,0 +1,1096 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-28T13:38:40.366432+00:00",
+ "minutes_before_kickoff": 51.32722613333333,
+ "match": {
+  "match_id": "QJIC1uCl",
+  "home": "Mainz",
+  "away": "Union Berlin",
+  "kickoff": "2026-11-28T14:30:00Z",
+  "competition": "Bundesliga",
+  "category": "Germany"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "3-5-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:357030",
+     "name": "Kaishu Sano",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300961",
+     "name": "Ransford-Yeboah Königsdörffer",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238906",
+     "name": "Stefan Posch",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:290398",
+     "name": "Eric Martel",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:241297",
+     "name": "Anthony Caci",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:399746",
+     "name": "Fabio Gruber",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:375371",
+     "name": "Kacper Potulski",
+     "number": "48",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:210818",
+     "name": "Nadiem Amiri",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:195027",
+     "name": "Sheraldo Becker",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:175905",
+     "name": "Silvan Widmer",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:206114",
+     "name": "Robin Zentner",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-4-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:165424",
+     "name": "Frederik Ronnow",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:202642",
+     "name": "Marvin Friedrich",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:263202",
+     "name": "Derrick Köhn",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:170604",
+     "name": "Janik Haberer",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:330455",
+     "name": "Leopold Querfeld",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276323",
+     "name": "Jeong Woo-Yeong",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:289527",
+     "name": "Kastriot Imeri",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:245623",
+     "name": "Michel Aebischer",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284702",
+     "name": "András Schäfer",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:212478",
+     "name": "Oliver Burke",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:341441",
+     "name": "Andrej Ilić",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": false,
+  "reason": "NO_SECOND_SOURCE(fotmob:predicted)"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401884733",
+   "date": "2026-11-22T14:30:00+00:00",
+   "competition": "ger.1",
+   "opponent": "FC Augsburg",
+   "starters": [
+    {
+     "id": "espn:206114",
+     "name": "Robin Zentner",
+     "number": "27",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:238906",
+     "name": "Stefan Posch",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:375371",
+     "name": "Kacper Potulski",
+     "number": "48",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:154603",
+     "name": "Danny da Costa",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:357030",
+     "name": "Kaishu Sano",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:210818",
+     "name": "Nadiem Amiri",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:307282",
+     "name": "Paul Nebel",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:239574",
+     "name": "Phillipp Mwene",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:241297",
+     "name": "Anthony Caci",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:234376",
+     "name": "Phillip Tietz",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:195027",
+     "name": "Sheraldo Becker",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-1-4-2"
+  },
+  "away": {
+   "match_id": "espn:401884732",
+   "date": "2026-11-21T14:30:00+00:00",
+   "competition": "ger.1",
+   "opponent": "RB Leipzig",
+   "starters": [
+    {
+     "id": "espn:165424",
+     "name": "Frederik Ronnow",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:202642",
+     "name": "Marvin Friedrich",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:314184",
+     "name": "Zeno Van Den Bosch",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:159152",
+     "name": "Rani Khedira",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:263202",
+     "name": "Derrick Köhn",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:170604",
+     "name": "Janik Haberer",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284702",
+     "name": "András Schäfer",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:289527",
+     "name": "Kastriot Imeri",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:245623",
+     "name": "Michel Aebischer",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:341441",
+     "name": "Andrej Ilić",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:212478",
+     "name": "Oliver Burke",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-1-3-2"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 4,
+   "out": [
+    "Danny da Costa",
+    "Paul Nebel",
+    "Phillipp Mwene",
+    "Phillip Tietz"
+   ],
+   "in": [
+    "Ransford-Yeboah Königsdörffer",
+    "Eric Martel",
+    "Fabio Gruber",
+    "Silvan Widmer"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": null,
+   "previous_goalkeeper": "Robin Zentner"
+  },
+  "away": {
+   "count": 2,
+   "out": [
+    "Zeno Van Den Bosch",
+    "Rani Khedira"
+   ],
+   "in": [
+    "Leopold Querfeld",
+    "Jeong Woo-Yeong"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Frederik Ronnow",
+   "previous_goalkeeper": "Frederik Ronnow"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 9,
+   "out": [
+    {
+     "name": "Danny da Costa",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 430,
+       "minutes_per_match": 86.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.02,
+        "shots": 0.21,
+        "key_passes": 0.21
+       },
+       "attack_share": 0.012
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 9,
+       "minutes": 593,
+       "minutes_per_match": 65.9,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.06,
+        "shots": 0.3,
+        "key_passes": 0.61
+       },
+       "attack_share": 0.026
+      }
+     }
+    },
+    {
+     "name": "Paul Nebel",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 224,
+       "minutes_per_match": 44.8,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.12,
+        "shots": 0.4,
+        "key_passes": 0.8
+       },
+       "attack_share": 0.025
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 6,
+       "minutes": 238,
+       "minutes_per_match": 26.4,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.11,
+        "shots": 0.38,
+        "key_passes": 0.76
+       },
+       "attack_share": 0.011
+      }
+     }
+    },
+    {
+     "name": "Phillipp Mwene",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 328,
+       "minutes_per_match": 65.6,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.04,
+        "shots": 0.82,
+        "key_passes": 0.27
+       },
+       "attack_share": 0.029
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 672,
+       "minutes_per_match": 74.7,
+       "per90": {
+        "xg": 0.09,
+        "xa": 0.06,
+        "shots": 1.07,
+        "key_passes": 0.54
+       },
+       "attack_share": 0.037
+      }
+     }
+    },
+    {
+     "name": "Phillip Tietz",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 333,
+       "minutes_per_match": 66.6,
+       "per90": {
+        "xg": 0.42,
+        "xa": 0.17,
+        "shots": 2.43,
+        "key_passes": 0.27
+       },
+       "attack_share": 0.175
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 9,
+       "minutes": 692,
+       "minutes_per_match": 76.9,
+       "per90": {
+        "xg": 0.62,
+        "xa": 0.1,
+        "shots": 3.38,
+        "key_passes": 0.26
+       },
+       "attack_share": 0.188
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Ransford-Yeboah Königsdörffer",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 177,
+       "minutes_per_match": 35.4,
+       "per90": {
+        "xg": 0.54,
+        "xa": 0.08,
+        "shots": 3.05,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.096
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 9,
+       "minutes": 270,
+       "minutes_per_match": 30.0,
+       "per90": {
+        "xg": 0.43,
+        "xa": 0.09,
+        "shots": 3.0,
+        "key_passes": 0.33
+       },
+       "attack_share": 0.054
+      }
+     }
+    },
+    {
+     "name": "Eric Martel",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 48,
+       "minutes_per_match": 9.6,
+       "per90": {
+        "xg": 0.09,
+        "xa": 0.22,
+        "shots": 1.88,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.014
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 147,
+       "minutes_per_match": 16.3,
+       "per90": {
+        "xg": 0.35,
+        "xa": 0.07,
+        "shots": 3.67,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.024
+      }
+     }
+    },
+    {
+     "name": "Fabio Gruber",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 90,
+       "minutes_per_match": 18.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.001
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 4,
+       "minutes": 360,
+       "minutes_per_match": 40.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.02,
+        "shots": 0.0,
+        "key_passes": 0.25
+       },
+       "attack_share": 0.003
+      }
+     }
+    },
+    {
+     "name": "Silvan Widmer",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 196,
+       "minutes_per_match": 39.2,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.06,
+        "shots": 0.46,
+        "key_passes": 0.46
+       },
+       "attack_share": 0.013
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 6,
+       "minutes": 197,
+       "minutes_per_match": 21.9,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.05,
+        "shots": 0.46,
+        "key_passes": 0.46
+       },
+       "attack_share": 0.005
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Danny da Costa",
+     "in": "Ransford-Yeboah Königsdörffer",
+     "delta_per90": {
+      "xg": 0.37,
+      "xa": 0.03,
+      "shots": 2.7,
+      "key_passes": -0.28
+     },
+     "attack_share_delta": 0.028
+    },
+    {
+     "out": "Paul Nebel",
+     "in": "Eric Martel",
+     "delta_per90": {
+      "xg": 0.34,
+      "xa": -0.04,
+      "shots": 3.29,
+      "key_passes": -0.76
+     },
+     "attack_share_delta": 0.013
+    },
+    {
+     "out": "Phillipp Mwene",
+     "in": "Fabio Gruber",
+     "delta_per90": {
+      "xg": -0.09,
+      "xa": -0.04,
+      "shots": -1.07,
+      "key_passes": -0.29
+     },
+     "attack_share_delta": -0.034
+    },
+    {
+     "out": "Phillip Tietz",
+     "in": "Silvan Widmer",
+     "delta_per90": {
+      "xg": -0.6,
+      "xa": -0.05,
+      "shots": -2.92,
+      "key_passes": 0.2
+     },
+     "attack_share_delta": -0.183
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 8,
+   "out": [
+    {
+     "name": "Zeno Van Den Bosch",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 450,
+       "minutes_per_match": 90.0,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.0,
+        "shots": 0.4,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.034
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 8,
+       "minutes": 649,
+       "minutes_per_match": 81.1,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.0,
+        "shots": 0.55,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.035
+      }
+     }
+    },
+    {
+     "name": "Rani Khedira",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 450,
+       "minutes_per_match": 90.0,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.03,
+        "shots": 0.6,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.034
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 8,
+       "minutes": 720,
+       "minutes_per_match": 90.0,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.02,
+        "shots": 0.62,
+        "key_passes": 0.12
+       },
+       "attack_share": 0.042
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Leopold Querfeld",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 155,
+       "minutes_per_match": 31.0,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.0,
+        "shots": 1.16,
+        "key_passes": 0.58
+       },
+       "attack_share": 0.016
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 3,
+       "minutes": 245,
+       "minutes_per_match": 30.6,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.0,
+        "shots": 0.73,
+        "key_passes": 0.37
+       },
+       "attack_share": 0.011
+      }
+     }
+    },
+    {
+     "name": "Jeong Woo-Yeong",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 166,
+       "minutes_per_match": 33.2,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.03,
+        "shots": 0.54,
+        "key_passes": 0.54
+       },
+       "attack_share": 0.01
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 7,
+       "minutes": 393,
+       "minutes_per_match": 49.1,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.04,
+        "shots": 1.15,
+        "key_passes": 0.92
+       },
+       "attack_share": 0.033
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Zeno Van Den Bosch",
+     "in": "Leopold Querfeld",
+     "delta_per90": {
+      "xg": -0.01,
+      "xa": 0.0,
+      "shots": 0.18,
+      "key_passes": 0.37
+     },
+     "attack_share_delta": -0.024
+    },
+    {
+     "out": "Rani Khedira",
+     "in": "Jeong Woo-Yeong",
+     "delta_per90": {
+      "xg": 0.0,
+      "xa": 0.02,
+      "shots": 0.53,
+      "key_passes": 0.8
+     },
+     "attack_share_delta": -0.009
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Phillipp Mwene",
+    "reason": "injury",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": 971659
+   },
+   {
+    "player": "Otto Ruoppi",
+    "reason": "injury",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 2145397
+   },
+   {
+    "player": "Silas Katompa Mvumpa",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 1346596
+   },
+   {
+    "player": "Dominik Kohr",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 1658430
+   }
+  ],
+  "away": [
+   {
+    "player": "Josip Juranović",
+    "reason": "injury",
+    "likelihood": "About 1-2 weeks",
+    "market_value_eur": 1154872
+   },
+   {
+    "player": "Andrik Markgraf",
+    "reason": "injury",
+    "likelihood": "Early March 2027",
+    "market_value_eur": 634715
+   },
+   {
+    "player": "Felix Uduokhai",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 1358248
+   },
+   {
+    "player": "Robert Skov",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 825225
+   },
+   {
+    "player": "Stanley N'Soki",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 1214547
+   },
+   {
+    "player": "Zeno Van Den Bosch",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 4273583
+   },
+   {
+    "player": "Rani Khedira",
+    "reason": "injury",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": 1326663
+   },
+   {
+    "player": "Livan Burcu",
+    "reason": "injury",
+    "likelihood": "About 1-2 weeks",
+    "market_value_eur": 2315292
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 409,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.6677,
+    "DRAW": 0.1894,
+    "AWAY": 0.1429
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.5,
+     "bookmaker": "Betfred",
+     "fair_odds_consensus": 1.498,
+     "ev_vs_consensus": 0.0015
+    },
+    "DRAW": {
+     "odds": 4.9,
+     "bookmaker": "BetUK",
+     "fair_odds_consensus": 5.28,
+     "ev_vs_consensus": -0.0719
+    },
+    "AWAY": {
+     "odds": 7.0,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 6.998,
+     "ev_vs_consensus": 0.0003
+    }
+   },
+   "median_overround": 0.0718,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3.25",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8586,
+     "UNDER": 0.1414
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.16,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.165,
+      "ev_vs_consensus": -0.004
+     },
+     "UNDER": {
+      "odds": 6.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 7.072,
+      "ev_vs_consensus": -0.1516
+     }
+    },
+    "median_overround": 0.0677,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6498,
+     "UNDER": 0.3502
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.5,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.539,
+      "ev_vs_consensus": -0.0253
+     },
+     "UNDER": {
+      "odds": 2.7,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 2.856,
+      "ev_vs_consensus": -0.0545
+     }
+    },
+    "median_overround": 0.0649,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.25": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.4779,
+     "UNDER": 0.5221
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.05,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.092,
+      "ev_vs_consensus": -0.0203
+     },
+     "UNDER": {
+      "odds": 1.8,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.915,
+      "ev_vs_consensus": -0.0602
+     }
+    },
+    "median_overround": 0.0684,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4156,
+     "UNDER": 0.5844
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.25,
+      "bookmaker": "Parimatch.uk",
+      "fair_odds_consensus": 2.406,
+      "ev_vs_consensus": -0.0649
+     },
+     "UNDER": {
+      "odds": 1.67,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.711,
+      "ev_vs_consensus": -0.0241
+     }
+    },
+    "median_overround": 0.069,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": -0.21,
+  "DRAW": 0.06,
+  "AWAY": 0.15
+ },
+ "gaps": [
+  "XI_SINGLE_SOURCE:ESPN_ONLY",
+  "PLAYER_IMPACT_PARTIAL_HISTORY:home:9/10",
+  "PLAYER_IMPACT_PARTIAL_HISTORY:away:8/10"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
