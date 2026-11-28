@@ -1,0 +1,945 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-28T13:08:40.358480+00:00",
+ "minutes_before_kickoff": 51.32735866666667,
+ "match": {
+  "match_id": "IL7NtGKq",
+  "home": "Frosinone",
+  "away": "Parma",
+  "kickoff": "2026-11-28T14:00:00Z",
+  "competition": "Serie A",
+  "category": "Italy"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:325056",
+     "name": "Lorenzo Palmisani",
+     "number": "22",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:352751",
+     "name": "Gabriele Calvani",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:315213",
+     "name": "Anthony Oyono",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300001",
+     "name": "Ilario Monterisi",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:346974",
+     "name": "Gabriele Bracaglia",
+     "number": "79",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:236038",
+     "name": "Giacomo Calo",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:346840",
+     "name": "Patrizio Masini",
+     "number": "73",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238296",
+     "name": "Romano Schmid",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:360714",
+     "name": "Giorgi Kvernadze",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:356536",
+     "name": "Farès Ghedjemis",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306390",
+     "name": "Tomas Bobcek",
+     "number": "89",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "3-5-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:366510",
+     "name": "Giovanni Daffara",
+     "number": "30",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:288540",
+     "name": "Abdoulaye Ndiaye",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:272694",
+     "name": "Enrico Del Prato",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:366526",
+     "name": "Mariano Troilo",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:356358",
+     "name": "Benjamin Cremaschi",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323118",
+     "name": "Giovanni Fabbian",
+     "number": "80",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:286764",
+     "name": "Hans Nicolussi Caviglia",
+     "number": "41",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:308939",
+     "name": "Franco Carboni",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:316609",
+     "name": "Mandela Keita",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:287430",
+     "name": "El Bilal Toure",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:361749",
+     "name": "Nesta Elphege",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 1.0,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401874989",
+   "date": "2026-11-22T17:00:00+00:00",
+   "competition": "ita.1",
+   "opponent": "AC Milan",
+   "starters": [
+    {
+     "id": "espn:325056",
+     "name": "Lorenzo Palmisani",
+     "number": "22",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:300001",
+     "name": "Ilario Monterisi",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:333598",
+     "name": "Giorgio Cittadini",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:352751",
+     "name": "Gabriele Calvani",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:346840",
+     "name": "Patrizio Masini",
+     "number": "73",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:236038",
+     "name": "Giacomo Calo",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:238296",
+     "name": "Romano Schmid",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:334986",
+     "name": "Enzo Tchato",
+     "number": "90",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:315213",
+     "name": "Anthony Oyono",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:360714",
+     "name": "Giorgi Kvernadze",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:356536",
+     "name": "Farès Ghedjemis",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-4-1-2"
+  },
+  "away": {
+   "match_id": "espn:401874967",
+   "date": "2026-11-21T17:00:00+00:00",
+   "competition": "ita.1",
+   "opponent": "AS Roma",
+   "starters": [
+    {
+     "id": "espn:366510",
+     "name": "Giovanni Daffara",
+     "number": "30",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:366526",
+     "name": "Mariano Troilo",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:308939",
+     "name": "Franco Carboni",
+     "number": "29",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:272694",
+     "name": "Enrico Del Prato",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:316609",
+     "name": "Mandela Keita",
+     "number": "16",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:218857",
+     "name": "Vincent Sierro",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:261274",
+     "name": "Emanuele Valeri",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:396009",
+     "name": "Sascha Britschgi",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:361749",
+     "name": "Nesta Elphege",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:287430",
+     "name": "El Bilal Toure",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:323118",
+     "name": "Giovanni Fabbian",
+     "number": "80",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-4-2-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 2,
+   "out": [
+    "Giorgio Cittadini",
+    "Enzo Tchato"
+   ],
+   "in": [
+    "Gabriele Bracaglia",
+    "Tomas Bobcek"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Lorenzo Palmisani",
+   "previous_goalkeeper": "Lorenzo Palmisani"
+  },
+  "away": {
+   "count": 3,
+   "out": [
+    "Vincent Sierro",
+    "Emanuele Valeri",
+    "Sascha Britschgi"
+   ],
+   "in": [
+    "Abdoulaye Ndiaye",
+    "Benjamin Cremaschi",
+    "Hans Nicolussi Caviglia"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Giovanni Daffara",
+   "previous_goalkeeper": "Giovanni Daffara"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Giorgio Cittadini",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 120,
+       "minutes_per_match": 24.0,
+       "per90": {
+        "xg": 0.1,
+        "xa": 0.05,
+        "shots": 1.5,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.013
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 7,
+       "minutes": 460,
+       "minutes_per_match": 46.0,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.02,
+        "shots": 0.39,
+        "key_passes": 0.2
+       },
+       "attack_share": 0.008
+      }
+     }
+    },
+    {
+     "name": "Enzo Tchato",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 188,
+       "minutes_per_match": 37.6,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.11,
+        "shots": 0.48,
+        "key_passes": 2.39
+       },
+       "attack_share": 0.017
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 4,
+       "minutes": 188,
+       "minutes_per_match": 18.8,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.11,
+        "shots": 0.48,
+        "key_passes": 2.39
+       },
+       "attack_share": 0.009
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Gabriele Bracaglia",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 180,
+       "minutes_per_match": 36.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 616,
+       "minutes_per_match": 61.6,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.03,
+        "shots": 0.73,
+        "key_passes": 0.73
+       },
+       "attack_share": 0.016
+      }
+     }
+    },
+    {
+     "name": "Tomas Bobcek",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 19,
+       "minutes_per_match": 3.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.19,
+        "shots": 0.0,
+        "key_passes": 4.74
+       },
+       "attack_share": 0.003
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 3,
+       "minutes": 65,
+       "minutes_per_match": 6.5,
+       "per90": {
+        "xg": 0.64,
+        "xa": 0.11,
+        "shots": 5.54,
+        "key_passes": 2.77
+       },
+       "attack_share": 0.018
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Giorgio Cittadini",
+     "in": "Gabriele Bracaglia",
+     "delta_per90": {
+      "xg": 0.01,
+      "xa": 0.01,
+      "shots": 0.34,
+      "key_passes": 0.53
+     },
+     "attack_share_delta": 0.008
+    },
+    {
+     "out": "Enzo Tchato",
+     "in": "Tomas Bobcek",
+     "delta_per90": {
+      "xg": 0.62,
+      "xa": 0.0,
+      "shots": 5.06,
+      "key_passes": 0.38
+     },
+     "attack_share_delta": 0.009
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Vincent Sierro",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 381,
+       "minutes_per_match": 76.2,
+       "per90": {
+        "xg": 0.2,
+        "xa": 0.1,
+        "shots": 0.71,
+        "key_passes": 1.65
+       },
+       "attack_share": 0.146
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 633,
+       "minutes_per_match": 63.3,
+       "per90": {
+        "xg": 0.13,
+        "xa": 0.14,
+        "shots": 0.57,
+        "key_passes": 1.14
+       },
+       "attack_share": 0.106
+      }
+     }
+    },
+    {
+     "name": "Emanuele Valeri",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 390,
+       "minutes_per_match": 78.0,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.24,
+        "shots": 0.46,
+        "key_passes": 3.0
+       },
+       "attack_share": 0.13
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 840,
+       "minutes_per_match": 84.0,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.25,
+        "shots": 0.32,
+        "key_passes": 3.0
+       },
+       "attack_share": 0.142
+      }
+     }
+    },
+    {
+     "name": "Sascha Britschgi",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 296,
+       "minutes_per_match": 59.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.05,
+        "shots": 0.0,
+        "key_passes": 0.61
+       },
+       "attack_share": 0.018
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 544,
+       "minutes_per_match": 54.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.05,
+        "shots": 0.17,
+        "key_passes": 0.33
+       },
+       "attack_share": 0.018
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Abdoulaye Ndiaye",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 54,
+       "minutes_per_match": 10.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 2,
+       "minutes": 54,
+       "minutes_per_match": 5.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Benjamin Cremaschi",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 45,
+       "minutes_per_match": 9.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.22,
+        "shots": 0.0,
+        "key_passes": 4.0
+       },
+       "attack_share": 0.013
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 1,
+       "minutes": 45,
+       "minutes_per_match": 4.5,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.22,
+        "shots": 0.0,
+        "key_passes": 4.0
+       },
+       "attack_share": 0.006
+      }
+     }
+    },
+    {
+     "name": "Hans Nicolussi Caviglia",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 16,
+       "minutes_per_match": 3.2,
+       "per90": {
+        "xg": 0.23,
+        "xa": 0.06,
+        "shots": 11.25,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.006
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 2,
+       "minutes": 16,
+       "minutes_per_match": 1.6,
+       "per90": {
+        "xg": 0.23,
+        "xa": 0.06,
+        "shots": 11.25,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.003
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Vincent Sierro",
+     "in": "Abdoulaye Ndiaye",
+     "delta_per90": {
+      "xg": -0.13,
+      "xa": -0.14,
+      "shots": -0.57,
+      "key_passes": -1.14
+     },
+     "attack_share_delta": -0.106
+    },
+    {
+     "out": "Emanuele Valeri",
+     "in": "Benjamin Cremaschi",
+     "delta_per90": {
+      "xg": -0.02,
+      "xa": -0.03,
+      "shots": -0.32,
+      "key_passes": 1.0
+     },
+     "attack_share_delta": -0.136
+    },
+    {
+     "out": "Sascha Britschgi",
+     "in": "Hans Nicolussi Caviglia",
+     "delta_per90": {
+      "xg": 0.23,
+      "xa": 0.01,
+      "shots": 11.08,
+      "key_passes": -0.33
+     },
+     "attack_share_delta": -0.015
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Daniel Bîrligea",
+    "reason": "injury",
+    "likelihood": "About 1-2 weeks",
+    "market_value_eur": 4118202
+   }
+  ],
+  "away": [
+   {
+    "player": "Djibril Diallo",
+    "reason": "internationalDuty",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": null
+   },
+   {
+    "player": "Dominik Drobnič",
+    "reason": "injury",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": 1829474
+   },
+   {
+    "player": "David Romero",
+    "reason": "injury",
+    "likelihood": "Late December 2026",
+    "market_value_eur": 9134924
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 405,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.6871,
+    "DRAW": 0.174,
+    "AWAY": 0.1389
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.46,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 1.455,
+     "ev_vs_consensus": 0.0032
+    },
+    "DRAW": {
+     "odds": 5.4,
+     "bookmaker": "BetUK",
+     "fair_odds_consensus": 5.747,
+     "ev_vs_consensus": -0.0604
+    },
+    "AWAY": {
+     "odds": 6.5,
+     "bookmaker": "Betfred",
+     "fair_odds_consensus": 7.199,
+     "ev_vs_consensus": -0.0972
+    }
+   },
+   "median_overround": 0.0688,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3.5",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8926,
+     "UNDER": 0.1074
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.12,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.12,
+      "ev_vs_consensus": -0.0003
+     },
+     "UNDER": {
+      "odds": 8.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 9.311,
+      "ev_vs_consensus": -0.1408
+     }
+    },
+    "median_overround": 0.0654,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.7163,
+     "UNDER": 0.2837
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.37,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.396,
+      "ev_vs_consensus": -0.0187
+     },
+     "UNDER": {
+      "odds": 3.3,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 3.525,
+      "ev_vs_consensus": -0.0638
+     }
+    },
+    "median_overround": 0.0644,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.5,
+     "UNDER": 0.5
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.95,
+      "bookmaker": "Ladbrokes",
+      "fair_odds_consensus": 2.0,
+      "ev_vs_consensus": -0.025
+     },
+     "UNDER": {
+      "odds": 1.91,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 2.0,
+      "ev_vs_consensus": -0.045
+     }
+    },
+    "median_overround": 0.0648,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 2.28,
+  "DRAW": -0.65,
+  "AWAY": -1.63
+ },
+ "gaps": [],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
