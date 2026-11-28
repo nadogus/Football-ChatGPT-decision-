@@ -1,0 +1,874 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-28T14:34:14.866796+00:00",
+ "minutes_before_kickoff": 55.75222006666667,
+ "match": {
+  "match_id": "hK7OYFPO",
+  "home": "Arouca",
+  "away": "Rio Ave",
+  "kickoff": "2026-11-28T15:30:00Z",
+  "competition": "Liga Portugal",
+  "category": "Portugal"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:217556",
+     "name": "Ignacio De Arruabarrena",
+     "number": "12",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:301904",
+     "name": "José Fontán",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:191899",
+     "name": "Javi Sánchez",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:286545",
+     "name": "Orest Lebedenko",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:291193",
+     "name": "Tiago Esgaio",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300121",
+     "name": "Pablo Gozálbez",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:316899",
+     "name": "Taichi Fukui",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:367717",
+     "name": "Espen Van Ee",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:178579",
+     "name": "Ivan Martínez",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:281113",
+     "name": "Näis Djouahra",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284853",
+     "name": "Alfonso Trezza",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:298877",
+     "name": "Ennio van der Gouw",
+     "number": "99",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:325226",
+     "name": "Andreas Ntoi",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:358393",
+     "name": "Francisco Petrasso",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:306864",
+     "name": "Nelson Abbey",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:360362",
+     "name": "Julien Lomboto",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365808",
+     "name": "Diogo Nascimento",
+     "number": "90",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:278788",
+     "name": "Georgios Liavas",
+     "number": "54",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:314907",
+     "name": "Ryan Guilherme",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:353127",
+     "name": "Tamble",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:326484",
+     "name": "Roland Galcik",
+     "number": "30",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:335153",
+     "name": "Diogo Bezerra",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 0.909,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": null,
+  "away": {
+   "match_id": "espn:401885397",
+   "date": "2026-11-08T20:30:00+00:00",
+   "competition": "por.1",
+   "opponent": "Braga",
+   "starters": [
+    {
+     "id": "espn:298877",
+     "name": "Ennio van der Gouw",
+     "number": "99",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:400882",
+     "name": "Gustavo Mancha",
+     "number": "39",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:360362",
+     "name": "Julien Lomboto",
+     "number": "13",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:249163",
+     "name": "Marios Vrousai",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:361902",
+     "name": "João Tomé",
+     "number": "20",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:3125446",
+     "name": "Miguel Patrício",
+     "number": "79",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365808",
+     "name": "Diogo Nascimento",
+     "number": "90",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:278788",
+     "name": "Georgios Liavas",
+     "number": "54",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:380563",
+     "name": "Jalen Blesa",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:335153",
+     "name": "Diogo Bezerra",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:390390",
+     "name": "Sebastian Clemmensen",
+     "number": "80",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": null,
+  "away": {
+   "count": 6,
+   "out": [
+    "Gustavo Mancha",
+    "Marios Vrousai",
+    "João Tomé",
+    "Miguel Patrício",
+    "Jalen Blesa",
+    "Sebastian Clemmensen"
+   ],
+   "in": [
+    "Andreas Ntoi",
+    "Francisco Petrasso",
+    "Nelson Abbey",
+    "Ryan Guilherme",
+    "Tamble",
+    "Roland Galcik"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Ennio van der Gouw",
+   "previous_goalkeeper": "Ennio van der Gouw"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "ONCEKI_KADRO_YOK"
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 8,
+   "out": [
+    {
+     "name": "Gustavo Mancha",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 270,
+       "minutes_per_match": 54.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.005
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 5,
+       "minutes": 450,
+       "minutes_per_match": 56.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.005
+      }
+     }
+    },
+    {
+     "name": "Marios Vrousai",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 391,
+       "minutes_per_match": 78.2,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.02,
+        "shots": 0.46,
+        "key_passes": 0.23
+       },
+       "attack_share": 0.033
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 8,
+       "minutes": 544,
+       "minutes_per_match": 68.0,
+       "per90": {
+        "xg": 0.03,
+        "xa": 0.02,
+        "shots": 0.66,
+        "key_passes": 0.17
+       },
+       "attack_share": 0.028
+      }
+     }
+    },
+    {
+     "name": "João Tomé",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 338,
+       "minutes_per_match": 67.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.06,
+        "shots": 0.0,
+        "key_passes": 0.53
+       },
+       "attack_share": 0.039
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 7,
+       "minutes": 419,
+       "minutes_per_match": 52.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.05,
+        "shots": 0.0,
+        "key_passes": 0.64
+       },
+       "attack_share": 0.027
+      }
+     }
+    },
+    {
+     "name": "Miguel Patrício",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 361,
+       "minutes_per_match": 72.2,
+       "per90": {
+        "xg": 0.1,
+        "xa": 0.04,
+        "shots": 1.5,
+        "key_passes": 0.75
+       },
+       "attack_share": 0.09
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 7,
+       "minutes": 428,
+       "minutes_per_match": 53.5,
+       "per90": {
+        "xg": 0.1,
+        "xa": 0.04,
+        "shots": 1.47,
+        "key_passes": 0.63
+       },
+       "attack_share": 0.07
+      }
+     }
+    },
+    {
+     "name": "Jalen Blesa",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 438,
+       "minutes_per_match": 87.6,
+       "per90": {
+        "xg": 0.32,
+        "xa": 0.03,
+        "shots": 1.23,
+        "key_passes": 0.62
+       },
+       "attack_share": 0.278
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 8,
+       "minutes": 704,
+       "minutes_per_match": 88.0,
+       "per90": {
+        "xg": 0.3,
+        "xa": 0.07,
+        "shots": 1.02,
+        "key_passes": 0.89
+       },
+       "attack_share": 0.309
+      }
+     }
+    },
+    {
+     "name": "Sebastian Clemmensen",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 309,
+       "minutes_per_match": 61.8,
+       "per90": {
+        "xg": 0.13,
+        "xa": 0.12,
+        "shots": 1.46,
+        "key_passes": 1.46
+       },
+       "attack_share": 0.141
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 7,
+       "minutes": 408,
+       "minutes_per_match": 51.0,
+       "per90": {
+        "xg": 0.11,
+        "xa": 0.09,
+        "shots": 1.32,
+        "key_passes": 1.1
+       },
+       "attack_share": 0.094
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Andreas Ntoi",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 360,
+       "minutes_per_match": 72.0,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.02,
+        "shots": 0.25,
+        "key_passes": 0.5
+       },
+       "attack_share": 0.015
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 7,
+       "minutes": 617,
+       "minutes_per_match": 77.1,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.02,
+        "shots": 0.44,
+        "key_passes": 0.58
+       },
+       "attack_share": 0.021
+      }
+     }
+    },
+    {
+     "name": "Francisco Petrasso",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 228,
+       "minutes_per_match": 45.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.02,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.007
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 7,
+       "minutes": 498,
+       "minutes_per_match": 62.2,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.01,
+        "shots": 0.18,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.017
+      }
+     }
+    },
+    {
+     "name": "Nelson Abbey",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 0,
+       "minutes": 0,
+       "minutes_per_match": 0.0,
+       "per90": null,
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 1,
+       "minutes": 1,
+       "minutes_per_match": 0.1,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Ryan Guilherme",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 17,
+       "minutes_per_match": 3.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.05,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 2,
+       "minutes": 17,
+       "minutes_per_match": 2.1,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.05,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.001
+      }
+     }
+    },
+    {
+     "name": "Tamble",
+     "windows": null,
+     "note": "son maçlarda istatistik yok (yeni transfer / veri boşluğu)"
+    },
+    {
+     "name": "Roland Galcik",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 99,
+       "minutes_per_match": 19.8,
+       "per90": {
+        "xg": 0.18,
+        "xa": 0.03,
+        "shots": 2.73,
+        "key_passes": 0.91
+       },
+       "attack_share": 0.038
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 6,
+       "minutes": 177,
+       "minutes_per_match": 22.1,
+       "per90": {
+        "xg": 0.11,
+        "xa": 0.02,
+        "shots": 2.03,
+        "key_passes": 0.51
+       },
+       "attack_share": 0.027
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Gustavo Mancha",
+     "in": "Andreas Ntoi",
+     "delta_per90": {
+      "xg": 0.01,
+      "xa": 0.01,
+      "shots": 0.44,
+      "key_passes": 0.58
+     },
+     "attack_share_delta": 0.016
+    },
+    {
+     "out": "Marios Vrousai",
+     "in": "Francisco Petrasso",
+     "delta_per90": {
+      "xg": -0.01,
+      "xa": -0.01,
+      "shots": -0.48,
+      "key_passes": -0.17
+     },
+     "attack_share_delta": -0.011
+    },
+    {
+     "out": "João Tomé",
+     "in": "Nelson Abbey",
+     "delta_per90": {
+      "xg": 0.0,
+      "xa": -0.05,
+      "shots": 0.0,
+      "key_passes": -0.64
+     },
+     "attack_share_delta": -0.027
+    },
+    {
+     "out": "Miguel Patrício",
+     "in": "Ryan Guilherme",
+     "delta_per90": {
+      "xg": -0.1,
+      "xa": 0.01,
+      "shots": -1.47,
+      "key_passes": -0.63
+     },
+     "attack_share_delta": -0.069
+    },
+    {
+     "out": "Sebastian Clemmensen",
+     "in": "Roland Galcik",
+     "delta_per90": {
+      "xg": 0.0,
+      "xa": -0.07,
+      "shots": 0.71,
+      "key_passes": -0.59
+     },
+     "attack_share_delta": -0.067
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Miguel Puche",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 495585
+   }
+  ],
+  "away": [
+   {
+    "player": "Cezary Miszta",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 2284061
+   },
+   {
+    "player": "Zé Carlos",
+    "reason": "injury",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": 1186447
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 388,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.5911,
+    "DRAW": 0.2341,
+    "AWAY": 0.1748
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.73,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 1.692,
+     "ev_vs_consensus": 0.0226
+    },
+    "DRAW": {
+     "odds": 4.0,
+     "bookmaker": "BetUK",
+     "fair_odds_consensus": 4.272,
+     "ev_vs_consensus": -0.0636
+    },
+    "AWAY": {
+     "odds": 5.25,
+     "bookmaker": "SpreadEX",
+     "fair_odds_consensus": 5.721,
+     "ev_vs_consensus": -0.0823
+    }
+   },
+   "median_overround": 0.0822,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2.5",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.7765,
+     "UNDER": 0.2235
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.29,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.288,
+      "ev_vs_consensus": 0.0017
+     },
+     "UNDER": {
+      "odds": 4.0,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 4.474,
+      "ev_vs_consensus": -0.106
+     }
+    },
+    "median_overround": 0.07,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.517,
+     "UNDER": 0.483
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.84,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.934,
+      "ev_vs_consensus": -0.0487
+     },
+     "UNDER": {
+      "odds": 2.0,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.07,
+      "ev_vs_consensus": -0.034
+     }
+    },
+    "median_overround": 0.0791,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.2902,
+     "UNDER": 0.7098
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 3.2,
+      "bookmaker": "Paddy Power",
+      "fair_odds_consensus": 3.446,
+      "ev_vs_consensus": -0.0714
+     },
+     "UNDER": {
+      "odds": 1.4,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 1.409,
+      "ev_vs_consensus": -0.0063
+     }
+    },
+    "median_overround": 0.0741,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 1.75,
+  "DRAW": -0.65,
+  "AWAY": -1.1
+ },
+ "gaps": [
+  "PREVIOUS_XI_UNAVAILABLE:home",
+  "PLAYER_IMPACT_PARTIAL_HISTORY:away:8/10"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
