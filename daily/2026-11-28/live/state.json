@@ -167,6 +167,36 @@
    "t": "2026-11-28T15:28:23.201502+00:00",
    "fotmob_id": "5881236",
    "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-28T15:33:22.906076+00:00",
+   "match": "8YrmyZK6",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T15:33:22.906076+00:00",
+   "match": "txvscGsQ",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T15:33:22.906076+00:00",
+   "match": "nRpn0xaC",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T15:33:22.906076+00:00",
+   "fotmob_id": "5749763",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-28T15:33:22.906076+00:00",
+   "fotmob_id": "5881236",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-28T15:33:22.906076+00:00",
+   "fotmob_id": "5836958",
+   "reason": "ALERT_NOT_SENT"
   }
  ]
 }

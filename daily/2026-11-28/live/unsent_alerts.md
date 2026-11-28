@@ -62,3 +62,27 @@ _Uyarıdır, karar değildir._
 xG 0.03–0.36 · xGOT 0.05–0.00 · ceza sahası topla buluşma 2–6 · isabetli şut 1–0
 Karar için Claude'a yaz: `canlı bak 5881236`
 _Uyarıdır, karar değildir._
+
+---
+15:33 UTC
+⚡ *Canlı uyarı* — Frosinone 2-0 Parma (75‎’‎)
+• Frosinone son ~15 dk'da +1.03 xG üretti
+xG 1.67–0.44 · xGOT 2.57–0.07 · ceza sahası topla buluşma 43–10 · isabetli şut 9–3
+Karar için Claude'a yaz: `canlı bak 5749763`
+_Uyarıdır, karar değildir._
+
+---
+15:33 UTC
+⚡ *Canlı uyarı* — Hamburger SV 0-0 Bayern München (HT)
+• Bayern München kırmızı kart gördü (1)
+xG 0.03–0.36 · xGOT 0.05–0.00 · ceza sahası topla buluşma 2–6 · isabetli şut 1–0
+Karar için Claude'a yaz: `canlı bak 5881236`
+_Uyarıdır, karar değildir._
+
+---
+15:33 UTC
+⚡ *Canlı uyarı* — Birmingham City 1-0 Bolton Wanderers (33‎’‎)
+• Birmingham City kırmızı kart gördü (1)
+xG 0.36–0.52 · xGOT 0.95–0.89 · ceza sahası topla buluşma 8–10 · isabetli şut 1–2
+Karar için Claude'a yaz: `canlı bak 5836958`
+_Uyarıdır, karar değildir._
