@@ -86,3 +86,36 @@ _Uyarıdır, karar değildir._
 xG 0.36–0.52 · xGOT 0.95–0.89 · ceza sahası topla buluşma 8–10 · isabetli şut 1–2
 Karar için Claude'a yaz: `canlı bak 5836958`
 _Uyarıdır, karar değildir._
+
+---
+16:02 UTC
+⚡ *Canlı uyarı* — Hamburger SV 0-0 Bayern München (74‎’‎)
+• Bayern München kırmızı kart gördü (1)
+xG 0.47–0.41 · xGOT 0.89–0.00 · ceza sahası topla buluşma 9–13 · isabetli şut 2–0
+Karar için Claude'a yaz: `canlı bak 5881236`
+_Uyarıdır, karar değildir._
+
+---
+16:02 UTC
+⚡ *Canlı uyarı* — Birmingham City 1-1 Bolton Wanderers (HT)
+• Bolton Wanderers son ~15 dk'da +0.92 xG üretti
+• Birmingham City kırmızı kart gördü (1)
+xG 0.36–1.10 · xGOT 0.95–1.78 · ceza sahası topla buluşma 8–23 · isabetli şut 1–5
+Karar için Claude'a yaz: `canlı bak 5836958`
+_Uyarıdır, karar değildir._
+
+---
+16:02 UTC
+⚡ *Canlı uyarı* — Leeds United 2-0 Coventry City (HT)
+• Leeds United son ~15 dk'da +0.71 xG üretti
+xG 1.29–0.18 · xGOT 1.39–0.00 · ceza sahası topla buluşma 19–4 · isabetli şut 3–0
+Karar için Claude'a yaz: `canlı bak 5795531`
+_Uyarıdır, karar değildir._
+
+---
+16:02 UTC
+⚡ *Canlı uyarı* — Manchester United 0-2 Brentford (HT)
+• Brentford son ~15 dk'da +0.85 xG üretti
+xG 1.32–1.06 · xGOT 0.56–0.43 · ceza sahası topla buluşma 17–11 · isabetli şut 3–2
+Karar için Claude'a yaz: `canlı bak 5795532`
+_Uyarıdır, karar değildir._

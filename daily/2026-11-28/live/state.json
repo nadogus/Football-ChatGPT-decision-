@@ -19,7 +19,8 @@
   "tMZ44Ddn": "5795532",
   "GAxgUCmf": "5781816",
   "hK7OYFPO": "5887682",
-  "MycemFvI": "5887686"
+  "MycemFvI": "5887686",
+  "ADeF12ac": "5904812"
  },
  "alerts": {},
  "errors": [
@@ -196,6 +197,41 @@
   {
    "t": "2026-11-28T15:33:22.906076+00:00",
    "fotmob_id": "5836958",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-28T16:02:12.414602+00:00",
+   "match": "8YrmyZK6",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T16:02:12.414602+00:00",
+   "match": "txvscGsQ",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T16:02:12.414602+00:00",
+   "match": "nRpn0xaC",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T16:02:12.414602+00:00",
+   "fotmob_id": "5881236",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-28T16:02:12.414602+00:00",
+   "fotmob_id": "5836958",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-28T16:02:12.414602+00:00",
+   "fotmob_id": "5795531",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-28T16:02:12.414602+00:00",
+   "fotmob_id": "5795532",
    "reason": "ALERT_NOT_SENT"
   }
  ]
