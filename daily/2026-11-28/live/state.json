@@ -1,0 +1,16 @@
+{
+ "resolved": {
+  "dzF6yrFk": "5836959",
+  "zLpuwejf": "5836963",
+  "rwpakLpf": "5868141",
+  "6HMshkS0": "5904820"
+ },
+ "alerts": {},
+ "errors": [
+  {
+   "t": "2026-11-28T13:26:39.676752+00:00",
+   "match": "df50cPy9",
+   "reason": "LOW_MATCH_SCORE"
+  }
+ ]
+}

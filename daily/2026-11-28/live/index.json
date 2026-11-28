@@ -1,0 +1,54 @@
+{
+ "5836959": {
+  "flashscore_id": "dzF6yrFk",
+  "competition": "Championship",
+  "home": "Blackburn Rovers",
+  "away": "Charlton Athletic",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "HT",
+  "finished": false,
+  "updated": "2026-11-28T13:26:39Z"
+ },
+ "5836963": {
+  "flashscore_id": "zLpuwejf",
+  "competition": "Championship",
+  "home": "Preston North End",
+  "away": "Norwich City",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "HT",
+  "finished": false,
+  "updated": "2026-11-28T13:26:39Z"
+ },
+ "5868141": {
+  "flashscore_id": "rwpakLpf",
+  "competition": "LaLiga",
+  "home": "Real Betis",
+  "away": "Rayo Vallecano",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "22‎’‎",
+  "finished": false,
+  "updated": "2026-11-28T13:26:39Z"
+ },
+ "5904820": {
+  "flashscore_id": "6HMshkS0",
+  "competition": "Super Lig",
+  "home": "Samsunspor",
+  "away": "Gençlerbirliği",
+  "score": [
+   2,
+   0
+  ],
+  "minute": "26‎’‎",
+  "finished": false,
+  "updated": "2026-11-28T13:26:39Z"
+ }
+}
