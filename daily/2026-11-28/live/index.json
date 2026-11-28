@@ -32,11 +32,11 @@
   "away": "Rayo Vallecano",
   "score": [
    0,
-   0
+   1
   ],
-  "minute": "70‎’‎",
+  "minute": "75‎’‎",
   "finished": false,
-  "updated": "2026-11-28T14:32:33Z"
+  "updated": "2026-11-28T14:37:34Z"
  },
  "5904820": {
   "flashscore_id": "6HMshkS0",
@@ -47,9 +47,9 @@
    3,
    1
   ],
-  "minute": "75‎’‎",
+  "minute": "80‎’‎",
   "finished": false,
-  "updated": "2026-11-28T14:32:33Z"
+  "updated": "2026-11-28T14:37:34Z"
  },
  "5749763": {
   "flashscore_id": "IL7NtGKq",
@@ -60,9 +60,9 @@
    0,
    0
   ],
-  "minute": "31‎’‎",
+  "minute": "36‎’‎",
   "finished": false,
-  "updated": "2026-11-28T14:32:33Z"
+  "updated": "2026-11-28T14:37:34Z"
  },
  "5881234": {
   "flashscore_id": "tAPSccBD",
@@ -73,9 +73,9 @@
    0,
    0
   ],
-  "minute": "3‎’‎",
+  "minute": "8‎’‎",
   "finished": false,
-  "updated": "2026-11-28T14:32:33Z"
+  "updated": "2026-11-28T14:37:34Z"
  },
  "5881236": {
   "flashscore_id": "YqMKaJt1",
@@ -86,9 +86,9 @@
    0,
    0
   ],
-  "minute": "3‎’‎",
+  "minute": "8‎’‎",
   "finished": false,
-  "updated": "2026-11-28T14:32:33Z"
+  "updated": "2026-11-28T14:37:34Z"
  },
  "5881238": {
   "flashscore_id": "QJIC1uCl",
@@ -99,9 +99,9 @@
    0,
    0
   ],
-  "minute": "3‎’‎",
+  "minute": "8‎’‎",
   "finished": false,
-  "updated": "2026-11-28T14:32:33Z"
+  "updated": "2026-11-28T14:37:34Z"
  },
  "5881239": {
   "flashscore_id": "rwbpGvRs",
@@ -112,8 +112,8 @@
    0,
    0
   ],
-  "minute": "3‎’‎",
+  "minute": "8‎’‎",
   "finished": false,
-  "updated": "2026-11-28T14:32:33Z"
+  "updated": "2026-11-28T14:37:34Z"
  }
 }
