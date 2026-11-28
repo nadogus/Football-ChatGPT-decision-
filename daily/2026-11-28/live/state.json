@@ -119,6 +119,26 @@
    "t": "2026-11-28T15:18:22.474627+00:00",
    "fotmob_id": "5881236",
    "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-28T15:23:23.361162+00:00",
+   "match": "8YrmyZK6",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T15:23:23.361162+00:00",
+   "match": "txvscGsQ",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T15:23:23.361162+00:00",
+   "match": "nRpn0xaC",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T15:23:23.361162+00:00",
+   "fotmob_id": "5881236",
+   "reason": "ALERT_NOT_SENT"
   }
  ]
 }
