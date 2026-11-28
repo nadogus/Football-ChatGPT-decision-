@@ -21,6 +21,16 @@
    "t": "2026-11-28T13:36:39.242227+00:00",
    "match": "df50cPy9",
    "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T13:41:38.711960+00:00",
+   "match": "df50cPy9",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T13:41:38.711960+00:00",
+   "fotmob_id": "5904820",
+   "reason": "ALERT_NOT_SENT"
   }
  ]
 }
