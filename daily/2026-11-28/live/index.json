@@ -57,12 +57,12 @@
   "home": "Frosinone",
   "away": "Parma",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "55‎’‎",
+  "minute": "60‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5881234": {
   "flashscore_id": "tAPSccBD",
@@ -73,9 +73,9 @@
    3,
    0
   ],
-  "minute": "44‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5881236": {
   "flashscore_id": "YqMKaJt1",
@@ -86,9 +86,9 @@
    0,
    0
   ],
-  "minute": "44‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5881238": {
   "flashscore_id": "QJIC1uCl",
@@ -99,9 +99,9 @@
    0,
    1
   ],
-  "minute": "44‎’‎",
+  "minute": "HT",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5881239": {
   "flashscore_id": "rwbpGvRs",
@@ -112,9 +112,9 @@
    2,
    0
   ],
-  "minute": "44‎’‎",
+  "minute": "49‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5836958": {
   "flashscore_id": "QiOzs4iS",
@@ -125,9 +125,9 @@
    1,
    0
   ],
-  "minute": "14‎’‎",
+  "minute": "18‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5836960": {
   "flashscore_id": "40IEZLq2",
@@ -138,9 +138,9 @@
    0,
    0
   ],
-  "minute": "14‎’‎",
+  "minute": "19‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5836962": {
   "flashscore_id": "SfsXvHLs",
@@ -151,9 +151,9 @@
    0,
    0
   ],
-  "minute": "14‎’‎",
+  "minute": "19‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5836968": {
   "flashscore_id": "x8PCif5m",
@@ -164,9 +164,9 @@
    0,
    0
   ],
-  "minute": "7‎’‎",
+  "minute": "12‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5836969": {
   "flashscore_id": "AcLydrgd",
@@ -177,9 +177,9 @@
    1,
    0
   ],
-  "minute": "13‎’‎",
+  "minute": "18‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5811826": {
   "flashscore_id": "SGKIusH5",
@@ -190,9 +190,9 @@
    0,
    0
   ],
-  "minute": "11‎’‎",
+  "minute": "16‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5795531": {
   "flashscore_id": "GtJgcdkJ",
@@ -203,9 +203,9 @@
    0,
    0
   ],
-  "minute": "13‎’‎",
+  "minute": "18‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  },
  "5795532": {
   "flashscore_id": "tMZ44Ddn",
@@ -216,8 +216,8 @@
    0,
    0
   ],
-  "minute": "14‎’‎",
+  "minute": "19‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:13:23Z"
+  "updated": "2026-11-28T15:18:22Z"
  }
 }

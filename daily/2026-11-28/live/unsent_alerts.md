@@ -30,3 +30,11 @@ _Uyarıdır, karar değildir._
 xG 1.67–1.06 · xGOT 2.80–1.00 · ceza sahası topla buluşma 10–11 · isabetli şut 5–2
 Karar için Claude'a yaz: `canlı bak 5904820`
 _Uyarıdır, karar değildir._
+
+---
+15:18 UTC
+⚡ *Canlı uyarı* — Hamburger SV 0-0 Bayern München (HT)
+• Bayern München kırmızı kart gördü (1)
+xG 0.03–0.36 · xGOT 0.05–0.00 · ceza sahası topla buluşma 2–6 · isabetli şut 1–0
+Karar için Claude'a yaz: `canlı bak 5881236`
+_Uyarıdır, karar değildir._
