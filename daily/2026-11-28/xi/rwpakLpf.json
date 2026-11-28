@@ -1,0 +1,940 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-28T12:03:24.782323+00:00",
+ "minutes_before_kickoff": 56.58696128333334,
+ "match": {
+  "match_id": "rwpakLpf",
+  "home": "Betis",
+  "away": "Rayo Vallecano",
+  "kickoff": "2026-11-28T13:00:00Z",
+  "competition": "LaLiga",
+  "category": "Spain"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:283892",
+     "name": "Álvaro Valles",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:301526",
+     "name": "Natan",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:269655",
+     "name": "Junior Firpo",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:178978",
+     "name": "Héctor Bellerín",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:145078",
+     "name": "Marc Bartra",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:227714",
+     "name": "Pablo Fornals",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:242008",
+     "name": "Marc Roca",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:143564",
+     "name": "Isco",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:336809",
+     "name": "Cucho Hernández",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300912",
+     "name": "Abde Ezzalzouli",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:281558",
+     "name": "Antony",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:207834",
+     "name": "Emil Audero",
+     "number": "25",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:277292",
+     "name": "Adrià Pedrosa",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:294228",
+     "name": "Pathé Ciss",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:287224",
+     "name": "Andrei Ratiu",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:140754",
+     "name": "Florian Lejeune",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:203711",
+     "name": "Unai López",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:3115984",
+     "name": "Gnangoro Bouare Samake",
+     "number": "36",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:264197",
+     "name": "Isi Palazón",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:260740",
+     "name": "Jorge de Frutos",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276652",
+     "name": "Sergio Camello",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:125200",
+     "name": "Álvaro García",
+     "number": "18",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": false,
+  "reason": "NO_SECOND_SOURCE(fotmob:predicted)"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401882797",
+   "date": "2026-11-21T17:30:00+00:00",
+   "competition": "esp.1",
+   "opponent": "Sevilla",
+   "starters": [
+    {
+     "id": "espn:283892",
+     "name": "Álvaro Valles",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:301526",
+     "name": "Natan",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:145078",
+     "name": "Marc Bartra",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:213050",
+     "name": "Fran García",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:178978",
+     "name": "Héctor Bellerín",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:143564",
+     "name": "Isco",
+     "number": "22",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:242008",
+     "name": "Marc Roca",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:227714",
+     "name": "Pablo Fornals",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:268601",
+     "name": "Aitor Ruibal",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:300912",
+     "name": "Abde Ezzalzouli",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:281558",
+     "name": "Antony",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401882799",
+   "date": "2026-11-21T15:15:00+00:00",
+   "competition": "esp.1",
+   "opponent": "Valencia",
+   "starters": [
+    {
+     "id": "espn:207834",
+     "name": "Emil Audero",
+     "number": "25",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:265996",
+     "name": "Mujaid Sadick",
+     "number": "15",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:140754",
+     "name": "Florian Lejeune",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276067",
+     "name": "Giorgi Tsitaishvili",
+     "number": "14",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:287224",
+     "name": "Andrei Ratiu",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:203711",
+     "name": "Unai López",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:294228",
+     "name": "Pathé Ciss",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:260740",
+     "name": "Jorge de Frutos",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:264197",
+     "name": "Isi Palazón",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276652",
+     "name": "Sergio Camello",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276847",
+     "name": "Randy Nteka",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-4-2"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 2,
+   "out": [
+    "Fran García",
+    "Aitor Ruibal"
+   ],
+   "in": [
+    "Junior Firpo",
+    "Cucho Hernández"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Álvaro Valles",
+   "previous_goalkeeper": "Álvaro Valles"
+  },
+  "away": {
+   "count": 3,
+   "out": [
+    "Mujaid Sadick",
+    "Giorgi Tsitaishvili",
+    "Randy Nteka"
+   ],
+   "in": [
+    "Adrià Pedrosa",
+    "Gnangoro Bouare Samake",
+    "Álvaro García"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Emil Audero",
+   "previous_goalkeeper": "Emil Audero"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Fran García",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 334,
+       "minutes_per_match": 66.8,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.05,
+        "shots": 0.54,
+        "key_passes": 0.81
+       },
+       "attack_share": 0.016
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 694,
+       "minutes_per_match": 69.4,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.05,
+        "shots": 0.52,
+        "key_passes": 0.65
+       },
+       "attack_share": 0.018
+      }
+     }
+    },
+    {
+     "name": "Aitor Ruibal",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 244,
+       "minutes_per_match": 48.8,
+       "per90": {
+        "xg": 0.24,
+        "xa": 0.35,
+        "shots": 2.58,
+        "key_passes": 2.58
+       },
+       "attack_share": 0.099
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 6,
+       "minutes": 259,
+       "minutes_per_match": 25.9,
+       "per90": {
+        "xg": 0.22,
+        "xa": 0.33,
+        "shots": 2.43,
+        "key_passes": 2.43
+       },
+       "attack_share": 0.052
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Junior Firpo",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 76,
+       "minutes_per_match": 15.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.32,
+        "shots": 0.0,
+        "key_passes": 1.18
+       },
+       "attack_share": 0.017
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 1,
+       "minutes": 76,
+       "minutes_per_match": 7.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.32,
+        "shots": 0.0,
+        "key_passes": 1.18
+       },
+       "attack_share": 0.009
+      }
+     }
+    },
+    {
+     "name": "Cucho Hernández",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 63,
+       "minutes_per_match": 12.6,
+       "per90": {
+        "xg": 0.7,
+        "xa": 0.01,
+        "shots": 7.14,
+        "key_passes": 1.43
+       },
+       "attack_share": 0.031
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 3,
+       "minutes": 155,
+       "minutes_per_match": 15.5,
+       "per90": {
+        "xg": 0.45,
+        "xa": 0.02,
+        "shots": 4.06,
+        "key_passes": 0.58
+       },
+       "attack_share": 0.026
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Fran García",
+     "in": "Junior Firpo",
+     "delta_per90": {
+      "xg": -0.02,
+      "xa": 0.27,
+      "shots": -0.52,
+      "key_passes": 0.53
+     },
+     "attack_share_delta": -0.009
+    },
+    {
+     "out": "Aitor Ruibal",
+     "in": "Cucho Hernández",
+     "delta_per90": {
+      "xg": 0.23,
+      "xa": -0.31,
+      "shots": 1.63,
+      "key_passes": -1.85
+     },
+     "attack_share_delta": -0.026
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Mujaid Sadick",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 329,
+       "minutes_per_match": 65.8,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.0,
+        "shots": 0.55,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.023
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 585,
+       "minutes_per_match": 58.5,
+       "per90": {
+        "xg": 0.05,
+        "xa": 0.0,
+        "shots": 0.31,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.013
+      }
+     }
+    },
+    {
+     "name": "Giorgi Tsitaishvili",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 361,
+       "minutes_per_match": 72.2,
+       "per90": {
+        "xg": 0.07,
+        "xa": 0.08,
+        "shots": 2.74,
+        "key_passes": 1.75
+       },
+       "attack_share": 0.044
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 587,
+       "minutes_per_match": 58.7,
+       "per90": {
+        "xg": 0.15,
+        "xa": 0.08,
+        "shots": 2.76,
+        "key_passes": 1.69
+       },
+       "attack_share": 0.061
+      }
+     }
+    },
+    {
+     "name": "Randy Nteka",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 112,
+       "minutes_per_match": 22.4,
+       "per90": {
+        "xg": 0.17,
+        "xa": 0.02,
+        "shots": 3.21,
+        "key_passes": 1.61
+       },
+       "attack_share": 0.018
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 3,
+       "minutes": 112,
+       "minutes_per_match": 11.2,
+       "per90": {
+        "xg": 0.17,
+        "xa": 0.02,
+        "shots": 3.21,
+        "key_passes": 1.61
+       },
+       "attack_share": 0.009
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Adrià Pedrosa",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 229,
+       "minutes_per_match": 45.8,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.07,
+        "shots": 0.79,
+        "key_passes": 0.39
+       },
+       "attack_share": 0.016
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 659,
+       "minutes_per_match": 65.9,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.14,
+        "shots": 1.23,
+        "key_passes": 1.09
+       },
+       "attack_share": 0.051
+      }
+     }
+    },
+    {
+     "name": "Gnangoro Bouare Samake",
+     "windows": null,
+     "note": "son maçlarda istatistik yok (yeni transfer / veri boşluğu)"
+    },
+    {
+     "name": "Álvaro García",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 218,
+       "minutes_per_match": 43.6,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.46,
+        "shots": 0.83,
+        "key_passes": 4.13
+       },
+       "attack_share": 0.085
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 633,
+       "minutes_per_match": 63.3,
+       "per90": {
+        "xg": 0.26,
+        "xa": 0.18,
+        "shots": 1.85,
+        "key_passes": 1.71
+       },
+       "attack_share": 0.124
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Mujaid Sadick",
+     "in": "Adrià Pedrosa",
+     "delta_per90": {
+      "xg": -0.01,
+      "xa": 0.14,
+      "shots": 0.92,
+      "key_passes": 1.09
+     },
+     "attack_share_delta": 0.038
+    },
+    {
+     "out": "Randy Nteka",
+     "in": "Álvaro García",
+     "delta_per90": {
+      "xg": 0.09,
+      "xa": 0.16,
+      "shots": -1.36,
+      "key_passes": 0.1
+     },
+     "attack_share_delta": 0.115
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Dani Ceballos",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 4710400
+   },
+   {
+    "player": "Giovani Lo Celso",
+    "reason": "injury",
+    "likelihood": "Mid December 2026",
+    "market_value_eur": 5248337
+   }
+  ],
+  "away": [
+   {
+    "player": "Óscar Valentín",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 1362301
+   },
+   {
+    "player": "Augusto Batalla",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 4980184
+   },
+   {
+    "player": "Luiz Felipe",
+    "reason": "injury",
+    "likelihood": "Out for season",
+    "market_value_eur": 1187737
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 410,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.6103,
+    "DRAW": 0.2156,
+    "AWAY": 0.1741
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 1.62,
+     "bookmaker": "SpreadEX",
+     "fair_odds_consensus": 1.639,
+     "ev_vs_consensus": -0.0113
+    },
+    "DRAW": {
+     "odds": 4.33,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 4.638,
+     "ev_vs_consensus": -0.0665
+    },
+    "AWAY": {
+     "odds": 5.5,
+     "bookmaker": "Betfair",
+     "fair_odds_consensus": 5.744,
+     "ev_vs_consensus": -0.0424
+    }
+   },
+   "median_overround": 0.0651,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.8369,
+     "UNDER": 0.1631
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.19,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.195,
+      "ev_vs_consensus": -0.0041
+     },
+     "UNDER": {
+      "odds": 5.0,
+      "bookmaker": "BetVictor",
+      "fair_odds_consensus": 6.131,
+      "ev_vs_consensus": -0.1845
+     }
+    },
+    "median_overround": 0.0769,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6103,
+     "UNDER": 0.3897
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.62,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.639,
+      "ev_vs_consensus": -0.0113
+     },
+     "UNDER": {
+      "odds": 2.5,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 2.566,
+      "ev_vs_consensus": -0.0258
+     }
+    },
+    "median_overround": 0.0738,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.4863,
+     "UNDER": 0.5137
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.98,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.056,
+      "ev_vs_consensus": -0.0371
+     },
+     "UNDER": {
+      "odds": 1.88,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.947,
+      "ev_vs_consensus": -0.0342
+     }
+    },
+    "median_overround": 0.0695,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.3788,
+     "UNDER": 0.6212
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.5,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.64,
+      "ev_vs_consensus": -0.053
+     },
+     "UNDER": {
+      "odds": 1.58,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.61,
+      "ev_vs_consensus": -0.0185
+     }
+    },
+    "median_overround": 0.0728,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 0.59,
+  "DRAW": -0.01,
+  "AWAY": -0.58
+ },
+ "gaps": [
+  "XI_SINGLE_SOURCE:ESPN_ONLY"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
