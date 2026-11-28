@@ -1,0 +1,928 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-28T14:44:14.876580+00:00",
+ "minutes_before_kickoff": 45.752057,
+ "match": {
+  "match_id": "MycemFvI",
+  "home": "Moreirense",
+  "away": "Santa Clara",
+  "kickoff": "2026-11-28T15:30:00Z",
+  "competition": "Liga Portugal",
+  "category": "Portugal"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:75433",
+     "name": "André Ferreira",
+     "number": "13",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:381522",
+     "name": "Kevyn",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365774",
+     "name": "Gilberto Batista",
+     "number": "66",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:393761",
+     "name": "Álvaro Martínez",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:333090",
+     "name": "Dinis Pinto",
+     "number": "76",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:400267",
+     "name": "Manuel Mendonça",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301820",
+     "name": "Guilherme Liberato",
+     "number": "65",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:314574",
+     "name": "Nile John",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:366820",
+     "name": "Leonardo Vonic",
+     "number": "79",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:420165",
+     "name": "Tiago Andrade",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:359433",
+     "name": "Landerson",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-3-3",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:236200",
+     "name": "Lucas Oliveira",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:383095",
+     "name": "Henrique Silva",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365558",
+     "name": "Ythallo",
+     "number": "19",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:271772",
+     "name": "Lucas Soares",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:256866",
+     "name": "Guilherme Romão",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:318190",
+     "name": "Daniel Borges",
+     "number": "41",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:403567",
+     "name": "Djé",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364653",
+     "name": "João Gonçalves",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:298067",
+     "name": "Vinícius Lopes",
+     "number": "70",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:374766",
+     "name": "Fernando",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338644",
+     "name": "Brenner",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": false,
+  "matched_share": 0.773,
+  "espn_count": 22,
+  "reason": "FOTMOB_DISAGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401885395",
+   "date": "2026-11-07T20:30:00+00:00",
+   "competition": "por.1",
+   "opponent": "Sporting CP",
+   "starters": [
+    {
+     "id": "espn:75433",
+     "name": "André Ferreira",
+     "number": "13",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:381522",
+     "name": "Kevyn",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365774",
+     "name": "Gilberto Batista",
+     "number": "66",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:393761",
+     "name": "Álvaro Martínez",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:333090",
+     "name": "Dinis Pinto",
+     "number": "76",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:400267",
+     "name": "Manuel Mendonça",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:301820",
+     "name": "Guilherme Liberato",
+     "number": "65",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:314574",
+     "name": "Nile John",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:366820",
+     "name": "Leonardo Vonic",
+     "number": "79",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:359433",
+     "name": "Landerson",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:391113",
+     "name": "Songa Chipyoka",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "match_id": "espn:401885396",
+   "date": "2026-11-08T15:30:00+00:00",
+   "competition": "por.1",
+   "opponent": "Gil Vicente",
+   "starters": [
+    {
+     "id": "espn:338678",
+     "name": "Neneca",
+     "number": "12",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:3100806",
+     "name": "Emanuel Moreira",
+     "number": "21",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:141692",
+     "name": "Pedro Pacheco",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:365815",
+     "name": "Kamika",
+     "number": "85",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:271772",
+     "name": "Lucas Soares",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:318190",
+     "name": "Daniel Borges",
+     "number": "41",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:403567",
+     "name": "Djé",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:364653",
+     "name": "João Gonçalves",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:374766",
+     "name": "Fernando",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:338644",
+     "name": "Brenner",
+     "number": "10",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:298067",
+     "name": "Vinícius Lopes",
+     "number": "70",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-3-3"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 1,
+   "out": [
+    "Songa Chipyoka"
+   ],
+   "in": [
+    "Tiago Andrade"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "André Ferreira",
+   "previous_goalkeeper": "André Ferreira"
+  },
+  "away": {
+   "count": 4,
+   "out": [
+    "Neneca",
+    "Emanuel Moreira",
+    "Pedro Pacheco",
+    "Kamika"
+   ],
+   "in": [
+    "Lucas Oliveira",
+    "Henrique Silva",
+    "Ythallo",
+    "Guilherme Romão"
+   ],
+   "goalkeeper_changed": true,
+   "goalkeeper": "Lucas Oliveira",
+   "previous_goalkeeper": "Neneca"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 9,
+   "out": [
+    {
+     "name": "Songa Chipyoka",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 103,
+       "minutes_per_match": 20.6,
+       "per90": {
+        "xg": 0.17,
+        "xa": 0.01,
+        "shots": 0.87,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.025
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 4,
+       "minutes": 112,
+       "minutes_per_match": 12.4,
+       "per90": {
+        "xg": 0.18,
+        "xa": 0.01,
+        "shots": 1.61,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.017
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Tiago Andrade",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 326,
+       "minutes_per_match": 65.2,
+       "per90": {
+        "xg": 0.22,
+        "xa": 0.17,
+        "shots": 3.04,
+        "key_passes": 1.1
+       },
+       "attack_share": 0.177
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 490,
+       "minutes_per_match": 54.4,
+       "per90": {
+        "xg": 0.16,
+        "xa": 0.13,
+        "shots": 2.39,
+        "key_passes": 1.47
+       },
+       "attack_share": 0.115
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Songa Chipyoka",
+     "in": "Tiago Andrade",
+     "delta_per90": {
+      "xg": -0.02,
+      "xa": 0.12,
+      "shots": 0.78,
+      "key_passes": 1.47
+     },
+     "attack_share_delta": 0.098
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 9,
+   "out": [
+    {
+     "name": "Neneca",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 180,
+       "minutes_per_match": 36.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 2,
+       "minutes": 180,
+       "minutes_per_match": 20.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Emanuel Moreira",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 437,
+       "minutes_per_match": 87.4,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.06,
+        "shots": 0.21,
+        "key_passes": 0.21
+       },
+       "attack_share": 0.036
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 9,
+       "minutes": 797,
+       "minutes_per_match": 88.6,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.03,
+        "shots": 0.34,
+        "key_passes": 0.56
+       },
+       "attack_share": 0.02
+      }
+     }
+    },
+    {
+     "name": "Pedro Pacheco",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 422,
+       "minutes_per_match": 84.4,
+       "per90": {
+        "xg": 0.01,
+        "xa": 0.02,
+        "shots": 0.43,
+        "key_passes": 0.43
+       },
+       "attack_share": 0.02
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 9,
+       "minutes": 782,
+       "minutes_per_match": 86.9,
+       "per90": {
+        "xg": 0.04,
+        "xa": 0.06,
+        "shots": 0.35,
+        "key_passes": 0.46
+       },
+       "attack_share": 0.048
+      }
+     }
+    },
+    {
+     "name": "Kamika",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 88,
+       "minutes_per_match": 17.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 1,
+       "minutes": 88,
+       "minutes_per_match": 9.8,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Lucas Oliveira",
+     "windows": null,
+     "note": "son maçlarda istatistik yok (yeni transfer / veri boşluğu)"
+    },
+    {
+     "name": "Henrique Silva",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 3,
+       "minutes": 42,
+       "minutes_per_match": 8.4,
+       "per90": {
+        "xg": 0.36,
+        "xa": 0.02,
+        "shots": 4.29,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.022
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 6,
+       "minutes": 66,
+       "minutes_per_match": 7.3,
+       "per90": {
+        "xg": 0.23,
+        "xa": 0.04,
+        "shots": 2.73,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.01
+      }
+     }
+    },
+    {
+     "name": "Ythallo",
+     "windows": null,
+     "note": "son maçlarda istatistik yok (yeni transfer / veri boşluğu)"
+    },
+    {
+     "name": "Guilherme Romão",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 328,
+       "minutes_per_match": 65.6,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.06,
+        "shots": 0.55,
+        "key_passes": 0.55
+       },
+       "attack_share": 0.035
+      },
+      "10": {
+       "matches_in_data": 9,
+       "appearances": 8,
+       "minutes": 688,
+       "minutes_per_match": 76.4,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.06,
+        "shots": 0.39,
+        "key_passes": 0.78
+       },
+       "attack_share": 0.029
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Emanuel Moreira",
+     "in": "Henrique Silva",
+     "delta_per90": {
+      "xg": 0.22,
+      "xa": 0.01,
+      "shots": 2.39,
+      "key_passes": -0.56
+     },
+     "attack_share_delta": -0.01
+    },
+    {
+     "out": "Kamika",
+     "in": "Guilherme Romão",
+     "delta_per90": {
+      "xg": 0.02,
+      "xa": 0.06,
+      "shots": 0.39,
+      "key_passes": 0.78
+     },
+     "attack_share_delta": 0.029
+    }
+   ],
+   "goalkeeper": {
+    "now": null,
+    "previous": {
+     "name": "Neneca",
+     "games": 2,
+     "goals_prevented": -0.02,
+     "saves": 8,
+     "note": "küçük örneklem, tek başına sinyal değil"
+    }
+   }
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Miguel Silva",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 521670
+   },
+   {
+    "player": "Kiko",
+    "reason": "injury",
+    "likelihood": "About a week",
+    "market_value_eur": null
+   },
+   {
+    "player": "João Veloso",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 1593177
+   },
+   {
+    "player": "Kiko Bondoso",
+    "reason": "injury",
+    "likelihood": "About a week",
+    "market_value_eur": 375979
+   }
+  ],
+  "away": [
+   {
+    "player": "Emanuel Moreira",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 942447
+   },
+   {
+    "player": "MT",
+    "reason": "injury",
+    "likelihood": "Day to day",
+    "market_value_eur": 2223302
+   },
+   {
+    "player": "Pedro Pacheco",
+    "reason": "suspension",
+    "likelihood": "Late November 2026",
+    "market_value_eur": 497166
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 372,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.3585,
+    "DRAW": 0.3057,
+    "AWAY": 0.3358
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 2.8,
+     "bookmaker": "SpreadEX",
+     "fair_odds_consensus": 2.789,
+     "ev_vs_consensus": 0.0038
+    },
+    "DRAW": {
+     "odds": 3.15,
+     "bookmaker": "BetUK",
+     "fair_odds_consensus": 3.271,
+     "ev_vs_consensus": -0.037
+    },
+    "AWAY": {
+     "odds": 2.9,
+     "bookmaker": "Unibetuk",
+     "fair_odds_consensus": 2.978,
+     "ev_vs_consensus": -0.0262
+    }
+   },
+   "median_overround": 0.0723,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "2",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6827,
+     "UNDER": 0.3173
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.48,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 1.465,
+      "ev_vs_consensus": 0.0104
+     },
+     "UNDER": {
+      "odds": 2.88,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 3.152,
+      "ev_vs_consensus": -0.0862
+     }
+    },
+    "median_overround": 0.0779,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.5436,
+     "UNDER": 0.4564
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.78,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.84,
+      "ev_vs_consensus": -0.0324
+     },
+     "UNDER": {
+      "odds": 2.1,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.191,
+      "ev_vs_consensus": -0.0416
+     }
+    },
+    "median_overround": 0.065,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.3921,
+     "UNDER": 0.6079
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.38,
+      "bookmaker": "Betfair",
+      "fair_odds_consensus": 2.55,
+      "ev_vs_consensus": -0.0668
+     },
+     "UNDER": {
+      "odds": 1.6,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 1.645,
+      "ev_vs_consensus": -0.0274
+     }
+    },
+    "median_overround": 0.0795,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.1823,
+     "UNDER": 0.8177
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 4.8,
+      "bookmaker": "Paddy Power",
+      "fair_odds_consensus": 5.485,
+      "ev_vs_consensus": -0.125
+     },
+     "UNDER": {
+      "odds": 1.22,
+      "bookmaker": "William Hill",
+      "fair_odds_consensus": 1.223,
+      "ev_vs_consensus": -0.0024
+     }
+    },
+    "median_overround": 0.0706,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 2.98,
+  "DRAW": 0.38,
+  "AWAY": -3.37
+ },
+ "gaps": [
+  "PLAYER_IMPACT_PARTIAL_HISTORY:home:9/10",
+  "PLAYER_IMPACT_PARTIAL_HISTORY:away:9/10"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
