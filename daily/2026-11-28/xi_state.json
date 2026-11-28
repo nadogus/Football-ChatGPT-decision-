@@ -121,8 +121,9 @@
  },
  "nRpn0xaC": {
   "checks": 14,
-  "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-28T15:04:38.260706+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-28T15:04:38.260706+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "GAxgUCmf": {
   "checks": 4,
@@ -143,13 +144,13 @@
   "notified": []
  },
  "ADeF12ac": {
-  "checks": 4,
+  "checks": 5,
   "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-28T15:04:38.260706+00:00"
+  "last_check": "2026-11-28T15:09:38.072205+00:00"
  },
  "IyS7qn3F": {
-  "checks": 1,
+  "checks": 2,
   "status": "NOT_YET",
-  "last_check": "2026-11-28T15:04:38.260706+00:00"
+  "last_check": "2026-11-28T15:09:38.072205+00:00"
  }
 }
