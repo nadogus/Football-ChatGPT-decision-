@@ -144,3 +144,19 @@ _Uyarıdır, karar değildir._
 xG 1.35–0.91 · xGOT 0.57–0.41 · ceza sahası topla buluşma 17–14 · isabetli şut 3–2
 Karar için Claude'a yaz: `canlı bak 5795532`
 _Uyarıdır, karar değildir._
+
+---
+16:12 UTC
+⚡ *Canlı uyarı* — Hamburger SV 0-0 Bayern München (84‎’‎)
+• Bayern München kırmızı kart gördü (1)
+xG 0.60–0.46 · xGOT 0.89–0.00 · ceza sahası topla buluşma 10–18 · isabetli şut 2–0
+Karar için Claude'a yaz: `canlı bak 5881236`
+_Uyarıdır, karar değildir._
+
+---
+16:12 UTC
+⚡ *Canlı uyarı* — Birmingham City 1-2 Bolton Wanderers (52‎’‎)
+• Birmingham City kırmızı kart gördü (1)
+xG 0.36–1.04 · xGOT 0.95–1.69 · ceza sahası topla buluşma 9–26 · isabetli şut 1–6
+Karar için Claude'a yaz: `canlı bak 5836958`
+_Uyarıdır, karar değildir._
