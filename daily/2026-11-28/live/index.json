@@ -21,9 +21,9 @@
    1,
    1
   ],
-  "minute": "100‎’‎",
-  "finished": false,
-  "updated": "2026-11-28T14:27:33Z"
+  "minute": "FT",
+  "finished": true,
+  "updated": "2026-11-28T14:32:33Z"
  },
  "5868141": {
   "flashscore_id": "rwpakLpf",
@@ -34,9 +34,9 @@
    0,
    0
   ],
-  "minute": "65‎’‎",
+  "minute": "70‎’‎",
   "finished": false,
-  "updated": "2026-11-28T14:27:33Z"
+  "updated": "2026-11-28T14:32:33Z"
  },
  "5904820": {
   "flashscore_id": "6HMshkS0",
@@ -47,9 +47,9 @@
    3,
    1
   ],
-  "minute": "70‎’‎",
+  "minute": "75‎’‎",
   "finished": false,
-  "updated": "2026-11-28T14:27:33Z"
+  "updated": "2026-11-28T14:32:33Z"
  },
  "5749763": {
   "flashscore_id": "IL7NtGKq",
@@ -60,8 +60,60 @@
    0,
    0
   ],
-  "minute": "26‎’‎",
+  "minute": "31‎’‎",
   "finished": false,
-  "updated": "2026-11-28T14:27:33Z"
+  "updated": "2026-11-28T14:32:33Z"
+ },
+ "5881234": {
+  "flashscore_id": "tAPSccBD",
+  "competition": "Bundesliga",
+  "home": "1. FC Köln",
+  "away": "Elversberg",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "3‎’‎",
+  "finished": false,
+  "updated": "2026-11-28T14:32:33Z"
+ },
+ "5881236": {
+  "flashscore_id": "YqMKaJt1",
+  "competition": "Bundesliga",
+  "home": "Hamburger SV",
+  "away": "Bayern München",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "3‎’‎",
+  "finished": false,
+  "updated": "2026-11-28T14:32:33Z"
+ },
+ "5881238": {
+  "flashscore_id": "QJIC1uCl",
+  "competition": "Bundesliga",
+  "home": "Mainz 05",
+  "away": "Union Berlin",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "3‎’‎",
+  "finished": false,
+  "updated": "2026-11-28T14:32:33Z"
+ },
+ "5881239": {
+  "flashscore_id": "rwbpGvRs",
+  "competition": "Bundesliga",
+  "home": "Paderborn",
+  "away": "Schalke 04",
+  "score": [
+   0,
+   0
+  ],
+  "minute": "3‎’‎",
+  "finished": false,
+  "updated": "2026-11-28T14:32:33Z"
  }
 }
