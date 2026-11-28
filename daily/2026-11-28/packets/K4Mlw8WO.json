@@ -1,0 +1,415 @@
+{
+ "schema_version": "1.0",
+ "engine_version": "evidence-v1.2",
+ "generated_at": "2026-11-28T06:36:30.715738+00:00",
+ "match": {
+  "match_id": "K4Mlw8WO",
+  "home": "Cambuur",
+  "away": "Sparta Rotterdam",
+  "kickoff": "2026-11-28T20:00:00Z",
+  "competition": "Eredivisie",
+  "category": "Netherlands"
+ },
+ "stage": "PRE",
+ "integrity": {
+  "sources": [
+   "flashscore",
+   "flashscore:odds"
+  ],
+  "stale_sources": [],
+  "league_coverage": 1.0,
+  "flags": []
+ },
+ "source_evidence": [
+  {
+   "source": "flashscore",
+   "observed_at": "2026-11-28T06:36:24.630682+00:00",
+   "fresh": true
+  },
+  {
+   "source": "flashscore:odds",
+   "observed_at": "2026-11-28T06:36:24.630682+00:00",
+   "fresh": true
+  }
+ ],
+ "models": {
+  "individual": {
+   "dixon_coles_xg": {
+    "HOME": 0.3471650642488298,
+    "DRAW": 0.24160375692903055,
+    "AWAY": 0.41123117882213966,
+    "BTTS_YES": 0.673252779060192,
+    "OVER_2.5": 0.6584382165774444,
+    "UNDER_2.5": 0.3415617834225556,
+    "HOME_DNB": 0.45776210974233783,
+    "AWAY_DNB": 0.5422378902576622,
+    "1X": 0.5887688211778603,
+    "X2": 0.6528349357511702
+   },
+   "elo_season": {
+    "HOME": 0.5422511444570624,
+    "DRAW": 0.21421015900047083,
+    "AWAY": 0.2435386965424669
+   }
+  },
+  "ensemble": {
+   "BTTS_YES": 0.673252779060192,
+   "OVER_2.5": 0.6584382165774444,
+   "AWAY_DNB": 0.5422378902576622,
+   "UNDER_2.5": 0.3415617834225556,
+   "HOME": 0.44470810435294605,
+   "HOME_DNB": 0.45776210974233783,
+   "X2": 0.6528349357511702,
+   "1X": 0.5887688211778603,
+   "AWAY": 0.32738493768230326,
+   "DRAW": 0.2279069579647507
+  },
+  "model_agreement": 0.6387
+ },
+ "market": {
+  "consensus_1x2": {
+   "HOME": 0.4576,
+   "DRAW": 0.234,
+   "AWAY": 0.3084
+  },
+  "summary": {
+   "quote_count": 813,
+   "phases": [
+    "CURRENT",
+    "OPENING"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.4576,
+     "DRAW": 0.234,
+     "AWAY": 0.3084
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 2.15,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 2.185,
+      "ev_vs_consensus": -0.0162
+     },
+     "DRAW": {
+      "odds": 4.0,
+      "bookmaker": "Betano.uk",
+      "fair_odds_consensus": 4.274,
+      "ev_vs_consensus": -0.064
+     },
+     "AWAY": {
+      "odds": 3.2,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 3.243,
+      "ev_vs_consensus": -0.0131
+     }
+    },
+    "median_overround": 0.0711,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": {
+     "HOME": 0.3861,
+     "DRAW": 0.2414,
+     "AWAY": 0.3725
+    },
+    "movement_pp": {
+     "HOME": 7.15,
+     "DRAW": -0.74,
+     "AWAY": -6.41
+    }
+   },
+   "main_total_line": "3.5",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.9002,
+      "UNDER": 0.0998
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.13,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.111,
+       "ev_vs_consensus": 0.0172
+      },
+      "UNDER": {
+       "odds": 8.0,
+       "bookmaker": "Skybet",
+       "fair_odds_consensus": 10.02,
+       "ev_vs_consensus": -0.2016
+      }
+     },
+     "median_overround": 0.0713,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.8722,
+      "UNDER": 0.1278
+     },
+     "movement_pp": {
+      "OVER": 2.8,
+      "UNDER": -2.8
+     }
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.7122,
+      "UNDER": 0.2878
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.4,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.404,
+       "ev_vs_consensus": -0.0029
+      },
+      "UNDER": {
+       "odds": 3.25,
+       "bookmaker": "William Hill",
+       "fair_odds_consensus": 3.475,
+       "ev_vs_consensus": -0.0646
+      }
+     },
+     "median_overround": 0.0713,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.6653,
+      "UNDER": 0.3347
+     },
+     "movement_pp": {
+      "OVER": 4.69,
+      "UNDER": -4.69
+     }
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.4912,
+      "UNDER": 0.5088
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.95,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 2.036,
+       "ev_vs_consensus": -0.0422
+      },
+      "UNDER": {
+       "odds": 1.95,
+       "bookmaker": "William Hill",
+       "fair_odds_consensus": 1.965,
+       "ev_vs_consensus": -0.0078
+      }
+     },
+     "median_overround": 0.0728,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.4438,
+      "UNDER": 0.5562
+     },
+     "movement_pp": {
+      "OVER": 4.74,
+      "UNDER": -4.74
+     }
+    }
+   }
+  },
+  "model_vs_market": [
+   {
+    "market": "moneyline",
+    "selection": "HOME",
+    "model_probability": 0.4447,
+    "market_fair_probability": 0.4576,
+    "model_minus_market_pp": -1.29,
+    "best_odds": 2.15,
+    "bookmaker": "Unibetuk",
+    "correlation_family": "HOME_SIDE"
+   },
+   {
+    "market": "moneyline",
+    "selection": "DRAW",
+    "model_probability": 0.2279,
+    "market_fair_probability": 0.234,
+    "model_minus_market_pp": -0.61,
+    "best_odds": 4.0,
+    "bookmaker": "Betano.uk",
+    "correlation_family": "DRAW"
+   },
+   {
+    "market": "moneyline",
+    "selection": "AWAY",
+    "model_probability": 0.3274,
+    "market_fair_probability": 0.3084,
+    "model_minus_market_pp": 1.9,
+    "best_odds": 3.2,
+    "bookmaker": "bet365",
+    "correlation_family": "AWAY_SIDE"
+   },
+   {
+    "market": "total",
+    "selection": "OVER_2.5",
+    "model_probability": 0.6584,
+    "market_fair_probability": 0.7122,
+    "model_minus_market_pp": -5.38,
+    "best_odds": 1.4,
+    "bookmaker": "Unibetuk",
+    "correlation_family": "TOTAL_OVER"
+   },
+   {
+    "market": "total",
+    "selection": "UNDER_2.5",
+    "model_probability": 0.3416,
+    "market_fair_probability": 0.2878,
+    "model_minus_market_pp": 5.38,
+    "best_odds": 3.25,
+    "bookmaker": "William Hill",
+    "correlation_family": "TOTAL_UNDER"
+   }
+  ]
+ },
+ "xi": {
+  "official_verified": false
+ },
+ "context": {
+  "pipeline_version": "DAILY_PIPELINE_V1.0",
+  "odds_geo": "GB",
+  "bookmakers": [
+   "10bet",
+   "7BetUK",
+   "BetMGM.uk",
+   "BetUK",
+   "BetVictor",
+   "Betano.uk",
+   "Betfair",
+   "Betfred",
+   "Betway",
+   "Coral",
+   "Ladbrokes",
+   "Midnite",
+   "Paddy Power",
+   "Parimatch.uk",
+   "Skybet",
+   "SpreadEX",
+   "Talksportbet",
+   "Unibetuk",
+   "William Hill",
+   "bet365"
+  ],
+  "missing_players": {
+   "home": [
+    {
+     "player": "Jorn Berkhout",
+     "reason": "injury",
+     "likelihood": "Mid December 2026",
+     "market_value_eur": 537590
+    },
+    {
+     "player": "Jasper Meijster",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": null
+    },
+    {
+     "player": "Jamal Amofa",
+     "reason": "injury",
+     "likelihood": "Early July 2027",
+     "market_value_eur": 274441
+    },
+    {
+     "player": "Damian Westerhof",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": null
+    }
+   ],
+   "away": [
+    {
+     "player": "Michael Brouwer",
+     "reason": "injury",
+     "likelihood": "Early January 2027",
+     "market_value_eur": 428336
+    },
+    {
+     "player": "Bruno Martins Indi",
+     "reason": "suspension",
+     "likelihood": "Late November 2026",
+     "market_value_eur": 259319
+    },
+    {
+     "player": "Nick Verschuren",
+     "reason": "injury",
+     "likelihood": "Early December 2026",
+     "market_value_eur": 1434974
+    },
+    {
+     "player": "Teo Quintero",
+     "reason": "injury",
+     "likelihood": "Early January 2027",
+     "market_value_eur": 666495
+    }
+   ]
+  },
+  "missing_players_source": "fotmob:5781819",
+  "xg": {
+   "home": {
+    "xg_for": 1.5133333333333334,
+    "xg_against": 1.4466666666666665,
+    "matches": 6,
+    "match_ids": [
+     "0GJYy4k3",
+     "YqdLARj4",
+     "IatFfF06",
+     "Uy5xetuq",
+     "CIP4tsQk",
+     "SlQKXCsI"
+    ],
+    "source": "flashscore_match_statistics"
+   },
+   "away": {
+    "xg_for": 2.098333333333333,
+    "xg_against": 1.7233333333333334,
+    "matches": 6,
+    "match_ids": [
+     "pjASQws2",
+     "6cfT85LG",
+     "AZdldSyB",
+     "zLpSqbnl",
+     "0dXIko33",
+     "jktmJDSO"
+    ],
+    "source": "flashscore_match_statistics"
+   }
+  },
+  "elo": {
+   "home": 1516.529,
+   "away": 1442.476,
+   "method": "season-only results, start 1500"
+  },
+  "weather": {
+   "ok": false,
+   "reason": "VENUE_CITY_UNKNOWN"
+  },
+  "data_gaps": [
+   "WEATHER_UNAVAILABLE:VENUE_CITY_UNKNOWN"
+  ],
+  "data_present": {
+   "odds": true,
+   "opening_odds": true,
+   "absences": true,
+   "xg": true,
+   "elo": true,
+   "weather": false
+  },
+  "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Bu model ailesi 2019-2026 geriye dönük testinde kapanış oranını yenemedi; model-piyasa farkı tek başına bahis gerekçesi değildir."
+ },
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null,
+ "warnings": [],
+ "event": "PRE_EVIDENCE_READY",
+ "ledger_sha256": "0057c7b50ccd0eb4e12085ad1df84da1d57bc798c04f9155f87b596da0baf248"
+}

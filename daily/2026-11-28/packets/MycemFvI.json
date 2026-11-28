@@ -1,0 +1,467 @@
+{
+ "schema_version": "1.0",
+ "engine_version": "evidence-v1.2",
+ "generated_at": "2026-11-28T06:34:16.551116+00:00",
+ "match": {
+  "match_id": "MycemFvI",
+  "home": "Moreirense",
+  "away": "Santa Clara",
+  "kickoff": "2026-11-28T15:30:00Z",
+  "competition": "Liga Portugal",
+  "category": "Portugal"
+ },
+ "stage": "PRE",
+ "integrity": {
+  "sources": [
+   "flashscore",
+   "flashscore:odds",
+   "open-meteo"
+  ],
+  "stale_sources": [],
+  "league_coverage": 1.0,
+  "flags": []
+ },
+ "source_evidence": [
+  {
+   "source": "flashscore",
+   "observed_at": "2026-11-28T06:34:07.443554+00:00",
+   "fresh": true
+  },
+  {
+   "source": "open-meteo",
+   "observed_at": "2026-11-28T06:34:16.549889+00:00",
+   "fresh": true
+  },
+  {
+   "source": "flashscore:odds",
+   "observed_at": "2026-11-28T06:34:07.443554+00:00",
+   "fresh": true
+  }
+ ],
+ "models": {
+  "individual": {
+   "dixon_coles_xg": {
+    "HOME": 0.3358880813882853,
+    "DRAW": 0.294883516428019,
+    "AWAY": 0.3692284021836957,
+    "BTTS_YES": 0.5055103036145333,
+    "OVER_2.5": 0.4391857075505485,
+    "UNDER_2.5": 0.5608142924494515,
+    "HOME_DNB": 0.4763582886145883,
+    "AWAY_DNB": 0.5236417113854117,
+    "1X": 0.6307715978163043,
+    "X2": 0.6641119186117147
+   },
+   "elo_season": {
+    "HOME": 0.3921990981141797,
+    "DRAW": 0.24612123782016093,
+    "AWAY": 0.3616796640656594
+   }
+  },
+  "ensemble": {
+   "BTTS_YES": 0.5055103036145333,
+   "OVER_2.5": 0.4391857075505485,
+   "AWAY_DNB": 0.5236417113854117,
+   "UNDER_2.5": 0.5608142924494515,
+   "HOME": 0.3640435897512325,
+   "HOME_DNB": 0.4763582886145883,
+   "X2": 0.6641119186117147,
+   "1X": 0.6307715978163043,
+   "AWAY": 0.3654540331246775,
+   "DRAW": 0.27050237712409
+  },
+  "model_agreement": 0.8957
+ },
+ "market": {
+  "consensus_1x2": {
+   "HOME": 0.3287,
+   "DRAW": 0.3019,
+   "AWAY": 0.3695
+  },
+  "summary": {
+   "quote_count": 743,
+   "phases": [
+    "CURRENT",
+    "OPENING"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.3287,
+     "DRAW": 0.3019,
+     "AWAY": 0.3695
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 2.9,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 3.042,
+      "ev_vs_consensus": -0.0468
+     },
+     "DRAW": {
+      "odds": 3.2,
+      "bookmaker": "Coral",
+      "fair_odds_consensus": 3.312,
+      "ev_vs_consensus": -0.0339
+     },
+     "AWAY": {
+      "odds": 2.65,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.706,
+      "ev_vs_consensus": -0.0208
+     }
+    },
+    "median_overround": 0.0746,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": {
+     "HOME": 0.2622,
+     "DRAW": 0.3015,
+     "AWAY": 0.4363
+    },
+    "movement_pp": {
+     "HOME": 6.65,
+     "DRAW": 0.04,
+     "AWAY": -6.68
+    }
+   },
+   "main_total_line": "2.25",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.6813,
+      "UNDER": 0.3187
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.48,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.468,
+       "ev_vs_consensus": 0.0083
+      },
+      "UNDER": {
+       "odds": 2.88,
+       "bookmaker": "Betfair",
+       "fair_odds_consensus": 3.138,
+       "ev_vs_consensus": -0.0821
+      }
+     },
+     "median_overround": 0.0779,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.6621,
+      "UNDER": 0.3379
+     },
+     "movement_pp": {
+      "OVER": 1.92,
+      "UNDER": -1.92
+     }
+    },
+    "2.25": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.4602,
+      "UNDER": 0.5398
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.15,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 2.173,
+       "ev_vs_consensus": -0.0106
+      },
+      "UNDER": {
+       "odds": 1.8,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.853,
+       "ev_vs_consensus": -0.0284
+      }
+     },
+     "median_overround": 0.0639,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.4602,
+      "UNDER": 0.5398
+     },
+     "movement_pp": {
+      "OVER": 0.0,
+      "UNDER": 0.0
+     }
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.3904,
+      "UNDER": 0.6096
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.38,
+       "bookmaker": "Midnite",
+       "fair_odds_consensus": 2.561,
+       "ev_vs_consensus": -0.0708
+      },
+      "UNDER": {
+       "odds": 1.6,
+       "bookmaker": "William Hill",
+       "fair_odds_consensus": 1.64,
+       "ev_vs_consensus": -0.0246
+      }
+     },
+     "median_overround": 0.0765,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.3774,
+      "UNDER": 0.6226
+     },
+     "movement_pp": {
+      "OVER": 1.3,
+      "UNDER": -1.3
+     }
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.1787,
+      "UNDER": 0.8213
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 4.5,
+       "bookmaker": "Midnite",
+       "fair_odds_consensus": 5.596,
+       "ev_vs_consensus": -0.1958
+      },
+      "UNDER": {
+       "odds": 1.22,
+       "bookmaker": "William Hill",
+       "fair_odds_consensus": 1.218,
+       "ev_vs_consensus": 0.002
+      }
+     },
+     "median_overround": 0.0769,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.1685,
+      "UNDER": 0.8315
+     },
+     "movement_pp": {
+      "OVER": 1.02,
+      "UNDER": -1.02
+     }
+    }
+   }
+  },
+  "model_vs_market": [
+   {
+    "market": "moneyline",
+    "selection": "HOME",
+    "model_probability": 0.364,
+    "market_fair_probability": 0.3287,
+    "model_minus_market_pp": 3.53,
+    "best_odds": 2.9,
+    "bookmaker": "Unibetuk",
+    "correlation_family": "HOME_SIDE"
+   },
+   {
+    "market": "moneyline",
+    "selection": "DRAW",
+    "model_probability": 0.2705,
+    "market_fair_probability": 0.3019,
+    "model_minus_market_pp": -3.14,
+    "best_odds": 3.2,
+    "bookmaker": "Coral",
+    "correlation_family": "DRAW"
+   },
+   {
+    "market": "moneyline",
+    "selection": "AWAY",
+    "model_probability": 0.3655,
+    "market_fair_probability": 0.3695,
+    "model_minus_market_pp": -0.4,
+    "best_odds": 2.65,
+    "bookmaker": "bet365",
+    "correlation_family": "AWAY_SIDE"
+   },
+   {
+    "market": "total",
+    "selection": "OVER_2.5",
+    "model_probability": 0.4392,
+    "market_fair_probability": 0.3904,
+    "model_minus_market_pp": 4.88,
+    "best_odds": 2.38,
+    "bookmaker": "Midnite",
+    "correlation_family": "TOTAL_OVER"
+   },
+   {
+    "market": "total",
+    "selection": "UNDER_2.5",
+    "model_probability": 0.5608,
+    "market_fair_probability": 0.6096,
+    "model_minus_market_pp": -4.88,
+    "best_odds": 1.6,
+    "bookmaker": "William Hill",
+    "correlation_family": "TOTAL_UNDER"
+   }
+  ]
+ },
+ "xi": {
+  "official_verified": false
+ },
+ "context": {
+  "pipeline_version": "DAILY_PIPELINE_V1.0",
+  "odds_geo": "GB",
+  "bookmakers": [
+   "10bet",
+   "7BetUK",
+   "BetMGM.uk",
+   "BetUK",
+   "BetVictor",
+   "Betano.uk",
+   "Betfair",
+   "Betfred",
+   "Betway",
+   "Coral",
+   "Ladbrokes",
+   "Midnite",
+   "Paddy Power",
+   "Parimatch.uk",
+   "Skybet",
+   "SpreadEX",
+   "Talksportbet",
+   "Unibetuk",
+   "William Hill",
+   "bet365"
+  ],
+  "missing_players": {
+   "home": [
+    {
+     "player": "Miguel Silva",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": 521670
+    },
+    {
+     "player": "Kiko",
+     "reason": "injury",
+     "likelihood": "About a week",
+     "market_value_eur": null
+    },
+    {
+     "player": "João Veloso",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": 1593177
+    },
+    {
+     "player": "Alexandre Duville-Parsemain",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": 769018
+    },
+    {
+     "player": "Kiko Bondoso",
+     "reason": "injury",
+     "likelihood": "About a week",
+     "market_value_eur": 375979
+    }
+   ],
+   "away": [
+    {
+     "player": "Emanuel Moreira",
+     "reason": "suspension",
+     "likelihood": "Late November 2026",
+     "market_value_eur": 942447
+    },
+    {
+     "player": "MT",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": 2223302
+    },
+    {
+     "player": "Pedro Pacheco",
+     "reason": "suspension",
+     "likelihood": "Late November 2026",
+     "market_value_eur": 497166
+    },
+    {
+     "player": "Pedro Ferreira",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": 1922160
+    }
+   ]
+  },
+  "missing_players_source": "fotmob:5887686",
+  "xg": {
+   "home": {
+    "xg_for": 1.175,
+    "xg_against": 1.4033333333333333,
+    "matches": 6,
+    "match_ids": [
+     "4G20vKem",
+     "n3bGVkDF",
+     "G2tWkEaN",
+     "z3PvErW6",
+     "6NiL8mfR",
+     "nPL6Nk4d"
+    ],
+    "source": "flashscore_match_statistics"
+   },
+   "away": {
+    "xg_for": 1.0999999999999999,
+    "xg_against": 1.19,
+    "matches": 6,
+    "match_ids": [
+     "z1CUqtYP",
+     "vwe8XBr3",
+     "KWz34DEG",
+     "OtXhNn9K",
+     "MLnSn6X7",
+     "2XqCo2jn"
+    ],
+    "source": "flashscore_match_statistics"
+   }
+  },
+  "elo": {
+   "home": 1488.107,
+   "away": 1539.034,
+   "method": "season-only results, start 1500"
+  },
+  "weather": {
+   "ok": true,
+   "source": "open-meteo",
+   "scope": "city-level forecast at kickoff hour",
+   "city": "Moreira de Conegos",
+   "country": "Portugal",
+   "lat": 41.3868,
+   "lon": -8.3394,
+   "temperature_c": 14.2,
+   "precipitation_mm": 1.6,
+   "precipitation_probability_pct": 15,
+   "wind_kmh": 6.8,
+   "observed_at": "2026-11-28T06:34:16.549889+00:00"
+  },
+  "data_gaps": [],
+  "data_present": {
+   "odds": true,
+   "opening_odds": true,
+   "absences": true,
+   "xg": true,
+   "elo": true,
+   "weather": true
+  },
+  "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Bu model ailesi 2019-2026 geriye dönük testinde kapanış oranını yenemedi; model-piyasa farkı tek başına bahis gerekçesi değildir."
+ },
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null,
+ "warnings": [],
+ "event": "PRE_EVIDENCE_READY",
+ "ledger_sha256": "070ead920b58bf736b938c26c788658749136a9146eb0a8acc6a6f8fad017fc1"
+}

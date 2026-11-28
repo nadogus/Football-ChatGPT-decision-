@@ -1,0 +1,442 @@
+{
+ "schema_version": "1.0",
+ "engine_version": "evidence-v1.2",
+ "generated_at": "2026-11-28T06:35:45.578205+00:00",
+ "match": {
+  "match_id": "nwJ2qPHt",
+  "home": "Lommel SK",
+  "away": "Waregem",
+  "kickoff": "2026-11-28T19:45:00Z",
+  "competition": "Jupiler Pro League",
+  "category": "Belgium"
+ },
+ "stage": "PRE",
+ "integrity": {
+  "sources": [
+   "flashscore",
+   "flashscore:odds",
+   "open-meteo"
+  ],
+  "stale_sources": [],
+  "league_coverage": 1.0,
+  "flags": []
+ },
+ "source_evidence": [
+  {
+   "source": "flashscore",
+   "observed_at": "2026-11-28T06:35:37.205705+00:00",
+   "fresh": true
+  },
+  {
+   "source": "open-meteo",
+   "observed_at": "2026-11-28T06:35:45.577008+00:00",
+   "fresh": true
+  },
+  {
+   "source": "flashscore:odds",
+   "observed_at": "2026-11-28T06:35:37.205705+00:00",
+   "fresh": true
+  }
+ ],
+ "models": {
+  "individual": {
+   "dixon_coles_xg": {
+    "HOME": 0.33006888617822533,
+    "DRAW": 0.2379713450793315,
+    "AWAY": 0.43195976874244324,
+    "BTTS_YES": 0.6802829315306784,
+    "OVER_2.5": 0.6699038075671148,
+    "UNDER_2.5": 0.33009619243288524,
+    "HOME_DNB": 0.4331449795842485,
+    "AWAY_DNB": 0.5668550204157515,
+    "1X": 0.5680402312575568,
+    "X2": 0.6699311138217747
+   },
+   "elo_season": {
+    "HOME": 0.512787655474781,
+    "DRAW": 0.22038363138357206,
+    "AWAY": 0.2668287131416469
+   }
+  },
+  "ensemble": {
+   "BTTS_YES": 0.6802829315306784,
+   "OVER_2.5": 0.6699038075671148,
+   "AWAY_DNB": 0.5668550204157515,
+   "UNDER_2.5": 0.33009619243288524,
+   "HOME": 0.42142827082650314,
+   "HOME_DNB": 0.4331449795842485,
+   "X2": 0.6699311138217747,
+   "1X": 0.5680402312575568,
+   "AWAY": 0.3493942409420451,
+   "DRAW": 0.2291774882314518
+  },
+  "model_agreement": 0.6616
+ },
+ "market": {
+  "consensus_1x2": {
+   "HOME": 0.3401,
+   "DRAW": 0.2554,
+   "AWAY": 0.4044
+  },
+  "summary": {
+   "quote_count": 765,
+   "phases": [
+    "CURRENT",
+    "OPENING"
+   ],
+   "1x2": {
+    "bookmakers": 19,
+    "consensus_fair": {
+     "HOME": 0.3401,
+     "DRAW": 0.2554,
+     "AWAY": 0.4044
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 2.8,
+      "bookmaker": "SpreadEX",
+      "fair_odds_consensus": 2.94,
+      "ev_vs_consensus": -0.0477
+     },
+     "DRAW": {
+      "odds": 3.6,
+      "bookmaker": "Ladbrokes",
+      "fair_odds_consensus": 3.915,
+      "ev_vs_consensus": -0.0806
+     },
+     "AWAY": {
+      "odds": 2.43,
+      "bookmaker": "7BetUK",
+      "fair_odds_consensus": 2.473,
+      "ev_vs_consensus": -0.0173
+     }
+    },
+    "median_overround": 0.0868,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": {
+     "HOME": 0.3683,
+     "DRAW": 0.2552,
+     "AWAY": 0.3765
+    },
+    "movement_pp": {
+     "HOME": -2.82,
+     "DRAW": 0.02,
+     "AWAY": 2.79
+    }
+   },
+   "main_total_line": "3",
+   "totals": {
+    "1.5": {
+     "bookmakers": 19,
+     "consensus_fair": {
+      "OVER": 0.8322,
+      "UNDER": 0.1678
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.19,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.202,
+       "ev_vs_consensus": -0.0097
+      },
+      "UNDER": {
+       "odds": 5.0,
+       "bookmaker": "Betfair",
+       "fair_odds_consensus": 5.959,
+       "ev_vs_consensus": -0.161
+      }
+     },
+     "median_overround": 0.0769,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.8307,
+      "UNDER": 0.1693
+     },
+     "movement_pp": {
+      "OVER": 0.15,
+      "UNDER": -0.15
+     }
+    },
+    "2.5": {
+     "bookmakers": 19,
+     "consensus_fair": {
+      "OVER": 0.6048,
+      "UNDER": 0.3952
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.63,
+       "bookmaker": "7BetUK",
+       "fair_odds_consensus": 1.653,
+       "ev_vs_consensus": -0.0142
+      },
+      "UNDER": {
+       "odds": 2.4,
+       "bookmaker": "Skybet",
+       "fair_odds_consensus": 2.53,
+       "ev_vs_consensus": -0.0515
+      }
+     },
+     "median_overround": 0.0717,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.6004,
+      "UNDER": 0.3996
+     },
+     "movement_pp": {
+      "OVER": 0.44,
+      "UNDER": -0.44
+     }
+    },
+    "3": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.4788,
+      "UNDER": 0.5212
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.98,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.089,
+       "ev_vs_consensus": -0.052
+      },
+      "UNDER": {
+       "odds": 1.87,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 1.919,
+       "ev_vs_consensus": -0.0254
+      }
+     },
+     "median_overround": 0.0695,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.4676,
+      "UNDER": 0.5324
+     },
+     "movement_pp": {
+      "OVER": 1.12,
+      "UNDER": -1.12
+     }
+    },
+    "3.5": {
+     "bookmakers": 19,
+     "consensus_fair": {
+      "OVER": 0.3695,
+      "UNDER": 0.6305
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.55,
+       "bookmaker": "Betfair",
+       "fair_odds_consensus": 2.706,
+       "ev_vs_consensus": -0.0578
+      },
+      "UNDER": {
+       "odds": 1.58,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.586,
+       "ev_vs_consensus": -0.0038
+      }
+     },
+     "median_overround": 0.0748,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": {
+      "OVER": 0.3621,
+      "UNDER": 0.6379
+     },
+     "movement_pp": {
+      "OVER": 0.74,
+      "UNDER": -0.74
+     }
+    }
+   }
+  },
+  "model_vs_market": [
+   {
+    "market": "moneyline",
+    "selection": "HOME",
+    "model_probability": 0.4214,
+    "market_fair_probability": 0.3401,
+    "model_minus_market_pp": 8.13,
+    "best_odds": 2.8,
+    "bookmaker": "SpreadEX",
+    "correlation_family": "HOME_SIDE"
+   },
+   {
+    "market": "moneyline",
+    "selection": "DRAW",
+    "model_probability": 0.2292,
+    "market_fair_probability": 0.2554,
+    "model_minus_market_pp": -2.62,
+    "best_odds": 3.6,
+    "bookmaker": "Ladbrokes",
+    "correlation_family": "DRAW"
+   },
+   {
+    "market": "moneyline",
+    "selection": "AWAY",
+    "model_probability": 0.3494,
+    "market_fair_probability": 0.4044,
+    "model_minus_market_pp": -5.5,
+    "best_odds": 2.43,
+    "bookmaker": "7BetUK",
+    "correlation_family": "AWAY_SIDE"
+   },
+   {
+    "market": "total",
+    "selection": "OVER_2.5",
+    "model_probability": 0.6699,
+    "market_fair_probability": 0.6048,
+    "model_minus_market_pp": 6.51,
+    "best_odds": 1.63,
+    "bookmaker": "7BetUK",
+    "correlation_family": "TOTAL_OVER"
+   },
+   {
+    "market": "total",
+    "selection": "UNDER_2.5",
+    "model_probability": 0.3301,
+    "market_fair_probability": 0.3952,
+    "model_minus_market_pp": -6.51,
+    "best_odds": 2.4,
+    "bookmaker": "Skybet",
+    "correlation_family": "TOTAL_UNDER"
+   }
+  ]
+ },
+ "xi": {
+  "official_verified": false
+ },
+ "context": {
+  "pipeline_version": "DAILY_PIPELINE_V1.0",
+  "odds_geo": "GB",
+  "bookmakers": [
+   "10bet",
+   "7BetUK",
+   "BetMGM.uk",
+   "BetUK",
+   "BetVictor",
+   "Betano.uk",
+   "Betfair",
+   "Betfred",
+   "Betway",
+   "Coral",
+   "Ladbrokes",
+   "Midnite",
+   "Paddy Power",
+   "Parimatch.uk",
+   "Skybet",
+   "SpreadEX",
+   "Talksportbet",
+   "Unibetuk",
+   "bet365"
+  ],
+  "missing_players": {
+   "home": [
+    {
+     "player": "Sam De Grand",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": 1286907
+    },
+    {
+     "player": "Dries Wouters",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": 349092
+    },
+    {
+     "player": "Jhon Banguera",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": null
+    }
+   ],
+   "away": [
+    {
+     "player": "Dirk Asare",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": 1250087
+    },
+    {
+     "player": "Wilguens Paugain",
+     "reason": "injury",
+     "likelihood": "Day to day",
+     "market_value_eur": 737602
+    }
+   ]
+  },
+  "missing_players_source": "fotmob:5811822",
+  "xg": {
+   "home": {
+    "xg_for": 1.2633333333333334,
+    "xg_against": 2.1300000000000003,
+    "matches": 6,
+    "match_ids": [
+     "CpKBPUQ7",
+     "bNXhKZlS",
+     "2Z0BmyEj",
+     "Gbd3pB1s",
+     "AFzBnGHL",
+     "fVK4W3RN"
+    ],
+    "source": "flashscore_match_statistics"
+   },
+   "away": {
+    "xg_for": 1.5683333333333334,
+    "xg_against": 1.9400000000000002,
+    "matches": 6,
+    "match_ids": [
+     "QTL3Rjde",
+     "IqWxOHk3",
+     "vFvqclom",
+     "2FfBrkWg",
+     "lh8hwffE",
+     "MHMdYPdB"
+    ],
+    "source": "flashscore_match_statistics"
+   }
+  },
+  "elo": {
+   "home": 1502.585,
+   "away": 1454.103,
+   "method": "season-only results, start 1500"
+  },
+  "weather": {
+   "ok": true,
+   "source": "open-meteo",
+   "scope": "city-level forecast at kickoff hour",
+   "city": "Lommel",
+   "country": "Belgium",
+   "lat": 51.23074,
+   "lon": 5.31349,
+   "temperature_c": 0.4,
+   "precipitation_mm": 0.0,
+   "precipitation_probability_pct": 0,
+   "wind_kmh": 9.4,
+   "observed_at": "2026-11-28T06:35:45.577008+00:00"
+  },
+  "data_gaps": [],
+  "data_present": {
+   "odds": true,
+   "opening_odds": true,
+   "absences": true,
+   "xg": true,
+   "elo": true,
+   "weather": true
+  },
+  "model_note": "Kaba modeller (xG ortalaması, sezon içi Elo). Bu model ailesi 2019-2026 geriye dönük testinde kapanış oranını yenemedi; model-piyasa farkı tek başına bahis gerekçesi değildir."
+ },
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null,
+ "warnings": [],
+ "event": "PRE_EVIDENCE_READY",
+ "ledger_sha256": "a6d6a742c97faeb57f2c07a5575a9de692906c164a9581b4b640032633883208"
+}

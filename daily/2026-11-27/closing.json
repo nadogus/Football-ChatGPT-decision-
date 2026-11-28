@@ -1,0 +1,1692 @@
+{
+ "AoHUcKbM": {
+  "match_id": "AoHUcKbM",
+  "home": "Alanyaspor",
+  "away": "Konyaspor",
+  "status": "finished",
+  "home_score": 1,
+  "away_score": 2,
+  "closing_basis": "flashscore post-match last pre-kickoff price",
+  "closing_summary": {
+   "quote_count": 389,
+   "phases": [
+    "CURRENT"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.354,
+     "DRAW": 0.2994,
+     "AWAY": 0.3466
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 2.75,
+      "bookmaker": "Coral",
+      "fair_odds_consensus": 2.825,
+      "ev_vs_consensus": -0.0265
+     },
+     "DRAW": {
+      "odds": 3.2,
+      "bookmaker": "Coral",
+      "fair_odds_consensus": 3.34,
+      "ev_vs_consensus": -0.0419
+     },
+     "AWAY": {
+      "odds": 2.84,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 2.885,
+      "ev_vs_consensus": -0.0157
+     }
+    },
+    "median_overround": 0.0935,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "main_total_line": "2.25",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.7037,
+      "UNDER": 0.2963
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.42,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.421,
+       "ev_vs_consensus": -0.0007
+      },
+      "UNDER": {
+       "odds": 3.25,
+       "bookmaker": "William Hill",
+       "fair_odds_consensus": 3.375,
+       "ev_vs_consensus": -0.037
+      }
+     },
+     "median_overround": 0.0801,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.25": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.4881,
+      "UNDER": 0.5119
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.91,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 2.049,
+       "ev_vs_consensus": -0.0677
+      },
+      "UNDER": {
+       "odds": 1.9,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.954,
+       "ev_vs_consensus": -0.0274
+      }
+     },
+     "median_overround": 0.07,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.427,
+      "UNDER": 0.573
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.2,
+       "bookmaker": "Coral",
+       "fair_odds_consensus": 2.342,
+       "ev_vs_consensus": -0.0606
+      },
+      "UNDER": {
+       "odds": 1.7,
+       "bookmaker": "William Hill",
+       "fair_odds_consensus": 1.745,
+       "ev_vs_consensus": -0.0259
+      }
+     },
+     "median_overround": 0.075,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.2039,
+      "UNDER": 0.7961
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 4.1,
+       "bookmaker": "Parimatch.uk",
+       "fair_odds_consensus": 4.904,
+       "ev_vs_consensus": -0.164
+      },
+      "UNDER": {
+       "odds": 1.25,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.256,
+       "ev_vs_consensus": -0.0049
+      }
+     },
+     "median_overround": 0.0772,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    }
+   }
+  },
+  "closing_ok": true
+ },
+ "6H20hbMq": {
+  "match_id": "6H20hbMq",
+  "home": "Rizespor",
+  "away": "Kasimpasa",
+  "status": "finished",
+  "home_score": 3,
+  "away_score": 2,
+  "closing_basis": "flashscore post-match last pre-kickoff price",
+  "closing_summary": {
+   "quote_count": 395,
+   "phases": [
+    "CURRENT"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.4917,
+     "DRAW": 0.2503,
+     "AWAY": 0.258
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 2.0,
+      "bookmaker": "Coral",
+      "fair_odds_consensus": 2.034,
+      "ev_vs_consensus": -0.0166
+     },
+     "DRAW": {
+      "odds": 3.75,
+      "bookmaker": "Midnite",
+      "fair_odds_consensus": 3.995,
+      "ev_vs_consensus": -0.0614
+     },
+     "AWAY": {
+      "odds": 3.7,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 3.876,
+      "ev_vs_consensus": -0.0454
+     }
+    },
+    "median_overround": 0.0926,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "main_total_line": "2.75",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.8307,
+      "UNDER": 0.1693
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.22,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.204,
+       "ev_vs_consensus": 0.0135
+      },
+      "UNDER": {
+       "odds": 4.75,
+       "bookmaker": "Betway",
+       "fair_odds_consensus": 5.907,
+       "ev_vs_consensus": -0.1958
+      }
+     },
+     "median_overround": 0.0745,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.5888,
+      "UNDER": 0.4112
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.67,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.698,
+       "ev_vs_consensus": -0.0167
+      },
+      "UNDER": {
+       "odds": 2.38,
+       "bookmaker": "Midnite",
+       "fair_odds_consensus": 2.432,
+       "ev_vs_consensus": -0.0213
+      }
+     },
+     "median_overround": 0.0777,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.75": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.5355,
+      "UNDER": 0.4645
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.78,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.867,
+       "ev_vs_consensus": -0.0468
+      },
+      "UNDER": {
+       "odds": 2.03,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.153,
+       "ev_vs_consensus": -0.0571
+      }
+     },
+     "median_overround": 0.0714,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.3567,
+      "UNDER": 0.6433
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.63,
+       "bookmaker": "Betfred",
+       "fair_odds_consensus": 2.803,
+       "ev_vs_consensus": -0.0619
+      },
+      "UNDER": {
+       "odds": 1.53,
+       "bookmaker": "Midnite",
+       "fair_odds_consensus": 1.554,
+       "ev_vs_consensus": -0.0158
+      }
+     },
+     "median_overround": 0.0743,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    }
+   }
+  },
+  "closing_ok": true
+ },
+ "Ozt1SjI6": {
+  "match_id": "Ozt1SjI6",
+  "home": "Groningen",
+  "away": "Willem II",
+  "status": "finished",
+  "home_score": 1,
+  "away_score": 1,
+  "closing_basis": "flashscore post-match last pre-kickoff price",
+  "closing_summary": {
+   "quote_count": 419,
+   "phases": [
+    "CURRENT"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.7688,
+     "DRAW": 0.1447,
+     "AWAY": 0.0865
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 1.3,
+      "bookmaker": "Ladbrokes",
+      "fair_odds_consensus": 1.301,
+      "ev_vs_consensus": -0.0006
+     },
+     "DRAW": {
+      "odds": 6.0,
+      "bookmaker": "Betway",
+      "fair_odds_consensus": 6.911,
+      "ev_vs_consensus": -0.1318
+     },
+     "AWAY": {
+      "odds": 10.75,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 11.561,
+      "ev_vs_consensus": -0.0701
+     }
+    },
+    "median_overround": 0.0708,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "main_total_line": "3.25",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.8659,
+      "UNDER": 0.1341
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.15,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.155,
+       "ev_vs_consensus": -0.0042
+      },
+      "UNDER": {
+       "odds": 6.5,
+       "bookmaker": "Skybet",
+       "fair_odds_consensus": 7.457,
+       "ev_vs_consensus": -0.1283
+      }
+     },
+     "median_overround": 0.0722,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.6585,
+      "UNDER": 0.3415
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.5,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.519,
+       "ev_vs_consensus": -0.0123
+      },
+      "UNDER": {
+       "odds": 2.8,
+       "bookmaker": "Skybet",
+       "fair_odds_consensus": 2.928,
+       "ev_vs_consensus": -0.0438
+      }
+     },
+     "median_overround": 0.0743,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.25": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.4763,
+      "UNDER": 0.5237
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.0,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.1,
+       "ev_vs_consensus": -0.0474
+      },
+      "UNDER": {
+       "odds": 1.8,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.909,
+       "ev_vs_consensus": -0.0573
+      }
+     },
+     "median_overround": 0.0684,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.4234,
+      "UNDER": 0.5766
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.2,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 2.362,
+       "ev_vs_consensus": -0.0685
+      },
+      "UNDER": {
+       "odds": 1.73,
+       "bookmaker": "Skybet",
+       "fair_odds_consensus": 1.734,
+       "ev_vs_consensus": -0.0025
+      }
+     },
+     "median_overround": 0.0749,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    }
+   }
+  },
+  "closing_ok": true
+ },
+ "Y3CEL03K": {
+  "match_id": "Y3CEL03K",
+  "home": "Werder Bremen",
+  "away": "B. Monchengladbach",
+  "status": "finished",
+  "home_score": 3,
+  "away_score": 3,
+  "closing_basis": "flashscore post-match last pre-kickoff price",
+  "closing_summary": {
+   "quote_count": 410,
+   "phases": [
+    "CURRENT"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.5674,
+     "DRAW": 0.2223,
+     "AWAY": 0.2103
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 1.76,
+      "bookmaker": "7BetUK",
+      "fair_odds_consensus": 1.762,
+      "ev_vs_consensus": -0.0014
+     },
+     "DRAW": {
+      "odds": 4.33,
+      "bookmaker": "Coral",
+      "fair_odds_consensus": 4.498,
+      "ev_vs_consensus": -0.0374
+     },
+     "AWAY": {
+      "odds": 4.85,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 4.755,
+      "ev_vs_consensus": 0.02
+     }
+    },
+    "median_overround": 0.0692,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "main_total_line": "3",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.8505,
+      "UNDER": 0.1495
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.17,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.176,
+       "ev_vs_consensus": -0.0049
+      },
+      "UNDER": {
+       "odds": 5.5,
+       "bookmaker": "Betano.uk",
+       "fair_odds_consensus": 6.689,
+       "ev_vs_consensus": -0.1778
+      }
+     },
+     "median_overround": 0.0691,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.6342,
+      "UNDER": 0.3658
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.54,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.577,
+       "ev_vs_consensus": -0.0233
+      },
+      "UNDER": {
+       "odds": 2.5,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.734,
+       "ev_vs_consensus": -0.0855
+      }
+     },
+     "median_overround": 0.0667,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.5217,
+      "UNDER": 0.4783
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.85,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.917,
+       "ev_vs_consensus": -0.0349
+      },
+      "UNDER": {
+       "odds": 2.0,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.091,
+       "ev_vs_consensus": -0.0434
+      }
+     },
+     "median_overround": 0.0684,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.3996,
+      "UNDER": 0.6004
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.35,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 2.503,
+       "ev_vs_consensus": -0.0609
+      },
+      "UNDER": {
+       "odds": 1.62,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.666,
+       "ev_vs_consensus": -0.0274
+      }
+     },
+     "median_overround": 0.0694,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    }
+   }
+  },
+  "closing_ok": true
+ },
+ "f3MAs3ng": {
+  "match_id": "f3MAs3ng",
+  "home": "Leuven",
+  "away": "Kortrijk",
+  "status": "finished",
+  "home_score": 2,
+  "away_score": 2,
+  "closing_basis": "flashscore post-match last pre-kickoff price",
+  "closing_summary": {
+   "quote_count": 381,
+   "phases": [
+    "CURRENT"
+   ],
+   "1x2": {
+    "bookmakers": 19,
+    "consensus_fair": {
+     "HOME": 0.487,
+     "DRAW": 0.255,
+     "AWAY": 0.2579
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 2.05,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 2.053,
+      "ev_vs_consensus": -0.0017
+     },
+     "DRAW": {
+      "odds": 3.67,
+      "bookmaker": "7BetUK",
+      "fair_odds_consensus": 3.922,
+      "ev_vs_consensus": -0.0642
+     },
+     "AWAY": {
+      "odds": 3.6,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 3.877,
+      "ev_vs_consensus": -0.0716
+     }
+    },
+    "median_overround": 0.0842,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "main_total_line": "2.75",
+   "totals": {
+    "1.5": {
+     "bookmakers": 19,
+     "consensus_fair": {
+      "OVER": 0.815,
+      "UNDER": 0.185
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.23,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.227,
+       "ev_vs_consensus": 0.0024
+      },
+      "UNDER": {
+       "odds": 4.5,
+       "bookmaker": "Paddy Power",
+       "fair_odds_consensus": 5.405,
+       "ev_vs_consensus": -0.1675
+      }
+     },
+     "median_overround": 0.0772,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.5": {
+     "bookmakers": 19,
+     "consensus_fair": {
+      "OVER": 0.572,
+      "UNDER": 0.428
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.7,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.748,
+       "ev_vs_consensus": -0.0276
+      },
+      "UNDER": {
+       "odds": 2.25,
+       "bookmaker": "Skybet",
+       "fair_odds_consensus": 2.336,
+       "ev_vs_consensus": -0.037
+      }
+     },
+     "median_overround": 0.075,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.75": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.5217,
+      "UNDER": 0.4783
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.85,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.917,
+       "ev_vs_consensus": -0.0349
+      },
+      "UNDER": {
+       "odds": 1.95,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.091,
+       "ev_vs_consensus": -0.0673
+      }
+     },
+     "median_overround": 0.0684,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.5": {
+     "bookmakers": 19,
+     "consensus_fair": {
+      "OVER": 0.3386,
+      "UNDER": 0.6614
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.75,
+       "bookmaker": "Betano.uk",
+       "fair_odds_consensus": 2.953,
+       "ev_vs_consensus": -0.0688
+      },
+      "UNDER": {
+       "odds": 1.48,
+       "bookmaker": "Betway",
+       "fair_odds_consensus": 1.512,
+       "ev_vs_consensus": -0.0211
+      }
+     },
+     "median_overround": 0.0779,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    }
+   }
+  },
+  "closing_ok": true
+ },
+ "zyHox4ek": {
+  "match_id": "zyHox4ek",
+  "home": "Brest",
+  "away": "Paris FC",
+  "status": "finished",
+  "home_score": 1,
+  "away_score": 0,
+  "closing_basis": "flashscore post-match last pre-kickoff price",
+  "closing_summary": {
+   "quote_count": 399,
+   "phases": [
+    "CURRENT"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.3009,
+     "DRAW": 0.2731,
+     "AWAY": 0.426
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 3.3,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 3.323,
+      "ev_vs_consensus": -0.007
+     },
+     "DRAW": {
+      "odds": 3.45,
+      "bookmaker": "BetUK",
+      "fair_odds_consensus": 3.662,
+      "ev_vs_consensus": -0.0578
+     },
+     "AWAY": {
+      "odds": 2.3,
+      "bookmaker": "BetUK",
+      "fair_odds_consensus": 2.347,
+      "ev_vs_consensus": -0.0202
+     }
+    },
+    "median_overround": 0.0701,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "main_total_line": "2.5",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.7726,
+      "UNDER": 0.2274
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.33,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.294,
+       "ev_vs_consensus": 0.0276
+      },
+      "UNDER": {
+       "odds": 4.0,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 4.398,
+       "ev_vs_consensus": -0.0904
+      }
+     },
+     "median_overround": 0.0691,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.5104,
+      "UNDER": 0.4896
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.91,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.959,
+       "ev_vs_consensus": -0.0251
+      },
+      "UNDER": {
+       "odds": 1.95,
+       "bookmaker": "William Hill",
+       "fair_odds_consensus": 2.042,
+       "ev_vs_consensus": -0.0453
+      }
+     },
+     "median_overround": 0.0728,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.2767,
+      "UNDER": 0.7233
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 3.25,
+       "bookmaker": "Betfred",
+       "fair_odds_consensus": 3.614,
+       "ev_vs_consensus": -0.1007
+      },
+      "UNDER": {
+       "odds": 1.38,
+       "bookmaker": "Betway",
+       "fair_odds_consensus": 1.383,
+       "ev_vs_consensus": -0.0018
+      }
+     },
+     "median_overround": 0.0714,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    }
+   }
+  },
+  "closing_ok": true
+ },
+ "SARc2lmK": {
+  "match_id": "SARc2lmK",
+  "home": "Venezia",
+  "away": "Bologna",
+  "status": "finished",
+  "home_score": 0,
+  "away_score": 0,
+  "closing_basis": "flashscore post-match last pre-kickoff price",
+  "closing_summary": {
+   "quote_count": 402,
+   "phases": [
+    "CURRENT"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.3152,
+     "DRAW": 0.2978,
+     "AWAY": 0.387
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 3.0,
+      "bookmaker": "BetUK",
+      "fair_odds_consensus": 3.173,
+      "ev_vs_consensus": -0.0544
+     },
+     "DRAW": {
+      "odds": 3.3,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 3.358,
+      "ev_vs_consensus": -0.0173
+     },
+     "AWAY": {
+      "odds": 2.55,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 2.584,
+      "ev_vs_consensus": -0.0131
+     }
+    },
+    "median_overround": 0.0672,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "main_total_line": "2.25",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.6993,
+      "UNDER": 0.3007
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.45,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.43,
+       "ev_vs_consensus": 0.014
+      },
+      "UNDER": {
+       "odds": 3.1,
+       "bookmaker": "Skybet",
+       "fair_odds_consensus": 3.326,
+       "ev_vs_consensus": -0.0678
+      }
+     },
+     "median_overround": 0.0636,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.25": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.4783,
+      "UNDER": 0.5217
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.03,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.091,
+       "ev_vs_consensus": -0.0291
+      },
+      "UNDER": {
+       "odds": 1.87,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 1.917,
+       "ev_vs_consensus": -0.0244
+      }
+     },
+     "median_overround": 0.0695,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.4175,
+      "UNDER": 0.5825
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.3,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.395,
+       "ev_vs_consensus": -0.0398
+      },
+      "UNDER": {
+       "odds": 1.67,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 1.717,
+       "ev_vs_consensus": -0.0272
+      }
+     },
+     "median_overround": 0.0662,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.2007,
+      "UNDER": 0.7993
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 4.6,
+       "bookmaker": "Parimatch.uk",
+       "fair_odds_consensus": 4.983,
+       "ev_vs_consensus": -0.0768
+      },
+      "UNDER": {
+       "odds": 1.25,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 1.251,
+       "ev_vs_consensus": -0.0009
+      }
+     },
+     "median_overround": 0.0697,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    }
+   }
+  },
+  "closing_ok": true
+ },
+ "GbneZCkJ": {
+  "match_id": "GbneZCkJ",
+  "home": "Southampton",
+  "away": "Middlesbrough",
+  "status": "finished",
+  "home_score": 2,
+  "away_score": 0,
+  "closing_basis": "flashscore post-match last pre-kickoff price",
+  "closing_summary": {
+   "quote_count": 416,
+   "phases": [
+    "CURRENT"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.3085,
+     "DRAW": 0.2525,
+     "AWAY": 0.4391
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 3.1,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 3.241,
+      "ev_vs_consensus": -0.0436
+     },
+     "DRAW": {
+      "odds": 3.75,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 3.96,
+      "ev_vs_consensus": -0.0531
+     },
+     "AWAY": {
+      "odds": 2.22,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 2.277,
+      "ev_vs_consensus": -0.0252
+     }
+    },
+    "median_overround": 0.0688,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "main_total_line": "3",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.8347,
+      "UNDER": 0.1653
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.2,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.198,
+       "ev_vs_consensus": 0.0016
+      },
+      "UNDER": {
+       "odds": 5.5,
+       "bookmaker": "Skybet",
+       "fair_odds_consensus": 6.05,
+       "ev_vs_consensus": -0.0908
+      }
+     },
+     "median_overround": 0.0745,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.6048,
+      "UNDER": 0.3952
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.62,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.653,
+       "ev_vs_consensus": -0.0202
+      },
+      "UNDER": {
+       "odds": 2.63,
+       "bookmaker": "Midnite",
+       "fair_odds_consensus": 2.53,
+       "ev_vs_consensus": 0.0394
+      }
+     },
+     "median_overround": 0.0717,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.4863,
+      "UNDER": 0.5137
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.98,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.056,
+       "ev_vs_consensus": -0.0371
+      },
+      "UNDER": {
+       "odds": 1.88,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.947,
+       "ev_vs_consensus": -0.0342
+      }
+     },
+     "median_overround": 0.0695,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.3772,
+      "UNDER": 0.6228
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.5,
+       "bookmaker": "Betfair",
+       "fair_odds_consensus": 2.651,
+       "ev_vs_consensus": -0.057
+      },
+      "UNDER": {
+       "odds": 1.62,
+       "bookmaker": "Midnite",
+       "fair_odds_consensus": 1.606,
+       "ev_vs_consensus": 0.0089
+      }
+     },
+     "median_overround": 0.0728,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    }
+   }
+  },
+  "closing_ok": true
+ },
+ "v1sv2bUa": {
+  "match_id": "v1sv2bUa",
+  "home": "Levante",
+  "away": "Racing Santander",
+  "status": "finished",
+  "home_score": 1,
+  "away_score": 3,
+  "closing_basis": "flashscore post-match last pre-kickoff price",
+  "closing_summary": {
+   "quote_count": 415,
+   "phases": [
+    "CURRENT"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.4879,
+     "DRAW": 0.2395,
+     "AWAY": 0.2726
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 2.0,
+      "bookmaker": "BetUK",
+      "fair_odds_consensus": 2.05,
+      "ev_vs_consensus": -0.0242
+     },
+     "DRAW": {
+      "odds": 4.0,
+      "bookmaker": "Skybet",
+      "fair_odds_consensus": 4.175,
+      "ev_vs_consensus": -0.042
+     },
+     "AWAY": {
+      "odds": 3.5,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 3.668,
+      "ev_vs_consensus": -0.0459
+     }
+    },
+    "median_overround": 0.0709,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "main_total_line": "3",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.8558,
+      "UNDER": 0.1442
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.19,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.168,
+       "ev_vs_consensus": 0.0184
+      },
+      "UNDER": {
+       "odds": 5.5,
+       "bookmaker": "William Hill",
+       "fair_odds_consensus": 6.935,
+       "ev_vs_consensus": -0.2069
+      }
+     },
+     "median_overround": 0.0701,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.6396,
+      "UNDER": 0.3604
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.58,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.563,
+       "ev_vs_consensus": 0.0106
+      },
+      "UNDER": {
+       "odds": 2.63,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.775,
+       "ev_vs_consensus": -0.0521
+      }
+     },
+     "median_overround": 0.0713,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.5336,
+      "UNDER": 0.4664
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.78,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.874,
+       "ev_vs_consensus": -0.0502
+      },
+      "UNDER": {
+       "odds": 2.03,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.144,
+       "ev_vs_consensus": -0.0532
+      }
+     },
+     "median_overround": 0.065,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.4111,
+      "UNDER": 0.5889
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.3,
+       "bookmaker": "Ladbrokes",
+       "fair_odds_consensus": 2.432,
+       "ev_vs_consensus": -0.0545
+      },
+      "UNDER": {
+       "odds": 1.67,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.698,
+       "ev_vs_consensus": -0.0165
+      }
+     },
+     "median_overround": 0.0718,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    }
+   }
+  },
+  "closing_ok": true
+ },
+ "lnwD2iRb": {
+  "match_id": "lnwD2iRb",
+  "home": "Nottingham",
+  "away": "Chelsea",
+  "status": "finished",
+  "home_score": 3,
+  "away_score": 2,
+  "closing_basis": "flashscore post-match last pre-kickoff price",
+  "closing_summary": {
+   "quote_count": 414,
+   "phases": [
+    "CURRENT"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.3968,
+     "DRAW": 0.2667,
+     "AWAY": 0.3365
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 2.52,
+      "bookmaker": "10bet",
+      "fair_odds_consensus": 2.52,
+      "ev_vs_consensus": -0.0001
+     },
+     "DRAW": {
+      "odds": 3.6,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 3.75,
+      "ev_vs_consensus": -0.0399
+     },
+     "AWAY": {
+      "odds": 2.88,
+      "bookmaker": "Betfred",
+      "fair_odds_consensus": 2.972,
+      "ev_vs_consensus": -0.0309
+     }
+    },
+    "median_overround": 0.067,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "main_total_line": "2.75",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.7939,
+      "UNDER": 0.2061
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.27,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.26,
+       "ev_vs_consensus": 0.0083
+      },
+      "UNDER": {
+       "odds": 4.5,
+       "bookmaker": "Skybet",
+       "fair_odds_consensus": 4.852,
+       "ev_vs_consensus": -0.0726
+      }
+     },
+     "median_overround": 0.0697,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.5406,
+      "UNDER": 0.4594
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.8,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.85,
+       "ev_vs_consensus": -0.0269
+      },
+      "UNDER": {
+       "odds": 2.1,
+       "bookmaker": "Skybet",
+       "fair_odds_consensus": 2.177,
+       "ev_vs_consensus": -0.0353
+      }
+     },
+     "median_overround": 0.0732,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.75": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.4676,
+      "UNDER": 0.5324
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.0,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.139,
+       "ev_vs_consensus": -0.0648
+      },
+      "UNDER": {
+       "odds": 1.85,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.878,
+       "ev_vs_consensus": -0.0151
+      }
+     },
+     "median_overround": 0.065,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.3017,
+      "UNDER": 0.6983
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 3.0,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 3.315,
+       "ev_vs_consensus": -0.0949
+      },
+      "UNDER": {
+       "odds": 1.44,
+       "bookmaker": "William Hill",
+       "fair_odds_consensus": 1.432,
+       "ev_vs_consensus": 0.0056
+      }
+     },
+     "median_overround": 0.0735,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    }
+   }
+  },
+  "closing_ok": true
+ },
+ "lObmkyA5": {
+  "match_id": "lObmkyA5",
+  "home": "Maritimo",
+  "away": "Nacional",
+  "status": "finished",
+  "home_score": 1,
+  "away_score": 2,
+  "closing_basis": "flashscore post-match last pre-kickoff price",
+  "closing_summary": {
+   "quote_count": 388,
+   "phases": [
+    "CURRENT"
+   ],
+   "1x2": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "HOME": 0.4573,
+     "DRAW": 0.2904,
+     "AWAY": 0.2523
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "HOME": {
+      "odds": 2.18,
+      "bookmaker": "BetUK",
+      "fair_odds_consensus": 2.187,
+      "ev_vs_consensus": -0.0031
+     },
+     "DRAW": {
+      "odds": 3.3,
+      "bookmaker": "Midnite",
+      "fair_odds_consensus": 3.444,
+      "ev_vs_consensus": -0.0417
+     },
+     "AWAY": {
+      "odds": 3.8,
+      "bookmaker": "Paddy Power",
+      "fair_odds_consensus": 3.964,
+      "ev_vs_consensus": -0.0413
+     }
+    },
+    "median_overround": 0.0771,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "main_total_line": "2.25",
+   "totals": {
+    "1.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.7025,
+      "UNDER": 0.2975
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.45,
+       "bookmaker": "Unibetuk",
+       "fair_odds_consensus": 1.423,
+       "ev_vs_consensus": 0.0186
+      },
+      "UNDER": {
+       "odds": 3.25,
+       "bookmaker": "Midnite",
+       "fair_odds_consensus": 3.361,
+       "ev_vs_consensus": -0.0331
+      }
+     },
+     "median_overround": 0.0746,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.25": {
+     "bookmakers": 3,
+     "consensus_fair": {
+      "OVER": 0.4779,
+      "UNDER": 0.5221
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 1.98,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 2.092,
+       "ev_vs_consensus": -0.0538
+      },
+      "UNDER": {
+       "odds": 1.88,
+       "bookmaker": "bet365",
+       "fair_odds_consensus": 1.915,
+       "ev_vs_consensus": -0.0185
+      }
+     },
+     "median_overround": 0.0684,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "2.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.4202,
+      "UNDER": 0.5798
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 2.25,
+       "bookmaker": "10bet",
+       "fair_odds_consensus": 2.38,
+       "ev_vs_consensus": -0.0545
+      },
+      "UNDER": {
+       "odds": 1.73,
+       "bookmaker": "Midnite",
+       "fair_odds_consensus": 1.725,
+       "ev_vs_consensus": 0.0031
+      }
+     },
+     "median_overround": 0.077,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    },
+    "3.5": {
+     "bookmakers": 20,
+     "consensus_fair": {
+      "OVER": 0.2019,
+      "UNDER": 0.7981
+     },
+     "pinnacle_fair": null,
+     "best_price": {
+      "OVER": {
+       "odds": 4.5,
+       "bookmaker": "Paddy Power",
+       "fair_odds_consensus": 4.953,
+       "ev_vs_consensus": -0.0915
+      },
+      "UNDER": {
+       "odds": 1.25,
+       "bookmaker": "Midnite",
+       "fair_odds_consensus": 1.253,
+       "ev_vs_consensus": -0.0024
+      }
+     },
+     "median_overround": 0.0714,
+     "devig_method": "power, median across bookmakers",
+     "opening_consensus_fair": null,
+     "movement_pp": null
+    }
+   }
+  },
+  "closing_ok": true
+ }
+}

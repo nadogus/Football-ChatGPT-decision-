@@ -1,10 +1,10 @@
 # Karar defteri raporu
 
-Oluşturuldu: 2026-11-27 06:30 UTC
+Oluşturuldu: 2026-11-28 06:30 UTC
 
 | ölçüt | değer |
 |---|---|
-| kapanan karar | 47 (PLAY 0 · WATCH 0 · PASS 47) |
+| kapanan karar | 58 (PLAY 0 · WATCH 0 · PASS 58) |
 | PLAY isabet | 0/0 |
 | kâr (birim) | +0.00 |
 | ROI | +0.00% |
