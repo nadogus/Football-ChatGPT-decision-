@@ -3,7 +3,8 @@
   "dzF6yrFk": "5836959",
   "zLpuwejf": "5836963",
   "rwpakLpf": "5868141",
-  "6HMshkS0": "5904820"
+  "6HMshkS0": "5904820",
+  "IL7NtGKq": "5749763"
  },
  "alerts": {},
  "errors": [
@@ -44,6 +45,16 @@
   },
   {
    "t": "2026-11-28T13:46:38.610283+00:00",
+   "fotmob_id": "5904820",
+   "reason": "ALERT_NOT_SENT"
+  },
+  {
+   "t": "2026-11-28T14:22:36.287532+00:00",
+   "match": "df50cPy9",
+   "reason": "LOW_MATCH_SCORE"
+  },
+  {
+   "t": "2026-11-28T14:22:36.287532+00:00",
    "fotmob_id": "5904820",
    "reason": "ALERT_NOT_SENT"
   }

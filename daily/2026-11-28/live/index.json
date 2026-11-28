@@ -5,12 +5,12 @@
   "home": "Blackburn Rovers",
   "away": "Charlton Athletic",
   "score": [
-   0,
+   1,
    0
   ],
-  "minute": "58‎’‎",
+  "minute": "94‎’‎",
   "finished": false,
-  "updated": "2026-11-28T13:46:38Z"
+  "updated": "2026-11-28T14:22:36Z"
  },
  "5836963": {
   "flashscore_id": "zLpuwejf",
@@ -18,12 +18,12 @@
   "home": "Preston North End",
   "away": "Norwich City",
   "score": [
-   0,
-   0
+   1,
+   1
   ],
-  "minute": "59‎’‎",
+  "minute": "95‎’‎",
   "finished": false,
-  "updated": "2026-11-28T13:46:38Z"
+  "updated": "2026-11-28T14:22:36Z"
  },
  "5868141": {
   "flashscore_id": "rwpakLpf",
@@ -34,9 +34,9 @@
    0,
    0
   ],
-  "minute": "42‎’‎",
+  "minute": "60‎’‎",
   "finished": false,
-  "updated": "2026-11-28T13:46:38Z"
+  "updated": "2026-11-28T14:22:36Z"
  },
  "5904820": {
   "flashscore_id": "6HMshkS0",
@@ -45,10 +45,23 @@
   "away": "Gençlerbirliği",
   "score": [
    3,
+   1
+  ],
+  "minute": "65‎’‎",
+  "finished": false,
+  "updated": "2026-11-28T14:22:36Z"
+ },
+ "5749763": {
+  "flashscore_id": "IL7NtGKq",
+  "competition": "Serie A",
+  "home": "Frosinone",
+  "away": "Parma",
+  "score": [
+   0,
    0
   ],
-  "minute": "46‎’‎",
+  "minute": "21‎’‎",
   "finished": false,
-  "updated": "2026-11-28T13:46:38Z"
+  "updated": "2026-11-28T14:22:36Z"
  }
 }

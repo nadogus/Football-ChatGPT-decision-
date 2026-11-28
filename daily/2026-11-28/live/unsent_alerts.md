@@ -22,3 +22,11 @@ _Uyarıdır, karar değildir._
 xG 1.67–0.22 · xGOT 2.70–0.00 · ceza sahası topla buluşma 10–4 · isabetli şut 4–0
 Karar için Claude'a yaz: `canlı bak 5904820`
 _Uyarıdır, karar değildir._
+
+---
+14:22 UTC
+⚡ *Canlı uyarı* — Samsunspor 3-1 Gençlerbirliği (65‎’‎)
+• Gençlerbirliği son ~15 dk'da +0.84 xG üretti
+xG 1.67–1.06 · xGOT 2.80–1.00 · ceza sahası topla buluşma 10–11 · isabetli şut 5–2
+Karar için Claude'a yaz: `canlı bak 5904820`
+_Uyarıdır, karar değildir._
