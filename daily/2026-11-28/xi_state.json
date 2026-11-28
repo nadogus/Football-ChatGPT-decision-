@@ -36,23 +36,23 @@
   "notified": []
  },
  "tAPSccBD": {
-  "checks": 1,
+  "checks": 2,
   "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-28T13:18:39.846365+00:00"
+  "last_check": "2026-11-28T13:23:39.741005+00:00"
  },
  "YqMKaJt1": {
-  "checks": 1,
+  "checks": 2,
   "status": "NOT_YET",
-  "last_check": "2026-11-28T13:18:39.846365+00:00"
+  "last_check": "2026-11-28T13:23:39.741005+00:00"
  },
  "QJIC1uCl": {
-  "checks": 1,
+  "checks": 2,
   "status": "NOT_YET",
-  "last_check": "2026-11-28T13:18:39.846365+00:00"
+  "last_check": "2026-11-28T13:23:39.741005+00:00"
  },
  "rwbpGvRs": {
-  "checks": 1,
+  "checks": 2,
   "status": "NOT_YET",
-  "last_check": "2026-11-28T13:18:39.846365+00:00"
+  "last_check": "2026-11-28T13:23:39.741005+00:00"
  }
 }
