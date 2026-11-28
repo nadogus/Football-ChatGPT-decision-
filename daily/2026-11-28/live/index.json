@@ -60,9 +60,9 @@
    2,
    0
   ],
-  "minute": "65‎’‎",
+  "minute": "70‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5881234": {
   "flashscore_id": "tAPSccBD",
@@ -75,7 +75,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5881236": {
   "flashscore_id": "YqMKaJt1",
@@ -88,7 +88,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5881238": {
   "flashscore_id": "QJIC1uCl",
@@ -101,7 +101,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5881239": {
   "flashscore_id": "rwbpGvRs",
@@ -114,7 +114,7 @@
   ],
   "minute": "HT",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5836958": {
   "flashscore_id": "QiOzs4iS",
@@ -125,9 +125,9 @@
    1,
    0
   ],
-  "minute": "23‎’‎",
+  "minute": "28‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5836960": {
   "flashscore_id": "40IEZLq2",
@@ -138,9 +138,9 @@
    0,
    0
   ],
-  "minute": "24‎’‎",
+  "minute": "29‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5836962": {
   "flashscore_id": "SfsXvHLs",
@@ -151,9 +151,9 @@
    0,
    0
   ],
-  "minute": "24‎’‎",
+  "minute": "29‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5836968": {
   "flashscore_id": "x8PCif5m",
@@ -164,9 +164,9 @@
    0,
    0
   ],
-  "minute": "17‎’‎",
+  "minute": "22‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5836969": {
   "flashscore_id": "AcLydrgd",
@@ -177,9 +177,9 @@
    1,
    0
   ],
-  "minute": "23‎’‎",
+  "minute": "28‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5811826": {
   "flashscore_id": "SGKIusH5",
@@ -190,9 +190,9 @@
    0,
    0
   ],
-  "minute": "21‎’‎",
+  "minute": "26‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5795531": {
   "flashscore_id": "GtJgcdkJ",
@@ -203,9 +203,9 @@
    0,
    0
   ],
-  "minute": "23‎’‎",
+  "minute": "28‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
  },
  "5795532": {
   "flashscore_id": "tMZ44Ddn",
@@ -216,8 +216,47 @@
    0,
    1
   ],
-  "minute": "24‎’‎",
+  "minute": "29‎’‎",
   "finished": false,
-  "updated": "2026-11-28T15:23:23Z"
+  "updated": "2026-11-28T15:28:23Z"
+ },
+ "5781816": {
+  "flashscore_id": "GAxgUCmf",
+  "competition": "Eredivisie",
+  "home": "Excelsior",
+  "away": "Telstar",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-28T15:28:23Z"
+ },
+ "5887682": {
+  "flashscore_id": "hK7OYFPO",
+  "competition": "Liga Portugal",
+  "home": "Arouca",
+  "away": "Rio Ave",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-28T15:28:23Z"
+ },
+ "5887686": {
+  "flashscore_id": "MycemFvI",
+  "competition": "Liga Portugal",
+  "home": "Moreirense",
+  "away": "Santa Clara",
+  "score": [
+   0,
+   0
+  ],
+  "minute": null,
+  "finished": false,
+  "updated": "2026-11-28T15:28:23Z"
  }
 }
