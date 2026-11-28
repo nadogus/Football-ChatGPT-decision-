@@ -7,8 +7,9 @@
  },
  "df50cPy9": {
   "checks": 7,
-  "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-28T12:18:25.182933+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-28T12:18:25.182933+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "zLpuwejf": {
   "checks": 1,
