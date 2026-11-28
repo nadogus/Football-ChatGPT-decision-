@@ -79,13 +79,15 @@
  },
  "8YrmyZK6": {
   "checks": 14,
-  "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-28T14:49:37.626992+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-28T14:49:37.626992+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "txvscGsQ": {
   "checks": 14,
-  "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-28T14:49:37.626992+00:00"
+  "status": "MISSED",
+  "last_check": "2026-11-28T14:49:37.626992+00:00",
+  "note": "official XI not seen before kickoff-10"
  },
  "x8PCif5m": {
   "checks": 6,
@@ -118,9 +120,9 @@
   "notified": []
  },
  "nRpn0xaC": {
-  "checks": 11,
+  "checks": 12,
   "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-28T14:49:37.626992+00:00"
+  "last_check": "2026-11-28T14:54:37.708627+00:00"
  },
  "GAxgUCmf": {
   "checks": 4,
@@ -141,8 +143,8 @@
   "notified": []
  },
  "ADeF12ac": {
-  "checks": 1,
+  "checks": 2,
   "status": "ESPN_UNRESOLVED",
-  "last_check": "2026-11-28T14:49:37.626992+00:00"
+  "last_check": "2026-11-28T14:54:37.708627+00:00"
  }
 }
