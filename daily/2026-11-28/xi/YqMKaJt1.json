@@ -1,0 +1,1129 @@
+{
+ "event": "POST_XI_EVIDENCE",
+ "watch_version": "XI_WATCH_V1.0",
+ "observed_at": "2026-11-28T13:54:14.765976+00:00",
+ "minutes_before_kickoff": 35.7539004,
+ "match": {
+  "match_id": "YqMKaJt1",
+  "home": "Hamburger SV",
+  "away": "Bayern Munich",
+  "kickoff": "2026-11-28T14:30:00Z",
+  "competition": "Bundesliga",
+  "category": "Germany"
+ },
+ "xi": {
+  "official": true,
+  "source": "espn",
+  "home": {
+   "formation": "3-5-2",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:180162",
+     "name": "Daniel Heuer Fernandes",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:271130",
+     "name": "Sebastiaan Bornauw",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:309840",
+     "name": "Warmed Omari",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:307725",
+     "name": "Mario Vuskovic",
+     "number": "44",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:313361",
+     "name": "David Møller Wolfe",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297750",
+     "name": "Albert Grønbaek",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:332878",
+     "name": "Martin Adeline",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:410645",
+     "name": "Louis Lemke",
+     "number": "37",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:325024",
+     "name": "Zakaria El Ouahdi",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:384471",
+     "name": "Alexander Røssing-Lelesiit",
+     "number": "38",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:232662",
+     "name": "Patson Daka",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "away": {
+   "formation": "4-2-3-1",
+   "group": "ESPN starters",
+   "starters": [
+    {
+     "id": "espn:323790",
+     "name": "Jonas Urbig",
+     "number": "40",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:157688",
+     "name": "Kim Min-Jae",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:188052",
+     "name": "Jonathan Tah",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276329",
+     "name": "Josip Stanisic",
+     "number": "44",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:287225",
+     "name": "Sacha Boey",
+     "number": "23",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:324660",
+     "name": "Tom Bischof",
+     "number": "8",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:359370",
+     "name": "Aleksandar Pavlovic",
+     "number": "45",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:190161",
+     "name": "Joshua Kimmich",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:3104145",
+     "name": "Noah Codjo-Evora",
+     "number": "36",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:409016",
+     "name": "Bara Sapoko Ndiaye",
+     "number": "39",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:402841",
+     "name": "Lennart Karl",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "other_groups": []
+  },
+  "reason": "OFFICIAL_11_PLUS_11_ESPN"
+ },
+ "validation": {
+  "validated": true,
+  "matched_share": 0.909,
+  "espn_count": 22,
+  "reason": "FOTMOB_AGREES"
+ },
+ "previous": {
+  "home": {
+   "match_id": "espn:401884730",
+   "date": "2026-11-22T16:30:00+00:00",
+   "competition": "ger.1",
+   "opponent": "Werder Bremen",
+   "starters": [
+    {
+     "id": "espn:180162",
+     "name": "Daniel Heuer Fernandes",
+     "number": "1",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:271130",
+     "name": "Sebastiaan Bornauw",
+     "number": "33",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:309840",
+     "name": "Warmed Omari",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:284835",
+     "name": "Nicolás Capaldo",
+     "number": "24",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:243626",
+     "name": "Miro Muheim",
+     "number": "28",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:297750",
+     "name": "Albert Grønbaek",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:332878",
+     "name": "Martin Adeline",
+     "number": "5",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:313361",
+     "name": "David Møller Wolfe",
+     "number": "3",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:325024",
+     "name": "Zakaria El Ouahdi",
+     "number": "7",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:384471",
+     "name": "Alexander Røssing-Lelesiit",
+     "number": "38",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:232662",
+     "name": "Patson Daka",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "3-5-2"
+  },
+  "away": {
+   "match_id": "espn:401884736",
+   "date": "2026-11-20T19:30:00+00:00",
+   "competition": "ger.1",
+   "opponent": "FC Cologne",
+   "starters": [
+    {
+     "id": "espn:323790",
+     "name": "Jonas Urbig",
+     "number": "40",
+     "gk": true,
+     "captain": false
+    },
+    {
+     "id": "espn:188052",
+     "name": "Jonathan Tah",
+     "number": "4",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:222793",
+     "name": "Dayot Upamecano",
+     "number": "2",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:276329",
+     "name": "Josip Stanisic",
+     "number": "44",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:169189",
+     "name": "Konrad Laimer",
+     "number": "27",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:402841",
+     "name": "Lennart Karl",
+     "number": "42",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:359370",
+     "name": "Aleksandar Pavlovic",
+     "number": "45",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:190161",
+     "name": "Joshua Kimmich",
+     "number": "6",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:142200",
+     "name": "Harry Kane",
+     "number": "9",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:120829",
+     "name": "Nathaniel Brown",
+     "number": "11",
+     "gk": false,
+     "captain": false
+    },
+    {
+     "id": "espn:286831",
+     "name": "Michael Olise",
+     "number": "17",
+     "gk": false,
+     "captain": false
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "changes": {
+  "home": {
+   "count": 2,
+   "out": [
+    "Nicolás Capaldo",
+    "Miro Muheim"
+   ],
+   "in": [
+    "Mario Vuskovic",
+    "Louis Lemke"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Daniel Heuer Fernandes",
+   "previous_goalkeeper": "Daniel Heuer Fernandes"
+  },
+  "away": {
+   "count": 5,
+   "out": [
+    "Dayot Upamecano",
+    "Konrad Laimer",
+    "Harry Kane",
+    "Nathaniel Brown",
+    "Michael Olise"
+   ],
+   "in": [
+    "Kim Min-Jae",
+    "Sacha Boey",
+    "Tom Bischof",
+    "Noah Codjo-Evora",
+    "Bara Sapoko Ndiaye"
+   ],
+   "goalkeeper_changed": false,
+   "goalkeeper": "Jonas Urbig",
+   "previous_goalkeeper": "Jonas Urbig"
+  }
+ },
+ "player_impact": {
+  "version": "PLAYER_IMPACT_V1.0",
+  "home": {
+   "status": "OK",
+   "history_matches": 8,
+   "out": [
+    {
+     "name": "Nicolás Capaldo",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 90,
+       "minutes_per_match": 18.0,
+       "per90": {
+        "xg": 0.2,
+        "xa": 0.15,
+        "shots": 1.0,
+        "key_passes": 1.0
+       },
+       "attack_share": 0.022
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 4,
+       "minutes": 360,
+       "minutes_per_match": 45.0,
+       "per90": {
+        "xg": 0.18,
+        "xa": 0.05,
+        "shots": 1.5,
+        "key_passes": 0.5
+       },
+       "attack_share": 0.041
+      }
+     }
+    },
+    {
+     "name": "Miro Muheim",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 344,
+       "minutes_per_match": 68.8,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.21,
+        "shots": 1.57,
+        "key_passes": 2.35
+       },
+       "attack_share": 0.067
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 7,
+       "minutes": 483,
+       "minutes_per_match": 60.4,
+       "per90": {
+        "xg": 0.06,
+        "xa": 0.23,
+        "shots": 1.49,
+        "key_passes": 2.98
+       },
+       "attack_share": 0.069
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Mario Vuskovic",
+     "windows": null,
+     "note": "son maçlarda istatistik yok (yeni transfer / veri boşluğu)"
+    },
+    {
+     "name": "Louis Lemke",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 1,
+       "minutes": 63,
+       "minutes_per_match": 12.6,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.07,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.003
+      },
+      "10": {
+       "matches_in_data": 8,
+       "appearances": 4,
+       "minutes": 230,
+       "minutes_per_match": 28.8,
+       "per90": {
+        "xg": 0.02,
+        "xa": 0.06,
+        "shots": 0.39,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.009
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Miro Muheim",
+     "in": "Louis Lemke",
+     "delta_per90": {
+      "xg": -0.04,
+      "xa": -0.17,
+      "shots": -1.1,
+      "key_passes": -2.98
+     },
+     "attack_share_delta": -0.06
+    }
+   ]
+  },
+  "away": {
+   "status": "OK",
+   "history_matches": 10,
+   "out": [
+    {
+     "name": "Dayot Upamecano",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 430,
+       "minutes_per_match": 86.0,
+       "per90": {
+        "xg": 0.27,
+        "xa": 0.05,
+        "shots": 1.47,
+        "key_passes": 0.42
+       },
+       "attack_share": 0.073
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 745,
+       "minutes_per_match": 74.5,
+       "per90": {
+        "xg": 0.31,
+        "xa": 0.04,
+        "shots": 1.57,
+        "key_passes": 0.36
+       },
+       "attack_share": 0.057
+      }
+     }
+    },
+    {
+     "name": "Konrad Laimer",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 425,
+       "minutes_per_match": 85.0,
+       "per90": {
+        "xg": 0.36,
+        "xa": 0.41,
+        "shots": 2.54,
+        "key_passes": 2.12
+       },
+       "attack_share": 0.176
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 822,
+       "minutes_per_match": 82.2,
+       "per90": {
+        "xg": 0.23,
+        "xa": 0.33,
+        "shots": 1.75,
+        "key_passes": 1.97
+       },
+       "attack_share": 0.101
+      }
+     }
+    },
+    {
+     "name": "Harry Kane",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 290,
+       "minutes_per_match": 58.0,
+       "per90": {
+        "xg": 0.76,
+        "xa": 0.29,
+        "shots": 5.28,
+        "key_passes": 2.48
+       },
+       "attack_share": 0.163
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 619,
+       "minutes_per_match": 61.9,
+       "per90": {
+        "xg": 0.94,
+        "xa": 0.3,
+        "shots": 4.8,
+        "key_passes": 2.76
+       },
+       "attack_share": 0.168
+      }
+     }
+    },
+    {
+     "name": "Nathaniel Brown",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 5,
+       "minutes": 353,
+       "minutes_per_match": 70.6,
+       "per90": {
+        "xg": 0.18,
+        "xa": 0.09,
+        "shots": 2.04,
+        "key_passes": 0.76
+       },
+       "attack_share": 0.05
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 10,
+       "minutes": 656,
+       "minutes_per_match": 65.6,
+       "per90": {
+        "xg": 0.14,
+        "xa": 0.17,
+        "shots": 1.65,
+        "key_passes": 0.96
+       },
+       "attack_share": 0.044
+      }
+     }
+    },
+    {
+     "name": "Michael Olise",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 309,
+       "minutes_per_match": 61.8,
+       "per90": {
+        "xg": 0.19,
+        "xa": 0.36,
+        "shots": 3.5,
+        "key_passes": 4.66
+       },
+       "attack_share": 0.09
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 8,
+       "minutes": 630,
+       "minutes_per_match": 63.0,
+       "per90": {
+        "xg": 0.58,
+        "xa": 0.54,
+        "shots": 3.71,
+        "key_passes": 4.43
+       },
+       "attack_share": 0.156
+      }
+     }
+    }
+   ],
+   "in": [
+    {
+     "name": "Kim Min-Jae",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 110,
+       "minutes_per_match": 22.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 3,
+       "minutes": 187,
+       "minutes_per_match": 18.7,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.01,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.001
+      }
+     }
+    },
+    {
+     "name": "Sacha Boey",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 5,
+       "minutes_per_match": 1.0,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 5,
+       "minutes": 69,
+       "minutes_per_match": 6.9,
+       "per90": {
+        "xg": 0.09,
+        "xa": 0.03,
+        "shots": 1.3,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.002
+      }
+     }
+    },
+    {
+     "name": "Tom Bischof",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 4,
+       "minutes": 259,
+       "minutes_per_match": 51.8,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.23,
+        "shots": 2.08,
+        "key_passes": 3.13
+       },
+       "attack_share": 0.042
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 9,
+       "minutes": 642,
+       "minutes_per_match": 64.2,
+       "per90": {
+        "xg": 0.08,
+        "xa": 0.2,
+        "shots": 2.1,
+        "key_passes": 1.96
+       },
+       "attack_share": 0.039
+      }
+     }
+    },
+    {
+     "name": "Noah Codjo-Evora",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 2,
+       "minutes": 12,
+       "minutes_per_match": 2.4,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 2,
+       "minutes": 12,
+       "minutes_per_match": 1.2,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    },
+    {
+     "name": "Bara Sapoko Ndiaye",
+     "windows": {
+      "5": {
+       "matches_in_data": 5,
+       "appearances": 0,
+       "minutes": 0,
+       "minutes_per_match": 0.0,
+       "per90": null,
+       "attack_share": 0.0
+      },
+      "10": {
+       "matches_in_data": 10,
+       "appearances": 1,
+       "minutes": 1,
+       "minutes_per_match": 0.1,
+       "per90": {
+        "xg": 0.0,
+        "xa": 0.0,
+        "shots": 0.0,
+        "key_passes": 0.0
+       },
+       "attack_share": 0.0
+      }
+     }
+    }
+   ],
+   "replacement_gap": [
+    {
+     "out": "Dayot Upamecano",
+     "in": "Kim Min-Jae",
+     "delta_per90": {
+      "xg": -0.31,
+      "xa": -0.03,
+      "shots": -1.57,
+      "key_passes": -0.36
+     },
+     "attack_share_delta": -0.056
+    },
+    {
+     "out": "Konrad Laimer",
+     "in": "Sacha Boey",
+     "delta_per90": {
+      "xg": -0.14,
+      "xa": -0.3,
+      "shots": -0.45,
+      "key_passes": -1.97
+     },
+     "attack_share_delta": -0.099
+    },
+    {
+     "out": "Harry Kane",
+     "in": "Tom Bischof",
+     "delta_per90": {
+      "xg": -0.86,
+      "xa": -0.1,
+      "shots": -2.7,
+      "key_passes": -0.8
+     },
+     "attack_share_delta": -0.129
+    },
+    {
+     "out": "Nathaniel Brown",
+     "in": "Noah Codjo-Evora",
+     "delta_per90": {
+      "xg": -0.14,
+      "xa": -0.17,
+      "shots": -1.65,
+      "key_passes": -0.96
+     },
+     "attack_share_delta": -0.044
+    },
+    {
+     "out": "Michael Olise",
+     "in": "Bara Sapoko Ndiaye",
+     "delta_per90": {
+      "xg": -0.58,
+      "xa": -0.54,
+      "shots": -3.71,
+      "key_passes": -4.43
+     },
+     "attack_share_delta": -0.156
+    }
+   ]
+  }
+ },
+ "missing_players": {
+  "home": [
+   {
+    "player": "Miro Muheim",
+    "reason": "injury",
+    "likelihood": "Late December 2026",
+    "market_value_eur": 2089684
+   },
+   {
+    "player": "Albert Sambi Lokonga",
+    "reason": "injury",
+    "likelihood": "Early December 2026",
+    "market_value_eur": 12011983
+   },
+   {
+    "player": "Yussuf Poulsen",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 849909
+   },
+   {
+    "player": "Bilal Nadir",
+    "reason": "injury",
+    "likelihood": "Late December 2026",
+    "market_value_eur": 9915558
+   },
+   {
+    "player": "Nicolai Remberg",
+    "reason": "injury",
+    "likelihood": "Late June 2027",
+    "market_value_eur": 9805726
+   }
+  ],
+  "away": [
+   {
+    "player": "Jamal Musiala",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 87654754
+   },
+   {
+    "player": "Harry Kane",
+    "reason": "injury",
+    "likelihood": "Late January 2027",
+    "market_value_eur": 31727716
+   },
+   {
+    "player": "Michael Olise",
+    "reason": "injury",
+    "likelihood": "About 1-2 weeks",
+    "market_value_eur": 178377437
+   },
+   {
+    "player": "Alphonso Davies",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 45363566
+   },
+   {
+    "player": "Manuel Neuer",
+    "reason": "injury",
+    "likelihood": "Early January 2027",
+    "market_value_eur": 2155491
+   },
+   {
+    "player": "Serge Gnabry",
+    "reason": "injury",
+    "likelihood": "Doubtful",
+    "market_value_eur": 12463360
+   },
+   {
+    "player": "Ismael Saibari",
+    "reason": "injury",
+    "likelihood": "Early February 2027",
+    "market_value_eur": 59791439
+   }
+  ]
+ },
+ "market": {
+  "quote_count": 445,
+  "phases": [
+   "CURRENT"
+  ],
+  "1x2": {
+   "bookmakers": 20,
+   "consensus_fair": {
+    "HOME": 0.1169,
+    "DRAW": 0.1626,
+    "AWAY": 0.7206
+   },
+   "pinnacle_fair": null,
+   "best_price": {
+    "HOME": {
+     "odds": 7.5,
+     "bookmaker": "Betfred",
+     "fair_odds_consensus": 8.554,
+     "ev_vs_consensus": -0.1232
+    },
+    "DRAW": {
+     "odds": 5.7,
+     "bookmaker": "10bet",
+     "fair_odds_consensus": 6.15,
+     "ev_vs_consensus": -0.0732
+    },
+    "AWAY": {
+     "odds": 1.4,
+     "bookmaker": "Ladbrokes",
+     "fair_odds_consensus": 1.388,
+     "ev_vs_consensus": 0.0088
+    }
+   },
+   "median_overround": 0.0736,
+   "devig_method": "power, median across bookmakers",
+   "opening_consensus_fair": null,
+   "movement_pp": null
+  },
+  "main_total_line": "3.25",
+  "totals": {
+   "1.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.891,
+     "UNDER": 0.109
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.13,
+      "bookmaker": "SpreadEX",
+      "fair_odds_consensus": 1.122,
+      "ev_vs_consensus": 0.0068
+     },
+     "UNDER": {
+      "odds": 7.0,
+      "bookmaker": "Betway",
+      "fair_odds_consensus": 9.174,
+      "ev_vs_consensus": -0.237
+     }
+    },
+    "median_overround": 0.0629,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "2.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.6894,
+     "UNDER": 0.3106
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.44,
+      "bookmaker": "Ladbrokes",
+      "fair_odds_consensus": 1.451,
+      "ev_vs_consensus": -0.0073
+     },
+     "UNDER": {
+      "odds": 3.0,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 3.22,
+      "ev_vs_consensus": -0.0682
+     }
+    },
+    "median_overround": 0.0647,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.25": {
+    "bookmakers": 3,
+    "consensus_fair": {
+     "OVER": 0.537,
+     "UNDER": 0.463
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 1.9,
+      "bookmaker": "bet365",
+      "fair_odds_consensus": 1.862,
+      "ev_vs_consensus": 0.0203
+     },
+     "UNDER": {
+      "odds": 2.0,
+      "bookmaker": "7BetUK",
+      "fair_odds_consensus": 2.16,
+      "ev_vs_consensus": -0.074
+     }
+    },
+    "median_overround": 0.0714,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   },
+   "3.5": {
+    "bookmakers": 20,
+    "consensus_fair": {
+     "OVER": 0.4594,
+     "UNDER": 0.5406
+    },
+    "pinnacle_fair": null,
+    "best_price": {
+     "OVER": {
+      "odds": 2.1,
+      "bookmaker": "Ladbrokes",
+      "fair_odds_consensus": 2.177,
+      "ev_vs_consensus": -0.0353
+     },
+     "UNDER": {
+      "odds": 1.84,
+      "bookmaker": "Unibetuk",
+      "fair_odds_consensus": 1.85,
+      "ev_vs_consensus": -0.0053
+     }
+    },
+    "median_overround": 0.0671,
+    "devig_method": "power, median across bookmakers",
+    "opening_consensus_fair": null,
+    "movement_pp": null
+   }
+  }
+ },
+ "movement_since_scan_pp": {
+  "HOME": 1.19,
+  "DRAW": 1.57,
+  "AWAY": -2.75
+ },
+ "gaps": [
+  "PLAYER_IMPACT_PARTIAL_HISTORY:home:8/10"
+ ],
+ "decision_authority": "AI_REVIEWER_ONLY",
+ "production_decision": null
+}
