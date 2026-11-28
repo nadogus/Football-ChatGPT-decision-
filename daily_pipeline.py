@@ -497,6 +497,41 @@ def cmd_settle_pending():
         cmd_settle(day)
 
 
+def _best_price_entries(match_id: str, market: str, selection: str) -> list[tuple[str, dict[str, Any]]]:
+    """[(source_file, {'odds':..,'bookmaker':..})] newest first: XI-time evidence, then the morning packet."""
+    m, sel = canonical_market(market), selection.upper()
+    found = []
+    for kind in ("xi", "packets"):
+        for path in sorted((ROOT / "daily").glob(f"*/{kind}/{match_id}.json"), reverse=True):
+            try:
+                d = json.loads(path.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            summ = d.get("market") if kind == "xi" else ((d.get("market") or {}).get("summary"))
+            summ = summ or {}
+            if m == "1X2":
+                bp = ((summ.get("1x2") or {}).get("best_price") or {}).get(sel)
+            elif m == "TOTAL":
+                side, _, ln = sel.partition("_")
+                bp = (((summ.get("totals") or {}).get(ln) or {}).get("best_price") or {}).get(side)
+            else:
+                bp = None
+            if bp and bp.get("bookmaker") and bp.get("odds"):
+                found.append((str(path), bp))
+    return found
+
+
+def infer_bookmaker(match_id: str, market: str, selection: str, price: float | None) -> str | None:
+    """Bookmaker whose best price in the evidence files equals the recorded price (so the reviewer only has to give the odds).
+    None if no evidence file shows exactly this price: then the bet gets no CLV rather than a guessed one."""
+    if not price:
+        return None
+    for _, bp in _best_price_entries(match_id, market, selection):
+        if abs(float(bp["odds"]) - float(price)) <= 0.005:
+            return str(bp["bookmaker"])
+    return None
+
+
 def cmd_record(a):
     fx = None
     for p in sorted((ROOT / "daily").glob("*/fixtures.json")):
@@ -519,9 +554,13 @@ def cmd_record(a):
             raise SystemExit(f"REFUSED: {bad}")
     if a.decision == "PLAY" and stop_status()["stop"]:
         raise SystemExit("REFUSED: stop rule triggered (STOP_RULE.md) — mean CLV is negative after 50 PLAY decisions")
+    bookmaker, bookmaker_source = a.bookmaker, "GIVEN" if a.bookmaker else None
+    if a.decision == "PLAY" and not bookmaker:
+        bookmaker = infer_bookmaker(a.match_id, a.market, a.selection, a.price)
+        bookmaker_source = "INFERRED_FROM_EVIDENCE_BEST_PRICE" if bookmaker else "UNKNOWN_NO_CLV"
     rec = {"decision_id": f"{a.match_id}-{now:%Y%m%dT%H%M%S}-{a.decision}-{(a.selection or 'NA').upper()}", "match_id": a.match_id,
            "home": fx["home"], "away": fx["away"], "kickoff": fx["kickoff"], "decision": a.decision,
-           "market": a.market, "selection": a.selection.upper(), "price": a.price, "bookmaker": a.bookmaker,
+           "market": a.market, "selection": a.selection.upper(), "price": a.price, "bookmaker": bookmaker, "bookmaker_source": bookmaker_source,
            "stake": a.stake, "decided_by": a.decided_by, "note": a.note, "recorded_at": now.isoformat(),
            "minutes_before_kickoff": round((kickoff - now).total_seconds() / 60, 1)}
     if any(d["decision_id"] == rec["decision_id"] for d in read_jsonl(ROOT / "decisions" / "decisions.jsonl")):

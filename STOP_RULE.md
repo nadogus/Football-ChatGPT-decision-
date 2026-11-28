@@ -22,3 +22,5 @@ Eski ölçüt: alınan oran × kapanıştaki *marjsız* olasılık − 1. Marj i
 olmasa bile CLV marj kadar (≈ −%4; 8 maçlık gerçek veride en iyi oranlar için ortalama −%4,0) negatif çıkıyordu: kural neredeyse kesin "dur" derdi.
 Yeni ölçüt aynı bahisçinin kapanış oranına karşı ölçer. Eşik (50 PLAY, ortalama CLV < 0) ve kuralın geri kalanı aynıdır. Eski ölçüt bilgi olarak `clv_vs_fair`
 alanında ve raporda durur ama kural onu kullanmaz. Bu, sonuç görülmeden önce yapılmış bir düzeltmedir, gevşetme değildir.
+
+**17 Kasım 2026 (ek):** `record` komutunda `--bookmaker` artık isteğe bağlı. Verilmezse PLAY için bahisçi, kayıtlı fiyatın tam eşleştiği en iyi oran satırından (`xi/<id>.json`, sonra `packets/<id>.json`) otomatik bulunur (`bookmaker_source` alanı). Eşleşme yoksa bahisçi boş kalır ve o bahis CLV sayısına girmez; bahisçi uydurulmaz.
